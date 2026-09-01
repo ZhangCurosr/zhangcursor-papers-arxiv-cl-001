@@ -4,5 +4,31 @@
  "title": "Budget-First-Tariff-Recommendation-BFTR-A-Complete-Algorithm",
  "token": "sk-haVkJ3VAf...",
  "created_at": "2026-08-20 14:33:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/2a9a1126-8341-4b6f-8a9f-62a811fdd54d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/2a9a1126-8341-4b6f-8a9f-62a811fdd54d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:06:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "tariff recommendation",
+    "budget-first",
+    "knapsack",
+    "interpolation",
+    "overcharging prevention",
+    "telecom personalization",
+    "algorithmic pricing"
+   ],
+   "field": "电信套餐个性化推荐",
+   "innovations": [
+    "提出零超收费可证明的预算优先推荐框架",
+    "首次定义运营商利润率阈值达成率评估指标",
+    "将组合型与生成型策略统一于BFTR数学框架"
+   ],
+   "benchmarks": [
+    "974 MTN Nigeria-inspired customers",
+    "6-plan catalog (1.5–100 GB)"
+   ]
+  }
+ }
 }

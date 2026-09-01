@@ -4,5 +4,32 @@
  "title": "When-Writing-Style-Drifts-Benchmarking-Authorship-Verificati",
  "token": "sk-ZHrWl9Czg...",
  "created_at": "2026-08-19 02:55:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/138b1895-9870-41fa-987f-9a561cac7500.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/138b1895-9870-41fa-987f-9a561cac7500.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:04:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "authorship verification",
+    "distribution shift",
+    "cross-genre",
+    "temporal shift",
+    "AI-era",
+    "German benchmark",
+    "style features",
+    "LLM"
+   ],
+   "field": "作者身份验证与风格分析",
+   "innovations": [
+    "提出首个德语多分布偏移AV基准AVShift（跨类型/时间/AI时代）",
+    "引入风格特征稳定性分数量化跨类型特征保留程度",
+    "首次在统一框架下系统比较三种AV范式在多种偏移下的表现"
+   ],
+   "benchmarks": [
+    "AVShift",
+    "CrossNews"
+   ]
+  }
+ }
 }

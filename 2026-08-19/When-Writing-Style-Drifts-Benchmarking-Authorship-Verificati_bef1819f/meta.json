@@ -4,5 +4,32 @@
  "title": "When-Writing-Style-Drifts-Benchmarking-Authorship-Verificati",
  "token": "sk-ZHrWl9Czg...",
  "created_at": "2026-08-19 14:30:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/138b1895-9870-41fa-987f-9a561cac7500.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/138b1895-9870-41fa-987f-9a561cac7500.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:04:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Authorship Verification",
+    "Distribution Shift",
+    "Cross-genre",
+    "Temporal Drift",
+    "AI-era",
+    "Benchmark",
+    "German NLP",
+    "LLM Fine-tuning"
+   ],
+   "field": "作者身份验证与风格漂移鲁棒性",
+   "innovations": [
+    "提出首个德语多分布偏移AV基准AVShift，联合评估跨体裁、时间、AI时代三类偏移",
+    "证明混合体裁训练显著提升LLM跨域鲁棒性，优于定向跨域训练",
+    "提出跨体裁特征稳定性分数并揭示体裁转移间稳定特征子集的差异性"
+   ],
+   "benchmarks": [
+    "AVShift",
+    "CrossNews"
+   ]
+  }
+ }
 }

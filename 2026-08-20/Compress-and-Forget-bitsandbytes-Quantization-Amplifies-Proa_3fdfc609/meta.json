@@ -4,5 +4,30 @@
  "title": "Compress-and-Forget-bitsandbytes-Quantization-Amplifies-Proa",
  "token": "sk-owp49a3rO...",
  "created_at": "2026-08-20 14:33:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/85e8a69e-a340-48bc-be9b-98093578356a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/85e8a69e-a340-48bc-be9b-98093578356a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:07:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "后训练量化",
+    "前向干扰",
+    "LLM脆弱性",
+    "bitsandbytes",
+    "行为评估",
+    "语义干扰",
+    "同键入侵"
+   ],
+   "field": "LLM 效率与可靠性",
+   "innovations": [
+    "首次系统评估 PTQ 对 LLM 前向干扰的影响，发现 INT4 在高语义干扰下显著降级",
+    "证明量化效应具有语义特异性（word-type 有害 vs. numeric 反向），排除通用噪声解释",
+    "通过 lm head 消融将效应归因于 transformer 骨干网络的表示粗糙化而非输出投影层"
+   ],
+   "benchmarks": [
+    "PI-LLM retrieval benchmark"
+   ]
+  }
+ }
 }

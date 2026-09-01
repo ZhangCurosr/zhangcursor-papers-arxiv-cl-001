@@ -4,5 +4,31 @@
  "title": "Whether-LLMs-Can-Navigate-Beliefs-and-Facts-Depends-on-How-Y",
  "token": "sk-Wt6bONApk...",
  "created_at": "2026-08-19 02:55:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/67fd05aa-83c0-40c5-ae63-5970c4965c94.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/67fd05aa-83c0-40c5-ae63-5970c4965c94.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:04:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "belief confirmation",
+    "task confusion",
+    "epistemic expression",
+    "attention intervention",
+    "large language models",
+    "KaBLE benchmark",
+    "fact-checking"
+   ],
+   "field": "语言模型与社会认知推理",
+   "innovations": [
+    "系统揭示信念确认误差随认识论动词呈现从+50%到-14%的巨大异质性",
+    "以指令对比+CoT策略分类证明失败源于任务混淆而非能力缺失",
+    "在解码侧施加负偏置attention suppression，使llama-3.1-8b假陈述确认准确率提升20pp"
+   ],
+   "benchmarks": [
+    "KaBLE Task 5 (belief confirmation)",
+    "KaBLE Task 4 (fact verification)"
+   ]
+  }
+ }
 }

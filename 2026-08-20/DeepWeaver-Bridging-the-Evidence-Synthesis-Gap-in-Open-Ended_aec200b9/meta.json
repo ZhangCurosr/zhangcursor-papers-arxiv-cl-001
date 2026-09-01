@@ -4,5 +4,30 @@
  "title": "DeepWeaver-Bridging-the-Evidence-Synthesis-Gap-in-Open-Ended",
  "token": "sk-TTQuLp2ot...",
  "created_at": "2026-08-20 02:56:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/2013c637-ff75-4c6c-a92c-e8d2360faee7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/2013c637-ff75-4c6c-a92c-e8d2360faee7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:09:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RAG",
+    "证据合成",
+    "开放问答",
+    "长上下文",
+    "引用生成",
+    "Thought Block Chain"
+   ],
+   "field": "检索增强生成",
+   "innovations": [
+    "提出TBC结构化表示将噪声证据编织为细粒度主张链",
+    "设计三阶段迭代编织机制(Subordinate+Commit)弥补证据合成差距",
+    "构建LoQA高噪声证据基准评估证据合成质量"
+   ],
+   "benchmarks": [
+    "LoQA",
+    "DeepResearch Bench"
+   ]
+  }
+ }
 }

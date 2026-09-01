@@ -4,5 +4,30 @@
  "title": "CABLE-Extending-the-Reach-of-Memory-Retrieval-via-Complement",
  "token": "sk-TTQuLp2ot...",
  "created_at": "2026-08-19 14:30:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/b7ae24f3-0ba1-41c6-a348-647aa8575332.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/b7ae24f3-0ba1-41c6-a348-647aa8575332.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:03:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "long-term conversational memory",
+    "memory retrieval",
+    "retriever complementarity",
+    "antecedent-based linking",
+    "graph-augmented RAG",
+    "agent memory"
+   ],
+   "field": "长期对话记忆与检索增强",
+   "innovations": [
+    "以检索补全性为准则构建稀疏前置链接，扩展宿主直接语义检索边界",
+    "写入期类型化前置查询与重叠减法结合、读取期零额外 LLM 调用的替换式图扩展",
+    "在固定上下文预算下用补全性候选替换低排名基线条目而非追加"
+   ],
+   "benchmarks": [
+    "LoCoMo",
+    "MA-LongMemEval"
+   ]
+  }
+ }
 }

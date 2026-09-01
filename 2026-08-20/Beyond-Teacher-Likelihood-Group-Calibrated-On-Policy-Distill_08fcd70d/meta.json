@@ -4,5 +4,32 @@
  "title": "Beyond-Teacher-Likelihood-Group-Calibrated-On-Policy-Distill",
  "token": "sk-aQHhxC28I...",
  "created_at": "2026-08-20 14:33:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/34e297be-a6f5-4f61-8d69-431ff946179a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/34e297be-a6f5-4f61-8d69-431ff946179a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:05:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "On-Policy Distillation",
+    "Long-Context Reasoning",
+    "Knowledge Distillation",
+    "Verifier-Aware Training",
+    "Group Normalization"
+   ],
+   "field": "大语言模型后训练与蒸馏",
+   "innovations": [
+    "发现并量化长上下文OPD中教师偏好与任务验证器奖励的系统性分歧现象",
+    "提出组内归一化残差机制，以有符号形式解耦并校正教师-验证器分歧",
+    "设计基于相对OPD优势的有界信用分配方法RACA，将轨迹级残差精细分布到token级别"
+   ],
+   "benchmarks": [
+    "DocMath",
+    "FRAMES",
+    "MRCR",
+    "CorpusQA",
+    "LBv1QA"
+   ]
+  }
+ }
 }

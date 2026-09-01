@@ -4,5 +4,32 @@
  "title": "MoNe-Modular-Neural-Memory-for-Efficient-Long-Context-Infere",
  "token": "sk-MljcAo9Bd...",
  "created_at": "2026-08-19 14:30:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/c84de935-d48f-4fc3-948b-3d0e98b7b856.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/c84de935-d48f-4fc3-948b-3d0e98b7b856.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:03:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Modular Neural Memory",
+    "Test-time Learning",
+    "Long Context Inference",
+    "Fast-weight Memory",
+    "Efficient Inference",
+    "RULER Benchmark"
+   ],
+   "field": "长上下文语言模型推理效率",
+   "innovations": [
+    "提出模块化神经记忆插件，无需修改预训练 Transformer 主干即可实现 O(N) 预处理与 O(1) 查询成本",
+    "层局部梯度更新的测试时学习机制，各层独立维护快速权重无需跨层回传",
+    "段局部 RoPE 位置编码实现无插值上下文外推，4K 训练泛化至 128K"
+   ],
+   "benchmarks": [
+    "RULER",
+    "S-NIAH",
+    "MK-NIAH",
+    "Frequent Word Extraction"
+   ]
+  }
+ }
 }

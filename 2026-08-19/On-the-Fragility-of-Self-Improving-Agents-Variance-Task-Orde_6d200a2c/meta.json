@@ -4,5 +4,10 @@
  "title": "On-the-Fragility-of-Self-Improving-Agents-Variance-Task-Orde",
  "token": "sk-aQHhxC28I...",
  "created_at": "2026-08-19 14:30:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/a92c4cc7-622b-44b9-9140-05cecae4fa3a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/a92c4cc7-622b-44b9-9140-05cecae4fa3a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:04:16",
+  "chunks": 1
+ }
 }

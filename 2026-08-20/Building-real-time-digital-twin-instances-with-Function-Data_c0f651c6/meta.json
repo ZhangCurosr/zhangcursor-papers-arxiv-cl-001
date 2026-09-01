@@ -4,5 +4,31 @@
  "title": "Building-real-time-digital-twin-instances-with-Function-Data",
  "token": "sk-Hms67LeAf...",
  "created_at": "2026-08-20 14:33:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/82229e17-b537-4532-abe9-b486d93f1c23.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/82229e17-b537-4532-abe9-b486d93f1c23.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:06:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Digital Twins",
+    "Function+Data Flow",
+    "Domain-Specific Languages",
+    "Model Order Reduction",
+    "Visual Workflows",
+    "Implicit Typing",
+    "User Study"
+   ],
+   "field": "数字孪生工程与ML管道建模",
+   "innovations": [
+    "FDF高阶数据流DSL将函数作为一等公民实现ML模型显式复用",
+    "H-FDF扩展通过Module框支持迭代管道同时保持全局无环性",
+    "隐式类型系统自动推断并检查管道结构正确性"
+   ],
+   "benchmarks": [
+    "SUS System Usability Scale",
+    "Material Strain Prediction R-squared Score"
+   ]
+  }
+ }
 }

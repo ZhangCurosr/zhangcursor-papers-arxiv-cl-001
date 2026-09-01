@@ -4,5 +4,33 @@
  "title": "DART-SD-Diamond-topology-Aware-Retrieval-and-Tuning-for-Self",
  "token": "sk-aEeqX9tmP...",
  "created_at": "2026-08-20 14:33:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/98aca8b6-87e6-458d-9a90-132c6b8e4cb8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/98aca8b6-87e6-458d-9a90-132c6b8e4cb8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:08:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Agent Distillation",
+    "Tool-Calling",
+    "Self-Distillation",
+    "Topological Learning",
+    "Multi-turn Agents",
+    "Behavior Cloning"
+   ],
+   "field": "多轮工具调用 Agent 训练",
+   "innovations": [
+    "提出 ISTG（交互状态转移图）以捕获多轮工具调用中的钻石拓扑结构，替代线性轨迹建模",
+    "定义 CTB（关键拓扑断点）并通过状态投影识别学生能力边界，实现精准的局部监督",
+    "设计渐进式自蒸馏范式，逐轮扩展学生有效交互前缀长度并减少冗余工具调用"
+   ],
+   "benchmarks": [
+    "FTRL",
+    "BFCL",
+    "ToolHop",
+    "τ-bench",
+    "RoTBench"
+   ]
+  }
+ }
 }

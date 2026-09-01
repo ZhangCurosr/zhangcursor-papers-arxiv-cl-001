@@ -4,5 +4,30 @@
  "title": "Write-Execute-Refine-From-Skill-Followers-to-Skill-Optimizer",
  "token": "sk-1FwfANuN8...",
  "created_at": "2026-08-19 02:55:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/91ba25df-d3f4-4648-9c34-b0092d6da5ea.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/91ba25df-d3f4-4648-9c34-b0092d6da5ea.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:04:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "skill optimization",
+    "agent reinforcement learning",
+    "tool-use",
+    "refinement state construction",
+    "group-relative optimization",
+    "phase-wise self-bootstrapping"
+   ],
+   "field": "Agent 技能学习与执行反馈优化",
+   "innovations": [
+    "将 refinement-state construction 作为独立训练问题，提出 Skill Optimizer 独立于 executor 的框架",
+    "phase-wise self-bootstrapping：用 mixed-outcome 配对重组跨 phase 训练状态",
+    "4B 专用 optimizer 在 BFCL v4 上超过 GPT-5.5 等通用大模型"
+   ],
+   "benchmarks": [
+    "BFCL v4 Multi-Turn",
+    "τ²-bench"
+   ]
+  }
+ }
 }

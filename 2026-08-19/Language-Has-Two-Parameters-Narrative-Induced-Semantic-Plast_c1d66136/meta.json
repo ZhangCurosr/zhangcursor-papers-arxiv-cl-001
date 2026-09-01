@@ -4,5 +4,34 @@
  "title": "Language-Has-Two-Parameters-Narrative-Induced-Semantic-Plast",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-08-19 14:30:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/51c22cc3-7490-4d72-98d4-224af37e88a8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/51c22cc3-7490-4d72-98d4-224af37e88a8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:02:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "语义相位",
+    "量子认知",
+    "语言模型",
+    "叙事诱导语义可塑性",
+    "单义性",
+    "语义毒化",
+    "个性化LLM",
+    "语境依赖解释"
+   ],
+   "field": "语言模型语义表征与可解释性",
+   "innovations": [
+    "提出语言的第二参数'相位'并以量子概率形式化，证明人口平均无法恢复个体历史状态",
+    "定义'语义毒化'攻击模式：不改内容记录而仅重签名意义间相位关系的新型安全威胁",
+    "给出六项可证伪预测，区分压抑意义的相位反转与幅度衰减、持久转变与提示模拟"
+   ],
+   "benchmarks": [
+    " Prediction 5 持久转变vs提示模拟基准（未实现）",
+    "Prediction 1 干涉项测量（未实现）",
+    "Prediction 2 QQ-like 顺序约束（理论待推导）",
+    "Prediction 6 标记依赖性测试（未实现）"
+   ]
+  }
+ }
 }

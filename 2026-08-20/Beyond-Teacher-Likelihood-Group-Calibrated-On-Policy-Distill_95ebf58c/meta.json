@@ -4,5 +4,33 @@
  "title": "Beyond-Teacher-Likelihood-Group-Calibrated-On-Policy-Distill",
  "token": "sk-aQHhxC28I...",
  "created_at": "2026-08-20 02:56:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/34e297be-a6f5-4f61-8d69-431ff946179a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/34e297be-a6f5-4f61-8d69-431ff946179a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:06:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "on-policy distillation",
+    "long-context reasoning",
+    "verifier calibration",
+    "teacher-verifier disagreement",
+    "group-relative normalization",
+    "credit assignment"
+   ],
+   "field": "长上下文推理与知识蒸馏",
+   "innovations": [
+    "构建group-normalized teacher-verifier signed residual校准分歧",
+    "RACA基于相对OPD优势进行token级信用分配",
+    "无需额外forward pass即可整合response-level验证器反馈与dense token-level指导"
+   ],
+   "benchmarks": [
+    "DocMath",
+    "Frames",
+    "MRCR",
+    "CorpusQA",
+    "LBv1QA"
+   ]
+  }
+ }
 }

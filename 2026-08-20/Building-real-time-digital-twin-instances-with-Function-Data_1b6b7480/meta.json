@@ -4,5 +4,32 @@
  "title": "Building-real-time-digital-twin-instances-with-Function-Data",
  "token": "sk-Hms67LeAf...",
  "created_at": "2026-08-20 02:58:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/82229e17-b537-4532-abe9-b486d93f1c23.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/82229e17-b537-4532-abe9-b486d93f1c23.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:06:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Digital Twins",
+    "Function+Data Flow",
+    "Domain-specific Language",
+    "Model Order Reduction",
+    "User Study",
+    "Hierarchical Pipeline",
+    "Implicit Typing"
+   ],
+   "field": "数字孪生工程与ML流水线编排",
+   "innovations": [
+    "FDF将函数作为一等公民的可视化DSL与隐式类型推断机制",
+    "H-FDF层次化迭代扩展支持局部递归反馈流",
+    "DesCartes Builder集成建模-执行-验证一体化平台及用户评估"
+   ],
+   "benchmarks": [
+    "SUS可用性评分",
+    "R²/NMRSE预测精度",
+    "材料应变预测DoE数据集"
+   ]
+  }
+ }
 }

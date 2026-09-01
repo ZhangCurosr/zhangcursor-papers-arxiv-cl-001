@@ -4,5 +4,31 @@
  "title": "DECOMPOSING-WRONG-CONSENSUS-AGREEMENT-IN-LLM-SELF-CONSISTENC",
  "token": "sk-9ieZJEGxv...",
  "created_at": "2026-08-20 02:56:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/a596b065-ade2-4249-b23c-00c4df2646e7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/a596b065-ade2-4249-b23c-00c4df2646e7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:08:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Self-consistency",
+    "Majority Voting",
+    "Error Decomposition",
+    "LLM Reliability",
+    "Counterfactual Analysis",
+    "Agreement Index",
+    "Shared Bias"
+   ],
+   "field": "大语言模型推理与可靠性评估",
+   "innovations": [
+    "Defined a leak-free per-case preference counterfactual null to decompose wrong-consensus agreement into mechanical and residual components.",
+    "Quantitatively revealed benchmark-associated mechanisms: mechanical preference dominates in multiple-choice (GPQA), while a significant unexplained residual persists in open-domain tasks (AIME).",
+    "Reframed high self-consistency as 'graded evidence' rather than certification, establishing empirical upper bounds (0.42-0.83) for consensus accuracy."
+   ],
+   "benchmarks": [
+    "GPQA-Diamond",
+    "AIME"
+   ]
+  }
+ }
 }

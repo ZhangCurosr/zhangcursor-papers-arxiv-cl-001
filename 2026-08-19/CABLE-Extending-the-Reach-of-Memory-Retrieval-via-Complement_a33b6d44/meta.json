@@ -4,5 +4,30 @@
  "title": "CABLE-Extending-the-Reach-of-Memory-Retrieval-via-Complement",
  "token": "sk-TTQuLp2ot...",
  "created_at": "2026-08-19 02:55:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/b7ae24f3-0ba1-41c6-a348-647aa8575332.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/b7ae24f3-0ba1-41c6-a348-647aa8575332.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:02:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "long-term memory",
+    "retrieval-augmented generation",
+    "memory graph",
+    "complementary retrieval",
+    "LLM agent",
+    "evidence reachability"
+   ],
+   "field": "长时对话记忆与检索增强",
+   "innovations": [
+    "提出检索器互补性设计原则，以扩展而非复制宿主检索覆盖范围为链接构建准则",
+    "构建稀疏先行者链接的插件机制，一次 LLM 构建、零推理时额外调用即可复用",
+    "跨 A-MEM/SimpleMem/Mem0^g 三种异构记忆系统验证通用增益"
+   ],
+   "benchmarks": [
+    "LoCoMo",
+    "MA-LongMemEval"
+   ]
+  }
+ }
 }

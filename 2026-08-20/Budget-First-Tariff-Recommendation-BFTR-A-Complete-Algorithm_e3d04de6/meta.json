@@ -4,5 +4,30 @@
  "title": "Budget-First-Tariff-Recommendation-BFTR-A-Complete-Algorithm",
  "token": "sk-haVkJ3VAf...",
  "created_at": "2026-08-20 02:55:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/2411995c-41b2-425d-84f5-2e2873f7ecd9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/2411995c-41b2-425d-84f5-2e2873f7ecd9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:06:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "tariff recommendation",
+    "budget-first",
+    "knapsack",
+    "interpolation",
+    "overcharging prevention",
+    "telecom personalization"
+   ],
+   "field": "推荐系统与定价优化",
+   "innovations": [
+    "形式化证明零超额收费（surcharge=0%）对所有八种策略成立",
+    "提出组合策略与生成策略的分类框架及对应的经济评估指标",
+    "两种原创混合策略（HYB-REC、HYB-KF）结合背包与插值实现100%预算利用"
+   ],
+   "benchmarks": [
+    "974客户模拟数据集（MTN Nigeria灵感）",
+    "6方案目录（1.5-100 GB, 636-23569 NGN）"
+   ]
+  }
+ }
 }

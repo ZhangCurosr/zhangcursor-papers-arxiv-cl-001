@@ -4,5 +4,28 @@
  "title": "Compress-and-Forget-bitsandbytes-Quantization-Amplifies-Proa",
  "token": "sk-owp49a3rO...",
  "created_at": "2026-08-20 02:57:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/4cf4bb9b-4cdf-42ed-b21d-2ffa3cbac0a5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/4cf4bb9b-4cdf-42ed-b21d-2ffa3cbac0a5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:07:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "post-training quantization",
+    "proactive interference",
+    "LLM retrieval",
+    "bitsandbytes",
+    "NF4",
+    "behavioral evaluation"
+   ],
+   "field": "大语言模型行为评估与量化",
+   "innovations": [
+    "首次系统评估 PTQ 对 LLM 主动干扰检索的影响，证明 4-bit 量化在语义干扰下显著降级",
+    "发现量化对 PI 的效果具有语义特异性（词类型 vs 数值反向），并定位机制源于 transformer backbone"
+   ],
+   "benchmarks": [
+    "PI-LLM retrieval benchmark"
+   ]
+  }
+ }
 }

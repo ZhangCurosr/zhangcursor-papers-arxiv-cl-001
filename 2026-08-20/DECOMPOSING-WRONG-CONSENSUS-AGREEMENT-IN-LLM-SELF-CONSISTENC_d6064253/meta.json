@@ -4,5 +4,10 @@
  "title": "DECOMPOSING-WRONG-CONSENSUS-AGREEMENT-IN-LLM-SELF-CONSISTENC",
  "token": "sk-9ieZJEGxv...",
  "created_at": "2026-08-20 14:33:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/e8e5c998-acaa-4bae-88e8-82ddfa2107f1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/e8e5c998-acaa-4bae-88e8-82ddfa2107f1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:08:46",
+  "chunks": 1
+ }
 }

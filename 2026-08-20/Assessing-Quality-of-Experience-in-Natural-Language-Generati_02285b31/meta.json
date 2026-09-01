@@ -4,5 +4,10 @@
  "title": "Assessing-Quality-of-Experience-in-Natural-Language-Generati",
  "token": "sk-jywkrqzJV...",
  "created_at": "2026-08-20 14:33:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/7296a494-9ec1-4704-991c-94b41d4f2780.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/7296a494-9ec1-4704-991c-94b41d4f2780.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:05:55",
+  "chunks": 1
+ }
 }

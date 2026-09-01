@@ -4,5 +4,36 @@
  "title": "Assessing-Quality-of-Experience-in-Natural-Language-Generati",
  "token": "sk-jywkrqzJV...",
  "created_at": "2026-08-20 02:55:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/7296a494-9ec1-4704-991c-94b41d4f2780.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/7296a494-9ec1-4704-991c-94b41d4f2780.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:05:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Quality of Experience",
+    "Natural Language Generation",
+    "Machine Translation",
+    "Text Summarization",
+    "German NLP",
+    "Automatic Text Evaluation",
+    "Hybrid Model",
+    "Linguistic Features"
+   ],
+   "field": "自然语言生成评估",
+   "innovations": [
+    "提出首个面向德语 NLG 的 QoE 数据集 TextQ-German，覆盖 MT 与 ATS 双任务的多维人工评分",
+    "识别并验证任务特定的四维 QoE 感知维度，发现 Complexity 为跨任务唯一共现维度",
+    "混合模型（Transformer嵌入+可解释语言特征）在多数设定下优于纯 Transformer 基线，纯语言特征性能接近微调大模型"
+   ],
+   "benchmarks": [
+    "TextQ-ATS",
+    "TextQ-MT",
+    "TextQ-ATS-LLM",
+    "TextQ-MT-LLM",
+    "TextQ-ATS-Val",
+    "TextQ-MT-Val"
+   ]
+  }
+ }
 }

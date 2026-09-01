@@ -4,5 +4,31 @@
  "title": "Comment-level-Topic-Drift-Analysis-in-the-Reddit-Corpus",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-08-20 02:56:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/77281915-5df8-4ed9-a313-cc7510177425.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/77281915-5df8-4ed9-a313-cc7510177425.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:07:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "topic drift",
+    "embedding space",
+    "dynamic topic modeling",
+    "Reddit corpus",
+    "semantic change",
+    "likelihood ratio test"
+   ],
+   "field": "计算语言学/主题建模",
+   "innovations": [
+    "可缩放的评论级嵌入空间漂移分析流水线（避免全局降维）",
+    "随机游走零模型+似然比检验区分真实漂移与噪声",
+    "跨主题相对漂移的年度变化量化分析"
+   ],
+   "benchmarks": [
+    "BERTopic",
+    "Aligned Neural Topic Models (ANTM)",
+    "Dynamic LDA"
+   ]
+  }
+ }
 }
