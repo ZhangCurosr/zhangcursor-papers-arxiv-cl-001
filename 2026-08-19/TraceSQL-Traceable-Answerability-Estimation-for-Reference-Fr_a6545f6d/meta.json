@@ -4,5 +4,30 @@
  "title": "TraceSQL-Traceable-Answerability-Estimation-for-Reference-Fr",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-08-19 02:57:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/13a43033-f544-406d-9955-8cf85b7d3e38.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/13a43033-f544-406d-9955-8cf85b7d3e38.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:33:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Text-to-SQL",
+    "verification",
+    "answerability estimation",
+    "interpretability",
+    "traceability",
+    "BIRD",
+    "outcome reward model"
+   ],
+   "field": "Text-to-SQL 验证与可解释性",
+   "innovations": [
+    "构建 67 维显式诊断特征实现可追溯的参考无 Text-to-SQL 验证",
+    "结合确定性 SQL 结构信号与语义 grounding 证据的轻量化验证模型",
+    "在 BIRD 开发数据库上超越 GradeSQL-7B 基线"
+   ],
+   "benchmarks": [
+    "BIRD development databases"
+   ]
+  }
+ }
 }

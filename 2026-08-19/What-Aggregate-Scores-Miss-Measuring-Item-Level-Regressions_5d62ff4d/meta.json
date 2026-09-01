@@ -4,5 +4,32 @@
  "title": "What-Aggregate-Scores-Miss-Measuring-Item-Level-Regressions",
  "token": "sk-oJ013oevc...",
  "created_at": "2026-08-19 02:55:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/8f705668-5418-4fa9-9c8a-f78149a76f52.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/8f705668-5418-4fa9-9c8a-f78149a76f52.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:34:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM evaluation",
+    "backward compatibility",
+    "regression testing",
+    "API migration",
+    "repeated sampling",
+    "permutation test",
+    "item-level analysis"
+   ],
+   "field": "LLM 评估与回归测试",
+   "innovations": [
+    "在K=50重复采样+排列零模型校准下揭示商业LLM API迁移中可靠改进与可靠退步的双向共存",
+    "量化严格与宽松评分差距揭示格式合规性退化与任务能力退化的分离",
+    "发布完整响应级档案支持离线验证与替代重评分"
+   ],
+   "benchmarks": [
+    "SuperGPQA",
+    "Omni-MATH hard",
+    "IFBench"
+   ]
+  }
+ }
 }

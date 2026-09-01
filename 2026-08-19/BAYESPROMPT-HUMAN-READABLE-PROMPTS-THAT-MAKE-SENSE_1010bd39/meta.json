@@ -4,5 +4,29 @@
  "title": "BAYESPROMPT-HUMAN-READABLE-PROMPTS-THAT-MAKE-SENSE",
  "token": "sk-twhrLv2pG...",
  "created_at": "2026-08-19 02:55:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/28c55d94-37a3-4250-b1d9-3a3f7a9382be.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/28c55d94-37a3-4250-b1d9-3a3f7a9382be.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:27:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "prompt optimization",
+    "Bayesian inference",
+    "MCMC",
+    "reverse language model",
+    "pseudoprompt",
+    "human-readable prompts"
+   ],
+   "field": "Prompt Engineering & LLM Interpretability",
+   "innovations": [
+    "将 prompt 优化重构为贝叶斯后验推断，显式引入语言先验解决伪 prompt 问题",
+    "提出基于 MCMC 的离散 token 采样框架配合反向语言模型 warm-start 初始化",
+    "统一评估答案置信度与语言流畅度，实现两者最佳联合平衡"
+   ],
+   "benchmarks": [
+    "NQ-OPEN"
+   ]
+  }
+ }
 }

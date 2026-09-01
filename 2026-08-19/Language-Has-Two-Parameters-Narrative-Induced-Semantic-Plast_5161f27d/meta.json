@@ -4,5 +4,10 @@
  "title": "Language-Has-Two-Parameters-Narrative-Induced-Semantic-Plast",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-08-19 02:55:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/51c22cc3-7490-4d72-98d4-224af37e88a8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/51c22cc3-7490-4d72-98d4-224af37e88a8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:31:05",
+  "chunks": 1
+ }
 }

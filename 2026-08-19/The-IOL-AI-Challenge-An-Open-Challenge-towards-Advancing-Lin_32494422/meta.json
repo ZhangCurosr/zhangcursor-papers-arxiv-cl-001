@@ -4,5 +4,34 @@
  "title": "The-IOL-AI-Challenge-An-Open-Challenge-towards-Advancing-Lin",
  "token": "sk-dQ65jxzP4...",
  "created_at": "2026-08-19 02:55:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/e12bed9b-60d8-4a00-94bb-b753c11d6062.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/e12bed9b-60d8-4a00-94bb-b753c11d6062.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:32:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "linguistic reasoning",
+    "International Linguistics Olympiad",
+    "test-time compute",
+    "open challenge",
+    "expert evaluation",
+    "low-resource language",
+    "decoding strategy"
+   ],
+   "field": "语言推理与benchmark评测",
+   "innovations": [
+    "首次基于完全未见过IOL正式题集结合官方Jury专家评审评估LLM语言推理",
+    "揭示在算力约束下解码与输出后处理策略对14B模型可实现性能翻倍",
+    "证明模型先验语言知识（web presence/词汇识别）与解题能力仅弱相关"
+   ],
+   "benchmarks": [
+    "IOL 2026 Individual Contest",
+    "Linguini",
+    "LOBSTER",
+    "LINGOLY",
+    "IOLBENCH"
+   ]
+  }
+ }
 }

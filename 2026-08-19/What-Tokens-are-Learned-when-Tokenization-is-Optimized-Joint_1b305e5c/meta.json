@@ -4,5 +4,33 @@
  "title": "What-Tokens-are-Learned-when-Tokenization-is-Optimized-Joint",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-19 14:30:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/8564876e-87d5-4426-a78e-048da111c9cd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/8564876e-87d5-4426-a78e-048da111c9cd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:34:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "tokenization",
+    "joint optimization",
+    "subword segmentation",
+    "morphological alignment",
+    "language modeling",
+    "cross-lingual",
+    "SSLM",
+    "H-Net"
+   ],
+   "field": "多语言自然语言处理",
+   "innovations": [
+    "系统比较无词元器方法（SSLM/H-Net）与固定词元器在18种语言上的词元学习动态",
+    "揭示联合优化词元具有语言类型自适应的形态对齐与上下文效率权衡",
+    "证明SSLM预词元化可显著降低困惑度并保持下游任务竞争力"
+   ],
+   "benchmarks": [
+    "MorphScore形态对齐评测",
+    "下游任务: 情感分析/POS标注/NER/依存句法分析",
+    "验证集困惑度"
+   ]
+  }
+ }
 }

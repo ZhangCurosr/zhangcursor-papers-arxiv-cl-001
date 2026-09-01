@@ -4,5 +4,34 @@
  "title": "PREFERENCE-IS-NOT-INTERVENTION-THE-STRUCTURE-AND-STABILITY-B",
  "token": "sk-dKfLTOMDH...",
  "created_at": "2026-08-19 02:55:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/6c90c081-c5cf-496e-8896-14f62f31670b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/6c90c081-c5cf-496e-8896-14f62f31670b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:30:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "retrieval-augmented generation",
+    "reader-specific utility",
+    "cross-query stability",
+    "ordinal preference",
+    "signed direction",
+    "evidence utility",
+    "split-half reliability"
+   ],
+   "field": "检索增强生成（RAG）与读者特异性评估",
+   "innovations": [
+    "将读者特异性效用分解为 activity/ordinal/signed 三个可测对象并建立分层的跨查询稳定性边界",
+    "受控多读者实验揭示有序几何跨查询稳定而帮助/伤害方向呈任务边界（开放QA弱/事实核查强）",
+    "证明稳定有序相似度不授权跨读者干预迁移决策（偏好≠干预）"
+   ],
+   "benchmarks": [
+    "NQ",
+    "HotpotQA",
+    "RAMDocs",
+    "RAGuard",
+    "PRISM/Rank4Gen-DPO"
+   ]
+  }
+ }
 }

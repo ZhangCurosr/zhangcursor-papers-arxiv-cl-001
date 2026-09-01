@@ -4,5 +4,34 @@
  "title": "T-sub-o-sub-kE-sub-va-sub-l-sub-sub-A-T-sub-o-sub-k-sub-en-s",
  "token": "sk-EqwJR1nOB...",
  "created_at": "2026-08-19 14:30:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/0953b098-852e-46c5-b88c-6c65dadba8c3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/0953b098-852e-46c5-b88c-6c65dadba8c3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:31:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "tokenizer evaluation",
+    "intrinsic metrics",
+    "subword tokenization",
+    "language model pretraining",
+    "math reasoning",
+    "code generation"
+   ],
+   "field": "分词器设计与评估",
+   "innovations": [
+    "提出TokEval框架，包含覆盖数学、代码、多语言公平性的结构敏感内蕴指标",
+    "通过控制变量1.27B预训练实验验证信息论指标预测BPB、结构指标预测任务准确率",
+    "构建内蕴-外延预测区间，实现对未见分词器下游性能的校准预测"
+   ],
+   "benchmarks": [
+    "FLORES+",
+    "BLiMP",
+    "MultiBLiMP",
+    "GSM8K",
+    "HumanEval",
+    "MBPP"
+   ]
+  }
+ }
 }

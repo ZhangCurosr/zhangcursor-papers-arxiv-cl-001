@@ -4,5 +4,34 @@
  "title": "Chain-of-Experience-for-Continual-LLM-Improvement",
  "token": "sk-DXHHyylpH...",
  "created_at": "2026-08-19 02:55:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/06672742-6f0a-4892-a0f6-e7d75e0b78bf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/06672742-6f0a-4892-a0f6-e7d75e0b78bf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:29:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Chain-of-Experience",
+    "Test-time Learning",
+    "LLM Reasoning",
+    "Feedback-driven Iteration",
+    "Test-time Scaling",
+    "Self-Refinement"
+   ],
+   "field": "大语言模型推理与测试时优化",
+   "innovations": [
+    "提出CoE统一框架，将多轮迭代求解形式化为顺序决策过程并系统比较四类反馈信号",
+    "证明自反馈可在降低19% API成本的同时平均提升5.6%性能，打破多轮迭代必高耗能的认知",
+    "发现双反馈通道互补性与基座能力-学习增益正相关（Pearson r=0.50）"
+   ],
+   "benchmarks": [
+    "AIME 2025",
+    "OmniMath",
+    "LiveCodeBench (V6)",
+    "LiveBench (Code)",
+    "GPQA Diamond",
+    "EvaLearn"
+   ]
+  }
+ }
 }

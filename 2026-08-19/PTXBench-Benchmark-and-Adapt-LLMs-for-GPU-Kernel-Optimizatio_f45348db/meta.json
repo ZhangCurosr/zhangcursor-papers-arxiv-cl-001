@@ -4,5 +4,29 @@
  "title": "PTXBench-Benchmark-and-Adapt-LLMs-for-GPU-Kernel-Optimizatio",
  "token": "sk-ovHaiDbC4...",
  "created_at": "2026-08-19 02:59:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/2971423c-c355-4c6e-a313-9d2140ed0a1b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/2971423c-c355-4c6e-a313-9d2140ed0a1b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:30:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "GPU Kernel Optimization",
+    "PTX Programming",
+    "Large Language Models",
+    "Benchmark",
+    "Supervised Fine-tuning",
+    "Architectural Heterogeneity"
+   ],
+   "field": "AI for Systems / 编译器与运行时优化",
+   "innovations": [
+    "提出PTXBench基准，首次隔离评估LLM生成并运行时执行特定架构PTX指令的能力",
+    "构建Fixit方法，利用修复条件与推理链对LLM进行架构特定PTX编程的微调适配",
+    "设计多轮交互评估协议与动态指令执行验证机制，揭示模型在正确性、指令执行与性能间的鸿沟"
+   ],
+   "benchmarks": [
+    "PTXBench"
+   ]
+  }
+ }
 }

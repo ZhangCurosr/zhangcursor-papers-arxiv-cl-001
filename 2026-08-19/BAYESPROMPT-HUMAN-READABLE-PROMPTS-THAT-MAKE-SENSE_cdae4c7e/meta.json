@@ -4,5 +4,10 @@
  "title": "BAYESPROMPT-HUMAN-READABLE-PROMPTS-THAT-MAKE-SENSE",
  "token": "sk-twhrLv2pG...",
  "created_at": "2026-08-19 14:30:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/28c55d94-37a3-4250-b1d9-3a3f7a9382be.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/28c55d94-37a3-4250-b1d9-3a3f7a9382be.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:28:45",
+  "chunks": 1
+ }
 }

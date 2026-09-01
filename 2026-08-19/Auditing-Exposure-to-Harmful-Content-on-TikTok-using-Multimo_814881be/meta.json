@@ -4,5 +4,29 @@
  "title": "Auditing-Exposure-to-Harmful-Content-on-TikTok-using-Multimo",
  "token": "sk-JdJPQj6CY...",
  "created_at": "2026-08-19 02:56:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/dad1d58f-da19-4d39-b820-94b0616db6c2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/dad1d58f-da19-4d39-b820-94b0616db6c2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:27:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "TikTok审计",
+    "多模态大语言模型",
+    "有害内容标注",
+    "跨文化算法审计",
+    "sockpuppet协议"
+   ],
+   "field": "平台治理与算法审计",
+   "innovations": [
+    "两阶段MLLM验证-扩展框架实现低成本跨国审计",
+    "八帧采样E3达到原生视频95%性能且成本减半",
+    "揭示搜索路径比推荐算法更主导有害内容暴露"
+   ],
+   "benchmarks": [
+    "36,971 TikTok视频跨三国年龄分层语料",
+    "13类危害分类法对齐TikTok社区准则"
+   ]
+  }
+ }
 }

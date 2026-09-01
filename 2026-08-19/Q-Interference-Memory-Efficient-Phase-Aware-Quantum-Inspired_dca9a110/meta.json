@@ -4,5 +4,32 @@
  "title": "Q-Interference-Memory-Efficient-Phase-Aware-Quantum-Inspired",
  "token": "sk-fYugtz9Wo...",
  "created_at": "2026-08-19 02:58:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/6f868d3e-f474-4f65-8ad8-7d0f422e9b93.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/6f868d3e-f474-4f65-8ad8-7d0f422e9b93.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:31:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "quantum-inspired attention",
+    "phase-aware",
+    "memory-efficient",
+    "GPT",
+    "trigonometric factorization",
+    "autoregressive language modeling"
+   ],
+   "field": "高效注意力机制",
+   "innovations": [
+    "提出相位感知量子启发注意力，通过幅度与可学习相位建模建设性/破坏性token交互",
+    "推导精确三角因式分解，将额外内存从O(T^2 d_h)降至O(T d_h)且零近似误差",
+    "在标准GPT管道中实现稳定训练，峰值GPU显存降低约47.5%"
+   ],
+   "benchmarks": [
+    "WikiText-103",
+    "TinyStories",
+    "pile-10k",
+    "small-C4"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Temporal-Leakage-in-Financial-News-NLP-A-Multi-Architecture",
  "token": "sk-FMTQpgZxg...",
  "created_at": "2026-08-19 02:58:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/03edf7a6-728b-43e1-8901-74537ebfe6db.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/03edf7a6-728b-43e1-8901-74537ebfe6db.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:32:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "temporal leakage",
+    "financial NLP",
+    "M&A prediction",
+    "chronological split",
+    "MCC audit",
+    "news-to-return"
+   ],
+   "field": "金融NLP与时序评估",
+   "innovations": [
+    "多架构配对随机/时序划分泄漏审计框架",
+    "识别M&A为时序下唯一稳健预测事件",
+    "信号本质为浅层收购方词汇而非深层语义"
+   ],
+   "benchmarks": [
+    "proprietary 2020-2025 corpus",
+    "EDT (Zhou et al. 2021)",
+    "FNSPID (Dong et al. 2024)"
+   ]
+  }
+ }
 }

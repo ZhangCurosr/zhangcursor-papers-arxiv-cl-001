@@ -4,5 +4,10 @@
  "title": "The-Plot-Thins-Uniformity-and-Linearity-in-Literary-Summarie",
  "token": "sk-aEeqX9tmP...",
  "created_at": "2026-08-19 02:59:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/c3e3c321-1601-4e86-abc8-4b5b84b8b602.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/c3e3c321-1601-4e86-abc8-4b5b84b8b602.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:33:55",
+  "chunks": 4
+ }
 }

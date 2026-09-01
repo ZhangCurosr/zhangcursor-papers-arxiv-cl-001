@@ -4,5 +4,32 @@
  "title": "Q-Interference-Memory-Efficient-Phase-Aware-Quantum-Inspired",
  "token": "sk-fYugtz9Wo...",
  "created_at": "2026-08-19 14:30:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/6f868d3e-f474-4f65-8ad8-7d0f422e9b93.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/6f868d3e-f474-4f65-8ad8-7d0f422e9b93.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:30:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "量子启发注意力",
+    "相位感知注意力",
+    "内存高效注意力",
+    "GPT",
+    "自回归语言建模",
+    "三角因式分解"
+   ],
+   "field": "高效注意力机制设计",
+   "innovations": [
+    "提出相位感知量子启发注意力机制，用振幅和学习相位建模建设性/破坏性token交互",
+    "推导精确三角因式分解，将额外内存开销从O(T²d_h)降至O(Td_h)",
+    "在标准GPT流水线中实现相位感知注意力的内存高效集成与训练验证"
+   ],
+   "benchmarks": [
+    "WikiText-103",
+    "TinyStories",
+    "pile-10k",
+    "small-C4"
+   ]
+  }
+ }
 }

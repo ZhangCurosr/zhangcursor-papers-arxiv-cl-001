@@ -4,5 +4,33 @@
  "title": "Thinking-in-a-Low-Resource-Language-What-SFT-Builds-What-RL",
  "token": "sk-JqniBRrr0...",
  "created_at": "2026-08-19 14:30:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/8060e60a-2de4-41c3-8b87-6005f2e97569.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/8060e60a-2de4-41c3-8b87-6005f2e97569.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:33:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "低资源语言推理",
+    "SFT 行为评估",
+    "可验证奖励强化学习",
+    "MoE 微调",
+    "种子方差",
+    "跨语言推理",
+    "格式合规"
+   ],
+   "field": "低资源多语言大模型推理",
+   "innovations": [
+    "提出六个不受长度干扰的行为维度，证明准确率在低资源语言微调中接近无效",
+    "首次证明 SFT 可将模型推理语言从英语切换到希腊语（97-98% 忠实度）且不影响英文推理能力",
+    "预注册 RLVR 修复 SFT 遗留的格式回退（24%→2.5%）和答案泄漏（3.5%→0%）缺陷"
+   ],
+   "benchmarks": [
+    "GSM8K-Greek (ILSP 人工翻译+机器翻译)",
+    "HellaSwag-Greek",
+    "WinoGrande-Greek",
+    "ProofWriter-el (去污染)"
+   ]
+  }
+ }
 }

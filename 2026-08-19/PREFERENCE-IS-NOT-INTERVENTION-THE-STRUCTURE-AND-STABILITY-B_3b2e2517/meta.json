@@ -4,5 +4,10 @@
  "title": "PREFERENCE-IS-NOT-INTERVENTION-THE-STRUCTURE-AND-STABILITY-B",
  "token": "sk-dKfLTOMDH...",
  "created_at": "2026-08-19 14:30:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/6c90c081-c5cf-496e-8896-14f62f31670b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/6c90c081-c5cf-496e-8896-14f62f31670b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:30:17",
+  "chunks": 1
+ }
 }

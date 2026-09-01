@@ -4,5 +4,31 @@
  "title": "What-Aggregate-Scores-Miss-Measuring-Item-Level-Regressions",
  "token": "sk-oJ013oevc...",
  "created_at": "2026-08-19 14:30:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/3b67e996-638c-40f8-80e9-73c9edd23b4a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/3b67e996-638c-40f8-80e9-73c9edd23b4a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:34:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM评估",
+    "向后兼容性",
+    "回归测试",
+    "API迁移",
+    "重复采样",
+    "项目级分析"
+   ],
+   "field": "大语言模型评估与验证",
+   "innovations": [
+    "首次以K=50重复采样+置换零校准量化前沿商业API迁移的项目级双向变化",
+    "揭示聚合增益边缘仍存在8.3%可靠退化项",
+    "严格/宽松双评分揭示格式化退化集中点"
+   ],
+   "benchmarks": [
+    "SuperGPQA",
+    "Omni-MATH hard",
+    "IFBench"
+   ]
+  }
+ }
 }

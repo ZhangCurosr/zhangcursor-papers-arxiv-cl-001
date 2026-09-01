@@ -4,5 +4,28 @@
  "title": "BEAR-Bench-A-Bilingual-Enterprise-and-Academic-Reasoning-Ben",
  "token": "sk-vBvZ06NsJ...",
  "created_at": "2026-08-19 02:57:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/b171dba9-10a1-4ce1-a850-3c33dc6f0746.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/b171dba9-10a1-4ce1-a850-3c33dc6f0746.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:28:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态大语言模型",
+    "基准评测",
+    "文档推理",
+    "俄语",
+    "幻觉检测",
+    "多步推理"
+   ],
+   "field": "多模态理解与推理评测",
+   "innovations": [
+    "提出首个聚焦俄英双语文本密集型专业文档多步推理的自包含基准 BEAR-Bench",
+    "系统对比六类幻觉检测方法在专业文档推理场景下的性能，揭示检测效果随响应长度变化的规律"
+   ],
+   "benchmarks": [
+    "BEAR-Bench"
+   ]
+  }
+ }
 }

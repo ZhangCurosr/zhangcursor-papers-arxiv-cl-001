@@ -4,5 +4,31 @@
  "title": "LLMs-for-Medical-Consultation-Are-Evaluated-Too-Late-The-Pre",
  "token": "sk-owp49a3rO...",
  "created_at": "2026-08-19 14:30:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/ac4f28ae-fdc1-4d7e-b4bb-fbb892dfeba4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/ac4f28ae-fdc1-4d7e-b4bb-fbb892dfeba4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:29:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "medical LLM evaluation",
+    "preformulation gap",
+    "first-contact safety",
+    "interactive assessment",
+    "healthcare AI",
+    "patient simulation",
+    "clinical handoff"
+   ],
+   "field": "医疗大语言模型交互安全评估",
+   "innovations": [
+    "提出preformulation gap概念并量化首次咨询阶段的交互风险",
+    "设计固定脚本与自适应模拟患者双重评测方法",
+    "验证entry-to-care instruction显著改善询问顺序和handoff生成"
+   ],
+   "benchmarks": [
+    "4医生编写多轮病例",
+    "Adaptive standardized-patient simulation"
+   ]
+  }
+ }
 }

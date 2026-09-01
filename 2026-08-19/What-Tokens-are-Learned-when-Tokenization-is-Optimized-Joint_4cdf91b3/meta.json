@@ -4,5 +4,31 @@
  "title": "What-Tokens-are-Learned-when-Tokenization-is-Optimized-Joint",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-19 02:57:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/8564876e-87d5-4426-a78e-048da111c9cd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/8564876e-87d5-4426-a78e-048da111c9cd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:34:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "tokenization",
+    "joint optimization",
+    "SSLM",
+    "H-Net",
+    "morphological alignment",
+    "cross-lingual"
+   ],
+   "field": "分词与语言建模联合优化",
+   "innovations": [
+    "首次在多语言、多类型学视角下系统分析联合优化分词所学习的 token 结构",
+    "揭示 SSLM 与 H-Net 在形态对齐与计算效率上的本质权衡",
+    "证明无分词器方法作为 pretokenizer 可显著降低下游 BERT 困惑度并维持竞争力"
+   ],
+   "benchmarks": [
+    "MorphScore",
+    "NewsCrawl",
+    "NLLB"
+   ]
+  }
+ }
 }

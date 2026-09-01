@@ -4,5 +4,10 @@
  "title": "TraceSQL-Traceable-Answerability-Estimation-for-Reference-Fr",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-08-19 14:30:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/13a43033-f544-406d-9955-8cf85b7d3e38.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/13a43033-f544-406d-9955-8cf85b7d3e38.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:34:00",
+  "chunks": 1
+ }
 }

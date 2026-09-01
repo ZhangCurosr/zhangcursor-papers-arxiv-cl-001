@@ -4,5 +4,33 @@
  "title": "Reflex-Guard-A-Low-Latency-Guardrail-for-LLM-Prompt-Safety-U",
  "token": "sk-hwXfRrBR3...",
  "created_at": "2026-08-19 02:55:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/f7196c70-88d9-42dd-9193-d1ce6bc6c3ee.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/f7196c70-88d9-42dd-9193-d1ce6bc6c3ee.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:31:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM安全",
+    "prompt护栏",
+    "jailbreak检测",
+    "低延迟分类",
+    "语义嵌入",
+    "对抗鲁棒性"
+   ],
+   "field": "LLM安全与对齐",
+   "innovations": [
+    "提出低延迟本地guardrail架构（37.6ms vs 255ms Llama Guard 2）",
+    "定义RES统一安全-延迟权衡指标",
+    "揭示三模态攻击概率分布与自适应阈值策略"
+   ],
+   "benchmarks": [
+    "JailbreakBench",
+    "JailbreakHub/DAN",
+    "Anthropic Red Team",
+    "AlpacaEval",
+    "MultiJail Bengali"
+   ]
+  }
+ }
 }

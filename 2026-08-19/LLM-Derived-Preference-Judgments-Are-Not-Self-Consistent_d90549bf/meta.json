@@ -4,5 +4,10 @@
  "title": "LLM-Derived-Preference-Judgments-Are-Not-Self-Consistent",
  "token": "sk-9ieZJEGxv...",
  "created_at": "2026-08-19 02:55:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/5ec50b6f-557a-4681-a8c2-8e10e3d39176.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/5ec50b6f-557a-4681-a8c2-8e10e3d39176.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:29:32",
+  "chunks": 1
+ }
 }

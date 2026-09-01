@@ -4,5 +4,29 @@
  "title": "An-Empirical-Study-of-Reward-Specification-and-Benchmark-Rel",
  "token": "sk-jywkrqzJV...",
  "created_at": "2026-08-19 14:30:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/01480042-9d92-42e0-8e0f-b854dd90cd5c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/01480042-9d92-42e0-8e0f-b854dd90cd5c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:27:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "machine unlearning",
+    "GRPO",
+    "reward specification",
+    "LLM",
+    "benchmark reliability",
+    "reward hacking"
+   ],
+   "field": "大语言模型机器卸载",
+   "innovations": [
+    "系统比较四种奖励规格对GRPO-based unlearning行为终态的选择效应",
+    "提出SFT warm-up作为policy support干预以分离奖励指定与策略支持问题",
+    "构建triple-lens评估框架揭示RWKU基准、held-out审计与terminal rollout审计间的诊断矛盾"
+   ],
+   "benchmarks": [
+    "RWKU"
+   ]
+  }
+ }
 }
