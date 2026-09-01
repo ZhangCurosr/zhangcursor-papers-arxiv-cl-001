@@ -4,5 +4,33 @@
  "title": "Do-Large-Language-Models-Hallucinate-Electric-Fata-Morganas",
  "token": "sk-oJ013oevc...",
  "created_at": "2026-08-20 02:55:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/79465426-28f7-431b-88dc-e50122313f75.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/79465426-28f7-431b-88dc-e50122313f75.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:40:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "AI hallucination",
+    "large language models",
+    "artificial consciousness",
+    "philosophy of mind",
+    "cybernetics",
+    "intrinsic/extrinsic hallucination",
+    "temperature control",
+    "strong AI"
+   ],
+   "field": "AI 幻觉与意识哲学的交叉研究",
+   "innovations": [
+    "提出幻觉-意识误判的认识论难题并论证其不可判定性",
+    "将温度/创造力/幻觉纳入统一权衡框架并类比 bias-variance",
+    "借用控制论与Seth的controlled hallucination重新解释AI幻觉的适应性意义"
+   ],
+   "benchmarks": [
+    "HHEM leaderboard",
+    "GPT-3/GPT-4 API 案例对比",
+    "WikiBERT 受控训练对照"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "MissDiag-Diagnostic-Evaluation-of-Incomplete-Knowledge-Robus",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-20 14:33:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/ab743e15-6d35-4897-b126-d63700527619.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/ab743e15-6d35-4897-b126-d63700527619.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:43:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "知识图谱问答",
+    "KG-RAG",
+    "不完整知识鲁棒性",
+    "诊断评估",
+    "退化剖面",
+    "知识图谱"
+   ],
+   "field": "知识图谱问答评测与鲁棒性",
+   "innovations": [
+    "将不完整知识鲁棒性评估形式化为诊断归因问题，打破单一聚合分数掩盖失败机制的局限",
+    "提出四类结构化缺失算子（随机/源上下文/关系级/答案邻接）与配对退化剖面框架",
+    "实证揭示答案邻接缺失造成最大退化而源上下文缺失常为中性或正向的类型化退化模式"
+   ],
+   "benchmarks": [
+    "KGQAGen-10k"
+   ]
+  }
+ }
 }

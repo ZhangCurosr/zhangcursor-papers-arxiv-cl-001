@@ -4,5 +4,35 @@
  "title": "Institutional-Books-sub-sub-Enriched-Text-A-customizable-mul",
  "token": "sk-331OfnzjD...",
  "created_at": "2026-08-20 02:55:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/806c92b6-7399-49e9-8518-f90a369063cb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/806c92b6-7399-49e9-8518-f90a369063cb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:41:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "数据清洗",
+    "多语言处理",
+    "OCR后处理",
+    "预训练数据",
+    "富文本标注",
+    "去重",
+    "语义分块",
+    "bits-per-byte"
+   ],
+   "field": "多语言语料预处理",
+   "innovations": [
+    "提出Enriched Text范式，以HTML注解替代暴力删除以保留元数据与结构",
+    "结合合成数据与Model2Vec静态嵌入实现多语种封底分类（F1=0.97）",
+    "引入BPB作为tokenizer无关的多语言文本质量信号"
+   ],
+   "benchmarks": [
+    "IB-HL-ET",
+    "Qwen3-0.6B-Base",
+    "BAAI/BGE-M3",
+    "Nupunkt",
+    "SaT(sat-3l-sm)"
+   ]
+  }
+ }
 }

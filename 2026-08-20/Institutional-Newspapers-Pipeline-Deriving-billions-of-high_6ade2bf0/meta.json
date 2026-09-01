@@ -4,5 +4,31 @@
  "title": "Institutional-Newspapers-Pipeline-Deriving-billions-of-high",
  "token": "sk-vBvZ06NsJ...",
  "created_at": "2026-08-20 02:55:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/507a88fe-97db-4a85-b694-b81ce19ea9d5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/507a88fe-97db-4a85-b694-b81ce19ea9d5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:41:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "历史报纸处理",
+    "OCR",
+    "文档分割",
+    "Vision-Language Model",
+    "LLM预训练数据",
+    "结构化提取"
+   ],
+   "field": "文档智能与历史文本挖掘",
+   "innovations": [
+    "分割-分类解耦架构避免类别不平衡",
+    "双路OCR（Tesseract+dots.mocr）平衡质量与成本",
+    "HDBSCAN轻量阅读顺序检测替代Transformer方案"
+   ],
+   "benchmarks": [
+    " segmentation mAP@50=0.955",
+    "阅读顺序Kendall's τ=0.959",
+    "16.3B o200k_base tokens"
+   ]
+  }
+ }
 }

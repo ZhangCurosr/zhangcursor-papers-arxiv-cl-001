@@ -4,5 +4,30 @@
  "title": "MemFuse-Multi-Source-Memory-Fusion-from-Fragmented-Observati",
  "token": "sk-yJ5h9Go8b...",
  "created_at": "2026-08-20 02:56:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/d07ee18e-6998-45fd-85b2-9aec2b150e3b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/d07ee18e-6998-45fd-85b2-9aec2b150e3b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:43:50",
+  "chunks": 6,
+  "meta": {
+   "keywords": [
+    "multi-source memory fusion",
+    "long-term memory",
+    "event graph",
+    "RAG",
+    "checklist evaluation",
+    "causal reasoning",
+    "smart home"
+   ],
+   "field": "多源记忆融合与跨源推理",
+   "innovations": [
+    "首次定义多源记忆融合问题并提供 MemFuseBench 基准",
+    "双分层因果融合图结构兼顾溯源与检索效率",
+    "Agent化在线融合流水线加规则验证防污染"
+   ],
+   "benchmarks": [
+    "MemFuseBench"
+   ]
+  }
+ }
 }

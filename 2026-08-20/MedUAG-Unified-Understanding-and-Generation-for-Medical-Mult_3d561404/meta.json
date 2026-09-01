@@ -4,5 +4,32 @@
  "title": "MedUAG-Unified-Understanding-and-Generation-for-Medical-Mult",
  "token": "sk-CZoysi7P5...",
  "created_at": "2026-08-20 14:33:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/1eb905fb-efb5-4167-b103-5f5faa3bb05a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/1eb905fb-efb5-4167-b103-5f5faa3bb05a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:42:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "医学多模态",
+    "统一理解与生成",
+    "医疗图像生成",
+    "多模态大模型",
+    "医学基准"
+   ],
+   "field": "医学多模态学习",
+   "innovations": [
+    "构建640万实例14模态医学UAG语料库MedUAGCorpus",
+    "提出覆盖12生成任务的系统化基准MedUAGBench",
+    "设计双编码器MoT统一模型MedUAG，实现理解与生成端到端训练"
+   ],
+   "benchmarks": [
+    "MedUAGBench",
+    "VQA-RAD",
+    "SLAKE",
+    "PathVQA",
+    "OmniMedVQA"
+   ]
+  }
+ }
 }

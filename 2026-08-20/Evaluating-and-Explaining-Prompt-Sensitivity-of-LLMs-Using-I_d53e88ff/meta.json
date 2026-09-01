@@ -4,5 +4,31 @@
  "title": "Evaluating-and-Explaining-Prompt-Sensitivity-of-LLMs-Using-I",
  "token": "sk-FMTQpgZxg...",
  "created_at": "2026-08-20 02:59:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/deaeb983-0074-4f86-a75f-f36dc5c4205a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/deaeb983-0074-4f86-a75f-f36dc5c4205a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:40:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Prompt Sensitivity",
+    "Interaction Analysis",
+    "LLM Robustness",
+    "Explainable AI",
+    "Mixture of Experts",
+    "Prompt Engineering"
+   ],
+   "field": "大语言模型鲁棒性与可解释性",
+   "innovations": [
+    "提出基于交互的细粒度prompt敏感性度量IPS，突破传统输出级指标的局限",
+    "系统解耦并验证SFT、模型规模、架构密度、少样本学习四大降敏因素",
+    "揭示所有降敏因素均通过稳定低阶交互起作用，而高阶交互仍高度不稳定的统一机制"
+   ],
+   "benchmarks": [
+    "ARC",
+    "MMLU",
+    "Dolly-15k"
+   ]
+  }
+ }
 }

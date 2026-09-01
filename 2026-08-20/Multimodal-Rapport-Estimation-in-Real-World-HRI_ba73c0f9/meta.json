@@ -4,5 +4,32 @@
  "title": "Multimodal-Rapport-Estimation-in-Real-World-HRI",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-08-20 14:33:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/4faa8061-b16b-4713-b99b-3c4c76c1a874.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/4faa8061-b16b-4713-b99b-3c4c76c1a874.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:44:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "real-world HRI",
+    "rapport estimation",
+    "zero-shot LLM",
+    "multimodal late fusion",
+    "third-party annotation",
+    "CCR-8",
+    "Concordance Correlation Coefficient"
+   ],
+   "field": "真实场景人机交互评估",
+   "innovations": [
+    "首个真实零售 HRI 多模态 CCR-8 第三方标注数据集",
+    "零样本 LLM 与预训练嵌入的互补融合框架",
+    "基于 CCC 损失的第三方可泛化 rapport 回归训练目标"
+   ],
+   "benchmarks": [
+    "CCR-8 third-party scoring",
+    "MAE/PCC/CCC regression metrics",
+    "30-fold session-level split"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Institutional-Books-sub-sub-Enriched-Text-A-customizable-mul",
  "token": "sk-331OfnzjD...",
  "created_at": "2026-08-20 14:33:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/806c92b6-7399-49e9-8518-f90a369063cb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/806c92b6-7399-49e9-8518-f90a369063cb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:41:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "大规模语料清洗",
+    "OCR后处理",
+    "多语言数据管线",
+    "去重与标注",
+    "BPB质量度量",
+    "Enriched Text",
+    "史料数字化"
+   ],
+   "field": "多语言大规模语料预处理",
+   "innovations": [
+    "提出'标注而非删除'的Enriched Text范式，以HTML式标签保留元数据供下游按需解析",
+    "跨约250种语言的端到端OCR清洗管线（Unicode归一化/端页分离/去连字符/主题分块/BPB打分）",
+    "BPB（每字节位数）作为跨语言tokenizer无关质量信号的全量计算"
+   ],
+   "benchmarks": [
+    "IB-HL-ET",
+    "Qwen3-0.6B-Base BPB评估"
+   ]
+  }
+ }
 }

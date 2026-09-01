@@ -4,5 +4,32 @@
  "title": "Introducing-the-Privacy-HSD-Trade-off-Hate-Speech-Detection",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-08-20 14:33:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/31297475-cfb2-4bd2-8e2e-98e5152b697f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/31297475-cfb2-4bd2-8e2e-98e5152b697f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:41:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "仇恨言论检测",
+    "隐私保护",
+    "文本去隐私化",
+    "作者再识别",
+    "Privacy-Utility Trade-off",
+    "差分隐私",
+    "Hate Speech Detection"
+   ],
+   "field": "隐私保护的自然语言处理",
+   "innovations": [
+    "首次形式化Privacy-HSD权衡概念并提出量化评估框架",
+    "揭示HSD模型内在地编码作者身份信息构成再识别威胁",
+    "提出AGNOSPEECH三层领域特定文本去隐私化方法"
+   ],
+   "benchmarks": [
+    "Reddit-25",
+    "Reddit-50",
+    "Twitter-10"
+   ]
+  }
+ }
 }

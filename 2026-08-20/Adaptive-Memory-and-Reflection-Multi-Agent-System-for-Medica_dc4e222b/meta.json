@@ -4,5 +4,30 @@
  "title": "Adaptive-Memory-and-Reflection-Multi-Agent-System-for-Medica",
  "token": "sk-ZHrWl9Czg...",
  "created_at": "2026-08-20 14:33:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/d01fd742-ffe4-43e1-abfd-ece423f92369.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/d01fd742-ffe4-43e1-abfd-ece423f92369.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:39:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多智能体系统",
+    "医学问答",
+    "自适应记忆",
+    "反思学习",
+    "RAG",
+    "伦理审查"
+   ],
+   "field": "多智能体医学信息学",
+   "innovations": [
+    "角色特异性记忆与事后反思反馈循环",
+    "基于复杂度的动态路由与协作推理流水线",
+    "独立伦理审查模块集成于多智能体架构"
+   ],
+   "benchmarks": [
+    "MedQA",
+    "MedMCQA"
+   ]
+  }
+ }
 }

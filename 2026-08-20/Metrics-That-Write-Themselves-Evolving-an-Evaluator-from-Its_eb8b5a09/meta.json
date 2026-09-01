@@ -4,5 +4,32 @@
  "title": "Metrics-That-Write-Themselves-Evolving-an-Evaluator-from-Its",
  "token": "sk-rnwM2rvcl...",
  "created_at": "2026-08-20 14:33:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/caa0ab5b-d418-4ab1-9100-7ad2054342d9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/caa0ab5b-d418-4ab1-9100-7ad2054342d9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:43:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "自动评估指标",
+    "反例引导抽象细化",
+    "CEGAR",
+    "LLM judge",
+    "算子池",
+    "selection accuracy",
+    "可解释自动评测"
+   ],
+   "field": "大语言模型自动评估与可解释指标合成",
+   "innovations": [
+    "将 CEGAR 引入度量综合，以签名碰撞盲点驱动算子生成而非直接 prompt",
+    "基于部署决策的门控准入配合接口升级，避免盲目重采样与 coverage 指标误导",
+    "在组合空间枚举揭示并修正加权目标，实现零推理成本的纯 Python 可审计指标"
+   ],
+   "benchmarks": [
+    "MBPP+",
+    "HumanEval+",
+    "EvalPlus"
+   ]
+  }
+ }
 }

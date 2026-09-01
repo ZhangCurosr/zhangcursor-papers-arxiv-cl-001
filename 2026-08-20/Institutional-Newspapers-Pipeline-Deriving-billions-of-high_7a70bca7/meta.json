@@ -4,5 +4,33 @@
  "title": "Institutional-Newspapers-Pipeline-Deriving-billions-of-high",
  "token": "sk-vBvZ06NsJ...",
  "created_at": "2026-08-20 14:33:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/507a88fe-97db-4a85-b694-b81ce19ea9d5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/507a88fe-97db-4a85-b694-b81ce19ea9d5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:41:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "历史报纸数字化",
+    "文档分割",
+    "多模态OCR",
+    "VLM",
+    "低开销流水线",
+    "结构化数据集",
+    "阅读顺序检测",
+    "实体识别"
+   ],
+   "field": "历史文献数字人文与多模态信息抽取",
+   "innovations": [
+    "分割与分类解耦的双分支crop类型融合分类器",
+    "Tesseract+轻量VLM双路OCR互补策略",
+    "面向工作站硬件的15步模块化低开销流水线设计"
+   ],
+   "benchmarks": [
+    "mAP@50=0.955（分割）",
+    "Kendall'sτ=0.959（阅读顺序）",
+    "Crop类型分类准确率≈91-92%"
+   ]
+  }
+ }
 }

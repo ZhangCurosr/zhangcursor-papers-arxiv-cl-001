@@ -4,5 +4,31 @@
  "title": "Multimodal-Rapport-Estimation-in-Real-World-HRI",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-08-20 02:58:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/4faa8061-b16b-4713-b99b-3c4c76c1a874.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/4faa8061-b16b-4713-b99b-3c4c76c1a874.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:43:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "human-robot interaction",
+    "rapport estimation",
+    "multimodal late fusion",
+    "zero-shot LLM",
+    "real-world HRI",
+    "third-party annotation",
+    "consent correlation coefficient"
+   ],
+   "field": "真实场景人机交互与多模态情感/关系计算",
+   "innovations": [
+    "构建真实零售场景第三方 CCR-8 标注集并建立多模态基线",
+    "证明零样本文本 LLM 与视听嵌入的强互补性并实现预测级融合最优",
+    "针对交互时长与群体大小给出真实 HRI 融洽度估计的性能分层分析"
+   ],
+   "benchmarks": [
+    "CCR-8 third-party rapport score",
+    "30-fold session-level split with CCC/PCC/MAE evaluation"
+   ]
+  }
+ }
 }

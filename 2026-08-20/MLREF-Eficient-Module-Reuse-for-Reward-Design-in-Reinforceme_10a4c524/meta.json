@@ -4,5 +4,31 @@
  "title": "MLREF-Eficient-Module-Reuse-for-Reward-Design-in-Reinforceme",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-08-20 02:55:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/98aa7b8b-893e-4417-a751-6d75250b3091.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/98aa7b8b-893e-4417-a751-6d75250b3091.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:42:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Reward Design",
+    "Reinforcement Learning",
+    "Large Language Models",
+    "Module Pool",
+    "Iterative Optimization",
+    "Credit Assignment",
+    "LLM‑assisted Code Generation"
+   ],
+   "field": "强化学习中的自动奖励设计",
+   "innovations": [
+    "提出模块级奖励进化框架（MLREF），将优化对象从单体奖励函数转为持久化可复用模块池",
+    "设计混合信用分配机制，融合 LLM 语义判断与 RL 训练经验证据量化模块贡献",
+    "引入带回滚的合并策略，保障迭代优化轨迹稳定性，防止单次失败破坏整体进程"
+   ],
+   "benchmarks": [
+    "Isaac Gym locomotion tasks (7)",
+    "Bi‑DexHands manipulation tasks (10)"
+   ]
+  }
+ }
 }

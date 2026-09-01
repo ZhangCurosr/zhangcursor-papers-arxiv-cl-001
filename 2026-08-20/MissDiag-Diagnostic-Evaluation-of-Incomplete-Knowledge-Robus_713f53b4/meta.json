@@ -4,5 +4,30 @@
  "title": "MissDiag-Diagnostic-Evaluation-of-Incomplete-Knowledge-Robus",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-20 02:58:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/ab743e15-6d35-4897-b126-d63700527619.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/ab743e15-6d35-4897-b126-d63700527619.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:43:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "KGQA",
+    "KG-RAG",
+    "鲁棒性评估",
+    "不完整知识",
+    "诊断评估框架",
+    "类型化缺失",
+    "配对比较"
+   ],
+   "field": "知识图谱问答评估",
+   "innovations": [
+    "将不完整知识鲁棒性评估形式化为诊断归因问题，提出配对类型化缺失干预框架",
+    "揭示答案邻近证据丢失是主导降级因素，源上下文移除可中性或有益的类型化降解模式",
+    "以类型化降级配置文件替代单一聚合得分，增强跨系统比较的可解释性"
+   ],
+   "benchmarks": [
+    "KGQAGen-10k"
+   ]
+  }
+ }
 }

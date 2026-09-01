@@ -4,5 +4,29 @@
  "title": "Identifying-Implicit-Premises-for-Logical-Reconstruction-of",
  "token": "sk-JqniBRrr0...",
  "created_at": "2026-08-20 14:33:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/dc507c86-85b9-4b4e-9549-0d72d56cbee2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/dc507c86-85b9-4b4e-9549-0d72d56cbee2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:40:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Logical Reconstruction",
+    "Implicit Premises",
+    "Enthymemes",
+    "Neuro-symbolic",
+    "Argument Graphs",
+    "Automated Reasoning"
+   ],
+   "field": "计算论证学 / 神经符号人工智能",
+   "innovations": [
+    "首个系统性生成隐含前提以逻辑化已知语义关系的神经符号框架",
+    "提出基于AMR与神经符号松弛（神经匹配/神经矛盾）的逻辑公式自动推理方法",
+    "验证多步链式LLM推理在增强单一关系分类准确率中的显著作用"
+   ],
+   "benchmarks": [
+    "Microtext Argumentative Corpus"
+   ]
+  }
+ }
 }
