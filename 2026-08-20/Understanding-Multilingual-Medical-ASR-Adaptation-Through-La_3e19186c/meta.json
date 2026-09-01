@@ -4,5 +4,10 @@
  "title": "Understanding-Multilingual-Medical-ASR-Adaptation-Through-La",
  "token": "sk-dKfLTOMDH...",
  "created_at": "2026-08-20 14:33:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/252a01fc-7f06-4937-8343-163724956b0e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/252a01fc-7f06-4937-8343-163724956b0e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:56:40",
+  "chunks": 1
+ }
 }

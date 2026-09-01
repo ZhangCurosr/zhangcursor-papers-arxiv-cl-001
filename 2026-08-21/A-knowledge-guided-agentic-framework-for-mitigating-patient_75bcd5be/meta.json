@@ -4,5 +4,29 @@
  "title": "A-knowledge-guided-agentic-framework-for-mitigating-patient",
  "token": "sk-4LF0lBYcu...",
  "created_at": "2026-08-21 14:32:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/c4d68f8a-7642-4a82-bac9-9df0394470ce.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/c4d68f8a-7642-4a82-bac9-9df0394470ce.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:58:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "patient-context ambiguity",
+    "agentic framework",
+    "knowledge graph",
+    "clarification question",
+    "healthcare LLM",
+    "ambiguous query"
+   ],
+   "field": "医疗健康自然语言处理",
+   "innovations": [
+    "形式化患者上下文歧义并与其分离为独立歧义类型，提出知识图谱引导的信息获取中间层",
+    "用确定性信息增益策略替代 LLM 自由发问，实现上下文获取与最终生成的解耦"
+   ],
+   "benchmarks": [
+    "Symptom-based diagnosis retrieval (n=1,034, Synthea-derived)",
+    "Dietary-safety classification (n=487, FoodSafetyKG-based)"
+   ]
+  }
+ }
 }

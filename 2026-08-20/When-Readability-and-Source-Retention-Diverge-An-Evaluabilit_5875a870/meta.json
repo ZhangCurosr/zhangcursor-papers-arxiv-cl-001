@@ -4,5 +4,35 @@
  "title": "When-Readability-and-Source-Retention-Diverge-An-Evaluabilit",
  "token": "sk-dQ65jxzP4...",
  "created_at": "2026-08-20 02:55:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/99afda30-f544-4d02-b719-ea52ead3a7bb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/99afda30-f544-4d02-b719-ea52ead3a7bb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:57:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "evaluability gap",
+    "translation quality",
+    "readability-fidelity trade-off",
+    "anthropomorphism",
+    "trust",
+    "disclosure willingness",
+    "HCI",
+    "LLM translation"
+   ],
+   "field": "机器翻译人机交互评估",
+   "innovations": [
+    "揭示可评估性差距：源文本可见不等于用户能据此识别忠实度差异",
+    "建立 appraisal-structure SEM 模型，证明信任是披露意愿的近端变量而拟人化不直接预测披露",
+    "分离输出评估与数据托管两个界面设计维度，指出二者需分别干预与评估"
+   ],
+   "benchmarks": [
+    "TransLingo 原型实验",
+    "Flesch readability gain (ΔFlesch)",
+    "BERTScore F1",
+    "COMET",
+    "Content-word Jaccard overlap"
+   ]
+  }
+ }
 }

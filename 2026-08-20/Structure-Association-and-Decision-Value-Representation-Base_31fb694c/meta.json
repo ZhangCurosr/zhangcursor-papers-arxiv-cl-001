@@ -4,5 +4,30 @@
  "title": "Structure-Association-and-Decision-Value-Representation-Base",
  "token": "sk-F7cBp1IrI...",
  "created_at": "2026-08-20 02:56:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/4cd6bfa8-41d1-4b77-a90e-fcde444fd41b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/4cd6bfa8-41d1-4b77-a90e-fcde444fd41b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:54:35",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "自适应推理",
+    "多语言 NLI",
+    "表示几何",
+    "数据污染",
+    "低资源语言",
+    "评估有效性"
+   ],
+   "field": "多语言自然语言处理与高效推理",
+   "innovations": [
+    "系统揭示 AfriXNLI 基准对 XNLI 的评估污染及检测方 法",
+    "证明在非洲语言 NLI 中参数规模不保证模型能力排序",
+    "揭示表示几何统计受语言身份主导且关联具有计算收益目标的特异性"
+   ],
+   "benchmarks": [
+    "AfriXNLI",
+    "XNLI"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "rEDMRec-Distilling-Large-Language-Model-Reasoning-into-an-Ed",
  "token": "sk-twhrLv2pG...",
  "created_at": "2026-08-20 14:33:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/8f543cb8-b8d6-4b3f-9c45-dd7db1ebc4a8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/8f543cb8-b8d6-4b3f-9c45-dd7db1ebc4a8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:57:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM-based recommendation",
+    "reasoning distillation",
+    "experience memory",
+    "memory-augmented agents",
+    "multi-agent debate",
+    "retrieval-augmented generation",
+    "editable memory"
+   ],
+   "field": "LLM-based recommendation",
+   "innovations": [
+    "四类通道的可编辑经验记忆库，将教师推理蒸馏为独立可检索/可编辑的lt/st/ip/cf通道",
+    "辩论驱动的LLM记忆控制器，通过Add/Delete/Modify/Keep操作持续优化记忆库质量",
+    "推理-检索解耦架构，冻结学生仅需检索记忆库即可完成排名，无需重新调用教师"
+   ],
+   "benchmarks": [
+    "ML-1M",
+    "Amazon Beauty",
+    "Steam"
+   ]
+  }
+ }
 }

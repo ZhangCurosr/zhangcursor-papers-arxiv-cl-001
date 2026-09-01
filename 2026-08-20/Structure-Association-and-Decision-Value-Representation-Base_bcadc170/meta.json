@@ -4,5 +4,30 @@
  "title": "Structure-Association-and-Decision-Value-Representation-Base",
  "token": "sk-F7cBp1IrI...",
  "created_at": "2026-08-20 14:33:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/4cd6bfa8-41d1-4b77-a90e-fcde444fd41b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/4cd6bfa8-41d1-4b77-a90e-fcde444fd41b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:54:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "adaptive inference",
+    "multilingual NLP",
+    "African languages",
+    "representation geometry",
+    "data contamination",
+    "natural language inference"
+   ],
+   "field": "多语言NLP评估与自适应推理",
+   "innovations": [
+    "揭示翻译基准污染对评估有效性的威胁并提出三步审计方法",
+    "量化多语言表示几何中语言身份的主导作用（η²度量）",
+    "证明计算收益目标定义模糊性导致不同信号预测不同目标"
+   ],
+   "benchmarks": [
+    "AfriXNLI",
+    "XNLI"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "rEDMRec-Distilling-Large-Language-Model-Reasoning-into-an-Ed",
  "token": "sk-twhrLv2pG...",
  "created_at": "2026-08-20 02:57:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/8f543cb8-b8d6-4b3f-9c45-dd7db1ebc4a8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/8f543cb8-b8d6-4b3f-9c45-dd7db1ebc4a8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:57:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM-based recommendation",
+    "reasoning distillation",
+    "experience memory",
+    "multi-agent debate",
+    "retrieval-augmented generation",
+    "memory-augmented agents",
+    "editable memory"
+   ],
+   "field": "LLM-based recommendation",
+   "innovations": [
+    "Four-channel editable experience memory distilling teacher LLM reasoning",
+    "Debate-based LLM memory controller with Add/Delete/Modify/Keep operations",
+    "Decoupling inference cost from reasoning depth via frozen student retrieval"
+   ],
+   "benchmarks": [
+    "ML-1M",
+    "Amazon Beauty",
+    "Steam"
+   ]
+  }
+ }
 }

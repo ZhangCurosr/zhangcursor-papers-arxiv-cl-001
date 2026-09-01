@@ -4,5 +4,31 @@
  "title": "A-knowledge-guided-agentic-framework-for-mitigating-patient",
  "token": "sk-4LF0lBYcu...",
  "created_at": "2026-08-21 03:01:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/ab3d2717-376f-4410-aebd-277767496726.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/ab3d2717-376f-4410-aebd-277767496726.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:58:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "知识图谱",
+    "智能体框架",
+    "患者上下文歧义",
+    "主动澄清",
+    "医疗大语言模型",
+    "期望信息增益",
+    "知识引导消歧"
+   ],
+   "field": "医疗自然语言处理",
+   "innovations": [
+    "提出知识图谱引导的智能体中间层，在不修改下游LLM的前提下主动获取缺失的患者特定上下文",
+    "将患者上下文歧义形式化为独立问题，与词汇/知识/意图歧义明确区分",
+    "通过期望信息增益的确定性控制器选择最优澄清问题，显著提升诊断检索与饮食安全分类准确率"
+   ],
+   "benchmarks": [
+    "Synthea-based symptom-diagnosis retrieval (1,034 instances)",
+    "FoodSafetyKG dietary safety classification (487 instances)"
+   ]
+  }
+ }
 }

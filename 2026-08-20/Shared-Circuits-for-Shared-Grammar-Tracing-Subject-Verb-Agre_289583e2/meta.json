@@ -4,5 +4,36 @@
  "title": "Shared-Circuits-for-Shared-Grammar-Tracing-Subject-Verb-Agre",
  "token": "sk-fYugtz9Wo...",
  "created_at": "2026-08-20 14:33:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/c0f596c1-65bc-4f0b-985c-aadda5421879.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/c0f596c1-65bc-4f0b-985c-aadda5421879.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:54:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multilingual mechanistic interpretability",
+    "subject-verb agreement",
+    "activation patching",
+    "cross-lingual circuit sharing",
+    "morphosyntax",
+    "minimal pair recovery",
+    "attention routing"
+   ],
+   "field": "多语言机制可解释性",
+   "innovations": [
+    "提出 target-logit 与 minimal-pair 两种恢复指标区分共享粒度的分层分析框架",
+    "发现跨语言屈折回路共享在严格屈折对比恢复层面最强且由语法计算需求驱动",
+    "通过英语桥梁案例证明共享程度动态依赖语境中是否需显式屈折计算"
+   ],
+   "benchmarks": [
+    "UniMorph",
+    "Chinese Verb Semantic Feature Dataset",
+    "BLOOM-7b1",
+    "Gemma-2-9b",
+    "Llama-2/3.2",
+    "Mistral-7b",
+    "Qwen2-7b"
+   ]
+  }
+ }
 }

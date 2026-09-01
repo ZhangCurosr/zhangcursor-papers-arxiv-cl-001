@@ -4,5 +4,31 @@
  "title": "TranslatePsy-AfriSLM-High-Quality-Data-Scaling-For-Low-Resou",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-20 02:58:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/045210c1-6a29-4cf2-9eb6-97031b2307b9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/045210c1-6a29-4cf2-9eb6-97031b2307b9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:56:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "低资源机器翻译",
+    "非洲语言",
+    "质量估计",
+    "数据筛选",
+    "合成数据",
+    "小语言模型"
+   ],
+   "field": "低资源机器翻译",
+   "innovations": [
+    "统一质量估计框架：多QE指标融合为鲁棒z-score用于数据筛选",
+    "发现QE过滤方向对齐对性能的关键影响",
+    "合成数据+严格过滤在帕累托前沿上全面优于开源数据"
+   ],
+   "benchmarks": [
+    "Flores-200",
+    "BOUQuET",
+    "Smol"
+   ]
+  }
+ }
 }

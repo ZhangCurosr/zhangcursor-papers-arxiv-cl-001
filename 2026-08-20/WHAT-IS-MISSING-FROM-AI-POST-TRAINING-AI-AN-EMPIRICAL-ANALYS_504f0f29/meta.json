@@ -4,5 +4,33 @@
  "title": "WHAT-IS-MISSING-FROM-AI-POST-TRAINING-AI-AN-EMPIRICAL-ANALYS",
  "token": "sk-Jd4ujJMnj...",
  "created_at": "2026-08-20 02:55:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/8141c9e5-f003-4177-a4ab-f5b3d23c99a2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/8141c9e5-f003-4177-a4ab-f5b3d23c99a2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:56:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM Post-Training",
+    "AI Agent",
+    "Strategy vs Execution",
+    "PostTrainBench",
+    "AI for AI",
+    "Empirical Analysis",
+    "Agent Capabilities"
+   ],
+   "field": "LLM Post-Training & Agent R&D",
+   "innovations": [
+    "提出执行层-策略层两级能力框架并系统量化策略锁定现象",
+    "通过递进式三重干预（经验/指导/计算）证明缺失的是策略重评机制而非资源",
+    "发现策略可塑性仅在首次训练前短窗口内存在，训练启动后锁定不可逆"
+   ],
+   "benchmarks": [
+    "PostTrainBench",
+    "GSM8K",
+    "HumanEval",
+    "AIME 2025"
+   ]
+  }
+ }
 }

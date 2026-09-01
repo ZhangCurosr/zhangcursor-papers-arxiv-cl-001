@@ -4,5 +4,30 @@
  "title": "Evaluating-and-Explaining-Prompt-Sensitivity-of-LLMs-Using-I",
  "token": "sk-FMTQpgZxg...",
  "created_at": "2026-08-20 14:33:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/deaeb983-0074-4f86-a75f-f36dc5c4205a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/deaeb983-0074-4f86-a75f-f36dc5c4205a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:52:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "prompt sensitivity",
+    "interaction explanation",
+    "LLM interpretability",
+    "prompt robustness",
+    "fine-grained evaluation",
+    "model stability"
+   ],
+   "field": "大语言模型可解释性与鲁棒性",
+   "innovations": [
+    "提出基于交互分解的细粒度IPS指标，揭示输出稳定下潜在的内部不稳定性",
+    "系统发现SFT/规模/架构/few-shot四个降敏因素及其共性机制——主要稳定低阶交互"
+   ],
+   "benchmarks": [
+    "ARC",
+    "MMLU",
+    "Dolly-15k"
+   ]
+  }
+ }
 }

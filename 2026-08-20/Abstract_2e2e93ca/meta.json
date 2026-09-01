@@ -4,5 +4,29 @@
  "title": "Abstract",
  "token": "sk-Wt6bONApk...",
  "created_at": "2026-08-20 02:57:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/40d91134-64bd-4970-8a59-4b7ab9c36a6d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/40d91134-64bd-4970-8a59-4b7ab9c36a6d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:53:07",
+  "chunks": 5,
+  "meta": {
+   "keywords": [
+    "Constraint Satisfaction Problems",
+    "Neuro-Symbolic Reasoning",
+    "SMT Solving",
+    "Shortcut Suppression",
+    "SMTrap"
+   ],
+   "field": "神经符号推理与约束求解",
+   "innovations": [
+    "提出SMTrap框架，将SMT冲突校验固化于CPU搜索循环实现神经-符号解耦",
+    "设计线索状态分支剪枝与冲突引导接受机制以保障唯一解并降低搜索冗余",
+    "通过结构化捷径抑制将符号状态渲染为标准CSP提示阻断LLM表面模式依赖"
+   ],
+   "benchmarks": [
+    "Sudoku",
+    "Zebra"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "AI4AI-Bench-Benchmarking-LLM-Agents-in-Algorithmic-Design-fo",
  "token": "sk-DXHHyylpH...",
  "created_at": "2026-08-21 03:00:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/9441b605-4848-4af7-875b-7c5ff19b377e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/9441b605-4848-4af7-875b-7c5ff19b377e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:58:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "AI4AI-Bench",
+    "LLM Agent",
+    "Algorithmic Design",
+    "Recursive Self-Improvement",
+    "Training Algorithm",
+    "Benchmark",
+    "Change Classification"
+   ],
+   "field": "AI Agent 评测与自动机器学习",
+   "innovations": [
+    "提出首个隔离算法设计能力的基准，将变更分类为运行侧与学习侧",
+    "构建跨10种不可公度指标的统一进度坐标系(σ)",
+    "发现推理努力主要增加触及学习层的比例(8%→64%)而非改进质量"
+   ],
+   "benchmarks": [
+    "AI4AI-Bench"
+   ]
+  }
+ }
 }

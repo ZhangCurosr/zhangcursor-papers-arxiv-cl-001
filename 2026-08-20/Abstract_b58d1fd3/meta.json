@@ -4,5 +4,29 @@
  "title": "Abstract",
  "token": "sk-Wt6bONApk...",
  "created_at": "2026-08-20 14:33:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/cada06df-9987-4947-acaa-f0e5042dc45a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/cada06df-9987-4947-acaa-f0e5042dc45a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:54:02",
+  "chunks": 5,
+  "meta": {
+   "keywords": [
+    "DoS Attack",
+    "Large Reasoning Models",
+    "SMT Solver",
+    "Black-box Attack",
+    "Constraint Satisfaction"
+   ],
+   "field": "LLM安全与红队测试",
+   "innovations": [
+    "提出无需模型反馈的搜索放大范式，利用Z3冲突计数引导CSP实例生成",
+    "揭示SMT冲突计数与LRM回溯搜索量的正相关关系，作为有效外部引导信号",
+    "设计纯CPU轻量级SMTrap框架，单实例合成耗时数十秒，输出长度提升>2×"
+   ],
+   "benchmarks": [
+    "Sudoku",
+    "Zebra Puzzle"
+   ]
+  }
+ }
 }

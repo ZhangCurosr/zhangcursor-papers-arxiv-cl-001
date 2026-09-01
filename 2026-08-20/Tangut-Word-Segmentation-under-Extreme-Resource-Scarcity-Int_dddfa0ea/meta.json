@@ -4,5 +4,33 @@
  "title": "Tangut-Word-Segmentation-under-Extreme-Resource-Scarcity-Int",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-08-20 02:59:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/fbe0a291-d6e7-4479-b6fc-b124251df650.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/fbe0a291-d6e7-4479-b6fc-b124251df650.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:55:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "西夏语分词",
+    "低资源分词",
+    "词典增强",
+    "MLM预训练",
+    "BIES标注",
+    "条件随机场",
+    "历史语言NLP"
+   ],
+   "field": "低资源历史语言信息处理",
+   "innovations": [
+    "可靠性校准的词典格网表示（out-of-fold估计防止数据泄露）",
+    "字符级MLM预训练TangutEncoder（含连续span遮蔽）在极端低资源西夏语分词中的系统化应用",
+    "显式分布统计与词典特征的互补融合框架"
+   ],
+   "benchmarks": [
+    "五折交叉验证（按体裁分层）",
+    "OOV召回率",
+    "IV召回率",
+    "span级精确匹配F₁"
+   ]
+  }
+ }
 }

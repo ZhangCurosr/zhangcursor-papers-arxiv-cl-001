@@ -4,5 +4,32 @@
  "title": "ReWEIGH-the-Evidence-Calibrating-Token-Level-Ordinal-Visual",
  "token": "sk-qKu2Cn1y4...",
  "created_at": "2026-08-20 02:56:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/288423a2-76da-4fa1-9c89-32b0a77ca5eb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/288423a2-76da-4fa1-9c89-32b0a77ca5eb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:53:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "hallucination mitigation",
+    "vision-language model",
+    "decoding intervention",
+    "ordinal aggregation",
+    "calibration",
+    "internal representation"
+   ],
+   "field": "多模态大模型幻觉缓解",
+   "innovations": [
+    "Token-level 秩聚合替代概率聚合以消除跨视觉位置尺度依赖",
+    "Token 特异性参考校准将跨 token 证据差异显式建模并降低 91-92% 校准误差",
+    "有界单边 logit 抑制结合预填充缓存实现 1.33% 低延迟的 training-free 解码干预"
+   ],
+   "benchmarks": [
+    "CHAIR",
+    "AMBER",
+    "MMHal-Bench",
+    "MM-Vet"
+   ]
+  }
+ }
 }

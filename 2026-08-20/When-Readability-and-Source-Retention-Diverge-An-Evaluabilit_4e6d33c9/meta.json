@@ -4,5 +4,29 @@
  "title": "When-Readability-and-Source-Retention-Diverge-An-Evaluabilit",
  "token": "sk-dQ65jxzP4...",
  "created_at": "2026-08-20 14:33:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/99afda30-f544-4d02-b719-ea52ead3a7bb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/99afda30-f544-4d02-b719-ea52ead3a7bb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:57:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "可评估性差距",
+    "机器翻译评估",
+    "可读性与忠实度",
+    "人机交互",
+    "AI信任",
+    "披露意愿"
+   ],
+   "field": "人机交互与AI翻译评估",
+   "innovations": [
+    "区分源文本可见性与可评估性，揭示复杂文本下整体质量评分不敏感于忠实度差异",
+    "构建翻译评价结构方程模型，证实任务绩效信任是披露意愿的最近端关联因素",
+    "证明输出评价与信息托付应作为独立界面设计问题处理"
+   ],
+   "benchmarks": [
+    "Stimulus audit: ΔFlesch, Jaccard, BERTScore F1, COMET"
+   ]
+  }
+ }
 }

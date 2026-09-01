@@ -4,5 +4,29 @@
  "title": "X2STREAMING-TTS-CAUSAL-TOKEN-LEVEL-TEXT-TO-SPEECH-FROM-STREA",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-08-20 02:57:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/d4a9cf32-5516-4ef3-bda8-c6170c11a274.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/d4a9cf32-5516-4ef3-bda8-c6170c11a274.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:57:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "流式TTS",
+    "因果合成",
+    "状态继承",
+    "token级生成",
+    "低延迟语音合成"
+   ],
+   "field": "流式语音合成",
+   "innovations": [
+    "因果承诺：不确定性感知缓冲与容量自适应分段统一建模",
+    "因果语音状态继承：跨段传递完整波形解码器状态与有界历史上下文"
+   ],
+   "benchmarks": [
+    "SEED-TTS-Eval",
+    "Long-text extrapolation",
+    "Symbol ambiguity test"
+   ]
+  }
+ }
 }

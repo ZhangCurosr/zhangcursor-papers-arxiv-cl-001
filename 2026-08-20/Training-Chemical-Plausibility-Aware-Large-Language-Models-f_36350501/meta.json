@@ -4,5 +4,30 @@
  "title": "Training-Chemical-Plausibility-Aware-Large-Language-Models-f",
  "token": "sk-07nfPn8BZ...",
  "created_at": "2026-08-20 14:33:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/f0fd6096-1faf-4456-970d-29ec5d6ae0bb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/f0fd6096-1faf-4456-970d-29ec5d6ae0bb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:55:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "单步逆合成",
+    "大型语言模型",
+    "化学可归化性",
+    "Top-K提示",
+    "强化学习微调",
+    "CREED数据集"
+   ],
+   "field": "计算化学与逆合成规划",
+   "innovations": [
+    "提出Top-K Prompting训练范式捕捉逆合成一对多特性",
+    "构建4560万反应的超大规模验证数据集CREED-CCV-2+USPTO-XL",
+    "设计ChemCensor奖励与新颖性奖励结合的强化学习微调方案"
+   ],
+   "benchmarks": [
+    "URSA-expert-2026",
+    "USPTO-50K-test-mini"
+   ]
+  }
+ }
 }

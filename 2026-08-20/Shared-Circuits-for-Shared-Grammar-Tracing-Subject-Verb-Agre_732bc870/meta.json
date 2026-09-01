@@ -4,5 +4,30 @@
  "title": "Shared-Circuits-for-Shared-Grammar-Tracing-Subject-Verb-Agre",
  "token": "sk-fYugtz9Wo...",
  "created_at": "2026-08-20 02:58:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/c0f596c1-65bc-4f0b-985c-aadda5421879.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/c0f596c1-65bc-4f0b-985c-aadda5421879.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:54:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多语言大语言模型",
+    "主谓一致",
+    "激活补丁",
+    "跨语言共享",
+    "形态句法解释",
+    "注意力分析"
+   ],
+   "field": "多语言机制解释",
+   "innovations": [
+    "首次系统比较29种语言主谓一致回路的跨语言共享程度，区分显性与非变位语言",
+    "提出 target-logit 与 minimal-pair 双指标框架，分离不同层次的计算共享",
+    "发现英语在显性一致需求下回路向变位语言靠拢，证明共享由语法操作驱动而非语言身份"
+   ],
+   "benchmarks": [
+    "UniMorph 动词变位数据集",
+    "Chinese Verb Semantic Feature Dataset"
+   ]
+  }
+ }
 }

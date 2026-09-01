@@ -4,5 +4,32 @@
  "title": "ReWEIGH-the-Evidence-Calibrating-Token-Level-Ordinal-Visual",
  "token": "sk-qKu2Cn1y4...",
  "created_at": "2026-08-20 14:33:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/b9667f29-e3e2-435a-8a0a-38d423d9f404.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/b9667f29-e3e2-435a-8a0a-38d423d9f404.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:53:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Large Vision-Language Models",
+    "Hallucination Mitigation",
+    "Decoding Intervention",
+    "Ordinal Evidence",
+    "Token-level Calibration",
+    "Training-free Method"
+   ],
+   "field": "多模态大模型幻觉缓解",
+   "innovations": [
+    "Scale-invariant rank aggregation via DMRR for cross-position evidence pooling",
+    "Token-specific calibration reference estimated from unlabeled images",
+    "Bounded one-sided logit penalty with uncertainty-aware registration"
+   ],
+   "benchmarks": [
+    "CHAIR",
+    "AMBER",
+    "MMHal-Bench",
+    "MM-Vet"
+   ]
+  }
+ }
 }
