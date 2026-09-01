@@ -4,5 +4,30 @@
  "title": "An-Empirical-Study-of-Reward-Specification-and-Benchmark-Rel",
  "token": "sk-jywkrqzJV...",
  "created_at": "2026-08-19 02:56:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/01480042-9d92-42e0-8e0f-b854dd90cd5c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/01480042-9d92-42e0-8e0f-b854dd90cd5c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:45:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM Unlearning",
+    "GRPO",
+    "Reward Specification",
+    "Reward Hacking",
+    "RLVR",
+    "RWKU Benchmark",
+    "Policy Support"
+   ],
+   "field": "大模型机器遗忘与奖励工程",
+   "innovations": [
+    "系统比较四种GRPO奖励设计对LLM遗忘行为终点的影响，揭示优化得分与行为性遗忘不等价",
+    "提出SFT warm-up作为策略支持干预，分离奖励设计失误与冷启动策略瓶颈",
+    "引入terminal rollout audit与broad-topic helpfulness维度，构建多维行为审计框架"
+   ],
+   "benchmarks": [
+    "RWKU"
+   ]
+  }
+ }
 }

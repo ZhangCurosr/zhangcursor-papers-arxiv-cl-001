@@ -4,5 +4,10 @@
  "title": "Do-Large-Language-Models-Play-Six-Degrees-of-Separation-Meas",
  "token": "sk-331OfnzjD...",
  "created_at": "2026-08-19 02:56:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/d8adf29f-75c2-465f-8c41-ecfb01b29924.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/d8adf29f-75c2-465f-8c41-ecfb01b29924.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:51:14",
+  "chunks": 1
+ }
 }

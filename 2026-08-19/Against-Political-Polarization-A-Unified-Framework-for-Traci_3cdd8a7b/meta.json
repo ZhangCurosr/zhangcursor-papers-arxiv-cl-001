@@ -4,5 +4,31 @@
  "title": "Against-Political-Polarization-A-Unified-Framework-for-Traci",
  "token": "sk-Jd4ujJMnj...",
  "created_at": "2026-08-19 14:30:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/9fe43d98-fe6e-472c-a39b-9cb77d928ca4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/9fe43d98-fe6e-472c-a39b-9cb77d928ca4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:47:11",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "政治极化",
+    "意识形态检测",
+    "域自适应",
+    "时序图神经网络",
+    "LLM风格迁移",
+    "社交媒体分析"
+   ],
+   "field": "社交计算与政治极化分析",
+   "innovations": [
+    "提出TSN4PI统一框架整合政治内容检测与用户意识形态动态演化预测",
+    "离线LLM文本风格迁移+在线BERT分类器的资源高效推理方案",
+    "系统评估MMD与KL散度域自适应策略的计算效率权衡"
+   ],
+   "benchmarks": [
+    "AllSides新闻意识形态数据集",
+    "X/Twitter总统选举数据集",
+    "Truth Social数据集"
+   ]
+  }
+ }
 }

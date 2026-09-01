@@ -4,5 +4,31 @@
  "title": "Auditing-Exposure-to-Harmful-Content-on-TikTok-using-Multimo",
  "token": "sk-JdJPQj6CY...",
  "created_at": "2026-08-19 14:30:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/dad1d58f-da19-4d39-b820-94b0616db6c2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/dad1d58f-da19-4d39-b820-94b0616db6c2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:47:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "TikTok auditing",
+    "multimodal LLM",
+    "harmful content detection",
+    "cross-national study",
+    "age-stratified sockpuppet",
+    "content moderation",
+    "algorithmic bias"
+   ],
+   "field": "平台算法审计与内容安全",
+   "innovations": [
+    "两阶段 MLLM 验证+跨国分层审计框架，证实 E3 八帧配置以一半成本达到 fair-to-moderate κ",
+    "scroll-pre→SEARCH→scroll-post 同账号循环设计，分离推荐放大与搜索检索两种暴露路径",
+    "首次系统量化三国×四年龄层 TikTok 有害内容暴露差异，发现意大利最高且搜索阶段年龄梯度消失"
+   ],
+   "benchmarks": [
+    "Cohen's kappa on binary harm verdict",
+    "Harm prevalence rates per country-age-phase cell"
+   ]
+  }
+ }
 }

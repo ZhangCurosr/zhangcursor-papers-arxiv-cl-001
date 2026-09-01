@@ -4,5 +4,32 @@
  "title": "Decomposition-Attacks-Across-Unlinkable-Identities-Limits-of",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-19 14:30:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/6fe2c658-861b-4bbd-ab64-5dd423944739.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/6fe2c658-861b-4bbd-ab64-5dd423944739.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:48:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "decomposition attack",
+    "stateful defense",
+    "LLM safety",
+    "security-utility frontier",
+    "Sybil-resistant monitoring",
+    "adversarial retry",
+    "causal attribution"
+   ],
+   "field": "LLM安全与对抗防御",
+   "innovations": [
+    "建立请求级不可识别性理论并推导精确安全-效用前沿",
+    "证明重试+ALLOW/BLOCK反馈彻底消除有利静态操作点",
+    "构建首个平衡重着色的可执行分解攻击benchmark验证理论预测"
+   ],
+   "benchmarks": [
+    "91-task executable decomposition benchmark",
+    "WildChat+StackExchange+MS MARCO background traffic",
+    "11-family defense-unseen outer cohort"
+   ]
+  }
+ }
 }

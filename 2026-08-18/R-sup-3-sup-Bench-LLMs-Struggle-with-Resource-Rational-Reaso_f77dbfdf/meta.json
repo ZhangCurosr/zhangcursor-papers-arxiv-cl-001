@@ -4,5 +4,33 @@
  "title": "R-sup-3-sup-Bench-LLMs-Struggle-with-Resource-Rational-Reaso",
  "token": "sk-RdV3tP4AZ...",
  "created_at": "2026-08-18 02:56:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/0b58fc02-5512-41b0-879f-2cf9def83291.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/0b58fc02-5512-41b0-879f-2cf9def83291.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:44:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "资源理性推理",
+    "共享预算",
+    "LLM评测",
+    "任务调度",
+    "Agent基准测试",
+    "资源分配"
+   ],
+   "field": "大语言模型评测与推理",
+   "innovations": [
+    "提出首个多任务共享预算的 R³-BENCH 基准，同步覆盖 tool-free 和 agentic 两种设置",
+    "构造基于单题响应曲线的离线 Oracle（多选背包）量化能力兑现缺口",
+    "揭示压力依赖型失败模式（强压：预算耗尽他题；中压：半途而废）及调度干预的领域异质性"
+   ],
+   "benchmarks": [
+    "R³-BENCH",
+    "Omni-MATH",
+    "LiveCodeBench Pro",
+    "Reasoning Gym",
+    "MathNet"
+   ]
+  }
+ }
 }

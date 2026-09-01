@@ -4,5 +4,33 @@
  "title": "Interpretable-Humans-Alien-LLMs-Expert-Analysis-of-Latent-St",
  "token": "sk-kdPBKi9MQ...",
  "created_at": "2026-08-19 14:30:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/67d04202-1e28-415b-9e6a-bf1a65585e3f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/67d04202-1e28-415b-9e6a-bf1a65585e3f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:53:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "大语言模型评估",
+    "构念效度",
+    "探索性因子分析",
+    "教育测量学",
+    "人类与LLM差异",
+    "盲法专家解释",
+    "DIF",
+    "量化推理",
+    "化学诊断测验"
+   ],
+   "field": "LLM教育评估与构念效度",
+   "innovations": [
+    "将EFA与盲法专家解释结合，比较人类与LLM潜在因素结构的专家可解释性",
+    "在正式心理测量工具上首次展示LLM因素对学科专家普遍不可解释",
+    "从构念效度视角论证用人类测验推断LLM能力的合法性局限"
+   ],
+   "benchmarks": [
+    "高中化学诊断测验（22题）",
+    "全国大学入学考试量化推理（20题）"
+   ]
+  }
+ }
 }

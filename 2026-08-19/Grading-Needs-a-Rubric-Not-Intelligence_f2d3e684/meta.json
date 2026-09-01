@@ -4,5 +4,30 @@
  "title": "Grading-Needs-a-Rubric-Not-Intelligence",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-08-19 02:55:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/99b0eaf6-94a1-4a0c-9713-a9a83598feb9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/99b0eaf6-94a1-4a0c-9713-a9a83598feb9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:52:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM-as-a-Judge",
+    "Rubric-based Grading",
+    "Intraclass Correlation",
+    "Variance Decomposition",
+    "Test Score Reliability",
+    "ANY-TO-BENCH"
+   ],
+   "field": "自动化评测与评分可靠性",
+   "innovations": [
+    "提出非对称 ANY-TO-BENCH 框架，将智能集中于一次性摄入而非重复评分",
+    "通过方差分解证明评分者身份仅解释 0.2% 分数方差，参考答案承担 rubric 主要权重",
+    "在 rubric-anchored 设定下消除长度偏好与自家族偏好，解释成对偏好偏见的消失机制"
+   ],
+   "benchmarks": [
+    "Taiwan National Exams (GSAT/AST/TVE)",
+    "24-question open-ended benchmark with four strata"
+   ]
+  }
+ }
 }

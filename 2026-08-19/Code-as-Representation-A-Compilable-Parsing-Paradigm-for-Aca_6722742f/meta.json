@@ -4,5 +4,33 @@
  "title": "Code-as-Representation-A-Compilable-Parsing-Paradigm-for-Aca",
  "token": "sk-haVkJ3VAf...",
  "created_at": "2026-08-19 14:30:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/be460f85-12bc-4590-91d2-2151ab1ee6ba.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/be460f85-12bc-4590-91d2-2151ab1ee6ba.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:47:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Multimodal Document Parsing",
+    "MLLMs",
+    "Compilable Parsing",
+    "Academic Document",
+    "Code-as-Representation",
+    "CADP-Bench"
+   ],
+   "field": "多模态文档解析与科学文档理解",
+   "innovations": [
+    "提出可编译学术文档解析（CADP）范式，以双重代码（LaTeX+Python）重建学术页面",
+    "发布 CADP-Bench 基准，1630 专家验证页面配合重新注入编译协议评估",
+    "揭示高执行率与高视觉保真度之间的系统性解耦，以及伪代码为当前 MLLMs 普遍瓶颈"
+   ],
+   "benchmarks": [
+    "CADP-Bench",
+    "TabLeX",
+    "ChartMimic",
+    "READoc",
+    "OmniDocBench"
+   ]
+  }
+ }
 }

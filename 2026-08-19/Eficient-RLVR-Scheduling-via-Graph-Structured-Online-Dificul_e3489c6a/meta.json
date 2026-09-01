@@ -4,5 +4,33 @@
  "title": "Eficient-RLVR-Scheduling-via-Graph-Structured-Online-Dificul",
  "token": "sk-AsgiqoBdE...",
  "created_at": "2026-08-19 14:30:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/7dcf885b-c646-4060-a7cf-e43a338aab0c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/7dcf885b-c646-4060-a7cf-e43a338aab0c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:51:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RLVR",
+    "difficulty estimation",
+    "graph-based inference",
+    "curriculum learning",
+    "rollout allocation",
+    "variational inference",
+    "Potts prior"
+   ],
+   "field": "大语言模型强化学习调度",
+   "innovations": [
+    "首次将RLVR动态难度估计建模为图结构潜在变量推断问题，通过Potts先验在相关样本间传播rollout反馈",
+    "设计在线均值场变分推断算法，以Beta-Binomial状态级模型聚合稀疏反馈，无需额外探测即可持续追踪难度变化",
+    "提供即插即用的图结构难度估计器，可无缝集成到GVM/PCL/GRESO等调度器并统一提升下游性能"
+   ],
+   "benchmarks": [
+    "MATH500",
+    "AIME 2024",
+    "AIME 2025",
+    "OlympiadBench"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "ArborMem-Navigating-Interaction-States-with-Memory-Forests",
  "token": "sk-n7iJ0Z1Ol...",
  "created_at": "2026-08-19 02:58:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/bf558577-2c0f-46cb-b58c-fd7cdd755624.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/bf558577-2c0f-46cb-b58c-fd7cdd755624.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:47:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "long-term conversational memory",
+    "interaction-state localization",
+    "memory forest",
+    "branch-structured dialogue",
+    "retrieval-augmented agent",
+    "branch-mem-eval"
+   ],
+   "field": "对话式 Agent 长期记忆与结构化记忆组织",
+   "innovations": [
+    "将交互状态定位作为记忆访问的前置步骤，用森林拓扑替代纯语义检索以维护轨迹连续性",
+    "提出混合候选构造与分支感知 cross-encoder 重排的多级路由定位机制",
+    "发布 BranchMemEval 对照诊断基准，隔离交错/延迟恢复/平行议程混淆等分支结构挑战"
+   ],
+   "benchmarks": [
+    "LongMemEval",
+    "LoCoMo",
+    "BEAM 100K",
+    "BranchMemEval"
+   ]
+  }
+ }
 }

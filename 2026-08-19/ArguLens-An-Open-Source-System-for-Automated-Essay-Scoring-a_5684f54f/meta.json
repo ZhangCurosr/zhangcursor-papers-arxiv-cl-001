@@ -4,5 +4,30 @@
  "title": "ArguLens-An-Open-Source-System-for-Automated-Essay-Scoring-a",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-19 02:55:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/615ee417-f3df-4b47-aa8f-51abce348d58.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/615ee417-f3df-4b47-aa8f-51abce348d58.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:46:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "automated essay scoring",
+    "discourse move classification",
+    "LightGBM",
+    "LoRA",
+    "argument mining",
+    "educational AI",
+    "interpretability"
+   ],
+   "field": "自动作文评分与可解释AI评估",
+   "innovations": [
+    "解耦式三模块流水线架构（论述分类+特征评分+标签感知反馈）",
+    "基于logit-probe的LoRA论述步分类器实现确定性推理",
+    "grade-independent的31维特征LightGBM评分器"
+   ],
+   "benchmarks": [
+    "PERSUADE 2.0"
+   ]
+  }
+ }
 }

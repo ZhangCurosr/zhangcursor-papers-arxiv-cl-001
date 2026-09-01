@@ -4,5 +4,33 @@
  "title": "From-Global-Benchmarks-to-Local-Evaluations-Benchmarking-LLM",
  "token": "sk-CZoysi7P5...",
  "created_at": "2026-08-19 02:55:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/0dffcae0-f661-499f-b418-bcd75ca5bb5e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/0dffcae0-f661-499f-b418-bcd75ca5bb5e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:52:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM评估",
+    "公共部门",
+    "能源消耗",
+    "透明度",
+    "政治知识",
+    "治理维度",
+    "德国"
+   ],
+   "field": "多语言LLM评估与AI治理",
+   "innovations": [
+    "提出MÖVE框架，首次将能耗、透明度与本地政治知识作为公共部门LLM评估的三维治理指标",
+    "构建21题透明度评估矩阵并采用人机协同验证流程，对照EU AI Act Art.53要求量化供应商文档质量",
+    "以Wahl-O-Mat官方政党立场数据替代主观政治倾向测试，实现可验证的事实分类评测"
+   ],
+   "benchmarks": [
+    "Wahl-O-Mat政治立场数据集",
+    "German-QuAD",
+    "Eur-Lex-Sum",
+    "SCALE"
+   ]
+  }
+ }
 }

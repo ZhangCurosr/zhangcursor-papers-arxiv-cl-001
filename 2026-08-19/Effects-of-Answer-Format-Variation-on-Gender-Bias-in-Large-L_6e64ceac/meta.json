@@ -4,5 +4,31 @@
  "title": "Effects-of-Answer-Format-Variation-on-Gender-Bias-in-Large-L",
  "token": "sk-LV19Ft0NN...",
  "created_at": "2026-08-19 14:30:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/6a943304-1794-4f5c-afd1-4f3dc4a9d489.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/6a943304-1794-4f5c-afd1-4f3dc4a9d489.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:50:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM偏见评估",
+    "答案格式效应",
+    "性别偏见",
+    "BBQ基准",
+    "OpinionQA",
+    "人类对齐",
+    "多格式评估"
+   ],
+   "field": "LLM偏见评估与方法学",
+   "innovations": [
+    "首次系统对比封闭/Likert/开放式三种答案格式对LLM性别偏差测量的影响",
+    "提出极化指数作为s_AMB补充以检测被均值抵消的极端刻板印象行为",
+    "构建并开源跨格式性别偏见评估数据集"
+   ],
+   "benchmarks": [
+    "BBQ",
+    "OpinionQA"
+   ]
+  }
+ }
 }

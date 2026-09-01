@@ -4,5 +4,32 @@
  "title": "LLM-Derived-Preference-Judgments-Are-Not-Self-Consistent",
  "token": "sk-9ieZJEGxv...",
  "created_at": "2026-08-19 14:30:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/8d42bcaf-cb93-495c-a8bd-0d4f073c8961.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/8d42bcaf-cb93-495c-a8bd-0d4f073c8961.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:53:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM偏好学习",
+    "自洽性审计",
+    "支付意愿估计",
+    "效用一致性",
+    "数值偏好判断",
+    "准线性效用",
+    "查询类型偏差"
+   ],
+   "field": "LLM偏好表示与一致性评估",
+   "innovations": [
+    "提出首个针对数值型LLM偏好判断的全局bootstrap自洽性审计与局部P1/P2诊断协议",
+    "发现跨六种主流LLM在航班/公寓/酒店域的系统性跨查询类型不一致，酒店域RMSE高达18.9%-44.9%",
+    "揭示2.1%-12.5%的比较出现支持的序数反转，证明提示形式可实质性改变LLM推荐方向"
+   ],
+   "benchmarks": [
+    "Flight audit domain",
+    "Apartment rental audit domain",
+    "Hotel rating-price grid"
+   ]
+  }
+ }
 }

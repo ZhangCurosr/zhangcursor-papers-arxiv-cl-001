@@ -4,5 +4,31 @@
  "title": "An-Investigation-of-Translationese-in-the-Generations-of-Mul",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-19 14:30:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/f21d1798-edac-4223-ae87-a14527853811.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/f21d1798-edac-4223-ae87-a14527853811.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:45:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "translationese",
+    "multilingual LLM",
+    "machine translation",
+    "SVM classifier",
+    "linguistic features",
+    "low-resource language"
+   ],
+   "field": "多语言大模型评估",
+   "innovations": [
+    "将翻译腔检测框架系统应用于MLLM多语言生成评估",
+    "引入对照条件分离翻译腔与LLM特有风格偏差",
+    "发现低资源语言中MLLM翻译腔效应反而较弱的反直觉现象"
+   ],
+   "benchmarks": [
+    "Europarl",
+    "Europarl-UdS",
+    "OLDI Seed"
+   ]
+  }
+ }
 }

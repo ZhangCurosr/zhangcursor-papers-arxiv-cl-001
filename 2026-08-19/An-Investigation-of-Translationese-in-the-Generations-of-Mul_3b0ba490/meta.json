@@ -4,5 +4,10 @@
  "title": "An-Investigation-of-Translationese-in-the-Generations-of-Mul",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-19 02:56:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/f21d1798-edac-4223-ae87-a14527853811.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/f21d1798-edac-4223-ae87-a14527853811.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:45:53",
+  "chunks": 1
+ }
 }

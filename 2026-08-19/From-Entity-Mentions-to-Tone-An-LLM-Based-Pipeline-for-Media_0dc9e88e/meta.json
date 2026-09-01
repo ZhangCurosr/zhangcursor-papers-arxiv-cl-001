@@ -4,5 +4,10 @@
  "title": "From-Entity-Mentions-to-Tone-An-LLM-Based-Pipeline-for-Media",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-08-19 14:30:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/abc53272-870a-4419-9fe9-01b5f27c2cbc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/abc53272-870a-4419-9fe9-01b5f27c2cbc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:51:32",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,36 @@
  "title": "Domain-Adapted-Molecular-Language-Models-for-Efficient-Searc",
  "token": "sk-rnwM2rvcl...",
  "created_at": "2026-08-19 02:57:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/142c96d8-a996-4c44-8efc-8bded3cd300f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/142c96d8-a996-4c44-8efc-8bded3cd300f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:49:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "分子语言模型",
+    "域自适应",
+    "主动学习",
+    "虚拟筛选",
+    "Morgan指纹",
+    "LoRA",
+    "贝叶斯优化",
+    "分子表征"
+   ],
+   "field": "分子发现中的表征学习与主动选择",
+   "innovations": [
+    "指纹监督辅助标签的LoRA域自适应策略可显著提升分子语言模型在跨域虚拟库搜索中的样本效率",
+    "系统量化检验表征-域不匹配假说，发现嵌入空间几何诊断与优化效率仅弱相关",
+    "跨药物/材料/催化六库的统一benchmark揭示Morgan指纹的鲁棒性与原生语言模型的性能波动"
+   ],
+   "benchmarks": [
+    "Zinc-AmpC对接库",
+    "RO4-OGG1对接库",
+    "Enamine-TMPK对接库",
+    "HCEP-PCE光伏材料库",
+    "Laser-OSC有机激光库",
+    "Kraken-ES催化对映选择库"
+   ]
+  }
+ }
 }

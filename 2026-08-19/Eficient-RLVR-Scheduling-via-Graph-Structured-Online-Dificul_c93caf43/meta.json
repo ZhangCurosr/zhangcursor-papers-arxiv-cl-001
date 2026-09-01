@@ -4,5 +4,33 @@
  "title": "Eficient-RLVR-Scheduling-via-Graph-Structured-Online-Dificul",
  "token": "sk-AsgiqoBdE...",
  "created_at": "2026-08-19 02:55:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/04c90f24-627e-408c-bb88-e412d820f995.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/04c90f24-627e-408c-bb88-e412d820f995.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:49:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RLVR",
+    "difficulty estimation",
+    "graph-based inference",
+    "Potts prior",
+    "mean-field variational",
+    "adaptive scheduling",
+    "rollout allocation"
+   ],
+   "field": "大语言模型强化学习调度",
+   "innovations": [
+    "首次将RLVR动态难度估计形式化为图结构潜在变量推断问题",
+    "提出低成本在线变分估计器，通过图传播共享rollout反馈无需额外探测",
+    "设计即插即用组件统一提升GVM/PCL/GRESO等调度器的下游性能"
+   ],
+   "benchmarks": [
+    "MATH500",
+    "AIME 2024",
+    "AIME 2025",
+    "OlympiadBench"
+   ]
+  }
+ }
 }

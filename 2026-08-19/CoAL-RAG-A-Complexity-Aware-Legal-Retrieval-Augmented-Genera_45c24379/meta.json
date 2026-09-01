@@ -4,5 +4,32 @@
  "title": "CoAL-RAG-A-Complexity-Aware-Legal-Retrieval-Augmented-Genera",
  "token": "sk-yJ5h9Go8b...",
  "created_at": "2026-08-19 14:30:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/042d7b0f-7663-4926-9cd4-0d18b6fe7b20.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/042d7b0f-7663-4926-9cd4-0d18b6fe7b20.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:48:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Legal RAG",
+    "Complexity-Aware Retrieval",
+    "Adaptive Routing",
+    "Knowledge Graph",
+    "Legal Q&A",
+    "Cross-Jurisdictional Generalization"
+   ],
+   "field": "法律自然语言处理 / 检索增强生成",
+   "innovations": [
+    "提出'问题本质+检索一致性'双通道复杂度评估机制，以BM25与语义检索分歧间接推断查询复杂度",
+    "设计四层阈值自适应路由策略，根据复杂度动态选择向量/混合/图谱/交叉验证检索方式",
+    "构建层级法律KG（章-节-条-概念）并实现跨民法与普通法体系的统一验证"
+   ],
+   "benchmarks": [
+    "SocialLawQA",
+    "LawBench",
+    "LexGLUE",
+    "CaseHold"
+   ]
+  }
+ }
 }

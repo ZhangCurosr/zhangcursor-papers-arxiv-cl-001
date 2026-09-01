@@ -4,5 +4,34 @@
  "title": "R-sup-3-sup-Bench-LLMs-Struggle-with-Resource-Rational-Reaso",
  "token": "sk-RdV3tP4AZ...",
  "created_at": "2026-08-18 14:31:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/0b58fc02-5512-41b0-879f-2cf9def83291.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/0b58fc02-5512-41b0-879f-2cf9def83291.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:44:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Resource Rationality",
+    "Shared Budget",
+    "LLM Benchmark",
+    "Tool-Free Reasoning",
+    "Agentic Evaluation",
+    "Resource Allocation",
+    "Response Curve Oracle"
+   ],
+   "field": "LLM 推理与资源分配评测",
+   "innovations": [
+    "提出R³-BENCH首个共享预算suite级基准，通过matched single-problem response curve oracle量化已展示能力与共享预算下实现能力之间的gap",
+    "设计模型特定预算校准与双基准诊断（oracle + equal-allocation replay）分离能力与分配质量",
+    "系统归因pressure-dependent failure模式并发现轻量在线调度策略跨领域不通用"
+   ],
+   "benchmarks": [
+    "R³-BENCH",
+    "Omni-MATH",
+    "MathNet",
+    "LiveCodeBench Pro",
+    "Reasoning Gym"
+   ]
+  }
+ }
 }
