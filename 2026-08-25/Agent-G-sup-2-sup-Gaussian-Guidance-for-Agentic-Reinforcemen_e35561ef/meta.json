@@ -4,5 +4,30 @@
  "title": "Agent-G-sup-2-sup-Gaussian-Guidance-for-Agentic-Reinforcemen",
  "token": "sk-kdPBKi9MQ...",
  "created_at": "2026-08-25 02:58:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/2f81ef07-28e3-4012-a94c-3dc7d20a142a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/2f81ef07-28e3-4012-a94c-3dc7d20a142a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 15:36:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "hint-based reinforcement learning",
+    "guidance depth scheduling",
+    "Gaussian distribution",
+    "GRPO",
+    "long-horizon agentic tasks",
+    "reward sparsity"
+   ],
+   "field": "智能体强化学习调度策略",
+   "innovations": [
+    "将guidance depth建模为per-task高斯邻域而非确定性标量，用rollout统计在线估计中心与方差",
+    "global-local分解的自适应调度器：全局基线跟踪策略进度，per-cluster EMA按难度修正中心并拓宽覆盖",
+    "无需probe rollout或辅助网络，同批rollout同时更新策略与调度参数"
+   ],
+   "benchmarks": [
+    "ALFWorld",
+    "WebShop"
+   ]
+  }
+ }
 }

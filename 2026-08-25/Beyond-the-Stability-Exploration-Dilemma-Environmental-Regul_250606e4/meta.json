@@ -4,5 +4,34 @@
  "title": "Beyond-the-Stability-Exploration-Dilemma-Environmental-Regul",
  "token": "sk-Wt6bONApk...",
  "created_at": "2026-08-25 02:56:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/bd2de868-6fe0-4f25-bba4-4a9470a1b208.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/bd2de868-6fe0-4f25-bba4-4a9470a1b208.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 15:39:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RLVR",
+    "policy optimization",
+    "stability-exploration dilemma",
+    "Query-KL regularization",
+    "environmental regularization",
+    "LLM training"
+   ],
+   "field": "大语言模型强化学习",
+   "innovations": [
+    "将正则化从action-side Policy-KL移至input-side Query-KL，解耦环境约束与探索预算",
+    "证明QKL梯度仅通过query log-likelihood流动、与response score function正交的结构解耦性质",
+    "基于pre-RL参考分布构造数据集静态per-query权重，降低高温度解码下的梯度方差"
+   ],
+   "benchmarks": [
+    "AIME24",
+    "AIME25",
+    "AMC",
+    "MATH500",
+    "Minerva",
+    "OlympiadBench"
+   ]
+  }
+ }
 }

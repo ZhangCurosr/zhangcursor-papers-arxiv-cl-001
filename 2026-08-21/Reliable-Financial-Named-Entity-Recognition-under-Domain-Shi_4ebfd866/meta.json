@@ -4,5 +4,33 @@
  "title": "Reliable-Financial-Named-Entity-Recognition-under-Domain-Shi",
  "token": "sk-mtKOSZtKc...",
  "created_at": "2026-08-21 03:01:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/768a5862-5cfc-4f36-b42e-f31ad4c66a8e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/768a5862-5cfc-4f36-b42e-f31ad4c66a8e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 15:36:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "financial NER",
+    "domain shift",
+    "confidence estimation",
+    "selective prediction",
+    "self-consistency",
+    "uncertainty estimation",
+    "generative NER",
+    "calibration"
+   ],
+   "field": "财务自然语言处理的可靠部署与不确定性评估",
+   "innovations": [
+    "三级递进域移压力测试揭示置信信号排序随分布偏移重排",
+    "证明实体跨度概率与自一致性为互补的跨域稳健置信信号",
+    "量化选择性预测在极端远移下的失效边界并提出分阶段部署策略"
+   ],
+   "benchmarks": [
+    "FIN (SEC filings)",
+    "FiNER-ORD (financial news)",
+    "TweetNER7 (social media)"
+   ]
+  }
+ }
 }

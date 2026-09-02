@@ -4,5 +4,33 @@
  "title": "Beyond-the-Stability-Exploration-Dilemma-Environmental-Regul",
  "token": "sk-Wt6bONApk...",
  "created_at": "2026-08-25 14:42:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/bd2de868-6fe0-4f25-bba4-4a9470a1b208.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/bd2de868-6fe0-4f25-bba4-4a9470a1b208.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 15:39:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "环境正则化",
+    "Query-KL",
+    "RLVR",
+    "策略优化",
+    "训练稳定性"
+   ],
+   "field": "大语言模型强化学习",
+   "innovations": [
+    "将正则化从动作侧迁移到输入侧解耦稳定性与探索性",
+    "提出Query-KL正则化与参考派生查询加权机制",
+    "零额外前向成本的估算器无关设计"
+   ],
+   "benchmarks": [
+    "AIME24",
+    "AIME25",
+    "AMC",
+    "MATH500",
+    "Minerva",
+    "OlympiadBench"
+   ]
+  }
+ }
 }

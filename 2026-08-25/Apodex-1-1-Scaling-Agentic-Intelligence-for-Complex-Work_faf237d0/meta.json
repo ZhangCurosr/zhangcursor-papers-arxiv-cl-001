@@ -4,5 +4,41 @@
  "title": "Apodex-1-1-Scaling-Agentic-Intelligence-for-Complex-Work",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-08-25 14:42:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/485ac8d0-7a4d-41c9-9d92-c789bc65ff2b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/485ac8d0-7a4d-41c9-9d92-c789bc65ff2b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 15:37:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "agentic intelligence",
+    "environment scaling",
+    "multi-agent coordination",
+    "reinforcement learning",
+    "long-horizon tasks",
+    "verification",
+    "working capability"
+   ],
+   "field": "智能体系统与长程任务",
+   "innovations": [
+    "提出环境扩展与智能体协调扩展两个互补缩放面，将工作完成能力作为智能体基本单位",
+    "设计非对称验证与显式任务板，提升长周期多智能体协作的可追溯性与可修正性",
+    "开发 PIVOT-RL 通过回溯定位关键决策点实现高效长轨迹强化学习"
+   ],
+   "benchmarks": [
+    "FrontierFinance",
+    "FrontierScience-Research",
+    "APEX-Agents",
+    "GDPVal",
+    "Humanity's Last Exam",
+    "DeepSearchQA",
+    "SWE-bench Verified",
+    "Terminal-Bench 2.1",
+    "BioMysteryBench",
+    "FrontierSearchBench",
+    "FrontierResearchBench",
+    "HDS6"
+   ]
+  }
+ }
 }

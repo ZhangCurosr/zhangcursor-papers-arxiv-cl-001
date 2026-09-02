@@ -4,5 +4,10 @@
  "title": "Aligning-Biomedical-Texts-and-Knowledge-Graphs-A-Systematic",
  "token": "sk-hwXfRrBR3...",
  "created_at": "2026-08-25 02:58:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/2c683cee-ac45-405d-b0c8-44521223d8d2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/2c683cee-ac45-405d-b0c8-44521223d8d2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 15:37:28",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,34 @@
  "title": "Automated-Construction-of-FAIR-Digital-Object-Knowledge-Grap",
  "token": "sk-9ieZJEGxv...",
  "created_at": "2026-08-25 14:42:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/345f279e-3aed-4c31-a801-20714d06127c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/345f279e-3aed-4c31-a801-20714d06127c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 15:38:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "FAIR Digital Objects",
+    "knowledge graph construction",
+    "cultural heritage metadata",
+    "entity resolution",
+    "CIDOC-CRM",
+    "large language models",
+    "Europeana",
+    "PID/literal boundary"
+   ],
+   "field": "语义网与文化遗产数字化",
+   "innovations": [
+    "首个LLM驱动的FDO合规知识图谱自动化构建流水线，实现58.5%自主解析率",
+    "自动化PID/字面量边界判定：16类语义类型+二元可解析决策+词表路由三合一结构化分类",
+    "跨语言词表单合并验证：17/33手动核查正确，吸收34种形式连接327条记录"
+   ],
+   "benchmarks": [
+    "Europeana考古记录集（637条，5个提供方）",
+    "连通性指标（连通分量数、最大分量占比、跨提供方桥接数）",
+    "类型-词表一致性（PERIOD类62.5%）",
+    "严格词表路由率（73.1%）"
+   ]
+  }
+ }
 }

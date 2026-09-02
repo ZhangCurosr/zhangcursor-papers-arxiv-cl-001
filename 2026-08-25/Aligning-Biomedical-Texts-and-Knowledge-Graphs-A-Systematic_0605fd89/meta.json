@@ -4,5 +4,31 @@
  "title": "Aligning-Biomedical-Texts-and-Knowledge-Graphs-A-Systematic",
  "token": "sk-hwXfRrBR3...",
  "created_at": "2026-08-25 14:42:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/2c683cee-ac45-405d-b0c8-44521223d8d2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/2c683cee-ac45-405d-b0c8-44521223d8d2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 15:37:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Biomedical Knowledge Graph",
+    "Contrastive Learning",
+    "Representation Alignment",
+    "Text-KG Alignment",
+    "CTD-Align",
+    "Knowledge Grounding"
+   ],
+   "field": "生物医学知识图谱与文本对齐",
+   "innovations": [
+    "提出冻结双编码器的轻量对比投影框架，系统比较6个设计维度",
+    "构建首个公开的22K级化学-基因三元组-文献配对数据集CTD-Align",
+    "发现三元组拼接+线性投影+text→KG方向构成最优且最简配置"
+   ],
+   "benchmarks": [
+    "CTD-Align",
+    "D2T (document-to-triple)",
+    "T2D (triple-to-document)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "AgentWeave-Routing-Before-Reasoning-for-Efficient-Function-C",
  "token": "sk-FMTQpgZxg...",
  "created_at": "2026-08-25 14:42:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/4d09af70-13e4-4b30-8a72-38a481312436.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/4d09af70-13e4-4b30-8a72-38a481312436.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 15:37:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "function calling",
+    "tool routing",
+    "agent orchestration",
+    "BFCL",
+    "candidate space construction",
+    "pre-inference routing"
+   ],
+   "field": "工具增强语言模型与Agent编排",
+   "innovations": [
+    "将推理前工具路由形式化为候选空间构建的独立阶段，证明固定模型在不同候选集下行为显著不同",
+    "提出AgentWeave确定性路由层，通过资格/需求/能力信号压缩候选集并改善候选竞争结构",
+    "揭示高召回不等于高成功的候选集竞争悖论，建立冻结复现与反调优的可审计实验范式"
+   ],
+   "benchmarks": [
+    "BFCL V4 multiple-function tasks"
+   ]
+  }
+ }
 }

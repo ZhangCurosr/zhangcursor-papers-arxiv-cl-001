@@ -4,5 +4,30 @@
  "title": "Beyond-Surface-Cues-Disentangling-Sociocultural-Signals-in-M",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-08-25 02:57:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/deae4df9-4692-4259-9909-685ab2c94354.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/deae4df9-4692-4259-9909-685ab2c94354.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 15:39:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multilingual LLM",
+    "sociocultural bias",
+    "cultural auditing",
+    "identity representation",
+    "surface cues",
+    "cross-cultural evaluation"
+   ],
+   "field": "多语言LLM社会文化偏见评估",
+   "innovations": [
+    "提出多层社会文化审计框架，分离偏见表示、身份语义分离与跨文化模式三个分析维度",
+    "引入翻译与命名实体遮蔽双控制，证明表面线索可被误判为文化接地",
+    "构建人机协同的多智能体检审管道，实现80%标记认可率与91%标签一致性"
+   ],
+   "benchmarks": [
+    "Multi-LLM multilingual narrative generation (12 models × 3 languages × 18 occupations × 3 tasks)",
+    "Human-validated cultural marker relevance (624 comparisons, 178 markers)"
+   ]
+  }
+ }
 }

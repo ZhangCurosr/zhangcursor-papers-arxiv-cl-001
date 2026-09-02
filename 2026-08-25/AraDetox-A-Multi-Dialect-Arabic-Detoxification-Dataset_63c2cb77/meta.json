@@ -4,5 +4,30 @@
  "title": "AraDetox-A-Multi-Dialect-Arabic-Detoxification-Dataset",
  "token": "sk-AG7sAmdzS...",
  "created_at": "2026-08-25 14:42:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/03338b9c-2a88-486c-a841-00c3218cc35b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/03338b9c-2a88-486c-a841-00c3218cc35b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 15:37:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "文本解毒",
+    "阿拉伯语NLP",
+    "多方言生成",
+    "LLM合成数据",
+    "有害内容过滤"
+   ],
+   "field": "低资源/多语言NLP",
+   "innovations": [
+    "首个大规模多方言阿拉伯语文本解毒数据集",
+    "揭示了阿拉伯语解毒作为意义保留重写任务的特性",
+    "LLM辅助的大规模合成与多层级人工质检流程"
+   ],
+   "benchmarks": [
+    "AraDetox",
+    "MultiParaDetox-Ar",
+    "Arabic Hate Speech Superset"
+   ]
+  }
+ }
 }

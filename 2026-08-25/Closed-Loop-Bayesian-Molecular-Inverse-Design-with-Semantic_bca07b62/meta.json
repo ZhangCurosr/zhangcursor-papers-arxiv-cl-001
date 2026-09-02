@@ -4,5 +4,34 @@
  "title": "Closed-Loop-Bayesian-Molecular-Inverse-Design-with-Semantic",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-08-25 02:58:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/5a9fa05e-ed73-4da1-b161-b3b743fb4d90.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/5a9fa05e-ed73-4da1-b161-b3b743fb4d90.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 15:40:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "molecular inverse design",
+    "Bayesian optimization",
+    "large language model surrogate",
+    "closed-loop generation",
+    "MolQA",
+    "candidate pool enrichment"
+   ],
+   "field": "分子逆向设计与贝叶斯优化",
+   "innovations": [
+    "将冻结 LLM 作为语义代理，在离散 SMILES 历史上做探索-利用式参考选择",
+    "提出域相关 prompt 接口（药物用 Top-k only、材料用 Top-k+guidance）",
+    "在多种生成器骨干上验证闭环富集优于 one-shot 并与 GP-BO 相当或更强"
+   ],
+   "benchmarks": [
+    "MolQA HIV",
+    "MolQA BBBP",
+    "MolQA BACE",
+    "MolQA CO2",
+    "MolQA O2",
+    "MolQA N2"
+   ]
+  }
+ }
 }

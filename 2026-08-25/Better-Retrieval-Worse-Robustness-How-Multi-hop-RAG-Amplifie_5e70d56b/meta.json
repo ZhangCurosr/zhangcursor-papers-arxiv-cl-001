@@ -4,5 +4,33 @@
  "title": "Better-Retrieval-Worse-Robustness-How-Multi-hop-RAG-Amplifie",
  "token": "sk-iG65PZaJv...",
  "created_at": "2026-08-25 14:42:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/4d7d0fcb-fad6-43ba-a0bc-ddbc23e32257.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/4d7d0fcb-fad6-43ba-a0bc-ddbc23e32257.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 15:39:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-hop RAG",
+    "ASR error propagation",
+    "accent robustness",
+    "entity corruption",
+    "spoken QA",
+    "retrieval-augmented generation",
+    "IRCoT",
+    "HippoRAG"
+   ],
+   "field": "多跳检索增强生成的鲁棒性",
+   "innovations": [
+    "首次系统揭示多跳RAG的结构扩展（实体图链接+迭代重构）会放大而非吸收上游ASR误差",
+    "鉴定查询实体损坏为跨方法和基准的主导失败机制（2WikiMultiHopQA上达87%-96%）",
+    "提出N-best解码与音位实体修正作为诊断探针，揭示轻量表面修正无法弥合结构性差距"
+   ],
+   "benchmarks": [
+    "HotpotQA",
+    "2WikiMultiHopQA",
+    "MuSiQue"
+   ]
+  }
+ }
 }

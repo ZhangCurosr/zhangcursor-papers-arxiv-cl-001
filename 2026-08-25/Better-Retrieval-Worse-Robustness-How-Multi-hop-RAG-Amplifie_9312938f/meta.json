@@ -4,5 +4,31 @@
  "title": "Better-Retrieval-Worse-Robustness-How-Multi-hop-RAG-Amplifie",
  "token": "sk-iG65PZaJv...",
  "created_at": "2026-08-25 02:56:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/4d7d0fcb-fad6-43ba-a0bc-ddbc23e32257.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/4d7d0fcb-fad6-43ba-a0bc-ddbc23e32257.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 15:39:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-hop RAG",
+    "ASR robustness",
+    "speech QA",
+    "entity corruption",
+    "error propagation",
+    "retrieval-augmented generation"
+   ],
+   "field": "多跳语音问答鲁棒性",
+   "innovations": [
+    "揭示多跳RAG结构扩展放大ASR错误而非吸收",
+    "定位查询实体损坏为跨方法主导失败模式",
+    "证明轻量级表面校正无法弥合检索结构放大差距"
+   ],
+   "benchmarks": [
+    "HotpotQA",
+    "2WikiMultiHopQA",
+    "MuSiQue"
+   ]
+  }
+ }
 }

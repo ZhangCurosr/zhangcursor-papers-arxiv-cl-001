@@ -4,5 +4,33 @@
  "title": "Automated-Construction-of-FAIR-Digital-Object-Knowledge-Grap",
  "token": "sk-9ieZJEGxv...",
  "created_at": "2026-08-25 02:56:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/ef4dc337-a0b7-41a0-a40d-116e55064d30.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/ef4dc337-a0b7-41a0-a40d-116e55064d30.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 15:38:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "FAIR Digital Objects",
+    "knowledge graph construction",
+    "entity resolution",
+    "cultural heritage",
+    "CIDOC-CRM",
+    "large language models",
+    "Europeana"
+   ],
+   "field": "文化遗产知识图谱构建",
+   "innovations": [
+    "LLM驱动的FDO合规PID/literal边界自动判定",
+    "FDO原生知识图谱实例化（kernel/metadata分离架构）",
+    "受控词表多级fallback路由链设计"
+   ],
+   "benchmarks": [
+    "Europeana archaeological records (637 records, 12,720 slots)",
+    "Connectivity comparison: G_flat= vs G_FDO",
+    "Type-vocabulary consistency",
+    "Strict vocabulary routing accuracy"
+   ]
+  }
+ }
 }

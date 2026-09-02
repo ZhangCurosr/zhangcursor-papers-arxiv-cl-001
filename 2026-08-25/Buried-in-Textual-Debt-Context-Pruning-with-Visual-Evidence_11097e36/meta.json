@@ -4,5 +4,34 @@
  "title": "Buried-in-Textual-Debt-Context-Pruning-with-Visual-Evidence",
  "token": "sk-1jVZGxTQ1...",
  "created_at": "2026-08-25 14:42:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/e02c7648-476d-49ae-b960-7c986de9aced.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/e02c7648-476d-49ae-b960-7c986de9aced.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 15:40:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Multimodal Large Language Models",
+    "Context Pruning",
+    "Reasoning Compression",
+    "Tool-use Agents",
+    "KL Divergence",
+    "Visual Evidence Preservation",
+    "On-Policy Self-Distillation"
+   ],
+   "field": "多模态大模型高效推理",
+   "innovations": [
+    "提出 SPARE：基于 OPDS 反向 KL 散度的推理段功能冗余诊断框架，首次在测试时以分布偏移度量历史推理的残余覆盖度",
+    "设计自适应摘要触发+选择性剪枝+证据重构的组合策略，在剪除 37.89-64.58% 推理 token 的同时提升或持平任务准确率",
+    "通过 SFT 蒸馏增强摘要器，扩展安全可剪枝区域，在 VTB/MNMS 上分别提升 1.90%/4.83% 准确率"
+   ],
+   "benchmarks": [
+    "GTA",
+    "V*",
+    "BLINK-Jigsaw",
+    "VisualToolBench (VTB)",
+    "m&m's (MNMS)"
+   ]
+  }
+ }
 }

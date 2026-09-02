@@ -4,5 +4,31 @@
  "title": "Beyond-Verdicts-A-Graph-Based-Analysis-of-Human-and-LLM-Reas",
  "token": "sk-RdV3tP4AZ...",
  "created_at": "2026-08-25 14:42:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/4d7badb2-7bd0-40a6-9316-f420b8d518f8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/4d7badb2-7bd0-40a6-9316-f420b8d518f8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 15:39:35",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "scientific fact-checking",
+    "reasoning graph alignment",
+    "LLM explanation evaluation",
+    "fallacy analysis",
+    "verdict-reasoning dissociation"
+   ],
+   "field": "科学事实核查与LLM推理评估",
+   "innovations": [
+    "提出类型化推理图框架实现人机谬误特定子图对齐",
+    "建立非对齐路径的落地性/相关性/充分性三阶验证流程",
+    "揭示判决准确率与推理路径质量在LLM中的可分离性"
+   ],
+   "benchmarks": [
+    "MISSCIPLUS",
+    "HealthFeedback",
+    "SciFact",
+    "HealthFC"
+   ]
+  }
+ }
 }

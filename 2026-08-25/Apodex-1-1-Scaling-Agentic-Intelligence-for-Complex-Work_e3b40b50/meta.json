@@ -4,5 +4,10 @@
  "title": "Apodex-1-1-Scaling-Agentic-Intelligence-for-Complex-Work",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-08-25 02:57:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/ceb6e2be-360f-43c7-a7a4-96ab4cc79492.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/ceb6e2be-360f-43c7-a7a4-96ab4cc79492.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 15:38:09",
+  "chunks": 1
+ }
 }

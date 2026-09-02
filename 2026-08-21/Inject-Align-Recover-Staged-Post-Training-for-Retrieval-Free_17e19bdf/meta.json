@@ -4,5 +4,31 @@
  "title": "Inject-Align-Recover-Staged-Post-Training-for-Retrieval-Free",
  "token": "sk-qKu2Cn1y4...",
  "created_at": "2026-08-21 14:32:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/9f22834e-3f87-45ac-aefa-46500b35ff51.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/9f22834e-3f87-45ac-aefa-46500b35ff51.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 15:36:03",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "检索无关文档内化",
+    "后训练",
+    "模型合并",
+    "知识注入",
+    "灾难性遗忘"
+   ],
+   "field": "大语言模型后训练与知识增强",
+   "innovations": [
+    "三阶段解耦框架 IAR 将文档注入/答案对齐/通用恢复独立优化",
+    "Checkpoint 选择规则以通用指标为护栏自动筛选最优合并比例"
+   ],
+   "benchmarks": [
+    "MMLU",
+    "IFEval",
+    "MSBench",
+    "CC-500K",
+    "CC-5K"
+   ]
+  }
+ }
 }

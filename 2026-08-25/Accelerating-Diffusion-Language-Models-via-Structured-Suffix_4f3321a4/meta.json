@@ -4,5 +4,31 @@
  "title": "Accelerating-Diffusion-Language-Models-via-Structured-Suffix",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-08-25 02:59:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/382287b1-35d4-42ec-b4b8-a5df53d764dc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/382287b1-35d4-42ec-b4b8-a5df53d764dc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 15:36:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Diffusion Language Model",
+    "Suffix Dropout",
+    "Inference Acceleration",
+    "Structured Suffix Modeling",
+    "Parallel Decoding",
+    "Training-free"
+   ],
+   "field": "扩散语言模型推理加速",
+   "innovations": [
+    "将后缀 dropout reformulate 为角色感知的结构化分区建模，区分本地/中部/尾部三区差异化保留",
+    "引入软后缀嵌入混合机制，将前步解码结果加权融合进当前 MASK 表示以实现跨步信息传递"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "MATH",
+    "HumanEval",
+    "MBPP"
+   ]
+  }
+ }
 }

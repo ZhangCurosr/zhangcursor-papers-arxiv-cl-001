@@ -4,5 +4,31 @@
  "title": "Beyond-Surface-Cues-Disentangling-Sociocultural-Signals-in-M",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-08-25 14:42:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/708372a0-d6c3-4b00-9feb-f045551f2188.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/708372a0-d6c3-4b00-9feb-f045551f2188.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 15:39:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多语言LLM",
+    "社会文化偏见",
+    "跨文化评估",
+    "身份语义分离",
+    "表面线索解耦",
+    "多智能体验证"
+   ],
+   "field": "多语言大语言模型社会文化偏见评估",
+   "innovations": [
+    "提出多层次社会文化审计框架，将偏见表征、身份语义分离与跨文化模式统一评估",
+    "首次引入线索删除对照实验量化多语言身份标签对表面词汇的依赖程度",
+    "构建自上下文优势与源语言可分性双指标，证明表面线索易被误判为文化理解"
+   ],
+   "benchmarks": [
+    "18 occupations × 3 tasks (Explicit/Story/News) × 12 LLMs in EN/FR/ZH",
+    "Multilingual E5-large embedding space",
+    "Prolific human validation (39 raters for markers, 116 for labels)"
+   ]
+  }
+ }
 }

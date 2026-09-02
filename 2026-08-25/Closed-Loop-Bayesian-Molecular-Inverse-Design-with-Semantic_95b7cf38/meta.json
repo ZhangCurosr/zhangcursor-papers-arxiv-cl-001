@@ -4,5 +4,10 @@
  "title": "Closed-Loop-Bayesian-Molecular-Inverse-Design-with-Semantic",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-08-25 14:42:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/5a9fa05e-ed73-4da1-b161-b3b743fb4d90.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/5a9fa05e-ed73-4da1-b161-b3b743fb4d90.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 15:41:11",
+  "chunks": 1
+ }
 }

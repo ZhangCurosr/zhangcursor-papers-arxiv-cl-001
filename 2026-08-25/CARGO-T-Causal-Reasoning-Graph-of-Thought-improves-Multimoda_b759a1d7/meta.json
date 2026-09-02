@@ -4,5 +4,32 @@
  "title": "CARGO-T-Causal-Reasoning-Graph-of-Thought-improves-Multimoda",
  "token": "sk-LV19Ft0NN...",
  "created_at": "2026-08-25 14:42:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/b5ac3e30-e99d-45a9-aace-07b352edb01d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/b5ac3e30-e99d-45a9-aace-07b352edb01d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 15:40:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multimodal humor comprehension",
+    "causal reasoning graph",
+    "chain-of-thought",
+    "vision-language model",
+    "in-context learning",
+    "humor detection",
+    "humor understanding"
+   ],
+   "field": "多模态幽默理解与因果推理",
+   "innovations": [
+    "提出CARGO-T框架，将因果推理图以代码形式作为VLM的中间推理组件",
+    "首次将cause-effect因果图用于开放域多模态幽默理解任务",
+    "通过KL散度/LSF/INFERSCORE三项信息论指标量化推理组件质量"
+   ],
+   "benchmarks": [
+    "YesBut",
+    "MemeCap",
+    "MMSD 2.0"
+   ]
+  }
+ }
 }

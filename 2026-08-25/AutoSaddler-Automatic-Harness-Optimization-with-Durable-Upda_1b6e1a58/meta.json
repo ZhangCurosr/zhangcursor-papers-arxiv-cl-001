@@ -4,5 +4,31 @@
  "title": "AutoSaddler-Automatic-Harness-Optimization-with-Durable-Upda",
  "token": "sk-Hms67LeAf...",
  "created_at": "2026-08-25 03:00:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/e4942a58-b274-4548-9712-d0296d9f690b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/e4942a58-b274-4548-9712-d0296d9f690b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 15:38:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM Agent",
+    "Harness Optimization",
+    "Automatic Prompt Tuning",
+    "Failure Diagnosis",
+    "Offline Learning",
+    "Agent Reliability"
+   ],
+   "field": "LLM智能体系统与自动化优化",
+   "innovations": [
+    "将harness优化形式化为离线学习任务，结合minibatch失败信号迭代更新",
+    "提出三层结构化补丁体系（Prompt/Tool/Middleware）与分阶段调度策略",
+    "引入EvoDAG进化记忆结构支持跨分支重组与回归回滚"
+   ],
+   "benchmarks": [
+    "GAIA2",
+    "SWE-Bench Pro",
+    "Terminal-Bench 2.0"
+   ]
+  }
+ }
 }

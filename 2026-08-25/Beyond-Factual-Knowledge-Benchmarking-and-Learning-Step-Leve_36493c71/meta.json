@@ -4,5 +4,28 @@
  "title": "Beyond-Factual-Knowledge-Benchmarking-and-Learning-Step-Leve",
  "token": "sk-SDuVT3fV1...",
  "created_at": "2026-08-25 02:59:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/45968db1-1ef9-4196-bb51-a775edd55413.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/45968db1-1ef9-4196-bb51-a775edd55413.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 15:39:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "程序性规则推理",
+    "KV cache 注入",
+    "检索增强生成",
+    "多步推理",
+    "规则定位"
+   ],
+   "field": "大语言模型推理与检索",
+   "innovations": [
+    "提出 RuleWorld 百万级共享规则基准",
+    "提出 DynaRule 端到端 KV 缓存注入与步骤级动态检索框架",
+    "引入置信层识别与堆叠步骤级注意力损失"
+   ],
+   "benchmarks": [
+    "RuleWorld"
+   ]
+  }
+ }
 }
