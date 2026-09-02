@@ -4,5 +4,34 @@
  "title": "Molecular-LLM-Agents-From-Architectural-Design-to-Scientific",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-25 14:42:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/b9d89080-6703-4e59-89c8-eb50a83d1ceb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/b9d89080-6703-4e59-89c8-eb50a83d1ceb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:11:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Molecular LLM Agents",
+    "Scientific Autonomy",
+    "Molecular Discovery",
+    "Self-driving Laboratories",
+    "Chemical AI",
+    "Agent Framework"
+   ],
+   "field": "分子发现与科学Agent",
+   "innovations": [
+    "提出架构视角与科学自主性阶梯(L1-L4)的双视角框架",
+    "形式化定义计算/实验/议程三类反馈环闭合指标",
+    "识别L4科学议程自主性的证据缺口"
+   ],
+   "benchmarks": [
+    "MolViBench",
+    "MolBench",
+    "MADE",
+    "MDGym",
+    "ScienceAgentBench",
+    "SciAgentArena"
+   ]
+  }
+ }
 }

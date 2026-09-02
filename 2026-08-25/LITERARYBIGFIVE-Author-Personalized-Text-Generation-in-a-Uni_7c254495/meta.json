@@ -4,5 +4,33 @@
  "title": "LITERARYBIGFIVE-Author-Personalized-Text-Generation-in-a-Uni",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-25 02:58:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/097b4618-5841-42dc-bcbe-7e71a456e511.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/097b4618-5841-42dc-bcbe-7e71a456e511.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:09:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "个性化文本生成",
+    "激活空间引导",
+    "文学风格建模",
+    "可解释AI",
+    "零样本作者适配"
+   ],
+   "field": "个性化文本生成 / 语言模型可解释性",
+   "innovations": [
+    "将作者风格建模为统一五维可解释空间而非孤立标签",
+    "提出SVD轴分解去除全局表达性共享分量以实现维度解耦",
+    "设计基于动态风格隙的零样本逐token激活引导机制"
+   ],
+   "benchmarks": [
+    "LLaMA2-7B-Chat",
+    "Qwen2.5-3B-Instruct",
+    "ROUGE-1/L",
+    "BGE Embedding Similarity",
+    "GPT-4 Judge (SF/AA)",
+    "Human Evaluation"
+   ]
+  }
+ }
 }

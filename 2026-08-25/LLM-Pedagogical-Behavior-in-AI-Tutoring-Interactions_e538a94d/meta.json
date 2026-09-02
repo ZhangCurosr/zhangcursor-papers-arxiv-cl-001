@@ -4,5 +4,30 @@
  "title": "LLM-Pedagogical-Behavior-in-AI-Tutoring-Interactions",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-08-25 14:42:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/1a642ab3-a7b9-4ffb-b062-cc45339e35a1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/1a642ab3-a7b9-4ffb-b062-cc45339e35a1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:10:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM tutoring",
+    "scaffolding level",
+    "educational dialogue",
+    "StudyChat",
+    "assistance dilemma",
+    "AI education evaluation"
+   ],
+   "field": "教育大模型交互分析",
+   "innovations": [
+    "构建并验证五级LLM支架水平量表",
+    "确立通用LLM无提示辅导行为的高支架基线",
+    "实证区分交互行为关联与学业成绩增量预测的边界"
+   ],
+   "benchmarks": [
+    "StudyChat dataset",
+    "Exam performance prediction"
+   ]
+  }
+ }
 }

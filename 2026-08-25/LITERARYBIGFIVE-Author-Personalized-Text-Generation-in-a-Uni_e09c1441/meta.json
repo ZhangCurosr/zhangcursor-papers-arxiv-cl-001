@@ -4,5 +4,31 @@
  "title": "LITERARYBIGFIVE-Author-Personalized-Text-Generation-in-a-Uni",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-25 14:42:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/17e8f389-70f4-4d02-98d8-da03f1362753.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/17e8f389-70f4-4d02-98d8-da03f1362753.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:09:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Personalized Text Generation",
+    "Activation Steering",
+    "Interpretable Latent Space",
+    "Stylometric Dimensions",
+    "Big Five Model"
+   ],
+   "field": "可控文本生成与风格迁移",
+   "innovations": [
+    "提出统一五维可解释文学风格空间，将作者建模为坐标而非孤立标签",
+    "引入轴分解（SVD-based）消除共享表达性方向，显著降低轴间共线性",
+    "Localize-and-Steer 机制实现零样本新作者自适应，无需额外微调"
+   ],
+   "benchmarks": [
+    "Reflections on the Revolution in France",
+    "1984",
+    "Kidnapped",
+    "Pride and Prejudice"
+   ]
+  }
+ }
 }

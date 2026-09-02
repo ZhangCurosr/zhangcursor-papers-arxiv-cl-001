@@ -4,5 +4,34 @@
  "title": "Meta-Moderator-Empowering-Multi-Agent-Debate-with-Meta-Cogni",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-08-25 02:59:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/2fa407af-0b90-4777-bc9c-a6d4a344e289.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/2fa407af-0b90-4777-bc9c-a6d4a344e289.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:10:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-agent debate",
+    "meta-cognition",
+    "reinforcement learning",
+    "GRPO",
+    "adaptive stopping",
+    "multi-agent moderation",
+    "LLM reasoning"
+   ],
+   "field": "多智能体推理与元认知调控",
+   "innovations": [
+    "将多智能体辩论的调节器建模为可学习的元认知策略，通过监控-控制-裁决闭环自适应终止与聚合",
+    "基于 GRPO 与三源奖励（格式/过程控制/最终正确性）独立训练调节策略，与辩论者解耦",
+    "证明调节能力跨任务、跨骨干规模与跨辩论组数可迁移，并通过解耦 oracle availability 与 mis-aggregation 解释增益来源"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "AMC",
+    "MATH500",
+    "StrategyQA",
+    "MMLU"
+   ]
+  }
+ }
 }

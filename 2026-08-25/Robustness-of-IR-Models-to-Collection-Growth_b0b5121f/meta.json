@@ -4,5 +4,32 @@
  "title": "Robustness-of-IR-Models-to-Collection-Growth",
  "token": "sk-AsgiqoBdE...",
  "created_at": "2026-08-25 14:42:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/f3595fee-ec10-4115-b957-4cb3d272f395.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/f3595fee-ec10-4115-b957-4cb3d272f395.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:12:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Information Retrieval",
+    "Robustness",
+    "Collection Growth",
+    "MDA",
+    "MDD",
+    "Pseudo-Relevance Feedback",
+    "Re-ranking"
+   ],
+   "field": "信息检索鲁棒性与动态集合评估",
+   "innovations": [
+    "提出 Collection Growth Axiom 形式化无关文档添加下的检索不变性",
+    "建立 MDA/MDD 双轴分类体系揭示集合增长敏感根源",
+    "发现 PRF 模块对大集合的系统性偏向"
+   ],
+   "benchmarks": [
+    "DL-2019",
+    "TREC-COVID",
+    "MS MARCO Passage"
+   ]
+  }
+ }
 }

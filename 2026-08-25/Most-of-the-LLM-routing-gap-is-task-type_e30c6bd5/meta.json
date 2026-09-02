@@ -4,5 +4,34 @@
  "title": "Most-of-the-LLM-routing-gap-is-task-type",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-08-25 14:42:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/4619c52d-1d12-4b4c-a93a-509676494b62.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/4619c52d-1d12-4b4c-a93a-509676494b62.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:11:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM routing",
+    "router plateau",
+    "task type decomposition",
+    "multilingual evaluation",
+    "reproducibility floor",
+    "static lookup baseline",
+    "both-run scoring"
+   ],
+   "field": "大语言模型路由与组合",
+   "innovations": [
+    "以双重复测量化名义确定性配置的执行噪声（5.37% cell翻转率）作为路由收益判定下限",
+    "证明Oracle与最佳单模型之间72.4%的缺口可由按任务类型的静态单模型预分配吸收",
+    "提出无符号边际平局规则，抑制跨轮符号翻转的伪优势并优先按账单择低"
+   ],
+   "benchmarks": [
+    "MMLU-ProX",
+    "MGSM",
+    "IFEval",
+    "BFCL v4",
+    "LiveCodeBench"
+   ]
+  }
+ }
 }

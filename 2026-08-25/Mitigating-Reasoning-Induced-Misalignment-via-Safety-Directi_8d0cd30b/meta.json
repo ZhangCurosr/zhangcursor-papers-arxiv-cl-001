@@ -4,5 +4,34 @@
  "title": "Mitigating-Reasoning-Induced-Misalignment-via-Safety-Directi",
  "token": "sk-dQ65jxzP4...",
  "created_at": "2026-08-25 14:42:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/06d256f8-1c37-4cc5-a26e-53d066732dc7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/06d256f8-1c37-4cc5-a26e-53d066732dc7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:10:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RIM",
+    "Safety-Direction Penalty",
+    "表征空间分析",
+    "推理微调安全",
+    "CKA",
+    "compensation",
+    "安全对齐"
+   ],
+   "field": "大语言模型安全对齐与微调鲁棒性",
+   "innovations": [
+    "提出基于表征空间几何耦合的 SDP 训练期惩罚，无需安全训练数据即可恢复推理微调导致的安全退化",
+    "建立 CKA 距离比与安全决策探针联合的定位管道，实现诊断驱动的层作用域自适应扩展",
+    "揭示 RIM 是条件性现象并通过 3B/7B/14B 跨尺度与跨架构检查刻画其出现边界"
+   ],
+   "benchmarks": [
+    "HEx-PHI",
+    "SafetyBench",
+    "GPQA",
+    "AIME 2024",
+    "AIME 2025"
+   ]
+  }
+ }
 }

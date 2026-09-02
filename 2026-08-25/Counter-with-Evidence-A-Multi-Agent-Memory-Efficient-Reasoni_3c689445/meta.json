@@ -4,5 +4,31 @@
  "title": "Counter-with-Evidence-A-Multi-Agent-Memory-Efficient-Reasoni",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-25 02:56:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/aa4079a6-1f0d-46fc-8d52-f44442c3282d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/aa4079a6-1f0d-46fc-8d52-f44442c3282d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:08:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "counterspeech generation",
+    "multi-agent reasoning",
+    "hate speech categorization",
+    "retrieval-augmented generation",
+    "memory-efficient AI",
+    "factuality-grounded generation"
+   ],
+   "field": "自然语言处理-社会计算与仇恨言论应对",
+   "innovations": [
+    "两阶段多智能体框架FIRE实现仇恨语义分解与证据化生成",
+    "监督对比记忆模块驱动零微调生成专业化",
+    "Purity Score不确定性感知机制缓解错误级联传播"
+   ],
+   "benchmarks": [
+    "FactualCS",
+    "IntentCONANv2",
+    "CrowdCounter"
+   ]
+  }
+ }
 }

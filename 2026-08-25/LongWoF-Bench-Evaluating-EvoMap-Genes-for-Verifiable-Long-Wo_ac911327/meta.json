@@ -4,5 +4,29 @@
  "title": "LongWoF-Bench-Evaluating-EvoMap-Genes-for-Verifiable-Long-Wo",
  "token": "sk-yJ5h9Go8b...",
  "created_at": "2026-08-25 14:42:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/4494f426-c28d-4d4b-b644-4d05d31a7bab.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/4494f426-c28d-4d4b-b644-4d05d31a7bab.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:10:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "verifiable long-workflow",
+    "EvoMap Gene",
+    "experience provenance",
+    "skill vs gene",
+    "agent evaluation",
+    "cross-model reuse"
+   ],
+   "field": "Agent 经验复用与可验证工作流评测",
+   "innovations": [
+    "提出 LongWoF-Bench 端到端严格验证基准并统一四类长工作流评测",
+    "通过对照证实 evolved Gene 显著优于 Skill 且增益跨模型迁移",
+    "揭示经验来源（provenance）比紧凑表征形式对复用效用更为关键"
+   ],
+   "benchmarks": [
+    "LongWoF-Bench"
+   ]
+  }
+ }
 }

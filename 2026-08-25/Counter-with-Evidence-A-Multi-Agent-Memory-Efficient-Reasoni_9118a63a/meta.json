@@ -4,5 +4,29 @@
  "title": "Counter-with-Evidence-A-Multi-Agent-Memory-Efficient-Reasoni",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-25 14:42:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/aa4079a6-1f0d-46fc-8d52-f44442c3282d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/aa4079a6-1f0d-46fc-8d52-f44442c3282d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:09:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "counterspeech generation",
+    "multi-agent reasoning",
+    "hate speech classification",
+    "retrieval-augmented generation",
+    "memory-efficient LLM",
+    "evidence-based generation"
+   ],
+   "field": "对抗性文本生成与仇恨言论缓解",
+   "innovations": [
+    "提出FIRE两阶段多智能体框架，无需微调即实现类别感知的证据化反驳生成",
+    "构建FactualCS数据集，首次提供仇恨类别、推理链和证据映射的密度标注",
+    "设计纯prompt-based紧凑智能体方案，以2×1.7B参数匹敌8B单体模型性能"
+   ],
+   "benchmarks": [
+    "FactualCS"
+   ]
+  }
+ }
 }

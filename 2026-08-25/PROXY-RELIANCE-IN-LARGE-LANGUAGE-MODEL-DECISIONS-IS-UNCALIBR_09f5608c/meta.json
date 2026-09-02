@@ -4,5 +4,30 @@
  "title": "PROXY-RELIANCE-IN-LARGE-LANGUAGE-MODEL-DECISIONS-IS-UNCALIBR",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-08-25 14:42:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/7fae7257-85c9-4235-8103-b15412cdbaee.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/7fae7257-85c9-4235-8103-b15412cdbaee.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:11:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "proxy discrimination",
+    "algorithmic audit",
+    "counterfactual fairness",
+    "large language models",
+    "equity evaluation",
+    "mechanistic interpretability"
+   ],
+   "field": "LLM算法公平性与可审计性",
+   "innovations": [
+    "提出证据支持水平作为代理依赖的定量参考基准，将二分审计升级为三分判决",
+    "证明LLM代理依赖与证据强度呈严重脱钩（斜率γ远偏离1），依赖几乎为固定高位水平",
+    "揭示上下文示例下的社会标签抑制极其脆弱，即使正交化清洗示例仍引发有害依赖"
+   ],
+   "benchmarks": [
+    "Synthetic clinical ranking task (ground-truth known)",
+    "Seven public clinical datasets for structural anchoring (UCI)"
+   ]
+  }
+ }
 }

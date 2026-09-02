@@ -4,5 +4,34 @@
  "title": "Meta-Moderator-Empowering-Multi-Agent-Debate-with-Meta-Cogni",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-08-25 14:42:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/2fa407af-0b90-4777-bc9c-a6d4a344e289.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/2fa407af-0b90-4777-bc9c-a6d4a344e289.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:10:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多智能体辩论",
+    "元认知",
+    "强化学习",
+    "GRPO",
+    "LLM推理",
+    "自适应停止",
+    "决策层优化"
+   ],
+   "field": "多智能体大语言模型推理",
+   "innovations": [
+    "将多智能体辩论调解建模为可学习的元认知策略（监控-控制-裁决闭环）",
+    "通过结果驱动GRPO独立训练调解策略，无需微调辩论者",
+    "提出coverage与mis-aggregation分解分析框架以诊断辩论系统瓶颈"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "AMC",
+    "MATH500",
+    "StrategyQA",
+    "MMLU"
+   ]
+  }
+ }
 }

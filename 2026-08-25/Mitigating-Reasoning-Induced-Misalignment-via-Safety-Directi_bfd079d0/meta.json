@@ -4,5 +4,30 @@
  "title": "Mitigating-Reasoning-Induced-Misalignment-via-Safety-Directi",
  "token": "sk-dQ65jxzP4...",
  "created_at": "2026-08-25 02:59:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/06d256f8-1c37-4cc5-a26e-53d066732dc7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/06d256f8-1c37-4cc5-a26e-53d066732dc7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:10:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Reasoning-Induced Misalignment",
+    "Safety Alignment",
+    "Safety-Direction Penalty",
+    "Activation Space",
+    "Fine-tuning Safety"
+   ],
+   "field": "大语言模型安全对齐",
+   "innovations": [
+    "通过表征空间方向耦合分析解释RIM机制并定位安全决策层",
+    "提出无需安全数据的安全方向惩罚SDP训练时缓解方法"
+   ],
+   "benchmarks": [
+    "HEx-PHI",
+    "SafetyBench",
+    "GPQA",
+    "AIME"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "LLM-Pedagogical-Behavior-in-AI-Tutoring-Interactions",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-08-25 02:57:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/1a642ab3-a7b9-4ffb-b062-cc45339e35a1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/1a642ab3-a7b9-4ffb-b062-cc45339e35a1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:10:12",
+  "chunks": 1
+ }
 }

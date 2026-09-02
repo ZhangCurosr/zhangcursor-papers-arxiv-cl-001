@@ -4,5 +4,32 @@
  "title": "Language-Chain-in-Alignment-Cross-Lingual-Ranking-Preference",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-25 02:59:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/a3a65a91-04d5-4fb9-8f50-2bcbccc24379.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/a3a65a91-04d5-4fb9-8f50-2bcbccc24379.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:10:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多语言对齐",
+    "偏好优化",
+    "跨语言排序",
+    "Direct Preference Optimization",
+    "Learning-to-Rank",
+    "大语言模型"
+   ],
+   "field": "多语言大模型对齐与偏好学习",
+   "innovations": [
+    "将LambdaLoss列表级排序引入跨语言偏好对齐，构建英-目四元层级结构",
+    "设计平衡语言一致性与响应质量的自定义增益函数，防止语言匹配信号淹没质量优化",
+    "揭示CRPO通过提升优选响应log-probability而非仅压制拒选响应来实现稳定跨语言对齐"
+   ],
+   "benchmarks": [
+    "AlpacaEval (Multilingual)",
+    "MMMLU",
+    "Belebele",
+    "Arena-Hard"
+   ]
+  }
+ }
 }

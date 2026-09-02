@@ -4,5 +4,32 @@
  "title": "Most-of-the-LLM-routing-gap-is-task-type",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-08-25 03:00:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/4619c52d-1d12-4b4c-a93a-509676494b62.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/4619c52d-1d12-4b4c-a93a-509676494b62.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:11:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM routing",
+    "model selection",
+    "task type decomposition",
+    "reproducibility",
+    "cost-aware routing"
+   ],
+   "field": "大语言模型路由与调度",
+   "innovations": [
+    "首次系统分解路由gap至任务类型与语言结构，发现72.4%可通过静态查找恢复",
+    "建立严格的执行噪声基底测量方法（5.37%翻转率），提出resolved/unresolved判定程序"
+   ],
+   "benchmarks": [
+    "RouterBench",
+    "MMLU-ProX",
+    "MGSM",
+    "IFEval",
+    "BFCL v4",
+    "LiveCodeBench"
+   ]
+  }
+ }
 }

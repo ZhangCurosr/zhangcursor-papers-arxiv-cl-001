@@ -4,5 +4,10 @@
  "title": "Prime-Agent-A-Self-Improving-RLM-Harness",
  "token": "sk-EqwJR1nOB...",
  "created_at": "2026-08-25 14:41:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/883045df-6b6b-4de8-9f91-3b6bafc7f87d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/883045df-6b6b-4de8-9f91-3b6bafc7f87d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:12:40",
+  "chunks": 1
+ }
 }

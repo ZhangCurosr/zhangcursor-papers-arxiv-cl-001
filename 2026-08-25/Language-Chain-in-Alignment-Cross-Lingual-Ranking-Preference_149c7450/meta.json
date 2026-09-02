@@ -4,5 +4,31 @@
  "title": "Language-Chain-in-Alignment-Cross-Lingual-Ranking-Preference",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-25 14:42:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/a3a65a91-04d5-4fb9-8f50-2bcbccc24379.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/a3a65a91-04d5-4fb9-8f50-2bcbccc24379.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:10:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "跨语言对齐",
+    "偏好优化",
+    "排序学习",
+    "LambdaLoss",
+    "多语言LLM"
+   ],
+   "field": "多语言大语言模型对齐",
+   "innovations": [
+    "提出CRPO框架将LambdaLoss引入跨语言偏好优化，构建四层分层排序结构联合优化语言一致性与响应质量",
+    "设计平衡增益函数(9,7,5,4)防止语言匹配信号淹没质量优化",
+    "揭示CRPO通过提升优选响应生成概率而非仅抑制拒绝响应实现更好对齐的内在机制"
+   ],
+   "benchmarks": [
+    "AlpacaEval",
+    "MMMLU",
+    "Belebele",
+    "Arena-Hard"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "Preprint-of-the-paper",
  "token": "sk-fYugtz9Wo...",
  "created_at": "2026-08-25 14:42:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/3afa386f-d330-4fd5-b79e-aa30a62ba90b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/3afa386f-d330-4fd5-b79e-aa30a62ba90b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:12:21",
+  "chunks": 1
+ }
 }

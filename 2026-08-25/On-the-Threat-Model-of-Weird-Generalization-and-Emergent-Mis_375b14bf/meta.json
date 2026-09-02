@@ -4,5 +4,34 @@
  "title": "On-the-Threat-Model-of-Weird-Generalization-and-Emergent-Mis",
  "token": "sk-qKu2Cn1y4...",
  "created_at": "2026-08-25 14:41:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/90996e38-0255-40f9-8195-b8986a2f8256.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/90996e38-0255-40f9-8195-b8986a2f8256.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:11:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "weird generalization",
+    "emergent misalignment",
+    "fine-tuning safety",
+    "data poisoning",
+    "LLM alignment",
+    "adversarial threat model",
+    "evaluation robustness"
+   ],
+   "field": "大语言模型安全与对齐",
+   "innovations": [
+    "系统分析微调数据特征（构成/语言/新颖性）对WG的多维影响",
+    "发现数据构成是WG最强抑制因子——20%通用数据即可几乎完全消除WG",
+    "证明小问题集评估显著高估WG泛化程度并提供bootstrap稳健性检验方法"
+   ],
+   "benchmarks": [
+    "Birds",
+    "Medicine",
+    "Harry Potter",
+    "Extreme Sports",
+    "databricks-dolly-15k"
+   ]
+  }
+ }
 }

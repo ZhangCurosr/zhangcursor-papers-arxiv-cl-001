@@ -4,5 +4,32 @@
  "title": "SAVER-Selective-Auditing-of-Verbal-Evidence-for-Error-Recove",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-08-25 14:42:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/70ef5437-6fa4-4efb-87ef-62380ae422b6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/70ef5437-6fa4-4efb-87ef-62380ae422b6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:13:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视觉语言模型",
+    "变化检测",
+    "表达失败",
+    "选择性推理",
+    "测试时方法",
+    "证据门控",
+    "链式思考"
+   ],
+   "field": "视觉语言模型推理与验证",
+   "innovations": [
+    "提出首个仅依赖输出文本的规则式证据门控机制以检测表达失败",
+    "证明门控选择性而非重提示本身是性能提升的关键",
+    "揭示表达失败与感知失败的边界并给出部署前预测指标"
+   ],
+   "benchmarks": [
+    "CLEVR-Change",
+    "MagicBrush",
+    "Spot-the-Diff"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "Cognitive-Profiling-of-LRMs-Reasoning-Traces-Using-Bloom-s-T",
  "token": "sk-haVkJ3VAf...",
  "created_at": "2026-08-25 14:42:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/c3a1de21-795d-4675-af1e-8a9815f77625.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/c3a1de21-795d-4675-af1e-8a9815f77625.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:08:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Bloom's Taxonomy",
+    "Reasoning Traces",
+    "Cognitive Profiling",
+    "Large Reasoning Models",
+    "Chain-of-Thought",
+    "Reasoning Analysis"
+   ],
+   "field": "大语言模型推理分析",
+   "innovations": [
+    "提出首个基于Bloom's Taxonomy的LRM推理轨迹自动标注框架",
+    "揭示跨模型共享的数学推理认知弧线及任务特异性差异",
+    "建立认知层级转移特征与推理正确性的量化关联"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "GSM-hard",
+    "MATH500",
+    "BBH Formal Fallacies",
+    "BBH Hyperbaton"
+   ]
+  }
+ }
 }

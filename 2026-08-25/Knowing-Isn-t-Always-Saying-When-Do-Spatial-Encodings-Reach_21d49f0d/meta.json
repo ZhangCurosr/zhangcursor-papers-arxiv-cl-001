@@ -4,5 +4,10 @@
  "title": "Knowing-Isn-t-Always-Saying-When-Do-Spatial-Encodings-Reach",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-08-25 03:00:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/8c46e826-2e38-438e-8592-082a63d7c7e2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/8c46e826-2e38-438e-8592-082a63d7c7e2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:09:40",
+  "chunks": 1
+ }
 }

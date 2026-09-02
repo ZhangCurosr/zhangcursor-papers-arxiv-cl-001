@@ -4,5 +4,31 @@
  "title": "How-Useful-are-LLMs-for-Grammar-Engineering-Cantonese-ParGra",
  "token": "sk-ZHrWl9Czg...",
  "created_at": "2026-08-25 02:57:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/d610d89b-220a-409b-88f0-8675b5c19188.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/d610d89b-220a-409b-88f0-8675b5c19188.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:09:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM grammar engineering",
+    "LFG",
+    "XLE",
+    "Cantonese ParGram",
+    "controlled evaluation",
+    "rule generation",
+    "f-structure"
+   ],
+   "field": "计算句法学/语法工程",
+   "innovations": [
+    "提出AR/QR双维度评估体系，揭示规则形式正确性与解析质量差距",
+    "设计受控实验系统比较LLMs在单/多构造语法生成中的表现",
+    "建立粤语ParGram树库资源并验证跨语言基线效应"
+   ],
+   "benchmarks": [
+    "粤语ParGram 50句测试集",
+    "英语ParGram基线"
+   ]
+  }
+ }
 }
