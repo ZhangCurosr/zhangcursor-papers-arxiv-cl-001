@@ -4,5 +4,35 @@
  "title": "A-Comprehensive-Analysis-of-Arabic-Natural-Language-Processi",
  "token": "sk-331OfnzjD...",
  "created_at": "2026-08-25 14:41:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/f3abba4c-712a-40cc-a38a-8281d915912d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/f3abba4c-712a-40cc-a38a-8281d915912d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:40:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "阿拉伯语NLP",
+    "文献计量分析",
+    "主题建模",
+    "BERTopic",
+    "任务-方言缺口",
+    "方言处理",
+    "大语言模型",
+    "引用分析"
+   ],
+   "field": "低资源语言NLP / 文献计量学",
+   "innovations": [
+    "首个面向阿拉伯语NLP的大规模跨源文献元数据集与开放语料库",
+    "任务-方言缺口矩阵：系统量化7类NLP任务与11种阿拉伯语方言的组合覆盖情况",
+    "基于OLS回归的阿拉伯语NLP引文影响力影响因素分析"
+   ],
+   "benchmarks": [
+    "AraBERT",
+    "ARBERT/MARBERT",
+    "Jais",
+    "AceGPT",
+    "ALLaM"
+   ]
+  }
+ }
 }

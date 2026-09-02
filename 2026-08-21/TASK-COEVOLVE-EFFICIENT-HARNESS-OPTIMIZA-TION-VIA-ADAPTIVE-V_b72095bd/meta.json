@@ -4,5 +4,32 @@
  "title": "TASK-COEVOLVE-EFFICIENT-HARNESS-OPTIMIZA-TION-VIA-ADAPTIVE-V",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-08-21 03:00:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/81c098fc-6250-4167-9774-1b5276cea691.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/81c098fc-6250-4167-9774-1b5276cea691.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:37:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "harness optimization",
+    "adaptive validation task selection",
+    "variance-weighted sampling",
+    "Horvitz-Thompson estimation",
+    "efficient LLM evaluation",
+    "agent self-improvement"
+   ],
+   "field": "LLM Agent Harness 自动化优化",
+   "innovations": [
+    "提出方差加权自适应验证任务选择（VWS）以聚焦能力前沿任务",
+    "设计采样感知全量性能估计（SaFE）实现跨迭代可比性评估",
+    "在7%-20%评估预算下逼近或超越全量搜索，Terminal-Bench成本降67%-80%"
+   ],
+   "benchmarks": [
+    "LawBench",
+    "Symptom2Disease",
+    "USPTO-50k",
+    "Terminal-Bench 2.1"
+   ]
+  }
+ }
 }

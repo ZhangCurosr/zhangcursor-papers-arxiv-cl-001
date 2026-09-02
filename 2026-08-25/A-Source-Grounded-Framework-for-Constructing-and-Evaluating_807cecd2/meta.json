@@ -4,5 +4,10 @@
  "title": "A-Source-Grounded-Framework-for-Constructing-and-Evaluating",
  "token": "sk-vCwdEIcnG...",
  "created_at": "2026-08-25 02:59:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/31838829-91c9-437d-8ec3-058a2e4f0b1a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/31838829-91c9-437d-8ec3-058a2e4f0b1a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:40:55",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Truncate-Bad-Upweight-Good-BoN-Style-Distillation-via-Rank-B",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-08-21 14:32:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/0d5fcdfd-1c95-4b8e-9bee-4a522a3ddde8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/0d5fcdfd-1c95-4b8e-9bee-4a522a3ddde8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:38:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Best-of-N Distillation",
+    "Rank-Based Alignment",
+    "Offline Policy Optimization",
+    "Reward Model",
+    "Direct Preference Optimization"
+   ],
+   "field": "大语言模型对齐与偏好优化",
+   "innovations": [
+    "提出TUP截断-上加重策略，将下尾硬截除与上尾软重加权解耦为两个独立超参",
+    "证明在oracle win-rate准则下，最佳单调排名重加权可由硬下尾截断规则匹配",
+    "将BoN式蒸馏转化为prompt无关归一化的BCE二分类问题，实现纯离线训练"
+   ],
+   "benchmarks": [
+    "UltraFeedback",
+    "Magpie Air",
+    "AlpacaEval",
+    "RewardBench"
+   ]
+  }
+ }
 }

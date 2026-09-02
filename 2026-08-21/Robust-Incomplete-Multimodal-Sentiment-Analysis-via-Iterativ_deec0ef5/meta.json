@@ -4,5 +4,29 @@
  "title": "Robust-Incomplete-Multimodal-Sentiment-Analysis-via-Iterativ",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-08-21 14:32:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/82e68fe3-e1aa-47e3-af1c-5987e20ddf29.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/82e68fe3-e1aa-47e3-af1c-5987e20ddf29.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:34:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "不完整多模态情感分析",
+    "代理校正",
+    "多模态融合",
+    "门控残差",
+    "模态缺失鲁棒性"
+   ],
+   "field": "不完整多模态学习",
+   "innovations": [
+    "提出迭代代理校正框架，通过门控残差机制在多步迭代中渐进精炼语言代理，缓解一次性代理的错误传播风险",
+    "设计阶段式潜在校正目标，以完整语言表征为语义锚点并按校正步数递增权重，稳定代理精炼轨迹"
+   ],
+   "benchmarks": [
+    "MOSI",
+    "MOSEI",
+    "SIMS"
+   ]
+  }
+ }
 }

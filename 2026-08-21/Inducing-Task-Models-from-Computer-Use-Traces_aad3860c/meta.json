@@ -4,5 +4,30 @@
  "title": "Inducing-Task-Models-from-Computer-Use-Traces",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-08-21 14:32:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/c3443ec0-1854-4c95-ab49-628eb637aaa5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/c3443ec0-1854-4c95-ab49-628eb637aaa5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:33:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "computer-use traces",
+    "task model induction",
+    "latent task discovery",
+    "hierarchical goal decomposition",
+    "control flow induction",
+    "agent skill transfer"
+   ],
+   "field": "人机交互与智能体行为建模",
+   "innovations": [
+    "提出TMI三阶段框架：事件接地+活动分割、潜在任务诱导、目标/程序模型调和",
+    "形式化任务模型表示，每个节点配对目标与控制流算子",
+    "证明诱导任务模型作为skill源可较基线提升held-out准确率30%"
+   ],
+   "benchmarks": [
+    "HumanWork",
+    "SkillLearnBench"
+   ]
+  }
+ }
 }

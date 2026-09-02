@@ -4,5 +4,34 @@
  "title": "The-Asymmetric-Harms-of-LLM-Compression",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-21 03:04:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/2c0643e8-90d6-4924-85bd-f9ee7ff697e8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/2c0643e8-90d6-4924-85bd-f9ee7ff697e8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:37:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM压缩",
+    "知识保留",
+    "模型置信度",
+    "社会偏见",
+    "量化",
+    "剪枝",
+    "评估基准"
+   ],
+   "field": "大语言模型压缩与可信部署",
+   "innovations": [
+    "提出相对保留偏移(RS)指标揭示head知识比例损失大于tail",
+    "发现压缩后模型对丢失知识保持中高置信度（0.4-0.6）",
+    "揭示aggregate bias稳定可掩盖子群极端偏移（如secretary -53.1pp vs整体-2.2pp）"
+   ],
+   "benchmarks": [
+    "PopQA",
+    "Head-to-Tail",
+    "WinoBias",
+    "BBQ",
+    "WikiText-2"
+   ]
+  }
+ }
 }

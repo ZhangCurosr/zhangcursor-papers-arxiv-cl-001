@@ -4,5 +4,31 @@
  "title": "WHEN-TEXT-AND-NUMBERS-DISAGREE-EVIDENCE-ARBITRATION-IN-LARGE",
  "token": "sk-vBvZ06NsJ...",
  "created_at": "2026-08-21 03:01:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/525a3376-2fa5-4ac3-876b-1839703f7240.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/525a3376-2fa5-4ac3-876b-1839703f7240.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:38:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Evidence Arbitration",
+    "Text-Numerical Conflict",
+    "Large Language Models",
+    "Multimodal Reasoning",
+    "Tool Over-reliance",
+    "Synthetic Benchmark",
+    "Temporal Recency"
+   ],
+   "field": "大语言模型可信推理与多源证据融合",
+   "innovations": [
+    "提出首个系统研究文本-数值证据仲裁的合成基准，解耦模态偏好、时间新鲜度、可靠性与工具溯源四类线索",
+    "揭示LLM仲裁行为存在系统性而非随机偏差，不同模型家族呈现截然不同的模态先验",
+    "发现工具预测导致最严重的仲裁失败，Qwen3/Gemma在矛盾工具提示下准确率接近零"
+   ],
+   "benchmarks": [
+    "Latent Risk Trajectory Synthetic Benchmark",
+    "Binary HIGH/LOW Forecasting Task"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "StreamSoccer-Event-Driven-Memory-for-Streaming-Soccer-Commen",
  "token": "sk-owp49a3rO...",
  "created_at": "2026-08-21 03:05:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/80686991-9d21-480d-bb85-00998be1b91a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/80686991-9d21-480d-bb85-00998be1b91a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:36:50",
+  "chunks": 1
+ }
 }

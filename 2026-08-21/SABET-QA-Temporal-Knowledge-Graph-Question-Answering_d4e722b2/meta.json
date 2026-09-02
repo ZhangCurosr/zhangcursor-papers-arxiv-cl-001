@@ -4,5 +4,31 @@
  "title": "SABET-QA-Temporal-Knowledge-Graph-Question-Answering",
  "token": "sk-CZoysi7P5...",
  "created_at": "2026-08-21 03:01:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/dd4dcc9e-62b1-4ce6-8311-5e6a461562ed.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/dd4dcc9e-62b1-4ce6-8311-5e6a461562ed.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:35:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Temporal Knowledge Graph Question Answering",
+    "Iterative Reasoning",
+    "Bidirectional Scoring",
+    "Knowledge Graph Embedding",
+    "Multi-hop QA"
+   ],
+   "field": "时序知识图谱问答",
+   "innovations": [
+    "引入可微工作记忆实现迭代多跳推理",
+    "双向实体-时间评分解决头尾方向歧义",
+    "槽感知上下文化对齐问题语义与时空嵌入"
+   ],
+   "benchmarks": [
+    "CronQuestions",
+    "Complex-CronQuestions",
+    "MultiTQ",
+    "TimeQuestions"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "An-Agentic-Approach-for-Active-Data-Collection-Travel-Behavi",
  "token": "sk-EqwJR1nOB...",
  "created_at": "2026-08-21 03:01:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/2a5f3eba-ae7c-4ad9-be03-ae9028d4a83d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/2a5f3eba-ae7c-4ad9-be03-ae9028d4a83d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:32:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "large language models",
+    "travel behavior",
+    "mode choice",
+    "stated preference",
+    "multi-agent system",
+    "conversational survey",
+    "multimodal prediction"
+   ],
+   "field": "出行行为建模与大语言模型应用",
+   "innovations": [
+    "对话式图像增强SP调查与多智能体端到端协作框架",
+    "九模型×四条件系统评估LLM出行预测及视觉上下文增益",
+    "将受试者所见天气图像直接输入视觉LLM实现人机情境对齐"
+   ],
+   "benchmarks": [
+    "Random Forest (69.6% five-class accuracy)",
+    "Gemma 4:12B zero-shot (69.9% five-class accuracy)",
+    "Qwen 3.6:35B + vision + few-shot (71.5% five-class accuracy)"
+   ]
+  }
+ }
 }

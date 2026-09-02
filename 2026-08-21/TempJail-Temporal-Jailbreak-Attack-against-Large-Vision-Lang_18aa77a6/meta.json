@@ -4,5 +4,31 @@
  "title": "TempJail-Temporal-Jailbreak-Attack-against-Large-Vision-Lang",
  "token": "sk-ovHaiDbC4...",
  "created_at": "2026-08-21 14:32:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/dbdd4739-08ad-4f91-9a14-d47da379dee3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/dbdd4739-08ad-4f91-9a14-d47da379dee3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:37:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "jailbreak attack",
+    "large vision-language models",
+    "video security",
+    "temporal scheduling",
+    "CMA-ES",
+    "multimodal safety",
+    "subtitle-based attack"
+   ],
+   "field": "多模态大模型安全与鲁棒性",
+   "innovations": [
+    "首次将字幕时序调度作为独立攻击变量系统性研究视频越狱",
+    "提出三阶段黑盒框架：对话式字幕构建+语义背景生成+CMA-ES时序优化",
+    "揭示时间组织方式对LVLM响应的影响大于视频内容多样性"
+   ],
+   "benchmarks": [
+    "VLJailbreakBench",
+    "HADES"
+   ]
+  }
+ }
 }

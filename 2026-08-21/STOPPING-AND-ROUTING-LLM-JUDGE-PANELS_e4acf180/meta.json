@@ -4,5 +4,34 @@
  "title": "STOPPING-AND-ROUTING-LLM-JUDGE-PANELS",
  "token": "sk-hwXfRrBR3...",
  "created_at": "2026-08-21 03:01:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/77a72259-8f68-48ba-83d1-ef9cf4dcabd5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/77a72259-8f68-48ba-83d1-ef9cf4dcabd5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:35:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM-as-a-judge",
+    "role-conditioned allocation",
+    "judge panel",
+    "conditional gain",
+    "specialist routing",
+    "stopping report"
+   ],
+   "field": "LLM评估与校准",
+   "innovations": [
+    "基于条件增益的judge角色分类与调用策略",
+    "带验证停止的可审计决策报告",
+    "阈值驱动的风险-成本权衡调节器"
+   ],
+   "benchmarks": [
+    "LLMBar",
+    "JailbreakBench",
+    "MBPP",
+    "GSM8K",
+    "MATH-500",
+    "RewardBench"
+   ]
+  }
+ }
 }

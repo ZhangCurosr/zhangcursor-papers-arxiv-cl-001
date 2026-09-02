@@ -4,5 +4,31 @@
  "title": "Robust-Incomplete-Multimodal-Sentiment-Analysis-via-Iterativ",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-08-21 03:01:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/82e68fe3-e1aa-47e3-af1c-5987e20ddf29.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/82e68fe3-e1aa-47e3-af1c-5987e20ddf29.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:34:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Incomplete Multimodal Sentiment Analysis",
+    "Proxy Correction",
+    "Multimodal Fusion",
+    "Missing Modality",
+    "Iterative Refinement",
+    "Gated Residual"
+   ],
+   "field": "多模态情感分析",
+   "innovations": [
+    "迭代代理修正框架，通过门控残差机制在多模态上下文中逐步精炼语言方向代理",
+    "阶段式潜在修正目标，以完整语言表征为训练时语义锚点引导代理逐步稳定",
+    "语言可靠性自适应融合，动态权衡代理补偿与退化语言证据的置信度"
+   ],
+   "benchmarks": [
+    "MOSI",
+    "MOSEI",
+    "SIMS"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "A-Source-Grounded-Framework-for-Constructing-and-Evaluating",
  "token": "sk-vCwdEIcnG...",
  "created_at": "2026-08-25 14:42:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/31838829-91c9-437d-8ec3-058a2e4f0b1a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/31838829-91c9-437d-8ec3-058a2e4f0b1a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:40:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multimodal large language models",
+    "clinical reasoning",
+    "progressive dialogue",
+    "evidence disclosure",
+    "LLM-as-judge",
+    "medical benchmark",
+    "diagnostic evaluation"
+   ],
+   "field": "多模态临床推理评估",
+   "innovations": [
+    "提出基于来源锚定的渐进式多模态诊断对话构建框架，隔离证据解读与自主选择行为",
+    "设计原子项对齐与FVCU案例级评分组合的评估体系，克服单一准确率对连贯但无锚定推理的误判"
+   ],
+   "benchmarks": [
+    "PMC内科学病例报告(24例)",
+    "o4-mini",
+    "Claude Haiku 4.5"
+   ]
+  }
+ }
 }

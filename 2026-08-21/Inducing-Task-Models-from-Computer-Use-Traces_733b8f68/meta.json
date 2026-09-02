@@ -4,5 +4,31 @@
  "title": "Inducing-Task-Models-from-Computer-Use-Traces",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-08-21 03:00:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/c3443ec0-1854-4c95-ab49-628eb637aaa5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/c3443ec0-1854-4c95-ab49-628eb637aaa5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:32:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "computer-use traces",
+    "task model induction",
+    "agent skill learning",
+    "structured programming",
+    "multi-task interleaving",
+    "event grounding"
+   ],
+   "field": "人机交互与智能体学习",
+   "innovations": [
+    "三阶段TMI流水线：事件接地-活动分割、潜在任务诱导、目标/程序模型调和",
+    "互补模型调和机制解决目标拆分与程序扁平化的系统性失败",
+    "无预定义任务集的多线程工作流解耦与结构化表示"
+   ],
+   "benchmarks": [
+    "HumanWork",
+    "SkillsBench",
+    "SkillLearnBench"
+   ]
+  }
+ }
 }

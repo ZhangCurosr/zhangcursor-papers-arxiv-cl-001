@@ -4,5 +4,34 @@
  "title": "When-Machines-Speak-A-Unified-Generative-Framework-for-Integ",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-08-21 03:01:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/d6de70e6-5297-4ed2-b7d8-c359134b2c7e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/d6de70e6-5297-4ed2-b7d8-c359134b2c7e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:38:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "machine-native symbols",
+    "unified generative framework",
+    "contrastive grounding",
+    "sequential recommendation",
+    "legal precedent prediction",
+    "residual quantization",
+    "LLM extension",
+    "Semantic ID"
+   ],
+   "field": "大语言模型扩展与结构化预测",
+   "innovations": [
+    "将机器原生符号作为一阶生成单元与语言 token 共享自回归词汇表",
+    "冻结主干 LLM 并通过双向 InfoNCE 对比接地仅更新新增机器 token 嵌入",
+    "统一的有类型自回归 prompt 模板适配异构结构化预测任务无需架构改动"
+   ],
+   "benchmarks": [
+    "MovieLens-1M",
+    "MovieLens-20M",
+    "Amazon Beauty",
+    "LePaRD 10k/20k/50k"
+   ]
+  }
+ }
 }

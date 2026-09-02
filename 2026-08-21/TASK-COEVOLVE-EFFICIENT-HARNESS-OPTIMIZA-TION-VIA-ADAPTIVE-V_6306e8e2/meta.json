@@ -4,5 +4,10 @@
  "title": "TASK-COEVOLVE-EFFICIENT-HARNESS-OPTIMIZA-TION-VIA-ADAPTIVE-V",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-08-21 14:32:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/df1d2b08-dec6-443e-9610-1f96c8b9748c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/df1d2b08-dec6-443e-9610-1f96c8b9748c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:36:37",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,36 @@
  "title": "STOPPING-AND-ROUTING-LLM-JUDGE-PANELS",
  "token": "sk-hwXfRrBR3...",
  "created_at": "2026-08-21 14:32:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/77a72259-8f68-48ba-83d1-ef9cf4dcabd5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/77a72259-8f68-48ba-83d1-ef9cf4dcabd5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:35:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM-as-judge",
+    "panel allocation",
+    "role-conditioned routing",
+    "calibration risk",
+    "judge stopping",
+    "conditional gain"
+   ],
+   "field": "LLM 评测与评估代理",
+   "innovations": [
+    "提出角色条件分配框架，将评审多样性从描述性属性转化为可部署的路由/停止/丢弃策略",
+    "基于验证条件增益的贪心构造算法与可审计停止报告，显式区分复制品/互补体/专家三类角色",
+    "建立覆盖路由专家/早停/全面板边界四类场景的决策域地图，在8类任务上验证"
+   ],
+   "benchmarks": [
+    "LLMBar",
+    "JailbreakBench",
+    "RewardBench",
+    "Arena100K",
+    "SummEval",
+    "MATH-500",
+    "Hard GSM8K rationale",
+    "MBPP public-overfit"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "A-Multi-Domain-and-Multi-Task-Generative-Framework-with-Expl",
  "token": "sk-rnwM2rvcl...",
  "created_at": "2026-08-25 02:58:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/607cdb12-27d8-4575-9e8c-02a2b4b9ddc6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/607cdb12-27d8-4575-9e8c-02a2b4b9ddc6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:39:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "事件抽取",
+    "多域学习",
+    "生成式信息抽取",
+    "跨域泛化",
+    "T5",
+    "多任务学习"
+   ],
+   "field": "信息抽取",
+   "innovations": [
+    "提出基于域指示符+任务提示词的统一多域多任务生成式事件抽取框架，单个T5模型支持pipeline与端到端双模式跨域推理",
+    "证明多域联合训练对低资源/复杂schema域（如Genia2013、WikiEvents）的论元分类（AC）具有显著迁移增益"
+   ],
+   "benchmarks": [
+    "CASIE",
+    "Geneva",
+    "Genia2013",
+    "M2E2",
+    "RAMS",
+    "WikiEvents"
+   ]
+  }
+ }
 }

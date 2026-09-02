@@ -4,5 +4,34 @@
  "title": "SWE-bench-Science-Can-Coding-Agents-Resolve-Engineering-Task",
  "token": "sk-yJ5h9Go8b...",
  "created_at": "2026-08-21 14:32:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/759740ef-9594-45e2-b8be-25d0a6f7d38d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/759740ef-9594-45e2-b8be-25d0a6f7d38d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:37:06",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "SWE-bench Science",
+    "scientific software repair",
+    "coding agent benchmark",
+    "failure mechanism analysis",
+    "chain-of-evidence protocol",
+    "warehouse-level evaluation",
+    "scientific knowledge augmentation"
+   ],
+   "field": "AI for Science / 科学计算软件工程评测",
+   "innovations": [
+    "提出覆盖20个科学领域的仓库级编码智能体基准SWE-bench Science",
+    "设计证据链协议与隐藏验证器实现公私测试分离的科学契约验证",
+    "构建科学辅助信息分离配对消融机制揭示知识注入的非单调增益效应"
+   ],
+   "benchmarks": [
+    "SWE-bench Science",
+    "SciCode",
+    "MMSciCode",
+    "ResearchCodeBench",
+    "ScienceAgentBench"
+   ]
+  }
+ }
 }

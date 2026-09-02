@@ -4,5 +4,31 @@
  "title": "SWE-bench-Science-Can-Coding-Agents-Resolve-Engineering-Task",
  "token": "sk-yJ5h9Go8b...",
  "created_at": "2026-08-21 03:01:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/759740ef-9594-45e2-b8be-25d0a6f7d38d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/759740ef-9594-45e2-b8be-25d0a6f7d38d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:37:07",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "SWE-bench-Science",
+    "科学软件修复",
+    "编码智能体",
+    "Chain-of-Evidence Protocol",
+    "代码修复基准",
+    "AI for Science"
+   ],
+   "field": "AI for Science / 科学计算软件评测",
+   "innovations": [
+    "提出 SWE-bench-Science 仓库级基准，覆盖 20 个科学领域 98 个 GitHub 仓库的 119 个 Issue/PR 修复任务",
+    "设计 Chain-of-Evidence Protocol 与 Scientific Auxiliary Information Separation，首次量化科学领域知识的边际贡献",
+    "提出四种科学失败机制分类框架并量化 8 个前沿模型的错误分布"
+   ],
+   "benchmarks": [
+    "SWE-bench-Science",
+    "SWE-bench",
+    "SWE-bench Verified"
+   ]
+  }
+ }
 }

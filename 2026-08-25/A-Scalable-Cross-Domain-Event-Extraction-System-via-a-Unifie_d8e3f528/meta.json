@@ -4,5 +4,34 @@
  "title": "A-Scalable-Cross-Domain-Event-Extraction-System-via-a-Unifie",
  "token": "sk-MljcAo9Bd...",
  "created_at": "2026-08-25 14:42:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/af7cab35-8bd3-4a52-b5b8-0fe35c95fce5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/af7cab35-8bd3-4a52-b5b8-0fe35c95fce5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:40:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "事件提取",
+    "跨域泛化",
+    "生成式序列到序列",
+    "端到端抽取",
+    "T5",
+    "统一建模"
+   ],
+   "field": "事件提取与信息抽取",
+   "innovations": [
+    "统一生成式seq2seq框架同时建模ED和EAE子任务",
+    "支持流水线与端到端双模式推理的灵活配置",
+    "数据集名称作为域标识符实现跨域Schema切换"
+   ],
+   "benchmarks": [
+    "CASIE",
+    "GENEVA",
+    "GENIA2013",
+    "M2E2",
+    "RAMS",
+    "WikiEvents"
+   ]
+  }
+ }
 }

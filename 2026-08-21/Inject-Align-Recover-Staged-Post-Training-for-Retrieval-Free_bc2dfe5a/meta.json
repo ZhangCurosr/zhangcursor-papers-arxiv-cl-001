@@ -4,5 +4,33 @@
  "title": "Inject-Align-Recover-Staged-Post-Training-for-Retrieval-Free",
  "token": "sk-qKu2Cn1y4...",
  "created_at": "2026-08-21 03:01:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/fdd4c5b1-9315-45e9-a0c2-a6b4cf1738a8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/fdd4c5b1-9315-45e9-a0c2-a6b4cf1738a8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:34:04",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "retrieval-free",
+    "document knowledge internalization",
+    "post-training",
+    "model merging",
+    "instruction tuning",
+    "domain adaptation"
+   ],
+   "field": "大模型知识内化与后训练",
+   "innovations": [
+    "IAR三阶段后训练框架分离文档注入、QA对齐、能力恢复",
+    "三种监督重建目标（Continuation/Rewrite/Instruction-formatted）统一损失函数",
+    "Post-hoc model merging系统化与12-candidate grid选点机制"
+   ],
+   "benchmarks": [
+    "CC (Common Corpus)",
+    "CCI",
+    "IFEval",
+    "MMLU",
+    "MSBench"
+   ]
+  }
+ }
 }

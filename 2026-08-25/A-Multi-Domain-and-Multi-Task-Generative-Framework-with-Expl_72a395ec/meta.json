@@ -4,5 +4,10 @@
  "title": "A-Multi-Domain-and-Multi-Task-Generative-Framework-with-Expl",
  "token": "sk-rnwM2rvcl...",
  "created_at": "2026-08-25 14:42:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/607cdb12-27d8-4575-9e8c-02a2b4b9ddc6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/607cdb12-27d8-4575-9e8c-02a2b4b9ddc6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 12:40:11",
+  "chunks": 1
+ }
 }
