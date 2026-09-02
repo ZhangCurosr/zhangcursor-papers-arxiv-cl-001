@@ -4,5 +4,35 @@
  "title": "Let-s-Scale-Step-by-Step-Compute-Efficient-Hyperparameter-Tr",
  "token": "sk-kdPBKi9MQ...",
  "created_at": "2026-08-21 03:01:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/9058bef4-9db6-49c9-b1f9-35b58786eb35.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/9058bef4-9db6-49c9-b1f9-35b58786eb35.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:05:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Mixture-of-Experts",
+    "Hyperparameter Transfer",
+    "Learning Rate Scaling",
+    "µP",
+    "MoE Pretraining",
+    "Scaling Laws"
+   ],
+   "field": "大规模语言模型高效训练",
+   "innovations": [
+    "将µP适配至MoE+MLA+Muon优化器组合，验证宽度与稀疏性耦合缩放下的学习率零样本迁移",
+    "提出两步框架：宽度方向µP迁移+token方向对数线性外推，将2D搜索降为1D轻量预测（R²=0.95）"
+   ],
+   "benchmarks": [
+    "MMLU",
+    "MMLU-Pro",
+    "BBH",
+    "Global-MMLU",
+    "MATH",
+    "GSM8K",
+    "MBPP",
+    "HumanEval"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "PERSONALBENCH-Measuring-the-Authorship-Gap-in-LLM-Personaliz",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-21 14:32:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/4e064af7-063f-40c2-8fca-c7ff12d41d09.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/4e064af7-063f-40c2-8fca-c7ff12d41d09.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:09:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM个性化",
+    "作者身份验证",
+    "风格迁移评估",
+    "PERSONALBENCH",
+    "LUAR",
+    "LLM-as-judge",
+    "风格计量学"
+   ],
+   "field": "LLM个性化与风格控制",
+   "innovations": [
+    "首个基于作者身份科学的LLM个性化基准PERSONALBENCH",
+    "发现推理时个性化无法跨越人类-LLM作者身份差距（LUAR 0.484-0.508 < floor 0.626）",
+    "揭示多指标正交性（LUAR/TMR/FuncCos相关系数<0.07）与TMR圆环效应"
+   ],
+   "benchmarks": [
+    "PERSONALBENCH",
+    "Blog Authorship Corpus"
+   ]
+  }
+ }
 }

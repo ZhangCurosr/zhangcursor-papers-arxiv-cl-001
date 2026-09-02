@@ -4,5 +4,10 @@
  "title": "MileGPO-Milestone-Inference-with-Local-Evidence-for-Graph-Ba",
  "token": "sk-rnwM2rvcl...",
  "created_at": "2026-08-21 03:02:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/8ac7e309-f215-4547-8935-5cffea84c26d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/8ac7e309-f215-4547-8935-5cffea84c26d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:07:03",
+  "chunks": 1
+ }
 }

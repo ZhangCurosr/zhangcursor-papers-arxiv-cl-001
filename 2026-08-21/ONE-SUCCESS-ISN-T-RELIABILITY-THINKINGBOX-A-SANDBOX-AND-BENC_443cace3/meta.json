@@ -4,5 +4,35 @@
  "title": "ONE-SUCCESS-ISN-T-RELIABILITY-THINKINGBOX-A-SANDBOX-AND-BENC",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-21 03:00:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/e1a6afbe-1c63-467c-b824-afaf045a17cd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/e1a6afbe-1c63-467c-b824-afaf045a17cd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:08:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "agent benchmark",
+    "stateful workflow",
+    "executable evaluation",
+    "tool use reliability",
+    "side-effect checking",
+    "business agent",
+    "MCP"
+   ],
+   "field": "智能体评测与可靠执行",
+   "innovations": [
+    "提出 Thinkingbox 沙盒统一承载业务工具-智能体-用户交互的可执行终态判定",
+    "同时报告 pass@k 与 pasŝk 分离发现能力与可靠执行能力",
+    "以侧效提取+合取判定代替轨迹匹配，揭示 80%+ 表观成功实为失败"
+   ],
+   "benchmarks": [
+    "THINKINGBOX-BENCH (507 tasks)",
+    "τ-bench",
+    "AppWorld",
+    "MCP-Atlas",
+    "SWE-bench",
+    "BFCL"
+   ]
+  }
+ }
 }

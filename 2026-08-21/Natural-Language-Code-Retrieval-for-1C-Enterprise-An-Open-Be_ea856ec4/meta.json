@@ -4,5 +4,30 @@
  "title": "Natural-Language-Code-Retrieval-for-1C-Enterprise-An-Open-Be",
  "token": "sk-dKfLTOMDH...",
  "created_at": "2026-08-21 03:01:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/6d77d4e4-056c-444a-9299-6894447fb58d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/6d77d4e4-056c-444a-9299-6894447fb58d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:08:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "code retrieval",
+    "1C:Enterprise",
+    "BSL",
+    "dense retrieval",
+    "Matryoshka embeddings",
+    "synthetic data",
+    "domain adaptation"
+   ],
+   "field": "代码检索与嵌入式表示学习",
+   "innovations": [
+    "构建首个1C:Enterprise俄语-BSL代码检索开放基准与合成训练数据",
+    "149M参数领域适配双编码器超越300M通用模型，验证中等规模+高质量合成数据的有效性",
+    "MRL多尺度截断实现256维保留99.9%检索质量并降低3倍存储与计算开销"
+   ],
+   "benchmarks": [
+    "PruhaNLP/1C-Ebench"
+   ]
+  }
+ }
 }

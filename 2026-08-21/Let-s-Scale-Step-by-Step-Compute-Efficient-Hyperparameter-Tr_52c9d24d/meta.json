@@ -4,5 +4,38 @@
  "title": "Let-s-Scale-Step-by-Step-Compute-Efficient-Hyperparameter-Tr",
  "token": "sk-kdPBKi9MQ...",
  "created_at": "2026-08-21 14:32:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/7e766319-5659-4d7e-ba23-bd76c238aa46.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/7e766319-5659-4d7e-ba23-bd76c238aa46.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:05:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Mixture-of-Experts",
+    "Hyperparameter Transfer",
+    "Maximal Update Parameterization",
+    "Scaling Law",
+    "Learning Rate Extrapolation",
+    "Muon Optimizer",
+    "MLA",
+    "Compute-Efficient Training"
+   ],
+   "field": "大规模 MoE 模型高效预训练",
+   "innovations": [
+    "将 µP 适配到 MoE+MLA+Muon 架构并验证跨宽度最优学习率 zero-shot 迁移",
+    "提出基于 EMA 代理与 log-log 线性外推的两步 token 维度 LR 缩放律（R²=0.95）",
+    "以 ~1/98 计算开销实现 155B/10T token MoE 的最优学习率预估并验证稳定训练"
+   ],
+   "benchmarks": [
+    "MMLU-Pro",
+    "MMLU",
+    "BBH",
+    "Global-MMLU",
+    "MATH",
+    "GSM8K",
+    "MBPP",
+    "HumanEval"
+   ]
+  }
+ }
 }

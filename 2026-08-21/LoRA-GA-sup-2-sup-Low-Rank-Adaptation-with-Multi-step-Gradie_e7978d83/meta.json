@@ -4,5 +4,33 @@
  "title": "LoRA-GA-sup-2-sup-Low-Rank-Adaptation-with-Multi-step-Gradie",
  "token": "sk-haVkJ3VAf...",
  "created_at": "2026-08-21 03:02:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/38177d22-1de0-46c1-b90d-7a340dc374f0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/38177d22-1de0-46c1-b90d-7a340dc374f0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:05:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LoRA",
+    "低秩适配",
+    "梯度初始化",
+    "参数高效微调",
+    "秩分配",
+    "SVD初始化",
+    "多步梯度"
+   ],
+   "field": "大语言模型参数高效微调",
+   "innovations": [
+    "轻量级多步梯度探针捕获训练轨迹梯度信息",
+    "光谱感知的敏感性×有效秩双指标自适应秩分配",
+    "SVD多步梯度初始化实现低秩warm start"
+   ],
+   "benchmarks": [
+    "GLUE",
+    "GSM8K",
+    "HumanEval",
+    "CLIP图像分类"
+   ]
+  }
+ }
 }

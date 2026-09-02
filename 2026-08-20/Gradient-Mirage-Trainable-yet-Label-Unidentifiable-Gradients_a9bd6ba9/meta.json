@@ -4,5 +4,31 @@
  "title": "Gradient-Mirage-Trainable-yet-Label-Unidentifiable-Gradients",
  "token": "sk-4LF0lBYcu...",
  "created_at": "2026-08-20 02:56:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/667d34e7-eadd-48e5-ac9e-492d16268a11.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/667d34e7-eadd-48e5-ac9e-492d16268a11.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:03:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "split learning",
+    "gradient matching attack",
+    "LLM privacy",
+    "directional differential privacy",
+    "selective autoregressive supervision",
+    "gradient obfuscation"
+   ],
+   "field": "大语言模型分布式训练隐私保护",
+   "innovations": [
+    "提出目标/方向/尺度三重不一致性使GMA-SL成为误设定逆问题",
+    "基于token熵的选择性自回归监督与尺度盲化机制",
+    "vMF方向扰动配合幅度保留及ASNR下界理论"
+   ],
+   "benchmarks": [
+    "CodeAlpaca",
+    "GSM8K",
+    "PIQA"
+   ]
+  }
+ }
 }

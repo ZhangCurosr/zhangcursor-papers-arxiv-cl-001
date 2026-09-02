@@ -4,5 +4,30 @@
  "title": "MemTrapBench-Benchmarking-Cognitive-Traps-in-LLM-Memory-Use",
  "token": "sk-AsgiqoBdE...",
  "created_at": "2026-08-21 14:32:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/7d692def-4b2f-48b9-9770-8cef704f2b3b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/7d692def-4b2f-48b9-9770-8cef704f2b3b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:08:22",
+  "chunks": 6,
+  "meta": {
+   "keywords": [
+    "LLM Memory",
+    "Cognitive Traps",
+    "Benchmark",
+    "Long-Context Reasoning",
+    "Memory-Induced Bias",
+    "AdaptiveMem"
+   ],
+   "field": "大语言模型记忆与推理安全",
+   "innovations": [
+    "首个系统性评估 LLM 记忆引发认知陷阱的 benchmark（五大场景 1050 实例）",
+    "揭示'有记忆反而更差'的普遍现象并证实由陷阱语义驱动",
+    "提出即插即用的 prompt-based 缓解技能 AdaptiveMem"
+   ],
+   "benchmarks": [
+    "MemTrapBench",
+    "LongMemEval"
+   ]
+  }
+ }
 }

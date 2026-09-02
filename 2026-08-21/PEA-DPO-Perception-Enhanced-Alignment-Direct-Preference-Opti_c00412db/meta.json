@@ -4,5 +4,30 @@
  "title": "PEA-DPO-Perception-Enhanced-Alignment-Direct-Preference-Opti",
  "token": "sk-RdV3tP4AZ...",
  "created_at": "2026-08-21 03:05:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/bce31d6f-1428-4d61-97d2-de7f1229eb25.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/bce31d6f-1428-4d61-97d2-de7f1229eb25.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:09:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态大语言模型",
+    "直接偏好优化",
+    "视觉不敏感性",
+    "幻觉缓解",
+    "DPO"
+   ],
+   "field": "多模态大语言模型对齐",
+   "innovations": [
+    "首次理论刻画视觉不敏感性并分解为跨图像/图像内双维度",
+    "CLIP相似度驱动的感知增强偏好数据构建方法",
+    "无参考模型+ReLU+目标margin的联合优化目标mPEA-DPO"
+   ],
+   "benchmarks": [
+    "MMHal-Bench",
+    "Object Hal-Bench",
+    "AMBER"
+   ]
+  }
+ }
 }

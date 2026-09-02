@@ -4,5 +4,28 @@
  "title": "MemTrapBench-Benchmarking-Cognitive-Traps-in-LLM-Memory-Use",
  "token": "sk-AsgiqoBdE...",
  "created_at": "2026-08-21 03:00:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/7d692def-4b2f-48b9-9770-8cef704f2b3b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/7d692def-4b2f-48b9-9770-8cef704f2b3b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:07:53",
+  "chunks": 6,
+  "meta": {
+   "keywords": [
+    "LLM memory",
+    "cognitive traps",
+    "red-teaming",
+    "benchmark",
+    "answer phobia",
+    "factual poisoning"
+   ],
+   "field": "大语言模型安全与评测",
+   "innovations": [
+    "提出四类认知陷阱评测框架（Answer Phobia/Cognitive Inertia/Proactive Interference/Factual Poisoning）",
+    "设计三段式多轮对话陷阱模板与四维度JSON评分体系"
+   ],
+   "benchmarks": [
+    "MemTrapBench"
+   ]
+  }
+ }
 }

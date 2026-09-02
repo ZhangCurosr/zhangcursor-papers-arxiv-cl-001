@@ -4,5 +4,28 @@
  "title": "ONE-SUCCESS-ISN-T-RELIABILITY-THINKINGBOX-A-SANDBOX-AND-BENC",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-21 14:32:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/e1a6afbe-1c63-467c-b824-afaf045a17cd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/e1a6afbe-1c63-467c-b824-afaf045a17cd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:08:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Agent Benchmark",
+    "Tool Use",
+    "Stateful Business Workflows",
+    "MCP",
+    "Reliability Evaluation",
+    "Executable Verdict"
+   ],
+   "field": "Agent 评测与可靠性",
+   "innovations": [
+    "提出THINKINGBOX沙盒，以终态+侧效应为中心的可组合可执行判据评估有状态业务工作流中的Agent可靠性",
+    "构建507任务跨五领域的THINKINGBOX-BENCH，首次系统化量化Agent的发现-可靠鸿沟（pass@20 vs pasŝ20）"
+   ],
+   "benchmarks": [
+    "THINKINGBOX-BENCH"
+   ]
+  }
+ }
 }

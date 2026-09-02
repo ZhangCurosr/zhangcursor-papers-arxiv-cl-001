@@ -4,5 +4,31 @@
  "title": "Multi-Agent-Orchestration-with-the-Common-Sense-Reasoning-Ca",
  "token": "sk-TTQuLp2ot...",
  "created_at": "2026-08-21 03:00:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/bc0cf6b3-8c50-4a12-8c42-fb230c7c4eff.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/bc0cf6b3-8c50-4a12-8c42-fb230c7c4eff.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:07:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "autonomous driving",
+    "multi-agent orchestration",
+    "large language model",
+    "reinforcement learning",
+    "safety-critical systems",
+    "common-sense reasoning",
+    "ASIL",
+    "CARLA"
+   ],
+   "field": "自动驾驶决策规划",
+   "innovations": [
+    "LLM与实时控制解耦的离线编排多Agent框架",
+    "ASIL分级优先级融合与否决权机制",
+    "LLM驱动的RL奖励函数迭代优化流程"
+   ],
+   "benchmarks": [
+    "CARLA Simulator"
+   ]
+  }
+ }
 }

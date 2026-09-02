@@ -4,5 +4,34 @@
  "title": "Projector-Is-All-You-Train",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-21 03:03:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/97568c17-a3c7-4cdc-94fc-19286d6c7ecc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/97568c17-a3c7-4cdc-94fc-19286d6c7ecc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:10:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态大语言模型",
+    "投影器训练",
+    "参数高效微调",
+    "3D理解",
+    "灾难性遗忘",
+    "模块化训练"
+   ],
+   "field": "多模态大语言模型训练效率",
+   "innovations": [
+    "提出仅训练投影器而冻结语言模型主干的MLLM训练范式，避免能力漂移",
+    "在3D点云理解任务上证明投影器-only训练可达到与联合训练相当的性能且速度提升约2倍",
+    "系统性揭示联合训练对语言/视觉/空间推理能力的退化影响"
+   ],
+   "benchmarks": [
+    "ModelNet40",
+    "Objaverse",
+    "OmniObject3D",
+    "MMLU-Pro",
+    "MMMU-Pro",
+    "LLaVA-Wild"
+   ]
+  }
+ }
 }

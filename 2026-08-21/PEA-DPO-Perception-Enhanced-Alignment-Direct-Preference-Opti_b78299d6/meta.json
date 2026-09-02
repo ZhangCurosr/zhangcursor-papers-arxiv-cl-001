@@ -4,5 +4,35 @@
  "title": "PEA-DPO-Perception-Enhanced-Alignment-Direct-Preference-Opti",
  "token": "sk-RdV3tP4AZ...",
  "created_at": "2026-08-21 14:32:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/bce31d6f-1428-4d61-97d2-de7f1229eb25.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/bce31d6f-1428-4d61-97d2-de7f1229eb25.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:09:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态大语言模型",
+    "直接偏好优化",
+    "视觉不敏感性",
+    "幻觉缓解",
+    "多模态对齐",
+    "PEA-DPO"
+   ],
+   "field": "多模态大语言模型对齐与幻觉缓解",
+   "innovations": [
+    "首次形式化揭示MLLM中跨图不敏感性和图内不敏感性两类视觉不敏感问题并提供理论证明",
+    "提出基于CLIP语义相似度的感知增强偏好数据构建方法，自动筛选去除关键视觉上下文的被拒图像",
+    "设计响应质量与视觉上下文双重偏好的联合优化框架mPEA-DPO，无需参考模型且支持可控边际优化"
+   ],
+   "benchmarks": [
+    "MMHal-Bench",
+    "Object Hal-Bench",
+    "AMBER",
+    "MMStar",
+    "AI2D",
+    "LLaVA-Bench",
+    "MMMU"
+   ]
+  }
+ }
 }

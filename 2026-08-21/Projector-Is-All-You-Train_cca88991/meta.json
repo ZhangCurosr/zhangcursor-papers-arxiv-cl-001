@@ -4,5 +4,10 @@
  "title": "Projector-Is-All-You-Train",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-21 14:32:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/57b0d623-d7df-4e8d-845b-257f200781e7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/57b0d623-d7df-4e8d-845b-257f200781e7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:11:08",
+  "chunks": 1
+ }
 }

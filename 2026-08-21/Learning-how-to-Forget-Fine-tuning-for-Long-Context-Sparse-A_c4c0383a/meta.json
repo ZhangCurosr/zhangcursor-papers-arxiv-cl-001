@@ -4,5 +4,30 @@
  "title": "Learning-how-to-Forget-Fine-tuning-for-Long-Context-Sparse-A",
  "token": "sk-oJ013oevc...",
  "created_at": "2026-08-21 03:02:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/1d91d4dc-49d4-4813-bea7-43031a87362b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/1d91d4dc-49d4-4813-bea7-43031a87362b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:05:35",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "稀疏注意力",
+    "长上下文微调",
+    "KV缓存",
+    "H2O",
+    "序列并行",
+    "激活检查点",
+    "Delta编码"
+   ],
+   "field": "长上下文大语言模型高效推理与微调",
+   "innovations": [
+    "提出策略协同适应的稀疏注意力微调框架，在单卡A100上实现任意KV缓存策略的有效后训练",
+    "改进H2O策略实现并扩展FlashInfer内核支持求和注意力权重，显著提升稀疏推理速度",
+    "揭示序列并行微调配合稀疏推理时的输出退化失败模式，强调训练‑推理条件一致的重要性"
+   ],
+   "benchmarks": [
+    "Helmet（64k/128k上下文，10个任务）"
+   ]
+  }
+ }
 }

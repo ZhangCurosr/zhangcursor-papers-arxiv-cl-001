@@ -4,5 +4,30 @@
  "title": "MileGPO-Milestone-Inference-with-Local-Evidence-for-Graph-Ba",
  "token": "sk-rnwM2rvcl...",
  "created_at": "2026-08-21 14:32:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/5776c6f6-a14e-42cf-9d3a-0826b20cc5af.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/5776c6f6-a14e-42cf-9d3a-0826b20cc5af.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:07:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Long-horizon LLM Agent",
+    "Credit Assignment",
+    "Graph-based Policy Optimization",
+    "Milestone Discovery",
+    "Reliability-Calibrated Shaping",
+    "Progress-Contrastive Calibration"
+   ],
+   "field": "Agent Reinforcement Learning",
+   "innovations": [
+    "无外部监督的 rollout-native 三步信用校准算法（MD+RCS+PCC）",
+    "利用同源分支反事实对比与局部进度分打破距离平局",
+    "仅在现有 rollouts 图内部挖掘证据，零额外环境交互"
+   ],
+   "benchmarks": [
+    "ALFWorld",
+    "Web-Shop"
+   ]
+  }
+ }
 }

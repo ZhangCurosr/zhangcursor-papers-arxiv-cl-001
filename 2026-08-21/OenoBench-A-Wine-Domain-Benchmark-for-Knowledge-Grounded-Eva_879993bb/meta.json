@@ -4,5 +4,30 @@
  "title": "OenoBench-A-Wine-Domain-Benchmark-for-Knowledge-Grounded-Eva",
  "token": "sk-twhrLv2pG...",
  "created_at": "2026-08-21 14:32:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/f2b2f21b-6b8d-4828-8407-2bf32d18f862.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/f2b2f21b-6b8d-4828-8407-2bf32d18f862.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:09:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "knowledge benchmark",
+    "domain-specific evaluation",
+    "fact-grounded generation",
+    "multi-agent audit",
+    "self-preference bias",
+    "closed-book solvability",
+    "wine domain"
+   ],
+   "field": "语言模型评测与基准构建",
+   "innovations": [
+    "LLM-driven fact-grounded pipeline where models never serve as source of truth",
+    "Nine-agent automated audit calibrated against human gold sheet via Cohen's κ",
+    "Bias-aware evaluation framework isolating parametric recall from contextual reasoning via closed-book vs source-grounded partition"
+   ],
+   "benchmarks": [
+    "OenoBench"
+   ]
+  }
+ }
 }

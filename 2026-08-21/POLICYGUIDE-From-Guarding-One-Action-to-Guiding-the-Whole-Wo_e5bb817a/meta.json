@@ -4,5 +4,32 @@
  "title": "POLICYGUIDE-From-Guarding-One-Action-to-Guiding-the-Whole-Wo",
  "token": "sk-1FwfANuN8...",
  "created_at": "2026-08-21 14:32:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/cbed1eb4-cb98-4016-bd2b-dd21b61aa029.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/cbed1eb4-cb98-4016-bd2b-dd21b61aa029.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:10:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM Agent",
+    "Runtime Safeguard",
+    "Policy Compliance",
+    "Workflow Enforcement",
+    "τ²-bench",
+    "Action Guard",
+    "Workflow Graph"
+   ],
+   "field": "LLM Agent 安全与策略合规",
+   "innovations": [
+    "将策略合规形式化为护栏+工作流联合问题并通过干预覆盖理论证明工作流级触发的必要性",
+    "提出 POLICYGUIDE 外部主动验证器：将策略编译为工作流图、跨轮持久化状态并在用户对话边界返回定向修复指引",
+    "在 τ²-bench 三个领域实现均值 PASS⁴ 20pp 提升且跨 agent 迁移，CRAFT 红队攻击成功率最低、有序轨迹合规率最高"
+   ],
+   "benchmarks": [
+    "τ²-bench (Airline/Retail/Telecom)",
+    "CRAFT Red-Teaming",
+    "Author-designed Telecom Ordered Trace Rubric"
+   ]
+  }
+ }
 }

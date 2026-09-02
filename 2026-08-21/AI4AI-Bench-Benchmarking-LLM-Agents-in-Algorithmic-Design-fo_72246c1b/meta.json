@@ -4,5 +4,30 @@
  "title": "AI4AI-Bench-Benchmarking-LLM-Agents-in-Algorithmic-Design-fo",
  "token": "sk-DXHHyylpH...",
  "created_at": "2026-08-21 14:32:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/30b81dba-2cee-48fc-8632-adb7c1bf61d6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/30b81dba-2cee-48fc-8632-adb7c1bf61d6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:03:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Recursive Self-Improvement",
+    "Algorithmic Design",
+    "LLM Agent Benchmark",
+    "Training Algorithm",
+    "AI4AI-Bench",
+    "Benchmark",
+    "Meta-Learning"
+   ],
+   "field": "AI基准与自动机器学习",
+   "innovations": [
+    "首个隔离训练算法设计能力的基准，通过10个冻结研究仓库覆盖10种算法家族",
+    "提出运行时层vs学习层的八家族分类体系，使'Agent是否改进了算法'成为可验证陈述",
+    "设计4小时探索+12小时清洁启动验证的评估协议，分离代理指标与最终指标的访问边界"
+   ],
+   "benchmarks": [
+    "AI4AI-Bench"
+   ]
+  }
+ }
 }

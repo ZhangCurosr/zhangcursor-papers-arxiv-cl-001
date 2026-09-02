@@ -4,5 +4,28 @@
  "title": "Hear2Act-Benchmarking-When-Prosody-Should-Change-What-an-Ass",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-08-21 14:32:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/29447271-b3b2-45ad-9fde-2eaae2221e40.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/29447271-b3b2-45ad-9fde-2eaae2221e40.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:05:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "任务导向对话",
+    "韵律感知",
+    "多模态评估",
+    "感知-行动鸿沟",
+    "语音大模型"
+   ],
+   "field": "多模态任务对话系统",
+   "innovations": [
+    "提出HEAR2ACT统一评估协议，首次追踪韵律证据在多轮任务决策中的完整影响链",
+    "揭示音频大模型的感知-行动鸿沟：感知准确率0.85但直接音频输入对决策几乎无效",
+    "验证两阶段干预范式：音频推断状态+文本表示可弥合97%的oracle性能差距"
+   ],
+   "benchmarks": [
+    "HEAR2ACT"
+   ]
+  }
+ }
 }

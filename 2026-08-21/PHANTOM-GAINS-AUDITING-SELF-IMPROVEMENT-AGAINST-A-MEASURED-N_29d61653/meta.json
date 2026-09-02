@@ -4,5 +4,13 @@
  "title": "PHANTOM-GAINS-AUDITING-SELF-IMPROVEMENT-AGAINST-A-MEASURED-N",
  "token": "sk-dQ65jxzP4...",
  "created_at": "2026-08-21 03:02:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/15739c6e-3b45-4da6-b846-ad4f2ebf4037.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/15739c6e-3b45-4da6-b846-ad4f2ebf4037.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:11:31",
+  "chunks": 4,
+  "meta": {
+   "field": "待确认"
+  }
+ }
 }

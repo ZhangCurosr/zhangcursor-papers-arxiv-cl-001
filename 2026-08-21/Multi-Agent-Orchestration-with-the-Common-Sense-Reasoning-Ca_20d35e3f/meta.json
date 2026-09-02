@@ -4,5 +4,31 @@
  "title": "Multi-Agent-Orchestration-with-the-Common-Sense-Reasoning-Ca",
  "token": "sk-TTQuLp2ot...",
  "created_at": "2026-08-21 14:32:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/bc0cf6b3-8c50-4a12-8c42-fb230c7c4eff.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/bc0cf6b3-8c50-4a12-8c42-fb230c7c4eff.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:07:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Multi-Agent Orchestration",
+    "Autonomous Driving",
+    "Large Language Models",
+    "Reinforcement Learning",
+    "Common-Sense Reasoning",
+    "ASIL",
+    "CARLA Simulator",
+    "Reward Shaping"
+   ],
+   "field": "自动驾驶决策规划",
+   "innovations": [
+    "LLM与实时控制解耦：LLM仅离线优化RL奖励与生成常识规则，彻底消除在线幻觉与时延风险",
+    "ASIL分级多智能体编排：将ISO 26262功能安全等级映射至决策仲裁权重，Safety Agent具veto权",
+    "GPT-5.2迭代奖励优化：三轮LLM反馈迭代（V0→V3）显著改善车道保持与转向稳定性"
+   ],
+   "benchmarks": [
+    "CARLA Simulator"
+   ]
+  }
+ }
 }
