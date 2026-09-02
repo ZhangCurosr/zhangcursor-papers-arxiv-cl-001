@@ -4,5 +4,31 @@
  "title": "HOW-TO-TRAIN-A-CRITIC-STABLY-AND-EFFICIENTLY",
  "token": "sk-WJrSFDicB...",
  "created_at": "2026-08-25 02:56:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/a6ee3e01-cb24-4f50-b011-70544d3d81fc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/a6ee3e01-cb24-4f50-b011-70544d3d81fc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:51:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "reinforcement learning",
+    "critic training",
+    "LLM alignment",
+    "DPPO",
+    "GAE",
+    "privileged information"
+   ],
+   "field": "大语言模型强化学习",
+   "innovations": [
+    "提出 BPCO 配方，整合有界值预测、蒙特卡洛目标、未归一化优势与长度自适应 GAE 实现稳定单 rollout critic 训练",
+    "系统验证 privileged information 对 critic 加速学习的作用及过拟合权衡"
+   ],
+   "benchmarks": [
+    "AIME 2025 avg@32",
+    "DeepScaleR",
+    "DAPO-Math-17k",
+    "OpenRubrics"
+   ]
+  }
+ }
 }

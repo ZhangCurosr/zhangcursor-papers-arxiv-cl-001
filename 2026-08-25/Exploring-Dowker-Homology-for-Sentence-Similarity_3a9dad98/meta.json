@@ -4,5 +4,29 @@
  "title": "Exploring-Dowker-Homology-for-Sentence-Similarity",
  "token": "sk-yjjHVmEWF...",
  "created_at": "2026-08-25 02:59:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/a7ae15be-0110-4824-ab18-16225ef4872e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/a7ae15be-0110-4824-ab18-16225ef4872e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:50:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Dowker Homology",
+    "Topological Data Analysis",
+    "Sentence Similarity",
+    "Persistence Diagram",
+    "Embedding Analysis",
+    "Transformer Models"
+   ],
+   "field": "语义表示与句子相似度",
+   "innovations": [
+    "首次将 Dowker Homology 应用于句子相似度任务，提出四种单数值 DS 变体",
+    "揭示 fine-tuning 对不相似句对表示的差异化影响，提供可解释的 TDA 诊断工具",
+    "证明 DH birth value 聚合可合理捕捉句子相似度但不超越传统 pooling 基线"
+   ],
+   "benchmarks": [
+    "STS-B"
+   ]
+  }
+ }
 }

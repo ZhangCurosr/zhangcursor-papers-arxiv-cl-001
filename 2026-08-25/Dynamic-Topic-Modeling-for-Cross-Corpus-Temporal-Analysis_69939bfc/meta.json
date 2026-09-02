@@ -4,5 +4,32 @@
  "title": "Dynamic-Topic-Modeling-for-Cross-Corpus-Temporal-Analysis",
  "token": "sk-jywkrqzJV...",
  "created_at": "2026-08-25 14:42:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/9fa875a7-fff7-4d47-b9a3-dad4907bbbfc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/9fa875a7-fff7-4d47-b9a3-dad4907bbbfc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:49:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "dynamic topic modeling",
+    "cross-corpus analysis",
+    "topic alignment",
+    "embedded topic model",
+    "shared backbone",
+    "residual adaptation",
+    "diachronic text analysis"
+   ],
+   "field": "动态主题建模与跨语料库分析",
+   "innovations": [
+    "共享骨干+残差适配两阶段框架实现跨语料库动态主题对齐",
+    "轨迹级JSD评估体系（Same-index JSD/ Margin/ R@1）",
+    "锚点惩罚与时序平滑正则化的残差偏移学习机制"
+   ],
+   "benchmarks": [
+    "COHA",
+    "Harvard Business Review",
+    "International Labour Review"
+   ]
+  }
+ }
 }

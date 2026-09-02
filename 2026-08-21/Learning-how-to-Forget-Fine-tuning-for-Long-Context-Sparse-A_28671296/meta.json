@@ -4,5 +4,30 @@
  "title": "Learning-how-to-Forget-Fine-tuning-for-Long-Context-Sparse-A",
  "token": "sk-oJ013oevc...",
  "created_at": "2026-08-21 14:32:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/1d91d4dc-49d4-4813-bea7-43031a87362b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/1d91d4dc-49d4-4813-bea7-43031a87362b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:45:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "sparse attention",
+    "long-context fine-tuning",
+    "KV cache compression",
+    "H2O",
+    "sequence parallelism",
+    "activation checkpointing"
+   ],
+   "field": "长上下文语言模型高效推理与微调",
+   "innovations": [
+    "提出基于delta编码和嵌套激活检查点的稀疏注意力微调方法，在单卡A100上实现任意长度序列训练",
+    "改进H2O缓存策略并实现高效SDPA内核扩展以支持累计注意力权重计算",
+    "揭示序列并行训练与稀疏注意力推理不一致导致的输出失控失效模式"
+   ],
+   "benchmarks": [
+    "Helmet 64k",
+    "Helmet 128k"
+   ]
+  }
+ }
 }

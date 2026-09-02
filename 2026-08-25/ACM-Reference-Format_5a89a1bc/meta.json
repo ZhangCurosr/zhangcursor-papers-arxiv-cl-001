@@ -4,5 +4,32 @@
  "title": "ACM-Reference-Format",
  "token": "sk-4LF0lBYcu...",
  "created_at": "2026-08-25 14:42:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/e370baf8-50e8-4e38-a90e-eb170a18b9ca.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/e370baf8-50e8-4e38-a90e-eb170a18b9ca.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:45:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "retrieval-augmented generation",
+    "context attribution",
+    "inference-time scaling",
+    "causal measurement",
+    "submodular optimization",
+    "diverse RAG"
+   ],
+   "field": "检索增强生成的证据度量与上下文分配",
+   "innovations": [
+    "揭露RAG评估的诊断幻觉：标准相关性代理在同查询硬负样本上失效，因果LOO探针保持稳健",
+    "建立上下文宽度稀释定律：校准得到宽度弹性0.68±0.02",
+    "提出闭环AsCP次模调度器与归因引导对比解码，在同等证据预算下组合召回提升16.8-20.5个百分点"
+   ],
+   "benchmarks": [
+    "ASQA",
+    "QAMPARI",
+    "ELI5",
+    "Cross-Cultural Recipe Adaptation"
+   ]
+  }
+ }
 }

@@ -4,5 +4,35 @@
  "title": "FormuEvo-LLM-Guided-Evolution-for-Discovering-Solver-Efficie",
  "token": "sk-twhrLv2pG...",
  "created_at": "2026-08-25 03:00:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/20fb84e3-6449-455a-9316-ec5b3513d4f1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/20fb84e3-6449-455a-9316-ec5b3513d4f1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:50:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "mixed-integer programming",
+    "MIP formulation",
+    "large language models",
+    "evolutionary optimization",
+    "solver-aware modeling",
+    "automated mathematical programming"
+   ],
+   "field": "AI for Operations Research / Automated MIP Modeling",
+   "innovations": [
+    "LLM-guided evolutionary framework for solver-efficient MIP formulation discovery",
+    "Solver-informed diagnosis mechanism using fine-grained solver statistics as verbal gradients",
+    "Structured memory and knowledge distillation for transfer across problems and model scales"
+   ],
+   "benchmarks": [
+    "TSP",
+    "JSSP",
+    "BPP",
+    "CFLP",
+    "QAP",
+    "Neural Network Verification (NNV)",
+    "IMO 2025 Problem 6"
+   ]
+  }
+ }
 }

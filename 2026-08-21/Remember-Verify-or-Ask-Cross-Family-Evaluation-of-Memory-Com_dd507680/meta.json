@@ -4,5 +4,38 @@
  "title": "Remember-Verify-or-Ask-Cross-Family-Evaluation-of-Memory-Com",
  "token": "sk-Hms67LeAf...",
  "created_at": "2026-08-21 03:00:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/af94b032-fd27-436f-ad9b-a5f735bddba4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/af94b032-fd27-436f-ad9b-a5f735bddba4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:45:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM agents",
+    "long-term memory",
+    "memory commitment",
+    "clarification benchmark",
+    "tool-call evaluation",
+    "cross-family evaluation",
+    "over-memory",
+    "under-asking"
+   ],
+   "field": "LLM Agent 记忆与交互决策",
+   "innovations": [
+    "提出 MCB 基准，首次联合评估持久化/局部使用/验证/澄清四种记忆承诺动作",
+    "设计 MCB-Act 工具调用变体，量化标签-工具行为分歧",
+    "跨 Claude 与 Qwen 家族的配对 Holm 校正检验，分离 prompt 敏感性与模型特质"
+   ],
+   "benchmarks": [
+    "MCB",
+    "MCB-Act",
+    "LongMemEval",
+    "LoCoMo",
+    "PerMemBench",
+    "Memory-R1",
+    "CLAMBER",
+    "τ-bench"
+   ]
+  }
+ }
 }

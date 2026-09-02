@@ -4,5 +4,34 @@
  "title": "ReCache-Efficient-KV-Cache-Reuse-and-Compression-for-Tool-Au",
  "token": "sk-fYugtz9Wo...",
  "created_at": "2026-08-21 03:01:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/024b045a-1a09-4031-b49c-62b656836010.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/024b045a-1a09-4031-b49c-62b656836010.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:45:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "KV Cache Reuse",
+    "Tool-Augmented LLM",
+    "Attention Mechanism",
+    "Model Compression",
+    "Agent Inference Efficiency"
+   ],
+   "field": "高效大模型推理",
+   "innovations": [
+    "Resource-wise attention 实现 composition-invariant 资源级 KV 缓存复用",
+    "Leave-one-in 贡献度驱动的层-KV头组联合结构剪枝",
+    "字段感知语义裁剪保留结构化 schema 关键接口信息"
+   ],
+   "benchmarks": [
+    "ToolACE",
+    "API-GEN",
+    "ToolMind",
+    "ToolRet",
+    "Toucan",
+    "SkillRouter",
+    "WildToolBench"
+   ]
+  }
+ }
 }

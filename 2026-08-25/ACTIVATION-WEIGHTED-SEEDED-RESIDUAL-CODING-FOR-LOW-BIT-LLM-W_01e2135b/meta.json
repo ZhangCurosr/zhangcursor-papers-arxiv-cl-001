@@ -4,5 +4,31 @@
  "title": "ACTIVATION-WEIGHTED-SEEDED-RESIDUAL-CODING-FOR-LOW-BIT-LLM-W",
  "token": "sk-ovHaiDbC4...",
  "created_at": "2026-08-25 02:58:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/420c349b-0ae5-45bd-a382-2268540b2fc1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/420c349b-0ae5-45bd-a382-2268540b2fc1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:46:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "weight quantization",
+    "residual coding",
+    "seeded representation",
+    "LLM compression",
+    "post-training quantization",
+    "activation weighting"
+   ],
+   "field": "大模型权重量化与压缩",
+   "innovations": [
+    "零码本种子基底残差编解码，以短种子选择器替代显式基底/码本存储",
+    "激活加权字节归一化分配准则，联合优化修复增益与序列化开销",
+    "渐进式前缀可独立解码，支持任意位宽预算的无损前缀截断"
+   ],
+   "benchmarks": [
+    "WikiText-2 PPL",
+    "Paired KL divergence",
+    "PIQA/HellaSwag/COPA/RTE/OpenBookQA/LAMBADA mean accuracy"
+   ]
+  }
+ }
 }

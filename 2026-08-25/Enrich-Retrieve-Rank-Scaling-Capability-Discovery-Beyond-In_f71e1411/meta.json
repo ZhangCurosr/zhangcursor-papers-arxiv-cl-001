@@ -4,5 +4,31 @@
  "title": "Enrich-Retrieve-Rank-Scaling-Capability-Discovery-Beyond-In",
  "token": "sk-uDfT0rM1x...",
  "created_at": "2026-08-25 14:42:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/44d53530-42f7-4495-b0e1-6fc359f10fb7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/44d53530-42f7-4495-b0e1-6fc359f10fb7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:50:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "capability discovery",
+    "tool retrieval",
+    "retrieval-augmented LLM",
+    "agent routing",
+    "information retrieval",
+    "in-context learning"
+   ],
+   "field": "多Agent系统中的工具/能力检索与路由",
+   "innovations": [
+    "将大规模Agent能力发现重构为信息检索流水线（Enrich-Retrieve-Rank），解耦检索与重排",
+    "系统绘制N=10→7,278全程退化曲线，定位in-context路由与retrieve-then-rank交叉点N≈500",
+    "离线丰富稀疏元数据，在name-only场景下Match@1提升25.6pp；生产四信号组合提升4.5pp"
+   ],
+   "benchmarks": [
+    "ToolRet",
+    "AppWorld",
+    "MCP"
+   ]
+  }
+ }
 }

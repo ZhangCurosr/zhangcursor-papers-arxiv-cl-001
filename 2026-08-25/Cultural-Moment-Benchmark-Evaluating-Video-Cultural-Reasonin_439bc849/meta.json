@@ -4,5 +4,37 @@
  "title": "Cultural-Moment-Benchmark-Evaluating-Video-Cultural-Reasonin",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-25 02:57:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/7fd01b0a-5554-4196-abef-33ffd5d67f34.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/7fd01b0a-5554-4196-abef-33ffd5d67f34.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:48:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Cultural Moment Benchmark",
+    "CMB",
+    "视频文化理解",
+    "时序定位",
+    "多模态基准",
+    "东南亚文化",
+    "VLM评测",
+    "多阶段级联"
+   ],
+   "field": "多模态视频理解与文化推理",
+   "innovations": [
+    "提出三阶段命名-识别-定位评测框架分离视频文化理解能力瓶颈",
+    "设计语义相似度干扰项构造算法BSWA与Outsider Filter保证国别特定知识测量",
+    "建立3阶段×3模式条件评估体系揭示VLM文化理解级联断裂"
+   ],
+   "benchmarks": [
+    "CMB",
+    "SCB",
+    "MINERVA-Cultural",
+    "ViMUL-Bench",
+    "AVMeme Exam",
+    "GIMMICK",
+    "ChineseVideoBench"
+   ]
+  }
+ }
 }

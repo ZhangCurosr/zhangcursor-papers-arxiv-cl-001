@@ -4,5 +4,35 @@
  "title": "DIAG-Diagnostic-Iterative-Alignment-and-Generation-for-Data",
  "token": "sk-0a1o6nr9t...",
  "created_at": "2026-08-25 14:42:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/54f98bac-7945-468a-ad45-31140e7e8b56.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/54f98bac-7945-468a-ad45-31140e7e8b56.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:48:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "iterative preference optimization",
+    "mathematical reasoning",
+    "data-efficient alignment",
+    "mistake-conditioned generation",
+    "empirical bayes",
+    "curriculum learning"
+   ],
+   "field": "大语言模型对齐与推理",
+   "innovations": [
+    "提出信号感知调度与Empirical Bayes主题评分耦合的Diagnose-and-Generate框架",
+    "将学生错误推理轨迹作为条件生成靶向练习题",
+    "理论证明有效偏好对产量与DPO损失曲率的关联"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "MATH500",
+    "MinervaMath",
+    "Gaokao2023En",
+    "OlympiadBench",
+    "AIME24",
+    "AMC23"
+   ]
+  }
+ }
 }

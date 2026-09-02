@@ -4,5 +4,31 @@
  "title": "Future-Querying-Can-LLMs-Serve-as-Implicit-Medical-World-Mod",
  "token": "sk-1FwfANuN8...",
  "created_at": "2026-08-25 14:42:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/5148def7-c727-4221-bd6d-9030b1ddefd8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/5148def7-c727-4221-bd6d-9030b1ddefd8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:50:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "未来查询",
+    "大语言模型",
+    "医学世界模型",
+    "临床轨迹建模",
+    "非结构化文本",
+    "LoRA微调",
+    "MIMIC-IV"
+   ],
+   "field": "临床自然语言处理与预测建模",
+   "innovations": [
+    "提出未来查询新范式评估LLM隐式医学世界模型能力",
+    "开发从观测序列自动构建历史-未来QA对的数据集方法",
+    "证明小型开源模型微调后可达到商业闭源模型水平的未来查询性能"
+   ],
+   "benchmarks": [
+    "Synthetic Medical Reports",
+    "MIMIC-IV ICU Notes"
+   ]
+  }
+ }
 }

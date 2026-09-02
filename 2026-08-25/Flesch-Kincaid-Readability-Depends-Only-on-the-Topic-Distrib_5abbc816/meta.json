@@ -4,5 +4,30 @@
  "title": "Flesch-Kincaid-Readability-Depends-Only-on-the-Topic-Distrib",
  "token": "sk-CZoysi7P5...",
  "created_at": "2026-08-25 14:42:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/d8cba4ad-b3f1-45e4-8f24-2eeee397f16f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/d8cba4ad-b3f1-45e4-8f24-2eeee397f16f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:50:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Flesch-Kincaid Readability",
+    "Topic Models",
+    "LDA",
+    "Long-text Convergence",
+    "Rate Decomposition",
+    "Readability Formulae"
+   ],
+   "field": "可解释性NLP与评估指标理论",
+   "innovations": [
+    "FKGL在主题模型下几乎必然收敛到主题分布向量的闭式函数Phi(theta)",
+    "将FKGL解耦为句界率e(theta)与音节率sigma(theta)两个标量的有理函数，并刻画其纤维与等值面几何",
+    "跨Brown与BNC执行掩码+分半+体裁控制+单特征基线审计，量化主题信号的增量解释力"
+   ],
+   "benchmarks": [
+    "Brown Corpus",
+    "British National Corpus (written)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "Expectations-and-Practices-around-AI-Disclosure-in-CS-Resear",
  "token": "sk-dKfLTOMDH...",
  "created_at": "2026-08-25 14:42:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/609a4c46-62a2-47f9-a4d4-db4f1eb5bee8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/609a4c46-62a2-47f9-a4d4-db4f1eb5bee8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:49:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "AI Disclosure",
+    "Generative AI in Research",
+    "Research Integrity",
+    "Academic Publishing Policy",
+    "LLM-assisted Research"
+   ],
+   "field": "科研诚信与AI治理",
+   "innovations": [
+    "首次系统量化CS研究中不同任务与人类参与水平下的AI披露必要性期望",
+    "审计EMNLP/ICLR万余条披露声明揭示期望与实践的结构性错位",
+    "提出任务分级框架与七维标准化boilerplate模板以对齐政策与社区期望"
+   ],
+   "benchmarks": [
+    "EMNLP 2025",
+    "ICLR 2026",
+    "CSRankings 65会议"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "Cultural-Moment-Benchmark-Evaluating-Video-Cultural-Reasonin",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-25 14:42:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/1bcfaeeb-a97b-48f8-9e65-126e6bea8d5e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/1bcfaeeb-a97b-48f8-9e65-126e6bea8d5e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:47:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Cultural Video Understanding",
+    "Temporal Grounding",
+    "Multimodal Benchmark",
+    "Vision-Language Model",
+    "Southeast Asia Culture",
+    "Multi-stage Evaluation"
+   ],
+   "field": "多模态文化理解与视频推理",
+   "innovations": [
+    "三阶段解耦评估框架，将视频文化理解分解为命名、视觉识别、时间定位三项独立能力并引入条件级联指标",
+    "语义相似度干扰项构造算法（中位余弦相似度0.70）有效阻断关键词匹配捷径",
+    "模态角色分类与国别脚本差异分析，揭示非拉丁脚本国家音频干扰比例翻倍"
+   ],
+   "benchmarks": [
+    "CMB (Cultural Moment Benchmark)"
+   ]
+  }
+ }
 }

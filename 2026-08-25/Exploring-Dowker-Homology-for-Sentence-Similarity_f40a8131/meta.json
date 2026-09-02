@@ -4,5 +4,27 @@
  "title": "Exploring-Dowker-Homology-for-Sentence-Similarity",
  "token": "sk-yjjHVmEWF...",
  "created_at": "2026-08-25 14:42:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/a7ae15be-0110-4824-ab18-16225ef4872e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/a7ae15be-0110-4824-ab18-16225ef4872e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:50:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Dowker Homology",
+    "Sentence Similarity",
+    "Topological Data Analysis",
+    "Persistent Homology",
+    "Token Embeddings"
+   ],
+   "field": "自然语言处理中的拓扑数据分析",
+   "innovations": [
+    "首次将Dowker同调应用于句子相似度分析，通过token嵌入点云的拓扑关系刻画语义相似性",
+    "提出Dowker Similarity单数摘要指标，从持久图提取min/max/mean/weighted birth值作为相似度度量"
+   ],
+   "benchmarks": [
+    "STS-B"
+   ]
+  }
+ }
 }

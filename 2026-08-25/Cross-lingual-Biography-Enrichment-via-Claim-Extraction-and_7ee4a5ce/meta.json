@@ -4,5 +4,34 @@
  "title": "Cross-lingual-Biography-Enrichment-via-Claim-Extraction-and",
  "token": "sk-TTQuLp2ot...",
  "created_at": "2026-08-25 02:58:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/6d73a549-c33b-44f1-9790-f460ff3c608c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/6d73a549-c33b-44f1-9790-f460ff3c608c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:47:53",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "跨语言传记丰富化",
+    "Claim 抽取",
+    "跨语言对齐",
+    "多语言 NLI",
+    "维基百科补全",
+    "事实性生成"
+   ],
+   "field": "跨语言自然语言处理",
+   "innovations": [
+    "提出跨语言传记丰富化任务，以 claim 级结构化证据驱动英语传记重写",
+    "构建 CLAW-4L 三件套数据集（传记对/claim抽取/关系分类基准）",
+    "设计 Tier-aware 分层采样策略与约束局部搜索实现多维分布对齐"
+   ],
+   "benchmarks": [
+    "CLAW-4L",
+    "CLAW-4L-CX",
+    "CLAW-4L-RC",
+    "X-Claimify",
+    "FactScore",
+    "VeriScore"
+   ]
+  }
+ }
 }
