@@ -4,5 +4,10 @@
  "title": "CREDIT-WITHOUT-GROUND-TRUTH-AUDITING-STEP-LEVEL-CREDIT-ASSIG",
  "token": "sk-n7iJ0Z1Ol...",
  "created_at": "2026-08-21 03:01:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/4fd8d951-ee5f-41bd-b6fd-ec5115d848b8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/4fd8d951-ee5f-41bd-b6fd-ec5115d848b8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 00:03:36",
+  "chunks": 4
+ }
 }

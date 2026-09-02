@@ -4,5 +4,10 @@
  "title": "ContractScrub-A-benchmark-for-final-review-of-legal-contract",
  "token": "sk-331OfnzjD...",
  "created_at": "2026-08-21 03:00:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/19f2b048-7bf9-4165-b1c0-dc1ad5e9c1de.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/19f2b048-7bf9-4165-b1c0-dc1ad5e9c1de.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 00:03:41",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,31 @@
  "title": "FlashPrefill-V2-Block-Sparse-Prefill-Attention-for-Long-Cont",
  "token": "sk-LV19Ft0NN...",
  "created_at": "2026-08-21 14:32:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/bff1b434-d800-4d1f-91fd-edd08652ddf0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/bff1b434-d800-4d1f-91fd-edd08652ddf0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 00:04:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "block-sparse attention",
+    "long-context LLM",
+    "prefill acceleration",
+    "FlashAttention",
+    "paged KV cache",
+    "FP8 inference",
+    "continuous batching"
+   ],
+   "field": "高效大模型推理系统",
+   "innovations": [
+    "均值修正项在极端稀疏下补偿softmax质量损失，精度控制至<1.8分",
+    "FA3/4对齐的warp-specialized稀疏算子，支持PackGQA与FP8在线量化",
+    "原生集成paged KV cache与continuous batching，可作SGLang attention backend"
+   ],
+   "benchmarks": [
+    "RULER",
+    "LongBench"
+   ]
+  }
+ }
 }

@@ -4,5 +4,35 @@
  "title": "EnvHarness-Awakening-Static-Worlds-for-Agent-Learning",
  "token": "sk-MljcAo9Bd...",
  "created_at": "2026-08-21 14:32:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/15caa680-0107-4bc9-b5b6-9f0c796b1ce2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/15caa680-0107-4bc9-b5b6-9f0c796b1ce2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 00:04:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "environment design",
+    "agent learning",
+    "LLM agents",
+    "self-evolving agents",
+    "benchmark customization",
+    "skill extraction",
+    "reinforcement learning"
+   ],
+   "field": "Agent Environment Design",
+   "innovations": [
+    "提出EnvHarness可编程包装框架，通过Stage/Contract/Chain三个组件在接口层动态定制静态环境，保持原始验证器不变",
+    "设计EnvRigger自动化闭环，以策略黑盒轨迹诊断为输入，合成并验证针对性环境组件",
+    "跨五基准验证EnvHarness在skill-based学习与RL两种范式下的通用性与一致性提升"
+   ],
+   "benchmarks": [
+    "ALFWorld",
+    "WebArena",
+    "SWE-bench Verified",
+    "OfficeQA",
+    "SpreadsheetBench",
+    "WebShop"
+   ]
+  }
+ }
 }

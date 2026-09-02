@@ -4,5 +4,31 @@
  "title": "Automated-Summarization-of-Financial-News-Using-Large-Langua",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-08-21 14:32:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/80bc7ca1-4880-4745-ae6c-17f717fe42a9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/80bc7ca1-4880-4745-ae6c-17f717fe42a9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:59:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "金融新闻摘要",
+    "大语言模型",
+    "RAG",
+    "Summarize Chains",
+    "结构化数据转文本",
+    "Falcon-7B",
+    "数值幻觉"
+   ],
+   "field": "金融NLP / 多文档摘要",
+   "innovations": [
+    "提出结构化股价数据到自然语言模板的转换方案，从源头规避LLM算术幻觉",
+    "系统对比Summarize Chains与RAG在开源模型上的表现，揭示小模型RAG的重复与幻觉失败模式"
+   ],
+   "benchmarks": [
+    "ROUGE-1/2/L",
+    "Lead-3 Baseline",
+    "Qualitative Coverage-Accuracy-Coherence"
+   ]
+  }
+ }
 }

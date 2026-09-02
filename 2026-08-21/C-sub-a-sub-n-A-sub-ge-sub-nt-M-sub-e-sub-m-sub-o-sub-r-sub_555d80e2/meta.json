@@ -4,5 +4,10 @@
  "title": "C-sub-a-sub-n-A-sub-ge-sub-nt-M-sub-e-sub-m-sub-o-sub-r-sub",
  "token": "sk-FMTQpgZxg...",
  "created_at": "2026-08-21 14:32:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/b3f921e8-3a1e-4a99-ae19-7d988a86b092.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/b3f921e8-3a1e-4a99-ae19-7d988a86b092.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 00:01:59",
+  "chunks": 4
+ }
 }

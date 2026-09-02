@@ -4,5 +4,30 @@
  "title": "G-CARL-Grounded-Checklist-Aligned-Reward-Learning-for-Patien",
  "token": "sk-aQHhxC28I...",
  "created_at": "2026-08-21 14:32:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/ad420380-1317-4653-b218-f1be4ec735ea.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/ad420380-1317-4653-b218-f1be4ec735ea.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 00:05:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Patient-oriented Medical Report Interpretation",
+    "Reinforcement Learning",
+    "Multi-modal LLM",
+    "Reward Modeling",
+    "Medical Factuality",
+    "Checklist Alignment"
+   ],
+   "field": "多模态医疗大模型",
+   "innovations": [
+    "提出按可验证性边界分解的多目标奖励框架（声明级证据验证+实例加权清单）",
+    "构建双二值验证机制（SUPPORTED+RELEVANT）精细化医学事实性监督",
+    "实例特定加权清单结合MLLM生成与临床医生精炼，避免静态量规的个案盲区"
+   ],
+   "benchmarks": [
+    "MMedReport",
+    "CMB"
+   ]
+  }
+ }
 }

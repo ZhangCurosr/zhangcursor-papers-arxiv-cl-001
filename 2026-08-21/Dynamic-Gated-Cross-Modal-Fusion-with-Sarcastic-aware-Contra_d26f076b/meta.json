@@ -4,5 +4,28 @@
  "title": "Dynamic-Gated-Cross-Modal-Fusion-with-Sarcastic-aware-Contra",
  "token": "sk-JqniBRrr0...",
  "created_at": "2026-08-21 14:32:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/4db7d747-b222-408a-aa33-72893522db24.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/4db7d747-b222-408a-aa33-72893522db24.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 00:03:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multimodal sarcasm detection",
+    "cross-modal fusion",
+    "contrastive regularization",
+    "gated attention",
+    "incongruity perception"
+   ],
+   "field": "多模态自然语言理解",
+   "innovations": [
+    "值门控双向交叉注意力与动态融合门实现实例级自适应跨模态对齐",
+    "标签感知的讽刺感知对比正则化(SaCR)抑制误导性表面一致性"
+   ],
+   "benchmarks": [
+    "MMSD",
+    "MMSD2.0"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "From-Retrieved-Context-to-Runtime-Control-Adaptive-Compressi",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-08-21 14:32:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/9067d211-7ea1-4504-8e0e-a7a18ce9dd12.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/9067d211-7ea1-4504-8e0e-a7a18ce9dd12.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 00:05:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Edge RAG",
+    "Context Compression",
+    "Energy-Efficient Inference",
+    "Adaptive Control",
+    "Edge SoC",
+    "LLM Optimization"
+   ],
+   "field": "边缘智能系统优化",
+   "innovations": [
+    "提出遥测感知的运行时自适应压缩机制，将压缩从固定预处理变为动态系统旋钮",
+    "建立包含压缩器自身开销的净收益分析框架，揭示双膝结构与宽安全操作空间",
+    "在 Jetson AGX Thor 上首次系统刻画 1B-8B 边缘 RAG 各阶段延迟与能耗占比"
+   ],
+   "benchmarks": [
+    "Natural Questions",
+    "HotpotQA"
+   ]
+  }
+ }
 }

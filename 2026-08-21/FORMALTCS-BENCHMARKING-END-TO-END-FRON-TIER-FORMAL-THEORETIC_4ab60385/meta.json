@@ -4,5 +4,29 @@
  "title": "FORMALTCS-BENCHMARKING-END-TO-END-FRON-TIER-FORMAL-THEORETIC",
  "token": "sk-F7cBp1IrI...",
  "created_at": "2026-08-21 03:01:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/23b44772-2248-4432-b00b-5afc6b675253.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/23b44772-2248-4432-b00b-5afc6b675253.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 00:04:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Formal Theorem Proving",
+    "LLM Benchmark",
+    "Autoformalization",
+    "TCS Research",
+    "Lean4",
+    "End-to-End Evaluation"
+   ],
+   "field": "形式化定理证明与大语言模型",
+   "innovations": [
+    "提出首个基于2025-2026年TCS顶会论文的端到端研究基准FORMALTCS，含175例专家验证Lean证明",
+    "将TCS研究流程拆分为定理提取/自动形式化/证明策略/定理证明四阶段，实现细粒度瓶颈诊断",
+    "开发Planner-Formalizer-Judger多智能体自动化TCS研究框架，揭示研究品味是除形式化外的第二核心瓶颈"
+   ],
+   "benchmarks": [
+    "FORMALTCS"
+   ]
+  }
+ }
 }

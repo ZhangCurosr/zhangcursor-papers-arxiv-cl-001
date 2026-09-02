@@ -4,5 +4,30 @@
  "title": "Does-Listening-Mater-Backchanneling-and-Nodding-in-AI-Clone",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-08-21 14:32:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/8f347f64-a682-433e-8ae8-7646a5a2ebe6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/8f347f64-a682-433e-8ae8-7646a5a2ebe6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 00:03:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "AI clone",
+    "backchannel",
+    "nodding",
+    "listening behavior",
+    "co-presence",
+    "VAP"
+   ],
+   "field": "人机对话与多模态交互",
+   "innovations": [
+    "将backchannel与nodding实时集成到AI clone，验证其对专注感与共在感的提升",
+    "采用VAP连续预测与身份一致的多模态反馈管线",
+    "发现attentiveness与backchannel数量的倒U型关系"
+   ],
+   "benchmarks": [
+    "主观九项量表评估",
+    "对话行为日志统计"
+   ]
+  }
+ }
 }

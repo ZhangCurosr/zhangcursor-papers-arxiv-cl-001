@@ -4,5 +4,31 @@
  "title": "ConceptGuard-Benchmarking-Context-Sensitive-Unlearning-in-La",
  "token": "sk-WJrSFDicB...",
  "created_at": "2026-08-21 14:32:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/d94eea8a-f019-4b05-afa3-2e5760415109.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/d94eea8a-f019-4b05-afa3-2e5760415109.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 00:02:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "机器无遗忘",
+    "大语言模型",
+    "上下文敏感评估",
+    "双重使用概念",
+    "安全对齐"
+   ],
+   "field": "LLM安全与可解释性",
+   "innovations": [
+    "提出概念级互补forget/retain集构建范式",
+    "引入上下文分离度指标量化概念级行为控制能力",
+    "系统揭示现有方法在概念纠缠下的遗忘-效用权衡局限"
+   ],
+   "benchmarks": [
+    "ConceptGuard",
+    "TOFU",
+    "MUSE",
+    "WMDP"
+   ]
+  }
+ }
 }

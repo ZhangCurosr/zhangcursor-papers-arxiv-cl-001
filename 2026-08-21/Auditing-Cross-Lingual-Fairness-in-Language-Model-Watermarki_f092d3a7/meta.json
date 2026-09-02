@@ -4,5 +4,33 @@
  "title": "Auditing-Cross-Lingual-Fairness-in-Language-Model-Watermarki",
  "token": "sk-Wt6bONApk...",
  "created_at": "2026-08-21 14:32:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/99d313be-a0b7-496f-828d-1a4252c14b0a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/99d313be-a0b7-496f-828d-1a4252c14b0a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:59:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM watermarking",
+    "cross-lingual fairness",
+    "multilingual evaluation",
+    "green-list logit bias",
+    "distortion-free watermark",
+    "generalized entropy decomposition",
+    "operational-point calibration"
+   ],
+   "field": "多语言AI安全与公平性",
+   "innovations": [
+    "首个系统性LLM水印跨语言公平性审计框架，包含校准阈值+AUC伴生+三质量范式+广义熵分解四组件",
+    "揭示无失真方案实证上反而最失真、instruct微调导致检测崩塌与跨语言差距同等量级的发现",
+    "将FairML工具（五分之四规则/广义熵分解）直接迁移到水印跨语言审计并验证类型学结构差异"
+   ],
+   "benchmarks": [
+    "FLORES+ devtest",
+    "AYA dataset",
+    "MarkMyWords",
+    "WaterBench"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "Execution-grounded-evaluation-reveals-hidden-failures-in-lan",
  "token": "sk-hwXfRrBR3...",
  "created_at": "2026-08-20 14:33:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/55106e98-8d78-4b50-af80-26cf766cee9e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/55106e98-8d78-4b50-af80-26cf766cee9e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:59:27",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "language model evaluation",
+    "environmental science",
+    "code execution",
+    "AtmosCoder-Bench",
+    "multiple-choice inflation",
+    "calculation failure"
+   ],
+   "field": "LLM科学计算评测",
+   "innovations": [
+    "提出AtmosCoder-Bench执行落地基准，首次系统揭示多选题格式通胀12-39pp",
+    "分类四类prose失效机制（符号丢失/迭代截断/关系遗漏/参数替换）",
+    "量化领域微调模型的代码生成税（ClimateGPT code-mode仅0.8-3.1%）"
+   ],
+   "benchmarks": [
+    "AtmosCoder-Bench"
+   ]
+  }
+ }
 }

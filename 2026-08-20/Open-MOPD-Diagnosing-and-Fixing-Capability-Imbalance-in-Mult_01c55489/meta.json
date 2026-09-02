@@ -4,5 +4,31 @@
  "title": "Open-MOPD-Diagnosing-and-Fixing-Capability-Imbalance-in-Mult",
  "token": "sk-DXHHyylpH...",
  "created_at": "2026-08-20 14:33:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/92c15e30-4d97-4658-998c-8432cc6234f0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/92c15e30-4d97-4658-998c-8432cc6234f0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:59:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-teacher on-policy distillation",
+    "capability integration",
+    "training imbalance",
+    "reward refresh",
+    "open benchmark",
+    "LLM post-training"
+   ],
+   "field": "多教师知识蒸馏与能力整合",
+   "innovations": [
+    "提出令牌共享平衡机制补偿跨域长度差异",
+    "设计差距感知动态预算分配跟随剩余能力差距",
+    "引入学生奖励刷新消除内层更新奖励陈旧"
+   ],
+   "benchmarks": [
+    "AIME24/AIME25",
+    "LiveCodeBench v5/v6",
+    "IFEval/IFBenchtest"
+   ]
+  }
+ }
 }

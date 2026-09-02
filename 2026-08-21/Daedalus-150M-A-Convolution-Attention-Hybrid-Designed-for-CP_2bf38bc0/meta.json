@@ -4,5 +4,35 @@
  "title": "Daedalus-150M-A-Convolution-Attention-Hybrid-Designed-for-CP",
  "token": "sk-ZHrWl9Czg...",
  "created_at": "2026-08-21 14:32:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/921cdd53-7c65-42ed-9d53-14d78fac9ee6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/921cdd53-7c65-42ed-9d53-14d78fac9ee6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 00:03:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "small language models",
+    "CPU inference",
+    "convolution-attention hybrid",
+    "quantization",
+    "efficient architectures",
+    "GQA",
+    "sub-200M models"
+   ],
+   "field": "高效小模型与边缘部署",
+   "innovations": [
+    "面向CPU单batch内存流量设计6层注意力+12层短卷积的混合架构",
+    "预注册参数匹配消融验证架构收益并定位纯带宽模型的不足",
+    "报告死通道稳定失活且不可结构性剪枝的负结果"
+   ],
+   "benchmarks": [
+    "HellaSwag",
+    "ARC-Easy",
+    "PIQA",
+    "OpenBookQA",
+    "WinoGrande",
+    "val_bpb"
+   ]
+  }
+ }
 }

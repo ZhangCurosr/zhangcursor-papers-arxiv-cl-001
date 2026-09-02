@@ -4,5 +4,30 @@
  "title": "Generating-Diverse-Personas-for-User-Simulators-to-Test-Inte",
  "token": "sk-NnOQ8YDzm...",
  "created_at": "2026-08-21 03:01:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/97f184e0-a07c-49cf-aec1-a426b0b10b53.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/97f184e0-a07c-49cf-aec1-a426b0b10b53.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 00:05:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "用户模拟器",
+    "人格生成",
+    "对话系统测试",
+    "大语言模型",
+    "多样性评估",
+    "面试对话系统"
+   ],
+   "field": "对话系统测试与评估",
+   "innovations": [
+    "基于LLM的自动化人格生成方法，支持面试对话系统测试",
+    "引入拟人化程度和详尽程度双轴性格特质控制沟通风格多样性",
+    "系统性验证人格多样性对对话系统缺陷发现的影响"
+   ],
+   "benchmarks": [
+    "旅行面试对话系统",
+    "甜品偏好面试对话系统"
+   ]
+  }
+ }
 }

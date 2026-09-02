@@ -4,5 +4,36 @@
  "title": "Daedalus-150M-A-Convolution-Attention-Hybrid-Designed-for-CP",
  "token": "sk-ZHrWl9Czg...",
  "created_at": "2026-08-21 03:01:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/9d04c06b-bdc9-4455-b8db-9d74e8a817dc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/9d04c06b-bdc9-4455-b8db-9d74e8a817dc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 00:03:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "small language models",
+    "CPU inference",
+    "hybrid architecture",
+    "convolution-attention",
+    "quantization",
+    "memory bandwidth",
+    "efficient deployment"
+   ],
+   "field": "高效小型语言模型架构设计",
+   "innovations": [
+    "以单用户CPU推理为目标的混合架构设计：用固定状态短卷积替换2/3注意力层以消除增长型KV cache",
+    "预注册参数匹配消融实验隔离架构效应，证实hybrid在validation bpb上以0.81%优势获胜且解码加速随上下文单调增长",
+    "一阶带宽成本模型与实测差异分析揭示延迟效应和层数开销是关键加速来源"
+   ],
+   "benchmarks": [
+    "HellaSwag",
+    "ARC-Easy",
+    "PIQA",
+    "OpenBookQA",
+    "WinoGrande",
+    "lm-evaluation-harness五任务均值",
+    "validation bits-per-byte"
+   ]
+  }
+ }
 }

@@ -4,5 +4,35 @@
  "title": "EnvHarness-Awakening-Static-Worlds-for-Agent-Learning",
  "token": "sk-MljcAo9Bd...",
  "created_at": "2026-08-21 03:02:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/f89ede6d-15c1-483b-95ec-b758bbd0fef3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/f89ede6d-15c1-483b-95ec-b758bbd0fef3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 00:04:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "environment harness",
+    "agent learning",
+    "environment customization",
+    "skill extraction",
+    "reinforcement learning",
+    "automated environment design",
+    "co-evolution"
+   ],
+   "field": "AI Agent 与学习环境协同优化",
+   "innovations": [
+    "提出 EnvHarness 接口层包装范式，以 Stage/Contract/Chain 三类组件在不修改静态环境内部逻辑与人类验证器的条件下动态定制训练环境",
+    "设计 EnvRigger 任务-策略条件化自动定制回路，通过 Observe/Diagnose/Write/Validate 闭环把策略弱点转化为可验证的环境扰动",
+    "证明同一跨域通用接口可同时赋能 skill-based learning 与 online RL，实现策略与环境协同进化"
+   ],
+   "benchmarks": [
+    "ALFWorld",
+    "WebArena",
+    "SWE-bench Verified",
+    "OfficeQA",
+    "SpreadsheetBench",
+    "WebShop"
+   ]
+  }
+ }
 }

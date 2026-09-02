@@ -4,5 +4,30 @@
  "title": "G-CARL-Grounded-Checklist-Aligned-Reward-Learning-for-Patien",
  "token": "sk-aQHhxC28I...",
  "created_at": "2026-08-21 03:01:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/ad420380-1317-4653-b218-f1be4ec735ea.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/ad420380-1317-4653-b218-f1be4ec735ea.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 00:05:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "患者导向医疗报告解读",
+    "强化学习",
+    "多模态大模型",
+    "事实性验证",
+    "清单奖励",
+    "医疗AI"
+   ],
+   "field": "医疗多模态生成",
+   "innovations": [
+    "检索归因声明级奖励实现医学事实可验证验证",
+    "实例特定加权清单奖励处理上下文依赖的主观目标",
+    "双二值验证机制联合事实支持与上下文相关性"
+   ],
+   "benchmarks": [
+    "MMedReport",
+    "CMB"
+   ]
+  }
+ }
 }

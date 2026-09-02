@@ -4,5 +4,28 @@
  "title": "Forking-Fast-Efficiently-Estimating-Uncertainty-Dynamics-in",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-21 14:32:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/6aa17f5a-1268-47aa-88a2-3bdb577f2aaa.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/6aa17f5a-1268-47aa-88a2-3bdb577f2aaa.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 00:04:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Forking Paths Analysis",
+    "uncertainty dynamics",
+    "LLM reasoning",
+    "resampling efficiency",
+    "change point detection",
+    "kernel smoothing"
+   ],
+   "field": "大语言模型可解释性与推理分析",
+   "innovations": [
+    "提出基于PELT变点检测与核加权Dirichlet池化的统计平滑模型，将低采样FPA数据的有效样本量提升3-22倍",
+    "验证重采样噪声服从多项式分布且按1/√S衰减，为低成本不确定性动态估计提供理论依据"
+   ],
+   "benchmarks": [
+    "tinyMMLU"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Break-It-Down-Pass-It-On-Cross-Task-Skill-Transfer-in-LLM-Ag",
  "token": "sk-Jd4ujJMnj...",
  "created_at": "2026-08-21 14:32:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/ae249f20-28f0-445c-84a7-1c940acdfdae.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/ae249f20-28f0-445c-84a7-1c940acdfdae.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:59:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM Agents",
+    "Skill Transfer",
+    "Cross-Task Generalization",
+    "Skill Memory",
+    "Subtask Decomposition",
+    "Skill Utility Score"
+   ],
+   "field": "LLM Agent Memory and Skill Transfer",
+   "innovations": [
+    "系统对比任务级vs子任务级、文本vs代码四个组合的跨任务技能迁移",
+    "提出无需执行的Skill Utility Score（specificity×abstractness）预测技能价值",
+    "发现任务级技能平均损害Agent性能而子任务级技能平均提升性能"
+   ],
+   "benchmarks": [
+    "AppWorld",
+    "OfficeBench",
+    "KramaBench"
+   ]
+  }
+ }
 }
