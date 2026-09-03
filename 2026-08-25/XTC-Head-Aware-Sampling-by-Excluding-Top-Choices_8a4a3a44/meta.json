@@ -4,5 +4,33 @@
  "title": "XTC-Head-Aware-Sampling-by-Excluding-Top-Choices",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-08-25 03:00:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/6997c77e-9ead-4ce8-ae0c-fcc63b42b9bf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/6997c77e-9ead-4ce8-ae0c-fcc63b42b9bf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 10:41:35",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "decoding",
+    "text generation",
+    "diversity",
+    "language models",
+    "sampling",
+    "autoregressive",
+    "homogenization"
+   ],
+   "field": "语言模型解码策略",
+   "innovations": [
+    "提出 XTC 头部感知解码算子，针对分布头部多义性区域移除主导 token",
+    "证明 XTC 与温度/重复惩罚正交可加，联合 Distinct-2 提升 38%",
+    "跨 4 模型家族验证多样性-指令遵循 Pareto 优化，IFEval 成本仅为温度缩放的 1/5"
+   ],
+   "benchmarks": [
+    "Creative Writing Bench v3",
+    "IFEval",
+    "AMT human evaluation",
+    "Claude Opus 4.7 / GPT-4o judge"
+   ]
+  }
+ }
 }

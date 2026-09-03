@@ -4,5 +4,31 @@
  "title": "MC-CXR-A-Multi-Context-Chest-X-ray-Benchmark-for-Context-Ind",
  "token": "sk-mtKOSZtKc...",
  "created_at": "2026-08-26 14:41:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/e68e79f5-bf65-47f8-9ef9-7b2241dcafca.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/e68e79f5-bf65-47f8-9ef9-7b2241dcafca.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 10:43:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "chest X-ray",
+    "vision-language model",
+    "benchmark",
+    "context robustness",
+    "medical VQA",
+    "evidence arbitration"
+   ],
+   "field": "多模态医学AI评估",
+   "innovations": [
+    "提出MC-CXR配对扰动基准，测量VLM在胸部X光解读中对误导性上下文的抵抗能力",
+    "定义switch-to-wrong rate与context-aligned error rate两个失败模式指标",
+    "发现文本上下文诱导的方向性切换率(74.6%)显著高于视觉上下文(17.6%)的57pp不对称性"
+   ],
+   "benchmarks": [
+    "MC-CXR",
+    "MIMIC-CXR",
+    "CheXpert"
+   ]
+  }
+ }
 }

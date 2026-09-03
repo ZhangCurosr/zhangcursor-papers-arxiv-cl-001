@@ -4,5 +4,30 @@
  "title": "Memory-Is-Not-Always-Needed-Characterizing-Conditional-Memor",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-08-26 14:41:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/4c38df1a-e338-455c-81a4-43f2d1334171.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/4c38df1a-e338-455c-81a4-43f2d1334171.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 10:44:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "conditional memory",
+    "scientific reasoning",
+    "knowledge boundary",
+    "routing",
+    "retrieval-augmented generation",
+    "layer-stage intervention"
+   ],
+   "field": "科学推理与记忆增强",
+   "innovations": [
+    "提出知识边界感知路由器实现选择性记忆分配",
+    "建立行为边界与知识电路双视角的分析框架",
+    "定义SCMB指标量化记忆对边界样本的针对性贡献"
+   ],
+   "benchmarks": [
+    "BioProBench",
+    "ChemCoTBench"
+   ]
+  }
+ }
 }

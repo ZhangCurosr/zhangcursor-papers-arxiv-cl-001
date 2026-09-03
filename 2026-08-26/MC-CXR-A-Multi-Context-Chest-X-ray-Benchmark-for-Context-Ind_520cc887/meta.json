@@ -4,5 +4,10 @@
  "title": "MC-CXR-A-Multi-Context-Chest-X-ray-Benchmark-for-Context-Ind",
  "token": "sk-mtKOSZtKc...",
  "created_at": "2026-08-26 03:05:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/e68e79f5-bf65-47f8-9ef9-7b2241dcafca.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/e68e79f5-bf65-47f8-9ef9-7b2241dcafca.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 10:43:42",
+  "chunks": 1
+ }
 }

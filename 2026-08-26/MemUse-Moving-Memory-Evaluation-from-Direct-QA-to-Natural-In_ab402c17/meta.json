@@ -4,5 +4,32 @@
  "title": "MemUse-Moving-Memory-Evaluation-from-Direct-QA-to-Natural-In",
  "token": "sk-FMTQpgZxg...",
  "created_at": "2026-08-26 14:41:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/28104baa-bdb5-46bc-b984-7607daf96053.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/28104baa-bdb5-46bc-b984-7607daf96053.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 10:44:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "长期对话记忆",
+    "LLM评估基准",
+    "检索-整合差距",
+    "用户满意度",
+    "自然语言集成"
+   ],
+   "field": "对话系统评估",
+   "innovations": [
+    "提出MEMUSE基准，从真实部署中自动检测用户触发记忆时刻而非人工编写QA",
+    "揭示检索与整合能力的解耦：同一模型Direct QA 78.8% vs 自然引用仅7.9%",
+    "证明提示干预无法闭合检索-整合gap，瓶颈在生成阶段而非检索阶段"
+   ],
+   "benchmarks": [
+    "MEMUSE",
+    "LoCoMo",
+    "LUFY",
+    "RealTalk",
+    "LongMemEval"
+   ]
+  }
+ }
 }

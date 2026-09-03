@@ -4,5 +4,30 @@
  "title": "Mechanistic-Circuit-Identification-for-Controllable-Data-Gen",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-08-26 14:41:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/b3dd4d2f-641e-476b-bc95-0d8021c99449.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/b3dd4d2f-641e-476b-bc95-0d8021c99449.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 10:44:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "mechanistic interpretability",
+    "data synthesis",
+    "circuit identification",
+    "training dynamics",
+    "controllable generation",
+    "SAMS"
+   ],
+   "field": "可解释AI与数据合成交叉",
+   "innovations": [
+    "首次将MI电路发现与训练效用指标（AUM/EL2N/GradAlign）关联并提供机制证据",
+    "提出激活添加+注意力引导的双层电路操控实现因果可控数据生成",
+    "SAMS阶段感知调度框架实现机制导向的 Curriculum Data Mix"
+   ],
+   "benchmarks": [
+    "SciQ",
+    "ARC-Easy"
+   ]
+  }
+ }
 }

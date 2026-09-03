@@ -4,5 +4,31 @@
  "title": "SAVER-Selective-Auditing-of-Verbal-Evidence-for-Error-Recove",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-08-25 03:00:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/70ef5437-6fa4-4efb-87ef-62380ae422b6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/70ef5437-6fa4-4efb-87ef-62380ae422b6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 10:41:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "VLM",
+    "change detection",
+    "test-time method",
+    "verbal evidence",
+    "selective prompting",
+    "expression failure"
+   ],
+   "field": "视觉语言模型推理",
+   "innovations": [
+    "基于言语证据的门控诊断表达失败",
+    "选择性结构化重新提示避免破坏正确基线",
+    "LLM 单轮生成可迁移的证据模式"
+   ],
+   "benchmarks": [
+    "CLEVR-Change",
+    "MagicBrush",
+    "Spot-the-Diff"
+   ]
+  }
+ }
 }

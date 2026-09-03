@@ -4,5 +4,31 @@
  "title": "Not-All-Tokens-Are-Equal-Region-Aware-Consistency-Repair-of",
  "token": "sk-JdJPQj6CY...",
  "created_at": "2026-08-26 14:41:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/4658b958-86ff-4874-a950-6d0105e35f2e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/4658b958-86ff-4874-a950-6d0105e35f2e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 10:45:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态大语言模型",
+    "后门攻击",
+    "后门防御",
+    "表示一致性",
+    "对抗修复",
+    "MLLM安全"
+   ],
+   "field": "多模态大语言模型安全",
+   "innovations": [
+    "发现后门在MLLM中引发模态依赖的逐层不一致异常，集中于触发器所在token区域且在深层显著",
+    "提出RACER区域感知一致性修复框架，分别归一化视觉/文本区域后以模态权重重组并限定深层窗口",
+    "仅需100个干净样本、无需任何后门先验，在36个攻击设置下将平均ASR从98.6%降至1.1%"
+   ],
+   "benchmarks": [
+    "VQAv2",
+    "COCO Captions",
+    "LLaVA-Instruct-150K"
+   ]
+  }
+ }
 }

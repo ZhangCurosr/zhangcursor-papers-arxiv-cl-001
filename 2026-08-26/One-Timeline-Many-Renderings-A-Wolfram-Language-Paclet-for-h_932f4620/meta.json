@@ -4,5 +4,32 @@
  "title": "One-Timeline-Many-Renderings-A-Wolfram-Language-Paclet-for-h",
  "token": "sk-twhrLv2pG...",
  "created_at": "2026-08-26 03:04:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/b48b93c9-3319-4cd7-9ec6-4d6a90945f0d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/b48b93c9-3319-4cd7-9ec6-4d6a90945f0d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 10:45:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "算法作曲",
+    "多后端渲染",
+    "时间同步",
+    "Wolfram Language",
+    "Csound",
+    "MusicXML",
+    "OSC",
+    "Temporal System"
+   ],
+   "field": "算法作曲与多介质时间线同步",
+   "innovations": [
+    "单一不可变有理拍点时间线存储，单位转换延后至渲染时",
+    "三层架构（时序/语义/渲染契约）使添加新后端只需实现 Layer III 契约",
+    "命名乐器 + 曲线 p-field 绑定机制保证源文件不被手工编辑影响"
+   ],
+   "benchmarks": [
+    "demo fixture: 16-note sine osc / 8 click / 4 trigger / 6 curves / multi-meter grid",
+    "no quantitative benchmark; qualitative sync demonstration across Csound/OSC/MusicXML/Click"
+   ]
+  }
+ }
 }

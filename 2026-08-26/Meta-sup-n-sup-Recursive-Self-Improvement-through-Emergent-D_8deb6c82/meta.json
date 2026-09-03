@@ -4,5 +4,36 @@
  "title": "Meta-sup-n-sup-Recursive-Self-Improvement-through-Emergent-D",
  "token": "sk-AsgiqoBdE...",
  "created_at": "2026-08-26 14:41:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/bafdf34f-20b3-4d46-af16-cfc52ca1f2f9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/bafdf34f-20b3-4d46-af16-cfc52ca1f2f9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 10:44:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "recursive self-improvement",
+    "meta-reasoning",
+    "LLM agents",
+    "evolutionary search",
+    "code generation",
+    "combinatorial optimization"
+   ],
+   "field": "自改进大模型代理",
+   "innovations": [
+    "固定元操作Ω递归应用于输入构建分层栈，突破meta-depth>2的结构涌现",
+    "跨任务代码库注入与条件传递解耦深度与质量，archive-best机制",
+    "涌现角色分层：d2通用原语→d3专业化→d4+回归修复，无需预设"
+   ],
+   "benchmarks": [
+    "CO-Bench",
+    "ARC-AGI-2",
+    "AlphaEvolve Math",
+    "Symbolic Regression",
+    "TerminalBench 2.0",
+    "LawBench",
+    "Symptom2Disease",
+    "AlgoTune"
+   ]
+  }
+ }
 }

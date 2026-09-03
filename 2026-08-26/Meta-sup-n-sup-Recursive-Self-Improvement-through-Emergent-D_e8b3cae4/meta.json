@@ -4,5 +4,33 @@
  "title": "Meta-sup-n-sup-Recursive-Self-Improvement-through-Emergent-D",
  "token": "sk-AsgiqoBdE...",
  "created_at": "2026-08-26 03:05:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/bafdf34f-20b3-4d46-af16-cfc52ca1f2f9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/bafdf34f-20b3-4d46-af16-cfc52ca1f2f9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 10:44:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "recursive self-improvement",
+    "meta-reasoning",
+    "large language model agents",
+    "evolutionary search",
+    "code generation",
+    "combinatorial optimization"
+   ],
+   "field": "自改进智能体与元推理",
+   "innovations": [
+    "通过固定元操作Ω递归应用其输入实现深度无上限的元改进框架",
+    "发现并量化了层间上下文条件作用对递归增益的主导贡献（72%）",
+    "在ARC-AGI-2上首次实现高于零分的求解，超越了现有自改进智能体"
+   ],
+   "benchmarks": [
+    "CO-Bench",
+    "ARC-AGI-2",
+    "AlphaEvolve Math",
+    "Symbolic Regression",
+    "TerminalBench 2.0"
+   ]
+  }
+ }
 }

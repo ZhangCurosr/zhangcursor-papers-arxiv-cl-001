@@ -4,5 +4,31 @@
  "title": "Expectation-Backlash-Recovery-and-Excitement-How-Model-Relea",
  "token": "sk-kdPBKi9MQ...",
  "created_at": "2026-08-26 03:06:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/5eba389c-25c5-4630-a496-b0e181922b2a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/5eba389c-25c5-4630-a496-b0e181922b2a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 10:42:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "对话式AI系统",
+    "用户感知",
+    "模型发布",
+    "Reddit分析",
+    "情感分析",
+    "主题概念诱导",
+    "LLooM"
+   ],
+   "field": "人机交互与用户研究",
+   "innovations": [
+    "以发布为中心的纵向干预设计，首次量化6家AI提供商的感知动态谱系",
+    "LLooM规模化应用，从36万帖子归纳236个可审计规范概念库",
+    "情感-主题双轨分析揭示GPT-4o预期鸿沟、GPT-5情感反弹-恢复等机制"
+   ],
+   "benchmarks": [
+    "Reddit CAIS子版块（20个）",
+    "LLM Arena text-to-text leaderboard"
+   ]
+  }
+ }
 }

@@ -4,5 +4,34 @@
  "title": "Linear-Probing-Provides-Robust-and-Efficient-Detection-of-Ma",
  "token": "sk-DXHHyylpH...",
  "created_at": "2026-08-26 14:41:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/3ce53546-8fe3-4a1b-815c-2cf0ab24abb2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/3ce53546-8fe3-4a1b-815c-2cf0ab24abb2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 10:43:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "machine-generated text detection",
+    "linear probing",
+    "out-of-domain generalization",
+    "representation quality",
+    "latent space separability",
+    "sample efficiency"
+   ],
+   "field": "可信AI / 生成内容检测",
+   "innovations": [
+    "揭示MGT与HWT在潜空间中线性可分并提供几何成因解释",
+    "提出LLP/CLP两种线性探针变体，OOD检测AUC提升最高+11",
+    "证明探针向量编码连续机器性谱系，支持细粒度AI编辑程度估计"
+   ],
+   "benchmarks": [
+    "DetectRL",
+    "MultiSocial",
+    "RAID",
+    "TSM",
+    "APT-Eval",
+    "EditLens"
+   ]
+  }
+ }
 }

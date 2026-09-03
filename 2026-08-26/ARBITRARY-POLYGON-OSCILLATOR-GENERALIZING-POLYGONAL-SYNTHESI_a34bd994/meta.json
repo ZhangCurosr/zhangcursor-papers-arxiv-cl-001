@@ -4,5 +4,32 @@
  "title": "ARBITRARY-POLYGON-OSCILLATOR-GENERALIZING-POLYGONAL-SYNTHESI",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-08-26 03:05:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/80e79b5d-eb29-4791-8a55-2d4804a0589c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/80e79b5d-eb29-4791-8a55-2d4804a0589c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 10:41:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "polygonal synthesis",
+    "arc-length traversal",
+    "polyBLAMP",
+    "shape interpolation",
+    "3D polyhedron cross-section",
+    "antialiasing",
+    "geometric oscillator"
+   ],
+   "field": "音频合成与DSP算法",
+   "innovations": [
+    "提出基于弧长引擎的任意多边形振荡器，泛化至非参数化闭合形状",
+    "设计混合插值算法支持不等顶点数平滑变形并保持角点锐度",
+    "实现运行时polyBLAMP抗混叠，从贝塞尔切线直接计算导数跳跃泛化至任意顶点配置"
+   ],
+   "benchmarks": [
+    "SNR对比（No AA / OS=2 / BL4 / OS+BL4 at 400/751/1350 Hz）",
+    "三角形到五角星、正八边形变形序列STFT",
+    "立方体与四棱锥截面拓扑过渡"
+   ]
+  }
+ }
 }

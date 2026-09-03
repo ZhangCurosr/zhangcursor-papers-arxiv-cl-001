@@ -4,5 +4,32 @@
  "title": "SDoH-Aware-Narrative-Anchoring-Bias-in-Medical-LLMs-for-Trus",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-08-25 14:42:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/e9263aa4-4d54-4c6c-9f37-4e67f18fd067.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/e9263aa4-4d54-4c6c-9f37-4e67f18fd067.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 10:40:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "medical LLM",
+    "SDoH",
+    "narrative anchoring bias",
+    "counterfactual evaluation",
+    "clinical decision support",
+    "trustworthy AI",
+    "bias evaluation"
+   ],
+   "field": "医疗大语言模型公平性与鲁棒性评测",
+   "innovations": [
+    "形式化SDoH感知叙事锚定偏差为病例分组反事实评估问题",
+    "提出CC/Correct CC/NSE三类病例级一致性指标及四类错误分解",
+    "在Qwen2.5家族内控制规模变量并引入配对McNemar统计检验验证scaling对叙事鲁棒性的边际收益"
+   ],
+   "benchmarks": [
+    "NarrativeShield SDoH MedQA",
+    "MultiMedQA",
+    "MedQA"
+   ]
+  }
+ }
 }

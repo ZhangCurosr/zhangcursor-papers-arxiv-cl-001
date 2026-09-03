@@ -4,5 +4,30 @@
  "title": "Measuring-Digital-Labour-Market-Transitions-with-a-Digital-S",
  "token": "sk-ovHaiDbC4...",
  "created_at": "2026-08-26 14:41:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/7beb45cb-eca8-4834-a4b5-6cbe98383b31.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/7beb45cb-eca8-4834-a4b5-6cbe98383b31.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 10:43:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "数字语义得分",
+    "劳动力市场分析",
+    "职业分类",
+    "嵌入向量",
+    "ESCО",
+    "职业转换",
+    "技能数字化"
+   ],
+   "field": "劳动力市场分析与就业数据科学",
+   "innovations": [
+    "提出基于嵌入余弦相似度差值的数字语义得分指标",
+    "开发两阶段AI职业分类管道结合Embedding检索与LLM决策"
+   ],
+   "benchmarks": [
+    "ISCO-08职业分类",
+    "ESCО多语言职业框架"
+   ]
+  }
+ }
 }

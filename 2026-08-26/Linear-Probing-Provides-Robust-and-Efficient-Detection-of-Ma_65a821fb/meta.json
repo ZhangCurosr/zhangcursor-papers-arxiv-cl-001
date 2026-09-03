@@ -4,5 +4,34 @@
  "title": "Linear-Probing-Provides-Robust-and-Efficient-Detection-of-Ma",
  "token": "sk-DXHHyylpH...",
  "created_at": "2026-08-26 03:06:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/3ce53546-8fe3-4a1b-815c-2cf0ab24abb2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/3ce53546-8fe3-4a1b-815c-2cf0ab24abb2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 10:43:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "MGT检测",
+    "线性探针",
+    "潜空间几何",
+    "OOD泛化",
+    "样本效率",
+    "线性表征假设"
+   ],
+   "field": "自然语言处理/可信AI",
+   "innovations": [
+    "实证揭示MGT与HWT在LLM潜空间中线性可分，并通过表征质量指标解释几何成因",
+    "提出LLP/CLP线性探针框架，以2.4%维度实现优于16种基线的鲁棒检测与<100样本高效学习",
+    "发现共享潜空间机器性方向并实现AI编辑强度的连续细粒度估计"
+   ],
+   "benchmarks": [
+    "DetectRL",
+    "MultiSocial",
+    "RAID",
+    "TSM",
+    "APT-Eval",
+    "EditLens"
+   ]
+  }
+ }
 }

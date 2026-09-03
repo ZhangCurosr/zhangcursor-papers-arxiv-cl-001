@@ -4,5 +4,31 @@
  "title": "Lost-in-Speech-Trilingual-Spoken-Hallucination-Detection-Acr",
  "token": "sk-F7cBp1IrI...",
  "created_at": "2026-08-26 14:41:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/0887d667-c8cc-4fdb-8e45-378986131d6f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/0887d667-c8cc-4fdb-8e45-378986131d6f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 10:43:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "hallucination detection",
+    "multilingual speech",
+    "low-resource language",
+    "Kazakh",
+    "provenance confound",
+    "TTS-ASR pipeline",
+    "audio-language model"
+   ],
+   "field": "多语言语音幻觉检测",
+   "innovations": [
+    "首个多语言口语幻觉检测基准，涵盖英/俄/哈三语及三种可控幻觉类型与三级严重程度",
+    "引入真实世界事实核查虚假新闻子集，分离合成基准中真实性与文本来源的混淆",
+    "逐语言最优 ASR 选择策略显著降低低资源语言误差（哈萨克语 WER 近减半）"
+   ],
+   "benchmarks": [
+    "Synthetic multilingual spoken hallucination benchmark (12,013 samples)",
+    "Real-world fact-check.kz fake news split (290 items per language)"
+   ]
+  }
+ }
 }

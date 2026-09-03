@@ -4,5 +4,29 @@
  "title": "ARBITRARY-POLYGON-OSCILLATOR-GENERALIZING-POLYGONAL-SYNTHESI",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-08-26 14:41:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/80e79b5d-eb29-4791-8a55-2d4804a0589c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/80e79b5d-eb29-4791-8a55-2d4804a0589c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 10:41:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "polygonal synthesis",
+    "arc-length traversal",
+    "arbitrary waveform generation",
+    "shape morphing",
+    "polyBLAMP antialiasing",
+    "geometric audio synthesis"
+   ],
+   "field": "计算机音乐/音频信号处理",
+   "innovations": [
+    "基于弧长参数的任意多边形振荡器，支持任意顶点配置",
+    "混合插值算法实现不等顶点数多边形间的平滑形态过渡",
+    "运行时polyBLAMP抗混叠通用化至任意几何形状"
+   ],
+   "benchmarks": [
+    "SNR测量（等边三角形，44.1 kHz采样率）"
+   ]
+  }
+ }
 }

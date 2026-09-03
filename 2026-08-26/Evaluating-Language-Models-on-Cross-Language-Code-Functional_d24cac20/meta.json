@@ -4,5 +4,31 @@
  "title": "Evaluating-Language-Models-on-Cross-Language-Code-Functional",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-08-26 03:02:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/61a72759-0cad-42ef-b3ec-b3402ad0b048.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/61a72759-0cad-42ef-b3ec-b3402ad0b048.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 10:42:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "代码功能等价性",
+    "跨语言代码分析",
+    "LLM评测",
+    "PolyHuman基准",
+    "代码语义理解",
+    "实证软件工程"
+   ],
+   "field": "代码理解与大模型评测",
+   "innovations": [
+    "构建PolyHuman人类手写多语言代码基准，首次系统性评测跨语言功能等价判断能力",
+    "提出抽象层次失败分类体系（知识失败/抽象推理失败/实现级错误），揭示LLM语义推理瓶颈",
+    "发现GPT-o4-mini跨运行不稳定性（18%）及difficulty×equivalence非对称脆弱性"
+   ],
+   "benchmarks": [
+    "PolyHuman",
+    "EquiBench",
+    "SeqCoBench"
+   ]
+  }
+ }
 }

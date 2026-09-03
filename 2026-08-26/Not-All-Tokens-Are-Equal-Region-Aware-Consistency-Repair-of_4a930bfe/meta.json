@@ -4,5 +4,30 @@
  "title": "Not-All-Tokens-Are-Equal-Region-Aware-Consistency-Repair-of",
  "token": "sk-JdJPQj6CY...",
  "created_at": "2026-08-26 03:05:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/197b93a7-d237-407c-a9f2-276223548365.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/197b93a7-d237-407c-a9f2-276223548365.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 10:45:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "MLLM后门防御",
+    "多模态大模型安全",
+    "区域感知一致性",
+    "对抗修复",
+    "层间不一致异常"
+   ],
+   "field": "多模态大模型安全与鲁棒性",
+   "innovations": [
+    "发现后门类间不一致异常具有模态依赖性和深层定位特性",
+    "提出RACER区域感知一致性修复框架，分解并归一化视觉/文本token区域的不一致",
+    "无需触发器知识的min-max对抗修复，仅用100个干净样本即可移除多模态后门"
+   ],
+   "benchmarks": [
+    "VQAv2",
+    "COCO Captions",
+    "BackdoorVLM基准（6种攻击×2种目标）"
+   ]
+  }
+ }
 }

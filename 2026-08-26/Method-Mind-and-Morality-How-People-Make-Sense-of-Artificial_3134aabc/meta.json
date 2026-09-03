@@ -4,5 +4,31 @@
  "title": "Method-Mind-and-Morality-How-People-Make-Sense-of-Artificial",
  "token": "sk-Jd4ujJMnj...",
  "created_at": "2026-08-26 03:05:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/a3f2b353-bb42-4943-9279-4c2626eeb8a7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/a3f2b353-bb42-4943-9279-4c2626eeb8a7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 10:45:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "AI framing",
+    "human-AI interaction",
+    "sensemaking",
+    "computational grounded theory",
+    "discourse atoms",
+    "AI ethics discourse"
+   ],
+   "field": "人机交互与社会计算",
+   "innovations": [
+    "提出方法-心智-道德三维争议框架解释AI集体认知",
+    "识别四类AI认知挑战并关联框架选择动机",
+    "融合discourse atoms计算建模与深度访谈的迭代理论建构方法"
+   ],
+   "benchmarks": [
+    "ProQuest报纸语料（371,312篇）",
+    "Twitter验证账号语料（1,391,195条）",
+    "57次AI专业人士半结构化访谈"
+   ]
+  }
+ }
 }
