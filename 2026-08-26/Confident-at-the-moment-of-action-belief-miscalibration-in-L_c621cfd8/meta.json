@@ -4,5 +4,31 @@
  "title": "Confident-at-the-moment-of-action-belief-miscalibration-in-L",
  "token": "sk-vBvZ06NsJ...",
  "created_at": "2026-08-26 03:03:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/cd2ad65c-0531-4b50-8935-c723dee5826b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/cd2ad65c-0531-4b50-8935-c723dee5826b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 05:25:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "大语言模型",
+    "置信度校准",
+    "隐藏信息博弈",
+    "智能体评估",
+    "信念-行动分离",
+    "Regent Chess"
+   ],
+   "field": "强化学习/智能体系统的评估与对齐",
+   "innovations": [
+    "在行动时刻分别elicited信念与动作，发现高置信度捕获奖励的正确率仅1.6%",
+    "证明传统评估指标（合法性、成本、延迟）可与信念质量完全解耦",
+    "设计了内生隐藏状态且对手策略可见的评测仪器，可计算可达性界限"
+   ],
+   "benchmarks": [
+    "内建Regent Chess评测仪器",
+    "ConfidenceBench（引用以佐证）",
+    "Kaggle Game Arena Chess（引用为对比背景）"
+   ]
+  }
+ }
 }

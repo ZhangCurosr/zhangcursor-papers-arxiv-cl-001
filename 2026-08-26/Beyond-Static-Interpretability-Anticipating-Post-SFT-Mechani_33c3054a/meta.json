@@ -4,5 +4,36 @@
  "title": "Beyond-Static-Interpretability-Anticipating-Post-SFT-Mechani",
  "token": "sk-oJ013oevc...",
  "created_at": "2026-08-26 03:05:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/048edd10-3946-4df4-a495-c032e5e8c78f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/048edd10-3946-4df4-a495-c032e5e8c78f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 05:26:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "mechanistic interpretability",
+    "locating-then-tuning",
+    "Attribution Patching",
+    "parameter-efficient fine-tuning",
+    "predictive localization",
+    "SFT mechanism prediction"
+   ],
+   "field": "机制解释性与模型调优",
+   "innovations": [
+    "提出首个预测后SFT机制状态的理论框架，将静态解释性转化为前瞻性优化工具",
+    "设计双粒度定位流水线（神经元级与组件级），实现SOTA级参数高效微调性能",
+    "开发低开销外推策略，仅用1%数据与单轮探测SFT即可准确估计理想参数状态"
+   ],
+   "benchmarks": [
+    "GLUE",
+    "BOOL",
+    "Arithmetic",
+    "IOI",
+    "Induction",
+    "WinoGrande",
+    "Gender",
+    "Docstring"
+   ]
+  }
+ }
 }

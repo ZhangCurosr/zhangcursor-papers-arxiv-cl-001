@@ -4,5 +4,29 @@
  "title": "What-Proves-You-Wrong-Benchmarking-Language-Models-on-Falsif",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-08-25 14:42:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/2232874a-438f-4f7f-a49c-41274a2bb04d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/2232874a-438f-4f7f-a49c-41274a2bb04d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 05:22:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM评测",
+    "研究构思",
+    "可证伪性",
+    "成对判官",
+    "Bradley-Terry",
+    "控制实验"
+   ],
+   "field": "LLM科学发现与评测基准",
+   "innovations": [
+    "以六字段最小可证伪测试契约作为唯一评估单元，同时要求支持与拒绝双向结果",
+    "双顺序盲审折叠 + Bootstrap 稳健检验，显式分离并报告 order-sensitive 案例",
+    "构建包含 hidden control、sham-adjusted preference、单字段破坏与 same-source 渲染的诊断控制族"
+   ],
+   "benchmarks": [
+    "Lit2Test"
+   ]
+  }
+ }
 }

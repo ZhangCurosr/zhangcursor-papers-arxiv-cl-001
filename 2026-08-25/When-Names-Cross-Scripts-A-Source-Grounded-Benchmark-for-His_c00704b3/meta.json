@@ -4,5 +4,33 @@
  "title": "When-Names-Cross-Scripts-A-Source-Grounded-Benchmark-for-His",
  "token": "sk-DXHHyylpH...",
  "created_at": "2026-08-25 02:56:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/4b2404ad-da31-42c2-8b46-e3dddb856e73.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/4b2404ad-da31-42c2-8b46-e3dddb856e73.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 05:22:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Historical Entity Reconciliation",
+    "Source-Grounded Benchmark",
+    "Cross-Script Names",
+    "Abstention Evaluation",
+    "Mongol World History",
+    "Provenance Control"
+   ],
+   "field": "历史自然语言处理 / 实体链接",
+   "innovations": [
+    "提出基于来源 grounding 的历史实体成对消歧基准 MHER，严格分离名称证据与来源证据",
+    "设计防泄漏上下文构建与确定性打乱对照实验，验证模型对来源对齐的依赖性",
+    "揭示名称恢复在强上下文下的表面形式干扰效应，挑战多源融合的单调性假设"
+   ],
+   "benchmarks": [
+    "MHER (Name-only core: 396 pairs, Source-grounded subset: 160 pairs)",
+    "Gemini Embedding 2 baseline",
+    "GPT-5.6 Terra/Luna/Sol",
+    "Gemini 3.7 Flash",
+    "Qwen3-8B"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Abstract",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-08-26 14:41:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/f779ee09-3bc6-45f8-a65d-8d059bfd017b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/f779ee09-3bc6-45f8-a65d-8d059bfd017b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 05:24:11",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "agentic search",
+    "scholarly retrieval",
+    "citation graph",
+    "natural language inference",
+    "personalized pagerank",
+    "structured bounded agent",
+    "academic deep search"
+   ],
+   "field": "学术信息检索与可信AI",
+   "innovations": [
+    "将开放循环学术搜索重构为三阶段结构化受限流水线，探索空间与停止条件推理前显式固定",
+    "提出覆盖亲和度与轻量科学蕴含模型，显式量化引用图中论文对原子论断的语义支撑强度",
+    "设计年龄感知个性化随机游走排序，将文献时效性以可解释权重嵌入图游走机制"
+   ],
+   "benchmarks": [
+    "LitSearch",
+    "arXiv 500K 论文自建评测集"
+   ]
+  }
+ }
 }

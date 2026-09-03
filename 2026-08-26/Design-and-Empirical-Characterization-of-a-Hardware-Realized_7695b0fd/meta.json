@@ -4,5 +4,33 @@
  "title": "Design-and-Empirical-Characterization-of-a-Hardware-Realized",
  "token": "sk-331OfnzjD...",
  "created_at": "2026-08-26 14:41:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/de3aad12-87d2-4001-a9c3-a25679ea29a5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/de3aad12-87d2-4001-a9c3-a25679ea29a5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 05:27:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Turing Machine",
+    "Hardware Implementation",
+    "Punched Card Reader",
+    "Flood Fill Algorithm",
+    "ESP32-CAM",
+    "Stepper Motor Control",
+    "Automata Theory"
+   ],
+   "field": "计算理论硬件实现与教育机器人",
+   "innovations": [
+    "双电机张力驱动消除磁带累积位置漂移",
+    "ESP32-CAM+BFS泛洪填充实现自适应阈值打孔卡光学解码",
+    "tlang模拟器先行验证的物理图灵机全流程方法"
+   ],
+   "benchmarks": [
+    "20张打孔卡测试集（90%/100%准确率）",
+    "150次符号读取（100%准确率）",
+    "100次写操作（98%成功率）",
+    "端到端二进制递增与一元加法验证"
+   ]
+  }
+ }
 }

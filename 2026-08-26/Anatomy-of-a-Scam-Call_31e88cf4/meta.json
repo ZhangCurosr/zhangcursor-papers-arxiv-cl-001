@@ -4,5 +4,33 @@
  "title": "Anatomy-of-a-Scam-Call",
  "token": "sk-Hms67LeAf...",
  "created_at": "2026-08-26 14:41:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/c79a99b4-8d1c-4f3e-9eaf-22ce47847988.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/c79a99b4-8d1c-4f3e-9eaf-22ce47847988.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 05:24:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "telephone fraud",
+    "scam detection",
+    "correspondence audit",
+    "lead generation",
+    "voice honeypot",
+    "early detection benchmark",
+    "AI-generated conversation"
+   ],
+   "field": "欺诈检测与电话安全",
+   "innovations": [
+    "首个针对真实电话诈骗操作的 randomized correspondence audit，揭示 apparent age 影响 effort 分配但不改变索取内容",
+    "建立 caller-disjoint 的早期 escalation 预测 benchmark，证明 bag-of-words 线性分类器匹配合调 small language models",
+    "规模化刻画诈骗脚本复用度与施压 tactic 分布，提出 template-based content detection 替代 number-based blacklist"
+   ],
+   "benchmarks": [
+    "caller-disjoint held-out split (1,276 calls)",
+    "ROC-AUC at k=1: 0.72; k=8: 0.87",
+    "Average Precision at base rate 17.5%: 0.36→0.58",
+    "scam-type identification: 60% (k=1), 72% (k=3) vs 49.7% majority baseline"
+   ]
+  }
+ }
 }

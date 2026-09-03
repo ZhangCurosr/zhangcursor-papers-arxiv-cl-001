@@ -4,5 +4,10 @@
  "title": "BEYOND-INFORMATION-SEEKING-SEVERITY-AWAREQUESTION-SUPERVISIO",
  "token": "sk-dKfLTOMDH...",
  "created_at": "2026-08-26 03:02:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/b8226559-ccae-4456-a107-0b61ddf89117.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/b8226559-ccae-4456-a107-0b61ddf89117.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 05:25:01",
+  "chunks": 1
+ }
 }

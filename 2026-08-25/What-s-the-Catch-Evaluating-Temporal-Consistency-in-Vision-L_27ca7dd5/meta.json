@@ -4,5 +4,32 @@
  "title": "What-s-the-Catch-Evaluating-Temporal-Consistency-in-Vision-L",
  "token": "sk-Jd4ujJMnj...",
  "created_at": "2026-08-25 14:41:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/d19418af-0408-4942-89d5-e5bb36576d8d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/d19418af-0408-4942-89d5-e5bb36576d8d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 05:22:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "时序推理",
+    "视觉语言模型",
+    "异常检测",
+    "基准评估",
+    "Temporal Grounding",
+    "VLM"
+   ],
+   "field": "视觉语言模型时序理解",
+   "innovations": [
+    "提出TimeCatch基准，将时序接地形式化为异常检测任务",
+    "发现VLMs在时序检测上接近随机而人类接近天花板",
+    "证明微调可显著改善时序推理能力"
+   ],
+   "benchmarks": [
+    "CLEVRER",
+    "CRAFT",
+    "DriveLM",
+    "MTL-AQA"
+   ]
+  }
+ }
 }

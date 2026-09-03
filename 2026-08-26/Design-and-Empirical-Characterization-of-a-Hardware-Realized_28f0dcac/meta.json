@@ -4,5 +4,32 @@
  "title": "Design-and-Empirical-Characterization-of-a-Hardware-Realized",
  "token": "sk-331OfnzjD...",
  "created_at": "2026-08-26 03:04:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/de3aad12-87d2-4001-a9c3-a25679ea29a5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/de3aad12-87d2-4001-a9c3-a25679ea29a5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 05:27:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Turing Machine",
+    "Hardware Implementation",
+    "Punched Card Reader",
+    "BFS Flood Fill",
+    "ESP32-CAM",
+    "Stepper Motor Control",
+    "Automata Theory"
+   ],
+   "field": "嵌入式系统与计算理论硬件实现",
+   "innovations": [
+    "双电机张紧驱动消除磁带漂移",
+    "ESP32-CAM光学卡读取结合BFS局部自适应阈值",
+    "完整自主执行硬件图灵机+模拟器tlang前验证"
+   ],
+   "benchmarks": [
+    "tlang模拟器对照验证",
+    "二进制递增算法(0110→0111)",
+    "一元加法(5+4)"
+   ]
+  }
+ }
 }

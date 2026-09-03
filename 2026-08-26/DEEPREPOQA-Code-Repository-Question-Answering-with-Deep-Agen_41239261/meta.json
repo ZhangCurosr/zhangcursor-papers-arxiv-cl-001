@@ -4,5 +4,30 @@
  "title": "DEEPREPOQA-Code-Repository-Question-Answering-with-Deep-Agen",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-26 14:41:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/eec16933-4125-4c33-b699-ab10f60c73f2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/eec16933-4125-4c33-b699-ab10f60c73f2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 05:26:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "repository-level QA",
+    "MCTS",
+    "code agent",
+    "multi-hop reasoning",
+    "SWE-QA",
+    "LLM-as-Judge"
+   ],
+   "field": "代码理解与软件工程AI",
+   "innovations": [
+    "将仓库级问答建模为MCTS树搜索与验证过程，替代单路径Agent",
+    "单步四Agent仿真替代多步rollout以降低MCTS计算开销",
+    "结构化AST查找与语义向量检索双轨表示+紧凑动作空间"
+   ],
+   "benchmarks": [
+    "SWE-QA",
+    "SWE-QA Java subset"
+   ]
+  }
+ }
 }

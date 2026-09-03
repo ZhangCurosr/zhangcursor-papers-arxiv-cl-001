@@ -4,5 +4,32 @@
  "title": "BROWSERFORGE-SCALING-WEB-EPISODE-VIA-PARALLEL-BROWSER-SANDBO",
  "token": "sk-aQHhxC28I...",
  "created_at": "2026-08-26 14:41:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/41745513-88ce-4f65-8ab4-5d59a6d2296b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/41745513-88ce-4f65-8ab4-5d59a6d2296b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 05:25:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Web Agent",
+    "Data Synthesis",
+    "Parallel Browser Sandbox",
+    "Proposer-Solver",
+    "Common Crawl",
+    "Multimodal LLM",
+    "GUI Grounding",
+    "Chain-of-Thought Rewriting"
+   ],
+   "field": "Web 智能体数据合成与训练",
+   "innovations": [
+    "提出 BrowserForge 框架，通过开放网络 URL 源与并行浏览器沙箱解耦数据规模与网站多样性",
+    "设计 Proposer‑Solver 双代理合成回路，将无标注开放页面自动转化为可执行任务与验证轨迹",
+    "构建规则+模型清洁与统一思维链重写流水线，显著提升合成数据的质量与训练一致性"
+   ],
+   "benchmarks": [
+    "Online-Mind2Web",
+    "Multimodal-Mind2Web"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "Confident-at-the-moment-of-action-belief-miscalibration-in-L",
  "token": "sk-vBvZ06NsJ...",
  "created_at": "2026-08-26 14:41:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/cb41b041-835b-49dd-a223-741b56cdf29e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/cb41b041-835b-49dd-a223-741b56cdf29e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 05:25:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "置信度校准",
+    "隐藏信息",
+    "LLM评估",
+    "行动-信念gap",
+    "Regent Chess",
+    "agentic系统"
+   ],
+   "field": "LLM可信评估与校准",
+   "innovations": [
+    "构建可同时 elicite 信念声明与独立行动并对照可恢复真值的游戏化评估设置",
+    "揭示高置信度吃子命中率仅1.6%的行动时刻严重失准现象",
+    "证明传统评估指标与信念质量完全脱钩的 within-model 对照证据"
+   ],
+   "benchmarks": [
+    "Kaggle Game Arena Chess",
+    "ConfidenceBench"
+   ]
+  }
+ }
 }

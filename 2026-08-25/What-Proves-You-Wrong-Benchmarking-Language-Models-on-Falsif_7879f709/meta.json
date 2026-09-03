@@ -4,5 +4,29 @@
  "title": "What-Proves-You-Wrong-Benchmarking-Language-Models-on-Falsif",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-08-25 02:59:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/2232874a-438f-4f7f-a49c-41274a2bb04d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/2232874a-438f-4f7f-a49c-41274a2bb04d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 05:21:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Lit2Test",
+    "可证伪性",
+    "研究构想评估",
+    "LLM-as-Judge",
+    "基准测试",
+    "结构化输出"
+   ],
+   "field": "AI 科研辅助与评估",
+   "innovations": [
+    "提出六字段可证伪测试合同作为评估单元，将研究构想转化为可判定的结构化契约",
+    "设计订单折叠与有界人类校准结合的可靠性审计协议，消除位置偏差并验证 Judge 有效性",
+    "在四个前沿模型上实现严格且 Bootstrap 稳健的排序，证实模型在最小化测试设计上的能力差异"
+   ],
+   "benchmarks": [
+    "Lit2Test"
+   ]
+  }
+ }
 }

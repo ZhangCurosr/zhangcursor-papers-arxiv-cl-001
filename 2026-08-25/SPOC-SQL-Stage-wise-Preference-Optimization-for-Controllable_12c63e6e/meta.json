@@ -4,5 +4,33 @@
  "title": "SPOC-SQL-Stage-wise-Preference-Optimization-for-Controllable",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-08-25 14:42:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/bf93e2d2-2d1b-407f-8565-fbfe4d421af9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/bf93e2d2-2d1b-407f-8565-fbfe4d421af9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 05:21:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Text-to-SQL",
+    "偏好优化",
+    "分阶段生成",
+    "多轮交互",
+    "结构化解码",
+    "LoRA",
+    "DPO",
+    "可控生成"
+   ],
+   "field": "文本到SQL的生成与交互优化",
+   "innovations": [
+    "将T2S拆分为SELECT-FROM/WHERE/GROUP-HAVING/ORDER-LIMIT四个阶段并进行分阶段偏好优化",
+    "在关键决策元素上构造偏好对并通过LoRA+DPO学习阶段决策边界",
+    "设计推理时逐阶段确认与纠错的交互式需求分解模块"
+   ],
+   "benchmarks": [
+    "Spider-Dev",
+    "Spider-Realistic",
+    "T2S-MTD"
+   ]
+  }
+ }
 }

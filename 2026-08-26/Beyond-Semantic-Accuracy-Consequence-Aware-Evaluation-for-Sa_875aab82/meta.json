@@ -4,5 +4,29 @@
  "title": "Beyond-Semantic-Accuracy-Consequence-Aware-Evaluation-for-Sa",
  "token": "sk-Wt6bONApk...",
  "created_at": "2026-08-26 14:41:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/b45f53a4-c806-495b-861b-faba67f52715.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/b45f53a4-c806-495b-861b-faba67f52715.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 05:25:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "后果感知评估",
+    "安全关键语言理解",
+    "AR-Geo",
+    "风险感知微调",
+    "航空管制 NLU",
+    "非补偿性评分"
+   ],
+   "field": "安全关键领域的自然语言理解评测",
+   "innovations": [
+    "提出 AR-Geo 非补偿性几何评分以量化语义-安全鸿沟",
+    "构建专家 grounding 的双任务 ATC 诊断基准（Task1 结构化理解 + Task2 readback 安全判断）",
+    "Risk-LoRA 将后果权重反向注入训练并显著提升 AR-Geo"
+   ],
+   "benchmarks": [
+    "ATC Diagnostic Benchmark (Task1 N=500, Task2 N=1000)"
+   ]
+  }
+ }
 }

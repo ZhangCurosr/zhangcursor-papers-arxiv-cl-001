@@ -4,5 +4,29 @@
  "title": "Abstract",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-08-26 03:05:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/f779ee09-3bc6-45f8-a65d-8d059bfd017b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/f779ee09-3bc6-45f8-a65d-8d059bfd017b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 05:24:45",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "学术搜索",
+    "引用网络",
+    "可审计agent",
+    "claim-level entailment",
+    "结构化探索"
+   ],
+   "field": "信息检索与自然语言处理交叉",
+   "innovations": [
+    "提出Crase框架，将学术搜索从开放式agent轨迹转为可审计的图遍历过程",
+    "首次引入claim-level entailment加权citation graph，用Coverage Affinity替代document similarity",
+    "设计1.5-hop citation neighborhood，分离node expansion与edge completion以控制候选空间"
+   ],
+   "benchmarks": [
+    "LitSearch",
+    "arXiv 500K corpus"
+   ]
+  }
+ }
 }

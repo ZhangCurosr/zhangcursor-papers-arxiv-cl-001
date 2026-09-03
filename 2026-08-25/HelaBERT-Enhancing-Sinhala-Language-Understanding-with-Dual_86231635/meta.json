@@ -4,5 +4,33 @@
  "title": "HelaBERT-Enhancing-Sinhala-Language-Understanding-with-Dual",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-08-25 02:59:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/372cacb0-6090-4b3c-9850-f1cd798766d6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/372cacb0-6090-4b3c-9850-f1cd798766d6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 05:20:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "僧伽罗语 NLP",
+    "BERT 预训练",
+    "单语语言模型",
+    "双池化分类头",
+    "低资源语言",
+    "Sentiment Analysis",
+    "Text Classification"
+   ],
+   "field": "低资源语言预训练模型",
+   "innovations": [
+    "从零预训练僧伽罗语 BERT 模型 HelaBERT-Small/Large，使用约 1B tokens 单语文料与定制 Unigram 分词器",
+    "提出双池化（dual pooling）分类头，通过 [CLS] 与 token 序列的双向注意力交互提升分类性能",
+    "系统分析 co-attention 分类头在不同序列长度、模型规模和任务难度下的适用边界"
+   ],
+   "benchmarks": [
+    "News Category Classification",
+    "News Source Classification",
+    "Sentiment Analysis (3-class)",
+    "Writing Style Classification"
+   ]
+  }
+ }
 }

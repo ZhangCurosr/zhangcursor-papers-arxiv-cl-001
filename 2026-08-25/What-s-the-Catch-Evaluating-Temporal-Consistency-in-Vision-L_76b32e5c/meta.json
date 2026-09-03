@@ -4,5 +4,33 @@
  "title": "What-s-the-Catch-Evaluating-Temporal-Consistency-in-Vision-L",
  "token": "sk-Jd4ujJMnj...",
  "created_at": "2026-08-25 02:57:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/98d8b190-afa6-480f-a9aa-150b49ed0691.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/98d8b190-afa6-480f-a9aa-150b49ed0691.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 05:22:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision-Language Models",
+    "Temporal Reasoning",
+    "Anomaly Detection",
+    "Benchmark",
+    "Temporal Consistency",
+    "Video Understanding",
+    "Multimodal AI"
+   ],
+   "field": "多模态时序理解评估",
+   "innovations": [
+    "提出TimeCatch基准，通过时序异常（帧交换）与帧级异常（高斯噪声）的对照检测/定位任务直接评估VLMs的时序锚定能力",
+    "系统揭示VLMs在时序一致性推理上的系统性缺陷：帧级检测准确率高达99.6%而时序检测仅约50%，人类性能接近天花板",
+    "证明时序失败不能归因于感知或模型规模，并通过微调实验表明该缺陷部分可通过针对性监督弥补"
+   ],
+   "benchmarks": [
+    "CLEVRER",
+    "CRAFT",
+    "DriveLM",
+    "MTL-AQA"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "AgentSpec-Speculative-Decoding-for-Batch-Inference-of-LLM-Ag",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-08-26 03:04:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/a0090a49-8bd7-4390-9ce4-d00c250b81a8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/a0090a49-8bd7-4390-9ce4-d00c250b81a8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 05:23:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "speculative decoding",
+    "LLM agent",
+    "batch inference",
+    "inference acceleration",
+    "vLLM",
+    "token budget allocation"
+   ],
+   "field": "LLM 推理加速与系统优化",
+   "innovations": [
+    "结构隔离草稿：基于 Agent 语义块边界限制投机检索范围，显著降低拒绝率",
+    "冗余感知预算分配：提出冗余度度量 g(c,n) 实现批次内动态 token 预算分配",
+    "首个系统分析大 batch Agent 投机解码瓶颈并给出双重优化方案的无草稿模型方法"
+   ],
+   "benchmarks": [
+    "USACO",
+    "DeepResearch-Bench",
+    "SWE-Bench-Lite",
+    "GAIA",
+    "Spec-Bench"
+   ]
+  }
+ }
 }

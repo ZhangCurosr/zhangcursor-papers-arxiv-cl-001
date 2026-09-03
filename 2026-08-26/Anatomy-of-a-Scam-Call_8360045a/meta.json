@@ -4,5 +4,30 @@
  "title": "Anatomy-of-a-Scam-Call",
  "token": "sk-Hms67LeAf...",
  "created_at": "2026-08-26 03:04:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/c79a99b4-8d1c-4f3e-9eaf-22ce47847988.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/c79a99b4-8d1c-4f3e-9eaf-22ce47847988.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 05:24:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "电话诈骗分析",
+    "随机化对应审计",
+    "早期欺诈检测",
+    "语音蜜罐",
+    "脚本聚类",
+    "身份索求模式"
+   ],
+   "field": "对抗性通信与欺诈检测",
+   "innovations": [
+    "首次在真实电话诈骗场景中实施随机化身份对照实验，因果推断目标身份对诈骗行为的影响",
+    "建立基于通话前k轮发言的早期升级预测基准，证明轻量袋类词模型可匹敌微调小语言模型",
+    "在万级真实对话规模上量化诈骗索求偏好与施压战术分布"
+   ],
+   "benchmarks": [
+    "caller-disjoint escalation prediction (ROC-AUC 0.72/0.87 at k=1/8)",
+    "scam-type identification from opening lines (60%/72% accuracy)"
+   ]
+  }
+ }
 }

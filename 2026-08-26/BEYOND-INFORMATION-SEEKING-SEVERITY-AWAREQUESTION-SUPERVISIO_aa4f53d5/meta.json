@@ -4,5 +4,30 @@
  "title": "BEYOND-INFORMATION-SEEKING-SEVERITY-AWAREQUESTION-SUPERVISIO",
  "token": "sk-dKfLTOMDH...",
  "created_at": "2026-08-26 14:41:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/b8226559-ccae-4456-a107-0b61ddf89117.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/b8226559-ccae-4456-a107-0b61ddf89117.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 05:24:35",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "proactive medical dialogue",
+    "question acquisition",
+    "severity-aware risk",
+    "decision-aware supervision",
+    "DDxPlus",
+    "information-seeking",
+    "language policy distillation"
+   ],
+   "field": "主动医疗对话与决策感知问答",
+   "innovations": [
+    "提出ESR目标，在答案未观测时通过期望严重度风险减少量排序候选问题",
+    "将ESR排序蒸馏为前缀-only语言策略，部署零教师计算开销",
+    "通过EXP.-0/1-RISK对照隔离严重度加权的独立贡献"
+   ],
+   "benchmarks": [
+    "DDxPlus (nine-condition subset)"
+   ]
+  }
+ }
 }

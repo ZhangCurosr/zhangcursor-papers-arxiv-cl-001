@@ -4,5 +4,10 @@
  "title": "Curved-Inference-II-Sleeper-Agent-Geometry-Extending-Interpr",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-08-26 03:02:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/c8a09057-5b98-4b69-baac-22ba47486d49.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/c8a09057-5b98-4b69-baac-22ba47486d49.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 05:26:23",
+  "chunks": 1
+ }
 }

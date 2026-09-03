@@ -4,5 +4,30 @@
  "title": "Beyond-Semantic-Accuracy-Consequence-Aware-Evaluation-for-Sa",
  "token": "sk-Wt6bONApk...",
  "created_at": "2026-08-26 03:06:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/b45f53a4-c806-495b-861b-faba67f52715.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/b45f53a4-c806-495b-861b-faba67f52715.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 05:25:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "后果感知评估",
+    "安全关键语言理解",
+    "航空管制",
+    "非线性评分",
+    "语义-安全差距",
+    "风险感知微调",
+    "AR-Geo"
+   ],
+   "field": "安全关键自然语言处理",
+   "innovations": [
+    "提出 AR-Geo 非线性几何评分以非补偿方式量化操作关键信息的恢复程度",
+    "构建专家校准的 ATC 双任务诊断基准",
+    "证明风险感知微调能缩小但无法消除语义-安全差距"
+   ],
+   "benchmarks": [
+    "Diagnostic ATC Benchmark (Task 1: 500 utterances, Task 2: 1000 readbacks)"
+   ]
+  }
+ }
 }
