@@ -4,5 +4,31 @@
  "title": "GGSS-Geodesic-Gated-Spherical-Steering-for-Inference-Time-De",
  "token": "sk-qf4fjeNDd...",
  "created_at": "2026-08-27 23:34:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/f3ca7e63-0d21-4980-9e58-2b0a8bb6adcf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/f3ca7e63-0d21-4980-9e58-2b0a8bb6adcf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 21:33:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视觉语言模型",
+    "推理时去偏",
+    "测地线导向",
+    "球面几何",
+    "公平性",
+    "激活干预"
+   ],
+   "field": "多模态大模型公平性与安全",
+   "innovations": [
+    "提出GGSS框架，在超球面上发现偏差子空间并通过Slerp沿测地线旋转token方向实现范数保持的去偏",
+    "引入基于偏差投影范数分布的自适应门控机制，实现token级选择性干预",
+    "构建统一的生成式VLM推理时去偏对比基准，首次系统比较十种CLIP/LM时代方法的适配表现"
+   ],
+   "benchmarks": [
+    "MMStar",
+    "REFLECT/FOCUS",
+    "SocialCounterfactuals"
+   ]
+  }
+ }
 }

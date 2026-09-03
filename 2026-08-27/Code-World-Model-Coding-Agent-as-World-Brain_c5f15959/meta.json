@@ -4,5 +4,30 @@
  "title": "Code-World-Model-Coding-Agent-as-World-Brain",
  "token": "sk-07nfPn8BZ...",
  "created_at": "2026-08-27 23:34:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/23355a7d-8b60-46ab-a10f-80ebcb583055.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/23355a7d-8b60-46ab-a10f-80ebcb583055.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 21:31:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "world model",
+    "coding agent",
+    "proxy conditioning",
+    "interactive video generation",
+    "persistent world state",
+    "code-driven simulation"
+   ],
+   "field": "视频生成与交互式世界模型",
+   "innovations": [
+    "以 coding agent + 可执行代码作为世界演化核心并与视频模型解耦",
+    "提出代理分辨率逐帧时空条件（proxy/proxy video）作为世界状态到视觉生成的白色盒子接口",
+    "构建游戏与真实世界对齐的 proxy-observation 数据流水线并验证可复用性"
+   ],
+   "benchmarks": [
+    "GTA V 游戏数据（自建 proxy–RGB 配对）",
+    "KITTI-360 真实世界 proxy 合成 proof-of-concept"
+   ]
+  }
+ }
 }

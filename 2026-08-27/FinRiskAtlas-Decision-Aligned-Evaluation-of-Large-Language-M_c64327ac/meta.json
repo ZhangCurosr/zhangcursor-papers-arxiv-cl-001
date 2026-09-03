@@ -4,5 +4,30 @@
  "title": "FinRiskAtlas-Decision-Aligned-Evaluation-of-Large-Language-M",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-08-27 12:25:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/89fdd732-63eb-4f3d-92d6-8c31ca7eef13.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/89fdd732-63eb-4f3d-92d6-8c31ca7eef13.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 21:32:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "financial LLM evaluation",
+    "operation-aligned benchmark",
+    "evidence-state control",
+    "FinRiskAtlas",
+    "FinRisk-Ask",
+    "decision-aligned measurement"
+   ],
+   "field": "金融领域大模型评测",
+   "innovations": [
+    "以专业审查操作为基本评测单元并给出显式五元组合约",
+    "基于去标识化轨迹重放评估证据状态控制与请求靶向对齐",
+    "证明宏观知识分无法保留下游操作排名并量化 regret"
+   ],
+   "benchmarks": [
+    "FinRiskAtlas",
+    "FinRisk-Ask"
+   ]
+  }
+ }
 }

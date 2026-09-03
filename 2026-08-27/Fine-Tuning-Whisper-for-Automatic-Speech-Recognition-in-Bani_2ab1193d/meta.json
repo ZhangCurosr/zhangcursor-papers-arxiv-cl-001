@@ -4,5 +4,32 @@
  "title": "Fine-Tuning-Whisper-for-Automatic-Speech-Recognition-in-Bani",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-08-27 12:23:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/99e80d9d-4835-4f0a-9309-848a9b31a964.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/99e80d9d-4835-4f0a-9309-848a9b31a964.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 21:32:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Automatic Speech Recognition",
+    "Whisper",
+    "Baniwa",
+    "Indigenous Languages",
+    "Low-Resource Languages",
+    "Multilingual Foundation Models",
+    "Fine-Tuning"
+   ],
+   "field": "低资源语音识别",
+   "innovations": [
+    "首次将 Whisper 微调应用于亚马逊原住民语言 Baniwa，建立 ASR 基线",
+    "在仅 0.54 小时诱导式语音数据上实现 WER 37.5%，验证极低资源场景可行性",
+    "系统分析 Baniwa 正字法特征（长元音双写、送气辅音等）对 ASR 的挑战"
+   ],
+   "benchmarks": [
+    "Baniwa-Koripako Multimedia Dictionary 语料",
+    "WER 37.5%",
+    "CER 7.45%"
+   ]
+  }
+ }
 }

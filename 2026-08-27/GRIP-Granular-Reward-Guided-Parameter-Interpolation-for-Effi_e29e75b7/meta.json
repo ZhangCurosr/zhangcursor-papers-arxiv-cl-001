@@ -4,5 +4,32 @@
  "title": "GRIP-Granular-Reward-Guided-Parameter-Interpolation-for-Effi",
  "token": "sk-fYugtz9Wo...",
  "created_at": "2026-08-27 23:34:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/f2670694-c30b-4dd7-a49d-5a39172c29cd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/f2670694-c30b-4dd7-a49d-5a39172c29cd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 21:33:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "模型合并",
+    "高效推理",
+    "参数插值",
+    "强化学习",
+    "推理效率"
+   ],
+   "field": "大语言模型推理效率优化",
+   "innovations": [
+    "提出GRIP模块级奖励引导参数插值框架，冻结双源模型仅优化插值系数",
+    "设计联合正确性与简洁性的组内归一化奖励函数",
+    "揭示attention与FFN在推理效率优化中的差异化角色及跨层融合模式"
+   ],
+   "benchmarks": [
+    "AIME25",
+    "MATH500",
+    "GSM8K",
+    "GPQA-D",
+    "LiveCodeBench"
+   ]
+  }
+ }
 }

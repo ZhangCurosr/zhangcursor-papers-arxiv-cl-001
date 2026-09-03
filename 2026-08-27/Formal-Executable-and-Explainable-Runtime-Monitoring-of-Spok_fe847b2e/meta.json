@@ -4,5 +4,33 @@
  "title": "Formal-Executable-and-Explainable-Runtime-Monitoring-of-Spok",
  "token": "sk-CZoysi7P5...",
  "created_at": "2026-08-27 12:22:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/0fd68003-4773-4c20-b546-8e83e8d9cd59.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/0fd68003-4773-4c20-b546-8e83e8d9cd59.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 21:32:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "runtime verification",
+    "air traffic control",
+    "temporal logic",
+    "spoken procedure monitoring",
+    "formal methods",
+    "multi-source integration",
+    "explainable AI"
+   ],
+   "field": "空管运行时形式化验证",
+   "innovations": [
+    "首个管制员/飞行员义务的度量时序逻辑形式化",
+    "语音-监视多源融合的自动化轨迹构建流水线",
+    "基于三值语义的可解释违规裁决框架"
+   ],
+   "benchmarks": [
+    "TartanAviation KAGC 3h ground-truth",
+    "ATCO2 test set",
+    "Uberlingen 2002事故重建",
+    "Comair 5191 2006事故重建"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "From-Passive-Response-to-Proactive-Correction-Enhancing-LLM",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-08-27 23:34:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/023a1e12-ce55-4493-9acf-396d1fa1f33c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/023a1e12-ce55-4493-9acf-396d1fa1f33c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 21:32:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "幻觉缓解",
+    "事实扰动",
+    "输入鲁棒性",
+    "多视角辩论",
+    "事实核查",
+    "MisFactQA"
+   ],
+   "field": "大语言模型幻觉与事实性",
+   "innovations": [
+    "提出 DEDUCE 三阶段框架实现从被动响应到主动纠错的转变",
+    "构建 MisFactQA 数据集与 MR/CR/CS 三维评估指标体系"
+   ],
+   "benchmarks": [
+    "TruthfulQA",
+    "FalseQA",
+    "MisFactQA"
+   ]
+  }
+ }
 }

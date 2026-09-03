@@ -4,5 +4,31 @@
  "title": "From-Passive-Response-to-Proactive-Correction-Enhancing-LLM",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-08-27 12:22:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/023a1e12-ce55-4493-9acf-396d1fa1f33c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/023a1e12-ce55-4493-9acf-396d1fa1f33c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 21:33:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "hallucination mitigation",
+    "fact perturbation",
+    "LLM robustness",
+    "input-side correction",
+    "multi-perspective deliberation",
+    "MisFactQA"
+   ],
+   "field": "大语言模型幻觉与事实核查",
+   "innovations": [
+    "提出Detect-Devise-Correct三阶段框架将LLM从被动响应转为主动纠错",
+    "设计Generator-Reviewer-Arbiter多视角审议机制避免自我强化偏差",
+    "构建MisFactQA数据集并提出MR/CR/CS三维细粒度评估指标"
+   ],
+   "benchmarks": [
+    "TruthfulQA",
+    "FalseQA",
+    "MisFactQA"
+   ]
+  }
+ }
 }

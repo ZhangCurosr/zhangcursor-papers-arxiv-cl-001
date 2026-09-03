@@ -4,5 +4,32 @@
  "title": "When-Less-Is-More-An-Empirical-Study-of-Minimal-Responses-in",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-08-26 03:06:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/1584dd9a-cd0b-4e9a-b557-f67cce1243d4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/1584dd9a-cd0b-4e9a-b557-f67cce1243d4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 21:30:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "心理咨询对话",
+    "最小化回应",
+    "LLM评估偏差",
+    "对话生成",
+    "cross-lingual"
+   ],
+   "field": "对话系统与心理咨询NLP",
+   "innovations": [
+    "首个跨语言最小化回应系统分析揭示合成数据稀缺性",
+    "双阶段过滤方法结合规则与LLM验证",
+    "证明LLM质量评估与打断风险正相关、与最小化回应率负相关"
+   ],
+   "benchmarks": [
+    "PsyDial-D4",
+    "KokoroChat",
+    "AnnoMI",
+    "CACTUS",
+    "CPsyCounD"
+   ]
+  }
+ }
 }

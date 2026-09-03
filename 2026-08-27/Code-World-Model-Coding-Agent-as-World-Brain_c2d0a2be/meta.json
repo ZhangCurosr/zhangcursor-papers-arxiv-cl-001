@@ -4,5 +4,10 @@
  "title": "Code-World-Model-Coding-Agent-as-World-Brain",
  "token": "sk-07nfPn8BZ...",
  "created_at": "2026-08-27 12:20:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/23355a7d-8b60-46ab-a10f-80ebcb583055.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/23355a7d-8b60-46ab-a10f-80ebcb583055.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 21:31:46",
+  "chunks": 1
+ }
 }

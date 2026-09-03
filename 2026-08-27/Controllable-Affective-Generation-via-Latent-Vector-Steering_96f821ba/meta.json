@@ -4,5 +4,32 @@
  "title": "Controllable-Affective-Generation-via-Latent-Vector-Steering",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-27 23:34:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/fc9c53c3-4573-4e53-bea0-d89bb01d36dd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/fc9c53c3-4573-4e53-bea0-d89bb01d36dd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 21:31:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "情感计算",
+    "大语言模型",
+    "表征工程",
+    "推理时干预",
+    "可控生成",
+    "去偏"
+   ],
+   "field": "大语言模型情感控制",
+   "innovations": [
+    "通过对比激活加法和两级任务去偏提取纯净情感向量",
+    "场景自适应缩放器实现动态情感强度控制",
+    "验证情感表示在最终层线性可分的层级涌现规律"
+   ],
+   "benchmarks": [
+    "CPsyCounD",
+    "Social Chemistry",
+    "NormBank",
+    "Social IQa"
+   ]
+  }
+ }
 }

@@ -4,5 +4,38 @@
  "title": "WeMM-Embedding-WeChat-Multi-Modal-Embedding-Technical-Report",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-08-26 14:41:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/a50b28d3-032a-4b13-8286-46e219eae1d4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/a50b28d3-032a-4b13-8286-46e219eae1d4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 21:30:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态嵌入",
+    "Matryoshka Representation Learning",
+    "对比学习",
+    "嵌入蒸馏",
+    "MMEB",
+    "通用多模态表示",
+    "两阶段训练",
+    "RQ-KMeans"
+   ],
+   "field": "多模态表示学习",
+   "innovations": [
+    "两阶段训练策略：大规模多模态对齐 + 精选数据细粒度精化与跨尺度知识蒸馏",
+    "双向嵌入蒸馏：利用teacher模型batch-wise相似度分布做KL对齐，无需额外离线标注",
+    "Semantic-ID引导的语义平衡重采样：基于RQ-KMeans量化自动去偏大规模训练数据"
+   ],
+   "benchmarks": [
+    "MMEB-v2",
+    "MMEB-v3",
+    "MSCOCO",
+    "Flickr30k",
+    "VATEX",
+    "MSR-VTT",
+    "ViDoRe V2",
+    "微信内部26任务基准"
+   ]
+  }
+ }
 }

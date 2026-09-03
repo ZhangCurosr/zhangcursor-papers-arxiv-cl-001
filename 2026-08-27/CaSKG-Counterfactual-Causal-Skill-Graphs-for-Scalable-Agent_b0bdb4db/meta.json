@@ -4,5 +4,30 @@
  "title": "CaSKG-Counterfactual-Causal-Skill-Graphs-for-Scalable-Agent",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-08-27 12:22:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/1a67e7f4-50d4-498e-a511-8b1c149cf520.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/1a67e7f4-50d4-498e-a511-8b1c149cf520.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 21:31:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM agents",
+    "skill retrieval",
+    "graph retrieval",
+    "counterfactual reasoning",
+    "causal validation",
+    "procedural memory"
+   ],
+   "field": "LLM Agent技能检索与程序性知识管理",
+   "innovations": [
+    "将技能图构建形式化为有界边缘可信度校准问题，分离关系发现与可信度评估",
+    "方向条件文本反事实探测框架，通过删除/替换/重排序验证必要性/特异性/方向性依赖",
+    "贝叶斯平滑的状态门控发布机制，将反事实证据聚合为Beta后验并映射四态权重"
+   ],
+   "benchmarks": [
+    "ALFWorld ID-140",
+    "ScienceWorld U211"
+   ]
+  }
+ }
 }

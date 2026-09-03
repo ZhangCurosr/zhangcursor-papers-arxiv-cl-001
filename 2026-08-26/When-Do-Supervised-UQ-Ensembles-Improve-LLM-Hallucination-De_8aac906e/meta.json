@@ -4,5 +4,36 @@
  "title": "When-Do-Supervised-UQ-Ensembles-Improve-LLM-Hallucination-De",
  "token": "sk-JqniBRrr0...",
  "created_at": "2026-08-26 14:41:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/1cbd3768-1e7b-4faf-b15c-47cbcbc9dd67.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/1cbd3768-1e7b-4faf-b15c-47cbcbc9dd67.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 21:30:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM幻觉检测",
+    "不确定性量化",
+    "UQ集成",
+    "黑盒评分器",
+    "白盒评分器",
+    "鲁棒性分析"
+   ],
+   "field": "大语言模型可靠性与可信度",
+   "innovations": [
+    "系统评估监督UQ集成在样本效率、分布偏移和跨生成模式下的鲁棒性",
+    "揭示黑盒集成在token概率不可用时的替代价值，证明其19/20设置中接近完整集成效果",
+    "首次将监督集成扩展至长文claim级别检测和代码生成场景"
+   ],
+   "benchmarks": [
+    "OpenR1-Math",
+    "Big-Math",
+    "HotpotQA",
+    "SimpleQA",
+    "DROP",
+    "LiveCodeBench",
+    "FactScore-Rivers",
+    "FactScore-Mushrooms"
+   ]
+  }
+ }
 }

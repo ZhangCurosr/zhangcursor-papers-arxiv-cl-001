@@ -4,5 +4,33 @@
  "title": "Escaping-Low-Dimensional-Overlap-Multi-Task-Model-Merging-vi",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-08-27 23:35:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/c500a1a6-d307-45a5-84ff-3e5318ace21b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/c500a1a6-d307-45a5-84ff-3e5318ace21b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 21:32:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "模型合并",
+    "稀疏自编码器",
+    "superposition",
+    "零阶优化",
+    "多任务学习",
+    "特征解纠缠"
+   ],
+   "field": "多任务模型合并",
+   "innovations": [
+    "从superposition视角分析模型合并任务干扰并提出高维稀疏解纠缠框架",
+    "提出改进SAE（Top-K+残差拟合+解码器归一化+正交正则化）解决标准SAE尺度扭曲和死神经元问题",
+    "设计GR-ZOO分组排名零阶优化器高效识别任务关键层"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "HumanEval",
+    "IFEval",
+    "MMLU",
+    "BeaverTail"
+   ]
+  }
+ }
 }

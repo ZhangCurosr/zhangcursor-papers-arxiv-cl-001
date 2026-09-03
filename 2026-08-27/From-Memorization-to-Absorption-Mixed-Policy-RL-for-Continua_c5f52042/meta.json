@@ -4,5 +4,31 @@
  "title": "From-Memorization-to-Absorption-Mixed-Policy-RL-for-Continua",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-08-27 12:24:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/e5ecad38-bb45-4264-abf0-b42900808866.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/e5ecad38-bb45-4264-abf0-b42900808866.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 21:32:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "持续知识注入",
+    "混合策略强化学习",
+    "Golden-GRPO",
+    "SFT vs RL",
+    "知识吸收",
+    "BLANK基准",
+    "COUNTER基准"
+   ],
+   "field": "大语言模型持续学习",
+   "innovations": [
+    "Golden-GRPO混合策略RL算法，移除重要性采样比率解决知识注入中离策略梯度消失问题",
+    "BLANK与COUNTER双基准正交评估新知识获取与反事实信念覆盖，三级评估协议精细定位失效模式"
+   ],
+   "benchmarks": [
+    "BLANK",
+    "COUNTER",
+    "TimeQA"
+   ]
+  }
+ }
 }

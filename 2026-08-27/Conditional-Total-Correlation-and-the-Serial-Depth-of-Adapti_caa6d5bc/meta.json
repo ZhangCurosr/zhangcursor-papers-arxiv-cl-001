@@ -4,5 +4,31 @@
  "title": "Conditional-Total-Correlation-and-the-Serial-Depth-of-Adapti",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-08-27 23:34:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/d96cabe9-4ed9-4c23-ac8a-4579e35b65f0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/d96cabe9-4ed9-4c23-ac8a-4579e35b65f0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 21:31:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "parallel decoding",
+    "masked diffusion language models",
+    "conditional total correlation",
+    "serial depth",
+    "adaptive sampling",
+    "KL divergence",
+    "information theory"
+   ],
+   "field": "扩散语言模型并行解码的理论分析",
+   "innovations": [
+    "建立自适应并行采样中KL散度与条件总相关性的精确恒等式",
+    "证明伯努利游走对数深度与排列线性深度的最优下界",
+    "刻画二元字母表上从log²n到√n的多项式深度谱"
+   ],
+   "benchmarks": [
+    "WikiText-103",
+    "model-generated text (code/math/prose/structured)"
+   ]
+  }
+ }
 }

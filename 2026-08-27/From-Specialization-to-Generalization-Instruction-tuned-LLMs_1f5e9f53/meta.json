@@ -4,5 +4,39 @@
  "title": "From-Specialization-to-Generalization-Instruction-tuned-LLMs",
  "token": "sk-owp49a3rO...",
  "created_at": "2026-08-27 23:34:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/c9d8e53a-afcb-4c72-9563-da2c7aba8097.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/c9d8e53a-afcb-4c72-9563-da2c7aba8097.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 21:33:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "指令微调",
+    "大语言模型",
+    "仇恨言论检测",
+    "文本解毒",
+    "跨语言泛化",
+    "多任务学习",
+    "QLoRA"
+   ],
+   "field": "有害内容检测与缓解",
+   "innovations": [
+    "将36个异构英文数据集统一为指令格式进行LLM微调，构建覆盖分类与生成任务的统一框架",
+    "提出HIPPO模型，以4B参数量在17项基准上平均macro-F1达70.3，超越多数需集成的大型专用模型",
+    "通过留一法与跨语言实验验证指令微调在跨任务、跨语言泛化上的优势，轻量级微调即可支撑多语言生成任务"
+   ],
+   "benchmarks": [
+    "AMI18",
+    "EDOS",
+    "HASOC19",
+    "HatEval19",
+    "HateXplain",
+    "Jigsaw",
+    "OffensEval20",
+    "ParaDetox",
+    "ToxicSpans",
+    "HateCheck"
+   ]
+  }
+ }
 }

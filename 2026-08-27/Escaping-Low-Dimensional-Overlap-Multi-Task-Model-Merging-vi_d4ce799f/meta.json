@@ -4,5 +4,32 @@
  "title": "Escaping-Low-Dimensional-Overlap-Multi-Task-Model-Merging-vi",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-08-27 12:24:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/2c0e8423-f7fa-4268-9c84-7a35fee72f94.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/2c0e8423-f7fa-4268-9c84-7a35fee72f94.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 21:32:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Model Merging",
+    "Sparse Autoencoder",
+    "Task Interference",
+    "Superposition",
+    "Zeroth-Order Optimization",
+    "Feature Disentanglement"
+   ],
+   "field": "多任务模型合并",
+   "innovations": [
+    "提出SAE高维稀疏特征空间解耦任务向量以减轻低维纠缠干扰",
+    "设计GR-ZOO实现轻量级关键层选择与特征感知差异化融合"
+   ],
+   "benchmarks": [
+    "GSM8k",
+    "HumanEval+",
+    "IFEval",
+    "MMLU",
+    "BeaverTail"
+   ]
+  }
+ }
 }

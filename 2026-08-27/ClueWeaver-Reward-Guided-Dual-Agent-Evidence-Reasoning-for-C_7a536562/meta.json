@@ -4,5 +4,31 @@
  "title": "ClueWeaver-Reward-Guided-Dual-Agent-Evidence-Reasoning-for-C",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-08-27 23:34:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/460c94da-37d8-4bb4-8042-2453ac20ff2f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/460c94da-37d8-4bb4-8042-2453ac20ff2f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 21:31:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "long-context question answering",
+    "evidence selection",
+    "dual-agent reasoning",
+    "reward-guided RL",
+    "compact LLMs",
+    "literary narrative"
+   ],
+   "field": "长上下文推理与证据选择",
+   "innovations": [
+    "将证据选择与解释解耦为 Finder/Interpreter 双代理流水线并显式保留段落 ID 引用",
+    "对两代理分别采用基于规则的奖励引导 GRPO 训练以对齐最终任务表现"
+   ],
+   "benchmarks": [
+    "DetectiveQA",
+    "∞Bench",
+    "LongBench v2",
+    "NoCha"
+   ]
+  }
+ }
 }

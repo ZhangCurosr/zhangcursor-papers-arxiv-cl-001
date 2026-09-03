@@ -4,5 +4,10 @@
  "title": "From-Memorization-to-Absorption-Mixed-Policy-RL-for-Continua",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-08-27 23:34:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/e5ecad38-bb45-4264-abf0-b42900808866.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/e5ecad38-bb45-4264-abf0-b42900808866.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 21:33:09",
+  "chunks": 1
+ }
 }

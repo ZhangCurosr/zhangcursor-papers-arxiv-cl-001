@@ -4,5 +4,34 @@
  "title": "WeMM-Embedding-WeChat-Multi-Modal-Embedding-Technical-Report",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-08-26 03:02:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/a50b28d3-032a-4b13-8286-46e219eae1d4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/a50b28d3-032a-4b13-8286-46e219eae1d4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 21:30:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态嵌入",
+    "Matryoshka Representation Learning",
+    "对比学习",
+    "知识蒸馏",
+    "MMEB基准",
+    "通用表示学习"
+   ],
+   "field": "多模态表示学习",
+   "innovations": [
+    "基于Qwen3.5的两阶段训练策略（大规模对齐+精选精修）实现参数高效的多模态嵌入",
+    "Bidirectional embedding distillation将大模型相似度结构知识传递给小模型",
+    "MRL与对比/排序损失的统一结合，单模型支持64-2048维嵌套输出"
+   ],
+   "benchmarks": [
+    "MMEB-v2",
+    "MMEB-v3",
+    "MSCOCO",
+    "Flickr30k",
+    "VATEX",
+    "MSR-VTT"
+   ]
+  }
+ }
 }

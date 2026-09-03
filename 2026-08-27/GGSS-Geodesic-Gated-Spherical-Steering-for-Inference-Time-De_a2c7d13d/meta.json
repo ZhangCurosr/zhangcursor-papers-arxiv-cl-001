@@ -4,5 +4,31 @@
  "title": "GGSS-Geodesic-Gated-Spherical-Steering-for-Inference-Time-De",
  "token": "sk-qf4fjeNDd...",
  "created_at": "2026-08-27 12:24:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/f3ca7e63-0d21-4980-9e58-2b0a8bb6adcf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/f3ca7e63-0d21-4980-9e58-2b0a8bb6adcf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 21:33:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision-Language Models",
+    "Inference-time Debiasing",
+    "Generative VLM",
+    "Spherical Steering",
+    "Activation Intervention",
+    "Fairness"
+   ],
+   "field": "多模态模型公平性与去偏",
+   "innovations": [
+    "提出 GGSS：基于反事实球面子空间发现、自适应 token 级门控和范数守恒测地 Steering 的推理时去偏框架",
+    "构建首个面向生成式 VLM 的十基线统一推理时去偏评估基准并开源",
+    "证明球面 Slerp 在大尺度生成式 VLM 上显著优于 Euclidean 硬投影，且自适应门控是可扩展选择性的关键"
+   ],
+   "benchmarks": [
+    "MMStar",
+    "SocialCounterfactuals",
+    "REFLECT/FOCUS"
+   ]
+  }
+ }
 }

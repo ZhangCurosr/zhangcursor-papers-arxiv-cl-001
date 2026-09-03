@@ -4,5 +4,10 @@
  "title": "Formal-Executable-and-Explainable-Runtime-Monitoring-of-Spok",
  "token": "sk-CZoysi7P5...",
  "created_at": "2026-08-27 23:34:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/0fd68003-4773-4c20-b546-8e83e8d9cd59.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/0fd68003-4773-4c20-b546-8e83e8d9cd59.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 21:33:24",
+  "chunks": 1
+ }
 }

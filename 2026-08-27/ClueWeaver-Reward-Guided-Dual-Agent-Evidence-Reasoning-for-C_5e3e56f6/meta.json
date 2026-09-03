@@ -4,5 +4,32 @@
  "title": "ClueWeaver-Reward-Guided-Dual-Agent-Evidence-Reasoning-for-C",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-08-27 12:25:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/460c94da-37d8-4bb4-8042-2453ac20ff2f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/460c94da-37d8-4bb4-8042-2453ac20ff2f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 21:31:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "长上下文问答",
+    "证据选择",
+    "双Agent框架",
+    "奖励引导强化学习",
+    "紧凑语言模型",
+    "可解释推理"
+   ],
+   "field": "长叙事理解与可解释QA",
+   "innovations": [
+    "将长叙事QA分解为Finder（证据选择）与Interpreter（接地解释）双Agent流水线，并显式化证据选择过程",
+    "针对Finder与Interpreter分别设计任务特定规则奖励，使用GRPO进行奖励引导的强化学习训练",
+    "在紧凑型本地模型（Qwen3-4B）上实现显著性能提升，超过更大规模本地模型并接近API模型，同时提供可追溯的段落引用推理链"
+   ],
+   "benchmarks": [
+    "DetectiveQA",
+    "∞Bench",
+    "LongBench v2",
+    "NoCha"
+   ]
+  }
+ }
 }

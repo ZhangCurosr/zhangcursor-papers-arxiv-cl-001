@@ -4,5 +4,34 @@
  "title": "REPOLICY-REINFORCEMENT-LEARNING-FOR-SAFETY-POLICY-INVOCATION",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-08-26 03:02:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/f17a5044-3c96-4ffc-a908-f5e677c522f9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/f17a5044-3c96-4ffc-a908-f5e677c522f9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 21:30:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "智能体安全",
+    "安全策略调用",
+    "强化学习",
+    "GRPO",
+    "轨迹级守护",
+    "PolicyTraj-20K"
+   ],
+   "field": "LLM安全与对齐",
+   "innovations": [
+    "将安全策略调用建模为可强化学习的智能体决策任务",
+    "设计可验证三元奖励（格式/策略/判断）优化完整守护序列",
+    "策略上下文扰动增强策略选择鲁棒性"
+   ],
+   "benchmarks": [
+    "ATBench",
+    "R-Judge",
+    "OpenAgentSafety",
+    "ASSEBench",
+    "HINTBench",
+    "AgentHazard"
+   ]
+  }
+ }
 }
