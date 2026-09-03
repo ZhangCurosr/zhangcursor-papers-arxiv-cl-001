@@ -4,5 +4,31 @@
  "title": "Abstract",
  "token": "sk-aEeqX9tmP...",
  "created_at": "2026-08-21 03:03:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/28375ea3-db8e-4151-bfbb-b061aace3a6f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/28375ea3-db8e-4151-bfbb-b061aace3a6f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 00:58:21",
+  "chunks": 5,
+  "meta": {
+   "keywords": [
+    "身份本质主义",
+    "LLM Agent",
+    "纵向生命轨迹",
+    "双记忆系统",
+    "LoRA 个性化",
+    "社会模拟"
+   ],
+   "field": "LLM Agent 社会模拟与个性化",
+   "innovations": [
+    "提出 LifeMem 双记忆框架，结合结构化事件检索与参数化 LoRA adapter 缓解 LLM Agent 中的身份本质主义",
+    "首次以多波次真实纵向人类数据驱动 Agent 状态演化，证明静态画像导致严重组内压缩",
+    "系统性揭示纯 prompt-only 记忆的检索深度饱和瓶颈（K≈40），为参数化持久记忆提供实证依据"
+   ],
+   "benchmarks": [
+    "Add Health",
+    "Understanding Society",
+    "World Values Survey (WVS)"
+   ]
+  }
+ }
 }

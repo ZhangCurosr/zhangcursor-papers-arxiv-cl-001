@@ -4,5 +4,32 @@
  "title": "ST-sup-2-sup-U-Stateful-Test-Time-Unlearning-via-Restricted",
  "token": "sk-NnOQ8YDzm...",
  "created_at": "2026-08-25 14:42:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/4044c2b9-b5c2-41b4-a789-9a315fa4de80.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/4044c2b9-b5c2-41b4-a789-9a315fa4de80.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 00:58:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Machine Unlearning",
+    "Test-Time Intervention",
+    "Activation Editing",
+    "Stateful Control",
+    "Risk Boundary",
+    "Restricted Knowledge Re-entry",
+    "Large Language Models"
+   ],
+   "field": "大语言模型机器遗忘与安全对齐",
+   "innovations": [
+    "提出轨迹级状态化测试时机器遗忘框架ST²U，通过低维可逆坐标与历史状态传递实现受限知识边界的持续控制",
+    "构建RKG风险几何与密度比风险函数，首次系统量化并缓解受限知识重新进入问题"
+   ],
+   "benchmarks": [
+    "RWKU",
+    "WMDP",
+    "MUSE-Books",
+    "MMLU"
+   ]
+  }
+ }
 }

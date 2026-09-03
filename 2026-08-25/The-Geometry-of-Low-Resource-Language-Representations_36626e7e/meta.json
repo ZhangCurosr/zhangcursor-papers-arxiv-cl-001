@@ -4,5 +4,32 @@
  "title": "The-Geometry-of-Low-Resource-Language-Representations",
  "token": "sk-vBvZ06NsJ...",
  "created_at": "2026-08-25 02:57:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/4958218f-750d-4b7a-8a58-f4281379783b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/4958218f-750d-4b7a-8a58-f4281379783b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 01:02:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "低资源语言",
+    "表征几何",
+    "持续预训练",
+    "CosReg",
+    "各向同性",
+    "非洲语言"
+   ],
+   "field": "低资源自然语言处理",
+   "innovations": [
+    "首次系统分析Decoder LLM中低/高资源语言的表征几何差异",
+    "将几何正则化CosReg和I-STAR首次应用于CPT阶段",
+    "发现局部可分性正则化比全局各向同性正则化对低资源语言更有效"
+   ],
+   "benchmarks": [
+    "IrokoBench",
+    "AfriXNLI",
+    "AfriMMLU",
+    "AfriMGSM"
+   ]
+  }
+ }
 }

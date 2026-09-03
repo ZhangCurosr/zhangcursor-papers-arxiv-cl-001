@@ -4,5 +4,33 @@
  "title": "The-Illusion-of-Control-Why-Bare-Classifier-Inversion-Silent",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-08-25 02:57:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/4912567e-ec7e-456b-ab4d-18a31b37c810.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/4912567e-ec7e-456b-ab4d-18a31b37c810.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 01:02:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "概念瓶颈",
+    "可控文本生成",
+    "组合泛化",
+    "分类器反转",
+    "后验先验",
+    "推理协议",
+    "潜空间控制"
+   ],
+   "field": "可控文本生成与概念瓶颈模型",
+   "innovations": [
+    "系统揭示裸分类器反转在概念瓶颈文本生成中静默崩溃至随机水平的机制，并通过 Mahalanobis 距离直接证明离流形代码是根本原因",
+    "提出首个部署友好的后验标签条件先验（单层 MLP），在匹配检查点上恢复组合泛化且无需推理时优化，较反转变体提升 7-35 pp",
+    "建立条件均值去噪器理论解释，证明组合内样本噪声超过概念信号，确定性均值估计优于完整条件密度建模"
+   ],
+   "benchmarks": [
+    "CompMCTG Fyelp",
+    "CompMCTG Amazon",
+    "YelpP",
+    "Synthetic 4-axis MCD"
+   ]
+  }
+ }
 }

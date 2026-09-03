@@ -4,5 +4,32 @@
  "title": "WARP-Wasserstein-Aligned-RAG-for-Population-Opinions",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-08-25 02:57:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/536a350b-381d-416f-a4f4-c53151440937.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/536a350b-381d-416f-a4f4-c53151440937.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 01:03:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Wasserstein-1",
+    "RAG",
+    "opinion retrieval",
+    "optimal transport",
+    "distributional calibration",
+    "sentiment intensity",
+    "reranking"
+   ],
+   "field": "检索增强生成(RAG)与意见分析",
+   "innovations": [
+    "用Wasserstein-1序数距离替代KL/JS进行检索后分布校准，保留意见桶间语义距离",
+    "提出池密度驱动的三种变体决策矩阵(密集/稀疏/未知)，p99重排延迟<330ms",
+    "零参数无微调，在35K文档/156查询/26实体上分布误差降低43%以上"
+   ],
+   "benchmarks": [
+    "Yelp Open Hotel Reviews",
+    "OpinRank Car Reviews",
+    "Amazon Seller Forums"
+   ]
+  }
+ }
 }

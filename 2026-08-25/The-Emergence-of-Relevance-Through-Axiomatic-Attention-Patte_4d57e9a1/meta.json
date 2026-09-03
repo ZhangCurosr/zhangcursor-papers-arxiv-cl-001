@@ -4,5 +4,29 @@
  "title": "The-Emergence-of-Relevance-Through-Axiomatic-Attention-Patte",
  "token": "sk-07nfPn8BZ...",
  "created_at": "2026-08-25 14:42:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/7e5de497-dadf-4f5b-bd31-7d7fe39162b9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/7e5de497-dadf-4f5b-bd31-7d7fe39162b9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 01:02:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LoRA",
+    "reranking",
+    "mechanistic interpretability",
+    "axiomatic IR",
+    "attention analysis",
+    "ablation study"
+   ],
+   "field": "可解释人工智能",
+   "innovations": [
+    "提出keep/omit双策略消融框架精确定位LoRA注意力更新的关键网络区域",
+    "引入归一化特征注意力度量解决attention sink干扰问题",
+    "建立公理化IR特征与注意力模式变化及性能增益的量化关联"
+   ],
+   "benchmarks": [
+    "MS MARCO Passage Ranking"
+   ]
+  }
+ }
 }

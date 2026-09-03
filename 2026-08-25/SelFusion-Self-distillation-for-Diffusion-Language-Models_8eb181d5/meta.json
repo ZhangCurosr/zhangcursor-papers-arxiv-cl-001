@@ -4,5 +4,33 @@
  "title": "SelFusion-Self-distillation-for-Diffusion-Language-Models",
  "token": "sk-gD7m2ian9...",
  "created_at": "2026-08-25 14:42:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/1b160a4f-1548-4efa-97a5-96f44c47122b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/1b160a4f-1548-4efa-97a5-96f44c47122b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 01:00:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "扩散语言模型",
+    "知识蒸馏",
+    "自蒸馏",
+    "双向蒸馏",
+    "RMSNorm校准"
+   ],
+   "field": "语言模型压缩与加速",
+   "innovations": [
+    "提出双模式自蒸馏框架实现DLM内部知识迁移",
+    "设计token级双向KD机制动态选择蒸馏方向",
+    "引入轻量RMSNorm校准解决过自信问题"
+   ],
+   "benchmarks": [
+    "Dolly",
+    "Self-Inst",
+    "Vicuna",
+    "S-NI",
+    "UnNI",
+    "SAMSum"
+   ]
+  }
+ }
 }

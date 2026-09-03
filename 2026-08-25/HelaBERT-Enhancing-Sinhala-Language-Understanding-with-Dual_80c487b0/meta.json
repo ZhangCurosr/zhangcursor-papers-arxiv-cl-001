@@ -4,5 +4,10 @@
  "title": "HelaBERT-Enhancing-Sinhala-Language-Understanding-with-Dual",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-08-25 14:42:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/372cacb0-6090-4b3c-9850-f1cd798766d6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/372cacb0-6090-4b3c-9850-f1cd798766d6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 00:58:26",
+  "chunks": 1
+ }
 }

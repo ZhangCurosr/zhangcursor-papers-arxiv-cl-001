@@ -4,5 +4,32 @@
  "title": "The-Multilingual-FrameNet-Corpus",
  "token": "sk-mtKOSZtKc...",
  "created_at": "2026-08-25 03:00:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/3f53ba57-387c-420d-b315-5a9b2750970b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/3f53ba57-387c-420d-b315-5a9b2750970b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 01:03:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Frame Semantic Parsing",
+    "Multilingual Corpus",
+    "FrameNet",
+    "Cross-lingual Generalization",
+    "Sequence Labeling",
+    "Knowledge Representation"
+   ],
+   "field": "多语言自然语言处理",
+   "innovations": [
+    "提出首个大规模多语言 FrameNet 语料库 mFNC，调和十种语言资源",
+    "证明多语言训练显著提升 FSP 模型在多语言和跨语言设置下的性能",
+    "开源 mFNC 数据集及三个预训练 FSP 模型供社区复用"
+   ],
+   "benchmarks": [
+    "Berkeley FrameNet",
+    "FairEval",
+    "LOME baseline",
+    "mT5 multilingual"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "STONIC-A-Layered-Measurement-Contract-for-LLM-Value-Profilin",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-08-25 02:59:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/5893a958-ed8f-41ae-9047-c31548d567c2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/5893a958-ed8f-41ae-9047-c31548d567c2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 00:59:50",
+  "chunks": 1
+ }
 }

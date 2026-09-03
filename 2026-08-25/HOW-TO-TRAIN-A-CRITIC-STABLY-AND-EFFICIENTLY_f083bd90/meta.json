@@ -4,5 +4,34 @@
  "title": "HOW-TO-TRAIN-A-CRITIC-STABLY-AND-EFFICIENTLY",
  "token": "sk-WJrSFDicB...",
  "created_at": "2026-08-25 14:41:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/a6ee3e01-cb24-4f50-b011-70544d3d81fc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/a6ee3e01-cb24-4f50-b011-70544d3d81fc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 00:58:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "critic-based RL",
+    "LLM reinforcement learning",
+    "PPO",
+    "GRPO",
+    "value function stabilization",
+    "privileged critic",
+    "GAE",
+    "RLHF"
+   ],
+   "field": "大语言模型强化学习",
+   "innovations": [
+    "BPCO配方：DPPO+有界价值头+解耦GAE+无归一化优势度+长度自适应GAE的五项整合",
+    "首次将参考答案/rubric作为训练时critic的特权输入",
+    "通过可控sanity test逐一隔离并诊断critic训练不稳定根因"
+   ],
+   "benchmarks": [
+    "AIME 2025 avg@32",
+    "DeepScaleR",
+    "DAPO-Math-17k",
+    "OpenRubrics"
+   ]
+  }
+ }
 }

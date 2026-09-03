@@ -4,5 +4,32 @@
  "title": "The-Geometry-of-Low-Resource-Language-Representations",
  "token": "sk-vBvZ06NsJ...",
  "created_at": "2026-08-25 14:42:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/4958218f-750d-4b7a-8a58-f4281379783b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/4958218f-750d-4b7a-8a58-f4281379783b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 01:02:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "低资源语言",
+    "表征几何",
+    "继续预训练",
+    "余弦相似度正则化",
+    "各向同性",
+    "可操作可解释性"
+   ],
+   "field": "低资源语言建模与LLM可解释性",
+   "innovations": [
+    "首次系统量化30语言×9模型多层表征几何差异，揭示数据稀缺与最终层退化的强相关",
+    "将CosReg与I-STAR首次应用于低资源语言的CPT阶段",
+    "证明局部可分性（CosReg）比全局各向同性（I-STAR）对低资源语言适配更具增益"
+   ],
+   "benchmarks": [
+    "IrokoBench",
+    "FLORES-101",
+    "MADLAD-400",
+    "WURA"
+   ]
+  }
+ }
 }

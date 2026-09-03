@@ -4,5 +4,10 @@
  "title": "Statistical-Machine-Translation-Systems-of-English-Pnar-Lang",
  "token": "sk-owp49a3rO...",
  "created_at": "2026-08-25 02:57:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/56eafa95-9bbe-4222-84ce-86b9efea7de2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/56eafa95-9bbe-4222-84ce-86b9efea7de2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 01:01:38",
+  "chunks": 1
+ }
 }

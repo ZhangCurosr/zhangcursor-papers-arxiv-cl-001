@@ -4,5 +4,30 @@
  "title": "TRACE-A-Self-Evolving-Skill-Bank-for-Consistent-Limit-Aware",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-08-25 14:42:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/211cded8-4868-4591-b0cd-c5c55dc4ed59.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/211cded8-4868-4591-b0cd-c5c55dc4ed59.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 01:02:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM Agent",
+    "一致性",
+    "边界意识",
+    "技能库",
+    "自进化",
+    "CAR-bench",
+    "工具调用"
+   ],
+   "field": "LLM Agent 可靠性与安全性",
+   "innovations": [
+    "通过轨迹对比分析自进化模块化技能库，无需修改模型权重",
+    "部署忠实重建机制确保技能不依赖特权信息",
+    "操作级抽象与去硬编码约束保障跨场景迁移性"
+   ],
+   "benchmarks": [
+    "CAR-bench"
+   ]
+  }
+ }
 }

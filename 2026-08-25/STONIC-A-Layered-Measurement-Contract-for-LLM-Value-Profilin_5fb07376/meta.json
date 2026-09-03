@@ -4,5 +4,36 @@
  "title": "STONIC-A-Layered-Measurement-Contract-for-LLM-Value-Profilin",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-08-25 14:42:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/5893a958-ed8f-41ae-9047-c31548d567c2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/5893a958-ed8f-41ae-9047-c31548d567c2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 00:59:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM value profiling",
+    "Schwartz values",
+    "cross-interface measurement",
+    "behavioral consistency",
+    "semantic scorer audit",
+    "hidden-state decoding",
+    "value alignment evaluation"
+   ],
+   "field": "LLM价值对齐与评估",
+   "innovations": [
+    "提出STONIC分层测量合同，将评分/选择/生成分离为L1-L3四层独立接口并设报告门槛",
+    "发现跨界面行为连续性（10/17配置L1→L2一致，所有符合条件配置C5偏好自身答案），但未支持跨界面语义等价性",
+    "五视角冻结语义审计+隐藏状态一次前向探测，区分预测性与因果性"
+   ],
+   "benchmarks": [
+    "ValuePortrait",
+    "AIRiskDilemmas",
+    "DailyDilemmas",
+    "MoralChoice",
+    "FULCRA",
+    "ValueLlama",
+    "DeBERTa-19"
+   ]
+  }
+ }
 }

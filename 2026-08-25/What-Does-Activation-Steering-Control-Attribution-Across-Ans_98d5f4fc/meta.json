@@ -4,5 +4,30 @@
  "title": "What-Does-Activation-Steering-Control-Attribution-Across-Ans",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-08-25 14:42:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/4238e02e-c948-4cf1-be95-de03ef574cb5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/4238e02e-c948-4cf1-be95-de03ef574cb5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 01:04:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "activation steering",
+    "contrastive activation addition",
+    "interpretability",
+    "representation engineering",
+    "cross-encoding evaluation",
+    "extraction-index following"
+   ],
+   "field": "大语言模型可解释性与对齐",
+   "innovations": [
+    "提出固定干预+反事实重编码的交叉评估框架以分离语义/索引/行跟随",
+    "揭示 CAA 效果集中在低秩输出敏感子空间（15.4%能量保留96.3%效应）"
+   ],
+   "benchmarks": [
+    "NormBank",
+    "MNLI",
+    "Social Chemistry 101 (SC101)"
+   ]
+  }
+ }
 }

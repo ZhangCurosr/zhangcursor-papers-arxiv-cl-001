@@ -4,5 +4,31 @@
  "title": "SWE-Refactor-Bench-Can-Coding-Agents-Complete-a-Long-Horizon",
  "token": "sk-aQHhxC28I...",
  "created_at": "2026-08-25 02:58:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/37f7b0cd-cdce-42a8-9cee-1ed4c92c457f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/37f7b0cd-cdce-42a8-9cee-1ed4c92c457f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 01:00:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "代码智能体",
+    "软件迁移",
+    "基准测试",
+    "行为验证",
+    "对抗性评估",
+    "技术债"
+   ],
+   "field": "代码智能体评估与软件工程",
+   "innovations": [
+    "提出三阶段评估协议以同时验证迁移完整性与行为保真度",
+    "识别并命名迁移评估中的 Blindness 捷径现象",
+    "发布首个长周期全仓库堆栈迁移基准测试"
+   ],
+   "benchmarks": [
+    "SWE Refactor Bench",
+    "SWE-bench",
+    "MigrationBench"
+   ]
+  }
+ }
 }

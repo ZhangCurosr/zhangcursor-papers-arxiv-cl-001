@@ -4,5 +4,31 @@
  "title": "Safety-Hacking-in-Constrained-Best-of-N-Inference-time-Scali",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-08-25 03:00:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/1b6dfa8f-ec70-41ac-8706-e2e0e825f4fe.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/1b6dfa8f-ec70-41ac-8706-e2e0e825f4fe.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 00:59:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "inference-time scaling",
+    "safety hacking",
+    "best-of-N",
+    "reward overoptimization",
+    "coverage control",
+    "safe LLM inference"
+   ],
+   "field": "大语言模型推理时对齐与安全",
+   "innovations": [
+    "形式化安全黑客攻击（污染+放大）并给出有限N与渐近界",
+    "推导约束最佳N采样的联合奖励尾部分配界限",
+    "提出覆盖控制原则与约束悲观采样cPes算法"
+   ],
+   "benchmarks": [
+    "JailbreakBench",
+    "HarmBench",
+    "AdvBench"
+   ]
+  }
+ }
 }

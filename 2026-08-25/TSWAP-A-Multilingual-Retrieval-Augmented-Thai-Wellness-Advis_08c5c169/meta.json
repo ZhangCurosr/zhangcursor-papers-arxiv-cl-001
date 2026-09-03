@@ -4,5 +4,30 @@
  "title": "TSWAP-A-Multilingual-Retrieval-Augmented-Thai-Wellness-Advis",
  "token": "sk-qf4fjeNDd...",
  "created_at": "2026-08-25 02:56:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/3686bf5e-c9ac-4f65-a677-aefd0952f5f6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/3686bf5e-c9ac-4f65-a677-aefd0952f5f6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 01:02:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "retrieval-augmented generation",
+    "Thai NLP",
+    "traditional medicine",
+    "health chatbot",
+    "multilingual LLM",
+    "RAG safety"
+   ],
+   "field": "多语言健康RAG系统",
+   "innovations": [
+    "强制检索路由防止静默幻觉",
+    "英文校准量化对泰语声调的破坏效应",
+    "首个泰国传统医学检索基准"
+   ],
+   "benchmarks": [
+    "50-question Thai retrieval benchmark",
+    "production QA campaign (429 cases)"
+   ]
+  }
+ }
 }

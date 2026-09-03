@@ -4,5 +4,32 @@
  "title": "Signal-or-Noise-A-Benchmark-Study-of-Agent-Skills-in-Web-Dev",
  "token": "sk-aEeqX9tmP...",
  "created_at": "2026-08-25 14:42:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/df6a6c70-6df8-4dd6-bb54-d629d4411ab7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/df6a6c70-6df8-4dd6-bb54-d629d4411ab7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 01:00:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Agent Skills",
+    "WebDev benchmark",
+    "prompt injection",
+    "length-matched control",
+    "slice ablation",
+    "skill routing"
+   ],
+   "field": "Agent 评测与Skill效用分析",
+   "innovations": [
+    "提出WebDev-Skills-Bench四条件受控基准分离Skill内容与长度效应",
+    "发现长度分心vs内容误导两种失败模式并量化跨模型分裂",
+    "证实Skill效用是(Skill,project,model)三元组假设而非可移植资产"
+   ],
+   "benchmarks": [
+    "WebDev-Skills-Bench",
+    "Web-Bench",
+    "SkillsBench",
+    "SWE-Skills-Bench"
+   ]
+  }
+ }
 }

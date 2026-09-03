@@ -4,5 +4,29 @@
  "title": "ConvergeFlow-Language-Flow-with-Provable-Convergence-to-Toke",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-08-25 02:56:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/3e71a7a1-4aac-4d8f-99cc-ee231f583b02.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/3e71a7a1-4aac-4d8f-99cc-ee231f583b02.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 00:57:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "flow matching",
+    "language modeling",
+    "diffusion language model",
+    "convergence theory",
+    "continuous generative model",
+    "quality-diversity trade-off"
+   ],
+   "field": "连续扩散语言模型",
+   "innovations": [
+    "提出首个具有 provable convergence to token embeddings 的 flow-based LM，无需 CE 解码器",
+    "设计 embedding-weighted 数据预测器参数化，通过凸包约束保证流收敛到合法 token",
+    "提出三种 time-adaptive 采样机制显式控制 Gen. PPL-entropy 权衡"
+   ],
+   "benchmarks": [
+    "OpenWebText (OWT)"
+   ]
+  }
+ }
 }

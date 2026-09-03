@@ -4,5 +4,10 @@
  "title": "Unlearning-Is-Not-Just-Erasing-Temporal-Decoupling-via-Gener",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-08-25 14:42:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/165d0b32-78d9-4dbc-8669-1f35ad91ac2b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/165d0b32-78d9-4dbc-8669-1f35ad91ac2b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 01:04:02",
+  "chunks": 1
+ }
 }

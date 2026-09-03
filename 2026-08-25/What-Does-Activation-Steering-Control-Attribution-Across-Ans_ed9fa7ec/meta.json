@@ -4,5 +4,30 @@
  "title": "What-Does-Activation-Steering-Control-Attribution-Across-Ans",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-08-25 02:59:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/4238e02e-c948-4cf1-be95-de03ef574cb5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/4238e02e-c948-4cf1-be95-de03ef574cb5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 01:04:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "activation steering",
+    "interpretability",
+    "representation engineering",
+    "attribution",
+    "contrastive activation addition",
+    "LLM interpretability"
+   ],
+   "field": "大语言模型可解释性与机制解释",
+   "innovations": [
+    "提出跨编码评估框架，固定干预方向反事实重构答案编码以归因导向实际控制的变量",
+    "发现extraction-index following现象并定位至输出敏感的低秩子空间（15.4%范数保留96.3%效应）"
+   ],
+   "benchmarks": [
+    "NormBank",
+    "MNLI",
+    "Social Chemistry 101 (SC101)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "The-Emergence-of-Relevance-Through-Axiomatic-Attention-Patte",
  "token": "sk-07nfPn8BZ...",
  "created_at": "2026-08-25 02:56:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/c0ce2697-bcfb-414f-8748-18fbcf23dd58.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/c0ce2697-bcfb-414f-8748-18fbcf23dd58.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 01:02:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LoRA",
+    "重排序",
+    "注意力可解释性",
+    "公理化信息检索",
+    "RankLLaMA",
+    "消融实验"
+   ],
+   "field": "检索系统可解释性与效率优化",
+   "innovations": [
+    "提出标准化特征注意力指标以消除attention sink干扰",
+    "通过Keep/Omit双策略消融定位LoRA注意力更新的关键中网络区域（第10-18层）",
+    "建立公理化IR特征变化与性能增益的强相关性（稀有词敏感性ρ=0.92）"
+   ],
+   "benchmarks": [
+    "MS MARCO"
+   ]
+  }
+ }
 }

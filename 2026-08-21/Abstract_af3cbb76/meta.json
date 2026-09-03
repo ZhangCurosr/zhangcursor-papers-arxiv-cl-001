@@ -4,5 +4,31 @@
  "title": "Abstract",
  "token": "sk-aEeqX9tmP...",
  "created_at": "2026-08-21 14:32:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/28375ea3-db8e-4151-bfbb-b061aace3a6f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/28375ea3-db8e-4151-bfbb-b061aace3a6f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 00:58:44",
+  "chunks": 5,
+  "meta": {
+   "keywords": [
+    "LLM Agent",
+    "身份本质主义",
+    "双记忆框架",
+    "LoRA 参数化记忆",
+    "纵向队列",
+    "互补记忆系统",
+    "群体偏差"
+   ],
+   "field": "LLM Agent 个性化与公平性",
+   "innovations": [
+    "提出受认知科学启发的双记忆框架，同时维护显式事件检索与隐式参数化整合以缓解 LLM Agent 的身份本质主义",
+    "建立首个针对 LLM Agent 身份本质主义的量化评测体系（KL/WG Gap/Ent.Gap/Trans.JS）",
+    "通过 Agent 专属 LoRA 适配器实现跨波次的持久经验固化与生命周期动态建模"
+   ],
+   "benchmarks": [
+    "Add Health",
+    "Understanding Society"
+   ]
+  }
+ }
 }

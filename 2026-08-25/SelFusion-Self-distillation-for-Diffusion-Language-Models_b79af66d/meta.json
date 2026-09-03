@@ -4,5 +4,35 @@
  "title": "SelFusion-Self-distillation-for-Diffusion-Language-Models",
  "token": "sk-gD7m2ian9...",
  "created_at": "2026-08-25 02:59:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/1b160a4f-1548-4efa-97a5-96f44c47122b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/1b160a4f-1548-4efa-97a5-96f44c47122b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 01:01:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Diffusion Language Model",
+    "Knowledge Distillation",
+    "Self-distillation",
+    "Bidirectional KD",
+    "RMSNorm Calibration",
+    "Parallel Text Generation",
+    "Distribution Mismatch"
+   ],
+   "field": "扩散语言模型与知识蒸馏",
+   "innovations": [
+    "提出 SelFusion 自蒸馏框架，通过 easy/hard 双掩码模式与双向 token 级 KD 在无外部教师条件下显著提升 DLM 生成质量",
+    "引入 RMSNorm-based logit 校准，仅 1,280 参数即可选择性压制错误预测的过度自信",
+    "系统实证揭示 LLM↔DLM 分布错配的尺度与 token 重叠双重成因，并给出可复用的诊断范式"
+   ],
+   "benchmarks": [
+    "Dolly",
+    "Self-Inst",
+    "Vicuna",
+    "S-NI(>11)",
+    "UnNI(>11)",
+    "SAMSum"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "ST-sup-2-sup-U-Stateful-Test-Time-Unlearning-via-Restricted",
  "token": "sk-NnOQ8YDzm...",
  "created_at": "2026-08-25 03:01:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/4044c2b9-b5c2-41b4-a789-9a315fa4de80.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/4044c2b9-b5c2-41b4-a789-9a315fa4de80.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 00:58:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Machine Unlearning",
+    "Test-Time Unlearning",
+    "Activation Editing",
+    "Restricted Knowledge Boundary Control",
+    "Stateful Trajectory Control",
+    "LLM Alignment"
+   ],
+   "field": "大语言模型安全与可控生成",
+   "innovations": [
+    "提出受限知识风险几何（RKG），通过低维可逆坐标与KDE密度比建模连续风险边界，实现目标/正交分量解耦",
+    "设计状态化边界控制（SBC），结合法向-切向联合修正与固定维度历史状态记忆，缓解自回归生成中的知识重入",
+    "建立轨迹级遗忘形式化框架，将测试时干预从点对点修正扩展为跨token的持续风险约束"
+   ],
+   "benchmarks": [
+    "RWKU",
+    "WMDP",
+    "MUSE-Books",
+    "MMLU"
+   ]
+  }
+ }
 }

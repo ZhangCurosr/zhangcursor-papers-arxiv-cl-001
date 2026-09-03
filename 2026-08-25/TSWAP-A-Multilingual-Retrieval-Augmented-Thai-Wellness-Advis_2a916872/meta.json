@@ -4,5 +4,32 @@
  "title": "TSWAP-A-Multilingual-Retrieval-Augmented-Thai-Wellness-Advis",
  "token": "sk-qf4fjeNDd...",
  "created_at": "2026-08-25 14:42:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/3686bf5e-c9ac-4f65-a677-aefd0952f5f6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/3686bf5e-c9ac-4f65-a677-aefd0952f5f6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 01:02:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "retrieval-augmented generation",
+    "Thai NLP",
+    "traditional medicine",
+    "multilingual LLM",
+    "RAG benchmark",
+    "health chatbot",
+    "LLM safety"
+   ],
+   "field": "低资源多语言检索增强生成",
+   "innovations": [
+    "强制查询分类+tool_choice检索路由防止静默幻觉",
+    "首个泰式传统医学/养生检索基准(50题, Recall@5=0.88)并开源生产QA日志",
+    "量化多语言部署发现: English-calibrated 4-bit AWQ破坏泰语音调标记、translate-then-retrieve零样本八语服务"
+   ],
+   "benchmarks": [
+    "TSWAP 50-question Thai retrieval golden set",
+    "Production QA campaign (259 cases, 91.1% test-retest pass)",
+    "Frontier no-retrieval probe (71 questions, Gemini 2.5 Flash)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Same-Agent-Diferent-Answers",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-08-25 14:42:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/7fd7aeeb-1211-4910-9898-2a2e17505fe1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/7fd7aeeb-1211-4910-9898-2a2e17505fe1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 01:00:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "retrieval-augmented generation",
+    "answer churn",
+    "RAG evaluation",
+    "backward compatibility",
+    "LLM evaluation",
+    "corpus scaling",
+    "snapshot audit"
+   ],
+   "field": "检索增强生成系统的评估与可靠性",
+   "innovations": [
+    "提出 Repeat-Aware Snapshot Compatibility Audit，通过扣除同快照重复噪声估计超额答案漂移 D-hat",
+    "定义 repeat-stable semantic flip 诊断，定量归因答案漂移的构成",
+    "揭示 accuracy-blind answer churn 现象：聚合准确率不变时答案级行为已发生显著不兼容"
+   ],
+   "benchmarks": [
+    "Natural Questions",
+    "TriviaQA"
+   ]
+  }
+ }
 }

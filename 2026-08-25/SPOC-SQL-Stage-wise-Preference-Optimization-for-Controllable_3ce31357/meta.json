@@ -4,5 +4,32 @@
  "title": "SPOC-SQL-Stage-wise-Preference-Optimization-for-Controllable",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-08-25 02:57:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/bf93e2d2-2d1b-407f-8565-fbfe4d421af9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/bf93e2d2-2d1b-407f-8565-fbfe4d421af9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 00:58:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Text-to-SQL",
+    "Preference Optimization",
+    "DPO",
+    "LoRA",
+    "Multi-turn QA",
+    "Controllable Generation",
+    "Structured Decomposition"
+   ],
+   "field": "Text-to-SQL与结构化生成",
+   "innovations": [
+    "将DPO偏好优化从序列级推广到SQL四个逻辑阶段的细粒度决策点",
+    "提出RDIM分阶段验证交互模块实现可控生成",
+    "自构建71K多轮T2S数据集T2S-MTD并建立三层评测体系"
+   ],
+   "benchmarks": [
+    "Spider-Dev",
+    "Spider-Realistic",
+    "T2S-MTD"
+   ]
+  }
+ }
 }

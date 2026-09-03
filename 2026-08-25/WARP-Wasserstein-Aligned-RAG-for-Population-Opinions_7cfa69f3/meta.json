@@ -4,5 +4,10 @@
  "title": "WARP-Wasserstein-Aligned-RAG-for-Population-Opinions",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-08-25 14:42:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/536a350b-381d-416f-a4f4-c53151440937.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/536a350b-381d-416f-a4f4-c53151440937.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 01:04:00",
+  "chunks": 1
+ }
 }
