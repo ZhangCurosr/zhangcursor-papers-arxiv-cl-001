@@ -4,5 +4,31 @@
  "title": "SkillForge-Evolving-Verifiable-Skills-for-Reinforcement-Lear",
  "token": "sk-ZHrWl9Czg...",
  "created_at": "2026-08-26 14:41:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/d456a5f3-e9a9-46c7-a62b-9fe75f6ff3b1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/d456a5f3-e9a9-46c7-a62b-9fe75f6ff3b1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 14:56:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM Agent",
+    "Reinforcement Learning",
+    "Skill Learning",
+    "Continuous Evolution",
+    "Skill Verification",
+    "GRPO"
+   ],
+   "field": "智能体强化学习与技能演化",
+   "innovations": [
+    "显式技能调用机制使RL可联合优化动作与技能决策",
+    "基于EMA成功率和调用次数的技能低表现分数验证闭环",
+    "多路径技能诱导（提取/精炼/对比分析）驱动技能库质量增长"
+   ],
+   "benchmarks": [
+    "ALFWorld",
+    "WebShop",
+    "AppWorld"
+   ]
+  }
+ }
 }

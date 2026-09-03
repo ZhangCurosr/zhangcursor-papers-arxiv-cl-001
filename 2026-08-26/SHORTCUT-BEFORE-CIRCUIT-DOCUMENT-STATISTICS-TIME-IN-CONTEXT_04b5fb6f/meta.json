@@ -4,5 +4,10 @@
  "title": "SHORTCUT-BEFORE-CIRCUIT-DOCUMENT-STATISTICS-TIME-IN-CONTEXT",
  "token": "sk-4LF0lBYcu...",
  "created_at": "2026-08-26 14:41:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/df165520-2e75-43da-bc1b-6c26c6e4bd8b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/df165520-2e75-43da-bc1b-6c26c6e4bd8b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 14:55:31",
+  "chunks": 1
+ }
 }

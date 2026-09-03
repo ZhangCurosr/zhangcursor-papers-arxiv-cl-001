@@ -4,5 +4,32 @@
  "title": "SQLite-is-Enough-Lexical-Semantic-and-Hybrid-Search-with-scr",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-08-26 03:02:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/58c4aee3-88e0-4c01-b8bc-8d8adff9bc79.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/58c4aee3-88e0-4c01-b8bc-8d8adff9bc79.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 14:55:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Information Retrieval",
+    "Semantic Search",
+    "Lexical Search",
+    "SQLite",
+    "Embedding Binarization",
+    "Hybrid Search",
+    "Reciprocal Rank Fusion",
+    "Reproducibility"
+   ],
+   "field": "信息检索与文本嵌入",
+   "innovations": [
+    "将词法（FTS5/BM25）、语义（sqlite-vec binary/int8/float32）与混合（RRF）检索统一封装进单文件 SQLite，无需外部向量数据库",
+    "二进制穷举+高精度两阶段重排在 top-10 指标上等效全量精扫，延迟降至约 1/5",
+    "以 Qwen3-Embedding-8B 在 8 个 BEIR 数据集上系统量化压缩语义检索的效率-效果权衡，4/8 数据集达到或超过 MTEB 全精度基线"
+   ],
+   "benchmarks": [
+    "BEIR (ArguAna, FiQA, NFCorpus, Quora, SciDocs, SciFact, Touché, TREC-COVID)",
+    "MTEB leaderboard (Qwen3-Embedding-8B full-precision baseline)"
+   ]
+  }
+ }
 }

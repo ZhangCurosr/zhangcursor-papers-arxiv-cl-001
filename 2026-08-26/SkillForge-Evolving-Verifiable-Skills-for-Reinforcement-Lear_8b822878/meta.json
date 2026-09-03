@@ -4,5 +4,31 @@
  "title": "SkillForge-Evolving-Verifiable-Skills-for-Reinforcement-Lear",
  "token": "sk-ZHrWl9Czg...",
  "created_at": "2026-08-26 03:05:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/d456a5f3-e9a9-46c7-a62b-9fe75f6ff3b1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/d456a5f3-e9a9-46c7-a62b-9fe75f6ff3b1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 14:56:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM Agent",
+    "Reinforcement Learning",
+    "Skill Learning",
+    "Self-Evolving",
+    "GRPO",
+    "Memory-Augmented Agent"
+   ],
+   "field": "LLM Agent 强化学习与技能演化",
+   "innovations": [
+    "显式技能调用机制实现 skill-level credit assignment",
+    "基于 EMA 成功率和使用次数的低效评分驱动的 LLM reflexion 验证",
+    "多路径技能归纳（extraction/refinement/contrastive）协同技能库演化"
+   ],
+   "benchmarks": [
+    "ALFWorld",
+    "WebShop",
+    "AppWorld"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "FARCA-Fact-Aligned-Reliability-Aware-Credit-Assignment-for-R",
  "token": "sk-rnwM2rvcl...",
  "created_at": "2026-08-26 03:02:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/9bb03003-242a-46a0-a829-f428f076fae5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/9bb03003-242a-46a0-a829-f428f076fae5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 14:52:12",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,28 @@
  "title": "The-Invisible-Editorial-Layer-Formalizing-Undisclosed-Infere",
  "token": "sk-07nfPn8BZ...",
  "created_at": "2026-08-26 14:41:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/0e7ffbe0-836b-4c93-adb5-8b558b005d1d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/0e7ffbe0-836b-4c93-adb5-8b558b005d1d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 14:57:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "推理时干预",
+    "概率分布修改",
+    "推理归因问题",
+    "概率植入",
+    "AI治理",
+    "语义框架",
+    "对数几率干预",
+    "黑盒审计"
+   ],
+   "field": "AI治理与安全",
+   "innovations": [
+    "形式化推理时干预层并提出模型≠部署系统的架构命题",
+    "提出概率植入作为商业影响的假设性机制",
+    "定义推理归因问题并建立多部署层干预的可比审计框架"
+   ]
+  }
+ }
 }

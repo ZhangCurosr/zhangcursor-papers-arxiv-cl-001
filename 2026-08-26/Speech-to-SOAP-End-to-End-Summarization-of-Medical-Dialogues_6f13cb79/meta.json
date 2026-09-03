@@ -4,5 +4,33 @@
  "title": "Speech-to-SOAP-End-to-End-Summarization-of-Medical-Dialogues",
  "token": "sk-yJ5h9Go8b...",
  "created_at": "2026-08-26 03:03:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/25289253-50d9-4210-8f93-e5221e192e51.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/25289253-50d9-4210-8f93-e5221e192e51.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 14:56:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "medical dialogue summarization",
+    "SOAP note generation",
+    "speech foundation models",
+    "end-to-end speech-to-text",
+    "data augmentation",
+    "LoRA fine-tuning",
+    "BeTraC benchmark"
+   ],
+   "field": "医学语音处理与自然语言处理交叉",
+   "innovations": [
+    "可扩展的异构医学对话数据统一管道，通过合成语音与自动SOAP监督实现多源数据融合",
+    "多阶段适应策略系统性消融，揭示A-ASR初始化与联合Audio+Text训练的最优组合",
+    "检查点平均策略提升域外鲁棒性，在BeTraC官方测试集上显著领先基线"
+   ],
+   "benchmarks": [
+    "BeTraC 2026 Lightweight Track",
+    "DoPaCo test set",
+    "Mock Dialogue dataset",
+    "Realistic dialogue recordings"
+   ]
+  }
+ }
 }

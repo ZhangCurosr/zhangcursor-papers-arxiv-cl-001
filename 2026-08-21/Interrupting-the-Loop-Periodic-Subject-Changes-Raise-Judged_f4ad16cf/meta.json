@@ -4,5 +4,29 @@
  "title": "Interrupting-the-Loop-Periodic-Subject-Changes-Raise-Judged",
  "token": "sk-9ieZJEGxv...",
  "created_at": "2026-08-21 14:32:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/48651f4b-5613-4b86-b422-49e11d8a6ac8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/48651f4b-5613-4b86-b422-49e11d8a6ac8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 14:52:09",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "语言模型生成",
+    "评估方法",
+    "习惯化",
+    "周期性中断",
+    "大模型评估",
+    "文本连贯性"
+   ],
+   "field": "语言模型文本生成评估",
+   "innovations": [
+    "发现习惯化与周期性主语中断两个简单操作可显著提升基础模型持续生成质量",
+    "系统揭示并量化了滑动窗口LLM评估中的三类系统性伪影",
+    "证明复杂灵感循环架构并未带来超越简单操作的额外收益"
+   ],
+   "benchmarks": [
+    "FunSearch 在线装箱问题"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "Speech-to-SOAP-End-to-End-Summarization-of-Medical-Dialogues",
  "token": "sk-yJ5h9Go8b...",
  "created_at": "2026-08-26 14:41:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/25289253-50d9-4210-8f93-e5221e192e51.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/25289253-50d9-4210-8f93-e5221e192e51.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 14:56:59",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,37 @@
  "title": "FARCA-Fact-Aligned-Reliability-Aware-Credit-Assignment-for-R",
  "token": "sk-rnwM2rvcl...",
  "created_at": "2026-08-26 14:41:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/f3f221e3-5c69-488d-84d2-4cb92adc3195.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/f3f221e3-5c69-488d-84d2-4cb92adc3195.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 14:51:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Reinforcement Learning",
+    "Factuality",
+    "Hallucination",
+    "Credit Assignment",
+    "Token-level Policy Optimization",
+    "Counterfactual Attribution",
+    "RLVR"
+   ],
+   "field": "大语言模型事实性强化学习",
+   "innovations": [
+    "提出事实–token对齐与反事实证据归因联合框架，解决事实监督中的信用定位与可靠性模糊问题",
+    "将NLI验证信号转化为连续符号事实分数并通过可靠性权重软插值重塑token级优势",
+    "在保持通用推理能力的同时显著提升知识密集型任务的事实性"
+   ],
+   "benchmarks": [
+    "SimpleQA",
+    "TruthfulQA",
+    "HalluQA",
+    "HaluEval-QA",
+    "AIME2026",
+    "AIME2025",
+    "MATH-500",
+    "GSM8K"
+   ]
+  }
+ }
 }

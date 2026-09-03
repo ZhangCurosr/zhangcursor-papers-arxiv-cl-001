@@ -4,5 +4,10 @@
  "title": "Reading-Is-Not-Using-Retrieval-Judgment-and-the-Design-of-AI",
  "token": "sk-EqwJR1nOB...",
  "created_at": "2026-08-26 03:04:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/90c728c3-6c74-4955-a820-896570e5ecc0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/90c728c3-6c74-4955-a820-896570e5ecc0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 14:55:03",
+  "chunks": 3
+ }
 }

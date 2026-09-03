@@ -4,5 +4,32 @@
  "title": "ROBE-Reversed-Order-Biased-Experts-for-Extracting-Extreme-Lo",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-26 03:04:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/751d8013-2179-467e-b891-b2e52d173682.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/751d8013-2179-467e-b891-b2e52d173682.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 14:53:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Event Extraction",
+    "Long-tail Classification",
+    "Historical NLP",
+    "Expert Ensemble",
+    "Synthetic Data",
+    "Low-Resource NLP",
+    "Dutch East India Company"
+   ],
+   "field": "历史文本信息抽取",
+   "innovations": [
+    "提出ROBE专家优先级倒排组合方法保护极端长尾事件类",
+    "将领域结构化知识注入合成数据生成提示词以引导长尾偏向",
+    "引入非裁决评测标准与历史学者外部有效性验证双轨评估体系"
+   ],
+   "benchmarks": [
+    "GLOBALISE VOC Event Corpus",
+    "Adjudicated Gold",
+    "Non-Adjudicated Gold"
+   ]
+  }
+ }
 }

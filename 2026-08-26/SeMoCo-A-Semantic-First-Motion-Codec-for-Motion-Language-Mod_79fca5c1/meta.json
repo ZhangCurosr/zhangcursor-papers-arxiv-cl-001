@@ -4,5 +4,35 @@
  "title": "SeMoCo-A-Semantic-First-Motion-Codec-for-Motion-Language-Mod",
  "token": "sk-haVkJ3VAf...",
  "created_at": "2026-08-26 03:04:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/b3ba6012-74ce-40a2-bf47-305305a91c19.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/b3ba6012-74ce-40a2-bf47-305305a91c19.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 14:57:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "text-to-motion",
+    "discrete representation",
+    "motion tokenizer",
+    "semantic-first codec",
+    "residual vector quantization",
+    "motion language model",
+    "human motion generation"
+   ],
+   "field": "文本条件人体运动生成",
+   "innovations": [
+    "提出语义-运动学并行量化的SeMoCo编解码器，通过TMR蒸馏将语义信息注入首层码本",
+    "设计双轴自回归生成器，时间轴建模语义演化、码本轴细化运动学残差",
+    "构建Ω-MotionVerse大规模多源运动数据集（约1000小时），统一至SOMA骨架规范"
+   ],
+   "benchmarks": [
+    "HumanML3D",
+    "TMR-SOMA",
+    "BONES-SEED",
+    "MotionGV",
+    "Fit3D",
+    "HumanSC3D"
+   ]
+  }
+ }
 }

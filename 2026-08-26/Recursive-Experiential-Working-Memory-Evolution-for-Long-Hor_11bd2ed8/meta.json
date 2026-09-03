@@ -4,5 +4,33 @@
  "title": "Recursive-Experiential-Working-Memory-Evolution-for-Long-Hor",
  "token": "sk-WJrSFDicB...",
  "created_at": "2026-08-26 14:41:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/9332ea3f-65ec-4ba3-a094-be172a61a1c8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/9332ea3f-65ec-4ba3-a094-be172a61a1c8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 14:53:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "long-horizon agent",
+    "recursive self-improvement",
+    "experiential memory",
+    "working memory",
+    "skill invocation",
+    "memory evolution",
+    "failure localization"
+   ],
+   "field": "LLM Agent 记忆与自改进",
+   "innovations": [
+    "EM–WM 耦合的验证式技能调用与状态更新闭环",
+    "基于结构化轨迹的组件级失败归因与定点修补",
+    "有界递归记忆演化及其跨模型可迁移性"
+   ],
+   "benchmarks": [
+    "tau2-Retail",
+    "tau2-Airline",
+    "SkillFlow",
+    "Terminal-Bench 2.1"
+   ]
+  }
+ }
 }

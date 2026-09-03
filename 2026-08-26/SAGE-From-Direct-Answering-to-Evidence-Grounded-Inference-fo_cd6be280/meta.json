@@ -4,5 +4,30 @@
  "title": "SAGE-From-Direct-Answering-to-Evidence-Grounded-Inference-fo",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-08-26 14:41:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/914acd8d-c7bc-4d74-9278-c2bc7b4e64c5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/914acd8d-c7bc-4d74-9278-c2bc7b4e64c5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 14:55:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "证据支撑推理",
+    "多智能体框架",
+    "中文古籍理解",
+    "声明级验证",
+    "LVLM",
+    "AncientDoc",
+    "多模态文档理解"
+   ],
+   "field": "多模态文档理解与古籍NLP",
+   "innovations": [
+    "将中文古籍理解重构为证据支撑推理问题，系统输出答案、证据、验证报告、弃答标志与执行轨迹",
+    "提出SAGE多智能体框架，通过规划-执行-验证三智能体在受限共享状态运行时下协同完成有界证据搜索",
+    "声明级验证机制：将答案分解为原子声明并评估{SUP,CON,INS,N/A}支持关系以驱动重规划或弃答"
+   ],
+   "benchmarks": [
+    "AncientDoc"
+   ]
+  }
+ }
 }

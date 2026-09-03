@@ -4,5 +4,30 @@
  "title": "Investigating-Knowledge-Transfer-Across-Interactive-Dialogue",
  "token": "sk-1jVZGxTQ1...",
  "created_at": "2026-08-26 14:41:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/428472f2-0f64-41ba-a2fd-f88b47c0ae52.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/428472f2-0f64-41ba-a2fd-f88b47c0ae52.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 14:52:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "对话游戏",
+    "知识迁移",
+    "任务向量",
+    "Taskonomy",
+    "大语言模型评估",
+    "参数空间分析",
+    "视觉空间推理"
+   ],
+   "field": "大语言模型能力评估与迁移学习",
+   "innovations": [
+    "首次将Taskonomy框架适配至对话游戏领域，构建结构化任务迁移性图",
+    "发现视觉空间类游戏具有跨类别强迁移能力且可向语言类游戏提供泛用知识",
+    "揭示任务向量相似度与行为迁移性解耦，高相似度无法预测迁移模式"
+   ],
+   "benchmarks": [
+    "clembench"
+   ]
+  }
+ }
 }

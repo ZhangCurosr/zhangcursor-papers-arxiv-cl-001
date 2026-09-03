@@ -4,5 +4,29 @@
  "title": "ROBE-Reversed-Order-Biased-Experts-for-Extracting-Extreme-Lo",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-26 14:41:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/751d8013-2179-467e-b891-b2e52d173682.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/751d8013-2179-467e-b891-b2e52d173682.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 14:53:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "事件抽取",
+    "长尾分类",
+    "专家组合",
+    "合成数据",
+    "低资源NLP",
+    "历史文本分析"
+   ],
+   "field": "低资源信息抽取",
+   "innovations": [
+    "提出ROBE优先级专家组合策略，以规则化排序替代复杂路由保护长尾类别",
+    "设计领域种子注入式合成数据生成方法，无需微调生成器即可引导长尾分布",
+    "引入非仲裁评估与外部历史学者验证的双重评估框架"
+   ],
+   "benchmarks": [
+    "GLOBALISE VOC Event Extraction Dataset"
+   ]
+  }
+ }
 }

@@ -4,5 +4,37 @@
  "title": "Your-AI-On-a-Dial-Controlling-Investment-Bias-in-LLMs-with-a",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-08-25 14:42:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/a9839208-c3ad-4203-99e1-5cade685bf82.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/a9839208-c3ad-4203-99e1-5cade685bf82.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 14:50:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "大语言模型",
+    "投资偏差",
+    "激活引导",
+    "单神经元干预",
+    "推理时控制",
+    "金融AI",
+    "模型校准"
+   ],
+   "field": "可信金融AI",
+   "innovations": [
+    "提出仅通过对单个MLP坐标施加加法偏移的'投资偏差旋钮'机制，实现推理时连续单调控制LLM整体投资立场",
+    "建立两阶段旋钮选择流程（梯度敏感度筛选+留置RMSE校准），干预足迹仅1个激活坐标且无统计显著能力退化",
+    "在代理检索、长上下文稳定性和投资组合构建三个下游场景中验证了单神经元干预的效果传播"
+   ],
+   "benchmarks": [
+    "MMLU",
+    "GSM8K",
+    "ARC-Challenge",
+    "TruthfulQA",
+    "RACE",
+    "FinQA",
+    "Financial PhraseBank",
+    "LinQAlpha Investment Bias Leaderboard"
+   ]
+  }
+ }
 }

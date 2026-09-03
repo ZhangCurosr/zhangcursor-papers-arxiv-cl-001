@@ -4,5 +4,30 @@
  "title": "SENSESHIFT-Continuous-Sentiment-Controlled-Text-Generation-v",
  "token": "sk-LV19Ft0NN...",
  "created_at": "2026-08-26 03:02:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/1610aa13-8c71-4c29-b1c1-8526b315b03e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/1610aa13-8c71-4c29-b1c1-8526b315b03e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 14:54:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "可控文本生成",
+    "情感控制",
+    "编码器架构",
+    "掩码语言模型",
+    "迭代填充",
+    "细粒度控制"
+   ],
+   "field": "可控自然语言生成",
+   "innovations": [
+    "编码器双向注意力结合量化情感标记实现句子级细粒度情感控制",
+    "迭代掩码填充策略将解码器束搜索思想引入编码器生成任务",
+    "轻量级模型（395M参数）在情感控制精度与上下文适应性上超越大规模解码器基线"
+   ],
+   "benchmarks": [
+    "TinyStories",
+    "Yelp Reviews"
+   ]
+  }
+ }
 }

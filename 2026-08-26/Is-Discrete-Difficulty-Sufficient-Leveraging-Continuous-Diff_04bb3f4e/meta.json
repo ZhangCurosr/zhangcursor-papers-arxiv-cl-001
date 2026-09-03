@@ -4,5 +4,35 @@
  "title": "Is-Discrete-Difficulty-Sufficient-Leveraging-Continuous-Diff",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-08-26 03:04:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/0651b694-3efb-475e-be27-33df18219095.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/0651b694-3efb-475e-be27-33df18219095.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 14:53:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Self-Consistency",
+    "Test-Time Scaling",
+    "continuous difficulty",
+    "output entropy",
+    "token-efficient reasoning",
+    "probe",
+    "dynamic budget allocation"
+   ],
+   "field": "大模型高效推理与测试时计算",
+   "innovations": [
+    "用输出熵替代离散难度类别作为连续信号指导采样预算",
+    "仅用最后token嵌入训练轻量线性探针预测熵值",
+    "在保持准确率的同时最高节省76% token消耗"
+   ],
+   "benchmarks": [
+    "MATH500",
+    "AMC23",
+    "AIME2024",
+    "AIME2025",
+    "GPQA-Diamond",
+    "MMLU-Pro"
+   ]
+  }
+ }
 }

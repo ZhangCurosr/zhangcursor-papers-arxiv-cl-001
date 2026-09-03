@@ -4,5 +4,29 @@
  "title": "SAGE-From-Direct-Answering-to-Evidence-Grounded-Inference-fo",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-08-26 03:02:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/32ccec65-d35a-4ea3-9710-1bc955f71a61.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/32ccec65-d35a-4ea3-9710-1bc955f71a61.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 14:54:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "古籍理解",
+    "证据支撑推理",
+    "多智能体框架",
+    "LVLM",
+    "AncientDoc",
+    "中文文言文"
+   ],
+   "field": "多模态文档理解",
+   "innovations": [
+    "将古籍理解重构为证据支撑推理而非直接生成",
+    "提出受限共享状态运行时协调规划/执行/验证三智能体",
+    "小模型配SAGE框架超越大参数单体LVLM"
+   ],
+   "benchmarks": [
+    "AncientDoc"
+   ]
+  }
+ }
 }

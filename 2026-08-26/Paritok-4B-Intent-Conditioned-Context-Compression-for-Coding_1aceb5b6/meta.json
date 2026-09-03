@@ -4,5 +4,32 @@
  "title": "Paritok-4B-Intent-Conditioned-Context-Compression-for-Coding",
  "token": "sk-aEeqX9tmP...",
  "created_at": "2026-08-26 03:05:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/d7700e57-068b-4034-b51d-94827c9b01ea.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/d7700e57-068b-4034-b51d-94827c9b01ea.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 14:53:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "context compression",
+    "coding agent",
+    "extractive compression",
+    "intent-conditioned",
+    "SWE-bench",
+    "LoRA fine-tuning",
+    "prompt compression"
+   ],
+   "field": "代码 Agent 上下文压缩",
+   "innovations": [
+    "提取式+意图条件化的 coding agent 专用压缩器，96.2% 输出标识符来自输入复制",
+    "五阶段可复现蒸馏管线，将67K真实agent轨迹压缩为40K高质量segment样本",
+    "per-segment分解架构支持并行压缩与单段精确恢复，压缩至25.7%大小且不显著降低解决率"
+   ],
+   "benchmarks": [
+    "SWE-bench Lite",
+    "OOD segment holdout",
+    "intrinsic format/drop/identR evaluation"
+   ]
+  }
+ }
 }

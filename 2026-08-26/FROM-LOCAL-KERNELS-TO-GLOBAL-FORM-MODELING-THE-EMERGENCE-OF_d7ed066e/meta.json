@@ -4,5 +4,31 @@
  "title": "FROM-LOCAL-KERNELS-TO-GLOBAL-FORM-MODELING-THE-EMERGENCE-OF",
  "token": "sk-CZoysi7P5...",
  "created_at": "2026-08-26 03:04:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/1746a9ec-f5a2-496c-a5ba-504efab912fc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/1746a9ec-f5a2-496c-a5ba-504efab912fc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 14:51:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "sliding window",
+    "Markov model",
+    "transition kernel",
+    "musical form",
+    "non-homogeneous",
+    "symbolic music",
+    "Jensen-Shannon distance"
+   ],
+   "field": "符号音乐生成与分析",
+   "innovations": [
+    "从单一序列通过重叠滑窗直接估计局部转移核轨迹，无需外部形式标注",
+    "在音高与时长两个独立维度上验证边界对齐，提供跨维度形式证据",
+    "揭示滑窗长度导致的精确复制退化与多尺度 plateau 现象"
+   ],
+   "benchmarks": [
+    "Debussy Syrinx (single-piece case study)",
+    "A-B-A' formal boundary reference"
+   ]
+  }
+ }
 }

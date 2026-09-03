@@ -4,5 +4,36 @@
  "title": "The-Annotation-Bottleneck-in-Persian-Text-NLP-Persian-as-an",
  "token": "sk-TTQuLp2ot...",
  "created_at": "2026-08-26 03:03:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/a2608a3b-a384-49da-a8bf-b5ff00a641c3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/a2608a3b-a384-49da-a8bf-b5ff00a641c3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 14:57:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "波斯语 NLP",
+    "低资源语言",
+    "标注稀缺",
+    "资源盘点",
+    "WNAD",
+    "多语言 NLP",
+    "大规模语言模型"
+   ],
+   "field": "多语言 NLP / 资源生态评估",
+   "innovations": [
+    "提出标注稀缺语言概念并以波斯语为实证案例，替代粗粒度低资源分类",
+    "引入 Web 归一化标注密度(WNAD)指标实现任务级跨语言标注密度对比",
+    "构建 34 个波斯语资源五维诊断画像，揭示岛屿式标注分布与资源摩擦现象"
+   ],
+   "benchmarks": [
+    "Common Crawl CC-MAIN-2026-30 语言统计",
+    "W3Techs 内容语言统计",
+    "UDD Persian-PerDT / Persian-Seraji",
+    "NSURL-2019 NER",
+    "FarsTail NLI",
+    "PersianMMLU",
+    "ParsNLU"
+   ]
+  }
+ }
 }
