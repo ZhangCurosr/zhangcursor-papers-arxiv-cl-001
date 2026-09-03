@@ -4,5 +4,32 @@
  "title": "A-Self-Evolving-Multi-Agent-Framework-Defense-against-LLM-Ja",
  "token": "sk-331OfnzjD...",
  "created_at": "2026-08-27 12:23:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/89e09522-3b40-42f0-b75c-65564948b4ff.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/89e09522-3b40-42f0-b75c-65564948b4ff.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 18:38:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM安全",
+    "越狱攻击防御",
+    "自进化防御",
+    "测试时适应",
+    "多Agent系统",
+    "规则记忆"
+   ],
+   "field": "LLM安全与对齐",
+   "innovations": [
+    "持久化跨交互方法级规则记忆实现测试时无参数自适应防御",
+    "三级动态规则触发机制平衡精度与泛化",
+    "自动扩展标签空间应对新型攻击包装结构"
+   ],
+   "benchmarks": [
+    "AdvBench",
+    "MMLU",
+    "GSM8K",
+    "XSTest"
+   ]
+  }
+ }
 }

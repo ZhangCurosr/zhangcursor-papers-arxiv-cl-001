@@ -4,5 +4,29 @@
  "title": "Adaptive-Triggering-for-Bias-Correction-in-LLM-Reasoning",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-08-27 23:34:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/af50343c-1cdb-4e39-b729-b451fb710a7d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/af50343c-1cdb-4e39-b729-b451fb710a7d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 18:39:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "bias mitigation",
+    "chain-of-thought",
+    "inference-time intervention",
+    "CUSUM",
+    "LLM fairness",
+    "bias benchmark"
+   ],
+   "field": "大语言模型推理偏差校正",
+   "innovations": [
+    "将推理偏差校正建模为在线变点检测问题，实现证据触发的选择性干预",
+    "黑盒 LLM judge 信号在托管模型上显著恢复固定调度损失的准确率",
+    "揭示白盒概率信号在去歧化场景的目标失配问题及校准局限性"
+   ],
+   "benchmarks": [
+    "BBQ (Bias Benchmark for QA)"
+   ]
+  }
+ }
 }

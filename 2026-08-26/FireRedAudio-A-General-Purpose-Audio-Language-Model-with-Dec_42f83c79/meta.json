@@ -4,5 +4,35 @@
  "title": "FireRedAudio-A-General-Purpose-Audio-Language-Model-with-Dec",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-26 14:41:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/420306de-24f3-4625-9734-bb9fc9e788c4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/420306de-24f3-4625-9734-bb9fc9e788c4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 18:36:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "统一音频语言模型",
+    "解耦连续表示",
+    "流匹配 DiT",
+    "零样本 TTS",
+    "语音编辑",
+    "长时音频理解"
+   ],
+   "field": "多模态统一理解与生成",
+   "innovations": [
+    "输入侧解耦的连续理解/生成双路径设计",
+    "确定性强编码器 RedAE 结合高层语义蒸馏",
+    "flow-matching DiT 自回归生成连续声学潜变量"
+   ],
+   "benchmarks": [
+    "MMAU",
+    "MMSU",
+    "Seed-TTS-Eval",
+    "InstructTTSEval",
+    "Ming-Freeform-Audio-Edit",
+    "FLEURS-102",
+    "LibriSpeech"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "The-RAT-A-Unified-Bayesian-Model-for-RAG-Evaluation",
  "token": "sk-qKu2Cn1y4...",
  "created_at": "2026-08-26 03:04:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/30f1f488-b60f-44ca-a049-dab463a0a140.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/30f1f488-b60f-44ca-a049-dab463a0a140.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 18:37:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RAG评估",
+    "贝叶斯建模",
+    "策略遵循",
+    "LLM-as-a-Judge",
+    "注释分配",
+    "信息论",
+    "拒绝回答"
+   ],
+   "field": "RAG系统评估",
+   "innovations": [
+    "沿流水线信息流因子分解RAG联合分布，将生成器成功定义为(R,A,T)的确定性函数以区分任务成功与策略遵循",
+    "基于条件互信息推导检索标注比任务标注更高效的信息论解释，为有限预算下的标注分配提供理论指导",
+    "将校准后的LLM-as-a-Judge作为含噪观测纳入统一贝叶斯框架，实证揭示高假阳性率下大量自动标注增益有限"
+   ],
+   "benchmarks": [
+    "FEVER",
+    "HotpotQA",
+    "Natural Questions"
+   ]
+  }
+ }
 }

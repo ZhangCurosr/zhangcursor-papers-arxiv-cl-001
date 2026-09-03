@@ -4,5 +4,31 @@
  "title": "The-RAT-A-Unified-Bayesian-Model-for-RAG-Evaluation",
  "token": "sk-qKu2Cn1y4...",
  "created_at": "2026-08-26 14:41:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/071552ab-7e4e-49d1-849b-2b0f11531677.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/071552ab-7e4e-49d1-849b-2b0f11531677.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 18:37:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RAG评估",
+    "贝叶斯建模",
+    "检索增强生成",
+    "策略合规性",
+    "LLM-as-judge",
+    "注解分配"
+   ],
+   "field": "RAG系统评估",
+   "innovations": [
+    "提出按流水线信息流因子分解的贝叶斯RAG评估框架，统一建模检索成功、拒答与任务正确性",
+    "通过条件分解揭示边缘指标下相似系统间的显著行为差异",
+    "从信息论角度推导注解分配最优策略并验证"
+   ],
+   "benchmarks": [
+    "FEVER",
+    "HotpotQA",
+    "Natural Questions"
+   ]
+  }
+ }
 }

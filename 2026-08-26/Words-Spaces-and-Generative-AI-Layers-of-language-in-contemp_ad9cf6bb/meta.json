@@ -4,5 +4,10 @@
  "title": "Words-Spaces-and-Generative-AI-Layers-of-language-in-contemp",
  "token": "sk-1FwfANuN8...",
  "created_at": "2026-08-26 03:03:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/8e8ec1c7-f538-4ac0-89fb-8f729d17ff0d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/8e8ec1c7-f538-4ac0-89fb-8f729d17ff0d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 18:38:23",
+  "chunks": 1
+ }
 }

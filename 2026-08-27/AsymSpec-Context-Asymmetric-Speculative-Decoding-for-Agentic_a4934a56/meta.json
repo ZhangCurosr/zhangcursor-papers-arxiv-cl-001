@@ -4,5 +4,34 @@
  "title": "AsymSpec-Context-Asymmetric-Speculative-Decoding-for-Agentic",
  "token": "sk-AsgiqoBdE...",
  "created_at": "2026-08-27 12:24:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/f1d7b84b-a23e-4225-8d18-9f27c340c4a5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/f1d7b84b-a23e-4225-8d18-9f27c340c4a5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 18:39:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "speculative decoding",
+    "context compression",
+    "agentic LLM",
+    "contrastive logit fusion",
+    "asymmetric inference",
+    "cross-modal generation"
+   ],
+   "field": "大语言模型高效推理",
+   "innovations": [
+    "提出上下文非对称投机解码框架ASYMSPEC，打破drafter/verifier共享相同输入的对称约束",
+    "设计同模型跨上下文δ-fusion隔离上下文增益信号与参数自由CDA门自适应接受阈值",
+    "在4个Agent能力和2个端到端基准上以0.2-0.3×FLOPs开销恢复≈90%完整上下文准确率"
+   ],
+   "benchmarks": [
+    "LongBench",
+    "MultiChallenge",
+    "API-Bank",
+    "MathVista",
+    "GAIA",
+    "SimpleQA"
+   ]
+  }
+ }
 }

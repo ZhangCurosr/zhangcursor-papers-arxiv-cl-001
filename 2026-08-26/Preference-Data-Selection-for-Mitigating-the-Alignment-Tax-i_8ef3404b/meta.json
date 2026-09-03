@@ -4,5 +4,34 @@
  "title": "Preference-Data-Selection-for-Mitigating-the-Alignment-Tax-i",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-26 03:05:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/4064cdaa-05d0-41dd-9e51-a0b01986c65e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/4064cdaa-05d0-41dd-9e51-a0b01986c65e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 18:36:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM对齐",
+    "灾难性遗忘",
+    "数据选择",
+    "DPO",
+    "Preference Optimization",
+    "Alignment Tax"
+   ],
+   "field": "大语言模型对齐与持续学习",
+   "innovations": [
+    "从梯度角度推导三个数据中心特征对稳定-可塑性权衡的影响机制",
+    "提出统一复合风险评分的BALIGN数据选择框架",
+    "实证验证三特征正交互补性并实现最优Pareto前沿"
+   ],
+   "benchmarks": [
+    "HH-RLHF",
+    "MMLU",
+    "IFEval",
+    "ARC-Challenge",
+    "HumanEval",
+    "GSM8K"
+   ]
+  }
+ }
 }

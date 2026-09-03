@@ -4,5 +4,30 @@
  "title": "BEAM-SEARCH-SELF-CONSISTENCY-AND-THE-LIMITS-OF-INFERENCE-TIM",
  "token": "sk-JdJPQj6CY...",
  "created_at": "2026-08-27 12:20:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/3979948d-2b1a-4841-8624-6389172665c0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/3979948d-2b1a-4841-8624-6389172665c0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 18:40:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "grammar-constrained decoding",
+    "text-to-SQL",
+    "beam search",
+    "self-consistency",
+    "inference-time scaling",
+    "execution accuracy",
+    "small language models"
+   ],
+   "field": "结构化文本生成与约束解码",
+   "innovations": [
+    "在语法约束场景下首次系统证明 beam search 显著优于 sample+vote（11/16 配置），颠覆无约束场景结论",
+    "揭示推理计算无法有效替代模型参数（8倍预算仅填补50%-76%差距）",
+    "诊断 grammar 不完整性导致大模型约束解码精度下降的机制"
+   ],
+   "benchmarks": [
+    "Spider"
+   ]
+  }
+ }
 }

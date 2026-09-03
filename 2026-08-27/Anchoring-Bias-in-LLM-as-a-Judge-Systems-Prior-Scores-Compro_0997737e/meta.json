@@ -4,5 +4,10 @@
  "title": "Anchoring-Bias-in-LLM-as-a-Judge-Systems-Prior-Scores-Compro",
  "token": "sk-JqniBRrr0...",
  "created_at": "2026-08-27 23:34:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/24defc1d-1e2e-4cb2-9ad5-1d3ca167caed.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/24defc1d-1e2e-4cb2-9ad5-1d3ca167caed.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 18:39:42",
+  "chunks": 1
+ }
 }

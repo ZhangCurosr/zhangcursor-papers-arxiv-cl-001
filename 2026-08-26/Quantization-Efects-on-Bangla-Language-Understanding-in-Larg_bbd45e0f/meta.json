@@ -4,5 +4,33 @@
  "title": "Quantization-Efects-on-Bangla-Language-Understanding-in-Larg",
  "token": "sk-jywkrqzJV...",
  "created_at": "2026-08-26 03:02:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/9617aa9e-fdd2-45dd-b36f-14a4a2d8271d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/9617aa9e-fdd2-45dd-b36f-14a4a2d8271d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 18:36:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Post-Training Quantization",
+    "Bangla NLU",
+    "Low-Resource Languages",
+    "GPTQ",
+    "GGUF",
+    "LLM Evaluation"
+   ],
+   "field": "低资源语言大模型量化评估",
+   "innovations": [
+    "首次对Bangla NLU进行受控的多模型家族PTQ对比实验",
+    "发现GPTQ格式在Bangla推理/常识任务上鲁棒，而GGUF-W8A16会导致严重准确率崩塌",
+    "证实低资源形态复杂语言下推理任务比阅读理解对量化更敏感"
+   ],
+   "benchmarks": [
+    "Bangla MMLU",
+    "CommonsenseQA-BN",
+    "OpenBookQA-BN",
+    "PIQA-BN",
+    "BoolQ-BN"
+   ]
+  }
+ }
 }

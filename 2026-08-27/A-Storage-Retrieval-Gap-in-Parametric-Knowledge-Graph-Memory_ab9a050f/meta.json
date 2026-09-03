@@ -4,5 +4,29 @@
  "title": "A-Storage-Retrieval-Gap-in-Parametric-Knowledge-Graph-Memory",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-08-27 23:34:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/441335d6-1de0-4532-b693-3b9e9bee1a25.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/441335d6-1de0-4532-b693-3b9e9bee1a25.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 18:38:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "knowledge graphs",
+    "parametric memory",
+    "LoRA adapters",
+    "graph RAG",
+    "storage-retrieval gap",
+    "parameter-efficient fine-tuning"
+   ],
+   "field": "参数化知识记忆与检索",
+   "innovations": [
+    "提出参数化KG记忆形式化，将实体子图编译为LoRA adapter银行实现零context-token查询",
+    "实证证明subgraph adapter存储可泛化的闭卷知识(+0.243 EM)但知识局部存储不跨实体转移",
+    "揭示存储-检索解耦现象：ΔW几何与语义相关(ρ=+0.329)但不具备功能检索能力"
+   ],
+   "benchmarks": [
+    "MetaQA"
+   ]
+  }
+ }
 }

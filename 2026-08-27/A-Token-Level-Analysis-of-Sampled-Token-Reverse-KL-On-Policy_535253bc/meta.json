@@ -4,5 +4,37 @@
  "title": "A-Token-Level-Analysis-of-Sampled-Token-Reverse-KL-On-Policy",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-27 12:23:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/3c14c4ea-fa68-417c-b8d8-51d83e77ca37.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/3c14c4ea-fa68-417c-b8d8-51d83e77ca37.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 18:38:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "on-policy distillation",
+    "reverse KL",
+    "K2 estimator",
+    "token-level analysis",
+    "surprise-aware reweighting",
+    "SuRe",
+    "gradient decomposition",
+    "Qwen3"
+   ],
+   "field": "大语言模型蒸馏与后训练",
+   "innovations": [
+    "推导 K2 估计量 per-token 逆 KL 梯度的 l1 范数精确分解: 2|Δlog p_t|·(1−π_S)",
+    "揭示低学生概率 token 集中大部分梯度范数并与大赛段正相关的经验模式",
+    "提出 SuRe 无额外开销的有界 surpise-aware 重加权方案, 单系数 α 平滑插值到 vanilla OPD"
+   ],
+   "benchmarks": [
+    "AIME24",
+    "AIME25",
+    "AMC23",
+    "MATH-500",
+    "CRUX",
+    "IFEval",
+    "MMLU-Pro"
+   ]
+  }
+ }
 }

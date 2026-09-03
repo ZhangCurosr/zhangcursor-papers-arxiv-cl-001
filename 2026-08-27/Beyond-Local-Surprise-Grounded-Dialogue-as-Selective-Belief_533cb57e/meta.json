@@ -4,5 +4,28 @@
  "title": "Beyond-Local-Surprise-Grounded-Dialogue-as-Selective-Belief",
  "token": "sk-Jd4ujJMnj...",
  "created_at": "2026-08-27 12:23:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/f506710f-f0a2-49cf-90f0-b4076d78f1e9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/f506710f-f0a2-49cf-90f0-b4076d78f1e9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 18:40:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "conversational grounding",
+    "selective belief revision",
+    "multimodal dialogue",
+    "reference resolution",
+    "preserve-or-revise"
+   ],
+   "field": "多模态对话理解",
+   "innovations": [
+    "提出首个turn-by-turn preserve/revise对比框架，隔离revision dynamics对grounding的影响",
+    "发现局部mismatch与修订率强负相关(r=-0.935)，累积不确定性才是修订驱动力",
+    "证明DCP-B类surprise-driven策略会导致grounding崩溃，检索R@1仅0.009"
+   ],
+   "benchmarks": [
+    "PhotoChat"
+   ]
+  }
+ }
 }

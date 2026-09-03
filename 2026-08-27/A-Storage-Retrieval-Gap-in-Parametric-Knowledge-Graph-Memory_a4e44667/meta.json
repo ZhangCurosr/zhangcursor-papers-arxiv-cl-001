@@ -4,5 +4,29 @@
  "title": "A-Storage-Retrieval-Gap-in-Parametric-Knowledge-Graph-Memory",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-08-27 12:21:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/797476b9-a392-4a44-b7b0-b876c6f1aba4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/797476b9-a392-4a44-b7b0-b876c6f1aba4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 18:38:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Knowledge Graph",
+    "Parametric Memory",
+    "LoRA Adapter",
+    "Graph RAG",
+    "Model Merging",
+    "Closed-Book QA"
+   ],
+   "field": "参数化知识表示与检索增强生成",
+   "innovations": [
+    "将KG子图编译为实体级LoRA适配器银行实现零上下文token参数化记忆",
+    "揭示存储-检索解耦现象：知识可存储但无法通过语义相似度或权重几何检索",
+    "通过CB评估+适配器特异性对照严格证实子图微调确实将事实编码进权重"
+   ],
+   "benchmarks": [
+    "MetaQA"
+   ]
+  }
+ }
 }

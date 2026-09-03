@@ -4,5 +4,10 @@
  "title": "AWM-Answerable-Working-Memory-for-Long-Document-VQA-Agents",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-27 23:34:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/e4309f4d-ed9f-41ac-b625-99d958c6223f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/e4309f4d-ed9f-41ac-b625-99d958c6223f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 18:39:11",
+  "chunks": 1
+ }
 }

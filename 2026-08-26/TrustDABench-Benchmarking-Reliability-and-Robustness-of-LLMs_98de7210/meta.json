@@ -4,5 +4,32 @@
  "title": "TrustDABench-Benchmarking-Reliability-and-Robustness-of-LLMs",
  "token": "sk-RdV3tP4AZ...",
  "created_at": "2026-08-26 03:07:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/407d2db8-72fe-4e3c-8ba7-c63806a16a5e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/407d2db8-72fe-4e3c-8ba7-c63806a16a5e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 18:37:35",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "结构化数据分析",
+    "大语言模型",
+    "可靠性",
+    "鲁棒性",
+    "基准评测",
+    "扰动算子",
+    "拒绝推理"
+   ],
+   "field": "大模型评测基准",
+   "innovations": [
+    "从证据支撑路径统一形式化可靠性和鲁棒性两个正交诊断维度",
+    "设计19个受控扰动算子（7可靠性+12鲁棒性）并建立Agent-LLM自动化构造管线",
+    "首次在agentic数据分析场景下评测LLM拒答能力和表示不变推理能力"
+   ],
+   "benchmarks": [
+    "TrustDABench",
+    "AIDABench-QA",
+    "DABench"
+   ]
+  }
+ }
 }

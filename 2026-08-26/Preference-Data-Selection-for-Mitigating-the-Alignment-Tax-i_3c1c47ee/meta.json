@@ -4,5 +4,10 @@
  "title": "Preference-Data-Selection-for-Mitigating-the-Alignment-Tax-i",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-26 14:41:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/4064cdaa-05d0-41dd-9e51-a0b01986c65e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/4064cdaa-05d0-41dd-9e51-a0b01986c65e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 18:36:40",
+  "chunks": 1
+ }
 }

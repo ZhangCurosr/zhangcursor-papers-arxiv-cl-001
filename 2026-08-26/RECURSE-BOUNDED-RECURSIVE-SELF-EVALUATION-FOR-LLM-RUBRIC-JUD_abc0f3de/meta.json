@@ -4,5 +4,35 @@
  "title": "RECURSE-BOUNDED-RECURSIVE-SELF-EVALUATION-FOR-LLM-RUBRIC-JUD",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-26 14:41:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/b4d4cd4f-16f2-46ba-b4b6-46038249dae3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/b4d4cd4f-16f2-46ba-b4b6-46038249dae3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 18:37:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM-as-judge",
+    "Recursive Self-Improvement",
+    "Rubric Evaluation",
+    "Process Reward",
+    "RL from AI Feedback",
+    "Early Stopping Monitor",
+    "Reward Hacking Mitigation"
+   ],
+   "field": "LLM评估与对齐",
+   "innovations": [
+    "提出界面解耦（interface decoupling）切断judge-checker闭环中的表面token复制捷径",
+    "构造理论支撑的PAV监控器，通过judge accuracy与checker fidelity加权实现可靠的有界早停",
+    "在零外部gold RL reward条件下，实现judge能力的闭环有界递归自我改进与跨域泛化"
+   ],
+   "benchmarks": [
+    "HealthBench",
+    "RubricBench",
+    "CheckEval-Summ",
+    "ProfBench",
+    "SV-HARD",
+    "SV-FULL"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "Adaptive-Triggering-for-Bias-Correction-in-LLM-Reasoning",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-08-27 12:22:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/af50343c-1cdb-4e39-b729-b451fb710a7d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/af50343c-1cdb-4e39-b729-b451fb710a7d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 18:39:22",
+  "chunks": 1
+ }
 }

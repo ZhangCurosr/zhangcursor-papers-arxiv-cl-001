@@ -4,5 +4,30 @@
  "title": "AWM-Answerable-Working-Memory-for-Long-Document-VQA-Agents",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-27 12:21:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/e4309f4d-ed9f-41ac-b625-99d958c6223f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/e4309f4d-ed9f-41ac-b625-99d958c6223f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 18:39:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "长文档VQA",
+    "working memory",
+    "GRPO",
+    "多模态agent",
+    "memory evaluation",
+    "reward design"
+   ],
+   "field": "多模态文档理解与Agent",
+   "innovations": [
+    "提出memory-only answerability诊断与四象限分类",
+    "设计AWM Reward将终止态memory可回答性纳入GRPO奖励",
+    "通过EP-given受控设置隔离memory提取与页面访问质量"
+   ],
+   "benchmarks": [
+    "MMLONGBENCH-DOC",
+    "LONG-DOCURL"
+   ]
+  }
+ }
 }

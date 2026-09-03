@@ -4,5 +4,34 @@
  "title": "Unseen-Harm-Measuring-Cross-Script-Safety-Inconsistency-with",
  "token": "sk-fYugtz9Wo...",
  "created_at": "2026-08-26 03:02:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/5c69933d-b9bf-4a81-9815-15a1ad20de48.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/5c69933d-b9bf-4a81-9815-15a1ad20de48.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 18:37:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "hate speech detection",
+    "cross-script inconsistency",
+    "Urdu NLP",
+    "LLM safety evaluation",
+    "Missed-in-Urdu",
+    "low-resource languages"
+   ],
+   "field": "多语言LLM安全评估",
+   "innovations": [
+    "提出Missed-in-Urdu指标量化跨脚本安全不一致性",
+    "完整审计WOAH文献证实乌尔都语十年零研究",
+    "六数据集四条件对照实验设计隔离脚本/转写/混码效应"
+   ],
+   "benchmarks": [
+    "HateInsights",
+    "Cyberbullying",
+    "HS-RU-20",
+    "Abusive Tweets",
+    "RU-EN Emotion",
+    "HateXplain"
+   ]
+  }
+ }
 }

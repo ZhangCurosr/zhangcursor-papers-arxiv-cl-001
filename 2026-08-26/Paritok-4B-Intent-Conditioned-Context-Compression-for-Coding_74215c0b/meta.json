@@ -4,5 +4,33 @@
  "title": "Paritok-4B-Intent-Conditioned-Context-Compression-for-Coding",
  "token": "sk-aEeqX9tmP...",
  "created_at": "2026-08-26 14:41:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/d7700e57-068b-4034-b51d-94827c9b01ea.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/d7700e57-068b-4034-b51d-94827c9b01ea.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 18:35:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "prompt compression",
+    "coding agents",
+    "extractive summarization",
+    "SWE-bench",
+    "LoRA fine-tuning",
+    "context compression",
+    "intent-conditioned",
+    "LLM distillation"
+   ],
+   "field": "代码智能体上下文压缩",
+   "innovations": [
+    "意图条件化抽取式段级压缩，96%+ 输出 Token 来自输入",
+    "四级别重要性标签与结构标记词汇表的双层压缩框架",
+    "真实 Agent 轨迹五阶段蒸馏管道，40K 验证样本"
+   ],
+   "benchmarks": [
+    "SWE-bench Lite (300 instances)",
+    "OOD segment holdout (n=100)",
+    "Extractiveness audit (212,506 tokens)"
+   ]
+  }
+ }
 }
