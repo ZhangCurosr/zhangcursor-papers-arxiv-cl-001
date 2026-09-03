@@ -4,5 +4,30 @@
  "title": "How-Much-Rank-Does-LoRA-Need-Rank-Error-Bounds-for-Transform",
  "token": "sk-dQ65jxzP4...",
  "created_at": "2026-08-27 12:23:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/ebdefd62-300f-4ed8-84b4-2b5810abf57a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/ebdefd62-300f-4ed8-84b4-2b5810abf57a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 23:41:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LoRA",
+    "Transformer attention",
+    "rank-error bound",
+    "softmax KL",
+    "spectral tail",
+    "parameter-efficient fine-tuning",
+    "saturation"
+   ],
+   "field": "低秩适配理论",
+   "innovations": [
+    "在下游加权谱框架下给出 rank-r 对应的 attention KL 双边界，将 rank 选择从经验扫搜转为可校准的理论区间",
+    "证明 softmax 饱和可严格减小复现目标 attention 所需 rank（Walsh 族 k→k−⌊k/3⌋，比例低至 4/7）",
+    "扩展至 fused multi-head 与 joint Q/K LoRA，显式刻画共享秩预算与因子化 gap ρ 的误差代价"
+   ],
+   "benchmarks": [
+    "无公开基准；附录含有限数值校验"
+   ]
+  }
+ }
 }

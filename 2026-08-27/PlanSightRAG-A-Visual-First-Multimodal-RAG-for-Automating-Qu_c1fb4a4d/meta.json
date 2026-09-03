@@ -4,5 +4,10 @@
  "title": "PlanSightRAG-A-Visual-First-Multimodal-RAG-for-Automating-Qu",
  "token": "sk-WJrSFDicB...",
  "created_at": "2026-08-27 23:34:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/08ab6ecb-70c4-4bdc-8a0b-e6630f31334b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/08ab6ecb-70c4-4bdc-8a0b-e6630f31334b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 23:44:37",
+  "chunks": 1
+ }
 }

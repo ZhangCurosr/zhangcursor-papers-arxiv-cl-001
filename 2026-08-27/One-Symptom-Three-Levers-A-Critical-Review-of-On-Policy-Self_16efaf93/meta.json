@@ -4,5 +4,32 @@
  "title": "One-Symptom-Three-Levers-A-Critical-Review-of-On-Policy-Self",
  "token": "sk-twhrLv2pG...",
  "created_at": "2026-08-27 12:21:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/c728768a-2404-42dd-a009-6f95537fb336.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/c728768a-2404-42dd-a009-6f95537fb336.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 23:43:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "on-policy self-distillation",
+    "privileged information",
+    "model collapse",
+    "reasoning LLMs",
+    "knowledge distillation",
+    "diversity collapse"
+   ],
+   "field": "大语言模型推理训练",
+   "innovations": [
+    "提出'一症状三杠杆'框架统一分析OPSD的collapse现象",
+    "建立特权信息的可重构性安全准则和风险排序",
+    "澄清forward KL与reverse KL在OPSD中的适用边界"
+   ],
+   "benchmarks": [
+    "AIME25",
+    "C-Eval",
+    "LiveCodeBench v6",
+    "MathArena"
+   ]
+  }
+ }
 }

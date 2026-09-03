@@ -4,5 +4,10 @@
  "title": "Prefix-Sliding-for-efficient-test-time-scaling",
  "token": "sk-EqwJR1nOB...",
  "created_at": "2026-08-27 23:34:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/5b4daed0-aa9f-4c6e-8180-c4307b100819.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/5b4daed0-aa9f-4c6e-8180-c4307b100819.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 23:45:39",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,33 @@
  "title": "Lost-but-not-erased-Finding-traces-of-a-forgotten-language-i",
  "token": "sk-TTQuLp2ot...",
  "created_at": "2026-08-27 12:21:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/70c3c98b-e3ff-4646-b72c-e0cfbcde9e93.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/70c3c98b-e3ff-4646-b72c-e0cfbcde9e93.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 23:42:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "关键期效应",
+    "表征相似性分析",
+    "国际领养者",
+    "自动语音识别",
+    "节省效应",
+    "预音位层",
+    "层级表征固化"
+   ],
+   "field": "计算语言学与神经科学交叉",
+   "innovations": [
+    "首次用ASR模型模拟国际领养者经历并定位早期语言痕迹在pre-phonemic层",
+    "证明固定可塑性网络可复现关键期样节省效应，无需诉诸生物成熟",
+    "揭示pre-training时长与痕迹强度的非线性最优窗口关系"
+   ],
+   "benchmarks": [
+    "Common Voice v22.0",
+    "MFA音素对齐",
+    "线性探针准确率",
+    "RSA Spearman相关"
+   ]
+  }
+ }
 }

@@ -4,5 +4,34 @@
  "title": "Groundhog-Bit-Flip-Attack-Seeding-Infinite-Generation-Loops",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-08-27 12:22:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/322d792f-82f1-4d64-8e2f-fc2095b5c30c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/322d792f-82f1-4d64-8e2f-fc2095b5c30c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 23:41:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Mixture-of-Experts",
+    "Bit-Flip Attack",
+    "Denial-of-Wallet",
+    "Large Language Model Security",
+    "Rowhammer",
+    "Expert Specialization",
+    "Availability Attack"
+   ],
+   "field": "LLM 安全与鲁棒性",
+   "innovations": [
+    "发现 MoE 专家在终止标记上的高度专门化现象，为可用性攻击提供结构目标",
+    "提出基于激活偏移的专家检测与路由器中心位搜索策略，实现低开销高破坏性的 DoW 攻击",
+    "首次在对话、推理、Agent 多种模式下验证位翻转攻击诱导无限生成循环的有效性"
+   ],
+   "benchmarks": [
+    "AGNews",
+    "SST-2",
+    "Samsum",
+    "SQuAD 2.0",
+    "Qwen3-Coder 编程沙盒"
+   ]
+  }
+ }
 }

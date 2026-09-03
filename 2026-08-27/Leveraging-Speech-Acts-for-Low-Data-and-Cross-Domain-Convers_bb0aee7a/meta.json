@@ -4,5 +4,31 @@
  "title": "Leveraging-Speech-Acts-for-Low-Data-and-Cross-Domain-Convers",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-08-27 23:34:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/cfdbcccb-62b5-49b0-b403-a59f5eb09565.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/cfdbcccb-62b5-49b0-b403-a59f5eb09565.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 23:42:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "对话脱轨预测",
+    "言语行为",
+    "低资源学习",
+    "跨域泛化",
+    "多任务学习",
+    "动态评估"
+   ],
+   "field": "对话理解与内容审核",
+   "innovations": [
+    "将言语行为作为辅助学习信号融入对话脱轨预测，减少词汇噪声并提升跨域泛化",
+    "设计并行与序列两种架构分别平衡文本语义与语用表征的融合方式",
+    "提出Dynamic_mean时序聚合评估指标替代Dynamic_max以更真实反映持续预警能力"
+   ],
+   "benchmarks": [
+    "WIKI",
+    "CMV",
+    "GITHUB"
+   ]
+  }
+ }
 }

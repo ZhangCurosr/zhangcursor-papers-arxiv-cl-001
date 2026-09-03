@@ -4,5 +4,30 @@
  "title": "How-Much-Rank-Does-LoRA-Need-Rank-Error-Bounds-for-Transform",
  "token": "sk-dQ65jxzP4...",
  "created_at": "2026-08-27 23:34:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/8700795c-bc28-4e10-8884-8a1681c5d7f8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/8700795c-bc28-4e10-8884-8a1681c5d7f8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 23:41:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LoRA",
+    "low-rank adaptation",
+    "attention rank",
+    "theoretical bound",
+    "softmax saturation",
+    "spectral analysis",
+    "parameter-efficient fine-tuning"
+   ],
+   "field": "高效微调理论分析",
+   "innovations": [
+    "建立任务依赖的LoRA rank-error双边界限框架",
+    "证明softmax饱和可导致finite logits rank与attention closure rank的常数因子分离",
+    "将下游加权谱定理与全局softmax-KL转换结合"
+   ],
+   "benchmarks": [
+    "计算验证于小型显式构造实例"
+   ]
+  }
+ }
 }

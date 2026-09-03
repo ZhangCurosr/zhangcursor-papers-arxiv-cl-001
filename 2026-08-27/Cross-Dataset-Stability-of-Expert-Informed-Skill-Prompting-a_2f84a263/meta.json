@@ -4,5 +4,33 @@
  "title": "Cross-Dataset-Stability-of-Expert-Informed-Skill-Prompting-a",
  "token": "sk-FMTQpgZxg...",
  "created_at": "2026-08-27 12:22:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/c242491a-65a2-4d31-8d46-51062149e67e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/c242491a-65a2-4d31-8d46-51062149e67e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 23:41:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Chinese metaphor identification",
+    "cross-dataset stability",
+    "expert-informed Skill",
+    "zero-shot prompting",
+    "fine-tuning",
+    "Macro-F1",
+    "external floor",
+    "annotation policy shift"
+   ],
+   "field": "隐喻识别与跨数据集泛化",
+   "innovations": [
+    "在中文句子级隐喻识别中首次对比专家启发式过程 Skill 与任务微调的跨数据集稳定性",
+    "通过配对零样本对照揭示 Skill 引起的聚合决策重新分配机制",
+    "提出以外部下限与跨数据集范围为核心的稳定性评估框架"
+   ],
+   "benchmarks": [
+    "CMRE",
+    "CCIME",
+    "CMC"
+   ]
+  }
+ }
 }

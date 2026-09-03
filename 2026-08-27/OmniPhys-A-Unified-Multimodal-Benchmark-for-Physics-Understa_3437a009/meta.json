@@ -4,5 +4,30 @@
  "title": "OmniPhys-A-Unified-Multimodal-Benchmark-for-Physics-Understa",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-08-27 12:24:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/bc35ffa3-e27f-44bd-92fb-2ac915435aa7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/bc35ffa3-e27f-44bd-92fb-2ac915435aa7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 23:43:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multimodal benchmark",
+    "physics reasoning",
+    "multi-modal generation",
+    "educational AI",
+    "LLM evaluation",
+    "visual dependency"
+   ],
+   "field": "多模态大模型评测与物理推理",
+   "innovations": [
+    "首个覆盖初中至大学全学段的中文多模态物理基准OmniPhys，含15,246题/19,850图，与现有基准重叠率<0.05%",
+    "首创物理图表编辑（Multimodal Generation）子集，首次系统性评估MLLM在物理可视化生成方面的能力",
+    "提出双轨推理评估框架（DTRE），同时量化结果准确率与CoT过程质量，并引入严格掌握率P_obj/P_open识别死记硬背"
+   ],
+   "benchmarks": [
+    "OmniPhys",
+    "Test-Mini（对抗性子集）"
+   ]
+  }
+ }
 }

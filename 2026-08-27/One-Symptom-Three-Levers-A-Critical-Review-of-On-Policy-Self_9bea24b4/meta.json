@@ -4,5 +4,32 @@
  "title": "One-Symptom-Three-Levers-A-Critical-Review-of-On-Policy-Self",
  "token": "sk-twhrLv2pG...",
  "created_at": "2026-08-27 23:34:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/2bcdc739-daf9-4a88-aab1-72e70d69b44b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/2bcdc739-daf9-4a88-aab1-72e70d69b44b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 23:43:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "On-Policy Self-Distillation",
+    "OPSD",
+    "self-distillation",
+    "mathematical reasoning",
+    "collapse",
+    "privileged information",
+    "diversity"
+   ],
+   "field": "大语言模型后训练与强化学习",
+   "innovations": [
+    "提出'一种症状、三个杠杆'的统一分析框架",
+    "建立基于可重构性的特权信息安全性分级体系",
+    "揭示PMI机制作为collapse的具体成因并关联到教师设计"
+   ],
+   "benchmarks": [
+    "AIME24/AIME25",
+    "C-Eval",
+    "LiveCodeBench v6"
+   ]
+  }
+ }
 }

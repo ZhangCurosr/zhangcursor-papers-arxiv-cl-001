@@ -4,5 +4,33 @@
  "title": "DCGC-Draft-Conditioned-Global-Correction-for-Complex-Reasoni",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-08-27 23:34:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/6d3eb040-ddfa-43ea-8b51-547e59131ab2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/6d3eb040-ddfa-43ea-8b51-547e59131ab2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 23:41:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Masked Diffusion Model",
+    "Classifier-Free Guidance",
+    "Self-Correction",
+    "Reasoning Refinement",
+    "Non-Autoregressive Generation"
+   ],
+   "field": "大语言模型推理与自我修正",
+   "innovations": [
+    "提出Dynamic Dual-CFG机制，通过相对置信度差距动态调节草稿残差放大",
+    "混合格式SFT使单一MDM同时具备问题求解与草稿条件修正双能力",
+    "在solver-failure hard set上系统验证工具无关的全局推理修正"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "MATH-500",
+    "MBPP-test",
+    "HumanEval",
+    "MMLU-STEM",
+    "MMLU-Pro"
+   ]
+  }
+ }
 }

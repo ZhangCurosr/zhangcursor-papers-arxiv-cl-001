@@ -4,5 +4,10 @@
  "title": "DCGC-Draft-Conditioned-Global-Correction-for-Complex-Reasoni",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-08-27 12:22:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/6d3eb040-ddfa-43ea-8b51-547e59131ab2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/6d3eb040-ddfa-43ea-8b51-547e59131ab2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 23:41:24",
+  "chunks": 1
+ }
 }

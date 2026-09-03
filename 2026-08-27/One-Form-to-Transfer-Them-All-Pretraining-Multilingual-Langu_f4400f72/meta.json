@@ -4,5 +4,33 @@
  "title": "One-Form-to-Transfer-Them-All-Pretraining-Multilingual-Langu",
  "token": "sk-jywkrqzJV...",
  "created_at": "2026-08-27 23:34:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/b793ab90-e652-4344-beed-b9c6c6cede7f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/b793ab90-e652-4344-beed-b9c6c6cede7f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 23:43:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多语言语言模型",
+    "罗马化",
+    "IPA",
+    "跨语言迁移",
+    "预训练",
+    "脚本障碍"
+   ],
+   "field": "多语言自然语言处理",
+   "innovations": [
+    "在自回归多语言LLM预训练阶段系统比较原始文本、IPA、罗马化三种输入表示，发现罗马化预训练跨语言迁移最强",
+    "揭示罗马化微调对已有脚本覆盖的多语言模型损害性能，仅对完全未见脚本的语言有效",
+    "证明罗马化预训练的优势随模型规模增大而扩大"
+   ],
+   "benchmarks": [
+    "XNLI",
+    "MASSIVE",
+    "XL-Sum",
+    "XStoryCloze",
+    "XCOPA"
+   ]
+  }
+ }
 }

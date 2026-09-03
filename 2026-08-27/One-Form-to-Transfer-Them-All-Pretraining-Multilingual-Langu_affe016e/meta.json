@@ -4,5 +4,33 @@
  "title": "One-Form-to-Transfer-Them-All-Pretraining-Multilingual-Langu",
  "token": "sk-jywkrqzJV...",
  "created_at": "2026-08-27 12:23:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/b793ab90-e652-4344-beed-b9c6c6cede7f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/b793ab90-e652-4344-beed-b9c6c6cede7f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 23:43:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multilingual language models",
+    "romanization",
+    "script equalization",
+    "cross-lingual transfer",
+    "autoregressive pretraining",
+    "IPA transcription"
+   ],
+   "field": "多语言语言模型预训练",
+   "innovations": [
+    "系统对比罗马化/IPA/原始文本在三规模自回归多语言LM预训练中的效果",
+    "发现罗马化预训练全面优于其他表示且优势随规模扩大",
+    "揭示文本预训练+罗马化微调对已有脚本覆盖语言的性能退化现象"
+   ],
+   "benchmarks": [
+    "XStoryCloze",
+    "XCOPA",
+    "XNLI",
+    "MASSIVE",
+    "XL-Sum"
+   ]
+  }
+ }
 }

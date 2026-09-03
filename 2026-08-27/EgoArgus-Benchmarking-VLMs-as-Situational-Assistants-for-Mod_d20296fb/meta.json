@@ -4,5 +4,29 @@
  "title": "EgoArgus-Benchmarking-VLMs-as-Situational-Assistants-for-Mod",
  "token": "sk-RdV3tP4AZ...",
  "created_at": "2026-08-27 23:34:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/03d13c63-374c-403f-8fdc-8737cf48faf4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/03d13c63-374c-403f-8fdc-8737cf48faf4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 23:41:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "EgoArgus",
+    "egocentric assistant",
+    "modality bias",
+    "VLM benchmark",
+    "intervention decision"
+   ],
+   "field": "第一人称视觉语言模型评估",
+   "innovations": [
+    "提出五场景对话-视频关系控制基准EgoArgus，统一评估理解与介入决策",
+    "通过oracle干扰物移除与逐层探针揭示文本主导失败的系统性机理",
+    "证明统一视觉重加权与NaPO偏好对齐在modality arbitration上效果有限"
+   ],
+   "benchmarks": [
+    "EgoArgus (Understanding Part)",
+    "EgoArgus (Decision/VISTA Part)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Overview-of-SHROOM-Visions-2026-A-Shared-Task-on-Hallucinati",
  "token": "sk-yJ5h9Go8b...",
  "created_at": "2026-08-27 23:34:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/b831102c-d86c-4756-a0cc-988a37764806.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/b831102c-d86c-4756-a0cc-988a37764806.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 23:44:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "hallucination detection",
+    "vision-language models",
+    "shared task",
+    "multi-modal NLP",
+    "span-level detection",
+    "multilingual evaluation",
+    "SHEEP dataset"
+   ],
+   "field": "多模态大模型幻觉检测",
+   "innovations": [
+    "首次将SHROOM系列扩展至多模态LVLM幻觉的字符级span检测与五类分类",
+    "引入人工编写样本作为模型无关评测锚点以检验detector泛化性",
+    "系统性报告bootstrap排名不确定性揭示leaderboard内在不稳定性"
+   ],
+   "benchmarks": [
+    "SHEEP",
+    "HALOQUEST",
+    "VISAGE"
+   ]
+  }
+ }
 }

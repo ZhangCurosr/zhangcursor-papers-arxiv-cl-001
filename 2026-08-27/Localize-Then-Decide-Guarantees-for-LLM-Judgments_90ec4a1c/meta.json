@@ -4,5 +4,33 @@
  "title": "Localize-Then-Decide-Guarantees-for-LLM-Judgments",
  "token": "sk-4LF0lBYcu...",
  "created_at": "2026-08-27 12:23:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/7db0c77a-ebed-495f-9e16-d916308a41e9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/7db0c77a-ebed-495f-9e16-d916308a41e9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 23:42:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM-as-a-judge",
+    "conformal prediction",
+    "selective prediction",
+    "guaranteed evaluation",
+    "multi-candidate preference",
+    "confidence calibration",
+    "cascaded LLM"
+   ],
+   "field": "LLM评估与可靠性保证",
+   "innovations": [
+    "提出Localize-Then-Decide两阶段框架，将provable保证从m=2扩展到m>2",
+    "揭示多候选下概率稀释导致置信度-一致性单调性崩溃的结构化原因并提出恢复方案",
+    "证明两阶段框架可复合支持多模型级联架构且保持每层有效保证"
+   ],
+   "benchmarks": [
+    "TL;DR",
+    "Chatbot Arena",
+    "HH-RLHF",
+    "AlpacaEval"
+   ]
+  }
+ }
 }

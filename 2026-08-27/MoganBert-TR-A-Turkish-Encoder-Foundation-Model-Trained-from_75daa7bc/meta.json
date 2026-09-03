@@ -4,5 +4,33 @@
  "title": "MoganBert-TR-A-Turkish-Encoder-Foundation-Model-Trained-from",
  "token": "sk-1FwfANuN8...",
  "created_at": "2026-08-27 12:21:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/007f8a8b-9ebb-4677-83bf-4f6cd635eaf7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/007f8a8b-9ebb-4677-83bf-4f6cd635eaf7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 23:43:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "encoder language models",
+    "Turkish NLP",
+    "pretraining objectives",
+    "CLM-MLM curriculum",
+    "embedding models",
+    "quality filtering",
+    "tokenizer design"
+   ],
+   "field": "低资源语言预训练",
+   "innovations": [
+    "CLM→MLM两阶段课程学习在土耳其语编码器中的控制消融验证",
+    "分支退火策略以4.3%额外成本超越模型汤",
+    "教师蒸馏质量分类器管线解决低资源语言过滤缺口"
+   ],
+   "benchmarks": [
+    "TrGLUE",
+    "TabiBench",
+    "MTEB(Turkish)",
+    "Turkish MS MARCO"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "OmniPhys-A-Unified-Multimodal-Benchmark-for-Physics-Understa",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-08-27 23:34:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/bc35ffa3-e27f-44bd-92fb-2ac915435aa7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/bc35ffa3-e27f-44bd-92fb-2ac915435aa7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 23:43:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态大语言模型",
+    "物理推理",
+    "教育基准",
+    "多模态生成",
+    "推理过程评估"
+   ],
+   "field": "多模态物理理解与推理",
+   "innovations": [
+    "首个覆盖初高中到大学全学段的中文物理多模态统一基准",
+    "提出双轨推理评估框架DTRE同时量化结果与过程质量",
+    "首创物理图示编辑生成任务揭示MLLM物理一致性缺陷"
+   ],
+   "benchmarks": [
+    "OmniPhys",
+    "Test-Mini"
+   ]
+  }
+ }
 }

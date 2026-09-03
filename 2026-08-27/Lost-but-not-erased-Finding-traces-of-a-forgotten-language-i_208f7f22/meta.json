@@ -4,5 +4,34 @@
  "title": "Lost-but-not-erased-Finding-traces-of-a-forgotten-language-i",
  "token": "sk-TTQuLp2ot...",
  "created_at": "2026-08-27 23:34:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/d3d500f9-ebaf-4317-bdf6-83da3310d87b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/d3d500f9-ebaf-4317-bdf6-83da3310d87b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 23:43:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "关键期效应",
+    "表征相似性分析",
+    "自动语音识别",
+    "国际领养者",
+    "重学优势",
+    "层级表征",
+    "预音位层",
+    "课程学习"
+   ],
+   "field": "计算语言学与神经科学交叉 / 关键期机制建模",
+   "innovations": [
+    "用ASR神经网络在固定可塑性下复现国际领养者的行为谱与savings效应",
+    "以RSA和层splice定位早期语言痕迹于预音位层并建立因果贡献",
+    "论证关键期效应可由底层表征的统计稳固化产生，无需诉诸生物学成熟"
+   ],
+   "benchmarks": [
+    "Common Voice v22.0 英/法/德 ASR",
+    "WER（德语测试集6.17%，法语9.97%）",
+    "Next-token accuracy 70% 阈值重学步数",
+    "线性音素探针分类准确率（51音素）"
+   ]
+  }
+ }
 }

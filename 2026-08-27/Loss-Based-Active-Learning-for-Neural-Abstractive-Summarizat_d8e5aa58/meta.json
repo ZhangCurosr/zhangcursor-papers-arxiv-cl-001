@@ -4,5 +4,29 @@
  "title": "Loss-Based-Active-Learning-for-Neural-Abstractive-Summarizat",
  "token": "sk-dKfLTOMDH...",
  "created_at": "2026-08-27 23:34:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/a050b586-48ab-4704-b210-797162b4732c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/a050b586-48ab-4704-b210-797162b4732c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 23:42:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "主动学习",
+    "文本摘要",
+    "损失引导采样",
+    "神经序列生成",
+    "计算效率"
+   ],
+   "field": "主动学习与高效微调",
+   "innovations": [
+    "首次利用已标注集的生成交叉熵损失作为主动学习采集信号",
+    "提出结合损失引导、多样性预过滤和语义投影的三步混合策略LOBSTER"
+   ],
+   "benchmarks": [
+    "AESLC",
+    "XSum",
+    "CNN/DailyMail"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "PlanSightRAG-A-Visual-First-Multimodal-RAG-for-Automating-Qu",
  "token": "sk-WJrSFDicB...",
  "created_at": "2026-08-27 12:24:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/08ab6ecb-70c4-4bdc-8a0b-e6630f31334b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/08ab6ecb-70c4-4bdc-8a0b-e6630f31334b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 23:44:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Multimodal RAG",
+    "Vision-Language Models",
+    "Engineering Drawings",
+    "Compliance Checking",
+    "Visual Retrieval",
+    "Agentic AI"
+   ],
+   "field": "多模态检索与工程文档理解",
+   "innovations": [
+    "视觉优先多模态RAG框架PlanSightRAG，无需OCR直接处理工程计划图像",
+    "四步智能体合规审计管道（Planner-Retriever-Auditor-Synthesizer）",
+    "自主视觉规则接地：从规格语料检索并提取数值限制进行合规检查"
+   ],
+   "benchmarks": [
+    "Five-DOT Benchmark (4056 pairs)",
+    "Michigan DOT Zero-shot Transfer (93 pairs)",
+    "CAD-Generated Compliance Test Set (674 drawings)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "MathAdv-What-Theorem-Provers-Know-Reason-Formalize-and-Gener",
  "token": "sk-1jVZGxTQ1...",
  "created_at": "2026-08-27 12:23:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/5f83b623-f9c5-4520-9f33-da8747b9e796.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/5f83b623-f9c5-4520-9f33-da8747b9e796.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-03 23:42:58",
+  "chunks": 1
+ }
 }
