@@ -4,5 +4,32 @@
  "title": "Which-Metrics-Save-the-Most-Human-Annotation-Prediction-Powe",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-08-28 23:23:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/108c5bcf-2fd1-47fb-82e4-52edecd558ae.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/108c5bcf-2fd1-47fb-82e4-52edecd558ae.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 23:46:57",
+  "chunks": 3,
+  "meta": {
+   "keywords": [
+    "prediction-powered inference",
+    "MT evaluation",
+    "PPSR",
+    "meta-metric",
+    "human annotation cost",
+    "paired permutation test",
+    "WMT benchmarks"
+   ],
+   "field": "机器翻译评估与元指标",
+   "innovations": [
+    "提出PPSR元指标量化自动指标节省人工标注的效率",
+    "建立配对与非配对PPI估计器的方差边界理论",
+    "扩展配对置换检验适应小样本离散分数场景"
+   ],
+   "benchmarks": [
+    "WMT22 en-de/ru/zh-en",
+    "WMT23 en-zh/ja-en",
+    "WMT24 cs-uk"
+   ]
+  }
+ }
 }

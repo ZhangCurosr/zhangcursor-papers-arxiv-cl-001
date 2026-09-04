@@ -4,5 +4,32 @@
  "title": "AIA-sup-2-sup-Attribute-Agnostic-Imbalance-Augmentation-for",
  "token": "sk-buGER5YIq...",
  "created_at": "2026-09-01 17:36:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/e011e885-cb7c-4d80-8485-d81e0a0e3ac2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/e011e885-cb7c-4d80-8485-d81e0a0e3ac2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 23:48:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "子群鲁棒性",
+    "数据不平衡",
+    "隐式子群发现",
+    "LLM数据增强",
+    "分布差距分析"
+   ],
+   "field": "NLP中的子群鲁棒性与不平衡学习",
+   "innovations": [
+    "联合语义-预测空间发现潜在切片，无需子群标注",
+    "分布差距驱动的缺陷感知种子选择与迭代L增强",
+    "约束引导的双阶段LLM增强与过滤机制（含NER占位符方案）"
+   ],
+   "benchmarks": [
+    "HateXplain",
+    "HumAID",
+    "WWW2015",
+    "RE3D",
+    "CrossNER"
+   ]
+  }
+ }
 }

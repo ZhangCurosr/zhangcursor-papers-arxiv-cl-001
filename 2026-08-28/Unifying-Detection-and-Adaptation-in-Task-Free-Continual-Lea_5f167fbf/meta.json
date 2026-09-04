@@ -4,5 +4,32 @@
  "title": "Unifying-Detection-and-Adaptation-in-Task-Free-Continual-Lea",
  "token": "sk-n7iJ0Z1Ol...",
  "created_at": "2026-08-28 13:46:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/2d794b54-ae0e-4da6-96ec-746e81c4b006.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/2d794b54-ae0e-4da6-96ec-746e81c4b006.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 23:45:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Continual Learning",
+    "Parameter-Efficient Fine-tuning",
+    "Fisher Information Matrix",
+    "Task-Free CL",
+    "LoRA",
+    "K-FAC",
+    "Subspace Management"
+   ],
+   "field": "连续学习与参数高效微调",
+   "innovations": [
+    "首次将 Fisher-K-FAC 主子空间同时用于批次级潜在任务检测与 LoRA 子空间构建",
+    "提出 REUSE/EXPAND/NEW 三态自适应决策机制，使可训练参数随数据几何动态增长",
+    "揭示预训练模型下游样本的 Fisher 几何可自然编码任务相似度，无需显式任务边界"
+   ],
+   "benchmarks": [
+    "Standard CL Benchmark (SC)",
+    "Long Sequence Benchmark (LS)",
+    "TRACE"
+   ]
+  }
+ }
 }

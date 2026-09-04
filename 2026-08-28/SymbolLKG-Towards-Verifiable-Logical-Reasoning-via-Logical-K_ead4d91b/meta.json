@@ -4,5 +4,36 @@
  "title": "SymbolLKG-Towards-Verifiable-Logical-Reasoning-via-Logical-K",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-08-28 13:50:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/a9afd720-7cea-4e83-b9ae-d4f02d4d75a1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/a9afd720-7cea-4e83-b9ae-d4f02d4d75a1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 23:44:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "神经符号推理",
+    "逻辑知识图谱",
+    "符号求解器",
+    "多跳问答",
+    "可验证推理",
+    "知识增强生成"
+   ],
+   "field": "神经符号AI与逻辑推理",
+   "innovations": [
+    "将逻辑规则与约束作为一等拓扑节点构建LKG，实现可验证推理",
+    "拓扑感知混合检索与Logical Hull扩展确保逻辑完备性",
+    "自适应逻辑路由器动态分发至Z3/Prover9/Pyke最优求解器"
+   ],
+   "benchmarks": [
+    "FOLIO",
+    "AR-LSAT",
+    "ProofWriter",
+    "LogicalDeduction",
+    "ProntoQA",
+    "2WikiMultiHopQA",
+    "HotpotQA",
+    "MuSiQue"
+   ]
+  }
+ }
 }

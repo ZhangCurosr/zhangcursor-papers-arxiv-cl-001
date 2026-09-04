@@ -4,5 +4,29 @@
  "title": "RCMN-Understanding-Misleadingness-in-Influential-Public-Disc",
  "token": "sk-twhrLv2pG...",
  "created_at": "2026-08-28 23:23:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/aa638c19-b51e-47b5-9623-b845b86bb2a2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/aa638c19-b51e-47b5-9623-b845b86bb2a2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 23:44:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "misleadingness",
+    "reader-centric",
+    "fact-checking",
+    "multimodal misinformation",
+    "communicative intent",
+    "emotional arousal"
+   ],
+   "field": "读者中心误导性理解",
+   "innovations": [
+    "提出五维RCMN taxonomy，以读者解读分歧与交际/情绪信号为核心刻画误导性",
+    "构建证据grounded的RCMN数据集并开放基准设定",
+    "揭示轻量声明+上下文表示在情绪/意图/解读上可恢复、但在机制识别上仍需丰富证据的不对称性"
+   ],
+   "benchmarks": [
+    "RCMN benchmark (five generative foundation models)"
+   ]
+  }
+ }
 }

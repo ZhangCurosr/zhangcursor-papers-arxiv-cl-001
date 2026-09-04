@@ -4,5 +4,10 @@
  "title": "Representing-and-Parsing-Korean-Constituency-Structure-at-Di",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-28 23:23:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/fb48f115-974a-41b2-89c4-5ec34ab2b53b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/fb48f115-974a-41b2-89c4-5ec34ab2b53b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 23:44:32",
+  "chunks": 1
+ }
 }

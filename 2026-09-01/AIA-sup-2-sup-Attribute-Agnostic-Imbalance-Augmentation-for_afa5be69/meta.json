@@ -4,5 +4,34 @@
  "title": "AIA-sup-2-sup-Attribute-Agnostic-Imbalance-Augmentation-for",
  "token": "sk-buGER5YIq...",
  "created_at": "2026-09-01 07:18:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/e011e885-cb7c-4d80-8485-d81e0a0e3ac2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/e011e885-cb7c-4d80-8485-d81e0a0e3ac2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 23:48:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "subgroup robustness",
+    "class imbalance",
+    "data augmentation",
+    "latent slice discovery",
+    "LLM augmentation",
+    "distributional gap",
+    "worst-group accuracy"
+   ],
+   "field": "子群体鲁棒性与数据不均衡",
+   "innovations": [
+    "在联合语义-预测空间中自动发现 latent slices 进行无属性先验的子群体鲁棒训练",
+    "基于分布缺口向量的 deficit-aware 种子选择与 LLM 约束引导增强机制",
+    "NER 任务的占位符重写策略保证 token-label 对齐的针对性数据增强"
+   ],
+   "benchmarks": [
+    "HateXplain",
+    "HumAID",
+    "WWW2015",
+    "RE3D",
+    "CrossNER"
+   ]
+  }
+ }
 }

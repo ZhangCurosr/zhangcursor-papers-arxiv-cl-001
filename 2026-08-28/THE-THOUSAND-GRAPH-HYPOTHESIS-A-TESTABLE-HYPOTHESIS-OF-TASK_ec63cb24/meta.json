@@ -4,5 +4,29 @@
  "title": "THE-THOUSAND-GRAPH-HYPOTHESIS-A-TESTABLE-HYPOTHESIS-OF-TASK",
  "token": "sk-iG65PZaJv...",
  "created_at": "2026-08-28 23:23:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/8b3c6a16-8790-45e7-b287-8c997a7ffc3c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/8b3c6a16-8790-45e7-b287-8c997a7ffc3c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 23:44:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "千图假说",
+    "仓库级代码推理",
+    "两层实体索引",
+    "隐式关系实例化",
+    "SWE-bench Verified",
+    "零外部持久边"
+   ],
+   "field": "仓库级代码推理与大模型检索",
+   "innovations": [
+    "提出千图假说，将关系建模为任务条件下的隐式实例化",
+    "设计两层实体索引并在零预建边约束下进行控制实验",
+    "区分全量部署记录与可审计子集，提供长期实践透明证据"
+   ],
+   "benchmarks": [
+    "SWE-bench Verified"
+   ]
+  }
+ }
 }

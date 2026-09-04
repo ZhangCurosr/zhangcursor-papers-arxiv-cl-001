@@ -4,5 +4,40 @@
  "title": "A-X-K2-Technical-Report",
  "token": "sk-kIZn3a0Uw...",
  "created_at": "2026-09-01 17:36:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/2b2a1fc8-71ad-4e06-9bfe-d446d23eb5da.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/2b2a1fc8-71ad-4e06-9bfe-d446d23eb5da.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 23:48:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Mixture-of-Experts",
+    "Sparse Gated Attention",
+    "Long Context",
+    "Think-Fusion",
+    "Low-Precision Deployment",
+    "Reinforcement Learning",
+    "Korean LLM"
+   ],
+   "field": "大规模语言模型系统与方法",
+   "innovations": [
+    "提出稀疏门控注意力(SGA)配合稀疏warmup策略，在1.6%注意力预算下保持128K/256K上下文质量",
+    "提出Think-Fusion配对SFT recipe实现单一模型内可切换的思维/非思维模式",
+    "端到端blockwise FP8训练-部署一致性与数据并行异步rollout解决MoE低精度RL稳定性问题"
+   ],
+   "benchmarks": [
+    "RULER",
+    "LongBench v2",
+    "AIME26",
+    "Apex",
+    "KMMLU-Pro",
+    "CLIcK",
+    "GDPval",
+    "τ²-Bench",
+    "KS-Eval",
+    "Manufacturing Benchmark",
+    "LiveCodeBench"
+   ]
+  }
+ }
 }

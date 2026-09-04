@@ -4,5 +4,10 @@
  "title": "RATIO-A-Benchmark-for-Retrieval-Across-Typed-Ideation-Operat",
  "token": "sk-AsgiqoBdE...",
  "created_at": "2026-08-28 23:23:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/17155934-2c09-4f80-879e-820bbe515e49.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/17155934-2c09-4f80-879e-820bbe515e49.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 23:44:00",
+  "chunks": 1
+ }
 }

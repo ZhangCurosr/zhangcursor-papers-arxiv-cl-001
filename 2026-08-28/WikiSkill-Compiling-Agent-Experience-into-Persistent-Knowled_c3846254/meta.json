@@ -4,5 +4,32 @@
  "title": "WikiSkill-Compiling-Agent-Experience-into-Persistent-Knowled",
  "token": "sk-aQHhxC28I...",
  "created_at": "2026-08-28 13:46:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/32ba2ea1-6de1-4e3a-99c0-c72d2f25b6e6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/32ba2ea1-6de1-4e3a-99c0-c72d2f25b6e6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 23:46:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Agent Skill Evolution",
+    "Persistent Knowledge Base",
+    "Wiki Layer",
+    "Self-Improving Agent",
+    "Cross-Model Transfer"
+   ],
+   "field": "Agent 技能演化与知识积累",
+   "innovations": [
+    "提出 Raw/Wiki/Skill 三层架构，将执行经验持续编译为持久结构化知识库以支持跨迭代技能演化",
+    "设计 Wiki 永不回滚而技能可回滚的双轨机制，确保失败教训累积复用",
+    "系统性揭示技能发现（discovery）与技能执行（execution）是可分离的能力，并验证跨模型迁移的有效性"
+   ],
+   "benchmarks": [
+    "LiveMathematicianBench",
+    "SealQA",
+    "SpreadSheetBench",
+    "OfficeQA",
+    "ALFWorld"
+   ]
+  }
+ }
 }

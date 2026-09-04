@@ -4,5 +4,29 @@
  "title": "TOWARDS-EXPERT-FINANCIAL-QA-VIA-SELF-IMPROVING-RAG",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-08-28 13:49:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/e5694a7d-012a-4646-bfea-323965d2e571.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/e5694a7d-012a-4646-bfea-323965d2e571.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 23:45:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Self-Improving RAG",
+    "Financial QA",
+    "Multi-Agent System",
+    "Self-Correction",
+    "Audit Trail",
+    "FinanceBench"
+   ],
+   "field": "金融问答与检索增强生成",
+   "innovations": [
+    "多智能体协同的自我修正RAG框架",
+    "基于动态阈值与最佳答案保留的单调改进机制",
+    "面向金融合规的审计追踪设计"
+   ],
+   "benchmarks": [
+    "FinanceBench"
+   ]
+  }
+ }
 }

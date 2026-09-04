@@ -4,5 +4,30 @@
  "title": "TEMPLAR-Wales-A-georeferenced-environmental-and-toponymic-da",
  "token": "sk-fYugtz9Wo...",
  "created_at": "2026-08-28 13:46:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/c6421724-1147-46de-a449-6b6dc2e2127a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/c6421724-1147-46de-a449-6b6dc2e2127a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 23:44:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "地名学",
+    "环境拓扑数据",
+    "威尔士地名",
+    "地理参照数据集",
+    "确定性词汇检测",
+    "地形属性",
+    "空间数据可用性"
+   ],
+   "field": "计算地名学与地理信息系统",
+   "innovations": [
+    "首个威尔士全境定居点环境-地名关联数据集，整合3,757个记录的多源环境属性",
+    "冻结词汇检测框架ETDE v1，分离可复现字符串匹配与已验证词源",
+    "双源独立地形验证（OS Terrain 50与Copernicus GLO-90），相关系数达0.9999"
+   ],
+   "benchmarks": [
+    "Copernicus DEM GLO-90地形一致性验证"
+   ]
+  }
+ }
 }

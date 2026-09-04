@@ -4,5 +4,35 @@
  "title": "Visual-Information-Guided-Parallel-Decoding-for-Difusion-Mul",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-08-28 23:24:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/33e67869-9b71-4a9e-b2cc-3f1a85460969.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/33e67869-9b71-4a9e-b2cc-3f1a85460969.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 23:45:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "diffusion multimodal LLM",
+    "parallel decoding",
+    "visual grounding",
+    "token selection",
+    "information gain",
+    "attention-guided sampling"
+   ],
+   "field": "多模态大模型解码策略",
+   "innovations": [
+    "提出 VIG-Sampler 利用 token-to-image 注意力质量作为视觉锚定信号引导并行解码",
+    "揭示图像注意力相似度与信息冗余的正相关关系并设计惩罚机制",
+    "在三个开源 dMLLM 与七个基准上验证无需训练的解码优化策略"
+   ],
+   "benchmarks": [
+    "COCO Caption",
+    "Flickr30K",
+    "NoCaps",
+    "DetailCaps",
+    "TextVQA",
+    "DocVQA",
+    "ChartQA"
+   ]
+  }
+ }
 }

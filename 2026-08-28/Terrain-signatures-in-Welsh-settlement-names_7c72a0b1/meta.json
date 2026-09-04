@@ -4,5 +4,31 @@
  "title": "Terrain-signatures-in-Welsh-settlement-names",
  "token": "sk-owp49a3rO...",
  "created_at": "2026-08-28 23:24:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/e7bee633-1f7f-4370-9863-a9e80b3902a5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/e7bee633-1f7f-4370-9863-a9e80b3902a5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 23:45:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "environmental toponymy",
+    "Welsh place names",
+    "spatial cross-validation",
+    "preregistered analysis",
+    "terrain polarity",
+    "geographically held-out prediction"
+   ],
+   "field": "环境地名学与空间计算社会科学",
+   "innovations": [
+    "冻结词汇分类+预注册假设检验+地理留出预测的可复现框架",
+    "高地/低地地形极性在 Welsh 定居点中保留局部地形预测信息（24.4 m, p=0.00137）",
+    "10/25/50 km 空间阻塞交叉验证证明地形名称极性提供 4.63%–7.30% MSE 改善"
+   ],
+   "benchmarks": [
+    "OS Open Names 威尔士定居点库（N=3,757）",
+    "OS Terrain 50 / Copernicus GLO-90 高程数据",
+    "CORINE 2018 土地利用数据"
+   ]
+  }
+ }
 }

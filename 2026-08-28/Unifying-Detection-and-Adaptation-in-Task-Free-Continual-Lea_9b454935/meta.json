@@ -4,5 +4,30 @@
  "title": "Unifying-Detection-and-Adaptation-in-Task-Free-Continual-Lea",
  "token": "sk-n7iJ0Z1Ol...",
  "created_at": "2026-08-28 23:23:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/ea07541c-b629-4d77-9213-401016e4e404.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/ea07541c-b629-4d77-9213-401016e4e404.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 23:45:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "持续学习",
+    "无任务边界学习",
+    "参数高效微调",
+    "Fisher信息矩阵",
+    "LoRA",
+    "大语言模型"
+   ],
+   "field": "大语言模型持续学习",
+   "innovations": [
+    "揭示K-FAC principal subspace正交性蕴含任务几何相似度，用于无边界批量级任务检测",
+    "提出FiUni框架统一潜在任务检测与LoRA子空间构建，通过单几何信号实现REUSE/EXPAND/NEW三级自适应决策"
+   ],
+   "benchmarks": [
+    "Standard CL Benchmark (SC)",
+    "Long Sequence Benchmark (LS)",
+    "TRACE"
+   ]
+  }
+ }
 }

@@ -4,5 +4,34 @@
  "title": "Which-Metrics-Save-the-Most-Human-Annotation-Prediction-Powe",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-08-28 13:52:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/108c5bcf-2fd1-47fb-82e4-52edecd558ae.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/108c5bcf-2fd1-47fb-82e4-52edecd558ae.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 23:47:14",
+  "chunks": 3,
+  "meta": {
+   "keywords": [
+    "Prediction-Powered Inference",
+    "自动评估",
+    "元指标",
+    "假设检验",
+    "机器翻译",
+    "标注效率"
+   ],
+   "field": "自动指标评估",
+   "innovations": [
+    "提出PPI评估框架，将自动评估目标从拟合人类转向减少方差",
+    "定义PPSR元指标，衡量自动指标在PPI下节省人工标注的能力",
+    "推导PPI下配对/非配对假设检验方法及理论性质"
+   ],
+   "benchmarks": [
+    "WMT22 en-de",
+    "WMT22 en-ru",
+    "WMT22 zh-en",
+    "WMT23 en-zh",
+    "WMT23 ja-en",
+    "WMT24 cs-uk"
+   ]
+  }
+ }
 }

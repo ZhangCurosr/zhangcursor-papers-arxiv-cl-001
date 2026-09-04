@@ -4,5 +4,30 @@
  "title": "When-Text-Misleads-Inconsistent-Aware-Reasoning-for-Audio-Gr",
  "token": "sk-MljcAo9Bd...",
  "created_at": "2026-08-28 23:24:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/b88cb727-af2d-42f1-b549-8128863083b5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/b88cb727-af2d-42f1-b549-8128863083b5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 23:45:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "跨模态不一致",
+    "口语对话理解",
+    "Audio-LLM",
+    "多模态基准",
+    "捷径学习",
+    "Audio Twin"
+   ],
+   "field": "多模态对话理解",
+   "innovations": [
+    "提出ContraTalk冲突/一致对照基准评估跨模态推理",
+    "设计Audio Twin结构化声学证据表示",
+    "形式化跨模态不一致推理问题并量化文本偏向陷阱"
+   ],
+   "benchmarks": [
+    "ContraTalk",
+    "Seamless Interaction Dataset"
+   ]
+  }
+ }
 }

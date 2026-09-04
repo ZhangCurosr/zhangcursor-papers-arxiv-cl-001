@@ -4,5 +4,34 @@
  "title": "What-Makes-Good-Agentic-Data-An-ACE-Lens-on-Data-Generation",
  "token": "sk-oJ013oevc...",
  "created_at": "2026-08-28 13:46:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/910d2313-544e-42ee-a155-449f902c60fb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/910d2313-544e-42ee-a155-449f902c60fb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 23:46:30",
+  "chunks": 3,
+  "meta": {
+   "keywords": [
+    "Agentic Data Generation",
+    "ACE Framework",
+    "LLM Agents",
+    "Data Synthesis",
+    "Self-Evolving Agents",
+    "Grounded Learning"
+   ],
+   "field": "Agent数据生成与评估",
+   "innovations": [
+    "提出ACE（Accuracy-Complexity-Diversity）协同约束的数据生成分析框架",
+    "定义共同数据对象d=(E,q,τ,v)实现跨范式数据统一表征",
+    "揭示自演进Agent学习循环中的共适应陷阱与锚点解耦策略"
+   ],
+   "benchmarks": [
+    "ACEBench",
+    "τ²-Bench",
+    "SWE-rebench",
+    "SWE-Universe",
+    "MCP-Bench",
+    "Open-SWE-Traces"
+   ]
+  }
+ }
 }

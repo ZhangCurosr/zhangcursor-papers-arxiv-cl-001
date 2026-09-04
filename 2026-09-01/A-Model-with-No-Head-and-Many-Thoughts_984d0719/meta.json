@@ -4,5 +4,35 @@
  "title": "A-Model-with-No-Head-and-Many-Thoughts",
  "token": "sk-AsgiqoBdE...",
  "created_at": "2026-09-01 17:35:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/887c89d9-dd5d-4ab3-ba42-3baba0e61da2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/887c89d9-dd5d-4ab3-ba42-3baba0e61da2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 23:47:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Soft Latent Thinking",
+    "软思维",
+    "GRPO",
+    "Gumbel-Softmax",
+    "链式推理",
+    "低秩适应"
+   ],
+   "field": "大语言模型推理与强化学习",
+   "innovations": [
+    "用K维潜投影器替代V维LM头进行推理，降低每步计算5倍并提升pass@k多样性",
+    "提出基于高频token的投影器初始化策略并证明专用子空间优于全局SVD初始化",
+    "设计与SofT-GRPO兼容的可训练框架，仅更新投影器+LoRA即可实现连续空间推理优化"
+   ],
+   "benchmarks": [
+    "AIME2024",
+    "AIME2025",
+    "AMC23",
+    "MATH-500",
+    "GSM8K",
+    "GPQA Diamond",
+    "HumanEval"
+   ]
+  }
+ }
 }

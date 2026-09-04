@@ -4,5 +4,10 @@
  "title": "WikiSkill-Compiling-Agent-Experience-into-Persistent-Knowled",
  "token": "sk-aQHhxC28I...",
  "created_at": "2026-08-28 23:23:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/ed00922a-0f31-4e55-9a39-c94d5974b958.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/ed00922a-0f31-4e55-9a39-c94d5974b958.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 23:46:50",
+  "chunks": 1
+ }
 }

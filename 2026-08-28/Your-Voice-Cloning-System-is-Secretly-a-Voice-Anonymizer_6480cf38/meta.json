@@ -4,5 +4,32 @@
  "title": "Your-Voice-Cloning-System-is-Secretly-a-Voice-Anonymizer",
  "token": "sk-vBvZ06NsJ...",
  "created_at": "2026-08-28 13:46:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/0f369fa4-04f1-44e8-9783-e65afab8208e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/0f369fa4-04f1-44e8-9783-e65afab8208e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 23:47:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "voice anonymization",
+    "speaker anonymization",
+    "voice cloning",
+    "multilingual TTS",
+    "privacy preservation",
+    "XTTSv2",
+    "speaker verification"
+   ],
+   "field": "多语言语音隐私保护",
+   "innovations": [
+    "无需重训直接将多语言语音克隆模型XTTSv2复用于说话人匿名化",
+    "推理时利用VQ-VAE编码本解耦音律与说话人身份",
+    "基于隐私-可懂度调和平均的迭代精炼策略"
+   ],
+   "benchmarks": [
+    "CommonVoice 23.0",
+    "Multilingual LibriSpeech",
+    "VoicePrivacy Challenge 2022"
+   ]
+  }
+ }
 }

@@ -4,5 +4,36 @@
  "title": "ALTSTEER-Selective-Safety-Steering-for-Moving-Beyond-Hard-Re",
  "token": "sk-mqXJxPMnY...",
  "created_at": "2026-09-01 07:21:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/403d2835-e8c4-47bc-941b-41c0a029e6ae.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/403d2835-e8c4-47bc-941b-41c0a029e6ae.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 23:48:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "activation steering",
+    "LLM safety",
+    "inference-time intervention",
+    "constructive safe completion",
+    "refusal steering",
+    "representation engineering"
+   ],
+   "field": "大模型安全与对齐",
+   "innovations": [
+    "拒绝相关内部信号门控替代内容分类门控，跨域更稳定",
+    "正交化替代向量分离建设性续写信号",
+    "阶段性调度协调拒绝锚定向建设性重定向的转移"
+   ],
+   "benchmarks": [
+    "BeaverTails",
+    "AdvBench",
+    "MaliciousInstruct",
+    "JailbreakBench",
+    "XSTest",
+    "AlpacaEval",
+    "MATH500",
+    "GSM8K"
+   ]
+  }
+ }
 }
