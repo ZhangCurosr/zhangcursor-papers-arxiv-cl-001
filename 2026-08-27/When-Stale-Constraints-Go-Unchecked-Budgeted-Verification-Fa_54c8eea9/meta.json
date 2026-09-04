@@ -4,5 +4,10 @@
  "title": "When-Stale-Constraints-Go-Unchecked-Budgeted-Verification-Fa",
  "token": "sk-mtKOSZtKc...",
  "created_at": "2026-08-27 12:23:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/6fcf2855-c2ab-4be5-88af-1cfe3745d777.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/6fcf2855-c2ab-4be5-88af-1cfe3745d777.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 12:27:04",
+  "chunks": 1
+ }
 }

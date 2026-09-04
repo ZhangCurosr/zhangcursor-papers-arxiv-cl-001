@@ -4,5 +4,33 @@
  "title": "Difference-in-Differences-on-a-Censored-Rating-Scale-Can-Man",
  "token": "sk-jywkrqzJV...",
  "created_at": "2026-08-28 13:46:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/a174e750-6ca1-4e73-9efc-2d08463f42f2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/a174e750-6ca1-4e73-9efc-2d08463f42f2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 12:29:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM-as-judge",
+    "pre-registered audit",
+    "difference-in-differences",
+    "censored rating scale",
+    "bounded ordinal scale",
+    "manufactured effect",
+    "identifiability",
+    "educational evaluation"
+   ],
+   "field": "LLM评估与审计",
+   "innovations": [
+    "证明有界量表上双重差异端点不可识别且可退化为单极对比",
+    "提出零差分校准构造作为可计算的截断诊断工具",
+    "在预注册审计中从内部数据实证复现虚假交互效应（79-85%可截断解释）"
+   ],
+   "benchmarks": [
+    "Fan et al. 2026 pedagogy judge corpus",
+    "acid-mixture word problems (6 items)",
+    "5-point pedagogy rubric (4 sub-scores + overall)"
+   ]
+  }
+ }
 }

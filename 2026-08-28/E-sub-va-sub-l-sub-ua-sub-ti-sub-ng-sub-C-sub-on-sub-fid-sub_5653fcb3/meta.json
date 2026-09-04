@@ -4,5 +4,30 @@
  "title": "E-sub-va-sub-l-sub-ua-sub-ti-sub-ng-sub-C-sub-on-sub-fid-sub",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-08-28 13:48:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/6f28d5b7-c380-4edc-b282-4e2f9039c6d0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/6f28d5b7-c380-4edc-b282-4e2f9039c6d0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 12:30:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "置信度校准",
+    "检索增强生成",
+    "交互式agent评估",
+    "选择性预测",
+    "匹配轨迹重放",
+    "多跳问答"
+   ],
+   "field": "语言模型可靠性与评估",
+   "innovations": [
+    "提出匹配轨迹重放协议以孤立评估置信度到控制动作的映射",
+    "发现静态校准映射在交互轨迹深度3时失效",
+    "论证置信度校准不能替代检索价值估计"
+   ],
+   "benchmarks": [
+    "HotpotQA",
+    "MuSiQue"
+   ]
+  }
+ }
 }

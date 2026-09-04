@@ -4,5 +4,35 @@
  "title": "Decoupling-Planning-and-Control-for-Instructable-Agents",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-08-28 13:48:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/66c33a93-2555-45df-bfba-ead22f2b8f86.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/66c33a93-2555-45df-bfba-ead22f2b8f86.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 12:29:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Embodied AI",
+    "Vision-Language Model",
+    "World Model",
+    "Decoupled Planning-Control",
+    "Multi-Agent Reinforcement Learning",
+    "Instruction Following"
+   ],
+   "field": "具身智能与分层控制",
+   "innovations": [
+    "提出Instruct-to-Act解耦框架，将VLM高层规划与RSSM低层控制分离，通过异步推理实现实时语言条件化执行",
+    "设计语言感知RSSM控制器与停止头，结合后验VLM指令重标注训练，无需专家演示",
+    "构建多智能体语言协商接口，共享参数控制器配合去中心化规划器协调，避免中心化critic瓶颈"
+   ],
+   "benchmarks": [
+    "MineRL ObtainDiamond",
+    "Overcooked",
+    "Pico Park",
+    "Atari",
+    "Crafter",
+    "DMLab explore_goal_locations",
+    "MindCraft"
+   ]
+  }
+ }
 }

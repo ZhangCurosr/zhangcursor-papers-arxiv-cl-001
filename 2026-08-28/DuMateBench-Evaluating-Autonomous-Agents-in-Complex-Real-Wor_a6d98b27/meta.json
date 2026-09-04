@@ -4,5 +4,29 @@
  "title": "DuMateBench-Evaluating-Autonomous-Agents-in-Complex-Real-Wor",
  "token": "sk-TPYWIhRwY...",
  "created_at": "2026-08-28 13:50:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/a619bdca-67bc-406a-b874-c82d53d12131.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/a619bdca-67bc-406a-b874-c82d53d12131.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 12:30:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Autonomous Agents",
+    "Agent Benchmark",
+    "Compositional Workflows",
+    "Agent Reliability",
+    "Real-session Evaluation",
+    "Environmental Robustness"
+   ],
+   "field": "智能体评测基准",
+   "innovations": [
+    "基于真实生产会话重建的复合工作流基准测试",
+    "三维环境复杂性建模（Insufficient/Unstable/Noisy）",
+    "确定性检查清单与LLM-as-Judge混合评估协议"
+   ],
+   "benchmarks": [
+    "DuMateBench"
+   ]
+  }
+ }
 }

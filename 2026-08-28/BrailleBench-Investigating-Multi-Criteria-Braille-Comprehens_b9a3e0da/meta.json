@@ -4,5 +4,10 @@
  "title": "BrailleBench-Investigating-Multi-Criteria-Braille-Comprehens",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-08-28 13:46:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/cab859f4-8585-47b9-bee9-7310cbe9b7e2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/cab859f4-8585-47b9-bee9-7310cbe9b7e2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 12:27:40",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,32 @@
  "title": "CRITICL-Inference-Time-Weak-to-Strong-Generalization-from-Sm",
  "token": "sk-WJrSFDicB...",
  "created_at": "2026-08-28 13:45:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/23261033-18f5-4f19-a81c-967f7557d123.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/23261033-18f5-4f19-a81c-967f7557d123.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 12:28:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "推理时增强",
+    "弱到强泛化",
+    "失败模式",
+    "上下文学习",
+    "大语言模型推理"
+   ],
+   "field": "大语言模型推理增强",
+   "innovations": [
+    "提出 CritBank 离线失败知识库，将检索目标从语义相似转向失败模式对齐",
+    "提出 CritICL-dynamic/static 两种推理时弱到强指导范式，仅需 1-2 次生成即可超越多倍生成的 test-time scaling 方法"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "MATH",
+    "AMC23",
+    "AIME24",
+    "AIME25",
+    "GPQA"
+   ]
+  }
+ }
 }

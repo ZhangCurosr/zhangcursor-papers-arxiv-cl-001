@@ -4,5 +4,32 @@
  "title": "FOCUS-RePAIR-Mitigating-Text-Degeneration-via-Token-Level-Gu",
  "token": "sk-yjjHVmEWF...",
  "created_at": "2026-08-28 13:48:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/238d241d-f373-4dda-bd90-f60df27ef502.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/238d241d-f373-4dda-bd90-f60df27ef502.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 12:31:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM剪枝",
+    "文本退化",
+    "重复抑制",
+    "知识蒸馏",
+    "token级引导",
+    "nucleus采样",
+    "再生成质量"
+   ],
+   "field": "大语言模型压缩与生成质量",
+   "innovations": [
+    "将重复退化分解为入环风险与环内持久性并提出核采样逃逸质量机制",
+    "FOCUS通过重加权教师高置信度词元抑制蒸馏尾部泄漏",
+    "RePAIR以重复起始点对比对齐实现onset-level token级去重引导"
+   ],
+   "benchmarks": [
+    "WikiText-103",
+    "Self-Instruct",
+    "TruthfulQA-MC2"
+   ]
+  }
+ }
 }

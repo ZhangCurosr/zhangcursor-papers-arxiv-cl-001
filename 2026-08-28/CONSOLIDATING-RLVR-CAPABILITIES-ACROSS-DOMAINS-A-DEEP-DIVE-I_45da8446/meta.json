@@ -4,5 +4,37 @@
  "title": "CONSOLIDATING-RLVR-CAPABILITIES-ACROSS-DOMAINS-A-DEEP-DIVE-I",
  "token": "sk-Jd4ujJMnj...",
  "created_at": "2026-08-28 23:23:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/c6c2c111-1576-4a0f-8053-d1a686ab4777.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/c6c2c111-1576-4a0f-8053-d1a686ab4777.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 12:28:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RLVR",
+    "multi-domain fusion",
+    "task arithmetic",
+    "on-policy distillation",
+    "model merging",
+    "cross-domain transfer",
+    "GRPO"
+   ],
+   "field": "大语言模型多域强化学习后训练",
+   "innovations": [
+    "统一框架下系统比较 Merge/Mix RL/MOPD 三种多域 RLVR 融合范式",
+    "揭示跨域关系在行为与任务向量几何中的双重结构表征",
+    "证明融合仅重加权已有解分布而不扩展解覆盖且不退化 Held-out 能力"
+   ],
+   "benchmarks": [
+    "AIME 2025/26",
+    "GPQA-Diamond",
+    "LiveCodeBench v5/v6",
+    "IFEval",
+    "IFBench",
+    "BFCL v3",
+    "SimpleQA-Verified",
+    "AA-LCR"
+   ]
+  }
+ }
 }

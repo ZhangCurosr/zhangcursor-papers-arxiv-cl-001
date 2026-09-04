@@ -4,5 +4,33 @@
  "title": "Dependency-Aware-Revocable-Decoding-for-Efficient-Diffusion",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-08-28 23:24:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/72dd2522-9128-4102-be8d-e283523fce3c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/72dd2522-9128-4102-be8d-e283523fce3c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 12:29:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "diffusion LLM",
+    "parallel decoding",
+    "revocable decoding",
+    "inference acceleration",
+    "token reliability"
+   ],
+   "field": "高效推理与解码策略",
+   "innovations": [
+    "提出三状态M/C/U token管理体系实现分级可信度控制",
+    "设计置信度排序选择性注意力掩码阻断验证上下文污染",
+    "自适应logit混合策略动态平衡加速与准确性"
+   ],
+   "benchmarks": [
+    "MATH500",
+    "GSM8K",
+    "Flickr30K",
+    "AI2D",
+    "MMMU",
+    "ScienceQA"
+   ]
+  }
+ }
 }

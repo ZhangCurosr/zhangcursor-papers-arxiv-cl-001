@@ -4,5 +4,34 @@
  "title": "Decoupling-Planning-and-Control-for-Instructable-Agents",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-08-28 23:23:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/66c33a93-2555-45df-bfba-ead22f2b8f86.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/66c33a93-2555-45df-bfba-ead22f2b8f86.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 12:29:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "规划控制解耦",
+    "语言条件世界模型",
+    "事后指令监督",
+    "异步推理",
+    "多智能体语言协调"
+   ],
+   "field": "具身智能与多智能体系统",
+   "innovations": [
+    "通过自然语言接口解耦 VLM 规划器与 RSSM 控制器，实现即插即用且无需微调规划器",
+    "提出事后指令监督方法，利用 VLM 对自有轨迹摘要生成合成指令并联合优化行为克隆与世界模型损失",
+    "设计异步在线推理与语言聊天室协调机制，显著提升吞吐量并支持可扩展的多智能体合作"
+   ],
+   "benchmarks": [
+    "Atari ALE",
+    "MineRL ObtainDiamond",
+    "Crafter",
+    "DMLab explore_goal_locations",
+    "Overcooked",
+    "Pico Park",
+    "MindCraft"
+   ]
+  }
+ }
 }

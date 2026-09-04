@@ -4,5 +4,33 @@
  "title": "CRITICL-Inference-Time-Weak-to-Strong-Generalization-from-Sm",
  "token": "sk-WJrSFDicB...",
  "created_at": "2026-08-28 23:23:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/23261033-18f5-4f19-a81c-967f7557d123.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/23261033-18f5-4f19-a81c-967f7557d123.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 12:28:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "推理时弱到强泛化",
+    "失败模式",
+    "In-context Learning",
+    "推理效率",
+    "测试时缩放"
+   ],
+   "field": "推理时模型优化与弱到强泛化",
+   "innovations": [
+    "提出 CritBank 离线构建失败模式知识库实现推理时弱到强知识迁移",
+    "设计基于失败模式对齐的示例检索策略替代语义相似度检索",
+    "实证揭示同族模型跨规模失败模式高度一致（Spearman 0.88-0.91）"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "MATH",
+    "AMC23",
+    "AIME24",
+    "AIME25",
+    "GPQA"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "E-sub-va-sub-l-sub-ua-sub-ti-sub-ng-sub-C-sub-on-sub-fid-sub",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-08-28 23:23:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/fa577d82-edf0-4169-9204-b0827a6adba7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/fa577d82-edf0-4169-9204-b0827a6adba7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 12:30:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "置信度校准",
+    "匹配轨迹回放",
+    "交互式智能体",
+    "选择性预测",
+    "检索增强生成",
+    "风险-覆盖权衡"
+   ],
+   "field": "语言模型可靠性与评估",
+   "innovations": [
+    "提出匹配轨迹回放协议以隔离置信度到行动映射的因果效应",
+    "发现静态校准映射在深度交互轨迹中可能失效（深度三校准恶化）",
+    "证明校准可提升提交答案准确率但改变系统级风险-覆盖权衡"
+   ],
+   "benchmarks": [
+    "HotpotQA",
+    "MuSiQue"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "DocTalkBN-A-Novel-Dataset-of-Expert-Telemedicine-Conversatio",
  "token": "sk-yJ5h9Go8b...",
  "created_at": "2026-08-28 23:23:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/be01d5f1-e9ee-44ca-928e-f7cd55196618.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/be01d5f1-e9ee-44ca-928e-f7cd55196618.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 12:30:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "医疗对话数据集",
+    "低资源语言",
+    "孟加拉语",
+    "远程医疗",
+    "医学分诊",
+    "命名实体识别",
+    "多模态"
+   ],
+   "field": "医疗NLP/低资源语言",
+   "innovations": [
+    "首个孟加拉语专家指导多模态医患对话数据集（557.63小时音频-文本对）",
+    "LLM辅助+多人验证的结构化标注管线",
+    "三个临床导向下游基准（分诊/安全性评估/NER）及严格评估设定"
+   ],
+   "benchmarks": [
+    "Medical Triage Classification",
+    "Advice Safety Evaluation",
+    "Medical Named Entity Recognition"
+   ]
+  }
+ }
 }

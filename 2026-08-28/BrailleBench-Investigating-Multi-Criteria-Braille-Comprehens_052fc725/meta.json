@@ -4,5 +4,36 @@
  "title": "BrailleBench-Investigating-Multi-Criteria-Braille-Comprehens",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-08-28 23:23:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/73dd5ac1-e21d-4657-9f89-2584537b3992.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/73dd5ac1-e21d-4657-9f89-2584537b3992.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 12:27:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "盲文理解",
+    "大语言模型",
+    "无障碍评测",
+    "基准测试",
+    "包容性AI",
+    "BrailleBench",
+    "UEB",
+    "盲文交互"
+   ],
+   "field": "多模态与无障碍计算",
+   "innovations": [
+    "提出BrailleBench多指标盲文理解基准，整合5,570条实例覆盖数学/常识/多跳QA及Grade 1/2双等级",
+    "构建基于liblouis的确定性Braille Toolkit避免LLM生成数据引入的评估偏差",
+    "揭示英语能力无法可靠迁移至盲文场景的理解-表达不对称性与序列化格式敏感性"
+   ],
+   "benchmarks": [
+    "BrailleBench",
+    "GSM8K",
+    "AIME 2024",
+    "CommonsenseQA",
+    "HotpotQA",
+    "2Wiki-MultiHopQA"
+   ]
+  }
+ }
 }

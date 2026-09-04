@@ -4,5 +4,38 @@
  "title": "EQUAL-RANKING-QUALITY-DIFFERENT-DECISIONS-TRAINING-ORDER-CON",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-08-28 13:49:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/959441f5-2504-403f-9b68-47b4465dca32.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/959441f5-2504-403f-9b68-47b4465dca32.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 12:32:38",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "reranking",
+    "order consistency",
+    "OC-SFT",
+    "τ-PSI",
+    "Jaccard overlap",
+    "presentation dependence",
+    "decision stability"
+   ],
+   "field": "信息检索与文本排序",
+   "innovations": [
+    "提出OC-SFT训练框架，通过惩罚候选分数残差方差实现顺序一致性，仅需1次teacher pass+2个shuffled视图",
+    "首次系统量化排名质量与决策结果之间的gap，提出τ-PSI/Jaccard/answer flip等决策级度量",
+    "实证证明训练时一致性约束优于推理时后处理策略，跨11个dense+1个sparse MoE模型验证"
+   ],
+   "benchmarks": [
+    "Passage Reranking (18集合)",
+    "HotpotQA distractor",
+    "2WikiMultihopQA",
+    "MuSiQue",
+    "RewardBench-2",
+    "Nectar",
+    "PPE-MMLU-Pro",
+    "PPE-MATH",
+    "RM-Bench"
+   ]
+  }
+ }
 }

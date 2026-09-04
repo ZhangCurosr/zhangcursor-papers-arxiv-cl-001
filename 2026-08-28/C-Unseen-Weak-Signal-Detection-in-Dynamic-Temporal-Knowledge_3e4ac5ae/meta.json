@@ -4,5 +4,30 @@
  "title": "C-Unseen-Weak-Signal-Detection-in-Dynamic-Temporal-Knowledge",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-08-28 13:50:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/c33627f6-1a26-4938-a485-1bbac6256720.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/c33627f6-1a26-4938-a485-1bbac6256720.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 12:27:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Weak Signal Detection",
+    "Dynamic Temporal Knowledge Graphs",
+    "Large Language Models",
+    "Chain-of-Thought",
+    "Anomaly Detection",
+    "Knowledge Graph Reasoning"
+   ],
+   "field": "时序知识图谱与弱信号检测",
+   "innovations": [
+    "首次定义动态TKG中的弱信号形式化概念（稀有性+跨快照持续性）",
+    "提出双模块自解释LLM推理框架（稀有子图提取器+持续性警报器）",
+    "构建首个弱信号检测基准Wiki-OpenAI并验证匿名化鲁棒性"
+   ],
+   "benchmarks": [
+    "Wiki-OpenAI",
+    "Wiki-OpenAI-Anon"
+   ]
+  }
+ }
 }

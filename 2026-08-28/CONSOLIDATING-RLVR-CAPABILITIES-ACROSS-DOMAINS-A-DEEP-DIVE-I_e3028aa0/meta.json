@@ -4,5 +4,36 @@
  "title": "CONSOLIDATING-RLVR-CAPABILITIES-ACROSS-DOMAINS-A-DEEP-DIVE-I",
  "token": "sk-Jd4ujJMnj...",
  "created_at": "2026-08-28 13:46:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/c6c2c111-1576-4a0f-8053-d1a686ab4777.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/c6c2c111-1576-4a0f-8053-d1a686ab4777.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 12:28:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RLVR",
+    "Model Merging",
+    "Multi-Domain LLM",
+    "On-Policy Distillation",
+    "Task Vector",
+    "Cross-Domain Transfer"
+   ],
+   "field": "多领域大模型强化学习后训练",
+   "innovations": [
+    "首个在统一框架下系统比较Merge/Mix RL/MOPD三种RLVR融合范式",
+    "揭示task vector几何结构与跨域行为迁移的一致性",
+    "界定融合仅reweight而非expand solution coverage的边界"
+   ],
+   "benchmarks": [
+    "AIME 2025/26",
+    "GPQA-Diamond",
+    "LiveCodeBench v5/v6",
+    "IFEval",
+    "IFBench",
+    "BFCL v3",
+    "SimpleQA-Verified",
+    "AA-LCR"
+   ]
+  }
+ }
 }

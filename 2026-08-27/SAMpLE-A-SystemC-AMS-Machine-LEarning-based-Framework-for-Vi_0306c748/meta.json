@@ -4,5 +4,31 @@
  "title": "SAMpLE-A-SystemC-AMS-Machine-LEarning-based-Framework-for-Vi",
  "token": "sk-Wt6bONApk...",
  "created_at": "2026-08-27 12:22:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/a5760a78-7591-4210-9af7-35d851aad248.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/a5760a78-7591-4210-9af7-35d851aad248.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 12:26:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "SystemC-AMS",
+    "虚拟原型",
+    "机器学习集成",
+    "定时数据流",
+    "ONNX",
+    "在线学习",
+    "可复现仿真"
+   ],
+   "field": "电子系统设计自动化（EDA）中的ML加速仿真",
+   "innovations": [
+    "将ML模型作为SystemC-AMS TDF原生组件，消除外部联合仿真开销",
+    "统一IMLModel接口支持异构在线/离线模型互换",
+    "基于ONNX的标准化部署流程实现跨框架移植与保真度验证"
+   ],
+   "benchmarks": [
+    "UCI Appliances能耗预测数据集",
+    "Tetuan City城市电力需求数据集"
+   ]
+  }
+ }
 }

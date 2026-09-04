@@ -4,5 +4,31 @@
  "title": "When-Stale-Constraints-Go-Unchecked-Budgeted-Verification-Fa",
  "token": "sk-mtKOSZtKc...",
  "created_at": "2026-08-27 23:34:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/6fcf2855-c2ab-4be5-88af-1cfe3745d777.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/6fcf2855-c2ab-4be5-88af-1cfe3745d777.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 12:26:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "agent memory",
+    "verification budget",
+    "provenance",
+    "stale constraints",
+    "inherited memory",
+    "LLM agents",
+    "temporal validity"
+   ],
+   "field": "Agent记忆安全与可靠性",
+   "innovations": [
+    "首次在可控实验中量化过时继承约束下的代理失败率（~77%）并证明其可归因于验证分配",
+    "证明单次预算重分配（forced-critical）可消除约74个百分点的过时决策错误",
+    "引入结构上限分析方法，将可避免错误占比量化为原生欠验证率的函数"
+   ],
+   "benchmarks": [
+    "Growth world (memory 73, discount constraint)",
+    "Procurement world (memory c2, vendor reliability constraint)"
+   ]
+  }
+ }
 }

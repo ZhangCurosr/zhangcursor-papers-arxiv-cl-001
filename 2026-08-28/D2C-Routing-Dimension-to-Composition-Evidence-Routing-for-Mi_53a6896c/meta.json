@@ -4,5 +4,36 @@
  "title": "D2C-Routing-Dimension-to-Composition-Evidence-Routing-for-Mi",
  "token": "sk-F7cBp1IrI...",
  "created_at": "2026-08-28 23:23:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/c5aaea4c-fa5f-4651-9744-851dd9b88b8b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/c5aaea4c-fa5f-4651-9744-851dd9b88b8b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 12:28:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "mixed-origin detection",
+    "AI-generated text detection",
+    "dimension supervision",
+    "gated composition",
+    "low-FPR evaluation",
+    "content-expression factorization",
+    "HART benchmark",
+    "D2C-Routing"
+   ],
+   "field": "AI生成文本细粒度检测",
+   "innovations": [
+    "将四路混合来源检测拆解为内容源与表达源两个有监督维度的路由-组合范式",
+    "在低FPR协议下引入AH/AA分离与AA ranking多目标损失",
+    "以matched-cost集成对照验证结构增益独立于参数规模"
+   ],
+   "benchmarks": [
+    "MixD2C",
+    "HART Level-1/2/3",
+    "APT-Eval",
+    "PAN LLM-DetectAIve",
+    "RAID",
+    "FAIDSet"
+   ]
+  }
+ }
 }

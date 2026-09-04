@@ -4,5 +4,36 @@
  "title": "EQUAL-RANKING-QUALITY-DIFFERENT-DECISIONS-TRAINING-ORDER-CON",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-08-28 23:23:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/e1fad3a4-98f4-4aca-ae97-aa578b2003b7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/e1fad3a4-98f4-4aca-ae97-aa578b2003b7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 12:33:13",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "reranking",
+    "order-consistent SFT",
+    "OC-SFT",
+    "τ-PSI",
+    "training order",
+    "model stability"
+   ],
+   "field": "信息检索与排序学习",
+   "innovations": [
+    "提出OC-SFT框架，通过训练顺序与排序决策对齐提升reranking性能",
+    "提出avg. labels变体进一步降低τ-PSI稳定性指标",
+    "系统验证跨9类模型、18个数据集的泛化能力"
+   ],
+   "benchmarks": [
+    "DL19-DL23",
+    "Touche 2020",
+    "FiQA",
+    "NFCorpus",
+    "ArguAna",
+    "SciFact",
+    "Robust04",
+    "Legal-A/B"
+   ]
+  }
+ }
 }

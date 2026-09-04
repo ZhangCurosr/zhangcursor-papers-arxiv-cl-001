@@ -4,5 +4,29 @@
  "title": "Why-Does-Graph-Learning-Fail-to-Fully-Benefit-from-a-Text-Te",
  "token": "sk-rnwM2rvcl...",
  "created_at": "2026-08-27 12:21:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/e20ce00b-1d86-493c-b4e6-2b79db60b977.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/e20ce00b-1d86-493c-b4e6-2b79db60b977.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 12:26:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Graph Neural Networks",
+    "Cross-domain Transfer",
+    "Multimodal Learning",
+    "Self-supervised Pretraining",
+    "Knowledge Distillation"
+   ],
+   "field": "图机器学习与多模态表示学习",
+   "innovations": [
+    "提出FUG+GLEM-ITT解耦框架以独立文本教师引导图表示",
+    "揭示外部锚点强度-安全性权衡及知识传递六大瓶颈",
+    "建立多维度对齐与分类诊断体系"
+   ],
+   "benchmarks": [
+    "OpenAlex Node Classification",
+    "Amazon Digital Music Reviews"
+   ]
+  }
+ }
 }

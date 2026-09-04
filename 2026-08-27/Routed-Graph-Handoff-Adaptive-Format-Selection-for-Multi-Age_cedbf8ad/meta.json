@@ -4,5 +4,32 @@
  "title": "Routed-Graph-Handoff-Adaptive-Format-Selection-for-Multi-Age",
  "token": "sk-iG65PZaJv...",
  "created_at": "2026-08-27 23:34:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/6fb65bda-28c9-45e4-904b-44dc667c9963.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/6fb65bda-28c9-45e4-904b-44dc667c9963.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 12:26:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-agent LLM",
+    "structured communication",
+    "graph schema",
+    "adaptive routing",
+    "token compression",
+    "constrained decoding"
+   ],
+   "field": "多智能体系统协调协议",
+   "innovations": [
+    "提出Routed Graph Handoff框架解决多智能体通信的结构-灵活性权衡",
+    "设计zero-shot typed DAG schema实现2-3x压缩并保持跨步骤依赖显式编码",
+    "通过155-token轻量级路由器实现帕累托改进（质量+成本）"
+   ],
+   "benchmarks": [
+    "τ-bench retail",
+    "BrowseComp",
+    "BFCL v3",
+    "AppWorld"
+   ]
+  }
+ }
 }
