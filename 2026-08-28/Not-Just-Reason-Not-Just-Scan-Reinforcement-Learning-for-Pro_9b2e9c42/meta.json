@@ -4,5 +4,34 @@
  "title": "Not-Just-Reason-Not-Just-Scan-Reinforcement-Learning-for-Pro",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-08-28 13:48:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/1fac183a-680d-4ec2-8200-8b8ca57965a2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/1fac183a-680d-4ec2-8200-8b8ca57965a2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 15:26:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "科学错误检测",
+    "多模态大模型",
+    "强化学习",
+    "学术文献理解",
+    "Reason-Verify-Scan",
+    "VERA-13K",
+    "DAPO"
+   ],
+   "field": "多模态学术文档理解与可验证推理",
+   "innovations": [
+    "提出Reason-Verify-Scan三阶段渐进训练范式，将无证据Scan能力转化为可训练的递进任务链",
+    "构建VERA-13K（12.9K样本、6类错误、4.3K匹配链）并提供可复用的受控编辑+Pass@k筛选数据流水线",
+    "设计R_completeness/R_alignment/R_precision三粒度耦合奖励，使8B模型Scan性能逼近235B旗舰"
+   ],
+   "benchmarks": [
+    "VERA-13K",
+    "ScholScan",
+    "MMLongBench-Doc",
+    "MMMU",
+    "PRISMM-Bench"
+   ]
+  }
+ }
 }

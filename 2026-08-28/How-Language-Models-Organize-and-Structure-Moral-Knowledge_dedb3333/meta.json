@@ -4,5 +4,32 @@
  "title": "How-Language-Models-Organize-and-Structure-Moral-Knowledge",
  "token": "sk-ZHrWl9Czg...",
  "created_at": "2026-08-28 23:23:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/aeb684c2-5aa2-42d2-9ec6-5dbf620b1c84.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/aeb684c2-5aa2-42d2-9ec6-5dbf620b1c84.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 15:23:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "linear probing",
+    "moral foundations theory",
+    "representation geometry",
+    "concept directions",
+    "language model morality",
+    "fragility testing"
+   ],
+   "field": "语言模型可解释性与表示几何",
+   "innovations": [
+    "探针方向几何分析方法首次量化道德知识的结构化程度",
+    "发现道德基础方向呈整合几何而非坍缩或孤立",
+    "道德特异性共享分量经非道德对照验证为纯道德信号"
+   ],
+   "benchmarks": [
+    "OLMo-2 1B",
+    "OLMoE-1B-7B",
+    "OLMo-2 7B",
+    "Moral Foundations Vignettes"
+   ]
+  }
+ }
 }

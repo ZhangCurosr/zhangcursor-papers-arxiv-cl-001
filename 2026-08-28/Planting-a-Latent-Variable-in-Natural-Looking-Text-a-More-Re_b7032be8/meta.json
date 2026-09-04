@@ -4,5 +4,31 @@
  "title": "Planting-a-Latent-Variable-in-Natural-Looking-Text-a-More-Re",
  "token": "sk-NnOQ8YDzm...",
  "created_at": "2026-08-28 13:48:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/e5718230-ab13-4de9-a8da-f011c58d84f1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/e5718230-ab13-4de9-a8da-f011c58d84f1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 15:27:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "belief state",
+    "sparse autoencoder",
+    "subliminal steering",
+    "concept geometry",
+    "Markov chain",
+    "interpretability"
+   ],
+   "field": "大语言模型可解释性与表征几何",
+   "innovations": [
+    "提出在自然文本中种植可控潜在变量的subliminal steering方法",
+    "首次在类自然语料上实证transformer学习信念状态与状态几何",
+    "建立Markov动力学与概念流形几何形成的因果联系"
+   ],
+   "benchmarks": [
+    "Gemma Scope SAE directions",
+    "ring-shaped 8-state HMM",
+    "optimal Bayesian observer R^2 and argmax accuracy"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Calibrated-Enough-to-Know-Not-Calibrated-to-Act-Fabricated-E",
  "token": "sk-4LF0lBYcu...",
  "created_at": "2026-08-28 13:46:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/ea99ffce-ece5-4e2d-ad31-4e5cfde6398b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/ea99ffce-ece5-4e2d-ad31-4e5cfde6398b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 15:22:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "aleatoric unanswerability",
+    "action gate",
+    "calibration",
+    "trustworthy LLM agents",
+    "evidence-induced commitment",
+    "synthetic fine-tuning",
+    "degenerate baseline"
+   ],
+   "field": "LLM 智能体可信校准与拒答能力",
+   "innovations": [
+    "通过全虚构面板与真实面板的统计等价实验，因果隔离展示权威感为行动触发因素",
+    "在十二模型四域上定位故障为行动闸门而非能力/信念/判断缺失",
+    "540 条跨域合成数据微调即可将 commitment 从 54% 降至 0%，并绘制推理格式敏感的失效边界"
+   ],
+   "benchmarks": [
+    "Equity unknowability oracle (40 cases)",
+    "Crypto/Sports/Weather transfer sets (3 domains × 24 questions × 3 evidence levels)",
+    "Tense-balanced control set (240 items)"
+   ]
+  }
+ }
 }

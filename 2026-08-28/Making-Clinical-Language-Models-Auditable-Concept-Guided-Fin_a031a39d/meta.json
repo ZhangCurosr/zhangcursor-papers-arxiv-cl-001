@@ -4,5 +4,31 @@
  "title": "Making-Clinical-Language-Models-Auditable-Concept-Guided-Fin",
  "token": "sk-331OfnzjD...",
  "created_at": "2026-08-28 23:23:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/029c836f-5d67-49fc-922a-b21bb488b384.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/029c836f-5d67-49fc-922a-b21bb488b384.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 15:25:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Sparse Autoencoder",
+    "Mechanistic Interpretability",
+    "Clinical NLP",
+    "Artifact Suppression",
+    "Concept-Guided Fine-Tuning",
+    "MIMIC-IV",
+    "Auditable AI"
+   ],
+   "field": "临床自然语言处理与可解释AI",
+   "innovations": [
+    "将SAE从被动分析工具转为训练时主动伪影抑制调控信号",
+    "LLM+ICD-10检索约束的概念解释流程减少医疗编码幻觉",
+    "残差修正干预保留原始临床信号同时移除伪影概念贡献"
+   ],
+   "benchmarks": [
+    "MIMIC-IV 30-day out-of-hospital mortality prediction",
+    "MIMIC-III跨域验证"
+   ]
+  }
+ }
 }

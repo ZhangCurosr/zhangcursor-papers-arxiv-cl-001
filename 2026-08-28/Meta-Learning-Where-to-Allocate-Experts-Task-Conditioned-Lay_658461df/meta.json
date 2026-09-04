@@ -4,5 +4,30 @@
  "title": "Meta-Learning-Where-to-Allocate-Experts-Task-Conditioned-Lay",
  "token": "sk-gD7m2ian9...",
  "created_at": "2026-08-28 13:49:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/6cfb2a34-5b79-4109-bd3b-69fd1125480d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/6cfb2a34-5b79-4109-bd3b-69fd1125480d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 15:25:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Mixture-of-Experts",
+    "Meta-Learning",
+    "Model Compression",
+    "MoE Inference",
+    "Router",
+    "Task-Conditioned"
+   ],
+   "field": "大模型推理效率优化",
+   "innovations": [
+    "支持集条件化的层-wise 专家预算与有界路由偏置双分支控制器",
+    "冻结骨干前提下的任务级专家激活策略推断",
+    "预算与先验分支互补以实现压缩与原始路由一致性的平衡"
+   ],
+   "benchmarks": [
+    "MMLU",
+    "C-Eval"
+   ]
+  }
+ }
 }

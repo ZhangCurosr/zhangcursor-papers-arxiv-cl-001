@@ -4,5 +4,34 @@
  "title": "Instruction-Quality-Matters-Refining-Instructions-for-Effect",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-08-28 13:48:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/bf700221-1474-4ff4-95de-9720684fb2b9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/bf700221-1474-4ff4-95de-9720684fb2b9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 15:24:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "preference learning",
+    "instruction refinement",
+    "DPO",
+    "data curation",
+    "reward model",
+    "alignment",
+    "rubric-based feedback"
+   ],
+   "field": "大语言模型对齐与偏好学习",
+   "innovations": [
+    "首次将指令质量识别为偏好学习的上游瓶颈，通过BoN/WoN分析证明其同时约束响应质量天花板与地板",
+    "提出基于奖励信号筛选+rubric引导LLM反馈的指令精炼流水线，不丢弃样本即可增强偏好数据",
+    "在离线与在线偏好学习场景下系统验证指令精炼的通用性与有效性"
+   ],
+   "benchmarks": [
+    "MT-Bench",
+    "Evol-Instruct",
+    "AlpacaEval 2.0",
+    "UltraFeedback",
+    "UltraMedical-Preference"
+   ]
+  }
+ }
 }

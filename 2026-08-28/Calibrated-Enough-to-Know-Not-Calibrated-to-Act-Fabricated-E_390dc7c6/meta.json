@@ -4,5 +4,10 @@
  "title": "Calibrated-Enough-to-Know-Not-Calibrated-to-Act-Fabricated-E",
  "token": "sk-4LF0lBYcu...",
  "created_at": "2026-08-28 23:23:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/f0cb04a5-181b-4774-ba5f-39d9094045dd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/f0cb04a5-181b-4774-ba5f-39d9094045dd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 15:23:02",
+  "chunks": 1
+ }
 }

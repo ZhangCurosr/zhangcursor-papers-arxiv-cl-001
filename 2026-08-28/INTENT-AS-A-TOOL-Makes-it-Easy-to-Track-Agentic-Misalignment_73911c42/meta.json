@@ -4,5 +4,30 @@
  "title": "INTENT-AS-A-TOOL-Makes-it-Easy-to-Track-Agentic-Misalignment",
  "token": "sk-07nfPn8BZ...",
  "created_at": "2026-08-28 23:24:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/0b2a6e63-90ed-4928-91d4-48e306c50eaf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/0b2a6e63-90ed-4928-91d4-48e306c50eaf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 15:23:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "agentic misalignment",
+    "chain-of-thought monitoring",
+    "intent tracking",
+    "LLM safety",
+    "online intervention",
+    "tool-use agents"
+   ],
+   "field": "LLM安全与对齐",
+   "innovations": [
+    "通过意图声明工具将隐式意图转化为可观测的前缀局部概率信号",
+    "基于意图分数的在线推理干预机制",
+    "揭示post-hoc rationalization等意图动态模式"
+   ],
+   "benchmarks": [
+    "Agentic Misalignment Benchmark",
+    "AgentHarm"
+   ]
+  }
+ }
 }

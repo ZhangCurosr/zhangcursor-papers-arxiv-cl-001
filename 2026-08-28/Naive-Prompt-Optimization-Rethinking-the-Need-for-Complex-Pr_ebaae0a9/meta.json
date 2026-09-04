@@ -4,5 +4,32 @@
  "title": "Naive-Prompt-Optimization-Rethinking-the-Need-for-Complex-Pr",
  "token": "sk-dKfLTOMDH...",
  "created_at": "2026-08-28 23:23:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/f61ef88e-8250-43f1-ab72-07ab202e246c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/f61ef88e-8250-43f1-ab72-07ab202e246c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 15:26:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "prompt optimization",
+    "RLHF",
+    "GRPO",
+    "GEPA",
+    "agent",
+    "chain-of-thought",
+    "model transfer"
+   ],
+   "field": "大语言模型提示优化与自我改进",
+   "innovations": [
+    "提出单线性 NPO 方法，用教师模型结合完整 rollout 轨迹反馈迭代优化提示，无需复杂搜索",
+    "揭示强教师能力可部分替代优化器侧搜索复杂度",
+    "系统验证 prompt 优化结果的跨模型、跨家族迁移有效性"
+   ],
+   "benchmarks": [
+    "IFBench",
+    "HotpotQA",
+    "TextArena"
+   ]
+  }
+ }
 }

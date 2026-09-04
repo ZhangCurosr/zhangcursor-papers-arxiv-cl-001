@@ -4,5 +4,32 @@
  "title": "Making-Clinical-Language-Models-Auditable-Concept-Guided-Fin",
  "token": "sk-331OfnzjD...",
  "created_at": "2026-08-28 13:46:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/e4edaf5e-d809-4f09-b0ef-575475f59c6d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/e4edaf5e-d809-4f09-b0ef-575475f59c6d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 15:25:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "临床语言模型",
+    "可审计性",
+    "稀疏自编码器",
+    "artifact 抑制",
+    "概念引导微调",
+    "残差校正",
+    "MIMIC-IV",
+    "死亡率预测"
+   ],
+   "field": "临床自然语言处理与可解释 AI",
+   "innovations": [
+    "提出 CAST 框架将 SAE 可解释特征转化为训练时主动 steering signal 以抑制文档 artifact",
+    "设计 LLM 辅助+ICD-10 检索约束的概念自动化解释与严格共识抑制管道",
+    "提出残差校正干预和高效事后逐概念归因模块，提供特征级审计轨迹"
+   ],
+   "benchmarks": [
+    "MIMIC-IV 30天院外死亡率预测",
+    "MIMIC-III 跨数据集验证"
+   ]
+  }
+ }
 }

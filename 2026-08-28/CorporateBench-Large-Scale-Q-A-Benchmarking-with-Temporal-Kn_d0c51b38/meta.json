@@ -4,5 +4,30 @@
  "title": "CorporateBench-Large-Scale-Q-A-Benchmarking-with-Temporal-Kn",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-08-28 13:46:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/3aaef03e-873a-4f4d-a3ea-ec3dc50af7b2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/3aaef03e-873a-4f4d-a3ea-ec3dc50af7b2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 15:22:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "CorporateBench",
+    "enterprise QA benchmark",
+    "long-context LLM",
+    "knowledge graph",
+    "RAG evaluation",
+    "synthetic data",
+    "multi-document reasoning"
+   ],
+   "field": "企业级大模型评测基准",
+   "innovations": [
+    "基于时序知识图谱的程序化文档生成框架，保证跨文档逻辑一致性",
+    "双轨评测（RAG vs KB）揭示检索噪声对长上下文推理的影响",
+    "四尺度企业基准（12-10,210员工）刻画模型性能退化曲线"
+   ],
+   "benchmarks": [
+    "CORPORATEBENCH"
+   ]
+  }
+ }
 }

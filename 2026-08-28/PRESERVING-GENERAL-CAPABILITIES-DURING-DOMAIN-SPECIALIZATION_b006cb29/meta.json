@@ -4,5 +4,35 @@
  "title": "PRESERVING-GENERAL-CAPABILITIES-DURING-DOMAIN-SPECIALIZATION",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-08-28 13:47:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/fe58593b-7e70-457b-b398-c9734f925035.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/fe58593b-7e70-457b-b398-c9734f925035.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 15:26:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "MOPD",
+    "领域专业化",
+    "通用能力恢复",
+    "在线策略蒸馏",
+    "不确定性校准",
+    "中心化对数似然"
+   ],
+   "field": "大语言模型后训练",
+   "innovations": [
+    "提出不确定性校准MOPD，通过双温度采样+正优势密度过滤+CLL方向一致性验证三层机制恢复垂直领域专业化后的通用能力",
+    "首次系统性分析MOPD Token级信号利用问题，揭示优势符号不足以决定更新可靠性",
+    "在角色演绎和医疗领域验证通用能力提升4.73%/10.84%的同时保持垂直性能"
+   ],
+   "benchmarks": [
+    "GPQA-Diamond",
+    "AIME25",
+    "IF-Eval",
+    "Arena-Hard v2",
+    "LiveCodeBench v5",
+    "CoSER角色演绎评测",
+    "MedQA-USMLE"
+   ]
+  }
+ }
 }

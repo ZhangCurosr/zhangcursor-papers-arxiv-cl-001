@@ -4,5 +4,30 @@
  "title": "Mapping-Written-Words-to-Spoken-Words-in-a-Different-Languag",
  "token": "sk-RdV3tP4AZ...",
  "created_at": "2026-08-28 23:24:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/9beeea70-8338-4722-bc30-35ecbdea498e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/9beeea70-8338-4722-bc30-35ecbdea498e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 15:25:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "visually grounded speech",
+    "keyword localization",
+    "cross-lingual word discovery",
+    "self-supervised speech representations",
+    "unsupervised word spotting",
+    "low-resource speech"
+   ],
+   "field": "跨语言视觉接地语音识别",
+   "innovations": [
+    "提出基于图像描述正负样本挖掘 + 自监督语音对齐（CFA/DFA）的跨语言无训练词片段检索方法",
+    "将对比负样本（含语义共现负样本）引入 interval piling 聚合以抑制共现词干扰",
+    "在真实英→印地跨语言设置下系统分析跨文化描述差异对语音词检索的影响"
+   ],
+   "benchmarks": [
+    "Places Audio Captions Hindi",
+    "Places Audio Captions (English)"
+   ]
+  }
+ }
 }

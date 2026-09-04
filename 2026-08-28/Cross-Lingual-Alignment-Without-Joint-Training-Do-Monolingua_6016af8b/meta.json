@@ -4,5 +4,32 @@
  "title": "Cross-Lingual-Alignment-Without-Joint-Training-Do-Monolingua",
  "token": "sk-haVkJ3VAf...",
  "created_at": "2026-08-28 13:46:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/349d24de-7f2e-4fa0-9af1-adc46385aca5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/349d24de-7f2e-4fa0-9af1-adc46385aca5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 15:23:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "cross-lingual alignment",
+    "monolingual language models",
+    "Platonic representation hypothesis",
+    "Procrustes rotation",
+    "activation patching",
+    "CKA",
+    "modular multilingual systems"
+   ],
+   "field": "跨语言表示学习",
+   "innovations": [
+    "证明独立单语模型可通过正交旋转实现跨语言功能对齐",
+    "建立相关性-构造-因果性三层证据链验证无联合训练的跨语言表示收敛"
+   ],
+   "benchmarks": [
+    "FLORES-200",
+    "Tatoeba",
+    "OPUS",
+    "BouQUET"
+   ]
+  }
+ }
 }

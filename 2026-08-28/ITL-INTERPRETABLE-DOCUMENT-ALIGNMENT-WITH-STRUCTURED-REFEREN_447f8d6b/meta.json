@@ -4,5 +4,10 @@
  "title": "ITL-INTERPRETABLE-DOCUMENT-ALIGNMENT-WITH-STRUCTURED-REFEREN",
  "token": "sk-ovHaiDbC4...",
  "created_at": "2026-08-28 13:47:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/05ffc513-d941-4442-be68-85cc1557fb73.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/05ffc513-d941-4442-be68-85cc1557fb73.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 15:24:04",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,30 @@
  "title": "PragAlign-Evidence-Sensitive-Reply-Assistance-Across-Chinese",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-08-28 23:23:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/b8c75c16-d6ef-4c6b-8ae2-b9f7d169ff6a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/b8c75c16-d6ef-4c6b-8ae2-b9f7d169ff6a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 15:27:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "reply assistance",
+    "pragmatic competence",
+    "clarification question",
+    "cross-language evaluation",
+    "evidence-sensitive generation",
+    "parameter-efficient fine-tuning"
+   ],
+   "field": "多语言语用与跨文化人机交互",
+   "innovations": [
+    "提出证据状态（OBSERVED/INFERRED/UNKNOWN）显式化的两模块决策层，在固定生成器前决定澄清还是直接生成",
+    "构建10组中文-日文匹配双语言受控场景并给出配对收敛/分歧分析",
+    "以PROCEED/ASK二分类加单问题预算控制澄清成本，区别于全量提问策略"
+   ],
+   "benchmarks": [
+    "Self-constructed pragmatic vignette dataset (10 matched scenarios)",
+    "Chinese-Japanese matched human evaluation (9 CN / 3 JP raters)"
+   ]
+  }
+ }
 }

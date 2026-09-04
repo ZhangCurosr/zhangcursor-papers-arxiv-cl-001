@@ -4,5 +4,30 @@
  "title": "Cascaded-Batch-Prompting",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-08-28 13:49:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/c6c54f8b-f4f9-499e-bf35-820159622add.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/c6c54f8b-f4f9-499e-bf35-820159622add.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 15:22:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "batch prompting",
+    "large language model",
+    "task decomposition",
+    "multiple-choice QA",
+    "symbol grounding",
+    "inference efficiency"
+   ],
+   "field": "大语言模型推理优化",
+   "innovations": [
+    "将推理与符号映射解耦为两阶段级联批量提示框架，解决批量场景性能不确定性",
+    "在MMLU/MNLI上建立新的Pareto前沿，小模型增益尤其显著（GPT-4.1-mini MMLU +2.84pp）",
+    "系统性量化两阶段开销（约1.2×token吞吐）并提供正交sanity check机制"
+   ],
+   "benchmarks": [
+    "MMLU",
+    "MNLI"
+   ]
+  }
+ }
 }

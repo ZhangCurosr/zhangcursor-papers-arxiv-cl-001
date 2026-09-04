@@ -4,5 +4,31 @@
  "title": "sup-3-sup-Training-Robots-to-Reason-in-Natural-Language-via",
  "token": "sk-DXHHyylpH...",
  "created_at": "2026-08-27 23:34:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/9627ee7b-29ef-420f-ad06-23f28db43f04.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/9627ee7b-29ef-420f-ad06-23f28db43f04.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 15:21:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "robotic reasoning",
+    "vision-language model",
+    "reinforcement learning",
+    "chain-of-thought",
+    "test-time compute",
+    "imitation learning",
+    "hierarchical control"
+   ],
+   "field": "机器人操作中的视觉语言推理与强化学习",
+   "innovations": [
+    "两阶段后训练将现成VLM转化为自由语言推理的机器人高层控制器",
+    "基于rubric的VLM裁判单步RL从纯指令离线数据中学习测试时推理",
+    "系统证明自由语言推理作为测试时计算可显著提升长视距操作泛化"
+   ],
+   "benchmarks": [
+    "Language Table",
+    "Bimanual Grocery Packing"
+   ]
+  }
+ }
 }

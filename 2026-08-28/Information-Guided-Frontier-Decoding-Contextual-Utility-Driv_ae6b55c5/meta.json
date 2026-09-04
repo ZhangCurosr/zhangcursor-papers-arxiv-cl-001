@@ -4,5 +4,35 @@
  "title": "Information-Guided-Frontier-Decoding-Contextual-Utility-Driv",
  "token": "sk-AG7sAmdzS...",
  "created_at": "2026-08-28 13:51:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/aa9d0c5b-5b4f-48bf-91cc-15a4c6a18c53.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/aa9d0c5b-5b4f-48bf-91cc-15a4c6a18c53.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 15:24:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "diffusion multimodal large language models",
+    "decoding strategy",
+    "token commitment",
+    "contextual utility",
+    "hallucination reduction",
+    "information-guided decoding"
+   ],
+   "field": "多模态大语言模型推理与解码策略",
+   "innovations": [
+    "提出免训练的信息引导承诺分数，联合置信度、邻域不确定性与结构风险改进 dMLLM 解码排序",
+    "构建动态候选前沿以约束局部可扩展区域，避免孤立位置的无效提交",
+    "识别并经验验证置信度解码中的上下文效用盲区与结构承诺风险两类失败模式"
+   ],
+   "benchmarks": [
+    "LLaVA-Bench",
+    "CHAIR",
+    "MathVista",
+    "ScienceQA",
+    "MME",
+    "GQA",
+    "WikiText"
+   ]
+  }
+ }
 }

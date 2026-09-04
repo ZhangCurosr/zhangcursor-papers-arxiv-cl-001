@@ -4,5 +4,31 @@
  "title": "Pair-Level-Essay-Scale-Republication-and-Reuse-from-Fragment",
  "token": "sk-CZoysi7P5...",
  "created_at": "2026-08-28 13:46:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/f9aea889-a391-49fd-b309-afffef9ad99a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/f9aea889-a391-49fd-b309-afffef9ad99a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 15:27:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "historical text reuse",
+    "essay-scale republication",
+    "pair-level evidence consolidation",
+    "rule-based workflow",
+    "ECCO",
+    "Burney newspapers",
+    "incomplete positive coverage"
+   ],
+   "field": "数字人文与自然语言处理交叉",
+   "innovations": [
+    "成对级别证据整合框架：从片段检索转向传播关系推断，适配不完整正覆盖设定",
+    "分阶段规则工作流：四级门控实现可审计的精度-召回权衡，在ECCO-ECCO上达0.825 F1",
+    "自动规则适配中间路线：LLM提议边界规则+标注锚点双重验证，连接手工调参与黑盒LLM"
+   ],
+   "benchmarks": [
+    "ECCO-ECCO labeled slices (main/hard/all-labeled)",
+    "ECCO-Newspaper manual audit"
+   ]
+  }
+ }
 }

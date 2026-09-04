@@ -4,5 +4,32 @@
  "title": "Multi-Expert-Conformal-Risk-Control-for-Pairwise-LLM-Judging",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-08-28 13:48:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/1ba84d72-df5c-4c68-9210-50aa387f2e76.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/1ba84d72-df5c-4c68-9210-50aa387f2e76.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 15:26:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Conformal Risk Control",
+    "LLM-as-a-Judge",
+    "Pairwise Evaluation",
+    "Selective Prediction",
+    "Multi-Expert Aggregation",
+    "Open-Ended Dialogue"
+   ],
+   "field": "LLM评估与不确定性量化",
+   "innovations": [
+    "首次提出多专家CRC框架，区分同质/异构专家场景",
+    "提出MC³方法解决异构专家评分尺度不一致问题，保留形式化风险保证",
+    "系统性识别对对LLM判决CRC的最优conformity score（Pref. Prob.）"
+   ],
+   "benchmarks": [
+    "PANEL",
+    "ESConv",
+    "MSC",
+    "DREAM"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Prediction-of-Prediction-PoP",
  "token": "sk-1FwfANuN8...",
  "created_at": "2026-08-28 23:23:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/999292bc-54f6-4994-b8fd-2bac83959a44.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/999292bc-54f6-4994-b8fd-2bac83959a44.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 15:27:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "hallucination detection",
+    "hidden states",
+    "layer transition",
+    "uncertainty estimation",
+    "single-pass inference",
+    "LLM reliability"
+   ],
+   "field": "大语言模型幻觉检测",
+   "innovations": [
+    "提出层间余弦转移发散统计量捕获表征演化动态",
+    "设计跨层注意力融合+时间漂移的轻量单遍检测头Φ_meta",
+    "在TruthfulQA上以75.5% AUROC超越所有基线且延迟仅增1.2%"
+   ],
+   "benchmarks": [
+    "TruthfulQA",
+    "HaluEval 2.0",
+    "FaithDial"
+   ]
+  }
+ }
 }

@@ -4,5 +4,35 @@
  "title": "Boosting-LLM-Exploration-via-Weak-Model-Guidance-in-RLVR",
  "token": "sk-qKu2Cn1y4...",
  "created_at": "2026-08-28 13:46:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/a896a36d-aaab-4d58-814f-fc04697f842c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/a896a36d-aaab-4d58-814f-fc04697f842c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 15:21:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RLVR",
+    "pass@k",
+    "熵坍缩",
+    "前缀补全",
+    "探索优化",
+    "GRPO",
+    "弱模型引导"
+   ],
+   "field": "大语言模型推理强化学习",
+   "innovations": [
+    "提出跨模型弱前缀引导的RLVR探索增强方法，利用分布差异而非蒸馏质量提升pass@k",
+    "设计基于目标模型熵衰减转折点的自适应前缀截断策略",
+    "发现语义指导质量与探索扰动效用解耦，跨模型前缀优于同源高质量前缀"
+   ],
+   "benchmarks": [
+    "MATH",
+    "AIME 2024",
+    "AIME 2025",
+    "AMC 2023",
+    "Minerva",
+    "Olympiad Bench"
+   ]
+  }
+ }
 }
