@@ -4,5 +4,36 @@
  "title": "VISA-Agentic-Self-Evolving-Data-Synthesis-for-Multimodal-Ins",
  "token": "sk-ZHrWl9Czg...",
  "created_at": "2026-08-27 12:21:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/7672d2fa-e861-46e3-9dd5-2d122192a725.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/7672d2fa-e861-46e3-9dd5-2d122192a725.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 01:52:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态指令跟随",
+    "数据合成",
+    "自进化Agent",
+    "可验证奖励",
+    "RLVR",
+    "约束发现"
+   ],
+   "field": "多模态大模型指令微调",
+   "innovations": [
+    "提出闭环自进化Agent框架将多模态指令合成从开环生成转为迭代反馈优化",
+    "统一验证器合约同时服务合成过滤和RL奖励无需独立奖励模型",
+    "持久记忆驱动双粒度多样性控制与难度感知约束采样"
+   ],
+   "benchmarks": [
+    "MM-IFEval",
+    "MMBench",
+    "MM-Star",
+    "MM-Vet",
+    "HallusionBench",
+    "MathVista",
+    "OCRBench",
+    "AI2D"
+   ]
+  }
+ }
 }

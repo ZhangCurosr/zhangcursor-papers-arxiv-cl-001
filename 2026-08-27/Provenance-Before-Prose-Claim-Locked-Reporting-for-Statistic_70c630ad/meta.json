@@ -4,5 +4,30 @@
  "title": "Provenance-Before-Prose-Claim-Locked-Reporting-for-Statistic",
  "token": "sk-gD7m2ian9...",
  "created_at": "2026-08-27 23:34:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/7d922bf3-cace-403e-a884-1f5f7b2714d8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/7d922bf3-cace-403e-a884-1f5f7b2714d8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 01:48:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "statistical text generation",
+    "claim-locked reporting",
+    "LLM reliability",
+    "cross-run reproducibility",
+    "constrained generation",
+    "scientific reporting"
+   ],
+   "field": "统计文本生成与LLM可靠性",
+   "innovations": [
+    "提出声明锁定报告协议，在prose生成前固定声明的证据源、数值、方向与语言强度",
+    "构建可迁移的审计-政策接口，统一适配fMRI功能连接与RCT报告两类科学场景",
+    "揭示FActScore与SelfCheckGPT在统计声明保留任务上的正交性盲区"
+   ],
+   "benchmarks": [
+    "Evidence Inference 2.0",
+    "Human Connectome Project S1200"
+   ]
+  }
+ }
 }

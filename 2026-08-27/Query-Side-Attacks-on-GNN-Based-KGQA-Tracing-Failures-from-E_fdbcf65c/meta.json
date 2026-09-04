@@ -4,5 +4,32 @@
  "title": "Query-Side-Attacks-on-GNN-Based-KGQA-Tracing-Failures-from-E",
  "token": "sk-kdPBKi9MQ...",
  "created_at": "2026-08-27 12:22:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/45be9a28-2fee-48f9-b47c-dfd9b291e541.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/45be9a28-2fee-48f9-b47c-dfd9b291e541.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 01:48:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "KGQA",
+    "GNN-RAG",
+    "adversarial robustness",
+    "query-side attack",
+    "stage-isolation",
+    "compositional restructuring",
+    "subgraph retrieval"
+   ],
+   "field": "知识图谱问答鲁棒性与可解释性",
+   "innovations": [
+    "提出阶段隔离协议并量化子图拓扑归因（52.08pp/52.22pp）",
+    "定义答案保留型CR/RS扰动，揭示答案存在≠可达的PPR锚定失败",
+    "推理时路径注入（RoG+PathOnly）免微调恢复CR损失至51.43% EM"
+   ],
+   "benchmarks": [
+    "ComplexWebQuestions (CWQ)",
+    "WebQSP",
+    "MetaQA (WikiMovies)"
+   ]
+  }
+ }
 }

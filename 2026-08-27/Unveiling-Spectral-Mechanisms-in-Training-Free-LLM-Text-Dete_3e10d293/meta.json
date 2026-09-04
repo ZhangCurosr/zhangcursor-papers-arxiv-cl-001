@@ -4,5 +4,34 @@
  "title": "Unveiling-Spectral-Mechanisms-in-Training-Free-LLM-Text-Dete",
  "token": "sk-vBvZ06NsJ...",
  "created_at": "2026-08-27 23:34:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/e3802403-8f9c-4af7-8e22-2dbbc67356da.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/e3802403-8f9c-4af7-8e22-2dbbc67356da.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 01:54:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "training-free text detection",
+    "spectral analysis",
+    "generative vitality",
+    "LLM-generated text detection",
+    "human-AI collaborative text",
+    "frequency-domain detection"
+   ],
+   "field": "无训练大语言模型文本检测",
+   "innovations": [
+    "建立生成活力的 head/tail 混合视图并证明频谱能量差源于时域方差差",
+    "系统揭示频谱检测在长度、采样范围、混合源与协作编辑场景下的有效边界",
+    "提供置信度与波动指标正交性及自适应融合方向的实证指南"
+   ],
+   "benchmarks": [
+    "XSum",
+    "WritingPrompts",
+    "Reddit ELI5",
+    "SemEval-2024 Task 8 Subtask C",
+    "CoAuthor",
+    "MixText"
+   ]
+  }
+ }
 }

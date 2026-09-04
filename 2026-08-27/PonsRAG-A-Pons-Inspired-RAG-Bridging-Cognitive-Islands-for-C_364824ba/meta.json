@@ -4,5 +4,33 @@
  "title": "PonsRAG-A-Pons-Inspired-RAG-Bridging-Cognitive-Islands-for-C",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-08-27 12:23:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/556c89e2-bfcd-4f0e-8556-03754f4e8656.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/556c89e2-bfcd-4f0e-8556-03754f4e8656.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 01:47:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RAG",
+    "长叙事推理",
+    "多层索引",
+    "跨层协同检索",
+    "认知孤岛",
+    "Co-HITS",
+    "知识图谱"
+   ],
+   "field": "检索增强生成与长上下文推理",
+   "innovations": [
+    "提出受脑桥启发的三层索引（Char/Plot/Pons）与跨层协同推理流水线解决认知孤岛问题",
+    "引入Co-HITS双向强化与匈牙利最大权二分匹配实现跨层联合证据构造",
+    "提出稀疏控制器τ与MGS多粒度评分机制，建立跨层语义距离量化分析框架"
+   ],
+   "benchmarks": [
+    "NarrativeQA",
+    "∞Bench EN.QA",
+    "∞Bench EN.MC",
+    "NoCha"
+   ]
+  }
+ }
 }

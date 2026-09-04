@@ -4,5 +4,35 @@
  "title": "SHORT-HORIZONS-AND-SPARSE-CONCEPTS-A-MATH-EMATICAL-VIEW-OF-T",
  "token": "sk-yjjHVmEWF...",
  "created_at": "2026-08-27 12:24:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/f4e3ac4e-2320-42fb-94b5-59b3cecc6277.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/f4e3ac4e-2320-42fb-94b5-59b3cecc6277.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 01:49:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Jacobian lens",
+    "mechanistic interpretability",
+    "model explanation",
+    "causal representation",
+    "neural network readout",
+    "short horizons",
+    "sparse concepts"
+   ],
+   "field": "语言模型机制可解释性",
+   "innovations": [
+    "通过 Stein 桥证明 J-lens 在高斯输入下等价于最优线性读出",
+    "将 Jacobian 能量分解为短视界（对角）和稀疏概念（关键位置）两种模式",
+    "提出基于能量过滤的 J-lens 改进方法，ICR 提升约 18%"
+   ],
+   "benchmarks": [
+    "association",
+    "multihop reasoning",
+    "multilingual",
+    "order-ops",
+    "poetry",
+    "typos"
+   ]
+  }
+ }
 }

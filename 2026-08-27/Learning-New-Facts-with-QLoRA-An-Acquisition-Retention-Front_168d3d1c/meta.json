@@ -4,5 +4,41 @@
  "title": "Learning-New-Facts-with-QLoRA-An-Acquisition-Retention-Front",
  "token": "sk-haVkJ3VAf...",
  "created_at": "2026-08-27 12:21:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/dd4d630e-81c1-431a-97be-8f08b8e4bcd5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/dd4d630e-81c1-431a-97be-8f08b8e4bcd5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 01:47:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "QLoRA",
+    "parameter-efficient fine-tuning",
+    "factual acquisition",
+    "acquisition-retention frontier",
+    "model drift diagnostics",
+    "OpenStreetMap benchmark",
+    "rank sweep"
+   ],
+   "field": "大语言模型高效微调与知识获取",
+   "innovations": [
+    "提出匿名化 OSM 事实获取基准以控制预训练知识污染",
+    "揭示 QLoRA rank 控制的事实获取-保留权衡前沿",
+    "将行为权衡与对称 KL、RMS drift、SVD intruder 等多维漂移诊断关联"
+   ],
+   "benchmarks": [
+    "OSM Factual Acquisition",
+    "HumanEval",
+    "IFEval",
+    "TruthfulQA",
+    "MMLU-Redux-2.0",
+    "BBH",
+    "OpenR1-Math-220k subset",
+    "MATH-500",
+    "AIME'24/25",
+    "AMC'23",
+    "Minerva Math",
+    "Olympiad-Bench"
+   ]
+  }
+ }
 }

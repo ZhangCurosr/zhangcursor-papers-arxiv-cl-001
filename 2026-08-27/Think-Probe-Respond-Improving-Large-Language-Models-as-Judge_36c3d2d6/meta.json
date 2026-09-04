@@ -4,5 +4,28 @@
  "title": "Think-Probe-Respond-Improving-Large-Language-Models-as-Judge",
  "token": "sk-n7iJ0Z1Ol...",
  "created_at": "2026-08-27 23:34:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/7fc426c9-4382-4683-b2cb-a14b377edee0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/7fc426c9-4382-4683-b2cb-a14b377edee0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 01:51:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM as Judge",
+    "Research Idea Novelty",
+    "Hidden State Probing",
+    "Bias Mitigation",
+    "Think-Probe-Respond"
+   ],
+   "field": "大语言模型评估与校准",
+   "innovations": [
+    "揭示LLM新颖性判断系统性'中等'偏见",
+    "提出基于推理阶段隐藏状态探测的轻量级校准方法TPR",
+    "证明非推理模型配合显式思考指令可获得最大性能提升"
+   ],
+   "benchmarks": [
+    "RINoBench"
+   ]
+  }
+ }
 }

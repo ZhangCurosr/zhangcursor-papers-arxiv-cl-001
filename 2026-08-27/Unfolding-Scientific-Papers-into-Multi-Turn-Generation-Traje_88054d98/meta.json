@@ -4,5 +4,10 @@
  "title": "Unfolding-Scientific-Papers-into-Multi-Turn-Generation-Traje",
  "token": "sk-MljcAo9Bd...",
  "created_at": "2026-08-27 23:34:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/40cc1ac3-7fe7-4036-aed8-9b8bac9698a2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/40cc1ac3-7fe7-4036-aed8-9b8bac9698a2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 01:52:17",
+  "chunks": 1
+ }
 }

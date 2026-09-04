@@ -4,5 +4,30 @@
  "title": "Trace-Integrity-for-LLM-Data-Agents-A-Vision-for-Auditable-S",
  "token": "sk-qKu2Cn1y4...",
  "created_at": "2026-08-27 12:23:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/f5feb6ec-c3a4-4513-a7d4-168d4bce0f9b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/f5feb6ec-c3a4-4513-a7d4-168d4bce0f9b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 01:51:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Trace Integrity",
+    "CAIT Rate",
+    "LLM data agents",
+    "Text-to-SQL",
+    "executable contracts",
+    "structured reasoning",
+    "deployment reliability"
+   ],
+   "field": "LLM Agent 可靠性与可审计性",
+   "innovations": [
+    "提出 Trace Integrity 七维框架作为 LLM 数据智能体的部署可靠性标准",
+    "定义 CAIT Rate 度量正确答案/无效追踪的静默失败风险",
+    "引入 Execution Contract 结构化工件和 Isolation Principle 规划纪律"
+   ],
+   "benchmarks": [
+    "BIRD Mini-Dev"
+   ]
+  }
+ }
 }

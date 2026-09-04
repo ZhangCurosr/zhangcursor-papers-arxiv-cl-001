@@ -4,5 +4,32 @@
  "title": "Prefix-Sliding-for-efficient-test-time-scaling",
  "token": "sk-EqwJR1nOB...",
  "created_at": "2026-08-27 12:23:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/5b4daed0-aa9f-4c6e-8180-c4307b100819.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/5b4daed0-aa9f-4c6e-8180-c4307b100819.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 01:47:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "test-time scaling",
+    "sliding window attention",
+    "long-context reasoning",
+    "reinforcement learning",
+    "KV cache",
+    "efficient inference"
+   ],
+   "field": "高效推理与长上下文建模",
+   "innovations": [
+    "提出Prefix Sliding方法，仅保留前缀和滑动窗口的注意力，实现恒定成本的超长推理",
+    "设计截断反向传播策略，支持10万+token的RL训练而无需OOM",
+    "实现自定义FlashAttention内核，在Hopper架构上达到与标准SWA相近的吞吐量"
+   ],
+   "benchmarks": [
+    "GPQA",
+    "MATH500",
+    "AIME25",
+    "LiveCodeBench"
+   ]
+  }
+ }
 }

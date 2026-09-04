@@ -4,5 +4,32 @@
  "title": "Unmatched-Does-Not-Mean-False-Incomplete-Reference-Sets-Can",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-08-27 12:25:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/9e8c93c8-2e87-4214-b714-132c170aa4ef.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/9e8c93c8-2e87-4214-b714-132c170aa4ef.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 01:52:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Theory-of-Mind",
+    "校准",
+    "Brier风险",
+    "有限参考集",
+    "预测驱动推断",
+    "评估偏置"
+   ],
+   "field": "开放域问答评估与校准",
+   "innovations": [
+    "在内容固定条件下识别标签源效应导致的严格正确评分排序反转",
+    "诊断NQ-open DPR-BERT流水线在精确匹配与人工正确性标签间的校准反转",
+    "提出TriSource-Restore方法通过50条人类注解恢复排序并修复置信度"
+   ],
+   "benchmarks": [
+    "DoubtfulToM-Bench",
+    "OpenToM",
+    "NQ-open DPR-BERT",
+    "CuratedTREC"
+   ]
+  }
+ }
 }

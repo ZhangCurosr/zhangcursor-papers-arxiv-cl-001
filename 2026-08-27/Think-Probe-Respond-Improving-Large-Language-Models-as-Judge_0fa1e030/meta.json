@@ -4,5 +4,10 @@
  "title": "Think-Probe-Respond-Improving-Large-Language-Models-as-Judge",
  "token": "sk-n7iJ0Z1Ol...",
  "created_at": "2026-08-27 12:22:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/7fc426c9-4382-4683-b2cb-a14b377edee0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/7fc426c9-4382-4683-b2cb-a14b377edee0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 01:51:41",
+  "chunks": 1
+ }
 }

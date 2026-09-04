@@ -4,5 +4,30 @@
  "title": "The-Curse-of-Knowledge-in-LLM-Query-Simulation-Concept-Prove",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-08-27 23:34:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/cddd0010-d066-4507-b36f-56b23a2a4d9a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/cddd0010-d066-4507-b36f-56b23a2a4d9a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 01:50:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "concept provenance",
+    "IR evaluation",
+    "LLM query simulation",
+    "boundary compliance",
+    "synthetic evaluation",
+    "query validation"
+   ],
+   "field": "信息检索评估与用户模拟",
+   "innovations": [
+    "提出概念溯源框架区分人类尾部变化与答案侧入侵",
+    "定义HCIR指标并验证Z2/Z3_auto区分的构念效度",
+    "证明生成后概念溯源选择可实现99%入侵消除"
+   ],
+   "benchmarks": [
+    "UQV100",
+    "ClueWeb12-B13"
+   ]
+  }
+ }
 }

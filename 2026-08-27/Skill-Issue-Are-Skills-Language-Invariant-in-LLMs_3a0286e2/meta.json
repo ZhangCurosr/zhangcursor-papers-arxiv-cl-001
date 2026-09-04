@@ -4,5 +4,10 @@
  "title": "Skill-Issue-Are-Skills-Language-Invariant-in-LLMs",
  "token": "sk-9ieZJEGxv...",
  "created_at": "2026-08-27 23:34:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/b584621c-dc36-4ede-b2c4-a5ec11bdfd43.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/b584621c-dc36-4ede-b2c4-a5ec11bdfd43.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 01:49:33",
+  "chunks": 1
+ }
 }

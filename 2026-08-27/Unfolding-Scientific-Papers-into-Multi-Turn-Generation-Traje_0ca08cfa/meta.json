@@ -4,5 +4,35 @@
  "title": "Unfolding-Scientific-Papers-into-Multi-Turn-Generation-Traje",
  "token": "sk-MljcAo9Bd...",
  "created_at": "2026-08-27 12:22:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/40cc1ac3-7fe7-4036-aed8-9b8bac9698a2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/40cc1ac3-7fe7-4036-aed8-9b8bac9698a2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 01:51:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "continued pretraining",
+    "synthetic data",
+    "scientific writing",
+    "multi-turn trajectory",
+    "instruction fine-tuning",
+    "academic benchmark"
+   ],
+   "field": "科学写作与合成数据生成",
+   "innovations": [
+    "将整篇科学论文展开为包含全局规划与分节思考的多轮生成轨迹，提升继续预训练数据效率",
+    "同一逆向构造同时生成SFT数据集与论文锚定写作基准PAW-Bench",
+    "揭示生成器规模与训练损失、下游写作收益之间的非单调关系，较小生成器可产出更具多样性的有效训练数据"
+   ],
+   "benchmarks": [
+    "WritingBench",
+    "PAW-Bench",
+    "HelloBench",
+    "LongBench-Write",
+    "Qasper",
+    "QASA",
+    "LongBench v2"
+   ]
+  }
+ }
 }

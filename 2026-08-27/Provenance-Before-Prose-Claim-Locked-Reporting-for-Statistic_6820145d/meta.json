@@ -4,5 +4,32 @@
  "title": "Provenance-Before-Prose-Claim-Locked-Reporting-for-Statistic",
  "token": "sk-gD7m2ian9...",
  "created_at": "2026-08-27 12:23:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/7d922bf3-cace-403e-a884-1f5f7b2714d8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/7d922bf3-cace-403e-a884-1f5f7b2714d8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 01:48:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "statistical reporting",
+    "claim-locked reporting",
+    "LLM faithfulness",
+    "cross-run reproducibility",
+    "evidence-bound claims",
+    "deterministic rendering",
+    "risk auditor"
+   ],
+   "field": "可信大模型生成与统计报告可靠性",
+   "innovations": [
+    "提出 claim-locked reporting 协议，将证据源/数值/方向/强度在 prose 生成前锁定到 claim ledger",
+    "揭示 hybrid template 的 slot 级控制不足以稳定证据承载内容",
+    "建立可复现性/治理/正确性三轴评估并校准 FActScore 类指标的局限性"
+   ],
+   "benchmarks": [
+    "Evidence Inference 2.0",
+    "HCP S1200 fMRI cohort",
+    "In-house obesity fMRI cohort"
+   ]
+  }
+ }
 }

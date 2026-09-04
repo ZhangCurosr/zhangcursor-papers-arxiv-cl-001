@@ -4,5 +4,32 @@
  "title": "Query-Side-Attacks-on-GNN-Based-KGQA-Tracing-Failures-from-E",
  "token": "sk-kdPBKi9MQ...",
  "created_at": "2026-08-27 23:34:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/45be9a28-2fee-48f9-b47c-dfd9b291e541.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/45be9a28-2fee-48f9-b47c-dfd9b291e541.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 01:48:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "KGQA",
+    "GNN-RAG",
+    "adversarial robustness",
+    "stage-isolation",
+    "PPR retrieval",
+    "entity linking"
+   ],
+   "field": "知识图谱问答鲁棒性",
+   "innovations": [
+    "阶段隔离协议实现逐阶段失败归因",
+    "揭示答案存在不等于答案可达的拓扑失配现象",
+    "推理时路径注入无需微调恢复51.4%准确率"
+   ],
+   "benchmarks": [
+    "CWQ",
+    "WebQSP",
+    "MetaQA",
+    "ConvMix/Wikidata"
+   ]
+  }
+ }
 }

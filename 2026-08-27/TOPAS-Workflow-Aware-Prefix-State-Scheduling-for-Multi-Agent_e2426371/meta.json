@@ -4,5 +4,33 @@
  "title": "TOPAS-Workflow-Aware-Prefix-State-Scheduling-for-Multi-Agent",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-08-27 23:34:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/38cd8e16-a927-4554-ad3c-651d0c840fd9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/38cd8e16-a927-4554-ad3c-651d0c840fd9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 01:49:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-agent LLM serving",
+    "prefix caching",
+    "request scheduling",
+    "job completion time",
+    "workflow-aware scheduling",
+    "KV cache management"
+   ],
+   "field": "LLM serving 系统优化",
+   "innovations": [
+    "首个将前缀驻留与请求接纳联合优化的工作流感知在线调度器",
+    "以任务最长剩余服务路径期望缩减为核心的JCT导向效用函数",
+    "短视复用价值与任务老化机制联合抑制上游饿死与下游延迟"
+   ],
+   "benchmarks": [
+    "Chain-3",
+    "DAG-4",
+    "DAG-10-Wide",
+    "MetaGPT-SOP",
+    "MetaGPT-TL"
+   ]
+  }
+ }
 }

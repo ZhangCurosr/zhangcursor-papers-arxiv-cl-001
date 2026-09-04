@@ -4,5 +4,31 @@
  "title": "Skill-Issue-Are-Skills-Language-Invariant-in-LLMs",
  "token": "sk-9ieZJEGxv...",
  "created_at": "2026-08-27 12:21:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/6d44e026-8cd4-4872-8847-5695388985c6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/6d44e026-8cd4-4872-8847-5695388985c6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 01:49:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multilingual LLM",
+    "cross-lingual skill inconsistency",
+    "self-play evaluation",
+    "agent gameplay",
+    "language-conditioned reasoning",
+    "multilingual benchmark"
+   ],
+   "field": "多语言大模型评估",
+   "innovations": [
+    "提出 multilingual self-play 范式正交量化 LLM 跨语言技能不一致性",
+    "发现推理语言切换可部分恢复弱语言界面性能（最高 89.4%）",
+    "构建 193 语言 65 游戏的多语言 TextArena 资源库并提供三级翻译验证管线"
+   ],
+   "benchmarks": [
+    "Multilingual TextArena",
+    "Global-MMLU",
+    "Belebele"
+   ]
+  }
+ }
 }

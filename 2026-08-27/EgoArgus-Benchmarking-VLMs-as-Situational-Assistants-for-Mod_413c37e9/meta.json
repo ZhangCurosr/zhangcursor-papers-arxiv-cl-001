@@ -4,5 +4,32 @@
  "title": "EgoArgus-Benchmarking-VLMs-as-Situational-Assistants-for-Mod",
  "token": "sk-RdV3tP4AZ...",
  "created_at": "2026-08-27 12:24:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/03d13c63-374c-403f-8fdc-8737cf48faf4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/03d13c63-374c-403f-8fdc-8737cf48faf4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 01:46:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "egocentric assistant",
+    "modality bias",
+    "VLM benchmarking",
+    "intervention decision",
+    "multimodal arbitration"
+   ],
+   "field": "多模态助手评测与模态偏差",
+   "innovations": [
+    "提出EgoArgus双模块基准，系统评估第一人称助手在多模态冲突下的仲裁与干预决策能力",
+    "揭示矛盾对话导致VLM系统性失效（准确率低于随机）及文本主导偏差的不对称性",
+    "验证现有模态偏差缓解方法（重加权/偏好对齐）在助手场景下无效，提供层析诊断证据"
+   ],
+   "benchmarks": [
+    "EgoArgus",
+    "VISTA",
+    "EgoPlan-Bench2",
+    "QaEgo4D",
+    "MIntRec"
+   ]
+  }
+ }
 }

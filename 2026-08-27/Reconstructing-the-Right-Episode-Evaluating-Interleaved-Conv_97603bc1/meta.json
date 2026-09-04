@@ -4,5 +4,33 @@
  "title": "Reconstructing-the-Right-Episode-Evaluating-Interleaved-Conv",
  "token": "sk-LV19Ft0NN...",
  "created_at": "2026-08-27 23:34:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/7849e0ec-9308-4132-b832-c60e5ed66c3b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/7849e0ec-9308-4132-b832-c60e5ed66c3b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 01:48:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "episodic memory",
+    "long-context QA",
+    "RAG",
+    "conversation memory",
+    "episode reconstruction",
+    "SCALE-QA",
+    "TSIM"
+   ],
+   "field": "长上下文对话记忆与检索增强",
+   "innovations": [
+    "提出episode integrity failure作为独立失败模式并构建可审计基准SCALE-QA",
+    "TSIM通过语义漂移流式分段与多视图episode索引实现episode-centered memory",
+    "证明episode重建比chunk检索更能解决flat mixed-topic对话中的约束恢复问题"
+   ],
+   "benchmarks": [
+    "SCALE-QA",
+    "LongMemEval-S",
+    "LongBench",
+    "∞Bench"
+   ]
+  }
+ }
 }
