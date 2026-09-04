@@ -4,5 +4,35 @@
  "title": "Surgical-Alignment-in-Knowledge-Graph-Training-for-Clinical",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-08-28 13:50:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/42f9775f-ac16-4545-885d-c37cc54608af.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/42f9775f-ac16-4545-885d-c37cc54608af.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:30:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "知识图谱",
+    "大语言模型",
+    "临床诊断",
+    "梯度分析",
+    "手术对齐",
+    "强化学习",
+    "SFT",
+    "GRPO"
+   ],
+   "field": "医学NLP与知识图谱融合",
+   "innovations": [
+    "提出GID和GD优化几何诊断指标，揭示手术对齐现象",
+    "系统研究5种KG任务表述×3种训练范式的整合效果",
+    "证实判断类目标函数本身产生稀疏更新，优于任务特定SFT"
+   ],
+   "benchmarks": [
+    "ProbSum",
+    "DDXPlus",
+    "MedQA",
+    "MedMCQA",
+    "PDSQI-9"
+   ]
+  }
+ }
 }

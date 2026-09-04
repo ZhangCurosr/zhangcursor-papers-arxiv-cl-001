@@ -4,5 +4,32 @@
  "title": "KinyaEmbed-Contrastive-Sentence-Embeddings-for-Kinyarwanda-v",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-28 23:23:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/c2cb6cef-47b8-4f72-899c-52d876e5afd8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/c2cb6cef-47b8-4f72-899c-52d876e5afd8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:26:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "句子嵌入",
+    "低资源语言",
+    "对比学习",
+    "卢旺达语",
+    "课程学习",
+    "多语言 NLP"
+   ],
+   "field": "低资源语言表示学习",
+   "innovations": [
+    "四阶段课程对比微调：从单语同义句到人工标注跨语言对的递进训练策略",
+    "KinyaCOMET 质量标注资源的对比学习再利用",
+    "嵌入空间多检查点集成实现单语STS与跨语言对齐的Pareto优化"
+   ],
+   "benchmarks": [
+    "SemRel2024-rw",
+    "Wiki-RW-STS",
+    "OPUS-100 Bitext Mining",
+    "FLORES-200 Bitext Mining"
+   ]
+  }
+ }
 }

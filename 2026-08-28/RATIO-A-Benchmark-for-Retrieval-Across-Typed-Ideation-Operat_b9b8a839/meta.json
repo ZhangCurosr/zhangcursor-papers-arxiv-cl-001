@@ -4,5 +4,29 @@
  "title": "RATIO-A-Benchmark-for-Retrieval-Across-Typed-Ideation-Operat",
  "token": "sk-AsgiqoBdE...",
  "created_at": "2026-08-28 13:46:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/17155934-2c09-4f80-879e-820bbe515e49.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/17155934-2c09-4f80-879e-820bbe515e49.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:27:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "科学检索",
+    "构想操作",
+    "话语标记",
+    "远端监督",
+    "灵感检索",
+    "基准构建"
+   ],
+   "field": "信息检索与科学计算",
+   "innovations": [
+    "将话语标记远端监督从分类扩展到关系条件检索",
+    "定义ADDRESS/BROADEN/SPECIFY三种构想操作类型",
+    "构建300万+全文本科学论文的句子级检索基准"
+   ],
+   "benchmarks": [
+    "RATIO"
+   ]
+  }
+ }
 }

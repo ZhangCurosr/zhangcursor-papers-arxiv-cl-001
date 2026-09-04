@@ -4,5 +4,34 @@
  "title": "Squeezing-More-from-Limited-Data-with-Recursive-Transformers",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-28 23:23:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/a6c8004f-1f77-4a0e-9052-8dd9a2cfc386.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/a6c8004f-1f77-4a0e-9052-8dd9a2cfc386.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:30:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "递归Transformer",
+    "有限数据预训练",
+    "因式分解嵌入",
+    "BabyLM",
+    "模型缩放",
+    "计算效率"
+   ],
+   "field": "低资源语言模型预训练",
+   "innovations": [
+    "提出RecursiveGPT架构，通过递归权重共享将深度作为独立于参数量的计算扩展轴",
+    "在10M和100M词预算下系统验证递归Transformer优于标准Transformer并与BabyLM 2025获奖者竞争",
+    "揭示有限数据下标准Transformer的非单调缩放行为及最优规模对下游任务的依赖性"
+   ],
+   "benchmarks": [
+    "BLiMP",
+    "COMPS",
+    "LAMBADA pass@5",
+    "EWoK",
+    "Entity Tracking",
+    "BabyLM Challenge 2025"
+   ]
+  }
+ }
 }

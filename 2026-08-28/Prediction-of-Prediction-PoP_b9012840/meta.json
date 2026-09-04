@@ -4,5 +4,10 @@
  "title": "Prediction-of-Prediction-PoP",
  "token": "sk-1FwfANuN8...",
  "created_at": "2026-08-28 13:46:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/999292bc-54f6-4994-b8fd-2bac83959a44.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/999292bc-54f6-4994-b8fd-2bac83959a44.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:27:36",
+  "chunks": 1
+ }
 }

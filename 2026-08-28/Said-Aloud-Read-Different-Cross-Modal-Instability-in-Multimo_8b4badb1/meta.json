@@ -4,5 +4,10 @@
  "title": "Said-Aloud-Read-Different-Cross-Modal-Instability-in-Multimo",
  "token": "sk-rnwM2rvcl...",
  "created_at": "2026-08-28 23:24:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/d15315a4-3270-4866-b52a-62cdccc92208.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/d15315a4-3270-4866-b52a-62cdccc92208.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:29:53",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,29 @@
  "title": "SWE-Prime-Fewer-Trajectories-Better-Performance",
  "token": "sk-EqwJR1nOB...",
  "created_at": "2026-08-28 13:46:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/537f3a9e-ec6d-48ea-8e33-305b676a3a3f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/537f3a9e-ec6d-48ea-8e33-305b676a3a3f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:29:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "software agent",
+    "SFT data selection",
+    "trajectory quality",
+    "selective loss",
+    "SWE-bench"
+   ],
+   "field": "代码智能体训练数据选择",
+   "innovations": [
+    "多粒度两阶段轨迹与语义片段选择框架",
+    "五维轨迹质量评估与聚类代表性采样",
+    "选择性SFT损失仅在高质量片段上计算梯度"
+   ],
+   "benchmarks": [
+    "SWE-Bench Verified",
+    "SWE-Bench Pro"
+   ]
+  }
+ }
 }

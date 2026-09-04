@@ -4,5 +4,31 @@
  "title": "STOCHASTIC-ESTIMATION-OF-TRANSDUCED-LANGUAGE-MODELS",
  "token": "sk-dQ65jxzP4...",
  "created_at": "2026-08-28 13:46:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/2e4d69e9-90d5-4dff-a20c-17474239aeda.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/2e4d69e9-90d5-4dff-a20c-17474239aeda.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:29:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "transduced language model",
+    "unbiased estimation",
+    "stochastic beam search",
+    "without replacement sampling",
+    "Horvitz-Thompson weighting",
+    "particle filtering"
+   ],
+   "field": "语言模型与形式语言理论",
+   "innovations": [
+    "用无放回采样+Horvitz-Thompson重加权替代阈值剪枝，给出TLM前缀概率的无偏估计",
+    "提出自适应预算剪枝机制，保证几乎必然终止并节省计算",
+    "量化了 prior 剪枝方法的偏差，并在心理语言学应用中验证结论稳健性"
+   ],
+   "benchmarks": [
+    "WikiText-2",
+    "DNA-to-amino-acid transcription",
+    "MECO reading-time corpus"
+   ]
+  }
+ }
 }

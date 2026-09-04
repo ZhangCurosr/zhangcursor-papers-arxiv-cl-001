@@ -4,5 +4,34 @@
  "title": "J-ZERO-UNIFIED-CHALLENGER-SOLVER-JUDGE-CO-EVOLUTION-FROM-ZER",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-08-28 13:47:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/7c9f8cbd-a241-417e-b9ec-53fa09ed3c5f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/7c9f8cbd-a241-417e-b9ec-53fa09ed3c5f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:26:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "self-evolving LLM",
+    "zero-data self-play",
+    "reward model co-adaptation",
+    "challenger-solver-judge",
+    "unverifiable domain",
+    "preference optimization"
+   ],
+   "field": "大语言模型自进化与自我改进",
+   "innovations": [
+    "Challenger-Solver-Judge 三者协同进化的零数据统一框架",
+    "基于角色不对称和子任务放大的循环内偏好对构造方法",
+    "突破固定 Judge 性能天花板实现十轮以上持续改进"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "MATH500",
+    "AIME24",
+    "MMLU-Pro",
+    "AlpacaEval 2.0",
+    "Arena-Hard-v2.0"
+   ]
+  }
+ }
 }

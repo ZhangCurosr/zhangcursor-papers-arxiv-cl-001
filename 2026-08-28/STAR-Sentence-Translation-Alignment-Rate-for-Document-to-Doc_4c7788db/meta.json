@@ -4,5 +4,33 @@
  "title": "STAR-Sentence-Translation-Alignment-Rate-for-Document-to-Doc",
  "token": "sk-JdJPQj6CY...",
  "created_at": "2026-08-28 23:23:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/e97d80d2-1f54-4bfd-8ec4-234b52170ee1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/e97d80d2-1f54-4bfd-8ec4-234b52170ee1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:29:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "document-level machine translation",
+    "preference optimization",
+    "structural alignment",
+    "STAR metric",
+    "StarPO",
+    "machine translation hallucination",
+    "preference data"
+   ],
+   "field": "文档级机器翻译",
+   "innovations": [
+    "提出STAR句级结构保真度指标，量化Doc2Doc翻译中的漏译/幻觉",
+    "设计StarPO框架，结合动态对齐掩码的对比偏好优化聚焦结构失配段",
+    "理论证明掩码机制通过降低margin防止梯度饱和，确保持续学习"
+   ],
+   "benchmarks": [
+    "News-Commentary v18.1",
+    "Guofeng (WMT25)",
+    "dCOMET",
+    "d-BLEU"
+   ]
+  }
+ }
 }

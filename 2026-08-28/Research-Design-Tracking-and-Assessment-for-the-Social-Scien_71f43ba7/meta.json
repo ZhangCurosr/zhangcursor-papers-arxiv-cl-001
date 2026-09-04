@@ -4,5 +4,30 @@
  "title": "Research-Design-Tracking-and-Assessment-for-the-Social-Scien",
  "token": "sk-LV19Ft0NN...",
  "created_at": "2026-08-28 13:47:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/e9545161-fb72-4804-8fa6-68665ddd98af.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/e9545161-fb72-4804-8fa6-68665ddd98af.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:27:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "因果推断",
+    "研究设计评估",
+    "检索增强生成",
+    "社会科学计算",
+    "文本分割策略",
+    "人机难度解耦"
+   ],
+   "field": "计算社会科学/NLP交叉",
+   "innovations": [
+    "首次形式化研究设计追踪与评估任务",
+    "发现段落长度解释52-66%性能方差",
+    "揭示人类与机器评估难度正交"
+   ],
+   "benchmarks": [
+    "ARDTrA 140论文数据集",
+    "Krippendorff's alpha人工一致性基线"
+   ]
+  }
+ }
 }

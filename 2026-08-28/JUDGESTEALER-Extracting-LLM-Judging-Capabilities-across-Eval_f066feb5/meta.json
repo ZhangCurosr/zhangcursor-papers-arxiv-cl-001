@@ -4,5 +4,36 @@
  "title": "JUDGESTEALER-Extracting-LLM-Judging-Capabilities-across-Eval",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-28 23:23:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/7f24562c-d8e5-4347-91d8-a119301e29b9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/7f24562c-d8e5-4347-91d8-a119301e29b9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:26:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "模型提取攻击",
+    "LLM-as-a-Judge",
+    "评估能力复制",
+    "黑盒查询",
+    "主动学习",
+    "多协议学习",
+    "反遗忘"
+   ],
+   "field": "大语言模型安全与鲁棒性",
+   "innovations": [
+    "提出首个利用交叉协议一致性进行查询高效的LLM评判能力多协议联合提取框架",
+    "设计融合语义多样性、预测不确定性和评判偏差的动态信息输入选择机制",
+    "引入自适应平滑与多协议整合训练以保留序数结构并缓解灾难性遗忘"
+   ],
+   "benchmarks": [
+    "Alpaca",
+    "GPT4All",
+    "GPT-5.4",
+    "Claude Sonnet 4.5",
+    "Qwen3-235B-A22B",
+    "DeepSeek V4 Pro",
+    "UniRRM"
+   ]
+  }
+ }
 }

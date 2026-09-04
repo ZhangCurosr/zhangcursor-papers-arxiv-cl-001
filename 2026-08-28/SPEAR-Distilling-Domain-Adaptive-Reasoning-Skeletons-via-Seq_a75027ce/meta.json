@@ -4,5 +4,32 @@
  "title": "SPEAR-Distilling-Domain-Adaptive-Reasoning-Skeletons-via-Seq",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-08-28 13:47:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/2a1cb950-443a-4d61-9d2b-fa462243e9df.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/2a1cb950-443a-4d61-9d2b-fa462243e9df.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:28:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "强化学习蒸馏",
+    "过程奖励",
+    "符号对齐",
+    "序列级在线蒸馏",
+    "LCS奖励"
+   ],
+   "field": "大语言模型推理蒸馏",
+   "innovations": [
+    "免训练领域自适应符号锚点提取机制，将自然语言推理轨迹投影为结构化符号序列",
+    "LCS-F1顺序感知对齐奖励，同时惩罚冗余和遗漏的推理步骤",
+    "门控组合奖励设计，融合格式合规、结果准确率和过程对齐信号"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "MATH",
+    "GPQA",
+    "CommonsenseQA",
+    "AlpacaEval 2.0"
+   ]
+  }
+ }
 }

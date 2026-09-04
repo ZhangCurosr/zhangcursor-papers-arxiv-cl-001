@@ -4,5 +4,10 @@
  "title": "STAR-Sentence-Translation-Alignment-Rate-for-Document-to-Doc",
  "token": "sk-JdJPQj6CY...",
  "created_at": "2026-08-28 13:46:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/e97d80d2-1f54-4bfd-8ec4-234b52170ee1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/e97d80d2-1f54-4bfd-8ec4-234b52170ee1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:29:32",
+  "chunks": 1
+ }
 }

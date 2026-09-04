@@ -4,5 +4,10 @@
  "title": "SCALING-PHONEME-BASED-TTS-AUGMENTATION-FOR-ASR-A-UNIFIED-PIP",
  "token": "sk-qf4fjeNDd...",
  "created_at": "2026-08-28 13:48:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/47edc49b-1ca6-4fec-9ea3-c619d9d98dea.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/47edc49b-1ca6-4fec-9ea3-c619d9d98dea.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:28:38",
+  "chunks": 1
+ }
 }

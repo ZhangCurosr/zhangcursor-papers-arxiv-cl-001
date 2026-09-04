@@ -4,5 +4,30 @@
  "title": "RuleWeaver-Benchmarking-Rule-Centered-Scenario-Reasoning-for",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-08-28 13:46:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/2097a298-80c8-4398-95c7-0331e5ffbfd1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/2097a298-80c8-4398-95c7-0331e5ffbfd1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:28:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "规则推理",
+    "大语言模型评测",
+    "场景推理",
+    "过程级评估",
+    "语义增强",
+    "依赖链",
+    "基准构建"
+   ],
+   "field": "大语言模型评测与推理",
+   "innovations": [
+    "提出从语料库元规则经六种语义增强类型渐进构建复杂规则的基准框架",
+    "设计依赖规划驱动的场景QA四阶段生成流水线，实现规则逻辑链显式编码",
+    "提出三维过程级评估协议（评分量表/规则召回/规则精确）区分检索与应用环节"
+   ],
+   "benchmarks": [
+    "RuleWeaver"
+   ]
+  }
+ }
 }

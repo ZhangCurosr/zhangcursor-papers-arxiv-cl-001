@@ -4,5 +4,31 @@
  "title": "STOCHASTIC-ESTIMATION-OF-TRANSDUCED-LANGUAGE-MODELS",
  "token": "sk-dQ65jxzP4...",
  "created_at": "2026-08-28 23:23:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/2e4d69e9-90d5-4dff-a20c-17474239aeda.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/2e4d69e9-90d5-4dff-a20c-17474239aeda.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:29:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "transduced language model",
+    "stochastic estimation",
+    "sampling without replacement",
+    "Horvitz-Thompson",
+    "sequential Monte Carlo",
+    "beam search"
+   ],
+   "field": "语言模型概率估计",
+   "innovations": [
+    "用无放回抽样+Horvitz-Thompson重加权替代阈值剪枝，实现TLM前缀概率的无偏估计",
+    "自适应预算SWOR根据已累积概率质量动态缩减粒子数以节省计算并保证几乎必然终止",
+    "量化阈值剪枝偏差：用无偏估计均值与确定性下界之差估计丢失质量"
+   ],
+   "benchmarks": [
+    "WikiText-2",
+    "DNA-to-amino-acid",
+    "MECO psycholinguistics"
+   ]
+  }
+ }
 }

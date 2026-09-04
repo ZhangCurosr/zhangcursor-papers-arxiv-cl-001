@@ -4,5 +4,29 @@
  "title": "SWE-Prime-Fewer-Trajectories-Better-Performance",
  "token": "sk-EqwJR1nOB...",
  "created_at": "2026-08-28 23:23:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/537f3a9e-ec6d-48ea-8e33-305b676a3a3f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/537f3a9e-ec6d-48ea-8e33-305b676a3a3f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:29:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "software engineering",
+    "agent SFT",
+    "data selection",
+    "code generation",
+    "trajectory quality"
+   ],
+   "field": "代码智能体训练",
+   "innovations": [
+    "多粒度两阶段数据选择框架：轨迹级过程/结果质量评估+语义片段级价值筛选",
+    "选择性SFT损失：保留完整上下文仅对高质量片段计算训练损失",
+    "五维度轨迹质量评估：工作流接地、工具成功率、冗余检测、Git Hack检测、补丁最小化"
+   ],
+   "benchmarks": [
+    "SWE-Bench Verified",
+    "SWE-Bench Pro"
+   ]
+  }
+ }
 }

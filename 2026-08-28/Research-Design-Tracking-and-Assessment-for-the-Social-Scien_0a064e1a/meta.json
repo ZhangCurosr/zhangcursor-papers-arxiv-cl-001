@@ -4,5 +4,31 @@
  "title": "Research-Design-Tracking-and-Assessment-for-the-Social-Scien",
  "token": "sk-LV19Ft0NN...",
  "created_at": "2026-08-28 23:23:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/e9545161-fb72-4804-8fa6-68665ddd98af.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/e9545161-fb72-4804-8fa6-68665ddd98af.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:28:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RAG",
+    "causal inference",
+    "research design assessment",
+    "retrieval strategies",
+    "social sciences NLP",
+    "LLM evaluation"
+   ],
+   "field": "计算社会科学/NLP交叉",
+   "innovations": [
+    "提出自动化研究设计追踪与评估（ARDTrA）双阶段任务及专家分析框架",
+    "构建140篇六类反事实设计家族专家标注数据集",
+    "揭示段落长度解释52-66%性能方差且人机困难度解耦"
+   ],
+   "benchmarks": [
+    "ARDTrA dataset (140 papers)",
+    "BM25 vs Dense vs Adaptive vs Propositional retrieval",
+    "Llama-3.1-8B / Qwen2.5-32B / Llama-3.3-70B / gpt-5.1"
+   ]
+  }
+ }
 }

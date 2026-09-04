@@ -4,5 +4,32 @@
  "title": "SCIT-Testing-Causal-Cache-Carriers-in-Latent-Chain-of-Though",
  "token": "sk-JqniBRrr0...",
  "created_at": "2026-08-28 13:47:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/729c1e85-a0f8-48ab-8c9d-4644d6c3c2d4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/729c1e85-a0f8-48ab-8c9d-4644d6c3c2d4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:28:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "latent chain-of-thought",
+    "causal interpretability",
+    "mechanistic interpretability",
+    "cache interchange test",
+    "carrier identification",
+    "GPT-2",
+    "arithmetic reasoning"
+   ],
+   "field": "大模型机制可解释性",
+   "innovations": [
+    "提出SCIT缓存级因果协议，实现潜在CoT载体诊断",
+    "发现GPT-2算术任务的值缓存后缀载体及充分性-必要性证据",
+    "揭示载体随模型规模与任务类型的转移规律"
+   ],
+   "benchmarks": [
+    "SCIT-Bench v2",
+    "balls/books/coins算术模板",
+    "LLaMA3-1B/8B匹配诊断"
+   ]
+  }
+ }
 }

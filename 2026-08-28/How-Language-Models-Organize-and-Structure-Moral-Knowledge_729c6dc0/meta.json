@@ -4,5 +4,30 @@
  "title": "How-Language-Models-Organize-and-Structure-Moral-Knowledge",
  "token": "sk-ZHrWl9Czg...",
  "created_at": "2026-08-28 13:46:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/c5cf1e70-3ee4-4906-bc1d-fc67c9f4c35d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/c5cf1e70-3ee4-4906-bc1d-fc67c9f4c35d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:26:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "线性探针",
+    "道德基础理论",
+    "表征几何",
+    "脆弱性测试",
+    "组合性",
+    "密集vs MoE"
+   ],
+   "field": "语言模型内部表征几何分析",
+   "innovations": [
+    "提出探针方向几何学方法分析多概念间角度关系",
+    "首次刻画基础语言模型道德基础与困境的结构化表征几何",
+    "证明整合几何跨架构/规模一致且早于准确率饱和形成"
+   ],
+   "benchmarks": [
+    "伦理探测数据集（240对最小对）",
+    "道德基础 vignettes（外部验证）"
+   ]
+  }
+ }
 }

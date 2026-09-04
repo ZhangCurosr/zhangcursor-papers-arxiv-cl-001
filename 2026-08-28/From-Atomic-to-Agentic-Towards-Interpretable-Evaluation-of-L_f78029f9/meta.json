@@ -4,5 +4,34 @@
  "title": "From-Atomic-to-Agentic-Towards-Interpretable-Evaluation-of-L",
  "token": "sk-aEeqX9tmP...",
  "created_at": "2026-08-28 23:23:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/bcba9bb0-1581-4c18-ba2e-0ae94e37d329.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/bcba9bb0-1581-4c18-ba2e-0ae94e37d329.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:26:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM评估",
+    "智能体数学推理",
+    "过程级评测",
+    "原子能力",
+    "AgenticBenchmark",
+    "可解释评估"
+   ],
+   "field": "大语言模型评测与智能体能力评估",
+   "innovations": [
+    "提出原子能力×智能体功能交叉矩阵的过程级评测框架AMB",
+    "构建覆盖规划/行动/反馈三维的细粒度任务族与自动化数据流水线",
+    "实证揭示端到端准确率与智能体能力分布的显著解耦现象"
+   ],
+   "benchmarks": [
+    "AgenticMathBench (AMB)",
+    "MATH",
+    "AIME25",
+    "OlympiadBench",
+    "Omni-MATH",
+    "MiniF2F"
+   ]
+  }
+ }
 }

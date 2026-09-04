@@ -4,5 +4,31 @@
  "title": "Said-Aloud-Read-Different-Cross-Modal-Instability-in-Multimo",
  "token": "sk-rnwM2rvcl...",
  "created_at": "2026-08-28 13:46:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/d15315a4-3270-4866-b52a-62cdccc92208.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/d15315a4-3270-4866-b52a-62cdccc92208.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:29:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态模型",
+    "跨模态一致性",
+    "对比不稳定性",
+    "语音增强基准",
+    "视觉定位决策",
+    "阿拉伯语评估"
+   ],
+   "field": "多模态大模型评估",
+   "innovations": [
+    "提出对比不稳定性(CI)指标量化三元组内部决策不一致",
+    "构建首个跨语言(英/阿)跨模态语音文本对比基准",
+    "揭示语音放大阿拉伯语视觉定位不稳定性的现象"
+   ],
+   "benchmarks": [
+    "MENA Cultural Benchmark",
+    "Qwen2.5/Omni评估",
+    "Phi-4-multimodal评估"
+   ]
+  }
+ }
 }

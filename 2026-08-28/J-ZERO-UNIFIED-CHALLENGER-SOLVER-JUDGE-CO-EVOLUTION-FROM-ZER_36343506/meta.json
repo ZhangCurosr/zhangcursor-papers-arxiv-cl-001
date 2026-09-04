@@ -4,5 +4,33 @@
  "title": "J-ZERO-UNIFIED-CHALLENGER-SOLVER-JUDGE-CO-EVOLUTION-FROM-ZER",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-08-28 23:23:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/69ff0f74-36dc-44fa-9f1a-26fd0c0d9a90.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/69ff0f74-36dc-44fa-9f1a-26fd0c0d9a90.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:26:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "self-evolving LLM",
+    "zero-data self-play",
+    "challenger-solver-judge",
+    "reward model co-adaptation",
+    "preference optimization",
+    "unverifiable domain"
+   ],
+   "field": "大语言模型自进化与对齐",
+   "innovations": [
+    "提出 Challenger-Solver-Judge 三方协同进化框架，同时覆盖验证域与不可验证域",
+    "利用角色不对称与子任务放大两类结构偏好对训练 Judge，避免自强化偏差",
+    "基于响应分散度的任务选择机制，适配连续 Judge 奖励信号"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "MATH500",
+    "AlpacaEval 2.0",
+    "Arena-Hard-v2.0",
+    "RM-Bench"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "Scaling-Model-Generated-Distillation-Data-Can-Make-Latent-Te",
  "token": "sk-FMTQpgZxg...",
  "created_at": "2026-08-28 23:23:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/b4268531-9160-4c54-b320-28e57e790fbc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/b4268531-9160-4c54-b320-28e57e790fbc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:30:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "模型蒸馏",
+    "隐性特征转移",
+    "规模效应",
+    "阈下学习",
+    "对齐安全",
+    "LoRA微调"
+   ],
+   "field": "大语言模型对齐与安全性",
+   "innovations": [
+    "提出可恢复性概念并形式化参考调整目标分数与定位边际度量",
+    "证明数据规模能使隐性教师特征从粗吸引子精确分离",
+    "在更新空间证实目标-adaptor几何随规模协同演变"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "MATH",
+    "XSTest",
+    "HEx-PHI",
+    "BeaverTails"
+   ]
+  }
+ }
 }
