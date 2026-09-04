@@ -4,5 +4,33 @@
  "title": "Routed-Graph-Handoff-Adaptive-Format-Selection-for-Multi-Age",
  "token": "sk-iG65PZaJv...",
  "created_at": "2026-08-27 12:21:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/fa784a87-981e-444d-8ab4-64c9aad286a9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/fa784a87-981e-444d-8ab4-64c9aad286a9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 06:42:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-agent LLM",
+    "inter-agent communication",
+    "structured output",
+    "constrained decoding",
+    "format routing",
+    "token efficiency"
+   ],
+   "field": "多智能体系统通信协议",
+   "innovations": [
+    "提出Routed Graph Handoff，通过轻量LLM路由器自适应选择图/自然语言通信格式，零训练消除结构-灵活性权衡",
+    "设计8节点7边类型化DAG模式，配合graph-aware executor prompt，在依赖链任务上实现2-3×压缩与显著精度提升",
+    "揭示76%多智能体失败源于inter-agent misalignment，证明通信格式是比模型能力更关键的瓶颈"
+   ],
+   "benchmarks": [
+    "BrowseComp",
+    "tau-bench retail",
+    "BFCL v3",
+    "AppWorld",
+    "tau-airline"
+   ]
+  }
+ }
 }

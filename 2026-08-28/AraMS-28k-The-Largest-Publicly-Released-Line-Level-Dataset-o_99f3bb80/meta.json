@@ -4,5 +4,33 @@
  "title": "AraMS-28k-The-Largest-Publicly-Released-Line-Level-Dataset-o",
  "token": "sk-mtKOSZtKc...",
  "created_at": "2026-08-28 13:50:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/87b1a23d-e06c-408c-a43d-3d10d27441f3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/87b1a23d-e06c-408c-a43d-3d10d27441f3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 06:45:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "阿拉伯语手稿",
+    "手写文本识别",
+    "历史文档",
+    "行级标注",
+    "插入锚点",
+    "跨脚本泛化"
+   ],
+   "field": "历史阿拉伯语手写文本识别 (HTR)",
+   "innovations": [
+    "提出行级插入锚点标注以恢复历史阿拉伯语手稿非线性阅读顺序",
+    "发布双转录本 (gt_raw/gt_normalized) 显式处理元音符号视觉失配",
+    "构建两阶段质控管线 (PV/LV) 实现大规模手稿参考对齐标注"
+   ],
+   "benchmarks": [
+    "AraMS-28k",
+    "Muharaf",
+    "RASAM",
+    "RASM2018",
+    "KHATT"
+   ]
+  }
+ }
 }

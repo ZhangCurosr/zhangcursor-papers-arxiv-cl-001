@@ -4,5 +4,33 @@
  "title": "BEYOND-PARALLEL-BLINDNESS-INFORMATIONFLOORS-AND-MODEL-GAPS-I",
  "token": "sk-kdPBKi9MQ...",
  "created_at": "2026-08-28 13:46:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/b7317764-2729-4474-8adc-eaf5cf5c3808.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/b7317764-2729-4474-8adc-eaf5cf5c3808.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 06:46:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "投机解码",
+    "块草稿",
+    "信息下界",
+    "模型差距",
+    "并行盲",
+    "接受长度"
+   ],
+   "field": "大语言模型高效推理",
+   "innovations": [
+    "提出信息下界与模型差距的形式化分解，将块草稿拒绝风险拆分为信息约束下界与模型利用不足两部分",
+    "发现一已实现token可消除86-100%并行盲代价，并通过互信息独立验证",
+    "在4个目标模型与前沿API上证明已发布草稿器仍远高于其信息下界"
+   ],
+   "benchmarks": [
+    "Qwen3-4B",
+    "Qwen3-8B",
+    "Qwen3-14B",
+    "Gemma-4-12B",
+    "DeepSeek-V4-Pro"
+   ]
+  }
+ }
 }

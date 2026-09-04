@@ -4,5 +4,31 @@
  "title": "Behavior2Trip-Towards-Personalized-Travel-Planning-via-User",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-08-28 23:24:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/176cdb67-5bb2-4ec2-b830-91a0b9ce1006.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/176cdb67-5bb2-4ec2-b830-91a0b9ce1006.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 06:49:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "旅行规划",
+    "强化学习",
+    "行为轨迹",
+    "个性化推荐",
+    "Agent",
+    "RLHF",
+    "GRPO"
+   ],
+   "field": "旅行规划Agent",
+   "innovations": [
+    "提出行为感知旅行规划新任务，从用户行为轨迹隐式推断偏好",
+    "构建Behavior2Trip基准，11,400实例支持隐式指令和低交互负担",
+    "设计B2T-Agent强化学习框架，小模型超越GPT-4.1"
+   ],
+   "benchmarks": [
+    "Behavior2Trip",
+    "TravelPlanner"
+   ]
+  }
+ }
 }

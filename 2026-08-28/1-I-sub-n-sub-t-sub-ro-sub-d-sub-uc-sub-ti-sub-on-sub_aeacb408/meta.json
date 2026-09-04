@@ -4,5 +4,29 @@
  "title": "1-I-sub-n-sub-t-sub-ro-sub-d-sub-uc-sub-ti-sub-on-sub",
  "token": "sk-DXHHyylpH...",
  "created_at": "2026-08-28 23:23:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/4e59cacc-532e-4540-adc7-abcafb256592.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/4e59cacc-532e-4540-adc7-abcafb256592.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 06:44:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "code review",
+    "multi-round code review",
+    "large language models",
+    "defect detection",
+    "benchmark",
+    "software engineering"
+   ],
+   "field": "自动化代码审查",
+   "innovations": [
+    "首个面向多轮代码审查的状态感知基准MCR-Bench，支持跨轮缺陷追踪与生命周期状态预测",
+    "提出'局部检测→全局追踪'两阶段自动标注流水线，结合一致性过滤与人工交叉验证保证标注质量",
+    "建立FP/FN细粒度失败原因分类体系，揭示跨轮时序错位与缺陷遗忘为多轮审查的核心失败机制"
+   ],
+   "benchmarks": [
+    "MCR-Bench"
+   ]
+  }
+ }
 }

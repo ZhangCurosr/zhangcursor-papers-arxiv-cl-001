@@ -4,5 +4,10 @@
  "title": "Reconstructing-the-Right-Episode-Evaluating-Interleaved-Conv",
  "token": "sk-LV19Ft0NN...",
  "created_at": "2026-08-27 12:25:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/7849e0ec-9308-4132-b832-c60e5ed66c3b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/7849e0ec-9308-4132-b832-c60e5ed66c3b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 06:42:16",
+  "chunks": 1
+ }
 }

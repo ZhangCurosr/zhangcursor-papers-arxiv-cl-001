@@ -4,5 +4,31 @@
  "title": "BTS-AgentBench-A-Deterministic-Replayable-Pipeline-from-Read",
  "token": "sk-Wt6bONApk...",
  "created_at": "2026-08-28 13:46:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/9b3bff68-d125-47ba-85a8-c787d718906d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/9b3bff68-d125-47ba-85a8-c787d718906d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 06:48:35",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "agent benchmark",
+    "deterministic replay",
+    "tool-use evaluation",
+    "building telemetry",
+    "read-only data",
+    "contract-based scoring",
+    "industrial IoT"
+   ],
+   "field": "智能体评测基准与工业时序数据",
+   "innovations": [
+    "从只读遥测到多轮 Agent episode 的确定性编译流水线",
+    "带分层相位契约与证据归因的可审计 benchmark",
+    "基于无学习控制器的数据硬化与排除机制"
+   ],
+   "benchmarks": [
+    "BTS-AgentBench",
+    "XAI4HEAT"
+   ]
+  }
+ }
 }

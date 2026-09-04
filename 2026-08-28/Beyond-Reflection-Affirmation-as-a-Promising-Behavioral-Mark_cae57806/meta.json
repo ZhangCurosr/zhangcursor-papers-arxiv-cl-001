@@ -4,5 +4,29 @@
  "title": "Beyond-Reflection-Affirmation-as-a-Promising-Behavioral-Mark",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-08-28 23:23:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/0f76acd2-8b61-441a-ac6d-05823a51b6b6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/0f76acd2-8b61-441a-ac6d-05823a51b6b6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 06:50:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "情感支持对话",
+    "咨询师策略",
+    "Affirmation",
+    "文本咨询质量",
+    "跨数据集迁移",
+    "行为编码"
+   ],
+   "field": "情感支持对话系统",
+   "innovations": [
+    "实证发现Affirmation比Reflection更一致地与文本咨询质量正相关",
+    "在跨语言/文化/专业度的数据集（KokoroChat→ESConv）上验证Affirmation质量信号的迁移性"
+   ],
+   "benchmarks": [
+    "KokoroChat",
+    "ESConv"
+   ]
+  }
+ }
 }

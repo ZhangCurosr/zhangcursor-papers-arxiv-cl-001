@@ -4,5 +4,28 @@
  "title": "Virgil-Navigating-Explainability-for-Transformer-based-Langu",
  "token": "sk-Hms67LeAf...",
  "created_at": "2026-08-27 23:34:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/1dc10227-c30a-44ed-affe-a3af3d720a77.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/1dc10227-c30a-44ed-affe-a3af3d720a77.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 06:43:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "可解释性",
+    "Transformer",
+    "工具发现",
+    "自然语言处理",
+    "归因方法",
+    "机制解释"
+   ],
+   "field": "NLP模型可解释性工具与系统",
+   "innovations": [
+    "结构化解释器知识底座与双通道检索（过滤+自然语言）",
+    "在线即时运行与并排对比的交互式探索引擎"
+   ],
+   "benchmarks": [
+    "用户感知评估（n=10，主观问卷）"
+   ]
+  }
+ }
 }

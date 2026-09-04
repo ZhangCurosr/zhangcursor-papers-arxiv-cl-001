@@ -4,5 +4,30 @@
  "title": "Leveraging-Speech-Acts-for-Low-Data-and-Cross-Domain-Convers",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-08-27 12:24:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/cfdbcccb-62b5-49b0-b403-a59f5eb09565.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/cfdbcccb-62b5-49b0-b403-a59f5eb09565.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 06:41:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "对话失控预测",
+    "言语行为",
+    "低数据学习",
+    "跨领域泛化",
+    "动态预测"
+   ],
+   "field": "对话分析与内容安全",
+   "innovations": [
+    "将言语行为作为辅助学习信号正则化潜空间，降低词汇噪声",
+    "提出训练-推理分离的SA融合架构，推理时无额外延迟",
+    "引入平均时间聚合评估协议更真实反映逐轮预测能力"
+   ],
+   "benchmarks": [
+    "WIKI",
+    "CMV",
+    "GITHUB"
+   ]
+  }
+ }
 }

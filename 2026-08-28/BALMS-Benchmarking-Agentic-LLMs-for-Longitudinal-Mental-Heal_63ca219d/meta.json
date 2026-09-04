@@ -4,5 +4,37 @@
  "title": "BALMS-Benchmarking-Agentic-LLMs-for-Longitudinal-Mental-Heal",
  "token": "sk-9ieZJEGxv...",
  "created_at": "2026-08-28 13:46:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/f00ad255-2e9c-403d-8acc-e912383f8ca7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/f00ad255-2e9c-403d-8acc-e912383f8ca7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 06:45:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Longitudinal Mental Health",
+    "Agentic LLM",
+    "Wearable Sensing",
+    "LLM-as-Judge",
+    "Chain-of-Thought",
+    "RAG",
+    "Mode Collapse",
+    "Temporal Reasoning"
+   ],
+   "field": "可穿戴感知与大模型结合的精神健康预测",
+   "innovations": [
+    "首个纵向精神健康感知 LLM Agent 基准（BALMS），联合评测封闭分数预测与基于证据的论述生成",
+    "提出双层 LLM-as-Judge 评判框架（Tier-1 六维时序推理 + Tier-2 五维论述质量）",
+    "揭示工具类 Agent 的模式坍塌与 schema 敏感故障，发现语义紧凑特征优于原始高频流"
+   ],
+   "benchmarks": [
+    "BALMS",
+    "Health-LLM",
+    "PHIA",
+    "TemporalBench",
+    "GLOBEM",
+    "PMData",
+    "DiversityOne"
+   ]
+  }
+ }
 }

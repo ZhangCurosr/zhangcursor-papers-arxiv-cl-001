@@ -4,5 +4,36 @@
  "title": "Abstract",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-08-28 23:23:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/11fb6b9e-bc58-497d-a54d-c80e35c054a4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/11fb6b9e-bc58-497d-a54d-c80e35c054a4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 06:47:23",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "Skill Pre-Training",
+    "Agentic Language Models",
+    "Tool Use",
+    "Pre-training Data",
+    "Reference Insert",
+    "ClawHub",
+    "Mid-training"
+   ],
+   "field": "Agentic LLM 预训练与工具调用",
+   "innovations": [
+    "提出 SPT，将可复用技能包作为 pre-training/mid-training 语料以替代高成本的 agent 轨迹数据",
+    "设计 Reference Insert 多文件组装策略，显式保留技能包跨文件依赖结构",
+    "构建去污染的多文件 SkillCorpus（38k 包/218k 文件），验证技能先验训练的有效性"
+   ],
+   "benchmarks": [
+    "API-Bank",
+    "MetaTool",
+    "APTBench",
+    "ToolEyes",
+    "OLMES",
+    "BFCL",
+    "OSWorld-MCP"
+   ]
+  }
+ }
 }

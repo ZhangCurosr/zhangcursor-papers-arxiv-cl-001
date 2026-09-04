@@ -4,5 +4,10 @@
  "title": "Learning-What-to-Share-and-What-to-Personalize-Hierarchical",
  "token": "sk-AG7sAmdzS...",
  "created_at": "2026-08-27 12:25:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/b3354311-1276-4a87-ac81-4674d29f1bab.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/b3354311-1276-4a87-ac81-4674d29f1bab.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 06:42:09",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,34 @@
  "title": "Abstract",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-08-28 13:49:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/11fb6b9e-bc58-497d-a54d-c80e35c054a4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/11fb6b9e-bc58-497d-a54d-c80e35c054a4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 06:47:33",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "Agent",
+    "Tool Use",
+    "Function Calling",
+    "Pre-training",
+    "Environment Scaling",
+    "Trajectory-SFT",
+    "Benchmark"
+   ],
+   "field": "大模型智能体与工具学习",
+   "innovations": [
+    "基于轨迹SFT与环境缩放协同提升Agent预训练潜力",
+    "引入元数据条件化统一异构工具表示",
+    "构建覆盖调用决策到系统级操作的递进评估基准"
+   ],
+   "benchmarks": [
+    "BFCL",
+    "APTBench",
+    "ToolLLM",
+    "UniToolCall",
+    "OSWorld-MCP"
+   ]
+  }
+ }
 }

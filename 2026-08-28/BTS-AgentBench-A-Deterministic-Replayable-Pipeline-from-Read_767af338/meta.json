@@ -4,5 +4,10 @@
  "title": "BTS-AgentBench-A-Deterministic-Replayable-Pipeline-from-Read",
  "token": "sk-Wt6bONApk...",
  "created_at": "2026-08-28 23:23:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/9b3bff68-d125-47ba-85a8-c787d718906d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/9b3bff68-d125-47ba-85a8-c787d718906d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 06:49:40",
+  "chunks": 1
+ }
 }

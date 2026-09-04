@@ -4,5 +4,29 @@
  "title": "Reflection-Steering-Disentangling-Reflection-from-Reasoning",
  "token": "sk-NnOQ8YDzm...",
  "created_at": "2026-08-27 12:24:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/dd9f3755-ffea-4085-a3e0-357f7dd60da0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/dd9f3755-ffea-4085-a3e0-357f7dd60da0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 06:43:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Activation Steering",
+    "Reflection Control",
+    "Token Efficiency",
+    "Representation Engineering",
+    "Reasoning Models",
+    "Inference-time Intervention"
+   ],
+   "field": "大语言模型推理效率优化",
+   "innovations": [
+    "PCA去噪+正交化去除共享推理结构的反射方向纯化方法",
+    "有界投影去除实现状态依赖的反思抑制而非固定加法偏移"
+   ],
+   "benchmarks": [
+    "MATH-500",
+    "GPQA-Diamond"
+   ]
+  }
+ }
 }

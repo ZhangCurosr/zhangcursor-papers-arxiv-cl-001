@@ -4,5 +4,29 @@
  "title": "Reflection-Steering-Disentangling-Reflection-from-Reasoning",
  "token": "sk-NnOQ8YDzm...",
  "created_at": "2026-08-27 23:34:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/9d8279a7-bde2-46e8-be2d-a25bed27a344.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/9d8279a7-bde2-46e8-be2d-a25bed27a344.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 06:41:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "activation steering",
+    "reasoning efficiency",
+    "reflection control",
+    "residual stream intervention",
+    "token-efficient inference"
+   ],
+   "field": "大语言模型推理效率优化",
+   "innovations": [
+    "PCA净化+正交化解耦反思与推理信号的方向提取方法",
+    "层校准筛选稳定干预层避免下游放大",
+    "有界投影移除实现状态依赖的抑制型控制"
+   ],
+   "benchmarks": [
+    "MATH-500",
+    "GPQA-Diamond"
+   ]
+  }
+ }
 }

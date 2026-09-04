@@ -4,5 +4,29 @@
  "title": "When-Personality-Meets-Quantization-A-Layer-wise-MBTI-Analys",
  "token": "sk-F7cBp1IrI...",
  "created_at": "2026-08-27 12:23:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/86eaebfa-f1c2-458c-9ca7-6ffe63455a7c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/86eaebfa-f1c2-458c-9ca7-6ffe63455a7c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 06:43:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM人格评估",
+    "模型量化",
+    "MBTI分析",
+    "逐层决策动态",
+    "推理解码",
+    "人格漂移"
+   ],
+   "field": "大语言模型行为分析与评估",
+   "innovations": [
+    "首个面向量化LLM的系统性MBTI评估流水线",
+    "通过熵和置信度间隙刻画人格的逐层涌现过程",
+    "提出UALD方法研究推理时解码诱导的人格漂移"
+   ],
+   "benchmarks": [
+    "MBTI 60题问卷评估"
+   ]
+  }
+ }
 }

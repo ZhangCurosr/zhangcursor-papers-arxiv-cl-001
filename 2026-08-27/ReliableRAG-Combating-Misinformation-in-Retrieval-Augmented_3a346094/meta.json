@@ -4,5 +4,30 @@
  "title": "ReliableRAG-Combating-Misinformation-in-Retrieval-Augmented",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-08-27 23:34:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/f28b862d-ae78-4f8d-95b2-c9e085e43d62.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/f28b862d-ae78-4f8d-95b2-c9e085e43d62.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 06:42:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Retrieval-Augmented Generation",
+    "Multi-hop QA",
+    "Misinformation Robustness",
+    "Reliability Assessment",
+    "Reasoning Chains"
+   ],
+   "field": "RAG系统鲁棒性",
+   "innovations": [
+    "首个三元组级细粒度可靠性评估框架",
+    "双因素感知的虚假信息过滤机制",
+    "自回归推理链构建策略"
+   ],
+   "benchmarks": [
+    "HotPotQA",
+    "2WikiMultiHopQA",
+    "MuSiQue"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "BLANC-Discovering-Patent-White-Space-via-Changes-in-Normaliz",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-08-28 23:23:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/7b040518-a385-4800-bfb8-4de71620f83b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/7b040518-a385-4800-bfb8-4de71620f83b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 06:49:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "patent white space",
+    "NPMI",
+    "multi-view clustering",
+    "BERTopic",
+    "co-occurrence analysis",
+    "technology opportunity discovery",
+    "patent landscaping"
+   ],
+   "field": "专利分析与技术机会挖掘",
+   "innovations": [
+    "首次将多视角 BERTopic 聚类与 NPMI 共现分析结合用于专利空白探测",
+    "提出 ΔNPMI 指标将 white space 形式化为全局确立局部未探的组合",
+    "去除驱动注入评估协议同时验证恢复率与特异性（random/decoy 控制）"
+   ],
+   "benchmarks": [
+    "HUPD G06N ML/AI (5,417 patents)",
+    "HUPD C03C Glass (1,982 patents)",
+    "proprietary float glass/glass-ceramics (302 patents)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "1-I-sub-n-sub-t-sub-ro-sub-d-sub-uc-sub-ti-sub-on-sub",
  "token": "sk-DXHHyylpH...",
  "created_at": "2026-08-28 13:46:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/4e59cacc-532e-4540-adc7-abcafb256592.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/4e59cacc-532e-4540-adc7-abcafb256592.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 06:44:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "代码审查",
+    "多轮代码审查",
+    "大语言模型",
+    "缺陷检测",
+    "基准评测",
+    "Pull Request"
+   ],
+   "field": "软件工程与AI交叉（代码审查自动化）",
+   "innovations": [
+    "首个面向多轮代码审查的缺陷状态感知基准MCR-Bench，支持跨轮缺陷识别与生命周期状态追踪",
+    "提出'先局部检测、后全局追踪'的两阶段LLM自动化标注流水线，实现跨轮缺陷合并与状态推理",
+    "建立多轮代码审查中FP/FN错误的六维根因分类体系，揭示状态-时间错位与跨轮缺陷遗忘等核心失败机制"
+   ],
+   "benchmarks": [
+    "MCR-Bench"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "VietAIDetector-An-Open-Source-Zero-Shot-Detector-for-Vietnam",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-08-27 12:23:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/5de7d2e4-54d3-417f-b890-c7379801a1f0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/5de7d2e4-54d3-417f-b890-c7379801a1f0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 06:42:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "AI-generated text detection",
+    "zero-shot detection",
+    "Vietnamese NLP",
+    "VietBinoculars",
+    "long document analysis",
+    "OCR integration",
+    "open-source tool"
+   ],
+   "field": "AI生成文本检测",
+   "innovations": [
+    "基于VietBinoculars双模型perplexity比率构建首个开源越南语零样本检测工具",
+    "滑动窗口分块+多数投票聚合机制支持超长文档检测",
+    "集成Vintern-1B-v2 OCR引擎支持扫描件越南语文档处理"
+   ],
+   "benchmarks": [
+    "News articles (out-of-domain)",
+    "Literary works (out-of-domain)",
+    "GPT-5.6 Luna / Gemini 3.6 Flash / Claude Sonnet 4.6 generated datasets"
+   ]
+  }
+ }
 }

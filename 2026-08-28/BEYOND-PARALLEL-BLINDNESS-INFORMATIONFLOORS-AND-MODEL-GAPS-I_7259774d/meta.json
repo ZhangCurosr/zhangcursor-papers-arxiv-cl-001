@@ -4,5 +4,10 @@
  "title": "BEYOND-PARALLEL-BLINDNESS-INFORMATIONFLOORS-AND-MODEL-GAPS-I",
  "token": "sk-kdPBKi9MQ...",
  "created_at": "2026-08-28 23:23:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/92b68e5c-4d3b-4017-b7f4-4c842d2cf3ed.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/92b68e5c-4d3b-4017-b7f4-4c842d2cf3ed.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 06:48:23",
+  "chunks": 1
+ }
 }

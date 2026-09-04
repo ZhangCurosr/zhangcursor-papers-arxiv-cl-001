@@ -4,5 +4,10 @@
  "title": "VietAIDetector-An-Open-Source-Zero-Shot-Detector-for-Vietnam",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-08-27 23:34:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/5de7d2e4-54d3-417f-b890-c7379801a1f0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/5de7d2e4-54d3-417f-b890-c7379801a1f0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 06:43:55",
+  "chunks": 1
+ }
 }
