@@ -4,5 +4,31 @@
  "title": "Beyond-Surface-Forms-Symbolic-Edits-as-a-Test-for-Logical-Re",
  "token": "sk-U9tZkJPsQ...",
  "created_at": "2026-09-01 07:19:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/af3e5ab0-cb23-46ab-a5b4-9ff7a95cc85c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/af3e5ab0-cb23-46ab-a5b4-9ff7a95cc85c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 01:52:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "logical reasoning",
+    "LLM evaluation",
+    "symbolic editing",
+    "test-time scaling",
+    "chain-of-thought",
+    "robustness"
+   ],
+   "field": "大语言模型推理能力评估",
+   "innovations": [
+    "提出工具驱动的符号编辑框架LogicEdit，实现对FOL和CSP问题的可控运算符级编辑",
+    "引入翻转率（Flip Rate）指标，超越准确率衡量模型推理结构鲁棒性",
+    "构建四维定性编码体系（PF/IV/AC/AL）系统分析模型推理退化模式"
+   ],
+   "benchmarks": [
+    "FOLIO",
+    "Logical Deduction",
+    "AR-LSAT"
+   ]
+  }
+ }
 }

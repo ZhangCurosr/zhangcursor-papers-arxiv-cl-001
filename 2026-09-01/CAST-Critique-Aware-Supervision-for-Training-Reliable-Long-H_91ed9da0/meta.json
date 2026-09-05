@@ -4,5 +4,30 @@
  "title": "CAST-Critique-Aware-Supervision-for-Training-Reliable-Long-H",
  "token": "sk-TohzZhzLz...",
  "created_at": "2026-09-01 17:36:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/e0a1bfbd-0b07-4629-ab80-55eb362e6a5b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/e0a1bfbd-0b07-4629-ab80-55eb362e6a5b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 01:53:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "tool-calling agent",
+    "critique-aware training",
+    "long-horizon reliability",
+    "pass^k evaluation",
+    "actor-critic LLM",
+    "agentic verification"
+   ],
+   "field": "LLM Agent 可靠性与工具调用",
+   "innovations": [
+    "将轨迹级稀疏奖励转化为动作级结构化验证监督（hallucination/domain/tool 三分法）",
+    "多智能体 agentic verification pipeline 蒸馏为轻量 Critic 模型",
+    "Critic-Policy 解耦训练使 4B 模型 pass^4 超越 32B 基线"
+   ],
+   "benchmarks": [
+    "tau-Bench Retail/Airline",
+    "tau-Trait Telecom/Telehealth"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "Abstract",
  "token": "sk-3HkWblKpl...",
  "created_at": "2026-09-01 07:21:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/59a2f11f-fc8b-4c01-b74f-3c3298d598b3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/59a2f11f-fc8b-4c01-b74f-3c3298d598b3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 01:50:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "video-to-music generation",
+    "diffusion autoregressive",
+    "instruction following",
+    "preference optimization",
+    "reward modeling",
+    "multi-modal alignment"
+   ],
+   "field": "多模态音乐生成与指令遵循",
+   "innovations": [
+    "提出Conditioning Connection深度跨层动态条件机制，解决DAR架构的静态条件瓶颈",
+    "构建基于可验证性分类的音乐属性硬/软综合奖励建模体系",
+    "设计五阶段结构化训练课程实现细粒度指令遵循的偏好优化"
+   ],
+   "benchmarks": [
+    "ReelBench"
+   ]
+  }
+ }
 }

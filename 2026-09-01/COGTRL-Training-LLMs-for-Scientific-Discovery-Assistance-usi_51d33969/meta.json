@@ -4,5 +4,35 @@
  "title": "COGTRL-Training-LLMs-for-Scientific-Discovery-Assistance-usi",
  "token": "sk-mtb2NN4Ja...",
  "created_at": "2026-09-01 07:22:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/ee7dae6c-1468-44b9-b5d1-e26d9151bd63.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/ee7dae6c-1468-44b9-b5d1-e26d9151bd63.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 01:54:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "scientific discovery",
+    "reinforcement learning",
+    "cognitive trace",
+    "LLM training",
+    "GRPO",
+    "method generation"
+   ],
+   "field": "科学发现辅助的LLM训练",
+   "innovations": [
+    "提出COGTRL轨迹级RL框架，联合优化认知轨迹与方法步骤",
+    "设计乘法uplift奖励确保认知轨迹因果性提升步骤质量",
+    "证明交错推理(interleaved thinking)优于先思考后生成"
+   ],
+   "benchmarks": [
+    "NeurIPS 2024 Papers",
+    "Mat-Design",
+    "AIME",
+    "AMC23",
+    "GPQA-Diamond",
+    "HumanEval",
+    "MMLU-Pro"
+   ]
+  }
+ }
 }

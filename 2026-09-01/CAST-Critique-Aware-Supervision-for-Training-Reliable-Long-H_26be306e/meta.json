@@ -4,5 +4,30 @@
  "title": "CAST-Critique-Aware-Supervision-for-Training-Reliable-Long-H",
  "token": "sk-TohzZhzLz...",
  "created_at": "2026-09-01 07:21:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/e0a1bfbd-0b07-4629-ab80-55eb362e6a5b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/e0a1bfbd-0b07-4629-ab80-55eb362e6a5b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 01:53:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "tool-calling agents",
+    "long-horizon reliability",
+    "critique-aware training",
+    "actor-critic LLM",
+    "action-level verification",
+    "τ-Bench"
+   ],
+   "field": "LLM Agent Reliability",
+   "innovations": [
+    "将轨迹级稀疏奖励转化为action级结构化验证监督的CAST框架",
+    "多agent专业化verification pipeline生成calibrated critique数据",
+    "小规模critique模型在pass^4指标上超越大模型及frontier models"
+   ],
+   "benchmarks": [
+    "τ-Bench",
+    "τ-Trait"
+   ]
+  }
+ }
 }

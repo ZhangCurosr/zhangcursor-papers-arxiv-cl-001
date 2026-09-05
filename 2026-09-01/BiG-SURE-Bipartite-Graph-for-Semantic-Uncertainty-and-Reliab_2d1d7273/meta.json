@@ -4,5 +4,32 @@
  "title": "BiG-SURE-Bipartite-Graph-for-Semantic-Uncertainty-and-Reliab",
  "token": "sk-gD7m2ian9...",
  "created_at": "2026-09-01 17:35:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/b31b9907-a1b2-4c7c-a690-03e3ee443950.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/b31b9907-a1b2-4c7c-a690-03e3ee443950.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 01:53:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "uncertainty estimation",
+    "black-box",
+    "LLM",
+    "VLM",
+    "semantic entropy",
+    "bipartite graph"
+   ],
+   "field": "大语言模型可靠性与不确定性量化",
+   "innovations": [
+    "首次利用跨温度锚点-探测二分图语义一致性进行黑盒不确定性估计",
+    "提出基于归一化平方谱能量的SURE分数，无需语义聚类且满足有界性理论性质",
+    "结合语义等价输入增强与跨温度对比，在多语言和多模态QA中取得最强abstention AUROC"
+   ],
+   "benchmarks": [
+    "Trivia-QA",
+    "SVAMP",
+    "SciQ",
+    "OK-VQA"
+   ]
+  }
+ }
 }

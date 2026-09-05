@@ -4,5 +4,30 @@
  "title": "Beyond-the-Payload-How-User-Invocation-Shapes-Coding-Agent-V",
  "token": "sk-1jVZGxTQ1...",
  "created_at": "2026-09-01 17:35:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/bce737b7-7425-4395-b1d3-0f099e2d7e02.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/bce737b7-7425-4395-b1d3-0f099e2d7e02.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 01:53:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "coding agent security",
+    "repository poisoning",
+    "prompt-level configurations",
+    "attack success rate",
+    "alert rate",
+    "prompt sensitivity",
+    "supply-chain attack"
+   ],
+   "field": "AI/ML 安全与鲁棒性",
+   "innovations": [
+    "提出首个系统性考察用户侧提示层配置(PLCs)对代码智能体仓库投毒脆弱性影响的基准测试CIPR",
+    "揭示任务类型可导致ASR高达4.5倍差异且RUN-TESTS形成高成功率低告警的静默攻击面",
+    "基于社媒真实提示构建12维风格标注与聚类pipeline，验证提示风格通过执行深度与安全显著性间接影响风险"
+   ],
+   "benchmarks": [
+    "CIPR"
+   ]
+  }
+ }
 }

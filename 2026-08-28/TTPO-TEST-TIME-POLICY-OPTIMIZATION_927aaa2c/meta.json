@@ -4,5 +4,34 @@
  "title": "TTPO-TEST-TIME-POLICY-OPTIMIZATION",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-08-28 23:23:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/3c565b45-37d3-4f62-8817-8f486afa1566.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/3c565b45-37d3-4f62-8817-8f486afa1566.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 01:48:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "test-time training",
+    "on-policy self-distillation",
+    "reinforcement learning",
+    "large language models",
+    "mathematical reasoning",
+    "pseudo-label",
+    "token-level selection"
+   ],
+   "field": "LLM 推理能力优化",
+   "innovations": [
+    "非对称目标：正样本蒸馏+负样本RL惩罚，容忍高频伪标签错误",
+    "Token级双分支选择：蒸馏分支降权已收敛位置，RL分支掩码局部正确token",
+    "无标签TTT性能超越有标签OPSD基线，并实现自演化循环"
+   ],
+   "benchmarks": [
+    "AIME 2025",
+    "AIME 2026",
+    "HMMT 2025",
+    "HMMT 2026",
+    "BRUMO 2025"
+   ]
+  }
+ }
 }

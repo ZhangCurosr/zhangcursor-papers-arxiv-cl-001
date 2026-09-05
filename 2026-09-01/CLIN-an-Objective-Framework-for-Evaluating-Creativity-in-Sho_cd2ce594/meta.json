@@ -4,5 +4,33 @@
  "title": "CLIN-an-Objective-Framework-for-Evaluating-Creativity-in-Sho",
  "token": "sk-Hms67LeAf...",
  "created_at": "2026-09-01 07:21:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/3b444fc1-310a-4d76-a58f-32e3764bd003.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/3b444fc1-310a-4d76-a58f-32e3764bd003.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 01:54:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "creativity evaluation",
+    "LLM as judge",
+    "TTCT",
+    "Persian literary text",
+    "proxy metrics",
+    "perplexity",
+    "lexical clustering",
+    "low-resource NLP"
+   ],
+   "field": "创意文本自动评测 / 多语言NLP",
+   "innovations": [
+    "系统揭示LLM创意裁判的维度依赖性与prompt敏感性，结构化维度与主观维度差距显著",
+    "提出CLIN框架，用Novelty/Fluency/Elaboration三个独立可解释代理指标替代LLM裁判，在Elaboration上显著超越Claude 3.7 Sonnet",
+    "首个面向波斯语短文学的6维创意评测基准与多维度实验协议（零样本/参考/ few-shot/ensemble/debate/prompt变体）"
+   ],
+   "benchmarks": [
+    "CPers",
+    "TTCW-inspired 6-dimension rubric",
+    "Spearman rank correlation against 5-human averaged scores"
+   ]
+  }
+ }
 }

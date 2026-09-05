@@ -4,5 +4,33 @@
  "title": "BLOOM-WILT-Logit-Tilting-for-Behaviour-Elicitation-in-Automa",
  "token": "sk-dQ65jxzP4...",
  "created_at": "2026-09-01 17:35:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/36ee7747-a3ca-4c19-9b06-808f5f2856cc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/36ee7747-a3ca-4c19-9b06-808f5f2856cc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 01:51:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM审计",
+    "行为提取",
+    "logit倾斜",
+    "黑盒 steering",
+    "Pareto前沿",
+    "BLOOM",
+    "WILT",
+    "安全对齐"
+   ],
+   "field": "大语言模型安全与对齐评估",
+   "innovations": [
+    "在 BLOOM 多轮审计管道中同时引入输入策略迭代与输出 logit 倾斜，实现无需训练的黑盒行为提取",
+    "提出 LogitTilt 对数空间混合采样与自然性地板机制，用单一 β 参数可控扫描提取—合理性 Pareto 前沿",
+    "统一接入多种输入/输出侧基线并在匹配计算预算下系统比较，证明输出侧 steering 显著优于输入侧搜索"
+   ],
+   "benchmarks": [
+    "4 个 3–4B 指令模型 × 8 种行为评测",
+    "self-harm encouragement on Qwen3.5-4B",
+    "跨模型安全排名与跨行为特异性对照"
+   ]
+  }
+ }
 }

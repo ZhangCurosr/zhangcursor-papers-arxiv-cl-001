@@ -4,5 +4,32 @@
  "title": "Beyond-Consensus-Downward-Bias-and-Role-Asymmetry-in-Multi-A",
  "token": "sk-NSDKB0rML...",
  "created_at": "2026-09-01 07:19:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/d74efeb3-82e2-4619-b9a8-d1766d414be1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/d74efeb3-82e2-4619-b9a8-d1766d414be1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 01:51:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM-as-a-Judge",
+    "Multi-Agent Debate",
+    "Subjective Evaluation",
+    "Role Asymmetry",
+    "Downward Bias",
+    "Human Alignment",
+    "Anchoring Effect",
+    "Rubric-based Scoring"
+   ],
+   "field": "LLM评估与自动评测",
+   "innovations": [
+    "发现MAD共识在主观评分中系统性降低人类对齐度，Single Judge基线全面优于所有多智能体变体",
+    "通过消融实验分离出角色非对称是性能退化的主要根源，而非多轮交互本身",
+    "揭示严格立场主导效应（strict-stance dominance beyond averaging）：共识得分显著低于严格/宽容单方得分的算术中点"
+   ],
+   "benchmarks": [
+    "Korean Essay Scoring (NIKL Grading Writing Data 2024)",
+    "SummEval"
+   ]
+  }
+ }
 }

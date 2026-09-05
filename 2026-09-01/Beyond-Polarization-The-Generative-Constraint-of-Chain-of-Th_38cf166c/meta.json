@@ -4,5 +4,30 @@
  "title": "Beyond-Polarization-The-Generative-Constraint-of-Chain-of-Th",
  "token": "sk-1TedD2e6f...",
  "created_at": "2026-09-01 17:36:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/29562fd0-b7f8-4d1b-96b0-5438bb8f8518.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/29562fd0-b7f8-4d1b-96b0-5438bb8f8518.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 01:52:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "点排序重排序",
+    "链式思维",
+    "离散文本瓶颈",
+    "Ranking",
+    "LLM"
+   ],
+   "field": "信息检索与排序",
+   "innovations": [
+    "系统验证点排序CoT相对直接评分的稳定劣势",
+    "设计三项压力测试统一诊断分类/极化/校准假设",
+    "提出离散文本瓶颈作为根本原因解释"
+   ],
+   "benchmarks": [
+    "TREC DL19",
+    "TREC DL20",
+    "BRIGHT"
+   ]
+  }
+ }
 }

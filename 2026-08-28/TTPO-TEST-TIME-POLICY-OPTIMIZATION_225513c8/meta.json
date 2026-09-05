@@ -4,5 +4,33 @@
  "title": "TTPO-TEST-TIME-POLICY-OPTIMIZATION",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-08-28 13:46:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/3c565b45-37d3-4f62-8817-8f486afa1566.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/3c565b45-37d3-4f62-8817-8f486afa1566.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 01:48:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "测试时训练",
+    "策略优化",
+    "自蒸馏",
+    "强化学习",
+    "无标签学习",
+    "数学推理"
+   ],
+   "field": "大语言模型推理增强",
+   "innovations": [
+    "提出非对称目标将OPSD蒸馏与GRPO惩罚分别匹配正负样本，实现伪标签噪声鲁棒的TTT",
+    "双分支token级选择机制：蒸馏分支下加权已收敛位置，RL分支掩码仅惩罚置信错误",
+    "无标签TTPO在竞赛级数学基准上匹配/超越有标签OPSD，Qwen3-1.7B提升7.2个百分点"
+   ],
+   "benchmarks": [
+    "AIME 2025",
+    "AIME 2026",
+    "HMMT 2025",
+    "HMMT 2026",
+    "BRUMO 2025"
+   ]
+  }
+ }
 }

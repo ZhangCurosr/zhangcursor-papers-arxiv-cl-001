@@ -4,5 +4,30 @@
  "title": "TOWARDS-EXPERT-FINANCIAL-QA-VIA-SELF-IMPROVING-RAG",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-08-28 23:24:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/e5694a7d-012a-4646-bfea-323965d2e571.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/e5694a7d-012a-4646-bfea-323965d2e571.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 01:48:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Self-Improving RAG",
+    "Financial QA",
+    "Self-Correction",
+    "Multi-Agent",
+    "Audit Trail",
+    "FinanceBench",
+    "Lazarus Rate"
+   ],
+   "field": "金融领域检索增强生成",
+   "innovations": [
+    "三代理协同（检索/推理/评判）+ 动态阈值重试的自纠错RAG框架",
+    "Judgement加权包含严格数值忠实度验证，捕捉近失幻觉",
+    "固定混合检索管道配合评判驱动重试，无需动态路由即可实现强结果与完整审计"
+   ],
+   "benchmarks": [
+    "FinanceBench"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "Beyond-Good-Intentions-When-Does-the-Framing-of-Multilingual",
  "token": "sk-ovHaiDbC4...",
  "created_at": "2026-09-01 07:20:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/3d203932-9c8a-4176-88e3-2738d682c0ef.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/3d203932-9c8a-4176-88e3-2738d682c0ef.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 01:52:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多语种NLP",
+    "低资源语言",
+    "研究叙事框架",
+    "技术解决方案主义",
+    "去殖民化",
+    "AI伦理"
+   ],
+   "field": "多语种NLP研究伦理",
+   "innovations": [
+    "提出基于目标-手段-证据的六类叙事分析框架",
+    "设计多角色伦理研究检查清单",
+    "量化揭示参与式研究的持续性不足"
+   ],
+   "benchmarks": [
+    "ACL Anthology作者参与统计"
+   ]
+  }
+ }
 }

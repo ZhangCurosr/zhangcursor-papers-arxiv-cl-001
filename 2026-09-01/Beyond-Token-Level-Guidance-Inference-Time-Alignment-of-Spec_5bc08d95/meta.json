@@ -4,5 +4,34 @@
  "title": "Beyond-Token-Level-Guidance-Inference-Time-Alignment-of-Spec",
  "token": "sk-uRWIgUMtb...",
  "created_at": "2026-09-01 07:22:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/eb47f695-7db2-4561-9092-0f98dfa7c5d0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/eb47f695-7db2-4561-9092-0f98dfa7c5d0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 01:52:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "inference-time alignment",
+    "LLM safety",
+    "representation steering",
+    "cross-family guidance",
+    "procrustes alignment",
+    "specialized LLMs"
+   ],
+   "field": "大语言模型安全对齐",
+   "innovations": [
+    "提出互补专长正交性理论框架解释跨家族推理时对齐失败根因",
+    "设计CREST方法在表示空间进行跨家族安全引导避免EOS抑制",
+    "用probe-based威胁检测替代uncertainty triggering拦截高置信度有害生成"
+   ],
+   "benchmarks": [
+    "CyberSecEval",
+    "XSTest",
+    "PatientSafetyBench",
+    "HumanEval",
+    "GSM8K",
+    "MedQA"
+   ]
+  }
+ }
 }

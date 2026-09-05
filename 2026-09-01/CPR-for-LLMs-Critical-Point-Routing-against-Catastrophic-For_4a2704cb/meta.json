@@ -4,5 +4,40 @@
  "title": "CPR-for-LLMs-Critical-Point-Routing-against-Catastrophic-For",
  "token": "sk-41l0wHhLH...",
  "created_at": "2026-09-01 07:22:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/2bef9e43-1081-4c5c-bfd4-eff2ffbcebd3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/2bef9e43-1081-4c5c-bfd4-eff2ffbcebd3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 01:54:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "灾难性遗忘",
+    "领域自适应",
+    "token级路由",
+    "关键token",
+    "SFT",
+    "inter-model routing",
+    "模型解耦"
+   ],
+   "field": "大语言模型领域适应与灾难性遗忘",
+   "innovations": [
+    "提出CPR框架，通过token级路由解耦基础模型与SFT专家模型的能力，突破单一权重的领域-通用权衡",
+    "设计轻量级分层路由器（宏编码器+微路由器）并结合动量平滑与三态阈值分发机制",
+    "实现选择性专家调用与KV cache批量同步，在仅调用约30% token处专家的情况下显著降低推理延迟"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "ASDiv",
+    "SVAMP",
+    "PubMedQA",
+    "MedQA",
+    "CareQA",
+    "MMLU",
+    "CommonsenseQA",
+    "ARC-C",
+    "FinQA",
+    "AlpacaEval"
+   ]
+  }
+ }
 }

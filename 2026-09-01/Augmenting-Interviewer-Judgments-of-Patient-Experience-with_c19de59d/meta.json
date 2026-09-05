@@ -4,5 +4,31 @@
  "title": "Augmenting-Interviewer-Judgments-of-Patient-Experience-with",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-09-01 17:35:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/20e77c93-f4f2-44f6-9ee8-19d1373b6df0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/20e77c93-f4f2-44f6-9ee8-19d1373b6df0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 01:51:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "therapeutic alliance prediction",
+    "clinician-AI fusion",
+    "dyadic language modeling",
+    "patient experience estimation",
+    "depressive disorder interviews",
+    "sentence embedding regression"
+   ],
+   "field": "计算精神健康与人际互动质量预测",
+   "innovations": [
+    "访谈员判断与自动语言预测的算术融合被系统验证为稳定互补",
+    "在五类回归架构上证明人类判断+机器预测的一致性增益",
+    "揭示双谈对话中访谈员侧语言比患者侧语言更具可提取预测信号"
+   ],
+   "benchmarks": [
+    "MePheSTO 德语自由访谈子集 (106 会话)",
+    "Working Alliance Inventory 衍生三项 VAS 自评",
+    "Ridge/SVR/MLP/GRU/BiLSTM 五模型比对"
+   ]
+  }
+ }
 }

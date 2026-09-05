@@ -4,5 +4,34 @@
  "title": "Auditing-MCQA-Benchmarks-through-Probability-Landscapes",
  "token": "sk-5sRpPz5k4...",
  "created_at": "2026-09-01 17:36:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/a62a6316-6238-4426-b86f-0ab4a2b17e0b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/a62a6316-6238-4426-b86f-0ab4a2b17e0b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 01:51:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "MCQA benchmark auditing",
+    "probability landscape",
+    "normalized residual entropy",
+    "noise injection",
+    "distractor quality",
+    "benchmark saturation",
+    "MMLU-Redux"
+   ],
+   "field": "LLM 评测与基准审计",
+   "innovations": [
+    "提出基于 P_top1 和 H_norm 的概率地貌框架，以 MPD 汇总基准级结构差异",
+    "噪声注入+跨模型交叉验证实现低成本题目级缺陷优先筛选",
+    "建立扰动诱导失败与可行动基准缺陷的分类体系并用 MMLU-Redux 外部验证"
+   ],
+   "benchmarks": [
+    "MMLU",
+    "ARC",
+    "HellaSwag",
+    "CommonsenseQA",
+    "GPQA"
+   ]
+  }
+ }
 }
