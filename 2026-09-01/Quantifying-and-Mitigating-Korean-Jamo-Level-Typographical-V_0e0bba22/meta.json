@@ -4,5 +4,30 @@
  "title": "Quantifying-and-Mitigating-Korean-Jamo-Level-Typographical-V",
  "token": "sk-xE6uZ2trL...",
  "created_at": "2026-09-01 07:19:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/681c1a06-1289-48ce-a6b0-1b1132e8ef5b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/681c1a06-1289-48ce-a6b0-1b1132e8ef5b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 16:27:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Korean typographical errors",
+    "jamo-level perturbation",
+    "LLM robustness",
+    "chain-of-thought routing",
+    "internal representation probing"
+   ],
+   "field": "多语言 NLP 鲁棒性",
+   "innovations": [
+    "形式化五类韩语音节内 jamo 级键盘扰动框架",
+    "揭示 typo 在 LLM 内部表征中产生独立于答案正确性的 distinct signal",
+    "提出基于内部探针的按需 CoT 路由策略 TACoT"
+   ],
+   "benchmarks": [
+    "KMMLU",
+    "HAERAE-GK",
+    "HRM8K"
+   ]
+  }
+ }
 }

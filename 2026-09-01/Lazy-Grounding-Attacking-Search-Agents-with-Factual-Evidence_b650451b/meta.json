@@ -4,5 +4,33 @@
  "title": "Lazy-Grounding-Attacking-Search-Agents-with-Factual-Evidence",
  "token": "sk-QooHq4eB2...",
  "created_at": "2026-09-01 17:36:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/74ef8172-818f-4db3-b4db-e5b036b8f4a4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/74ef8172-818f-4db3-b4db-e5b036b8f4a4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 16:25:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "lazy grounding",
+    "nearby evidence",
+    "search agents",
+    "RAG robustness",
+    "retrieval poisoning",
+    "answer-changing rewrite",
+    "evidence-question alignment"
+   ],
+   "field": "LLM Agent Security & Robustness",
+   "innovations": [
+    "首次揭示真实邻近证据可导致搜索代理迁移答案的惰性接地攻击模式",
+    "构建基于答案变更重写与密集重排序的自动化评测框架",
+    "系统量化位置、格式、多样性对攻击成功率的影响并提供约束检查提示防御"
+   ],
+   "benchmarks": [
+    "GAIA",
+    "XBENCH",
+    "BROWSECOMP+",
+    "HLE"
+   ]
+  }
+ }
 }

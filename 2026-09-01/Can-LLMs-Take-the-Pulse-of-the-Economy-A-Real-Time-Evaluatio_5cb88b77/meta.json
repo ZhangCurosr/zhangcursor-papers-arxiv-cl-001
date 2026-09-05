@@ -4,5 +4,10 @@
  "title": "Can-LLMs-Take-the-Pulse-of-the-Economy-A-Real-Time-Evaluatio",
  "token": "sk-tFRB7xMvI...",
  "created_at": "2026-09-01 07:21:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/a9f7632b-fb99-405d-bff9-530498480551.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/a9f7632b-fb99-405d-bff9-530498480551.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 16:25:50",
+  "chunks": 4
+ }
 }

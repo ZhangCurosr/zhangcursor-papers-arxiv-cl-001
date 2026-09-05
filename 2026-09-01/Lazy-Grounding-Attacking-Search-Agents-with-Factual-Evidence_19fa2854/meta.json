@@ -4,5 +4,31 @@
  "title": "Lazy-Grounding-Attacking-Search-Agents-with-Factual-Evidence",
  "token": "sk-QooHq4eB2...",
  "created_at": "2026-09-01 07:20:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/74ef8172-818f-4db3-b4db-e5b036b8f4a4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/74ef8172-818f-4db3-b4db-e5b036b8f4a4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 16:26:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "lazy grounding",
+    "search agent security",
+    "retrieval-augmented hallucination",
+    "factual poisoning",
+    "question-evidence alignment"
+   ],
+   "field": "LLM安全与鲁棒性",
+   "innovations": [
+    "提出lazy grounding漏洞：代理可被事实性正确的附近证据误导而迁移答案",
+    "构建答案变更改写生成附近证据的攻击框架",
+    "揭示位置、格式、多样性对攻击效果的影响及简单防御提示的局限"
+   ],
+   "benchmarks": [
+    "GAIA",
+    "XBench",
+    "BROWSECOMP+",
+    "HLE"
+   ]
+  }
+ }
 }

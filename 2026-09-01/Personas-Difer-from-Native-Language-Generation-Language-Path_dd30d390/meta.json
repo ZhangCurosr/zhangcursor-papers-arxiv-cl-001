@@ -4,5 +4,32 @@
  "title": "Personas-Difer-from-Native-Language-Generation-Language-Path",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-09-01 07:18:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/8c353e57-60df-4bf1-acc8-ffaf01ca2cf7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/8c353e57-60df-4bf1-acc8-ffaf01ca2cf7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 16:27:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multilingual LLM",
+    "interpersonal advice",
+    "cross-lingual prompting",
+    "persona prompting",
+    "behavioral scaffolding",
+    "language pathways"
+   ],
+   "field": "多语言大语言模型与社会交互",
+   "innovations": [
+    "揭示NL与NP跨语言提示策略在语言风格和行为脚手架上的系统性差异，证明二者不可互换",
+    "提出LIWC+语用标注+BCT+forced-choice四层评估框架，同时量化'怎么说'和'建议做什么'",
+    "发现NP虽增加亲社会词汇却降低社会同感力和具体性，并系统性偏向confrontation而非redirection"
+   ],
+   "benchmarks": [
+    "Interpersonal Skills Stack Exchange",
+    "LIWC-22",
+    "BCT (Behavior Change Technique Taxonomy)",
+    "Forced-Choice Action Classification"
+   ]
+  }
+ }
 }

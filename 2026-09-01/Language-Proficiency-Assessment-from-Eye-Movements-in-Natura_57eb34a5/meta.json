@@ -4,5 +4,32 @@
  "title": "Language-Proficiency-Assessment-from-Eye-Movements-in-Natura",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-09-01 07:17:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/171e53df-6eb8-41d6-abdb-428c3391b307.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/171e53df-6eb8-41d6-abdb-428c3391b307.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 16:25:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "eye-tracking",
+    "language proficiency assessment",
+    "L2 reading",
+    "EyeScore",
+    "L1 bias debiasing",
+    "reliability"
+   ],
+   "field": "计算心理语言学 / 语言测评",
+   "innovations": [
+    "提出并验证了基于外部测试残差消除 EyeScore 母语（L1）偏差的简单有效去偏方法",
+    "证明基于眼动的熟练度评分（EyeScore）在段落阅读范式下具有比 TOEFL/IELTS/Michigan 等传统测试更高的心理测量信度"
+   ],
+   "benchmarks": [
+    "LexTALE",
+    "Michigan Placement Test",
+    "Composite Proficiency (MECO L2)",
+    "IELTS",
+    "TOEFL-iBT"
+   ]
+  }
+ }
 }

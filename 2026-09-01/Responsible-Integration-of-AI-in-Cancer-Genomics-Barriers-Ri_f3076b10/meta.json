@@ -4,5 +4,28 @@
  "title": "Responsible-Integration-of-AI-in-Cancer-Genomics-Barriers-Ri",
  "token": "sk-haVkJ3VAf...",
  "created_at": "2026-09-01 07:16:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/0f3e7244-1406-4fc8-a14a-1a10f6a2a168.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/0f3e7244-1406-4fc8-a14a-1a10f6a2a168.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 16:29:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Cancer Genomics",
+    "Clinical Translation",
+    "Trustworthy AI",
+    "Interoperability",
+    "Data Governance",
+    "Explainability",
+    "NLP",
+    "Variant Interpretation"
+   ],
+   "field": "癌症基因组学AI临床转化",
+   "innovations": [
+    "提出证据-可解释性-治理-互操作性四域失败框架",
+    "将harmonization layer视为独立AI系统揭示上游噪声传播",
+    "引入欧洲互操作性框架分析癌症基因组学静默故障"
+   ]
+  }
+ }
 }

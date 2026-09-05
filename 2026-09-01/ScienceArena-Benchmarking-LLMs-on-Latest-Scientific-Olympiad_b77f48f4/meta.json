@@ -4,5 +4,34 @@
  "title": "ScienceArena-Benchmarking-LLMs-on-Latest-Scientific-Olympiad",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-09-01 07:17:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/ac7f159b-070d-419f-bbbe-a50d3f49af56.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/ac7f159b-070d-419f-bbbe-a50d3f49af56.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 16:29:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "科学推理评测",
+    "奥林匹克竞赛",
+    "LLM-as-judge",
+    "多步过程评分",
+    "多模态benchmark",
+    "interleaved prompting"
+   ],
+   "field": "科学推理与大模型评测",
+   "innovations": [
+    "专家审计的奥林匹克科学竞赛结构化流水线",
+    "基于奖牌得主锚定的LLM-as-judge±1分校准",
+    "rubric gates与error-forward的显式承诺评分规则"
+   ],
+   "benchmarks": [
+    "ScienceArena",
+    "IPhO 2025/2026",
+    "IChO 2025/2026",
+    "IBO 2023",
+    "CPhO 2025",
+    "USNCO 2025"
+   ]
+  }
+ }
 }

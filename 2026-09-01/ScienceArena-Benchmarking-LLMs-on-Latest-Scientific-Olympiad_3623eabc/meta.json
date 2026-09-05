@@ -4,5 +4,36 @@
  "title": "ScienceArena-Benchmarking-LLMs-on-Latest-Scientific-Olympiad",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-09-01 17:36:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/ac7f159b-070d-419f-bbbe-a50d3f49af56.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/ac7f159b-070d-419f-bbbe-a50d3f49af56.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 16:29:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM evaluation",
+    "scientific reasoning",
+    "olympiad benchmark",
+    "LLM-as-judge",
+    "multimodal reasoning",
+    "process-credit scoring",
+    "interleaved prompting"
+   ],
+   "field": "大模型科学推理评测",
+   "innovations": [
+    "专家审计的奥林匹克科学基准+过程计分rubric",
+    "奖牌得主校准的LLM-as-judge系统误差≤1分",
+    "interleaved prompting在16组对比中全面优于one-shot"
+   ],
+   "benchmarks": [
+    "ScienceArena",
+    "IPhO 2025/2026",
+    "IChO 2025/2026",
+    "IBO 2023",
+    "USAPhO 2026",
+    "CPhO 2025",
+    "CChO 2025"
+   ]
+  }
+ }
 }

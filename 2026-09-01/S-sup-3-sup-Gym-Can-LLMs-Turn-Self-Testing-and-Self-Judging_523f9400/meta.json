@@ -4,5 +4,36 @@
  "title": "S-sup-3-sup-Gym-Can-LLMs-Turn-Self-Testing-and-Self-Judging",
  "token": "sk-qKu2Cn1y4...",
  "created_at": "2026-09-01 07:17:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/bb5d74cc-7185-4ddd-9283-484fe6fe3f4a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/bb5d74cc-7185-4ddd-9283-484fe6fe3f4a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 16:29:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Self-Improving Agents",
+    "Self-Judging",
+    "In-Context Learning",
+    "Experience Integration",
+    "Interactive Benchmarks",
+    "LLM Agents"
+   ],
+   "field": "自我改进型 Agent 评估",
+   "innovations": [
+    "统一评估自我测试-自我评判-自我改进三阶段闭环的交互式基准 S³Gym",
+    "在相同协议下系统对比 History ICL、Summary Memory、Parameter Training 三种经验整合路径",
+    "显式测量并分析模型自我评判质量与后续行为改进之间的耦合关系"
+   ],
+   "benchmarks": [
+    "S³Gym",
+    "Chess",
+    "Minesweeper",
+    "Nullify",
+    "Tetris",
+    "Snake",
+    "Plants-vs-Zombies",
+    "Trust Evolution"
+   ]
+  }
+ }
 }

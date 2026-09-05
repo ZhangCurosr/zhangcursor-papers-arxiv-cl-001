@@ -4,5 +4,30 @@
  "title": "S-sup-3-sup-Gym-Can-LLMs-Turn-Self-Testing-and-Self-Judging",
  "token": "sk-qKu2Cn1y4...",
  "created_at": "2026-09-01 17:35:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/bb5d74cc-7185-4ddd-9283-484fe6fe3f4a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/bb5d74cc-7185-4ddd-9283-484fe6fe3f4a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 16:29:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "self-improving agents",
+    "self-testing",
+    "self-judging",
+    "in-context learning",
+    "parameter training",
+    "interactive benchmarks",
+    "experience-driven learning"
+   ],
+   "field": "LLM Agent 自我改进与自适应评估",
+   "innovations": [
+    "提出S³Gym统一框架，将自我改进形式化为探索-评判-整合-评估五阶段迭代并分离宽松探索与严格hold-out评估",
+    "在相同协议下系统比较History ICL、Summary Memory和Parameter Training三条经验整合路径",
+    "显式评估Self-Judging可靠性及其与后续改进效果的耦合关系，发现局部评分准确不足以预测改进"
+   ],
+   "benchmarks": [
+    "S³Gym"
+   ]
+  }
+ }
 }

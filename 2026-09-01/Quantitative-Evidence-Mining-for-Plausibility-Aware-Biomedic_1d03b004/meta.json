@@ -4,5 +4,32 @@
  "title": "Quantitative-Evidence-Mining-for-Plausibility-Aware-Biomedic",
  "token": "sk-UIdHTd8L7...",
  "created_at": "2026-09-01 07:20:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/a19963c6-ab39-49a9-93c4-19cc670118fd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/a19963c6-ab39-49a9-93c4-19cc670118fd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 16:28:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "定量证据挖掘",
+    "生物医学文本挖掘",
+    "定量信息提取",
+    "大型语言模型",
+    "证据感知知识图谱",
+    "可信度评估"
+   ],
+   "field": "生物医学信息抽取与证据合成",
+   "innovations": [
+    "提出生物医学定量证据单元（QEU）作为统一中间表示，集成值/单位/上下文/不确定性/溯源/多维可信度",
+    "给出可信度感知八层参考架构，强调来源锚定与维度化评估而非单值可信标签",
+    "将定量证据挖掘定位为关系抽取与可信下游应用之间的缺失层，连接KG、监管决策与仿真建模"
+   ],
+   "benchmarks": [
+    "MeasEval (SemEval-2021 Task 8)",
+    "GWAS Catalog",
+    "Polygenic Score Catalog",
+    "SemMedDB"
+   ]
+  }
+ }
 }

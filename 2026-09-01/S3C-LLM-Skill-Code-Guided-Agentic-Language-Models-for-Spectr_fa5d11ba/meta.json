@@ -4,5 +4,32 @@
  "title": "S3C-LLM-Skill-Code-Guided-Agentic-Language-Models-for-Spectr",
  "token": "sk-yJ5h9Go8b...",
  "created_at": "2026-09-01 07:18:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/6c105dc5-e956-4ca6-9593-ae588ca2ae3f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/6c105dc5-e956-4ca6-9593-ae588ca2ae3f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 16:29:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "spectrum-to-structure",
+    "agentic LLM",
+    "step-level RL",
+    "skill library",
+    "QSAR-free molecular elucidation",
+    "NMR",
+    "MS/MS"
+   ],
+   "field": "计算化学与光谱分子结构推断",
+   "innovations": [
+    "自演进技能库+可执行代码的智能体轨迹构造",
+    "面向工具调用场景的 step-level GRPO 强化学习",
+    "以小模型+结构化轨迹+两阶段训练实现低数据高效光谱-结构推断"
+   ],
+   "benchmarks": [
+    "QM9S",
+    "Multimodal Spectroscopic Dataset",
+    "MassSpecGym"
+   ]
+  }
+ }
 }

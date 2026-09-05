@@ -4,5 +4,32 @@
  "title": "Quantifying-and-Mitigating-Korean-Jamo-Level-Typographical-V",
  "token": "sk-xE6uZ2trL...",
  "created_at": "2026-09-01 17:36:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/681c1a06-1289-48ce-a6b0-1b1132e8ef5b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/681c1a06-1289-48ce-a6b0-1b1132e8ef5b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 16:27:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Korean typographical robustness",
+    "jamo-level perturbation",
+    "typo-aware chain-of-thought",
+    "TACoT",
+    "representational probing",
+    "KMMLU",
+    "language model vulnerability"
+   ],
+   "field": "多语言LLM鲁棒性与安全",
+   "innovations": [
+    "提出5种韩语jamo层级扰动类型学并量化LLM脆弱性，揭示参数规模不带来鲁棒性增益",
+    "发现typo-induced表征位移正交于答案错误方向，线性probe留一类型泛化AUROC达0.905–0.943",
+    "提出TACoT探针路由框架，在节省约37%推理token的同时恢复CoT主要准确率增益"
+   ],
+   "benchmarks": [
+    "KMMLU",
+    "HRM8K",
+    "HAERAE-GK"
+   ]
+  }
+ }
 }

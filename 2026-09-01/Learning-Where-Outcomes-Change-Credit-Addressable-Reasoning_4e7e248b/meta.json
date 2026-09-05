@@ -4,5 +4,38 @@
  "title": "Learning-Where-Outcomes-Change-Credit-Addressable-Reasoning",
  "token": "sk-uDfT0rM1x...",
  "created_at": "2026-09-01 17:36:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/863d2767-d0e2-44ab-aaea-1a7714b90722.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/863d2767-d0e2-44ab-aaea-1a7714b90722.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 16:26:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态几何推理",
+    "信用可寻址推理",
+    "强化学习",
+    "Code-CoT",
+    "CE-GRPO",
+    "视觉语言模型",
+    "程序化奖励"
+   ],
+   "field": "多模态推理与强化学习",
+   "innovations": [
+    "提出credit-addressable reasoning原则，实现推理表征与信用分配的协同设计",
+    "设计Code-CoT框架将几何推理表示为可执行、行地址索引的类型化事件",
+    "提出CE-GRPO算法通过共享前缀分支和类型归一化熵实现局部化信用分配"
+   ],
+   "benchmarks": [
+    "MathVerse",
+    "VisOnlyQA-Syn",
+    "VisOnlyQA-Real",
+    "MathVista-GPS",
+    "Geometry3K",
+    "PGPS9K",
+    "GeoQA",
+    "GeoLaux-mini",
+    "MM-Math"
+   ]
+  }
+ }
 }

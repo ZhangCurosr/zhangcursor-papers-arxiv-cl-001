@@ -4,5 +4,39 @@
  "title": "From-Final-Artifacts-to-Trajectories-Retrospective-Process-S",
  "token": "sk-NVka6yfS0...",
  "created_at": "2026-09-01 07:20:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/b0392389-8cd3-4eab-8049-8032d8d92674.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/b0392389-8cd3-4eab-8049-8032d8d92674.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 16:24:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "process supervision",
+    "retrieval-augmented generation",
+    "evidence-grounded generation",
+    "self-improving agents",
+    "trajectory reconstruction",
+    "artifact-to-trajectory",
+    "long-form generation"
+   ],
+   "field": "证据锚定的长文本生成与Agent训练",
+   "innovations": [
+    "将专家最终产物视为压缩过程，通过回溯重构生成可验证的轨迹监督信号",
+    "提出多维度Rubric-guided验证机制（rubric/quality/grounding/consistency）筛选自生成轨迹",
+    "无需更强教师模型，仅用公开expert artifacts构建25K验证轨迹实现自改进SFT"
+   ],
+   "benchmarks": [
+    "ALCE",
+    "ScholarQA",
+    "QASPER",
+    "LAiW",
+    "LegalBench",
+    "AstaBench (LitQA2, SQA)",
+    "GSM8K",
+    "MMLU-Pro",
+    "IFEval",
+    "HumanEval"
+   ]
+  }
+ }
 }

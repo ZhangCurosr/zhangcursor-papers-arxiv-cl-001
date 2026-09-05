@@ -4,5 +4,45 @@
  "title": "On-the-Design-of-Qwen3-8-Next-Architecture-Evaluation-Eficie",
  "token": "sk-ceCpd81tF...",
  "created_at": "2026-09-01 17:36:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/36445d5a-498f-47bf-97ce-96bf15113725.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/36445d5a-498f-47bf-97ce-96bf15113725.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 16:27:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "sparse MoE",
+    "Gated DeltaNet",
+    "Gated Residual",
+    "sparse attention",
+    "Muon optimizer",
+    "training stability",
+    "scaling laws",
+    "n-gram embedding"
+   ],
+   "field": "大语言模型架构设计",
+   "innovations": [
+    "GDN-Attention混合架构：每四层中三层GDN+一层全注意力，在9个基准中赢8个",
+    "Gated Residual：将残差流扩宽4分支并用elementwise sigmoid gate读取，替代HC的H_res并提升训练稳定性",
+    "Qwen Sparse Attention：micro-block粒度compressed indexer使索引开销随序列长度亚二次增长，1M上下文prefill提速7.6x"
+   ],
+   "benchmarks": [
+    "MMLU",
+    "MMLU-Pro",
+    "SuperGPQA",
+    "MATH",
+    "GSM8K",
+    "BBH",
+    "MMMLU",
+    "EvalPlus",
+    "MultiPL-E",
+    "RULER",
+    "MRCR",
+    "GPQA",
+    "MGSM",
+    "INCLUDE",
+    "SWEBench-Pretrain"
+   ]
+  }
+ }
 }

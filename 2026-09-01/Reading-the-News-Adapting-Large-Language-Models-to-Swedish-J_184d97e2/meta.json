@@ -4,5 +4,34 @@
  "title": "Reading-the-News-Adapting-Large-Language-Models-to-Swedish-J",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-09-01 07:18:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/f71c1097-be86-4a8f-b439-e8f3c4c74bcd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/f71c1097-be86-4a8f-b439-e8f3c4c74bcd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 16:28:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "持续预训练",
+    "低资源语言",
+    "新闻领域适配",
+    "参数高效微调",
+    "灾难性遗忘",
+    "指令向量",
+    "瑞典语NLP"
+   ],
+   "field": "低资源语言领域适配",
+   "innovations": [
+    "构建首个瑞典新闻领域专用CPT方案与BonEval评测基准",
+    "揭示instruct vector仅与LoRA兼容的适配方法依赖现象",
+    "验证经验回放混合策略（代码+英语+瑞典语）对领域适配的关键作用"
+   ],
+   "benchmarks": [
+    "BonEval",
+    "EuroEval瑞典语",
+    "SwedishFacts",
+    "SvD SEO Headline",
+    "Aftonbladet Summary"
+   ]
+  }
+ }
 }

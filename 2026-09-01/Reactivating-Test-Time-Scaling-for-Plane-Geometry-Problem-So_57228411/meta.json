@@ -4,5 +4,31 @@
  "title": "Reactivating-Test-Time-Scaling-for-Plane-Geometry-Problem-So",
  "token": "sk-5jLHcS0AE...",
  "created_at": "2026-09-01 07:21:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/2e458484-d9a8-42ed-ba3b-2a36fdab87ec.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/2e458484-d9a8-42ed-ba3b-2a36fdab87ec.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 16:28:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "测试时扩展",
+    "平面几何问题求解",
+    "多轨迹综合",
+    "感知增强训练",
+    "自适应推理",
+    "多模态大语言模型"
+   ],
+   "field": "多模态推理与几何求解",
+   "innovations": [
+    "将符号程序转化为异构推理轨迹以激活测试时扩展",
+    "感知增强两阶段训练强化视觉到符号的对齐",
+    "共识引导多轨迹集成实现精度-计算效率帕累托优化"
+   ],
+   "benchmarks": [
+    "PGPS9K",
+    "Geometry3K",
+    "GeoQA"
+   ]
+  }
+ }
 }

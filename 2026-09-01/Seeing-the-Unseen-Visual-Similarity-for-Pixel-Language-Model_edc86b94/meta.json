@@ -4,5 +4,32 @@
  "title": "Seeing-the-Unseen-Visual-Similarity-for-Pixel-Language-Model",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-09-01 07:20:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/ba558373-0f73-4dc7-9cf1-746d128b6e95.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/ba558373-0f73-4dc7-9cf1-746d128b6e95.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 16:30:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "pixel-based language model",
+    "cross-lingual transfer",
+    "visual similarity",
+    "continued pre-training",
+    "low-resource language",
+    "Tibetan NLP",
+    "script adaptation"
+   ],
+   "field": "多语言 NLP / 低资源语言建模",
+   "innovations": [
+    "提出四个渲染级视觉相似性度量（PD/GC/CP/CG）量化书写系统正交距离",
+    "首次系统探索 pixel LM 向低资源新脚本语言的 CPT 适应及数据需求量化",
+    "发现多语言预训练模型 CPT 适应容量受限而与单语言模型存在性能不对称性"
+   ],
+   "benchmarks": [
+    "TNCC 藏语文本分类",
+    "Tibetan-Mongolian NER",
+    "TDTreebank POS Tagging"
+   ]
+  }
+ }
 }

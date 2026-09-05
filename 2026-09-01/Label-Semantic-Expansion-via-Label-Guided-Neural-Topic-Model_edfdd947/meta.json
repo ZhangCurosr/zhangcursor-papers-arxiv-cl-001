@@ -4,5 +4,31 @@
  "title": "Label-Semantic-Expansion-via-Label-Guided-Neural-Topic-Model",
  "token": "sk-6g8ixta3t...",
  "created_at": "2026-09-01 17:36:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/ad0e4c32-47f0-468a-ada7-f17d2a5b79cf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/ad0e4c32-47f0-468a-ada7-f17d2a5b79cf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 16:25:35",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "neural topic modeling",
+    "label semantic expansion",
+    "supervised topic model",
+    "topics-for-labels",
+    "hierarchical topic model",
+    "label-topic alignment"
+   ],
+   "field": "神经话题建模与文本语义表示",
+   "innovations": [
+    "提出 topics-for-labels 视角并形式化 Label Semantic Expansion 任务",
+    "设计 LGNTM，通过标签对齐、双语义接地与层次一致性学习标签专属话题词分布",
+    "在标签-话题对齐、LSE质量、话题品质与LLM下游分类上全面优于现有监督/无监督基线"
+   ],
+   "benchmarks": [
+    "Bills",
+    "Medical",
+    "WoS"
+   ]
+  }
+ }
 }

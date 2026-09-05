@@ -4,5 +4,34 @@
  "title": "Label-Semantic-Expansion-via-Label-Guided-Neural-Topic-Model",
  "token": "sk-6g8ixta3t...",
  "created_at": "2026-09-01 07:20:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/ad0e4c32-47f0-468a-ada7-f17d2a5b79cf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/ad0e4c32-47f0-468a-ada7-f17d2a5b79cf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 16:25:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "标签语义扩展",
+    "神经主题模型",
+    "监督主题建模",
+    "层次分类体系",
+    "LLM-as-a-judge",
+    "主题嵌入",
+    "多模态对齐"
+   ],
+   "field": "监督主题建模与标签语义分析",
+   "innovations": [
+    "提出topics-for-labels视角并形式化标签语义扩展任务",
+    "设计LGNTM模型实现标签-主题一一映射与双语义接地",
+    "构建多维度评估体系验证LSE在覆盖度、区分度与下游分类中的效用"
+   ],
+   "benchmarks": [
+    "Bills",
+    "Medical",
+    "WoS",
+    "LLM偏好测试",
+    "Macro-F1分类"
+   ]
+  }
+ }
 }
