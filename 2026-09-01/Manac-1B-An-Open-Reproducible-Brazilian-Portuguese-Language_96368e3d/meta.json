@@ -4,5 +4,33 @@
  "title": "Manac-1B-An-Open-Reproducible-Brazilian-Portuguese-Language",
  "token": "sk-OzxqMKxem...",
  "created_at": "2026-09-01 07:18:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/821e0a15-3f9e-4ccd-8300-96555b8e5b2b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/821e0a15-3f9e-4ccd-8300-96555b8e5b2b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 13:50:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Brazilian Portuguese",
+    "reproducible training",
+    "tokenizer fidelity",
+    "paired evaluation",
+    "LAMBADA-PT",
+    "CALAME-PT",
+    "open language model"
+   ],
+   "field": "低资源语言大模型与可复现评估",
+   "innovations": [
+    "发布完全容器化可复现的 1.72B 巴西葡语基础模型 Manacá-1B，公开全部训练与评估证据链",
+    "提出 tokenizer 感知的配对评估协议，在四个基准上使用 paired McNemar 检验与标准误差",
+    "发现并修复 SentencePiece→HuggingFace 转换中丢失 nmt_nfkc_cf normalizer 导致的静默评估下降（LAMBADA-PT -20.3pp）"
+   ],
+   "benchmarks": [
+    "CALAME-PT",
+    "ARC-Challenge-PT",
+    "HellaSwag-PT",
+    "LAMBADA-PT"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Learning-to-Reason-and-Use-Tools-through-Unsupervised-Fine-T",
  "token": "sk-3sasXMHBZ...",
  "created_at": "2026-09-01 07:22:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/543150ad-5d7a-4156-b2f3-52a633a10417.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/543150ad-5d7a-4156-b2f3-52a633a10417.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 13:46:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Task-Oriented Dialogue",
+    "ReAct",
+    "Unsupervised Fine-Tuning",
+    "LLM Agent",
+    "Hallucination Mitigation",
+    "SIMMC",
+    "Self-Improvement",
+    "LLM Judge"
+   ],
+   "field": "任务型对话系统与大模型Agent",
+   "innovations": [
+    "提出将ReAct框架适配于任务型对话系统的无监督自提升微调流水线，无需人工标注即可构建推理轨迹训练集",
+    "利用LLM裁判(Prometheus 2)自动筛选高质量轨迹并驱动迭代微调，使8B模型性能超越70B上下文学习系统",
+    "证明了通过学习推理和工具使用过程可促进模型在任务型对话中的跨域泛化能力，缓解过拟合"
+   ],
+   "benchmarks": [
+    "SIMMC 2.1"
+   ]
+  }
+ }
 }

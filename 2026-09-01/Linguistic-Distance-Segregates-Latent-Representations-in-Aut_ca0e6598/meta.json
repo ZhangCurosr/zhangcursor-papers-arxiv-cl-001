@@ -4,5 +4,35 @@
  "title": "Linguistic-Distance-Segregates-Latent-Representations-in-Aut",
  "token": "sk-owp49a3rO...",
  "created_at": "2026-09-01 07:22:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/7d0290e4-7129-4994-a27b-27fa7068c298.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/7d0290e4-7129-4994-a27b-27fa7068c298.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 13:49:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "自动语音识别",
+    "ASR公平性",
+    "语言距离",
+    "L2说话者",
+    "隐空间分析",
+    "Tweedie混合效应模型",
+    "口音鲁棒性"
+   ],
+   "field": "语音识别公平性与偏差分析",
+   "innovations": [
+    "系统性量化L1语言距离与英语ASR性能差距的统计关联（Tweedie混合效应模型，p<0.001）",
+    "揭示深层隐空间中L1/L2语音表征的持续性空间分离，表明模型保留而非消除口音变异",
+    "识别Fair-Speech为反例并发现Canary-1B-v2对口音多样性具有异常鲁棒性"
+   ],
+   "benchmarks": [
+    "Speech Accent Archive (SAA)",
+    "Fair-Speech",
+    "L2-ARCTIC",
+    "EdAcc",
+    "ALLSSTAR",
+    "AFRISPEECH-200"
+   ]
+  }
+ }
 }

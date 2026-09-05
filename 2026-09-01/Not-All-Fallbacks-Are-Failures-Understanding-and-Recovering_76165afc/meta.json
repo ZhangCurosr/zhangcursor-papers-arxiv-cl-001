@@ -4,5 +4,30 @@
  "title": "Not-All-Fallbacks-Are-Failures-Understanding-and-Recovering",
  "token": "sk-NnOQ8YDzm...",
  "created_at": "2026-09-01 07:21:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/31a0c5a8-a731-4a18-b7a7-f5b2b6b8d37c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/31a0c5a8-a731-4a18-b7a7-f5b2b6b8d37c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 13:51:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "fallback处理",
+    "语音助手",
+    "意图分类",
+    "轻量化模型",
+    "对话系统",
+    "OOV检测",
+    "多轮交互"
+   ],
+   "field": "对话系统与语音交互",
+   "innovations": [
+    "构建VOXFALLBACKS数据集与三级fallback分类体系",
+    "实证证明轻量embedding分类器优于小参数LLM用于fallback路由",
+    "提出非对称错误成本优化视角指导部署决策"
+   ],
+   "benchmarks": [
+    "VOXFALLBACKS"
+   ]
+  }
+ }
 }

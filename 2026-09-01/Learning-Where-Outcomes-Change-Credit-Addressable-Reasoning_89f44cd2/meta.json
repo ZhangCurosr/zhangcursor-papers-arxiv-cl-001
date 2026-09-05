@@ -4,5 +4,38 @@
  "title": "Learning-Where-Outcomes-Change-Credit-Addressable-Reasoning",
  "token": "sk-uDfT0rM1x...",
  "created_at": "2026-09-01 07:20:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/cabf9f03-cafb-4c1e-ba8a-7560c71ca577.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/cabf9f03-cafb-4c1e-ba8a-7560c71ca577.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 13:46:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "credit-addressable reasoning",
+    "Code-CoT",
+    "CE-GRPO",
+    "multimodal geometry",
+    "programmatic reward",
+    "event-level optimization",
+    "visual reasoning"
+   ],
+   "field": "多模态几何推理",
+   "innovations": [
+    "提出信用可寻址推理原则，使推理语义单元与优化单位对齐",
+    "设计Code-CoT将几何关系表示为行地址可寻址可执行代码并组织为类型化事件",
+    "提出CE-GRPO基于共享前缀分支和类型归一化熵实现局部化信用分配"
+   ],
+   "benchmarks": [
+    "MathVerse",
+    "VisOnlyQA-Syn",
+    "VisOnlyQA-Real",
+    "MathVista-GPS",
+    "Geometry3K",
+    "PGPS9K",
+    "GeoQA",
+    "GeoLaux-mini",
+    "MM-Math"
+   ]
+  }
+ }
 }

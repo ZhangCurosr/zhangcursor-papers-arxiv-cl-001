@@ -4,5 +4,41 @@
  "title": "GMTS-Gradient-Magnitude-based-Token-Selection-Improves-RLVR",
  "token": "sk-AG7sAmdzS...",
  "created_at": "2026-09-01 17:36:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/8e60ab75-d50e-4b53-8a21-3311ba226d3b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/8e60ab75-d50e-4b53-8a21-3311ba226d3b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 13:44:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RLVR",
+    "Token Selection",
+    "Gradient Magnitude",
+    "Entropy",
+    "GRPO",
+    "DAPO",
+    "Reasoning"
+   ],
+   "field": "大语言模型推理增强",
+   "innovations": [
+    "建立Token熵与梯度幅值的理论联系并证明线性关系",
+    "提出GMTS方法通过熵-梯度代理量化跨答案Token重要性",
+    "在三个推理域和多种模型规模上验证GMTS优于ETS的一致性优势"
+   ],
+   "benchmarks": [
+    "MATH-500",
+    "AIME2024",
+    "AIME2025",
+    "AMC23",
+    "Minerva",
+    "OlympiadBench",
+    "HumanEval",
+    "MBPP",
+    "LiveCodeBench",
+    "Bigcode-Bench",
+    "CS-QA",
+    "CS-QA2"
+   ]
+  }
+ }
 }

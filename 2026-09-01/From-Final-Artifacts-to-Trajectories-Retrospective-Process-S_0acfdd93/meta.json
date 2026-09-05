@@ -4,5 +4,38 @@
  "title": "From-Final-Artifacts-to-Trajectories-Retrospective-Process-S",
  "token": "sk-NVka6yfS0...",
  "created_at": "2026-09-01 17:36:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/b0392389-8cd3-4eab-8049-8032d8d92674.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/b0392389-8cd3-4eab-8049-8032d8d92674.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 13:44:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "retrospective process supervision",
+    "evidence-grounded generation",
+    "agent trajectory",
+    "self-improving LLM",
+    "retrieval-augmented generation",
+    "long-form writing"
+   ],
+   "field": "证据驱动长文生成与 Agent 训练",
+   "innovations": [
+    "将专家最终产物视为压缩的潜在过程痕迹，支持从 artifact 反向重建可验证的工具使用轨迹",
+    "提出 RETROGEN 四维 rubric-guided 验证机制，实现无需外部教师模型的自改进过程监督",
+    "证明轨迹级监督比仅模仿最终产物更能提升证据 grounded 推理与动态 agentic 行为"
+   ],
+   "benchmarks": [
+    "ALCE",
+    "ScholarQA",
+    "QASPER",
+    "LAiW",
+    "LegalBench",
+    "AstaBench",
+    "GSM8K",
+    "MMLU-Pro",
+    "IFEval",
+    "HumanEval"
+   ]
+  }
+ }
 }

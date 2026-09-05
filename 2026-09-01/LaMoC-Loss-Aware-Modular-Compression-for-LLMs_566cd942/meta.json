@@ -4,5 +4,37 @@
  "title": "LaMoC-Loss-Aware-Modular-Compression-for-LLMs",
  "token": "sk-Gq5lt3OzO...",
  "created_at": "2026-09-01 07:18:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/779892af-dff8-4000-856a-53e60f71251c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/779892af-dff8-4000-856a-53e60f71251c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 13:45:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM压缩",
+    "模块化压缩",
+    "损失感知压缩",
+    "Fisher信息",
+    "激活统计",
+    "无训练压缩",
+    "低秩近似"
+   ],
+   "field": "大语言模型压缩与效率优化",
+   "innovations": [
+    "提出模块级Empirical Fisher作为损失感知代理，通过梯度-误差对齐融合激活统计",
+    "将联合模块化压缩重构为双层优化问题，外层最小化跨熵损失变化，内层最小化模块重建误差"
+   ],
+   "benchmarks": [
+    "WikiText-2 PPL",
+    "5-shot MMLU",
+    "0-shot ARC-e/c",
+    "PiQA",
+    "Winogrande",
+    "HellaSwag",
+    "GSM8K",
+    "HumanEval",
+    "MT-Bench"
+   ]
+  }
+ }
 }

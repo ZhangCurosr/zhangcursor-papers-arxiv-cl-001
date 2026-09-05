@@ -4,5 +4,31 @@
  "title": "Manac-1B-An-Open-Reproducible-Brazilian-Portuguese-Language",
  "token": "sk-OzxqMKxem...",
  "created_at": "2026-09-01 17:36:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/821e0a15-3f9e-4ccd-8300-96555b8e5b2b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/821e0a15-3f9e-4ccd-8300-96555b8e5b2b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 13:50:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Brazilian Portuguese LLM",
+    "reproducible training",
+    "tokenizer fidelity",
+    "paired evaluation",
+    "compute-optimal training"
+   ],
+   "field": "低资源语言大模型",
+   "innovations": [
+    "提出完全容器化可复现的巴西葡语1.72B模型Manacá-1B",
+    "发现SentencePiece转HuggingFace丢失nmt_nfkc_cf归一化导致LAMBADA-PT得分暴跌20pp的评估陷阱",
+    "在统一harness下对九个基线提供带配对McNemar检验的严格对比评估"
+   ],
+   "benchmarks": [
+    "CALAME-PT",
+    "ARC-Challenge-PT",
+    "HellaSwag-PT",
+    "LAMBADA-PT"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "More-Capable-Less-Faithful-A-Multilingual-Analysis-of-Mathem",
  "token": "sk-Tq65tdoLK...",
  "created_at": "2026-09-01 17:36:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/4796cccf-2905-41d5-8eef-705e7ac61ef4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/4796cccf-2905-41d5-8eef-705e7ac61ef4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 13:51:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "可解性检测",
+    "多语言LLM",
+    "忠实度分析",
+    "内部表征探针",
+    "数学推理",
+    "拒绝行为"
+   ],
+   "field": "多语言大语言模型能力评估",
+   "innovations": [
+    "首个多语言配对可解/不可解数学问题基准（法语+希腊语）",
+    "揭示高资源语言能力强但可解性检测忠实度低的反常现象",
+    "证明可解性信念以跨语言通用的方式编码于隐藏状态"
+   ],
+   "benchmarks": [
+    "ReliableMath",
+    "MATH",
+    "MinervaMath",
+    "AIME24/AMC"
+   ]
+  }
+ }
 }

@@ -4,5 +4,34 @@
  "title": "Linguistic-Distance-Segregates-Latent-Representations-in-Aut",
  "token": "sk-owp49a3rO...",
  "created_at": "2026-09-01 17:35:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/7d0290e4-7129-4994-a27b-27fa7068c298.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/7d0290e4-7129-4994-a27b-27fa7068c298.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 13:48:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "自动语音识别",
+    "语言距离",
+    "公平性评估",
+    "潜空间分析",
+    "口音鲁棒性",
+    "混合效应模型"
+   ],
+   "field": "ASR公平性与多口音识别",
+   "innovations": [
+    "首次系统性量化L1语言距离与英语ASR错误率的正相关关系并通过Tweedie混合模型验证",
+    "揭示ASR深层潜表征按L1空间隔离的现象及其随层深演化规律",
+    "识别Fair-Speech作为LD非主导因子的反例并用人 perce 实验验证"
+   ],
+   "benchmarks": [
+    "Speech Accent Archive",
+    "Fair-Speech",
+    "L2-ARCTIC",
+    "Edinburgh International Accents of English Corpus",
+    "ALLSSTAR",
+    "AFRISPEECH-200"
+   ]
+  }
+ }
 }

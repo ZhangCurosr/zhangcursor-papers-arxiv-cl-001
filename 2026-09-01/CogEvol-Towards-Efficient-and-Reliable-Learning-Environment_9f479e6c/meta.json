@@ -4,5 +4,31 @@
  "title": "CogEvol-Towards-Efficient-and-Reliable-Learning-Environment",
  "token": "sk-4LF0lBYcu...",
  "created_at": "2026-09-01 07:15:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/62334e41-bff6-42c4-b262-5cdbafe47f62.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/62334e41-bff6-42c4-b262-5cdbafe47f62.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 13:44:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "学习环境生成",
+    "交互式HTML",
+    "强化学习",
+    "奖励设计",
+    "教育AI"
+   ],
+   "field": "教育大模型应用",
+   "innovations": [
+    "执行感知数据管道验证可运行性",
+    "混合规则+VLM奖励修复奖励黑客",
+    "脚手架编辑降成本76%"
+   ],
+   "benchmarks": [
+    "slide-std",
+    "HTML-500",
+    "PresentBench",
+    "EE-Eval"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "Mind-the-Gap-Theory-of-Mind-Grounded-Friction-for-Epistemic",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-09-01 07:18:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/343058ff-9367-47ed-94fa-e49ed79cb79f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/343058ff-9367-47ed-94fa-e49ed79cb79f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 13:51:28",
+  "chunks": 1
+ }
 }

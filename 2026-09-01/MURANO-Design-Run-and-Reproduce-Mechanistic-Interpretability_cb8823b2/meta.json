@@ -4,5 +4,31 @@
  "title": "MURANO-Design-Run-and-Reproduce-Mechanistic-Interpretability",
  "token": "sk-qf4fjeNDd...",
  "created_at": "2026-09-01 07:19:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/32e12b38-17a6-4474-9fea-879fb1f85e3c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/32e12b38-17a6-4474-9fea-879fb1f85e3c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 13:50:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "mechanistic interpretability",
+    "pipeline orchestration",
+    "activation patching",
+    "sparse autoencoder",
+    "causal intervention",
+    "reproducibility"
+   ],
+   "field": "机械可解释性与模型内省",
+   "innovations": [
+    "将机械可解释性操作封装为声明式可组合步骤并通过规范化节点地址统一跨库通信",
+    "提供覆盖记录/归因/补丁/注意力/引导/SAE/探针七大类别的开源编排框架",
+    "以最少核心逻辑语句成功复现 IOI 头部识别与 Truth Direction 两项经典研究"
+   ],
+   "benchmarks": [
+    "Indirect Object Identification (IOI) on GPT-2 Small",
+    "Truth Direction on LLaMA-2-13B",
+    "Gemma Scope SAE Feature Steering on Gemma 2 2B"
+   ]
+  }
+ }
 }

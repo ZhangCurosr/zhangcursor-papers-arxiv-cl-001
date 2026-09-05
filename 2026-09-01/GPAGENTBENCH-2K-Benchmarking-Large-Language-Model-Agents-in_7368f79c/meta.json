@@ -4,5 +4,29 @@
  "title": "GPAGENTBENCH-2K-Benchmarking-Large-Language-Model-Agents-in",
  "token": "sk-o7hgvdkWW...",
  "created_at": "2026-09-01 07:20:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/1844be29-baf0-439e-8455-3c4e779ae884.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/1844be29-baf0-439e-8455-3c4e779ae884.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 13:45:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "clinical agents",
+    "constrained MDP",
+    "LLM benchmarking",
+    "safety-aware decision making",
+    "primary care",
+    "reinforcement learning"
+   ],
+   "field": "临床智能体与安全约束决策",
+   "innovations": [
+    "首个CMDP临床智能体基准，建模六维动作空间与安全abstention",
+    "揭示质量-安全差距：前沿模型在高危案例中超半数违反安全约束",
+    "首次将C-GRPO应用于临床智能体训练，证明约束RL优于无约束方法但安全差距仍大"
+   ],
+   "benchmarks": [
+    "GPAGENTBENCH-2K"
+   ]
+  }
+ }
 }

@@ -4,5 +4,36 @@
  "title": "Low-Resource-Preference-Adaptation-of-LLMs-via-Activation-Ba",
  "token": "sk-LV19Ft0NN...",
  "created_at": "2026-09-01 17:35:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/7e678ddc-9a65-405b-b8c3-e529bb9b9011.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/7e678ddc-9a65-405b-b8c3-e529bb9b9011.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 13:49:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "preference optimization",
+    "low-resource alignment",
+    "linear probe",
+    "activation geometry",
+    "label propagation",
+    "DPO",
+    "IPO",
+    "LLM-as-judge"
+   ],
+   "field": "大语言模型偏好对齐与低资源自适应",
+   "innovations": [
+    "利用预训练/对齐后模型激活层中的偏好聚类几何，训练轻量线性探针进行大规模伪标注",
+    "提出小样本（≤500）标签传播结合偏好优化的低资源对齐管道，显著降低人工标注依赖",
+    "系统揭示不同PO方法对探针噪声标签的鲁棒性差异，指出IPO与标签平滑DPO在低质量标签下的优势"
+   ],
+   "benchmarks": [
+    "HH-RLHF",
+    "UltraFeedback",
+    "Nectar",
+    "PRISM",
+    "oasst2",
+    "AfriSenti"
+   ]
+  }
+ }
 }
