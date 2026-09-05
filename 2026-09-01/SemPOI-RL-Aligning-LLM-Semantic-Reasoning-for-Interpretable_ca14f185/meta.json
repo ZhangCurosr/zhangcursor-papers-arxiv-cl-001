@@ -4,5 +4,31 @@
  "title": "SemPOI-RL-Aligning-LLM-Semantic-Reasoning-for-Interpretable",
  "token": "sk-B2hxqutYc...",
  "created_at": "2026-09-01 07:22:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/ab6bd2d8-40ca-40c7-ab5f-9e5d78b08c92.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/ab6bd2d8-40ca-40c7-ab5f-9e5d78b08c92.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 18:44:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "POI recommendation",
+    "out-of-town trip",
+    "large language model",
+    "reinforcement learning",
+    "semantic alignment",
+    "masked autoencoder",
+    "trajectory generation"
+   ],
+   "field": "可解释序列化推荐",
+   "innovations": [
+    "将自然语言旅行风格作为可训练的语义-结构对齐中间接口",
+    "提出 SPAM 位置级原型接地与负熵防塌陷机制",
+    "用 GRPO 多目标轨迹奖励端到端优化 LLM 风格生成"
+   ],
+   "benchmarks": [
+    "Foursquare",
+    "Yelp"
+   ]
+  }
+ }
 }

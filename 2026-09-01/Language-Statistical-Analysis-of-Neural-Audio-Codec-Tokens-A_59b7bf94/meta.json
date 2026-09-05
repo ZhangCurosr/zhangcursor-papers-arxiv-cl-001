@@ -4,5 +4,10 @@
  "title": "Language-Statistical-Analysis-of-Neural-Audio-Codec-Tokens-A",
  "token": "sk-07nfPn8BZ...",
  "created_at": "2026-09-01 17:35:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/74603f70-5b67-4757-beb8-0c6fa1e4f29a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/74603f70-5b67-4757-beb8-0c6fa1e4f29a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 18:43:16",
+  "chunks": 1
+ }
 }

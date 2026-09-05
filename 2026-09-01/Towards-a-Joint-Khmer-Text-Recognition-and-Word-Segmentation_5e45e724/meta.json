@@ -4,5 +4,33 @@
  "title": "Towards-a-Joint-Khmer-Text-Recognition-and-Word-Segmentation",
  "token": "sk-buEDzpHKC...",
  "created_at": "2026-09-01 07:19:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/774b1275-dbe7-4923-8edc-7e7d1d7d5253.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/774b1275-dbe7-4923-8edc-7e7d1d7d5253.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 18:46:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Khmer text recognition",
+    "word segmentation",
+    "joint OCR",
+    "CTC",
+    "low-resource language",
+    "document AI"
+   ],
+   "field": "光学字符识别与文本处理",
+   "innovations": [
+    "提出首个高棉语文本识别与词切分联合模型，通过条件化指令控制输出",
+    "利用 CTC 解码并行预测词边界标记 u200b，实现视觉 grounding",
+    "构建首个带词边界标注的高棉语合成数据集，填补数据空白"
+   ],
+   "benchmarks": [
+    "KHOB",
+    "KhmerST",
+    "KH",
+    "GKST",
+    "KHT"
+   ]
+  }
+ }
 }

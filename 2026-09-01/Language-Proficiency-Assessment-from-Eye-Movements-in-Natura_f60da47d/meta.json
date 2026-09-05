@@ -4,5 +4,34 @@
  "title": "Language-Proficiency-Assessment-from-Eye-Movements-in-Natura",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-09-01 17:36:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/171e53df-6eb8-41d6-abdb-428c3391b307.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/171e53df-6eb8-41d6-abdb-428c3391b307.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 18:42:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "eye-tracking",
+    "language proficiency assessment",
+    "L2 reading",
+    "EyeScore",
+    "L1 bias",
+    "psycholinguistics",
+    "naturalistic reading"
+   ],
+   "field": "计算语言学与眼动分析",
+   "innovations": [
+    "首次系统性复现并扩展眼动语言评估至段落阅读和多数据集",
+    "提出基于L1语言距离的两阶段残差去偏方法EyeScore^db",
+    "首次报告眼动能力分数的心理测量信度并证实优于传统测试"
+   ],
+   "benchmarks": [
+    "MECO L2",
+    "OneStopL2",
+    "LexTALE",
+    "Michigan Placement Test",
+    "Composite Proficiency"
+   ]
+  }
+ }
 }

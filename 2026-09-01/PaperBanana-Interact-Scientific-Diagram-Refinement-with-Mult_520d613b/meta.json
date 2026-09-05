@@ -4,5 +4,32 @@
  "title": "PaperBanana-Interact-Scientific-Diagram-Refinement-with-Mult",
  "token": "sk-jny6RLrk9...",
  "created_at": "2026-09-01 07:22:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/11259dbf-1edd-4708-952c-784a563d68ce.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/11259dbf-1edd-4708-952c-784a563d68ce.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 18:43:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-turn diagram generation",
+    "scientific illustration",
+    "interactive refinement",
+    "quality drift",
+    "forgetting",
+    "multi-agent system",
+    "user simulator",
+    "MTPaperBananaBench"
+   ],
+   "field": "多轮交互科学可视化生成",
+   "innovations": [
+    "提出MTPaperBananaBench首个多轮科学配图迭代基准并揭示质量漂移与遗忘两大失效模式",
+    "设计PaperBanana-Interact多智能体critic-refine循环与多目标结构化评判",
+    "引入文本化多图像历史摘要器以紧凑记忆替代全量历史并平衡质量与效率"
+   ],
+   "benchmarks": [
+    "MTPaperBananaBench",
+    "PaperBananaBench"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "TaxCE-A-Framework-for-Automated-Taxonomy-Construction-and-Ev",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-09-01 17:36:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/4743fae8-2475-4088-9744-531834b86c5e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/4743fae8-2475-4088-9744-531834b86c5e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 18:45:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "taxonomy construction",
+    "automated classification",
+    "LLM pipeline",
+    "EEG metrics",
+    "knowledge condensation",
+    "iterative refinement",
+    "semantic deduplication",
+    "hierarchical clustering"
+   ],
+   "field": "自动化文本分类体系构建",
+   "innovations": [
+    "提出渐进式知识浓缩管道，将原始文本经概念生成与标准化转化为可行动叶节点话题",
+    "定义EEG三项语料库 grounded 评估指标并集成到迭代优化闭环",
+    "双轨LLM策略实现低成本大规模提取与高质量推理的平衡"
+   ],
+   "benchmarks": [
+    "Flipkart Product Reviews",
+    "CFPB Consumer Complaints",
+    "AskUbuntu"
+   ]
+  }
+ }
 }

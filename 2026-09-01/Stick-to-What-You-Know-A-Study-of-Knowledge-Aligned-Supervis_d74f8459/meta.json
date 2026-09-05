@@ -4,5 +4,32 @@
  "title": "Stick-to-What-You-Know-A-Study-of-Knowledge-Aligned-Supervis",
  "token": "sk-JqniBRrr0...",
  "created_at": "2026-09-01 07:17:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/4b0f471d-fd53-4272-a701-e9fa8b7e646d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/4b0f471d-fd53-4272-a701-e9fa8b7e646d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 18:44:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "知识对齐 SFT",
+    "幻觉抑制",
+    "监督微调",
+    "事实性",
+    "LLM 对齐",
+    "Recall Rewrite"
+   ],
+   "field": "语言模型事实性与幻觉",
+   "innovations": [
+    "提出知识对齐SFT统一框架，将FLAME/UNIT等基线纳入同一数据构造模板",
+    "提出Recall Rewrite方法，通过多角度探针问答的一致性召回判定近似基座模型知识边界，无需外部证据",
+    "提供固定训练集大小下仅改变已知声明比例的因果消融，证实知识对齐与幻觉减少的直接因果联系"
+   ],
+   "benchmarks": [
+    "Wild-Halu",
+    "Biography",
+    "UnknownBench",
+    "OLMES (HumanEval+/GSM8K/IFEval/TruthfulQA)"
+   ]
+  }
+ }
 }

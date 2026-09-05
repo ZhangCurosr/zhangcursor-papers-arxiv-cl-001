@@ -4,5 +4,29 @@
  "title": "One-Policy-Is-Enough-Single-Agent-Reinforcement-Learning-Out",
  "token": "sk-1FwfANuN8...",
  "created_at": "2026-09-01 17:35:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/0f3e9750-8ca4-4673-8ded-19d218c1c49a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/0f3e9750-8ca4-4673-8ded-19d218c1c49a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 18:42:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "tool learning",
+    "reinforcement learning",
+    "chemistry agents",
+    "GRPO",
+    "programmatic reward",
+    "single-agent"
+   ],
+   "field": "科学领域工具增强语言模型",
+   "innovations": [
+    "单策略RL替代多模型树搜索进行化学工具学习",
+    "系统性程序化奖励框架支持多工具调用训练",
+    "证明SFT热身对工具recall和RL对precision的互补作用"
+   ],
+   "benchmarks": [
+    "ChemToolBench"
+   ]
+  }
+ }
 }

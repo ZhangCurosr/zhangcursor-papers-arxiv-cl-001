@@ -4,5 +4,35 @@
  "title": "TopoCompress-Long-Context-Compression-via-Graph-Wired-Semant",
  "token": "sk-RdV3tP4AZ...",
  "created_at": "2026-09-01 17:35:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/a274d80e-d521-4ab6-a486-385946c020cb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/a274d80e-d521-4ab6-a486-385946c020cb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 18:46:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "长上下文压缩",
+    "图传播",
+    "多跳推理",
+    "免训练压缩",
+    "语义加速度",
+    "证据选择",
+    "LLM推理优化"
+   ],
+   "field": "长上下文理解与压缩",
+   "innovations": [
+    "首次将长上下文压缩公式化为混合图上的查询相关性传播问题",
+    "提出免训练模型无关的语义片段图传播压缩框架TopoCompress",
+    "引入语义加速度机制识别上下文重要过渡片段并门控提升"
+   ],
+   "benchmarks": [
+    "HotpotQA",
+    "2WikiMQA",
+    "MuSiQue",
+    "Qasper",
+    "MultiFieldQA-en",
+    "LongBench"
+   ]
+  }
+ }
 }

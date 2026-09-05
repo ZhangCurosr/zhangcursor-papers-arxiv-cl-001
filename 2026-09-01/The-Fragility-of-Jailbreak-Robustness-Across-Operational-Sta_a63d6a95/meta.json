@@ -4,5 +4,32 @@
  "title": "The-Fragility-of-Jailbreak-Robustness-Across-Operational-Sta",
  "token": "sk-mtKOSZtKc...",
  "created_at": "2026-09-01 07:20:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/87dee6f3-e73b-49b7-b534-ca37e7a3a623.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/87dee6f3-e73b-49b7-b534-ca37e7a3a623.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 18:45:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "jailbreak robustness",
+    "operational state",
+    "LLM safety evaluation",
+    "state-induced robustness shift",
+    "representation engineering",
+    "prompt sensitivity",
+    "state sensitivity indicator"
+   ],
+   "field": "LLM安全评估与对齐",
+   "innovations": [
+    "发现并量化了仅操作状态变化即可导致越狱成功率大幅偏移的现象",
+    "通过拒绝相关表征轴为状态敏感性的鲁棒性变化提供了可解释的机制",
+    "提出了State Sensitivity Indicator (SS1) 并论证了单一vanilla状态评估的不足"
+   ],
+   "benchmarks": [
+    "AdvBench-50",
+    "MaliciousInstruct",
+    "JailbreakBench"
+   ]
+  }
+ }
 }

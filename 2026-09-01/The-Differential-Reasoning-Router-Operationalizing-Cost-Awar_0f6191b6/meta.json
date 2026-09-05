@@ -4,5 +4,31 @@
  "title": "The-Differential-Reasoning-Router-Operationalizing-Cost-Awar",
  "token": "sk-zKZtEfvnM...",
  "created_at": "2026-09-01 07:21:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/a7bf2dac-6baf-477d-9d20-80748f4b1bc8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/a7bf2dac-6baf-477d-9d20-80748f4b1bc8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 18:45:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "模型路由",
+    "冷启动标注",
+    "成本感知推理",
+    "差分监督",
+    "电商LLM标注",
+    "主动升级",
+    "预算约束优化"
+   ],
+   "field": "多模态LLM路由与高效标注",
+   "innovations": [
+    "提出差分监督的三向路由框架，联合优化直接模型/推理模型选择与人工升级决策",
+    "定义并显式建模边际推理价值(MVOR)，通过Lagrangian预算约束实现成本感知路由",
+    "引入Ambiguity Head检测双模型失败并升级到人工，提供规则级诊断信号"
+   ],
+   "benchmarks": [
+    "Wayfair Lead-image Eligibility",
+    "N=1,405测试集"
+   ]
+  }
+ }
 }

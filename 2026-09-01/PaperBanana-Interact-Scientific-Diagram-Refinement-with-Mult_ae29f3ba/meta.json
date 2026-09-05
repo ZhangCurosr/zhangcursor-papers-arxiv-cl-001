@@ -4,5 +4,32 @@
  "title": "PaperBanana-Interact-Scientific-Diagram-Refinement-with-Mult",
  "token": "sk-jny6RLrk9...",
  "created_at": "2026-09-01 17:36:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/db4cfc95-08f6-4713-9a4c-40a2e7ac5f2f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/db4cfc95-08f6-4713-9a4c-40a2e7ac5f2f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 18:43:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多轮科学图表生成",
+    "用户反馈精炼",
+    "质量漂移",
+    "遗忘",
+    "多智能体系统",
+    "用户模拟器",
+    "MTPaperBananaBench"
+   ],
+   "field": "科学图表生成与多轮人机交互",
+   "innovations": [
+    "提出MTPaperBananaBench基准：首个含渐进式需求揭示的多轮科学图表生成评测平台，292图×3518条要求",
+    "提出PaperBanana-Interact多智能体系统：通过摘要器压缩历史+多目标批评家内部循环，系统性缓解质量漂移与遗忘",
+    "首次量化两类多轮交互失败模式：质量漂移（基线50.3→19.0）与遗忘（14.1–22.9%）"
+   ],
+   "benchmarks": [
+    "MTPaperBananaBench (k=1)",
+    "MTPaperBananaBench (k=3)",
+    "PaperBananaBench (Zhu et al., 2026a)"
+   ]
+  }
+ }
 }

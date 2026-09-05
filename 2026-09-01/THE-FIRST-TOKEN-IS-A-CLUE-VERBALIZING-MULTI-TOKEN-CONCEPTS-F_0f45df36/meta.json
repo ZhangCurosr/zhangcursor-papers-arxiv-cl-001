@@ -4,5 +4,32 @@
  "title": "THE-FIRST-TOKEN-IS-A-CLUE-VERBALIZING-MULTI-TOKEN-CONCEPTS-F",
  "token": "sk-Jd4ujJMnj...",
  "created_at": "2026-09-01 07:16:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/8cdb047e-4811-4500-af96-0132583e01d6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/8cdb047e-4811-4500-af96-0132583e01d6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 18:44:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "J-lens",
+    "multi-token concepts",
+    "interpretability",
+    "verbalizable representations",
+    "causal intervention",
+    "Jacobian lens",
+    "concept vectors"
+   ],
+   "field": "大语言模型可解释性",
+   "innovations": [
+    "发现多token概念首token可读性接近单token概念，首token+源prompt可88.3%恢复第二token",
+    "提出PROPOSE+SCORE两阶段框架，无需固定词表或微调即可恢复多token概念向量",
+    "恢复向量支持因果概念交换，succ@10达61.4%显著优于Template Lens的26.2%"
+   ],
+   "benchmarks": [
+    "496 multi-hop clozes on Gemma-3-12B-IT/Llama-3.1-8B/Qwen3-14B",
+    "Rank@10 readout",
+    "succ@10 causal swap"
+   ]
+  }
+ }
 }

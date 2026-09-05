@@ -4,5 +4,32 @@
  "title": "Type-Balanced-Contextual-Learning-for-Incremental-Named-Enti",
  "token": "sk-twhrLv2pG...",
  "created_at": "2026-09-01 17:35:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/3cf2409d-1b02-4271-833c-800b8deb2de2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/3cf2409d-1b02-4271-833c-800b8deb2de2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 18:47:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Incremental Named Entity Recognition",
+    "Catastrophic Forgetting",
+    "Pseudo-labeling",
+    "Contextual Learning",
+    "Continual Learning",
+    "Biased Context"
+   ],
+   "field": "增量命名实体识别",
+   "innovations": [
+    "首次揭示INER中伪标签方法的有偏上下文问题",
+    "提出句子对学习方案校正旧实体上下文偏差",
+    "设计上下文一致性损失约束新旧上下文预测一致"
+   ],
+   "benchmarks": [
+    "CoNLL2003",
+    "I2B2",
+    "OntoNotes5",
+    "FEW-NERD"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "Token-Eficient-Data-Reasoning-Agents-via-Adaptive-Structurin",
  "token": "sk-ZHrWl9Czg...",
  "created_at": "2026-09-01 07:15:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/32ab6211-8cbd-4cc7-a1ee-828c0a82ff6c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/32ab6211-8cbd-4cc7-a1ee-828c0a82ff6c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 18:46:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Agentic Data Cracking",
+    "Token Efficiency",
+    "Adaptive Structuring",
+    "RAG",
+    "LLM Reasoning",
+    "KV Cache Reuse"
+   ],
+   "field": "Agent推理效率优化",
+   "innovations": [
+    "提出Agentic Data Cracking：在推理过程中自适应、推测性地从非结构化文档提取结构化数据，降低重复prefill成本",
+    "设计扩展RDF数据模型与Catalog视图，支持structured read/write并保留robust fallback",
+    "实证验证：FanOutQA上成本降低53%，10th percentile节省9×，准确率无显著下降"
+   ],
+   "benchmarks": [
+    "FanOutQA",
+    "Cinema Case Study (Hitchcock)"
+   ]
+  }
+ }
 }

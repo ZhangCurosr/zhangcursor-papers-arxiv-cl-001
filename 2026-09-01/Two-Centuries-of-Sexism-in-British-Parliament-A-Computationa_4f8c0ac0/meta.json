@@ -4,5 +4,32 @@
  "title": "Two-Centuries-of-Sexism-in-British-Parliament-A-Computationa",
  "token": "sk-TPYWIhRwY...",
  "created_at": "2026-09-01 07:22:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/6014353d-4d3f-4fee-99f6-3151908be566.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/6014353d-4d3f-4fee-99f6-3151908be566.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 18:46:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "矛盾性别歧视",
+    "Hansard语料库",
+    "立场分类",
+    "大型语言模型",
+    "英国议会",
+    "女性选举权",
+    "计算社会科学"
+   ],
+   "field": "计算社会科学与历史NLP",
+   "innovations": [
+    "将矛盾性别歧视量表引入两百年历史政治话语分析",
+    "发布89%性别匹配的670万篇Hansard数据集",
+    "揭示支持方与反对方使用截然不同的性别修辞策略"
+   ],
+   "benchmarks": [
+    "ParlVote",
+    "SST-2情感分类",
+    "Cohen's kappa人工标注验证"
+   ]
+  }
+ }
 }

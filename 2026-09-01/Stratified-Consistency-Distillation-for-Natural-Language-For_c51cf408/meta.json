@@ -4,5 +4,29 @@
  "title": "Stratified-Consistency-Distillation-for-Natural-Language-For",
  "token": "sk-UDLQGxzLo...",
  "created_at": "2026-09-01 17:36:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/f846df88-9236-47aa-916c-2f699777a5e1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/f846df88-9236-47aa-916c-2f699777a5e1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 18:44:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "神经符号推理",
+    "自动形式化",
+    "知识蒸馏",
+    "SMT-LIB",
+    "逻辑翻译",
+    "不确定性估计"
+   ],
+   "field": "神经符号AI与逻辑推理",
+   "innovations": [
+    "提出分层一致性蒸馏(SCD)框架，基于符号语义熵分层选择伪标签",
+    "定义符号语义熵度量逻辑翻译不确定性，实现自适应蒸馏策略",
+    "构建从政策文档到SMT-LIB的合成数据生成管道"
+   ],
+   "benchmarks": [
+    "FOLIO"
+   ]
+  }
+ }
 }

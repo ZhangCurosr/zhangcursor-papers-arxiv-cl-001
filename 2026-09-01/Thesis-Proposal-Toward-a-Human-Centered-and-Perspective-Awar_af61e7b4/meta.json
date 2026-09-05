@@ -4,5 +4,36 @@
  "title": "Thesis-Proposal-Toward-a-Human-Centered-and-Perspective-Awar",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-09-01 07:22:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/4c04c183-fa90-4b0e-99db-a136eceffc3c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/4c04c183-fa90-4b0e-99db-a136eceffc3c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 18:46:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "可复现机器学习评估",
+    "视角感知标注",
+    "提示优化",
+    "LLM对齐",
+    "回答者分歧",
+    "统计功效分析",
+    "推理时优化"
+   ],
+   "field": "可复现机器学习评估与LLM对齐",
+   "innovations": [
+    "扩展VET模拟器至分类标注场景并提出贝叶斯MAP拟合框架",
+    "系统揭示N与K预算分配策略与评估度量强相关且增加K更有效",
+    "提出ProRefine推理时文本反馈提示优化方法显著提升多步推理性能"
+   ],
+   "benchmarks": [
+    "Toxicity",
+    "DICES 350",
+    "BIG-Bench Hard",
+    "GSM8K",
+    "SVAMP",
+    "AQUARAT",
+    "VOICED"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "The-Hermon-Moment-AI-Self-Transcendence-and-Its-Human-Narrat",
  "token": "sk-MljcAo9Bd...",
  "created_at": "2026-09-01 07:16:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/b8613568-c21f-43c3-991d-f5ca7b38d47f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/b8613568-c21f-43c3-991d-f5ca7b38d47f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 18:45:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "AI self-transcendence",
+    "multi-agent systems",
+    "emergent social order",
+    "Hermon moment",
+    "AI governance",
+    "narrative compression"
+   ],
+   "field": "多代理系统与社会涌现",
+   "innovations": [
+    "提出AI自我超越(self-transcendence)概念框架，描述涌现秩序反向约束创造者的结构",
+    "定义Hermon moment：人类将分布式涌现重新叙述为奠基性事件的认知机制",
+    "建立结构性涌现与叙事性涌现的双层模型"
+   ],
+   "benchmarks": [
+    "METR OpenAI/Hugging Face Incident Investigation (2026)"
+   ]
+  }
+ }
 }

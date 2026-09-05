@@ -4,5 +4,34 @@
  "title": "Language-Statistical-Analysis-of-Neural-Audio-Codec-Tokens-A",
  "token": "sk-07nfPn8BZ...",
  "created_at": "2026-09-01 07:19:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/74603f70-5b67-4757-beb8-0c6fa1e4f29a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/74603f70-5b67-4757-beb8-0c6fa1e4f29a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 18:42:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "neural audio codec",
+    "Zipf's law",
+    "Heaps' law",
+    "noise robustness",
+    "distributional analysis",
+    "token statistics",
+    "Jensen-Shannon divergence"
+   ],
+   "field": "语音token分布分析与编解码器鲁棒性",
+   "innovations": [
+    "提出架构条件化的语言统计分析协议，覆盖RVQ/单码本VQ/非VQ三类13种编解码器",
+    "发现collapse和explosion退化签名及其架构特异性分布",
+    "证明JSD作为无解码器分布级诊断指标与DEMAND噪声下感知质量最强关联"
+   ],
+   "benchmarks": [
+    "Codec-SUPERB",
+    "LJSpeech",
+    "VoxCeleb",
+    "TrIJEK",
+    "DEMAND"
+   ]
+  }
+ }
 }

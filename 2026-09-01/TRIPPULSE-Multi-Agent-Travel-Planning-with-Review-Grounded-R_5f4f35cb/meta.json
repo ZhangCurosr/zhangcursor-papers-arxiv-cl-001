@@ -4,5 +4,10 @@
  "title": "TRIPPULSE-Multi-Agent-Travel-Planning-with-Review-Grounded-R",
  "token": "sk-hwXfRrBR3...",
  "created_at": "2026-09-01 07:18:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/09db58c3-7233-4c59-8540-28242f6d781d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/09db58c3-7233-4c59-8540-28242f6d781d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 18:45:30",
+  "chunks": 1
+ }
 }

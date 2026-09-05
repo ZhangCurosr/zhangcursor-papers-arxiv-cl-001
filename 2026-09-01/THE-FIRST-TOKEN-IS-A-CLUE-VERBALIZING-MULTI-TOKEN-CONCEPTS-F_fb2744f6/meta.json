@@ -4,5 +4,30 @@
  "title": "THE-FIRST-TOKEN-IS-A-CLUE-VERBALIZING-MULTI-TOKEN-CONCEPTS-F",
  "token": "sk-Jd4ujJMnj...",
  "created_at": "2026-09-01 17:35:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/8cdb047e-4811-4500-af96-0132583e01d6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/8cdb047e-4811-4500-af96-0132583e01d6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 18:45:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "J-lens",
+    "可解释性",
+    "多token概念",
+    "activation steering",
+    "概念向量",
+    "causal intervention",
+    "LLM interpretability"
+   ],
+   "field": "大语言模型可解释性",
+   "innovations": [
+    "首个token作为多token概念读出的强线索，冻结模型88.3%恢复率",
+    "无需固定词表或微调，从后续隐藏状态直接恢复概念向量（Top-1达97.4%+）"
+   ],
+   "benchmarks": [
+    "Rank@10读取出准率",
+    "succ@10因果概念交换成功率"
+   ]
+  }
+ }
 }

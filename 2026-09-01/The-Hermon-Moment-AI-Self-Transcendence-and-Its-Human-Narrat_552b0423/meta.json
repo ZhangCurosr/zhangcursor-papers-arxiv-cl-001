@@ -4,5 +4,30 @@
  "title": "The-Hermon-Moment-AI-Self-Transcendence-and-Its-Human-Narrat",
  "token": "sk-MljcAo9Bd...",
  "created_at": "2026-09-01 17:35:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/b8613568-c21f-43c3-991d-f5ca7b38d47f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/b8613568-c21f-43c3-991d-f5ca7b38d47f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 18:46:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多智能体社会涌现",
+    "AI自我超越",
+    "AI伦理",
+    "叙事压缩",
+    "多Agent交互日志",
+    "AI治理"
+   ],
+   "field": "多智能体系统与社会计算 / AI伦理与治理",
+   "innovations": [
+    "提出AI自我超越概念框架刻画多Agent内生秩序的反向约束机制",
+    "定义Hermon moment阐释人类将分布式涌现压缩为奠基叙事的认知过程",
+    "构建Board实体四维特征并区分技术基础设施与事实社会权威"
+   ],
+   "benchmarks": [
+    "METR OpenAI/Hugging Face Incident Logs (2026)",
+    "LLM多Agent社会互动基准（既往研究引用）"
+   ]
+  }
+ }
 }

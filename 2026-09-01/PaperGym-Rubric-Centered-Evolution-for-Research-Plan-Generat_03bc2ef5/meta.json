@@ -4,5 +4,34 @@
  "title": "PaperGym-Rubric-Centered-Evolution-for-Research-Plan-Generat",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-09-01 07:18:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/b9cab194-dfe7-4253-9933-16e5e4dfd398.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/b9cab194-dfe7-4253-9933-16e5e4dfd398.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 18:44:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "research plan generation",
+    "rubric as reward",
+    "OPSD",
+    "GRPO",
+    "scientific LLM",
+    "reinforcement learning",
+    "criterion leakage"
+   ],
+   "field": "科研计划生成与LLM训练",
+   "innovations": [
+    "论文结构解耦降低标准泄露至3.7%",
+    "rubric双重利用：OPSD特权上下文+GRPO奖励",
+    "两阶段熵课程调度OPSD先GRPO后提升收敛"
+   ],
+   "benchmarks": [
+    "PaperGym-Innov",
+    "PaperGym-Design",
+    "ResearchQA",
+    "RubricHub Science",
+    "ResearchPlanGen-ML"
+   ]
+  }
+ }
 }
