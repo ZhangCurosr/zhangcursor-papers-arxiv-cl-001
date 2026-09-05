@@ -4,5 +4,35 @@
  "title": "Evidence-Bounded-Mental-Health-Reasoning-from-Heterogeneous",
  "token": "sk-jywkrqzJV...",
  "created_at": "2026-09-01 17:35:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/a89f7eeb-0c2a-4c44-a3a1-f28b352d9c7d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/a89f7eeb-0c2a-4c44-a3a1-f28b352d9c7d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 11:03:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "mental health screening",
+    "multimodal reasoning",
+    "evidence-bounded reasoning",
+    "protocol-aware",
+    "clinical NLP",
+    "acoustic consensus"
+   ],
+   "field": "多模态心理健康计算",
+   "innovations": [
+    "将多模态心理健康筛查重新定义为证据约束推理问题，显式建模协议边界",
+    "提出EviBound框架，通过协议感知规划、五路声学共识与边界校验器实现预测与验证解耦",
+    "构建1870证据包基准Evidence Package Benchmark，整合六种异质数据源并引入CVR/MHR/EBCPass评估体系"
+   ],
+   "benchmarks": [
+    "CMDC",
+    "DAIS-C",
+    "E-DAIC",
+    "EATD",
+    "MMPsy",
+    "MODMA",
+    "Evidence Package Benchmark"
+   ]
+  }
+ }
 }

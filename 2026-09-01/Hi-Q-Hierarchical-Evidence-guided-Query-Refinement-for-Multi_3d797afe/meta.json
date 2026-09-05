@@ -4,5 +4,31 @@
  "title": "Hi-Q-Hierarchical-Evidence-guided-Query-Refinement-for-Multi",
  "token": "sk-SDuVT3fV1...",
  "created_at": "2026-09-01 17:36:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/ba47955e-67ee-4755-9b11-991ab3ab0ce3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/ba47955e-67ee-4755-9b11-991ab3ab0ce3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 11:05:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-hop question answering",
+    "retrieval-augmented generation",
+    "query refinement",
+    "evidence-conditioned control",
+    "hierarchical decomposition",
+    "granularity discovery"
+   ],
+   "field": "多跳问答与检索增强生成",
+   "innovations": [
+    "提出证据条件控制的粒度发现新范式，动态决定查询展开时机",
+    "设计依赖保持的二元分解与语义覆盖验证机制防止误差传播",
+    "在全语料检索设置下超越图RAG、迭代检索与代码代理基线"
+   ],
+   "benchmarks": [
+    "MuSiQue",
+    "HotpotQA",
+    "2Wiki-MultiHopQA"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Improving-Information-Extraction-with-Learned-Queries",
  "token": "sk-TTQuLp2ot...",
  "created_at": "2026-09-01 07:18:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/58d75336-9c0b-445c-9caf-082e77b29eb3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/58d75336-9c0b-445c-9caf-082e77b29eb3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 11:07:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "信息抽取",
+    "查询优化",
+    "大语言模型",
+    "反馈驱动优化",
+    "临床试验数据",
+    "问题生成"
+   ],
+   "field": "信息抽取与大语言模型",
+   "innovations": [
+    "提出FEEDQ反馈驱动迭代优化方法，以抽取F1直接优化问题集",
+    "建立LOQ框架将问题设计与预测解耦，实证问题质量是独立瓶颈",
+    "通过微调4B小模型实现大模型优化知识的跨规模迁移"
+   ],
+   "benchmarks": [
+    "CaseReportBench",
+    "PHEE",
+    "DiscourseEE",
+    "MACCROBAT"
+   ]
+  }
+ }
 }

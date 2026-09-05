@@ -4,5 +4,36 @@
  "title": "CPR-for-LLMs-Critical-Point-Routing-against-Catastrophic-For",
  "token": "sk-41l0wHhLH...",
  "created_at": "2026-09-01 17:36:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/2bef9e43-1081-4c5c-bfd4-eff2ffbcebd3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/2bef9e43-1081-4c5c-bfd4-eff2ffbcebd3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 11:02:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "灾难性遗忘",
+    "跨模型路由",
+    "监督微调",
+    "token级路由",
+    "大语言模型领域适配"
+   ],
+   "field": "大语言模型领域适配与灾难性遗忘",
+   "innovations": [
+    "提出 token 级临界点路由框架，在架构层面解耦基础模型与 SFT 专家，打破领域-通用 trade-off",
+    "设计动量平滑与阈值门控三路调度机制，稳定推理期路由决策并降低延迟",
+    "验证框架可泛化至第三方外部专家，无需额外 SFT 即可作为 post-hoc 模块使用"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "PubMedQA",
+    "MMLU",
+    "MedQA",
+    "ASDiv",
+    "SVAMP",
+    "CareQA",
+    "CommonsenseQA",
+    "ARC-C"
+   ]
+  }
+ }
 }

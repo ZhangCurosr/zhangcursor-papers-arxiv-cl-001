@@ -4,5 +4,10 @@
  "title": "Hidden-Threat-in-Synthetic-Data-Covert-Targeted-Bias-Injecti",
  "token": "sk-iG65PZaJv...",
  "created_at": "2026-09-01 07:17:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/8858ae7e-8de5-4a5b-a769-c2dd310f11f2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/8858ae7e-8de5-4a5b-a769-c2dd310f11f2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 11:06:33",
+  "chunks": 1
+ }
 }

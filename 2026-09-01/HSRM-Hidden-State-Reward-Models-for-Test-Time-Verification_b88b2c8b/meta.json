@@ -4,5 +4,31 @@
  "title": "HSRM-Hidden-State-Reward-Models-for-Test-Time-Verification",
  "token": "sk-fYugtz9Wo...",
  "created_at": "2026-09-01 17:35:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/9f95ab11-b2b5-4f92-a27b-5e660ae45163.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/9f95ab11-b2b5-4f92-a27b-5e660ae45163.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 11:05:35",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "test-time reasoning",
+    "hidden-state verifier",
+    "best-of-N selection",
+    "reward model",
+    "mathematical reasoning"
+   ],
+   "field": "大模型推理验证与测试时扩展",
+   "innovations": [
+    "提出 HSRM，以约2M参数直接读取冻结生成器步骤边界隐藏状态进行候选排序，避免文本重编码",
+    "采用 tie-safe Bradley–Terry 成对排序损失，适配多正确候选的 best-of-N 场景",
+    "系统验证隐藏状态验证在跨生成器规模、跨模型族与零样本迁移中的高效性"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "MATH-500",
+    "AIME",
+    "OlympiadBench"
+   ]
+  }
+ }
 }

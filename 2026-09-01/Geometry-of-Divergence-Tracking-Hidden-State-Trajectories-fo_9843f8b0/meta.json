@@ -4,5 +4,33 @@
  "title": "Geometry-of-Divergence-Tracking-Hidden-State-Trajectories-fo",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-09-01 17:35:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/c035848b-ad3d-457e-9221-d20e7cb44a7f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/c035848b-ad3d-457e-9221-d20e7cb44a7f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 11:05:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-turn reasoning",
+    "hidden-state trajectory",
+    "temporal curvature",
+    "variance slope",
+    "adaptive reasoning",
+    "LLM agent",
+    "tau-Bench"
+   ],
+   "field": "多轮Agent推理与表示健康监测",
+   "innovations": [
+    "用时间曲率和方差斜率两个几何信号刻画多轮隐藏状态轨迹并区分成败episode",
+    "发现轨迹可分性具有动作依赖性，信息输出链判别力最强",
+    "证明无训练单阈值几何触发策略可超越学习型触发器并实现token效率提升"
+   ],
+   "benchmarks": [
+    "tau-Bench",
+    "Lost in Conversation (Math/Code)",
+    "Qwen3-14B/32B",
+    "Llama-3.1-8B"
+   ]
+  }
+ }
 }

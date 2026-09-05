@@ -4,5 +4,30 @@
  "title": "Calibrating-Small-Language-Models-for-Claim-Check-Worthiness",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-09-01 17:35:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/0b672ea8-0ce3-4ace-9f0d-d284ac041d43.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/0b672ea8-0ce3-4ace-9f0d-d284ac041d43.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 11:03:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "claim check-worthiness",
+    "calibration",
+    "small language models",
+    "prediction-powered inference",
+    "post-hoc calibration",
+    "residual correction"
+   ],
+   "field": "自然语言处理与事实核查",
+   "innovations": [
+    "将 PPI 从系统级扩展为逐实例校准方法，提出 NN-PPI 最近邻残差修正框架",
+    "证明残差校准与监督微调正交互补，可在不重训前提下恢复 SLM 至 LLM 级别精度",
+    "提出局部非参数校准范式，可捕获输入依赖型系统性偏差，全局单调映射无法处理"
+   ],
+   "benchmarks": [
+    "ClaimBuster 2016",
+    "CLEF 2024 CheckThat! Task 1"
+   ]
+  }
+ }
 }

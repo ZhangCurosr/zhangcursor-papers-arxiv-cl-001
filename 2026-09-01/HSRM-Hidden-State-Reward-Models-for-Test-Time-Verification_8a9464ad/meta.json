@@ -4,5 +4,31 @@
  "title": "HSRM-Hidden-State-Reward-Models-for-Test-Time-Verification",
  "token": "sk-fYugtz9Wo...",
  "created_at": "2026-09-01 07:20:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/9f95ab11-b2b5-4f92-a27b-5e660ae45163.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/9f95ab11-b2b5-4f92-a27b-5e660ae45163.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 11:05:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "test-time verification",
+    "hidden-state reward model",
+    "best-of-N reasoning",
+    "mathematical reasoning",
+    "implicit correctness signal"
+   ],
+   "field": "大语言模型推理验证",
+   "innovations": [
+    "提出HSRM，首次利用生成器步骤边界隐状态进行轻量级候选验证",
+    "设计tie-safe ranking loss适配多正确解的Best-of-N场景",
+    "2M参数隐状态验证器在15/16设置中匹配或超越55M文本验证器"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "MATH-500",
+    "AIME",
+    "OlympiadBench"
+   ]
+  }
+ }
 }

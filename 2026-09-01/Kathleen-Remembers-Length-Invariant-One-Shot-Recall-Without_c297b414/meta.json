@@ -4,5 +4,31 @@
  "title": "Kathleen-Remembers-Length-Invariant-One-Shot-Recall-Without",
  "token": "sk-kBmY9IM4V...",
  "created_at": "2026-09-01 07:19:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/5d37a825-7095-4cea-b923-6994aabfa737.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/5d37a825-7095-4cea-b923-6994aabfa737.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 11:07:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "无注意力模型",
+    "全息残差表示",
+    "一次性回忆",
+    "长度不变泛化",
+    "外部记忆",
+    "字节级语言模型"
+   ],
+   "field": "无注意力序列建模",
+   "innovations": [
+    "固定内容键HRR笔记本记忆层实现长度不变一次性精确回忆",
+    "写触发遗忘与自门控原始读取避免时钟依赖和噪声放大",
+    "线性叠加存储衍生的选择性遗忘与100%逐token溯源能力"
+   ],
+   "benchmarks": [
+    "Needle-in-Haystack (synthetic byte-level)",
+    "WikiText-2 bytes",
+    "WikiText-103 scaling ladder (8-512 MB)"
+   ]
+  }
+ }
 }

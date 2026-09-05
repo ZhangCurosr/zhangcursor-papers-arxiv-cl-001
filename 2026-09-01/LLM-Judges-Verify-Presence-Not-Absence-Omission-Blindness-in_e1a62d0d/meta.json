@@ -4,5 +4,10 @@
  "title": "LLM-Judges-Verify-Presence-Not-Absence-Omission-Blindness-in",
  "token": "sk-Wt6bONApk...",
  "created_at": "2026-09-01 07:17:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/dc34425c-5e0f-4fdb-b025-74fe64ab69cf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/dc34425c-5e0f-4fdb-b025-74fe64ab69cf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 11:10:33",
+  "chunks": 6
+ }
 }

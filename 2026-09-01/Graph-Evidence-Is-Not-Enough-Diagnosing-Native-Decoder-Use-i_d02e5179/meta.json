@@ -4,5 +4,32 @@
  "title": "Graph-Evidence-Is-Not-Enough-Diagnosing-Native-Decoder-Use-i",
  "token": "sk-4qwN7yoJ8...",
  "created_at": "2026-09-01 07:19:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/d4490b82-d778-493e-8318-9153fed59083.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/d4490b82-d778-493e-8318-9153fed59083.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 11:05:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "graph-augmented LLM",
+    "HopQA",
+    "structured graph encoding",
+    "interface diagnostic",
+    "native decoder usability",
+    "graph-token",
+    "S²GE"
+   ],
+   "field": "图语言模型接口诊断",
+   "innovations": [
+    "提出有界 HopQA 诊断任务揭示图证据暴露与原生解码可用性之间的鸿沟",
+    "设计三元干预协议（可读/无图/乱序）分离信号存在性与组织可读性",
+    "提出 S²GE 采样优先结构化编码，联合查询感知采样、角色排序与邻接对齐损失"
+   ],
+   "benchmarks": [
+    "GR-Bench (DBLP, Biomedical, GoodReads)",
+    "Planetoid/PubMed",
+    "HopQA Core-HopQA"
+   ]
+  }
+ }
 }

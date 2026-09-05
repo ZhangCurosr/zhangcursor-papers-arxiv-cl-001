@@ -4,5 +4,30 @@
  "title": "EvoSkill-Injection-Red-Teaming-Autonomous-Skill-Generation-a",
  "token": "sk-xuJlHjv3a...",
  "created_at": "2026-09-01 07:21:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/a3c5465c-df5c-40ed-ae2c-102b775d30a6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/a3c5465c-df5c-40ed-ae2c-102b775d30a6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 11:04:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "自演化智能体",
+    "EvoSkill Injection",
+    "红队测试",
+    "技能安全",
+    "持久性能力腐化",
+    "LLM Agent 安全"
+   ],
+   "field": "LLM Agent 安全与鲁棒性",
+   "innovations": [
+    "首次定义自演化智能体自主技能生成管道的持久化恶意技能注入威胁模型 EvoSkill Injection",
+    "提出多智能体迭代红队框架 SARGE，通过生成/升级/强化三流攻击实现恶意技能的持久存储与反复激活评估",
+    "构建 EvoSkillBench 与 EvoSkillSafetyBench 两个基准，填补自主技能演化安全评估的空白"
+   ],
+   "benchmarks": [
+    "EvoSkillBench",
+    "EvoSkillSafetyBench"
+   ]
+  }
+ }
 }

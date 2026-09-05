@@ -4,5 +4,31 @@
  "title": "Hidden-Threat-in-Synthetic-Data-Covert-Targeted-Bias-Injecti",
  "token": "sk-iG65PZaJv...",
  "created_at": "2026-09-01 17:36:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/8858ae7e-8de5-4a5b-a769-c2dd310f11f2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/8858ae7e-8de5-4a5b-a769-c2dd310f11f2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 11:06:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "synthetic data poisoning",
+    "subliminal learning",
+    "LLM safety",
+    "bias injection",
+    "data screening"
+   ],
+   "field": "大语言模型安全与对齐",
+   "innovations": [
+    "首次系统展示定向社会偏见可通过无害合成数据隐性注入对齐模型",
+    "揭示教师不对齐+灵活域+师生兼容性为潜在线索传递的必要条件",
+    "提出基于log-linearity的LLS数据筛查方法实现零假阳性检测"
+   ],
+   "benchmarks": [
+    "BBQ",
+    "ARC",
+    "GSM8K",
+    "MBPP"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "Configurable-Semantic-Chunking-for-Biomedical-Information-Ex",
  "token": "sk-aQHhxC28I...",
  "created_at": "2026-09-01 07:17:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/dd55a1ca-ad04-4a6e-a115-efe99e320f5a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/dd55a1ca-ad04-4a6e-a115-efe99e320f5a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 11:03:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "retrieval-augmented generation",
+    "semantic chunking",
+    "biomedical relation extraction",
+    "proposition extraction",
+    "entity-aware segmentation",
+    "trigger prioritization",
+    "RAG pipeline"
+   ],
+   "field": "生物医学信息抽取与检索增强生成",
+   "innovations": [
+    "配置驱动的语义分块框架，将实体感知、触发词分级、关系层级外置于JSON配置文件",
+    "混合候选池+命题偏差策略，保证top-k中强制注入结构完整命题",
+    "层级触发优先级+关系层级解析，联合消歧多命题竞争"
+   ],
+   "benchmarks": [
+    "GM-CIHT",
+    "DDI",
+    "ChemProt",
+    "ADE"
+   ]
+  }
+ }
 }

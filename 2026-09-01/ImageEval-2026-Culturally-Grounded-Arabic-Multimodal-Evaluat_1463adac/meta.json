@@ -4,5 +4,32 @@
  "title": "ImageEval-2026-Culturally-Grounded-Arabic-Multimodal-Evaluat",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-09-01 17:36:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/f6fecf68-c9c9-4a25-8523-da9ff127d574.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/f6fecf68-c9c9-4a25-8523-da9ff127d574.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 11:06:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "culturally grounded multimodal evaluation",
+    "Arabic spoken VQA",
+    "hallucination detection",
+    "text-to-image cultural accuracy",
+    "contrastive instability",
+    "OASIS dataset",
+    "CRAI-Bench"
+   ],
+   "field": "多模态文化与语言评估",
+   "innovations": [
+    "提出首个阿拉伯语文化锚定的多模态共享任务，整合口语视觉问答与幻觉检测",
+    "引入对比不稳定性（CI）作为幻觉检测的核心评估指标",
+    "构建覆盖18个MENA国家的OASIS口语视觉问答子集，使用真实人类录音测试"
+   ],
+   "benchmarks": [
+    "OASIS",
+    "CRAI-Bench",
+    "M²CQA"
+   ]
+  }
+ }
 }

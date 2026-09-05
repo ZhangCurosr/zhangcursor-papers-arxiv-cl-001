@@ -4,5 +4,10 @@
  "title": "Geometry-of-Divergence-Tracking-Hidden-State-Trajectories-fo",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-09-01 07:21:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/c035848b-ad3d-457e-9221-d20e7cb44a7f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/c035848b-ad3d-457e-9221-d20e7cb44a7f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 11:05:04",
+  "chunks": 1
+ }
 }

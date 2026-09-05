@@ -4,5 +4,30 @@
  "title": "AtlasNLP-A-Country-Aware-Atlas-of-Dataset-Representation-in",
  "token": "sk-8dCw3hSU3...",
  "created_at": "2026-09-01 07:21:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/312cc664-3069-4e44-b64f-8472db8ef365.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/312cc664-3069-4e44-b64f-8472db8ef365.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 11:02:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "NLP 数据集地理覆盖",
+    "多语言 NLP",
+    "数据集元数据",
+    "国家代表性",
+    "数据集偏见"
+   ],
+   "field": "多语言 NLP / 数据集生态评估",
+   "innovations": [
+    "构建首个国家感知的 NLP 数据集图谱，区分被代表国家与生产国家",
+    "建立 Explicit/Inferred 两级地理归属置信度体系",
+    "量化揭示 79.2% 国家-任务对无数据集记录的系统性覆盖空白"
+   ],
+   "benchmarks": [
+    "AtlasNLP-Core",
+    "AtlasNLP-Gold",
+    "ACL Anthology"
+   ]
+  }
+ }
 }
