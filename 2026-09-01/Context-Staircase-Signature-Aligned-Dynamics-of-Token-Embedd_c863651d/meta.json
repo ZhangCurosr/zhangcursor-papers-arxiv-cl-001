@@ -4,5 +4,33 @@
  "title": "Context-Staircase-Signature-Aligned-Dynamics-of-Token-Embedd",
  "token": "sk-Nw8TqBTK6...",
  "created_at": "2026-09-01 17:36:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/2dcd3109-c284-4b00-822d-10c52f3cea29.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/2dcd3109-c284-4b00-822d-10c52f3cea29.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 06:36:50",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "token embedding dynamics",
+    "context staircase",
+    "probability signatures",
+    "small initialization",
+    "gradient flow analysis",
+    "signature alignment",
+    "embedding geometry"
+   ],
+   "field": "语言模型可解释性与训练动力学",
+   "innovations": [
+    "提出 Context Staircase 概念揭示嵌入从低阶到高阶签名的渐进演化",
+    "建立签名-嵌入梯度的显式分解定理",
+    "证明零阶签名 PCA 可直接编码数字序/周期/类别等语义结构"
+   ],
+   "benchmarks": [
+    "F_add/F_sub/F_mul/F_mod 算术任务",
+    "Modular addition (M|N vs M∤N)",
+    "Min-Max selection task",
+    "Semantic clustering from 36B token corpus"
+   ]
+  }
+ }
 }

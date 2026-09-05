@@ -4,5 +4,31 @@
  "title": "An-Agentic-Retrobiosynthesis-Framework-with-Learned-Frontier",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-09-01 17:35:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/5dd3606b-b480-48fb-adf4-7e20da3d6332.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/5dd3606b-b480-48fb-adf4-7e20da3d6332.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 06:31:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "retrobiosynthesis",
+    "LLM agent",
+    "frontier selection",
+    "reverse biosynthesis",
+    "search policy",
+    "metabolic engineering"
+   ],
+   "field": "AI for Science - 代谢工程/逆向生物合成",
+   "innovations": [
+    "固定生化引擎+学习搜索策略的分离式框架，精确量化策略贡献",
+    "四信号组合的前沿观察构造方案，84% coverage@20",
+    "LLM 仅做严格 JSON 选点决策的极简接口设计"
+   ],
+   "benchmarks": [
+    "LASER",
+    "RetroPath RL Golden",
+    "BioNavi-NP"
+   ]
+  }
+ }
 }

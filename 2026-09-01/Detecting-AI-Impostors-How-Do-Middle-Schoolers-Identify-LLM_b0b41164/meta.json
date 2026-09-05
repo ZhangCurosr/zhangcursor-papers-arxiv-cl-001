@@ -4,5 +4,31 @@
  "title": "Detecting-AI-Impostors-How-Do-Middle-Schoolers-Identify-LLM",
  "token": "sk-JdJPQj6CY...",
  "created_at": "2026-09-01 07:17:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/b7280575-bc25-456b-8d3b-cca981b5ef7d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/b7280575-bc25-456b-8d3b-cca981b5ef7d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 06:35:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "AI impersonation detection",
+    "adolescent AI literacy",
+    "social deduction game",
+    "human-AI interaction",
+    "personalized LLM mimicry",
+    "privacy education"
+   ],
+   "field": "人机交互与AI检测",
+   "innovations": [
+    "提出DoppelBot协作社会推理游戏框架，首次研究青少年在实时对抗环境中识别个性化AI代理的能力",
+    "揭示重复暴露下检测准确率提升及策略从语言线索向社会/具身推理的迁移规律",
+    "发布首个面向青少年AI检测协作场景的匿名数据集与开源游戏实现"
+   ],
+   "benchmarks": [
+    "Student AI-identification accuracy (79.3%→86.7%)",
+    "LLM-based Human User Detection (gpt-4o-mini F1=0.684)",
+    "BERT/LIWC/METEOR/ROUGE-L alignment measures"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "Do-Small-Models-Use-the-Law-You-Give-Them-Measuring-Context",
  "token": "sk-iaeYeK7Vr...",
  "created_at": "2026-09-01 07:19:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/0267640a-f026-48c4-b77d-d685cb233be8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/0267640a-f026-48c4-b77d-d685cb233be8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 06:36:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "法律QA",
+    "小模型微调",
+    "LoRA",
+    "评估协议",
+    "孟加拉国法律",
+    "context use",
+    "CircularEval",
+    "option-ID scoring"
+   ],
+   "field": "法律领域LLM评估",
+   "innovations": [
+    "提出分离评分、检索与模型失效的三层评估协议",
+    "构建保证治理条文必然出现的150项受控法律上下文实验",
+    "发现微调改变答案行为但未显著增强对给定法律条文的依赖"
+   ],
+   "benchmarks": [
+    "Bangladesh Bar Council 2022-2023",
+    "Bangladesh-Legal-QA",
+    "150-item supplied-law control"
+   ]
+  }
+ }
 }

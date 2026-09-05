@@ -4,5 +4,35 @@
  "title": "Ceiling-Clipped-Acceptance-Histograms-Indicate-Stranded-Spee",
  "token": "sk-EwecAZ9oF...",
  "created_at": "2026-09-01 07:19:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/538c13b6-c1ae-4f64-a6e7-2024897a9bb5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/538c13b6-c1ae-4f64-a6e7-2024897a9bb5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 06:33:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "speculative decoding",
+    "block diffusion",
+    "draft model",
+    "computation speedup",
+    "acceptance histogram",
+    "distributed training"
+   ],
+   "field": "高效LLM推理",
+   "innovations": [
+    "提出天花板柱作为块扩散草稿模型被锁定加速的诊断指标，Spearman相关性达+0.88~+0.93",
+    "DBloom方法：仅用30K样本（约1-2%训练预算）的平阶视界加权课程训练将B16扩展到B24，中位提升+0.8 token",
+    "线性块预算B24在Qwen3-8B上与JetSpec 256节点树预算无显著差距，跨模型族验证有效"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "MATH-500",
+    "AIME21-26",
+    "HumanEval",
+    "MBPP",
+    "LiveCodeBench",
+    "MT-Bench"
+   ]
+  }
+ }
 }

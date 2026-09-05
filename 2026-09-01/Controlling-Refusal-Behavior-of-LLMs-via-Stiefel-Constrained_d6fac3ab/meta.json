@@ -4,5 +4,35 @@
  "title": "Controlling-Refusal-Behavior-of-LLMs-via-Stiefel-Constrained",
  "token": "sk-oJ013oevc...",
  "created_at": "2026-09-01 07:17:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/2ab7380f-5717-446e-8bf6-a1691dfb14cf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/2ab7380f-5717-446e-8bf6-a1691dfb14cf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 06:34:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Activation Steering",
+    "Riemannian Optimization",
+    "LLM Safety",
+    "Stiefel Manifold",
+    "Refusal Control",
+    "Rotation-based Intervention"
+   ],
+   "field": "大语言模型安全与可控性",
+   "innovations": [
+    "提出 StiefelSteer：基于 Stiefel 流形与 SO(n) 黎曼优化的参数高效旋转干预框架，无需外部拒绝向量",
+    "严格保证精确范数保持、恒等初始化和攻击-防御代数可逆三大几何性质",
+    "首次将旋转子空间维度 n 作为可测量量，揭示拒绝行为由低维子空间主导（n≈35，占 d=3584 不足 1%）"
+   ],
+   "benchmarks": [
+    "SALADBench",
+    "Llama-Guard-3-8B",
+    "Qwen3Guard-Gen-8B",
+    "ARC-Challenge",
+    "WikiText-2",
+    "MMLU",
+    "GSM8K"
+   ]
+  }
+ }
 }

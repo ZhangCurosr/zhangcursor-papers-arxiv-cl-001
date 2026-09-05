@@ -4,5 +4,30 @@
  "title": "Enhancing-Low-Resource-Language-Reasoning-via-High-Resource",
  "token": "sk-vCwdEIcnG...",
  "created_at": "2026-09-01 07:19:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/b99f1c9d-ae59-4e69-9817-6cca5e87cb84.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/b99f1c9d-ae59-4e69-9817-6cca5e87cb84.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 06:38:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "稀疏自编码器",
+    "机制干预",
+    "跨语言推理",
+    "特征steering",
+    "低资源语言"
+   ],
+   "field": "多语言大模型推理",
+   "innovations": [
+    "对比特征选择+秩窗口滤波的稀疏特征发现方法",
+    "三重因果验证框架验证特征对跨语言推理的因果作用",
+    "无需训练或翻译的残差流steering干预策略"
+   ],
+   "benchmarks": [
+    "MATH500",
+    "MGSM",
+    "MMLU-ProX"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Aspire-Can-Models-Self-Evolve-from-Vague-Goals",
  "token": "sk-DXHHyylpH...",
  "created_at": "2026-09-01 07:17:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/44893bf3-4d6e-44ff-8e77-24d2ee43562c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/44893bf3-4d6e-44ff-8e77-24d2ee43562c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 06:33:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "vague-goal self-evolution",
+    "target operationalization",
+    "LLM agent",
+    "post-training benchmark",
+    "hidden evaluation",
+    "weight evolution",
+    "harness evolution"
+   ],
+   "field": "LLM自进化与自主后训练",
+   "innovations": [
+    "形式化目标操作化为自主后训练的独立维度",
+    "引入密封评估的最小交互Aspire基准支持权重与harness双重演化",
+    "揭示完成训练循环与保留目标对齐增益之间的关键差距"
+   ],
+   "benchmarks": [
+    "Aspire (520-item hidden evaluation, 6 goals)",
+    "PostTrainBench (vague-goal adaptation)"
+   ]
+  }
+ }
 }

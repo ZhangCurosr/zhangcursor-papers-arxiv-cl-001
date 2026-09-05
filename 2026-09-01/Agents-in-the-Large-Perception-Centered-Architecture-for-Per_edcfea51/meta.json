@@ -4,5 +4,28 @@
  "title": "Agents-in-the-Large-Perception-Centered-Architecture-for-Per",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-09-01 07:21:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/d4b1cb17-ae02-4886-99fd-c71d1a6cb5f6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/d4b1cb17-ae02-4886-99fd-c71d1a6cb5f6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 06:31:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "persistent agent",
+    "perception-centered architecture",
+    "lifecycle task",
+    "active perception",
+    "self-evolving agent"
+   ],
+   "field": "语言智能体架构设计",
+   "innovations": [
+    "提出Pera感知中心化架构，将智能体从偶发任务驱动扩展为持久服务驱动",
+    "区分episodic task与lifecycle task，以跨任务持久条件维护为核心控制目标",
+    "定义主动感知与生命周期控制闭环，填补跨任务边界的可观察性缺口"
+   ],
+   "benchmarks": [
+    "无独立实验，使用概念性案例研究与Table 1架构对比"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Evaluating-and-Mitigating-Anti-LGBTQ-Biases-in-German-and-Mu",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-09-01 07:18:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/068c7138-8a19-4b6f-8500-dcc1a6e4abe0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/068c7138-8a19-4b6f-8500-dcc1a6e4abe0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 06:40:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "anti-LGBTQ bias",
+    "multilingual benchmark",
+    "WinoQueer",
+    "community-sourced dataset",
+    "bias mitigation",
+    "soft scoring",
+    "German language models",
+    "queer identities"
+   ],
+   "field": "多语言社会偏见评估",
+   "innovations": [
+    "构建德语WinoQueer翻译基准并系统对比英文原版",
+    "提出社区驱动的非二元/变性人高占比德语偏见数据集",
+    "引入Soft Score连续偏强度指标"
+   ],
+   "benchmarks": [
+    "WinoQueer (German translation)",
+    "Community survey dataset (387 CrowS-pairs)"
+   ]
+  }
+ }
 }

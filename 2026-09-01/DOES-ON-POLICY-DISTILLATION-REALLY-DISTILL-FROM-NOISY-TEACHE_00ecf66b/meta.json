@@ -4,5 +4,31 @@
  "title": "DOES-ON-POLICY-DISTILLATION-REALLY-DISTILL-FROM-NOISY-TEACHE",
  "token": "sk-vBvZ06NsJ...",
  "created_at": "2026-09-01 07:17:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/9b3a59c2-f8b5-45f1-94a1-f90155523740.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/9b3a59c2-f8b5-45f1-94a1-f90155523740.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 06:35:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "在线策略蒸馏",
+    "零监督强化学习",
+    "token级信用分配",
+    "大模型后训练",
+    "策略自适应"
+   ],
+   "field": "大语言模型强化学习后训练",
+   "innovations": [
+    "发现OPD教师监督噪声率高且学生对其不敏感，揭示OPD增益源于低概率token抑制而非知识蒸馏",
+    "提出OPSA：完全零外部监督的熵自适应负优势token级RL方法，重塑策略分布实现自我改进"
+   ],
+   "benchmarks": [
+    "AIME24",
+    "AIME25",
+    "HMMT25",
+    "MBPP+",
+    "GPQA-Diamond"
+   ]
+  }
+ }
 }

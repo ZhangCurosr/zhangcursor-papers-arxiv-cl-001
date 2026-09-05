@@ -4,5 +4,34 @@
  "title": "DIASENTINEL-An-Auditable-Multi-Agent-System-for-Guideline-Gr",
  "token": "sk-EqwJR1nOB...",
  "created_at": "2026-09-01 07:17:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/15e55614-80fb-4a3e-8936-4b0623d185ca.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/15e55614-80fb-4a3e-8936-4b0623d185ca.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 06:35:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "临床决策支持",
+    "多智能体系统",
+    "2型糖尿病风险筛查",
+    "可审计AI",
+    "指南 grounding",
+    "概率校准",
+    "Reciprocal Rank Fusion"
+   ],
+   "field": "医疗AI/临床决策支持",
+   "innovations": [
+    "基于LoRA微调与Platt scaling校准的LLM风险预测器，实现低患病率T2DM筛查的校准分层",
+    "RRF融合密集检索与cross-encoder重排序的指南检索管道，缓解长度偏差",
+    "混合验证层（四项确定性检查+LLM蕴含检查）结合append-only审计日志，实现可追溯的临床报告验证"
+   ],
+   "benchmarks": [
+    "AUROC 0.737",
+    "AUPRC 0.158",
+    "Recall@5 0.745",
+    "Chapter@5 0.939",
+    "Sensitivity 72%/Specificity 62% at high threshold"
+   ]
+  }
+ }
 }

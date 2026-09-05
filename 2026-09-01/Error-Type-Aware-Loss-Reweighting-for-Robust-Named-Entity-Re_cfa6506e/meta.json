@@ -4,5 +4,33 @@
  "title": "Error-Type-Aware-Loss-Reweighting-for-Robust-Named-Entity-Re",
  "token": "sk-aEeqX9tmP...",
  "created_at": "2026-09-01 17:35:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/cb85c65d-f1a7-4f84-95b8-5f584c0ff2bc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/cb85c65d-f1a7-4f84-95b8-5f584c0ff2bc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 06:38:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Named Entity Recognition",
+    "Noisy Labels",
+    "Loss Reweighting",
+    "LLM Annotation",
+    "Error-Type-Aware",
+    "Noise-Robust Learning",
+    "Confidence Thresholding"
+   ],
+   "field": "命名实体识别与弱监督学习",
+   "innovations": [
+    "提出误差类型感知的损失重加权方法，对不同NER错误类型分别建模置信度后验",
+    "在单次训练过程中自适应更新阈值，无需干净验证数据或额外训练阶段",
+    "揭示分离掩码优于全局掩码，且最佳loss与数据主导误差类型对齐"
+   ],
+   "benchmarks": [
+    "NoiseBench",
+    "OntoNotes",
+    "BC5CDR",
+    "Wikigold"
+   ]
+  }
+ }
 }

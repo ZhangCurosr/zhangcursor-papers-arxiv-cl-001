@@ -4,5 +4,29 @@
  "title": "E-Commerce-Bench-Evaluating-LLM-Agents-on-Long-Horizon-Auton",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-09-01 07:20:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/4507478c-c572-45ac-84a8-dc3c923e3980.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/4507478c-c572-45ac-84a8-dc3c923e3980.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 06:38:54",
+  "chunks": 5,
+  "meta": {
+   "keywords": [
+    "LLM Agent",
+    "E-Commerce Benchmark",
+    "Long-Horizon Decision Making",
+    "Multi-Tool Agent",
+    "Commercial Simulation",
+    "Negotiation Evaluation"
+   ],
+   "field": "LLM Agent 评测基准",
+   "innovations": [
+    "构建365天多商户电商模拟环境，实现长周期商业决策的系统化评测",
+    "提出七维评估框架（谈判/反欺诈/现金流/效率/执行/学习/资产轨迹）首次全面量化电商Agent能力",
+    "揭示工具调用效率与最终盈利的非线性关系及破产幸存者偏差现象"
+   ],
+   "benchmarks": [
+    "E-Commerce-Bench"
+   ]
+  }
+ }
 }

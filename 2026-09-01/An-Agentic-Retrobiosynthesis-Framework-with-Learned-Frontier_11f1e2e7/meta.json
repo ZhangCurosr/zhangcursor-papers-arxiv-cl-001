@@ -4,5 +4,31 @@
  "title": "An-Agentic-Retrobiosynthesis-Framework-with-Learned-Frontier",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-09-01 07:19:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/4f9637d7-69a3-45ee-9687-4cedf4bfaec3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/4f9637d7-69a3-45ee-9687-4cedf4bfaec3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 06:31:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "逆向生物合成",
+    "大语言模型代理",
+    "前沿选择",
+    "LoRA微调",
+    "AND–OR搜索",
+    "生物合成路径设计"
+   ],
+   "field": "计算合成生物学",
+   "innovations": [
+    "策略-生成解耦框架：固定生化引擎仅学习前沿选择策略",
+    "四信号组合前沿观察集：以覆盖率@20为目标优化候选选择",
+    "路径重放模仿学习：从元网络生化路径提取27,795对状态-动作进行单epoch LoRA微调"
+   ],
+   "benchmarks": [
+    "LASER",
+    "RetroPath RL Golden",
+    "BioNavi-NP"
+   ]
+  }
+ }
 }
