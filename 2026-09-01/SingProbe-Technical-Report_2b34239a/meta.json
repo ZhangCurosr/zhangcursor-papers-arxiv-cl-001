@@ -4,5 +4,45 @@
  "title": "SingProbe-Technical-Report",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-09-01 17:35:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/370f8dfd-623c-488a-a976-94ec964d4e0b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/370f8dfd-623c-488a-a976-94ec964d4e0b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 20:51:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM guardrail",
+    "runtime safety",
+    "hallucination detection",
+    "intrinsic monitoring",
+    "streaming safety",
+    "constrained decoding",
+    "internal representation"
+   ],
+   "field": "LLM 安全与对齐",
+   "innovations": [
+    "直接复用基座模型隐藏状态实现轻量内嵌式 token 级流式安全与幻觉检测",
+    "基于 EMA 的动态多任务权重与自适应置信度 token 加权训练策略"
+   ],
+   "benchmarks": [
+    "SingStreamBench",
+    "SingStreamBench-Full",
+    "Aegis2",
+    "XGuard",
+    "HarmBench",
+    "ExpGuard",
+    "BeaverTails",
+    "PKU-SafeRLHF",
+    "WildGuard",
+    "XSTest",
+    "FineHarm",
+    "FactCHD",
+    "FaithDial",
+    "FAVA",
+    "RAGTruth",
+    "Shroom",
+    "WikiBio"
+   ]
+  }
+ }
 }

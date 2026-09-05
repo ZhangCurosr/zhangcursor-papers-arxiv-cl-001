@@ -4,5 +4,34 @@
  "title": "A-Unified-Mechanistic-Analysis-of-Knowledge-and-Safety-Based",
  "token": "sk-F0hECVUrq...",
  "created_at": "2026-09-02 06:49:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/626e2373-c24a-4d35-8616-ff9f631f126f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/626e2373-c24a-4d35-8616-ff9f631f126f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 20:52:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "知识基础拒绝",
+    "安全基础拒绝",
+    "机制分析",
+    "激活steering",
+    "方向分解",
+    "跨类型转移"
+   ],
+   "field": "LLM可解释性与安全性",
+   "innovations": [
+    "提出KR与SR共享-特异双层机制的'承诺-后指定'模型",
+    "构建213个匹配对比四元组统一分析框架",
+    "揭示SR→KR跨类型转移不对称性"
+   ],
+   "benchmarks": [
+    "XSTest",
+    "AdvBench",
+    "MMLU",
+    "GSM8K",
+    "TriviaQA",
+    "Natural Questions"
+   ]
+  }
+ }
 }

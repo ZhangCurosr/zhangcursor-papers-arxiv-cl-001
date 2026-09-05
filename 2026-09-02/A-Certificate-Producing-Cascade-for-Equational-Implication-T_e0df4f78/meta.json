@@ -4,5 +4,35 @@
  "title": "A-Certificate-Producing-Cascade-for-Equational-Implication-T",
  "token": "sk-UIdHTd8L7...",
  "created_at": "2026-09-02 06:50:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/c1e5a2c6-0ad4-4164-b014-def917b68f53.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/c1e5a2c6-0ad4-4164-b014-def917b68f53.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 20:52:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "等式理论",
+    "定理证明",
+    "证书生成",
+    "有序超叠",
+    "Lean 4",
+    "反例搜索",
+    "SAIR 挑战"
+   ],
+   "field": "符号定理证明与等式推理",
+   "innovations": [
+    " cheapest-first 单文件级联求解器，将结构化/不规则反例与 proof-producing superposition 统一于 judge-accepted 证书契约下",
+    "KBO ordered unit superposition 配合 tautology 删除修复与 anytime deepening，并将推导重放为 Lean 4 正形式核心项",
+    "将 broad tactic 依赖的 Austin 无限载体证书重写为 core-only 引理序列，使编译时间从 330s 降至 3.1s"
+   ],
+   "benchmarks": [
+    "six public sets (1,889 rows)",
+    "Stage 1 distribution drill (4×200)",
+    "Marathon normal_100",
+    "hosted playground evaluation_normal",
+    "stage2_stress_test (200)",
+    "research_order5_hard (100)"
+   ]
+  }
+ }
 }

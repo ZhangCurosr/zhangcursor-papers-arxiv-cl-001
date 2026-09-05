@@ -4,5 +4,33 @@
  "title": "Behaviorally-Effective-LoRA-Writes-Are-Sparse-and-Structured",
  "token": "sk-MljcAo9Bd...",
  "created_at": "2026-09-02 06:50:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/199400a5-2532-4e73-94ed-fac0b453bb9f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/199400a5-2532-4e73-94ed-fac0b453bb9f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 20:53:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Parameter-Efficient Fine-Tuning",
+    "LoRA",
+    "Write Geometry",
+    "Mechanism Probe",
+    "Low-rank Adaptation"
+   ],
+   "field": "大语言模型高效微调与机制解释",
+   "innovations": [
+    "将Write Geometry确立为PEFT因果状态变量并通过same-state swap验证",
+    "揭示训练后LoRA writes在模块内呈现高度稀疏聚集（最优集中在top-2/top-4）",
+    "定位最高行为影响组件集中于后期q_proj/o_proj/down_proj并设计LEARNED-BASIS LORA探针"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "MathQA",
+    "AQuA",
+    "StrategyQA",
+    "CommonsenseQA",
+    "ARC-Challenge"
+   ]
+  }
+ }
 }

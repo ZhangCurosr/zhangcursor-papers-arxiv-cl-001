@@ -4,5 +4,10 @@
  "title": "Sequential-Trajectories-and-Simultaneous-Blending-Multi-Emot",
  "token": "sk-tFmPcED8R...",
  "created_at": "2026-09-01 07:18:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/c56774eb-eed4-4d5c-aa2f-55a0611b44df.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/c56774eb-eed4-4d5c-aa2f-55a0611b44df.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 20:50:37",
+  "chunks": 1
+ }
 }

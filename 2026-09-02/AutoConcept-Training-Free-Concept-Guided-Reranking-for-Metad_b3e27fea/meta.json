@@ -4,5 +4,29 @@
  "title": "AutoConcept-Training-Free-Concept-Guided-Reranking-for-Metad",
  "token": "sk-CZoysi7P5...",
  "created_at": "2026-09-02 06:49:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/4329275a-5b3f-4b69-abf9-8204d4d49ee0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/4329275a-5b3f-4b69-abf9-8204d4d49ee0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 20:53:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "组合图像检索",
+    "免训练重排序",
+    "概念记忆",
+    "元数据可用",
+    "FashionIQ"
+   ],
+   "field": "多模态检索与理解",
+   "innovations": [
+    "免训练概念记忆重排序框架",
+    "推理时校准的查询自适应权重",
+    "正负概念分离的可解释重排序"
+   ],
+   "benchmarks": [
+    "FashionIQ",
+    "Fashion200K"
+   ]
+  }
+ }
 }

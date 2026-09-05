@@ -4,5 +4,32 @@
  "title": "A-SYSTEMATIC-APPROACH-TO-CONSTRUCTING-A-CHANCE-AND-RISK-MATR",
  "token": "sk-TTQuLp2ot...",
  "created_at": "2026-09-02 06:49:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/949c6481-51e2-4423-bb5f-e543d1f9803a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/949c6481-51e2-4423-bb5f-e543d1f9803a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 20:52:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "供应链风险管理",
+    "知识图谱",
+    "大语言模型",
+    "OWL本体",
+    "半导体产业",
+    "LLM-as-a-Judge",
+    "语义聚类"
+   ],
+   "field": "供应链智能与风险情报",
+   "innovations": [
+    "三层混合评分机制（算法公式+LLM相关性调整+专家验证）",
+    "OWL本体驱动的LLM抽取与风险-机会统一建模",
+    "从公开企业披露到可排序KG的端到端自动化流水线"
+   ],
+   "benchmarks": [
+    "Spearman相关系数（风险0.55/机会0.72）",
+    "精确率92.6%",
+    "子类准确率89.4%（父类别层级）"
+   ]
+  }
+ }
 }

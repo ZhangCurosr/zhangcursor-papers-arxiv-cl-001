@@ -4,5 +4,10 @@
  "title": "A-Dataset-for-Modeling-Iterative-Problem-Solving",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-09-02 06:51:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/8e3dbe0d-0f2b-4d8f-b0fc-ee70e58ead63.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/8e3dbe0d-0f2b-4d8f-b0fc-ee70e58ead63.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 20:52:30",
+  "chunks": 1
+ }
 }

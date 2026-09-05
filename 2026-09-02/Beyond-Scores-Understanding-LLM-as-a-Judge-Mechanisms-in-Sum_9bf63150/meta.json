@@ -4,5 +4,29 @@
  "title": "Beyond-Scores-Understanding-LLM-as-a-Judge-Mechanisms-in-Sum",
  "token": "sk-WJrSFDicB...",
  "created_at": "2026-09-02 06:48:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/3522ce7b-096a-4a42-ace6-a8eb716e0588.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/3522ce7b-096a-4a42-ace6-a8eb716e0588.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 20:54:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM-as-a-Judge",
+    "mechanistic interpretability",
+    "causal tracing",
+    "NLG evaluation",
+    "activation patching",
+    "summarization"
+   ],
+   "field": "大语言模型可解释性与评估",
+   "innovations": [
+    "首次系统揭示LLM评分器在两阶段pipeline中执行错误比较与评分写入的机制",
+    "证明fine-tuning仅对预训练基板进行局部修改而非重建评估管线"
+   ],
+   "benchmarks": [
+    "CNN/DailyMail",
+    "XSum"
+   ]
+  }
+ }
 }

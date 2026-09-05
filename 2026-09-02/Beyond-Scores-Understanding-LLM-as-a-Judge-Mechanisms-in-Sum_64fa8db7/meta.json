@@ -4,5 +4,31 @@
  "title": "Beyond-Scores-Understanding-LLM-as-a-Judge-Mechanisms-in-Sum",
  "token": "sk-WJrSFDicB...",
  "created_at": "2026-09-02 17:35:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/04b55661-63ef-4da1-9a39-9b169b34d1ee.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/04b55661-63ef-4da1-9a39-9b169b34d1ee.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 20:54:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM-as-a-Judge",
+    "Mechanistic Interpretability",
+    "Causal Tracing",
+    "NLG Evaluation",
+    "Attention Head Knockout",
+    "Logit Lens",
+    "Model Fine-tuning"
+   ],
+   "field": "大语言模型可解释性",
+   "innovations": [
+    "发现并实证了 LLM 评估器内部的双阶段结构化流水线（低层注意力路由/高层 MLP 写入）",
+    "定位了执行评级裁决的关键注意力头带（L10-L11）及决策锐利结晶层（L=25/26）",
+    "通过基座模型对照揭示微调在安装式机制（阶段分离强化、结晶深度提前）中的作用而非重建电路"
+   ],
+   "benchmarks": [
+    "CNN/DailyMail",
+    "XSum"
+   ]
+  }
+ }
 }

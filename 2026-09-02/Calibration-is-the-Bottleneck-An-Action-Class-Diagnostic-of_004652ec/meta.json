@@ -4,5 +4,32 @@
  "title": "Calibration-is-the-Bottleneck-An-Action-Class-Diagnostic-of",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-09-02 06:56:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/adb73613-24b2-44db-8c6e-18ab089b06b4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/adb73613-24b2-44db-8c6e-18ab089b06b4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 20:54:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-turn tool calling",
+    "model calibration",
+    "agent evaluation",
+    "Gold Action Recall",
+    "inference-time intervention",
+    "BFCL v3",
+    "action-class diagnostic"
+   ],
+   "field": "多轮工具调用Agent评估与诊断",
+   "innovations": [
+    "提出Acc≤GAR诊断上界，将多轮工具调用失败分解为动作类别校准偏差与动作执行失败两种正交模式",
+    "发现高排名工具训练家族存在严重的校准偏差（miss_func GAR低至17%但Acc高达76.5%），且该偏差被状态评分器掩盖",
+    "通过SRI/CRI推理时干预证明校准可塑性，且干预效果呈现家族特异性和机制依赖性（retry损害轨迹准确率，bypass保留准确率）"
+   ],
+   "benchmarks": [
+    "BFCL v3 multi-turn",
+    "τ²-bench retail",
+    "τ²-bench airline"
+   ]
+  }
+ }
 }

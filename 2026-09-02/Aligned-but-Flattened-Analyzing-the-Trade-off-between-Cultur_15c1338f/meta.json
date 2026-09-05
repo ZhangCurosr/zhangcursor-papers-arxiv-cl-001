@@ -4,5 +4,30 @@
  "title": "Aligned-but-Flattened-Analyzing-the-Trade-off-between-Cultur",
  "token": "sk-UDLQGxzLo...",
  "created_at": "2026-09-02 06:51:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/93dcdb45-9e95-4956-9562-daa5ad4bb705.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/93dcdb45-9e95-4956-9562-daa5ad4bb705.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 20:53:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "文化对齐",
+    "文化多样性",
+    "大语言模型",
+    "微调",
+    "低秩简单性偏差",
+    "文化扁平化"
+   ],
+   "field": "文化感知大模型",
+   "innovations": [
+    "提出对齐-多样性联合评估框架，揭示系统性权衡",
+    "首次从低秩简单性偏差角度机制解释文化扁平化",
+    "发现微调导致少数文化群体被系统性边缘化的风险"
+   ],
+   "benchmarks": [
+    "World Values Survey Wave 7",
+    "SIMBENCH"
+   ]
+  }
+ }
 }

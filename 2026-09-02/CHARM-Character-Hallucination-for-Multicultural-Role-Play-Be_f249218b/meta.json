@@ -4,5 +4,29 @@
  "title": "CHARM-Character-Hallucination-for-Multicultural-Role-Play-Be",
  "token": "sk-hwXfRrBR3...",
  "created_at": "2026-09-02 17:35:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/0d008691-1b1c-4a26-998c-154ccbef86fc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/0d008691-1b1c-4a26-998c-154ccbef86fc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 20:54:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "角色幻觉",
+    "知识边界",
+    "多文化评估",
+    "角色扮演LLM",
+    "参数知识覆盖",
+    "弃权机制"
+   ],
+   "field": "多文化角色扮演与大模型评估",
+   "innovations": [
+    "提出BA-BC两阶段诊断框架，将角色幻觉解耦为边界认知与边界遵从两个独立维度",
+    "设计三步参数覆盖验证方法，首次系统证明角色扮演幻觉主要由参数知识未抑制导致",
+    "构建首个覆盖5个文化-语言区域、40个角色的多文化角色幻觉评估基准"
+   ],
+   "benchmarks": [
+    "CHARM"
+   ]
+  }
+ }
 }

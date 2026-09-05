@@ -4,5 +4,38 @@
  "title": "Ab-sub-s-sub-t-sub-rac-sub-t",
  "token": "sk-ovHaiDbC4...",
  "created_at": "2026-09-02 06:53:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/05b16e83-1e2a-4e6e-ba93-e9315b390daf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/05b16e83-1e2a-4e6e-ba93-e9315b390daf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 20:53:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RLVR",
+    "Unified Decoding Framework",
+    "SearchLens",
+    "BOPTR",
+    "inference-time search",
+    "behavioral analysis",
+    " SimpleRL-Zoo",
+    "transfer learning"
+   ],
+   "field": "大语言模型推理与后训练行为分析",
+   "innovations": [
+    "提出SearchLens/UDF统一解码框架，将token级采样/束搜索/树搜索/序列重采样表示为共享预算操作空间中的可执行策略，并分离策略与指标",
+    "提出BOPTR-P1低维预算转移规律 N_Base ≈ α N_RL^β，以基准机制（math/nonmath/floor）决定指数β、1D模型偏移吸收跨模型差异，在4基准×7模型上实现3.41 pp水平转移误差",
+    "构建RL信息前沿（Z0→Z1→V3→V1），证明预测后RL行为所需RL信息上限约为1个锚点单元，零RL base@rltrain先验仅差~1 pp"
+   ],
+   "benchmarks": [
+    "Math500",
+    "AIME 2024/2025",
+    "GPQA-Diamond",
+    "IFEval",
+    "AMC23",
+    "Minerva",
+    "OlympiadBench",
+    "TinyMMLU"
+   ]
+  }
+ }
 }

@@ -4,5 +4,38 @@
  "title": "Beyond-Magnitude-Contrastive-Routing-for-Modular-Mixture-of",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-09-02 06:50:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/6815db4a-6190-4d21-905d-58c961d08a57.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/6815db4a-6190-4d21-905d-58c961d08a57.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 20:53:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Mixture-of-Experts",
+    "Contrastive Routing",
+    "Sparse Models",
+    "Expert Specialization",
+    "Low-rank Projection",
+    "Zero-shot Reasoning"
+   ],
+   "field": "稀疏专家模型路由机制",
+   "innovations": [
+    "提出对比路由机制CoRM，以token-专家亲和度减去EMA参考状态-专家亲和度之差作为路由logit，替代绝对幅度路由",
+    "引入动态EMA参考状态过滤跨token共享背景结构，使路由信号聚焦token特异性内容",
+    "通过低维瓶颈+独立专家Query投影实现内在稳定的有界对比注意力，减少辅助损失依赖"
+   ],
+   "benchmarks": [
+    "THE PILE",
+    "ARC-c",
+    "ARC-e",
+    "BoolQ",
+    "HellaSwag",
+    "LAMBADA",
+    "PIQA",
+    "RACE",
+    "OpenBookQA",
+    "SciQ"
+   ]
+  }
+ }
 }

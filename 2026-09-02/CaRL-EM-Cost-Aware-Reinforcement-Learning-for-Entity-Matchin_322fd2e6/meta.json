@@ -4,5 +4,35 @@
  "title": "CaRL-EM-Cost-Aware-Reinforcement-Learning-for-Entity-Matchin",
  "token": "sk-aEeqX9tmP...",
  "created_at": "2026-09-02 17:35:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/85dd1002-46e0-4553-96f8-e3fc1c523dc2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/85dd1002-46e0-4553-96f8-e3fc1c523dc2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 20:54:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Entity Matching",
+    "Reinforcement Learning",
+    "Large Language Models",
+    "Cost-Aware Inference",
+    "Zero-Shot Transfer"
+   ],
+   "field": "实体匹配与LLM推理优化",
+   "innovations": [
+    "首次将LLM驱动的实体匹配建模为成本感知序列RL决策问题",
+    "提出抽象两层成本模型解耦策略与LLM后端实现零样本迁移",
+    "四操作符(MATCH/COMPARE/SELECT/DECIDE)由RL动态编排实现自适应预算分配"
+   ],
+   "benchmarks": [
+    "Abt-buy",
+    "Amazon-Google",
+    "DBLP-ACM",
+    "DBLP-Scholar",
+    "IMDb-TMDb",
+    "IMDb-TVDb",
+    "TMDb-TVDb",
+    "Walmart-Amazon"
+   ]
+  }
+ }
 }

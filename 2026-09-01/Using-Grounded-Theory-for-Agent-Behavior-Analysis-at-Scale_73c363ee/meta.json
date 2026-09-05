@@ -4,5 +4,10 @@
  "title": "Using-Grounded-Theory-for-Agent-Behavior-Analysis-at-Scale",
  "token": "sk-Dw4PCoiSK...",
  "created_at": "2026-09-01 07:23:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/3a9c8002-1137-4e58-a251-cde0d4fb2a15.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/3a9c8002-1137-4e58-a251-cde0d4fb2a15.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 20:52:06",
+  "chunks": 1
+ }
 }

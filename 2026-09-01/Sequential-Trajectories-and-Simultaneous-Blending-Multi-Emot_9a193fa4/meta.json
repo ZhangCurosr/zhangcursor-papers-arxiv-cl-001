@@ -4,5 +4,29 @@
  "title": "Sequential-Trajectories-and-Simultaneous-Blending-Multi-Emot",
  "token": "sk-tFmPcED8R...",
  "created_at": "2026-09-01 17:36:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/c56774eb-eed4-4d5c-aa2f-55a0611b44df.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/c56774eb-eed4-4d5c-aa2f-55a0611b44df.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 20:50:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "情感TTS",
+    "多情感控制",
+    "GRPO",
+    "强化学习",
+    "语音生成",
+    "情感轨迹",
+    "情感混合"
+   ],
+   "field": "情感语音合成",
+   "innovations": [
+    "提出HybridEmo两阶段后训练框架，SFT初始化+样本感知GRPO对齐",
+    "设计分段对齐一致性奖励和GMM混合密度奖励，匹配轨迹和混合任务结构"
+   ],
+   "benchmarks": [
+    "MultiEmo-Test"
+   ]
+  }
+ }
 }

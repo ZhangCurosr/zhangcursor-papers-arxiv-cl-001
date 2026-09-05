@@ -4,5 +4,29 @@
  "title": "Adaptive-Critical-Token-Aware-Retrieval-for-Repository-Level",
  "token": "sk-EqwJR1nOB...",
  "created_at": "2026-09-02 17:35:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/479117dc-23eb-45ee-9de6-adfb6d57610f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/479117dc-23eb-45ee-9de6-adfb6d57610f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 20:53:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "仓库级代码生成",
+    "关键token",
+    "检索增强生成",
+    "大语言模型",
+    "动态检索"
+   ],
+   "field": "仓库级代码生成",
+   "innovations": [
+    "首次系统定义并量化关键token，揭示其在生成错误中的决定性作用",
+    "提出生成过程中动态按需检索框架，在关键token处触发针对性上下文修正",
+    "设计位置感知双端高斯加权池化方法增强密集检索器的上下文聚合质量"
+   ],
+   "benchmarks": [
+    "RepoExec",
+    "CoderEval"
+   ]
+  }
+ }
 }

@@ -4,5 +4,38 @@
  "title": "Beyond-Magnitude-Contrastive-Routing-for-Modular-Mixture-of",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-09-02 17:35:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/6815db4a-6190-4d21-905d-58c961d08a57.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/6815db4a-6190-4d21-905d-58c961d08a57.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 20:53:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Mixture-of-Experts",
+    "Contrastive Routing",
+    "EMA Reference",
+    "Low-dimensional Bottleneck",
+    "Expert Specialization",
+    "Zero-shot Reasoning"
+   ],
+   "field": "大规模语言模型架构与稀疏路由",
+   "innovations": [
+    "提出 EMA 动态参考状态的对比路由机制 CoRM，以查询-关键亲和力差替代绝对幅度路由",
+    "结合低维瓶颈与 L2 归一化实现内在稳定的有界对比间隙，减少对重辅助损失的依赖",
+    "从几何压缩、聚类分离与句法专业化三维度验证路由特化并报告显著零样本性能提升"
+   ],
+   "benchmarks": [
+    "THE PILE",
+    "ARC-c",
+    "ARC-e",
+    "BoolQ",
+    "HellaSwag",
+    "LAMBADA",
+    "PIQA",
+    "RACE",
+    "OpenBookQA",
+    "SciQ"
+   ]
+  }
+ }
 }

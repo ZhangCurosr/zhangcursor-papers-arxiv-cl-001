@@ -4,5 +4,34 @@
  "title": "UTILMEM-Benchmarking-Evidence-Utilization-in-Long-Term-Conve",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-09-01 07:17:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/76328fe8-6804-4d61-bcb1-848c7636569d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/76328fe8-6804-4d61-bcb1-848c7636569d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 20:51:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "long-term conversational memory",
+    "memory utilization",
+    "retrieval-augmented generation",
+    "benchmark",
+    "evidence integration",
+    "adversarial distractors",
+    "RAG robustness"
+   ],
+   "field": "长程对话记忆评估",
+   "innovations": [
+    "提出首个四维记忆利用基准 UTILMEM，覆盖密集多会话推理、隐式检索、长文合成与干扰过滤",
+    "设计反事实退化测试+对抗性干扰注入的可规模合成管线",
+    "揭示高召回≠高利用、少量语义相似干扰即可造成严重降级的系统性失败模式"
+   ],
+   "benchmarks": [
+    "UTILMEM",
+    "LoCoMo",
+    "Long-MemEval",
+    "MemBench",
+    "MemoryAgentBench"
+   ]
+  }
+ }
 }

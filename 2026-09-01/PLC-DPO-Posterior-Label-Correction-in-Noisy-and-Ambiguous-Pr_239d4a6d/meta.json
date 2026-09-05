@@ -4,5 +4,34 @@
  "title": "PLC-DPO-Posterior-Label-Correction-in-Noisy-and-Ambiguous-Pr",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-09-01 17:36:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/565b2284-b686-45f3-a03b-6198da67f49f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/565b2284-b686-45f3-a03b-6198da67f49f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 20:50:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Direct Preference Optimization",
+    "Noisy Label Learning",
+    "Robust Alignment",
+    "Posterior Routing",
+    "Preference Optimization"
+   ],
+   "field": "大语言模型对齐与偏好优化",
+   "innovations": [
+    "提出PLC-DPO将偏好对标签建模为latent clean/flip/tie状态并通过EMA校准margin在线路由修正",
+    "设计energy-based routing混合forward/reversed/tie-loss且无需额外监督",
+    "在57个dataset-model-benchmark单元格上取得最高平均胜率60.5%"
+   ],
+   "benchmarks": [
+    "UltraFeedback",
+    "AlpacaEval",
+    "AlpacaEval 2",
+    "MT-Bench",
+    "Vicuna",
+    "Evol-Instruct",
+    "HH-RLHF"
+   ]
+  }
+ }
 }

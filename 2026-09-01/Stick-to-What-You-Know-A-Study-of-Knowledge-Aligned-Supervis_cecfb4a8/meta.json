@@ -4,5 +4,32 @@
  "title": "Stick-to-What-You-Know-A-Study-of-Knowledge-Aligned-Supervis",
  "token": "sk-JqniBRrr0...",
  "created_at": "2026-09-01 17:35:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/408c1187-eeff-4a1b-b79b-bae6fa949b5d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/408c1187-eeff-4a1b-b79b-bae6fa949b5d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 20:51:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "knowledge-aligned SFT",
+    "hallucination mitigation",
+    "factual consistency",
+    "supervised fine-tuning",
+    "claim decomposition",
+    "recusal behavior"
+   ],
+   "field": "大语言模型事实性与幻觉缓解",
+   "innovations": [
+    "提出统一的知识对齐SFT框架，将现有方法纳入同一数据构造流程",
+    "提出Recall Rewrite方法，通过多样化探测问题一致性检验基座模型参数化知识",
+    "揭示知识对齐比例与事实性的单调因果关系"
+   ],
+   "benchmarks": [
+    "WildHalu",
+    "Biography",
+    "UnknownBench",
+    "OLMES"
+   ]
+  }
+ }
 }
