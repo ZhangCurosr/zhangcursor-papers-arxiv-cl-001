@@ -4,5 +4,31 @@
  "title": "Can-Large-Language-Models-Forecast-What-Researchers-Study-Ne",
  "token": "sk-1TedD2e6f...",
  "created_at": "2026-09-02 17:36:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/ce67c7e9-576b-43d1-a190-d05cecb86286.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/ce67c7e9-576b-43d1-a190-d05cecb86286.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 22:30:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "研究思想预测",
+    "大语言模型",
+    "科学发现基准",
+    "历史压缩策略",
+    "实现评估",
+    "IDEAFORECASTBENCH"
+   ],
+   "field": "AI辅助科学发现",
+   "innovations": [
+    "提出社区级研究思想预测基准，以延迟实现为评估信号",
+    "系统比较五种历史压缩策略对预测质量的影响",
+    "引入可学习MDF结构化三元组表示作为参考基线"
+   ],
+   "benchmarks": [
+    "IDEAFORECASTBENCH",
+    "arXiv cs.ML 52主题",
+    "624滚动期次"
+   ]
+  }
+ }
 }

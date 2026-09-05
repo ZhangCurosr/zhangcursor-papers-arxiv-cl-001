@@ -4,5 +4,32 @@
  "title": "Control-Data-Flow-Separation-Stable-Prompt-Optimization-in-M",
  "token": "sk-ceCpd81tF...",
  "created_at": "2026-09-02 17:36:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/5fbd1e5c-bd20-4d26-831a-727d574f9a79.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/5fbd1e5c-bd20-4d26-831a-727d574f9a79.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 22:31:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多智能体LLM",
+    "提示优化",
+    "控制-数据流分离",
+    "协议稳定性",
+    "文本梯度",
+    "结构化输出"
+   ],
+   "field": "多智能体系统与提示工程",
+   "innovations": [
+    "提出控制-数据流分离框架，隔离提示优化与执行协议",
+    "通过冻结模式脚手架和类型化验证实现协议稳定性保证",
+    "在多种任务上实现100%协议有效性并提升任务性能"
+   ],
+   "benchmarks": [
+    "BBH",
+    "MARG Review",
+    "Synthetic Underwriting",
+    "Industry-verified Underwriting"
+   ]
+  }
+ }
 }

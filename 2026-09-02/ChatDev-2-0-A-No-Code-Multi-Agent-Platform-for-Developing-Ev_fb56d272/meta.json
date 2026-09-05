@@ -4,5 +4,30 @@
  "title": "ChatDev-2-0-A-No-Code-Multi-Agent-Platform-for-Developing-Ev",
  "token": "sk-aeujzMN4P...",
  "created_at": "2026-09-02 06:53:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/f7c414eb-fde7-41ce-ac2f-f6c788fb45aa.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/f7c414eb-fde7-41ce-ac2f-f6c788fb45aa.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 22:30:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多智能体系统",
+    "无代码平台",
+    "图执行引擎",
+    "循环依赖调度",
+    "语义边"
+   ],
+   "field": "多智能体系统编排与平台",
+   "innovations": [
+    "语义边抽象实现数据流与控制流解耦",
+    "CADET算法支持任意周期MAS图的确定性调度",
+    "统一无代码平台跨域复现专用MAS工作流"
+   ],
+   "benchmarks": [
+    "MatPlotBench",
+    "DeepResearchBench",
+    "SRDD"
+   ]
+  }
+ }
 }

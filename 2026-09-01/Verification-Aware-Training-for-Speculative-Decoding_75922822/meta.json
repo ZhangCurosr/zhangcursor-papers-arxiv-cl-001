@@ -4,5 +4,36 @@
  "title": "Verification-Aware-Training-for-Speculative-Decoding",
  "token": "sk-gpAzKtmRM...",
  "created_at": "2026-09-01 07:20:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/a264fb36-b414-4b62-8f3f-62a5fec29955.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/a264fb36-b414-4b62-8f3f-62a5fec29955.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 22:29:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "speculative decoding",
+    "verification-aware training",
+    "draft model",
+    "acceptance length",
+    "EAGLE-3",
+    "DFlash"
+   ],
+   "field": "大语言模型推理加速",
+   "innovations": [
+    "训练时模拟验证过程并将接受/拒绝模式转化为监督信号",
+    "验证头提供显式验证监督并塑造有利对齐的表征",
+    "以首次拒绝点为锚的样本级自适应位置加权"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "MATH-500",
+    "AIME25",
+    "HumanEval",
+    "MBPP",
+    "LiveCodeBench",
+    "MT-Bench",
+    "Alpaca"
+   ]
+  }
+ }
 }

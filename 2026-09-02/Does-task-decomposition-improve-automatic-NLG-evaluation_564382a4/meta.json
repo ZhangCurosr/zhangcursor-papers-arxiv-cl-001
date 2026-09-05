@@ -4,5 +4,32 @@
  "title": "Does-task-decomposition-improve-automatic-NLG-evaluation",
  "token": "sk-NnOQ8YDzm...",
  "created_at": "2026-09-02 06:53:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/00501bc6-7921-49c5-8d30-6eb4a030ce22.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/00501bc6-7921-49c5-8d30-6eb4a030ce22.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 22:33:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM-as-a-judge",
+    "automatic NLG evaluation",
+    "task decomposition",
+    "direct prediction",
+    "Spearman correlation",
+    "alt-test",
+    "human alignment"
+   ],
+   "field": "自动文本生成评估",
+   "innovations": [
+    "系统证明任务分解对LLMaJ性能无额外增益，真实增益来自人类标签",
+    "构建强直接预测基线并验证其可达到人类标注者水平",
+    "提出AOI分解与ICL增强分解变体并全面对比"
+   ],
+   "benchmarks": [
+    "SummEval",
+    "TopicalChat",
+    "Seahorse"
+   ]
+  }
+ }
 }

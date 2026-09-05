@@ -4,5 +4,10 @@
  "title": "Dense-Process-Supervision-for-Search-Agents-via-Fact-Utility",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-09-02 06:51:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/30952fc7-58f1-4877-ada8-0e2300876ac0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/30952fc7-58f1-4877-ada8-0e2300876ac0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 22:32:24",
+  "chunks": 1
+ }
 }

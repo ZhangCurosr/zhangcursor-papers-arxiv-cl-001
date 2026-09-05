@@ -4,5 +4,38 @@
  "title": "DualStake-Dual-Path-Confidence-Calibration-in-Deep-Research",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-09-02 17:35:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/636fe4b9-cb9c-4945-a01b-34bb455d5c04.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/636fe4b9-cb9c-4945-a01b-34bb455d5c04.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 22:33:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "confidence calibration",
+    "deep research agent",
+    "reinforcement learning",
+    "verbalized confidence",
+    "stake reward",
+    "margin clipping",
+    "E-Conf",
+    "A-Conf"
+   ],
+   "field": "大语言模型可靠性与校准",
+   "innovations": [
+    "在Deep Research多步检索管线中引入step-level E-Conf，揭示其对A-Conf的因果主导作用",
+    "提出DualStake双路径校准方法，联合监督E-Conf和A-Conf的margin-clipped stake奖励",
+    "系统验证跨模型（3B-7B）和8个QA基准上的SOTA校准性能，同时保持准确率不下降"
+   ],
+   "benchmarks": [
+    "NQ",
+    "TriviaQA",
+    "PopQA",
+    "HotpotQA",
+    "2WikiMultiHopQA",
+    "MuSiQue",
+    "Bamboogle",
+    "SimpleQA"
+   ]
+  }
+ }
 }

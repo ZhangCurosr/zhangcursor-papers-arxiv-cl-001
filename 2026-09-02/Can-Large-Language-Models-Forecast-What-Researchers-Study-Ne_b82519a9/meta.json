@@ -4,5 +4,29 @@
  "title": "Can-Large-Language-Models-Forecast-What-Researchers-Study-Ne",
  "token": "sk-1TedD2e6f...",
  "created_at": "2026-09-02 06:55:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/ce67c7e9-576b-43d1-a190-d05cecb86286.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/ce67c7e9-576b-43d1-a190-d05cecb86286.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 22:30:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "research ideation",
+    "idea forecasting",
+    "LLM benchmark",
+    "scientific discovery",
+    "history compression",
+    "IDEAFORECASTBENCH"
+   ],
+   "field": "AI for Science / 科研智能",
+   "innovations": [
+    "提出IDEAFORECASTBENCH基准，以社区后续发表流评估LLM研究思想预测能力",
+    "系统比较五种历史压缩策略（Direct/Retrieval/Summary/TopicTrend/Memory）",
+    "引入MDF（模式分解预报器）作为可训练的reference forecaster"
+   ],
+   "benchmarks": [
+    "IDEAFORECASTBENCH"
+   ]
+  }
+ }
 }

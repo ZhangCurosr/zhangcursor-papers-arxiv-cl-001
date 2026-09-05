@@ -4,5 +4,10 @@
  "title": "Controllable-Image-Captioning-with-Prompt-Conditioned-Scene",
  "token": "sk-rvQMAAO2D...",
  "created_at": "2026-09-02 17:36:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/5791063b-ccab-409e-a5cd-71e7ad3fcb4e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/5791063b-ccab-409e-a5cd-71e7ad3fcb4e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 22:32:06",
+  "chunks": 1
+ }
 }

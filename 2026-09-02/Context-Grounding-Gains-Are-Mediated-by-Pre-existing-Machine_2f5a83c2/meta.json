@@ -4,5 +4,34 @@
  "title": "Context-Grounding-Gains-Are-Mediated-by-Pre-existing-Machine",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-09-02 06:52:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/55c9783a-7468-44ba-9201-37fca888f214.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/55c9783a-7468-44ba-9201-37fca888f214.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 22:31:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "context grounding",
+    "knowledge conflict",
+    "GRPO",
+    "SFT",
+    "DPO",
+    "mechanism reuse",
+    "activation steering",
+    "mechanistic interpretability"
+   ],
+   "field": "大语言模型后训练与机制可解释性",
+   "innovations": [
+    "在统一起点比较 GRPO/SFT/DPO 的遵循增益差异，揭示三者行为解离",
+    "从起始模型事前估算遵循方向并证明训练后保持高对齐（cosine ≥ 0.968）",
+    "因果干预显示起始方向可恢复 35% DPO 增益且抑制 SFT/DPO 训练后增益"
+   ],
+   "benchmarks": [
+    "CounterFact",
+    "ConFiQA",
+    "FaithEval",
+    "HotpotQA"
+   ]
+  }
+ }
 }

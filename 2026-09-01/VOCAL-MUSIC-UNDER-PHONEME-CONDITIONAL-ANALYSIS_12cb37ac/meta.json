@@ -4,5 +4,10 @@
  "title": "VOCAL-MUSIC-UNDER-PHONEME-CONDITIONAL-ANALYSIS",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-09-01 07:20:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/2c805faf-96a0-4388-b0fc-bf2c8fab5d88.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/2c805faf-96a0-4388-b0fc-bf2c8fab5d88.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 22:30:00",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,30 @@
  "title": "CordisBench-Can-Language-Models-Reason-About-Component-Lifec",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-09-02 17:35:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/3c68ad24-bbd5-4950-877c-706aa86993b0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/3c68ad24-bbd5-4950-877c-706aa86993b0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 22:31:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Agent harness",
+    "组件生命周期",
+    "语言模型推理",
+    "动态依赖",
+    "Benchmark",
+    "形式化语义",
+    "Cordis"
+   ],
+   "field": "Agent系统可靠性与评估",
+   "innovations": [
+    "提出CordisBench，首个评估LLM在动态Agent harness中推理组件生命周期变化的基准，含1,200道结构化输出题目",
+    "设计固定题目形式的缩放变量（交互数2-32），量化模型推理能力随复杂度下降的规律",
+    "构建有限参考语义与Cordis原生执行完全一致的ground truth，并提出实际执行评分的重配置任务"
+   ],
+   "benchmarks": [
+    "CordisBench"
+   ]
+  }
+ }
 }

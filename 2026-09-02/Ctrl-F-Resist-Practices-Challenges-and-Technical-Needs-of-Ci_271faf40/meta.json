@@ -4,5 +4,32 @@
  "title": "Ctrl-F-Resist-Practices-Challenges-and-Technical-Needs-of-Ci",
  "token": "sk-vCwdEIcnG...",
  "created_at": "2026-09-02 17:36:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/574fd604-2ef2-42fd-931d-e4093c3da5c5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/574fd604-2ef2-42fd-931d-e4093c3da5c5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 22:32:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Civil Society Organizations",
+    "Online Monitoring",
+    "Far-right",
+    "Human-centered AI",
+    "CSCW",
+    "Search",
+    "Multimodal Processing",
+    "Manual Labor Trap"
+   ],
+   "field": "人机交互与社会计算（CSCW）",
+   "innovations": [
+    "引入‘手动劳动陷阱’概念解释CSO监控工作的低效再生产机制",
+    "提出面向CSO的概念性监控工作流与开源多模态Telegram原型",
+    "揭示CSO对AI分类的怀疑态度及对搜索、预处理、法律合规的优先需求"
+   ],
+   "benchmarks": [
+    "德国CSO从业者访谈（n=15）",
+    "原型工作坊形成性评估"
+   ]
+  }
+ }
 }

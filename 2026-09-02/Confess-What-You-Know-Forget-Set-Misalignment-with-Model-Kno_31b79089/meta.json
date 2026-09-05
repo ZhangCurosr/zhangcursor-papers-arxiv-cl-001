@@ -4,5 +4,30 @@
  "title": "Confess-What-You-Know-Forget-Set-Misalignment-with-Model-Kno",
  "token": "sk-Nw8TqBTK6...",
  "created_at": "2026-09-02 17:37:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/d7534054-c393-413e-9692-5132e730bb52.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/d7534054-c393-413e-9692-5132e730bb52.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 22:30:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "machine unlearning",
+    "forget-set misalignment",
+    "LLM privacy",
+    "data-blind unlearning",
+    "knowledge extraction"
+   ],
+   "field": "大语言模型安全与对齐",
+   "innovations": [
+    "首次系统分析遗忘集不对齐问题并识别两类失败模式",
+    "提出CONFS框架通过模型自坦白构建对齐遗忘集",
+    "引入一致性验证机制过滤噪声知识"
+   ],
+   "benchmarks": [
+    "TOFU",
+    "CLEAR",
+    "RWKU"
+   ]
+  }
+ }
 }

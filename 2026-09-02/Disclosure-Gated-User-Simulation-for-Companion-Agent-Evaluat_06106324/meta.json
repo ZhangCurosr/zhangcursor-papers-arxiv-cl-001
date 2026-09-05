@@ -4,5 +4,29 @@
  "title": "Disclosure-Gated-User-Simulation-for-Companion-Agent-Evaluat",
  "token": "sk-gD7m2ian9...",
  "created_at": "2026-09-02 17:35:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/e3e952ad-d1a8-4d69-9b7c-ca925dd18d7e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/e3e952ad-d1a8-4d69-9b7c-ca925dd18d7e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 22:33:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "user simulation",
+    "companion agent evaluation",
+    "disclosure gating",
+    "LLM benchmark",
+    "emotional companionship",
+    "simulation fidelity"
+   ],
+   "field": "多轮对话评估与模拟用户",
+   "innovations": [
+    "提出可执行的五阶门控状态机规范，实现信息释放对陪伴agent行为的条件依赖",
+    "双分支训练语料设计，合成分支提供门控轨迹、真实分支提供语言保真",
+    "建立排序保持与分数稳定双验收标准，揭示仅检查排名会遗漏分数尺度漂移"
+   ],
+   "benchmarks": [
+    "CompanionBench"
+   ]
+  }
+ }
 }

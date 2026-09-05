@@ -4,5 +4,10 @@
  "title": "Consistency-Without-Alignment-Item-Sensitive-Language-Models",
  "token": "sk-EKBGNBzZY...",
  "created_at": "2026-09-02 06:52:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/bda432c6-7879-45cd-bdca-af47db4e14b5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/bda432c6-7879-45cd-bdca-af47db4e14b5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 22:31:08",
+  "chunks": 1
+ }
 }

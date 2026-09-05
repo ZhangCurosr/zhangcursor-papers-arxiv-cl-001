@@ -4,5 +4,32 @@
  "title": "Calibration-is-the-Bottleneck-An-Action-Class-Diagnostic-of",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-09-02 17:35:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/adb73613-24b2-44db-8c6e-18ab089b06b4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/adb73613-24b2-44db-8c6e-18ab089b06b4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 22:30:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-turn tool calling",
+    "LLM calibration",
+    "agent evaluation",
+    "action-class diagnosis",
+    "BFCL",
+    "τ²-bench",
+    "inference-time intervention"
+   ],
+   "field": "多轮工具调用agent评估",
+   "innovations": [
+    "提出Acc≤GAR诊断不等式，将多轮失败分解为动作类校准错误和执行失败两种正交模式",
+    "通过200案例审计（κ=0.92）和τ²-bench跨基准验证，揭示工具专用模型存在严重的缺失信息场景校准偏差",
+    "证明推理时校准可塑性具有方向和机制双轴异构性，bypass式干预可同时保完整轨迹"
+   ],
+   "benchmarks": [
+    "BFCL v3 multi-turn",
+    "τ²-bench retail",
+    "τ²-bench airline"
+   ]
+  }
+ }
 }

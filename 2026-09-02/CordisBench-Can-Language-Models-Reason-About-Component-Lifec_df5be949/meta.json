@@ -4,5 +4,30 @@
  "title": "CordisBench-Can-Language-Models-Reason-About-Component-Lifec",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-09-02 06:48:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/4d468690-fe7e-403e-9e15-3e05e438e952.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/4d468690-fe7e-403e-9e15-3e05e438e952.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 22:32:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Agent harness",
+    "Cordis",
+    "lifecycle reasoning",
+    "component dependencies",
+    "teardown order",
+    "benchmark",
+    "structured-output evaluation"
+   ],
+   "field": "Agent 系统与运行时依赖/生命周期推理评测",
+   "innovations": [
+    "CordisBench 1,200 题结构化基准，分离定位与终态/条件推理以刻画能力鸿沟",
+    "交互数可控缩放设计并配套形式语义与 Cordis 执行双重验证",
+    "重配置任务采用真实执行+最小性判定以捕获工程可用误差"
+   ],
+   "benchmarks": [
+    "CordisBench"
+   ]
+  }
+ }
 }

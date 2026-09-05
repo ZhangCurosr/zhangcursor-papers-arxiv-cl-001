@@ -4,5 +4,30 @@
  "title": "Confess-What-You-Know-Forget-Set-Misalignment-with-Model-Kno",
  "token": "sk-Nw8TqBTK6...",
  "created_at": "2026-09-02 06:54:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/d7534054-c393-413e-9692-5132e730bb52.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/d7534054-c393-413e-9692-5132e730bb52.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 22:30:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "machine unlearning",
+    "forget-set misalignment",
+    "LLM privacy",
+    "data-blind unlearning",
+    "SRO triplet"
+   ],
+   "field": "大语言模型机器遗忘与隐私保护",
+   "innovations": [
+    "首次系统定义forget-set misalignment并提出Under/Out-of-Knowledge两种失效模式",
+    "提出CONFS框架通过坦白-形式化-重新坦白-幻觉验证构建模型对齐的数据盲遗忘集",
+    "引入SRO三元组原子化遗忘单元与梯度内积诊断框架定量分析错位影响"
+   ],
+   "benchmarks": [
+    "TOFU",
+    "CLEAR",
+    "RWKU"
+   ]
+  }
+ }
 }
