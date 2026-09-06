@@ -4,5 +4,33 @@
  "title": "Post-Training-Science-for-Supervised-Fine-Tuning",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-09-02 17:35:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/5a9d1214-7f0a-4f02-95af-828bc543f573.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/5a9d1214-7f0a-4f02-95af-828bc543f573.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 13:19:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Supervised Fine-Tuning",
+    "LoRA",
+    "Learning Rate Scaling",
+    "Post-Training Science",
+    "Mixture of Experts",
+    "Hyperparameter Sweep",
+    "Scaling Laws",
+    "Instruction Following"
+   ],
+   "field": "大语言模型微调与后训练",
+   "innovations": [
+    "Established a transferable learning rate law showing LoRA optimal LR is flat at 10^-3 across 0.6-32B models, approximately 33x higher than FullFT optimum",
+    "Defined LoRA hyperparameter defaults (rank=64, alpha=32) through systematic sweep, showing rank plateau around 64 and alpha=32 being optimal across all tested configurations",
+    "Demonstrated that validation NLL reliably ranks downstream quality within fixed recipes but fails to transfer across model families, while Fisher trace adds no reliable ranking at matched loss"
+   ],
+   "benchmarks": [
+    "IFEval",
+    "Customer-task production judges (security, leasing, support, docs)",
+    "Qwen3 and Llama model families across 0.6B-235B parameters"
+   ]
+  }
+ }
 }

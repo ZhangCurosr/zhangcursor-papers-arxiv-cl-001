@@ -4,5 +4,32 @@
  "title": "Polish-ModernBERT-The-Long-and-Short-of-Polish-Language-Unde",
  "token": "sk-oJ013oevc...",
  "created_at": "2026-09-02 17:35:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/8fc0528e-68c1-4621-b58a-61d50a597f3d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/8fc0528e-68c1-4621-b58a-61d50a597f3d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 13:18:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "ModernBERT",
+    "encoder-only Transformer",
+    "Polish NLP",
+    "长上下文理解",
+    "预训练配方搜索",
+    "long-context benchmark"
+   ],
+   "field": "多语种编码器预训练",
+   "innovations": [
+    "将 ModernBERT 架构适配至波兰语，提出覆盖 Base/Large 与 512/8K 的四模型家族",
+    "通过 compute-aware 分阶段实验确定最优预训练配方（遮蔽率递减+annealing语料）",
+    "提出 LongContext 五任务波兰语长文档基准，专门评估超出 512-token 窗口的理解能力"
+   ],
+   "benchmarks": [
+    "KLEJ",
+    "FinBench",
+    "LongContext",
+    "PIRB"
+   ]
+  }
+ }
 }

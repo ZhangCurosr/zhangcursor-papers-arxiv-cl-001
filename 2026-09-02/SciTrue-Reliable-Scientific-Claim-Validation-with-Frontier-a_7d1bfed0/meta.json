@@ -4,5 +4,31 @@
  "title": "SciTrue-Reliable-Scientific-Claim-Validation-with-Frontier-a",
  "token": "sk-rXToje7Gi...",
  "created_at": "2026-09-02 17:36:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/cd00da00-f24c-4922-a820-8a93214e3ea4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/cd00da00-f24c-4922-a820-8a93214e3ea4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 13:19:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "scientific claim verification",
+    "vision-language models",
+    "fact-checking",
+    "ensemble methods",
+    "pair-accuracy",
+    "measurement leak",
+    "NTCIR SciClaimEval"
+   ],
+   "field": "多模态科学事实核查",
+   "innovations": [
+    "无泄漏配对先验将相对排序替代绝对判断，pair-accuracy提升21分",
+    "证据类型路由针对表格/图片分别选用最强模型子集",
+    "系统性揭示并校正开发集位置编码标签的测量泄漏"
+   ],
+   "benchmarks": [
+    "NTCIR-19 SciClaimEval Subtask-1",
+    "NTCIR-19 SciClaimEval Subtask-2"
+   ]
+  }
+ }
 }

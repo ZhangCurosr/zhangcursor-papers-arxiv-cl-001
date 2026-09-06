@@ -4,5 +4,33 @@
  "title": "The-Interlingua-Hypothesis-LLMs-Translate-via-a-Latent-Task",
  "token": "sk-Gq5lt3OzO...",
  "created_at": "2026-09-02 06:50:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/2fd8892d-9d3c-496a-af0e-8cf02f985177.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/2fd8892d-9d3c-496a-af0e-8cf02f985177.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 13:22:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "机器翻译",
+    "大语言模型",
+    "因果中介分析",
+    "中介语假说",
+    "多语言表示",
+    "低资源翻译",
+    "可解释性"
+   ],
+   "field": "多语言大语言模型机制可解释性",
+   "innovations": [
+    "提出并验证LLM通过任务无关潜在特征空间翻译的中介语假说",
+    "用GCM定位跨任务复用的翻译注意力头并证明其因果影响力",
+    "证明单语微调可恢复99%平行数据微调带来的低资源翻译增益"
+   ],
+   "benchmarks": [
+    "FLORES-101",
+    "MultiBLiMP",
+    "GlobalMMLU",
+    "OPUS MT560"
+   ]
+  }
+ }
 }

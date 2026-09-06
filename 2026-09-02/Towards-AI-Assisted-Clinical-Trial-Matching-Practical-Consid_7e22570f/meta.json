@@ -4,5 +4,33 @@
  "title": "Towards-AI-Assisted-Clinical-Trial-Matching-Practical-Consid",
  "token": "sk-fYugtz9Wo...",
  "created_at": "2026-09-02 06:50:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/38758047-4fa9-4de8-88aa-643cec3f981a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/38758047-4fa9-4de8-88aa-643cec3f981a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 13:23:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "临床试验匹配",
+    "大语言模型",
+    "精准肿瘤学",
+    "患者招募",
+    "临床推荐系统",
+    "可复现基准",
+    "AI辅助决策"
+   ],
+   "field": "临床信息学与医疗AI部署",
+   "innovations": [
+    "从eligibility判断升级为分级临床推荐（fit score+confidence双维度），实现trial-level joint assessment而非criterion-level聚合",
+    "提出NIH-TrialBench可复现基准，含126例synthetic vignette与预定义target trial，支持target-trial recovery评估",
+    "多工作流真实世界部署评估：回顾性多中心288例+前瞻性POTB 27例，验证推荐质量与55%时间节省"
+   ],
+   "benchmarks": [
+    "NIH-TrialBench",
+    "SIGIR 2016 Patient-Trial Matching",
+    "TREC 2021 Clinical Trials",
+    "TREC 2022 Clinical Trials"
+   ]
+  }
+ }
 }

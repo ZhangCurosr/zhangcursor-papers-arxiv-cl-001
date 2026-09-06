@@ -4,5 +4,31 @@
  "title": "VIBE-BENCH-Evaluating-Personalized-Large-Language-Models-Whe",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-09-02 17:35:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/8495abf3-cc75-4034-89ab-b4debf87102f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/8495abf3-cc75-4034-89ab-b4debf87102f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 13:24:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "个性化大语言模型",
+    "偏好推理",
+    "概念错位",
+    "VIBE-BENCH",
+    "跨概念映射",
+    "隐式偏好",
+    "Big Five",
+    "RIASEC"
+   ],
+   "field": "个性化语言模型评估",
+   "innovations": [
+    "提出档案-偏好概念错位（PRCM）概念与三级推理范式分类",
+    "构建首个跨概念隐式偏好推理基准VIBE-BENCH（3,504 persona，12,239对话）",
+    "揭示当前个性化方法依赖浅层语义关联、难以学习跨概念映射的根本瓶颈"
+   ],
+   "benchmarks": [
+    "VIBE-BENCH"
+   ]
+  }
+ }
 }

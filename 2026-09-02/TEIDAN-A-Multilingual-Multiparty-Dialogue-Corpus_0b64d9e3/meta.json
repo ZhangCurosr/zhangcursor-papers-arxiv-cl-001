@@ -4,5 +4,30 @@
  "title": "TEIDAN-A-Multilingual-Multiparty-Dialogue-Corpus",
  "token": "sk-NVka6yfS0...",
  "created_at": "2026-09-02 06:52:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/027de776-b558-447d-9ea2-38883a5a6506.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/027de776-b558-447d-9ea2-38883a5a6506.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 13:21:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multilingual corpus",
+    "multiparty dialogue",
+    "turn-taking",
+    "multimodal corpus",
+    "addressee recognition",
+    "crosslinguistic comparison"
+   ],
+   "field": "多模态对话语料库",
+   "innovations": [
+    "首个多语言多模态三人自发对话语料库级描述",
+    "日语-英语平行设计支持跨语言话轮组织比较"
+   ],
+   "benchmarks": [
+    "addressee recognition",
+    "next-speaker prediction",
+    "voice activity projection"
+   ]
+  }
+ }
 }

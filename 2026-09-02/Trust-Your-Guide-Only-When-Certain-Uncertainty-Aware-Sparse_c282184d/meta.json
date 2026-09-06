@@ -4,5 +4,31 @@
  "title": "Trust-Your-Guide-Only-When-Certain-Uncertainty-Aware-Sparse",
  "token": "sk-b5uWIpmTE...",
  "created_at": "2026-09-02 06:50:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/274e2069-1a8c-4b8e-8cd7-b954f0d2c9b4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/274e2069-1a8c-4b8e-8cd7-b954f0d2c9b4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 13:23:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "推理时对齐",
+    "稀疏干预",
+    "不确定性量化",
+    "弱到强泛化",
+    "Token级决策"
+   ],
+   "field": "大语言模型安全对齐",
+   "innovations": [
+    "Cognitive Arbiter融合置信度与语义显著性的稀疏干预机制",
+    "自适应阈值动态仲裁实现训练无代价的对齐优化"
+   ],
+   "benchmarks": [
+    "SafeRLHF",
+    "BeaverTails",
+    "HarmfulQA",
+    "AlpacaEval",
+    "JustEval"
+   ]
+  }
+ }
 }

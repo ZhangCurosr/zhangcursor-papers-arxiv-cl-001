@@ -4,5 +4,34 @@
  "title": "TWIX-a-Two-Stage-Approach-for-End-To-End-Named-Entity-Recogn",
  "token": "sk-SDuVT3fV1...",
  "created_at": "2026-09-02 17:35:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/a978a6a7-1636-479a-bb60-a851c56d0764.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/a978a6a7-1636-479a-bb60-a851c56d0764.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 13:21:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Named Entity Recognition",
+    "Relation Extraction",
+    "Entity Linking",
+    "Information Extraction",
+    "Biomedical NLP",
+    "Two-Stage Pipeline",
+    "GutBrainIE"
+   ],
+   "field": "生物医学信息抽取",
+   "innovations": [
+    "EFCL两阶段NER架构：先无标签提取候选span再分类/拒绝，通过双重过滤提升precision",
+    "ATLOP双阶段训练策略：先在大规模低质量标注上预训练，再在小规模高质量标注上微调",
+    "检索-重排NEL模块：text embedding retriever + cross encoder reranker的轻量实体链接方案"
+   ],
+   "benchmarks": [
+    "GutBrainIE 2026",
+    "GutBrainIE NER (Subtask 6.1.1)",
+    "GutBrainIE NERD (Subtask 6.1.2)",
+    "GutBrainIE M-RE (Subtask 6.2.1)",
+    "GutBrainIE C-RE (Subtask 6.2.2)"
+   ]
+  }
+ }
 }

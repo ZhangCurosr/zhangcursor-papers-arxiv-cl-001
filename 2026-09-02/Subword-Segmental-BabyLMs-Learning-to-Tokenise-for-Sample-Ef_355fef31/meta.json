@@ -4,5 +4,31 @@
  "title": "Subword-Segmental-BabyLMs-Learning-to-Tokenise-for-Sample-Ef",
  "token": "sk-Hms67LeAf...",
  "created_at": "2026-09-02 17:35:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/e7f92b06-536a-4552-ace2-9b67fcd40a42.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/e7f92b06-536a-4552-ace2-9b67fcd40a42.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 13:20:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "子词分段建模",
+    "可学习分词",
+    "样本效率",
+    "BabyLM",
+    "掩码语言建模"
+   ],
+   "field": "低资源语言模型预训练",
+   "innovations": [
+    "提出 SubSegGPT，首次将 SSLM 适配到 GPT-2 解码器架构",
+    "提出 SubSegDeBERTa，首次将 SSLM 扩展到掩码语言建模场景",
+    "在 BabyLM 挑战赛中验证可学习分词在小数据下的样本效率增益"
+   ],
+   "benchmarks": [
+    "BabyLM 2026 STRICT",
+    "BabyLM 2026 STRICT-SMALL",
+    "BLiMP",
+    "SuperGLUE"
+   ]
+  }
+ }
 }

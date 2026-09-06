@@ -4,5 +4,30 @@
  "title": "TWIX-a-Two-Stage-Approach-for-End-To-End-Named-Entity-Recogn",
  "token": "sk-SDuVT3fV1...",
  "created_at": "2026-09-02 06:52:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/a978a6a7-1636-479a-bb60-a851c56d0764.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/a978a6a7-1636-479a-bb60-a851c56d0764.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 13:21:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Named Entity Recognition",
+    "Named Entity Linking",
+    "Relation Extraction",
+    "Information Extraction",
+    "Biomedical NLP",
+    "Two-stage Pipeline",
+    "GutBrainIE"
+   ],
+   "field": "生物医学信息抽取",
+   "innovations": [
+    "EFCL两阶段NER：先泛型span提取再实体分类，通过两级过滤显著提升精确度",
+    "检索+重排NEL：dual/text-embedding retriever结合cross-encoder reranker实现高效概念链接",
+    "ATLOP双阶段训练：在噪声弱监督数据预训练后在高质标注上微调，提升关系抽取精度"
+   ],
+   "benchmarks": [
+    "GutBrainIE 2026"
+   ]
+  }
+ }
 }

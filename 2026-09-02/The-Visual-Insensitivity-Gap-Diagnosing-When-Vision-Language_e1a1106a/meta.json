@@ -4,5 +4,33 @@
  "title": "The-Visual-Insensitivity-Gap-Diagnosing-When-Vision-Language",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-09-02 06:49:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/a0343760-6200-4c0d-a0c1-cc783daf23df.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/a0343760-6200-4c0d-a0c1-cc783daf23df.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 13:23:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视觉语言模型",
+    "多模态幻觉",
+    "视觉不敏感性",
+    "选择性生成",
+    "输入级干预",
+    "模型可解释性",
+    "校准"
+   ],
+   "field": "多模态大模型诊断与评估",
+   "innovations": [
+    "提出VSI样本级指标量化视觉不敏感性差距，证明其是样本固有属性而非模型缺陷",
+    "揭示编码器-LLM断开机制（own-tower探针0.72-0.79 vs argmax变化率2%-11%，gap>0.65）",
+    "系统刻画VSI诊断适用边界（MMStar推理AUROC达0.87，POPE类事实性评估中softmax仍占优）"
+   ],
+   "benchmarks": [
+    "POPE",
+    "MMVP",
+    "HallusionBench",
+    "MMStar"
+   ]
+  }
+ }
 }

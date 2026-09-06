@@ -4,5 +4,32 @@
  "title": "Investigating-Linear-Probe-Robustness-to-Linguistic-Register",
  "token": "sk-1FwfANuN8...",
  "created_at": "2026-09-02 17:36:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/ae4c404a-f7c4-46f6-b7f6-ca93351bd759.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/ae4c404a-f7c4-46f6-b7f6-ca93351bd759.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 13:18:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "线性探针",
+    "真值方向",
+    "语言语域",
+    "医学 QA",
+    "跨分布鲁棒性",
+    "模型解释性"
+   ],
+   "field": "大语言模型可解释性与事实检测",
+   "innovations": [
+    "提出三轴隔离评估框架（语域/专科/数据集），揭示线性真值方向对语域和专科稳健但对跨语料库迁移脆弱",
+    "构建 4,000 条受控多语域医学 QA 重写基准，支持跨风格探针迁移的系统性评估"
+   ],
+   "benchmarks": [
+    "MedQA",
+    "MedMCQA",
+    "MMLU-medical",
+    "MedRedQA",
+    "S-MedQA"
+   ]
+  }
+ }
 }

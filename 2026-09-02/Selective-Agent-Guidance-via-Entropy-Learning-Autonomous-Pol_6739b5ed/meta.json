@@ -4,5 +4,34 @@
  "title": "Selective-Agent-Guidance-via-Entropy-Learning-Autonomous-Pol",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-09-02 06:48:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/ce34bd88-bc07-48b1-a9d3-5545d373c620.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/ce34bd88-bc07-48b1-a9d3-5545d373c620.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 13:20:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "VLM teacher",
+    "selective guidance",
+    "entropy-gated",
+    "advantage-weighted BC",
+    "sparse-reward RL",
+    "imitation learning",
+    "policy distillation"
+   ],
+   "field": "视觉-语言辅助强化学习",
+   "innovations": [
+    "熵门控选择性 VLM 查询 + 分区 PPO/BC 损失",
+    "优势加权行为克隆 AWBC 过滤噪声教师建议",
+    "解耦教师质量与引导效用、揭示直接策略性能≠教师有用性"
+   ],
+   "benchmarks": [
+    "FrozenLake 8x8",
+    "MiniGrid Fetch/GoToDoor/LavaGap",
+    "EZPoints",
+    "CardMaze",
+    "ALFWorld"
+   ]
+  }
+ }
 }

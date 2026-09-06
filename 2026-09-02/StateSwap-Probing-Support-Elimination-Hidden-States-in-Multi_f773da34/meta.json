@@ -4,5 +4,30 @@
  "title": "StateSwap-Probing-Support-Elimination-Hidden-States-in-Multi",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-09-02 06:50:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/d656ac95-9bdd-419a-9ffb-85bcf530ce52.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/d656ac95-9bdd-419a-9ffb-85bcf530ce52.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 13:20:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "mechanistic interpretability",
+    "activation intervention",
+    "prompt framing",
+    "multiple-choice reasoning",
+    "state substitution",
+    "contrastive activation steering"
+   ],
+   "field": "大语言模型可解释性与推理时干预",
+   "innovations": [
+    "提出未训练[STATE]token作为推理时残差流读写接口",
+    "通过交换SUP/ELIM配对提示的中间层激活系统性改变模型预测",
+    "揭示双提示均值差方向比CAA方向层间波动更小"
+   ],
+   "benchmarks": [
+    "MMLU-17",
+    "MedQA-CH"
+   ]
+  }
+ }
 }

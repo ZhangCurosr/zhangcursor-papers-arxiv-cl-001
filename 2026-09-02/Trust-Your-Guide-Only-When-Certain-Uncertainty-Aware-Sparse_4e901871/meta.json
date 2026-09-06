@@ -4,5 +4,32 @@
  "title": "Trust-Your-Guide-Only-When-Certain-Uncertainty-Aware-Sparse",
  "token": "sk-b5uWIpmTE...",
  "created_at": "2026-09-02 17:36:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/274e2069-1a8c-4b8e-8cd7-b954f0d2c9b4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/274e2069-1a8c-4b8e-8cd7-b954f0d2c9b4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 13:23:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "推理时对齐",
+    "稀疏干预",
+    "不确定性量化",
+    "弱到强泛化",
+    "认知仲裁器"
+   ],
+   "field": "大语言模型安全对齐",
+   "innovations": [
+    "提出TUSA稀疏对齐框架，解决弱监督器高熵状态与密集干预的结构性不匹配",
+    "设计联合必要性估计机制，融合认知置信度与语义显著性双信号",
+    "引入自适应阈值动态调控，实现安全-效率的自适应权衡"
+   ],
+   "benchmarks": [
+    "PKU-SafeRLHF",
+    "BeaverTails",
+    "HarmfulQA",
+    "AlpacaEval",
+    "JustEval"
+   ]
+  }
+ }
 }

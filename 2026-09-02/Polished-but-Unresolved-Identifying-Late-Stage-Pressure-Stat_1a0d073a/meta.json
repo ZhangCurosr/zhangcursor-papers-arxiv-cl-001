@@ -4,5 +4,32 @@
  "title": "Polished-but-Unresolved-Identifying-Late-Stage-Pressure-Stat",
  "token": "sk-Tq65tdoLK...",
  "created_at": "2026-09-02 06:55:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/4daf3acd-a90e-4f6a-8b3a-908407c18122.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/4daf3acd-a90e-4f6a-8b3a-908407c18122.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 13:18:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "long-horizon agents",
+    "tool-use",
+    "activation engineering",
+    "late-stage pressure",
+    "probe",
+    "PSPR",
+    "constraint satisfaction"
+   ],
+   "field": "Agent可靠性与可解释性",
+   "innovations": [
+    "识别并量化长周期Agent晚期压力状态，证明其在隐藏空间中线性可分",
+    "提出PSPR轻量插件，通过探针监控+分级干预缓解晚期过早闭合",
+    "揭示约束清晰度与行动映射是缓解晚期压力的关键因素"
+   ],
+   "benchmarks": [
+    "DeepPlanning-Travel",
+    "DeepPlanning-Shop",
+    "TravelPlanner"
+   ]
+  }
+ }
 }

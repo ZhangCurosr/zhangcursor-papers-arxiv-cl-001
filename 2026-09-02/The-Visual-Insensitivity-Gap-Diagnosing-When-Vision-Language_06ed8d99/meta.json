@@ -4,5 +4,33 @@
  "title": "The-Visual-Insensitivity-Gap-Diagnosing-When-Vision-Language",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-09-02 17:35:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/88e80b54-3366-4c97-a147-6fe48e541255.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/88e80b54-3366-4c97-a147-6fe48e541255.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 13:23:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision-Language Models",
+    "Hallucination",
+    "Visual Insensitivity",
+    "Selective Generation",
+    "Encoder-LLM Disconnect",
+    "Interpretability"
+   ],
+   "field": "多模态大模型可解释性与评估",
+   "innovations": [
+    "提出VSI指标量化样本级视觉不敏感性，揭示40%-97%样本上模型忽略视觉证据",
+    "证明视觉不敏感性是sample-intrinsic属性（跨模型Spearman ρ=+0.40）而非model特性",
+    "揭示encoder-LLM disconnect机制：线性probe准确率0.72-0.79 vs argmax变化率2%-11%",
+    "在多选题推理（MMStar math/science）上达到AUROC 0.85-0.87的诊断能力"
+   ],
+   "benchmarks": [
+    "POPE",
+    "MMVP",
+    "HallusionBench",
+    "MMStar"
+   ]
+  }
+ }
 }

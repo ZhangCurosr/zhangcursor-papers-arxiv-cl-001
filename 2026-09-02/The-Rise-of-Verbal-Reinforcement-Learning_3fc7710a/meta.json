@@ -4,5 +4,34 @@
  "title": "The-Rise-of-Verbal-Reinforcement-Learning",
  "token": "sk-DXHHyylpH...",
  "created_at": "2026-09-02 17:35:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/ca009937-3f06-421b-b01e-5e77629a2599.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/ca009937-3f06-421b-b01e-5e77629a2599.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 13:22:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Verbal Reinforcement Learning",
+    "语言反馈",
+    "智能体",
+    "RLHF",
+    "偏好优化",
+    "过程监督",
+    "大语言模型"
+   ],
+   "field": "语言强化学习与智能体对齐",
+   "innovations": [
+    "提出首个VRL统一框架，以反馈生效时序为轴将领域分为Grounding/Deliberative/Learning三大支柱",
+    "按语言压缩程度系统组织Pillar 3方法谱系（从完整批评保留到标量偏好对）",
+    "提炼跨支柱四项共性挑战并给出PAC/POMDP/率失真理论的形式化路径"
+   ],
+   "benchmarks": [
+    "HumanEval",
+    "SWE-bench",
+    "BabyAI",
+    "CriticBench",
+    "MemBench"
+   ]
+  }
+ }
 }

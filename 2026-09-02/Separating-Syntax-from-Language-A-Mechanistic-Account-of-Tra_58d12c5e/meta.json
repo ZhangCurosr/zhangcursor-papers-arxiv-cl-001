@@ -4,5 +4,31 @@
  "title": "Separating-Syntax-from-Language-A-Mechanistic-Account-of-Tra",
  "token": "sk-JdJPQj6CY...",
  "created_at": "2026-09-02 17:35:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/98b53e2a-ad20-473f-8d93-8808df242c66.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/98b53e2a-ad20-473f-8d93-8808df242c66.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 13:20:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多语言大模型",
+    "翻译机制",
+    "激活修补",
+    "句法编码",
+    "可解释性",
+    "S-L-C分解"
+   ],
+   "field": "多语言语言模型可解释性",
+   "innovations": [
+    "提出翻译的三向分解S→L→C，将句法结构确立为独立可追踪阶段",
+    "定位选择性敏感于词序变换而对外语身份不变的单个注意力头"
+   ],
+   "benchmarks": [
+    "NP",
+    "SVO",
+    "MV",
+    "FLORES-200"
+   ]
+  }
+ }
 }
