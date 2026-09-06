@@ -4,5 +4,10 @@
  "title": "Closing-Cost-Quality-Gap-in-Document-VLMs-Difficulty-Aware-D",
  "token": "sk-ZHrWl9Czg...",
  "created_at": "2026-09-02 06:48:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/97a6111f-538d-416e-b38f-2d5435f2f87f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/97a6111f-538d-416e-b38f-2d5435f2f87f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 05:18:06",
+  "chunks": 1
+ }
 }

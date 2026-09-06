@@ -4,5 +4,33 @@
  "title": "OUTLETS-Output-Length-Prediction-from-Speculative-Decoding-B",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-09-02 17:35:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/33366cf0-c283-4563-b68a-9a0930a2c342.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/33366cf0-c283-4563-b68a-9a0930a2c342.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 05:22:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM serving",
+    "output length prediction",
+    "speculative decoding",
+    "disaggregated serving",
+    "scheduling",
+    "EAGLE"
+   ],
+   "field": "大语言模型推理系统优化",
+   "innovations": [
+    "将推测解码草稿骨干网络复用于轨迹感知的输出长度预测",
+    "双头联合训练在保持推测接受率的同时实现更低的长度预测 MAE",
+    "在去聚合 vLLM 系统中验证预测信号可使短请求 P99 延迟降低 34.8%"
+   ],
+   "benchmarks": [
+    "ShareGPT",
+    "Alpaca",
+    "LMSYS-Chat-1M",
+    "GSM8K",
+    "HumanEval"
+   ]
+  }
+ }
 }

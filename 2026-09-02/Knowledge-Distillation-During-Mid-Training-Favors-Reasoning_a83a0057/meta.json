@@ -4,5 +4,34 @@
  "title": "Knowledge-Distillation-During-Mid-Training-Favors-Reasoning",
  "token": "sk-twhrLv2pG...",
  "created_at": "2026-09-02 06:50:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/16676faf-f0de-4a57-aea6-bd7793873bfa.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/16676faf-f0de-4a57-aea6-bd7793873bfa.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 05:19:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Knowledge Distillation",
+    "Mid-training",
+    "Reasoning",
+    "Factual Recall",
+    "Teacher Entropy",
+    "Token Routing"
+   ],
+   "field": "大语言模型训练优化",
+   "innovations": [
+    "发现 mid-training 阶段知识蒸馏的推理-回忆权衡现象",
+    "提出基于教师预测熵的路由机制 SwITCH DISTILLATION",
+    "揭示教师置信度不对称性与学生学习状态的交互机制"
+   ],
+   "benchmarks": [
+    "OLMES",
+    "GSM8K",
+    "BBH",
+    "MMLU",
+    "TriviaQA",
+    "Natural Questions"
+   ]
+  }
+ }
 }

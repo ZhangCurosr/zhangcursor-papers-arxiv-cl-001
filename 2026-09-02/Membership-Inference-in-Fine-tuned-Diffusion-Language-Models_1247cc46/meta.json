@@ -4,5 +4,33 @@
  "title": "Membership-Inference-in-Fine-tuned-Diffusion-Language-Models",
  "token": "sk-0a1o6nr9t...",
  "created_at": "2026-09-02 06:49:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/b53d2f5f-4f5c-401b-a868-29088614257d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/b53d2f5f-4f5c-401b-a868-29088614257d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 05:21:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Membership Inference",
+    "Diffusion Language Models",
+    "Privacy Attacks",
+    "Memorization Asymmetry",
+    "Token-level Analysis"
+   ],
+   "field": "大语言模型隐私安全",
+   "innovations": [
+    "首次理论揭示 DLM 中掩码率与 Token 记忆增益的反比关系",
+    "提出 Q-SKEW 分布偏斜度指标，在 DFT 和 IFT 设定下全面超越基线",
+    "将偏斜度信号应用于 PII 提取攻击，揭示 DLM 的扩展隐私风险"
+   ],
+   "benchmarks": [
+    "ArXiv (DFT)",
+    "WikiText (DFT)",
+    "XSUM (DFT)",
+    "MedQA (IFT)",
+    "Alpaca (IFT)",
+    "Tulu-3 (IFT)"
+   ]
+  }
+ }
 }

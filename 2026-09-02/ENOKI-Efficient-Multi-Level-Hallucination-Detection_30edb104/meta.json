@@ -4,5 +4,34 @@
  "title": "ENOKI-Efficient-Multi-Level-Hallucination-Detection",
  "token": "sk-buGER5YIq...",
  "created_at": "2026-09-02 17:36:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/18f71c40-252d-4a93-bccb-e2051c35fee0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/18f71c40-252d-4a93-bccb-e2051c35fee0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 05:18:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "hallucination detection",
+    "open information extraction",
+    "span localization",
+    "claim verification",
+    "RAG faithfulness",
+    "multi-granularity evaluation"
+   ],
+   "field": "大语言模型事实性与幻觉检测",
+   "innovations": [
+    "文本锚定OpenIE事实作为claim验证与span定位的共享表示，无需额外对齐",
+    "增量事实构建+delta span投影实现精确幻觉定位",
+    "Hungarian Matching损失解决增量IGL行顺序敏感性"
+   ],
+   "benchmarks": [
+    "HalluEntity",
+    "MuSHROOM",
+    "RAGTruth",
+    "PsiloQA",
+    "FactCheck-Bench",
+    "ANAH"
+   ]
+  }
+ }
 }

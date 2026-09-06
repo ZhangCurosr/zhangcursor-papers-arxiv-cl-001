@@ -4,5 +4,31 @@
  "title": "Overfitting-Mitigation-via-Singular-Value-Decomposition-in-M",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-09-02 17:35:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/ef55e971-48ae-4e0b-84ea-faecc687d27b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/ef55e971-48ae-4e0b-84ea-faecc687d27b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 05:25:59",
+  "chunks": 7,
+  "meta": {
+   "keywords": [
+    "Minimum Bayes Risk Decoding",
+    "Metric Overfitting",
+    "Singular Value Decomposition",
+    "Low-rank Approximation",
+    "Neural Machine Translation",
+    "Evaluation Metrics"
+   ],
+   "field": "机器翻译解码与评估",
+   "innovations": [
+    "首次将SVD截断低秩近似用于MBR成对效用矩阵去噪以缓解指标过拟合",
+    "提出保守型正则化解码范式并通过句级Tie率量化干预必要性",
+    "揭示神经指标与表面指标对低秩去噪效能的架构依赖性"
+   ],
+   "benchmarks": [
+    "WMT22 En→De",
+    "WMT22 De→En",
+    "XSum"
+   ]
+  }
+ }
 }

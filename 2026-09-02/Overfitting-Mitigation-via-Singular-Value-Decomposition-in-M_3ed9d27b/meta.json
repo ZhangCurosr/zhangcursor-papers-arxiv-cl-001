@@ -4,5 +4,10 @@
  "title": "Overfitting-Mitigation-via-Singular-Value-Decomposition-in-M",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-09-02 06:54:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/ef55e971-48ae-4e0b-84ea-faecc687d27b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/ef55e971-48ae-4e0b-84ea-faecc687d27b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 05:25:49",
+  "chunks": 7
+ }
 }

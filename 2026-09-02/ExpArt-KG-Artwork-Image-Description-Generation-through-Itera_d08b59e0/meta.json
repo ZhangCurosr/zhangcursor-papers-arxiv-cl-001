@@ -4,5 +4,34 @@
  "title": "ExpArt-KG-Artwork-Image-Description-Generation-through-Itera",
  "token": "sk-tFmPcED8R...",
  "created_at": "2026-09-02 06:50:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/b40a7248-cc1c-40fb-8358-e6afe9f222bd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/b40a7248-cc1c-40fb-8358-e6afe9f222bd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 05:18:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Retrieval-Augmented Generation",
+    "Knowledge Graph",
+    "Large Vision-Language Models",
+    "Iterative Refinement",
+    "Artwork Description"
+   ],
+   "field": "多模态知识增强生成",
+   "innovations": [
+    "迭代RAG框架结合LLM验证动态控制知识图谱检索",
+    "ExpArt-KG艺术领域知识图谱构建与实体去歧义策略",
+    "TF-IDF三元组排序（QID优于PID）与Entity F1/Cooccurrence细节评估指标"
+   ],
+   "benchmarks": [
+    "ExpArt",
+    "BLEU",
+    "ROUGE",
+    "BERTScore",
+    "Entity Coverage",
+    "Entity F1",
+    "Entity Cooccurrence"
+   ]
+  }
+ }
 }

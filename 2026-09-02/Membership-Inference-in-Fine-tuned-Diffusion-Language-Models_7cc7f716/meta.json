@@ -4,5 +4,32 @@
  "title": "Membership-Inference-in-Fine-tuned-Diffusion-Language-Models",
  "token": "sk-0a1o6nr9t...",
  "created_at": "2026-09-02 17:36:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/b53d2f5f-4f5c-401b-a868-29088614257d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/b53d2f5f-4f5c-401b-a868-29088614257d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 05:22:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Membership Inference",
+    "Diffusion Language Models",
+    "Privacy Attacks",
+    "Token Memorization",
+    "PII Extraction"
+   ],
+   "field": "生成模型隐私安全",
+   "innovations": [
+    "首次理论化扩散训练中令牌级记忆不对称性（逆mask率缩放）",
+    "提出Q-SKEW分位数加权偏度指标，统一评估DFT与IFT场景"
+   ],
+   "benchmarks": [
+    "ArXiv",
+    "WikiText",
+    "XSUM",
+    "MedQA",
+    "Alpaca",
+    "Tulu-3"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "MIDR-Enrichment-Augmented-Indexing-for-Multimodal-Document-R",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-09-02 17:36:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/af8251ab-5dc0-4790-9788-0388e48500b7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/af8251ab-5dc0-4790-9788-0388e48500b7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 05:20:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态文档检索",
+    "索引增强",
+    "晚期交互",
+    "ViDoRe V3",
+    "BM25F",
+    "多模态大语言模型"
+   ],
+   "field": "多模态信息检索",
+   "innovations": [
+    "将多模态推理从查询时移至索引时的 enrich-augmented indexing 范式",
+    "extract-verify-refine 三阶段循环确保富信息字段的验证与可追溯性",
+    "细粒度多字段索引模式使不同字段服务不同检索范式（lexical bridge vs semantic matching）"
+   ],
+   "benchmarks": [
+    "ViDoRe V3"
+   ]
+  }
+ }
 }

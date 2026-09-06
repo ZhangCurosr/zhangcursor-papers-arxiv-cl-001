@@ -4,5 +4,34 @@
  "title": "ExpArt-KG-Artwork-Image-Description-Generation-through-Itera",
  "token": "sk-tFmPcED8R...",
  "created_at": "2026-09-02 17:36:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/7d929e72-cbfb-4ab6-b45d-9f50a3d9e1ac.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/7d929e72-cbfb-4ab6-b45d-9f50a3d9e1ac.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 05:19:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "迭代RAG",
+    "知识图谱",
+    "艺术描述生成",
+    "LLM裁判",
+    "Entity评估"
+   ],
+   "field": "视觉语言模型与知识增强",
+   "innovations": [
+    "提出基于LLM裁判的迭代RAG框架动态控制知识图谱搜索",
+    "构建ExpArt-KG艺术领域知识图谱实现图像-实体无歧义对应",
+    "设计TF-IDF三元组排序与实体级评估指标体系"
+   ],
+   "benchmarks": [
+    "ExpArt",
+    "BLEU",
+    "ROUGE",
+    "BERTScore",
+    "Entity Coverage",
+    "Entity F1",
+    "Entity Cooccurrence"
+   ]
+  }
+ }
 }

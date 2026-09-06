@@ -4,5 +4,10 @@
  "title": "LLMPEDIA-Browsing-Verifying-and-Comparing-the-Parametric-Enc",
  "token": "sk-RdV3tP4AZ...",
  "created_at": "2026-09-02 17:36:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/5fa6948b-8c08-4fe2-85e4-b940dddbf524.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/5fa6948b-8c08-4fe2-85e4-b940dddbf524.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 05:20:25",
+  "chunks": 1
+ }
 }

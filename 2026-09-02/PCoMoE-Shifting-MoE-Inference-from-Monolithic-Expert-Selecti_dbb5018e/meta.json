@@ -4,5 +4,32 @@
  "title": "PCoMoE-Shifting-MoE-Inference-from-Monolithic-Expert-Selecti",
  "token": "sk-qf4fjeNDd...",
  "created_at": "2026-09-02 06:52:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/cbc211b1-a278-4754-a314-e591138c9b1e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/cbc211b1-a278-4754-a314-e591138c9b1e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 05:23:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "MoE",
+    "LLM推理优化",
+    "路径组合",
+    "细粒度稀疏化",
+    "硬件友好执行"
+   ],
+   "field": "MoE大语言模型推理加速",
+   "innovations": [
+    "将MoE推理从原子专家选择范式和细粒度路径组合范式迁移",
+    "兼容性感知门控与迭代结构剪枝实现零参数删除的路由稀疏化",
+    "源分组计算复用执行引擎将路径级柔性转化为确定性吞吐增益"
+   ],
+   "benchmarks": [
+    "BoolQ",
+    "ARC-Easy",
+    "ARC-Challenge",
+    "HellaSwag",
+    "WinoGrande"
+   ]
+  }
+ }
 }

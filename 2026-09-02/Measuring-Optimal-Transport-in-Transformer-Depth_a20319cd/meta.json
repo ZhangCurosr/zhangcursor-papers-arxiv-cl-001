@@ -4,5 +4,30 @@
  "title": "Measuring-Optimal-Transport-in-Transformer-Depth",
  "token": "sk-B2hxqutYc...",
  "created_at": "2026-09-02 06:53:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/1744e6b4-d457-427a-8ba5-6b8a91f0060c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/1744e6b4-d457-427a-8ba5-6b8a91f0060c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 05:21:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "optimal transport",
+    "Transformer interpretability",
+    "Wasserstein distance",
+    "layer dynamics"
+   ],
+   "field": "大模型可解释性与动力学",
+   "innovations": [
+    "首次经验测试训练Transformer层间最优传输效率",
+    "揭示末端学习而非全局最优传输化的训练动态",
+    "提出可校准的OT测量协议与无校准sliced下限"
+   ],
+   "benchmarks": [
+    "Pythia-160m",
+    "Pythia-410m",
+    "WikiText-103",
+    "Pile"
+   ]
+  }
+ }
 }

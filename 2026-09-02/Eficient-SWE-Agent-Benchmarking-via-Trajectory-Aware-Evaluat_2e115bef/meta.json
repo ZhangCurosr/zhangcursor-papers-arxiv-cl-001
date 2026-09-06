@@ -4,5 +4,32 @@
  "title": "Eficient-SWE-Agent-Benchmarking-via-Trajectory-Aware-Evaluat",
  "token": "sk-aQHhxC28I...",
  "created_at": "2026-09-02 17:35:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/65f14617-f328-46d0-90ff-c9b5ec657707.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/65f14617-f328-46d0-90ff-c9b5ec657707.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 05:18:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "SWE Agent",
+    "Item Response Theory",
+    "Efficient Benchmarking",
+    "Trajectory-Aware Evaluation",
+    "LUPI",
+    "Agent Evaluation"
+   ],
+   "field": "软件工程师智能体评估",
+   "innovations": [
+    "将智能体执行轨迹作为特权信息引入 IRT，提出 PTA-IRT 框架实现过程与结果融合的低预算评测",
+    "轨迹感知的 4PL IRT 残差建模与 Fisher 信息加权分层子集选择",
+    "基于 LUPI 教师-学生蒸馏的可部署能力估计器，训练利用过程信号而测试仅依赖校准结果"
+   ],
+   "benchmarks": [
+    "SWE-bench Lite",
+    "SWE-bench Verified",
+    "SWE-bench Full",
+    "SWE-bench Pro"
+   ]
+  }
+ }
 }

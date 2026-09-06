@@ -4,5 +4,31 @@
  "title": "Lagged-Coupling-Internal-Representations-Become-Readable-Bef",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-09-02 17:35:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/d81cab48-fbfd-452e-8926-64b0d1f8f8a2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/d81cab48-fbfd-452e-8926-64b0d1f8f8a2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 05:20:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "mechanistic interpretability",
+    "probing",
+    "causal intervention",
+    "training dynamics",
+    "scaling",
+    "preregistration",
+    "activation steering"
+   ],
+   "field": "机制可解释性与发展性缩放",
+   "innovations": [
+    "三轨道解离揭示内部可读性系统性早于因果有效性",
+    "冗余度增长57倍而因果写入≤0.11%量化瓶颈",
+    "预注册审计模板捕获公共检查点静默损坏事件"
+   ],
+   "benchmarks": [
+    "Pythia-160M-12B eight checkpoints",
+    "OLMo-2 two-size replication"
+   ]
+  }
+ }
 }

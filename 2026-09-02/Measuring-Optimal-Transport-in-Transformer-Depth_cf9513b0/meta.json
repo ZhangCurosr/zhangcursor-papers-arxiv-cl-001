@@ -4,5 +4,30 @@
  "title": "Measuring-Optimal-Transport-in-Transformer-Depth",
  "token": "sk-B2hxqutYc...",
  "created_at": "2026-09-02 17:36:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/1744e6b4-d457-427a-8ba5-6b8a91f0060c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/1744e6b4-d457-427a-8ba5-6b8a91f0060c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 05:21:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "optimal transport",
+    "transformer interpretability",
+    "layer dynamics",
+    "Wasserstein distance",
+    "Brenier map",
+    "model efficiency"
+   ],
+   "field": "Transformer 可解释性与动力学分析",
+   "innovations": [
+    "首次在实证层面检验训练 Transformer 层间移动是否遵循最优传输",
+    "提出包含采样修正、校准和 sliced 下界的 OT 测量协议",
+    "发现 OT 对齐随训练在出口层涌现而入口层退化"
+   ],
+   "benchmarks": [
+    "WikiText-103",
+    "Pile"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "Explore-Before-Committing-Hypothesis-Guided-Search-for-Deep",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-09-02 17:35:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/f46224ad-33ee-414d-a52a-d447891792f8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/f46224ad-33ee-414d-a52a-d447891792f8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 05:19:24",
+  "chunks": 1
+ }
 }

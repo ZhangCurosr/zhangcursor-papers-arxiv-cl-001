@@ -4,5 +4,31 @@
  "title": "Inspicio-Open-Vocabulary-LLM-Based-Sense-Retrieval-for-Histo",
  "token": "sk-I70XXkbCl...",
  "created_at": "2026-09-02 17:35:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/ad5aed36-354d-4502-b73d-2b990d7bafe8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/ad5aed36-354d-4502-b73d-2b990d7bafe8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 05:19:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "开放词汇词义消歧",
+    "历史语言",
+    "LLM检索",
+    "WordNet",
+    "混合检索",
+    "MMR重排"
+   ],
+   "field": "历史语言计算语义学与词义消歧",
+   "innovations": [
+    "零样本开放词汇检索将历史语言token直接链接到OEWN",
+    "翻译驱动的定义与lemma联合生成支持密集-稀疏混合检索",
+    "定义排行衰减与MMR重排提升Top-K多样性与可解释性"
+   ],
+   "benchmarks": [
+    "Perception-Verb 150-token bilingual set",
+    "PREMOVE",
+    "Diachronic Italian MIDIA sample"
+   ]
+  }
+ }
 }

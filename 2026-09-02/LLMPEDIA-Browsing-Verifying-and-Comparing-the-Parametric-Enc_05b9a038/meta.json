@@ -4,5 +4,33 @@
  "title": "LLMPEDIA-Browsing-Verifying-and-Comparing-the-Parametric-Enc",
  "token": "sk-RdV3tP4AZ...",
  "created_at": "2026-09-02 06:53:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/5fa6948b-8c08-4fe2-85e4-b940dddbf524.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/5fa6948b-8c08-4fe2-85e4-b940dddbf524.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 05:20:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM parametric knowledge",
+    "factuality evaluation",
+    "recursive materialization",
+    "availability bias",
+    "long-form factuality",
+    "encyclopedia generation"
+   ],
+   "field": "大语言模型事实性与知识评测",
+   "innovations": [
+    "首个百万级纯参数百科及其交互审计平台，揭示模型长尾知识以不可验证（沉默）为主要失败模式",
+    "跨模型与跨人格框架的并行对比视图，量化编辑人格对强调内容的影响而不改变事实精度",
+    "以BFS深度为代理的知识可信度梯度，展示真值率随跳数单调下降、不可验率上升的系统性现象"
+   ],
+   "benchmarks": [
+    "MMLU",
+    "TruthfulQA",
+    "FActScore",
+    "GPTKB",
+    "VeriScore"
+   ]
+  }
+ }
 }

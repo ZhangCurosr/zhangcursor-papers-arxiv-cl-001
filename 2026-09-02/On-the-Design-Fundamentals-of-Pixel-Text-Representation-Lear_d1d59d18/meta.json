@@ -4,5 +4,32 @@
  "title": "On-the-Design-Fundamentals-of-Pixel-Text-Representation-Lear",
  "token": "sk-mtKOSZtKc...",
  "created_at": "2026-09-02 06:53:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/40fe04db-0efc-4d1b-b63a-173228bf0518.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/40fe04db-0efc-4d1b-b63a-173228bf0518.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 05:23:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "pixel text representation",
+    "vision-language learning",
+    "contrastive learning",
+    "multilingual visual text",
+    "optical context compression",
+    "document understanding"
+   ],
+   "field": "视觉-语言表示学习",
+   "innovations": [
+    "通过系统性消融揭示像素文本表示学习的四个设计原则（空间代理、多模态grounding、布局增强、多语言课程）",
+    "提出PIXEL LINGUIST II统一框架，在280M样本下超越依赖数十亿数据的基线",
+    "验证80%视觉token压缩下的鲁棒语义表征，为MLLM光学上下文压缩提供可行方案"
+   ],
+   "benchmarks": [
+    "Visual STS",
+    "ViDoRe",
+    "MIEB-lite",
+    "Multilingual Visual STS"
+   ]
+  }
+ }
 }

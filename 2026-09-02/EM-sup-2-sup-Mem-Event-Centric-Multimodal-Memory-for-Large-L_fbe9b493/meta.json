@@ -4,5 +4,31 @@
  "title": "EM-sup-2-sup-Mem-Event-Centric-Multimodal-Memory-for-Large-L",
  "token": "sk-U9tZkJPsQ...",
  "created_at": "2026-09-02 06:51:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/c2a97d8e-4914-49af-b588-a74e96d35a7a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/c2a97d8e-4914-49af-b588-a74e96d35a7a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 05:17:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "long-video QA",
+    "multimodal memory",
+    "event-centric",
+    "RAG",
+    "egocentric video",
+    "aligned retrieval"
+   ],
+   "field": "长视频多模态理解与记忆",
+   "innovations": [
+    "align-then-retrieve 范式：在记忆构建阶段统一多模态证据而非推理时融合",
+    "事件锚点作为异构证据共享索引，结构化字段作为跨模态问答接口",
+    "双重事件关联图（情节图+语义图）支持跨事件关联与长期规律推理"
+   ],
+   "benchmarks": [
+    "EgoLifeQA",
+    "Ego-R1 Bench",
+    "Video-MME (L)"
+   ]
+  }
+ }
 }

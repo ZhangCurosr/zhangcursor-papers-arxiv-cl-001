@@ -4,5 +4,30 @@
  "title": "MIDR-Enrichment-Augmented-Indexing-for-Multimodal-Document-R",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-09-02 06:55:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/1a1f3b3a-f065-469a-81b8-dde4a04fa121.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/1a1f3b3a-f065-469a-81b8-dde4a04fa121.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 05:21:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multimodal retrieval",
+    "document indexing",
+    "enrichment-augmented indexing",
+    "visual late interaction",
+    "BM25F",
+    "ViDoRe V3",
+    "RAG"
+   ],
+   "field": "多模态文档检索",
+   "innovations": [
+    "将多模态推理移至索引构建时，提出 enrichment-augmented indexing 范式",
+    "extract-verify-refine 三阶段富化循环确保索引审计质量",
+    "揭示索引时文本富化与视觉 late interaction 的互补性"
+   ],
+   "benchmarks": [
+    "ViDoRe V3"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Closing-Cost-Quality-Gap-in-Document-VLMs-Difficulty-Aware-D",
  "token": "sk-ZHrWl9Czg...",
  "created_at": "2026-09-02 17:35:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/97a6111f-538d-416e-b38f-2d5435f2f87f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/97a6111f-538d-416e-b38f-2d5435f2f87f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 05:18:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Document VLM",
+    "MoE",
+    "Data Curation",
+    "Cost Analysis",
+    "Information Extraction",
+    "Production Deployment"
+   ],
+   "field": "文档视觉语言模型部署经济学",
+   "innovations": [
+    "Difficulty-Aware Data Curation (DADC) 五步文档数据筛选管道",
+    "Quality-Adjusted Cost Analysis 将字段精度映射为部署经济成本的框架"
+   ],
+   "benchmarks": [
+    "Internal 12-benchmark suite (SP/MP/FT)",
+    "MWS Vision Benchmark",
+    "OCRBench/OCRBench v2",
+    "DocVQA",
+    "InfoVQA"
+   ]
+  }
+ }
 }
