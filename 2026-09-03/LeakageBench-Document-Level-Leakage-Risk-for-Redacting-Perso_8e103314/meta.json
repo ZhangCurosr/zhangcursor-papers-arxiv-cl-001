@@ -4,5 +4,34 @@
  "title": "LeakageBench-Document-Level-Leakage-Risk-for-Redacting-Perso",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-09-03 06:51:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/b26cb3b5-1145-4442-94a1-b3e0efbdd6fe.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/b26cb3b5-1145-4442-94a1-b3e0efbdd6fe.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 21:02:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "PII 隐藏",
+    "文档图像理解",
+    "LeakageBench",
+    "文档级泄露",
+    "OCR-free VLM",
+    "隐私保护"
+   ],
+   "field": "文档理解与隐私安全",
+   "innovations": [
+    "提出页面级 DocLeak 指标，以任一关键标识符未匹配触发页面级安全判定",
+    "构建 GDpR/CCPA 对齐的 Direct/Linkage/Contextual 三组 schema 与统一图像空间预测接口",
+    "建立 OCR-miss / detector-miss / box-alignment / interface-failure 四维误差归因框架，揭示最强系统仍无法实现页面安全释放的根因"
+   ],
+   "benchmarks": [
+    "LeakageBench",
+    "OCR-IDL",
+    "VRDU Ad-Buy Forms",
+    "PRvL",
+    "ProPILE",
+    "RedactBuster"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "HyGRAIL-Cost-Aware-and-Evidence-Grounded-Scientific-Hypothes",
  "token": "sk-I70XXkbCl...",
  "created_at": "2026-09-03 17:31:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/937046f7-e6fd-4dad-a21d-8842e4ff02eb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/937046f7-e6fd-4dad-a21d-8842e4ff02eb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 21:00:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "知识图谱",
+    "假设发现",
+    "图神经网络",
+    "大语言模型",
+    "检索增强生成",
+    "科学发现"
+   ],
+   "field": "知识图谱与科学计算",
+   "innovations": [
+    "提出GNN分流+LLM复核的混合框架，实现成本感知的假设验证",
+    "设计假设引导的图证据检索与模板/LLM自然化方法",
+    "验证集校准的模糊区间阈值选择机制平衡精度与效率"
+   ],
+   "benchmarks": [
+    "MatKG"
+   ]
+  }
+ }
 }

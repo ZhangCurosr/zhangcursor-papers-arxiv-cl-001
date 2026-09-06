@@ -4,5 +4,41 @@
  "title": "How-Output-Format-Confounds-Data-Quality-and-Capability-in-I",
  "token": "sk-iG65PZaJv...",
  "created_at": "2026-09-03 06:51:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/ada45d5b-bd32-4d20-b385-f52bb113de42.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/ada45d5b-bd32-4d20-b385-f52bb113de42.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 21:00:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "instruction tuning",
+    "data quality",
+    "output format",
+    "gradient signature",
+    "spectral metrics",
+    "capability lock-in",
+    "interface confound"
+   ],
+   "field": "指令微调与数据质量评估",
+   "innovations": [
+    "提出接口条件梯度签名生成模型并证明谱统计量对接口旋转不变",
+    "发现接口残差以1.00命中率携带目标特定语义结构（跨三架构复现）",
+    "揭示单点评估预算可翻转GSM8K微调效应符号的能力锁入现象"
+   ],
+   "benchmarks": [
+    "ARC-Challenge",
+    "GSM8K",
+    "RTE",
+    "QNLI",
+    "COPA",
+    "PIQA",
+    "HellaSwag",
+    "Winogrande",
+    "BoolQ",
+    "AG News",
+    "SST-2",
+    "Yelp"
+   ]
+  }
+ }
 }

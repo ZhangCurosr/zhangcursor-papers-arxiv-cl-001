@@ -4,5 +4,30 @@
  "title": "IDEEA-training-free-Input-Dependent-stEEring-via-Activation",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-09-03 06:54:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/aa78c1d5-419a-4da2-9543-a86d32df29fd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/aa78c1d5-419a-4da2-9543-a86d32df29fd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 21:01:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "激活引导",
+    "无需训练对齐",
+    "输入依赖选择",
+    "激活空间聚类",
+    "LLM对齐"
+   ],
+   "field": "大语言模型对齐与可控生成",
+   "innovations": [
+    "提出输入依赖的训练自由引导框架，通过聚类匹配实现推理时动态方向选择",
+    "证明激活空间中目标概念呈多模态分布，单一静态方向导致拒绝坍塌"
+   ],
+   "benchmarks": [
+    "TruthfulQA",
+    "Dictator Game",
+    "TwinViews",
+    "TET"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "Verifiable-Disaster-Storylines-and-Causal-Knowledge-Graphs-A",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-09-02 06:49:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/2fba5873-f9ef-4190-8aaa-604b228edea4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/2fba5873-f9ef-4190-8aaa-604b228edea4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 20:57:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "灾害风险管理",
+    "检索增强生成",
+    "知识图谱",
+    "人道主义响应",
+    "引用溯源",
+    "多Shot RAG"
+   ],
+   "field": "灾害风险管理与NLP交叉",
+   "innovations": [
+    "Multi-Shot RAG逐字段可溯源故事线提取",
+    "KG元素二级引用验证层",
+    "GLIDE跨源数据融合架构"
+   ],
+   "benchmarks": [
+    "三个危机用例（海地霍乱/多米尼加飓风/叙利亚冲突）",
+    "专家+非专家混合人工评估"
+   ]
+  }
+ }
 }

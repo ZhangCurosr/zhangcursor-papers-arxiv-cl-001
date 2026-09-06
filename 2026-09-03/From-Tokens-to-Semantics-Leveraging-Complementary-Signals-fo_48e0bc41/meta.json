@@ -4,5 +4,37 @@
  "title": "From-Tokens-to-Semantics-Leveraging-Complementary-Signals-fo",
  "token": "sk-CZoysi7P5...",
  "created_at": "2026-09-03 17:31:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/3d5af2f2-424a-4d0c-9fe3-edcaf357fb5c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/3d5af2f2-424a-4d0c-9fe3-edcaf357fb5c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 21:00:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "hallucination detection",
+    "semantic entropy",
+    "black-box LLM",
+    "token log-probability",
+    "uncertainty quantification",
+    "complementary signals",
+    "Gated classifier",
+    "Stacked classifier"
+   ],
+   "field": "大语言模型可靠性与幻觉检测",
+   "innovations": [
+    "提出 TopK/CoCoA/Gated/Stacked 四类利用语义与 token 互补信号的黑盒幻觉检测方法",
+    "系统性刻画两种信号的互补失败模式并在 7 基准 4 模型上验证",
+    "提供 FPR 预算维度的部署导向评估与超参敏感性分析"
+   ],
+   "benchmarks": [
+    "AA Omni Finance",
+    "AmbigQA",
+    "HotpotQA",
+    "SQuAD",
+    "Cheque Generation",
+    "Financial Summaries",
+    "Long-Text QA"
+   ]
+  }
+ }
 }

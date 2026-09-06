@@ -4,5 +4,31 @@
  "title": "AI-agents-reshape-consensus-formation-in-human-groups",
  "token": "sk-1jVZGxTQ1...",
  "created_at": "2026-09-03 17:31:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/3d23cf24-fbf0-4b3d-afae-08bc41310cea.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/3d23cf24-fbf0-4b3d-afae-08bc41310cea.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 20:58:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM agents",
+    "consensus formation",
+    "human-AI interaction",
+    "referential communication",
+    "cultural evolution",
+    "mixed populations"
+   ],
+   "field": "人机协同与社会计算",
+   "innovations": [
+    "发现agent比例与共识强度的非单调U型关系，揭示三阶段相变动力学",
+    "构建词汇-概念双层贡献度量框架，提出CLR阈值识别agent影响力渗透深度",
+    "阐明共享语言先验驱动的语义引力源机制与身份抵抗-从众压力竞争框架"
+   ],
+   "benchmarks": [
+    "pure-human baseline (0% agent)",
+    "12.5% / 33.3% / 50% / 75% agent proportion conditions",
+    "Qwen2.5-VL-32B vs Qwen2.5-VL-7B capability comparison"
+   ]
+  }
+ }
 }

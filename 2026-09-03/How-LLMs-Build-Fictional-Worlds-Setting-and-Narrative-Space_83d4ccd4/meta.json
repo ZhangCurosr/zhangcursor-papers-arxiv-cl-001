@@ -4,5 +4,31 @@
  "title": "How-LLMs-Build-Fictional-Worlds-Setting-and-Narrative-Space",
  "token": "sk-4LF0lBYcu...",
  "created_at": "2026-09-03 06:51:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/c223d5c9-5dda-41e3-88c6-acea8a71f635.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/c223d5c9-5dda-41e3-88c6-acea8a71f635.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 21:00:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "叙事空间",
+    "世界构建",
+    "大语言模型",
+    "创意写作",
+    "计算叙事学",
+    "分类器",
+    "跨语言比较"
+   ],
+   "field": "计算语言学与文学分析",
+   "innovations": [
+    "提出并验证了基于叙事学理论的五个叙事空间类别及英德双语分类器，用于大规模分析LLM与人类作者在叙事空间分布上的系统性差异",
+    "揭示了LLM系统性过度使用感知空间（氛围/情绪）而弱化动作空间（具身互动）的生成风格偏差，且该偏差具有模型特异性和语言敏感性"
+   ],
+   "benchmarks": [
+    "Project Gutenberg 英语小说语料 (1800-1920)",
+    "Projekt Gutenberg-DE 德语小说语料 (1780-1940)",
+    "GLMM with ordbeta family"
+   ]
+  }
+ }
 }

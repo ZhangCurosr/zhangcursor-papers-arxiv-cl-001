@@ -4,5 +4,42 @@
  "title": "SinkPruner-Sink-Free-Visual-Token-Pruning-for-Multimodal-Lar",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-09-02 17:36:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/33ca72d4-d249-46e3-87b7-939d271b2575.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/33ca72d4-d249-46e3-87b7-939d271b2575.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 20:57:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视觉token剪枝",
+    "多模态大语言模型",
+    "注意力汇聚",
+    "无需训练",
+    "高效推理"
+   ],
+   "field": "多模态大语言模型效率优化",
+   "innovations": [
+    "发现高范数异常token的冗余性并量化其影响",
+    "提出级联剪枝框架SinkPruner，先净化视觉流再文本引导剪枝",
+    "设计可迁移的视觉净化器模块，作为即插即用组件增强现有方法"
+   ],
+   "benchmarks": [
+    "GQA",
+    "MMBench",
+    "MME",
+    "POPE",
+    "SQA",
+    "VQAv2",
+    "TextVQA",
+    "MMStar",
+    "MMMU",
+    "AI2D",
+    "MM-Vet",
+    "MVBench",
+    "SEED-Bench",
+    "NextQA",
+    "VideoMME"
+   ]
+  }
+ }
 }

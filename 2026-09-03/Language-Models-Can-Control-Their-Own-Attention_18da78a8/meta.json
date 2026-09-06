@@ -4,5 +4,32 @@
  "title": "Language-Models-Can-Control-Their-Own-Attention",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-09-03 17:31:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/cbb2a770-d4f7-41db-97da-245edfdea3cb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/cbb2a770-d4f7-41db-97da-245edfdea3cb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 21:02:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Declarative Attention",
+    "long-context inference",
+    "sparse attention",
+    "KV cache masking",
+    "zero-shot protocol",
+    "system-2 reasoning"
+   ],
+   "field": "长上下文高效推理",
+   "innovations": [
+    "提出DA协议，让模型通过声明性标记控制注意力范围",
+    "零样本elicited注意力控制，无需训练",
+    "块对齐动态掩码与vLLM集成"
+   ],
+   "benchmarks": [
+    "RULER",
+    "LongBench v1/v2",
+    "LooGLE",
+    "ZeroSCROLLS"
+   ]
+  }
+ }
 }

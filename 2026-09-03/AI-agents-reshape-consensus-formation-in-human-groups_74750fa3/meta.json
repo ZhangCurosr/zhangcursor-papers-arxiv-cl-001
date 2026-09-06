@@ -4,5 +4,33 @@
  "title": "AI-agents-reshape-consensus-formation-in-human-groups",
  "token": "sk-1jVZGxTQ1...",
  "created_at": "2026-09-03 06:53:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/3d23cf24-fbf0-4b3d-afae-08bc41310cea.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/3d23cf24-fbf0-4b3d-afae-08bc41310cea.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 20:58:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "human-AI consensus",
+    "LLM agents",
+    "referential communication",
+    "collaborative description game",
+    "social norm emergence",
+    "adoption-persistence dynamics",
+    "semantic attractor"
+   ],
+   "field": "人机协同群体智能与社会计算",
+   "innovations": [
+    "发现智能体比例与共识强度呈三阶段非线性关系",
+    "提出概念-词汇比(CLR)量化智能体从词汇锚点向概念领导的跃迁",
+    "揭示身份抗拒与从众压力双通道博弈导致高比例下人类接受低满意度共识"
+   ],
+   "benchmarks": [
+    "KiloGram Tangrams",
+    "all-MiniLM-L6-v2 embedding",
+    "SPICE scene graph similarity",
+    "CPIDR propositional density"
+   ]
+  }
+ }
 }

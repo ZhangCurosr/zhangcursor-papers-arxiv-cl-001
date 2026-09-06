@@ -4,5 +4,31 @@
  "title": "Door-in-the-Face-Requests-and-Refusal-Behaviour-in-Large-Lan",
  "token": "sk-vBvZ06NsJ...",
  "created_at": "2026-09-03 17:31:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/d3ec9715-d9f7-40ad-b7e1-8d6d2cb3d2a7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/d3ec9715-d9f7-40ad-b7e1-8d6d2cb3d2a7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 20:59:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Door-in-the-Face",
+    "LLM compliance",
+    "social influence",
+    "multi-turn jailbreak",
+    "refusal behavior",
+    "prompt engineering",
+    "AI safety"
+   ],
+   "field": "大语言模型对齐与安全",
+   "innovations": [
+    "揭示门脸策略对LLM的效果存在模型家族特异性符号反转，Anthropic旗舰模型受益而其他模型反弹",
+    "证明小请求的交付物类型（惰性判断 vs. 可操作性内容）是决定序列策略成败的根本因素，而非模型能力",
+    "通过严谨的控制组设计分离让步溢价与前置拒绝惩罚，并证明公共基准测试中的拒绝不可迁移至该策略"
+   ],
+   "benchmarks": [
+    "Public Benchmark Refusals (HarmBench, JailbreakBench等派生)",
+    "Constructed Verdict Set (60 items)"
+   ]
+  }
+ }
 }

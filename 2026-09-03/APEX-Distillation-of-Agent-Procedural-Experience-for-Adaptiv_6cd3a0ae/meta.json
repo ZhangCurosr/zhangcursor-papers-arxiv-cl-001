@@ -4,5 +4,10 @@
  "title": "APEX-Distillation-of-Agent-Procedural-Experience-for-Adaptiv",
  "token": "sk-NnOQ8YDzm...",
  "created_at": "2026-09-03 17:31:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/581d15b1-a103-4aa4-96d8-ac2d46b64ad2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/581d15b1-a103-4aa4-96d8-ac2d46b64ad2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 20:59:14",
+  "chunks": 1
+ }
 }

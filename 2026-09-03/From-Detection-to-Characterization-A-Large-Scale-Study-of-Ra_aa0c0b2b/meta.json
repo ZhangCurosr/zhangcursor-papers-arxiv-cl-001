@@ -4,5 +4,31 @@
  "title": "From-Detection-to-Characterization-A-Large-Scale-Study-of-Ra",
  "token": "sk-mtKOSZtKc...",
  "created_at": "2026-09-03 06:55:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/1fa6e582-8c5a-46ff-b324-025622761f16.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/1fa6e582-8c5a-46ff-b324-025622761f16.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 20:59:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "ragebait",
+    "social media",
+    "LLM-assisted annotation",
+    "text classification",
+    "emotion analysis",
+    "diffusion dynamics",
+    "Japanese NLP"
+   ],
+   "field": "社交媒体内容与传播分析",
+   "innovations": [
+    "两阶段LLM辅助标注+检测器辅助数据扩展解决ragebait稀疏性问题",
+    "多架构集成分类器（Acc 84.05%, Macro-F1 84.04%）用于日语ragebait检测",
+    "多维度大规模刻画ragebait的词汇/主题/扩散/情感特征"
+   ],
+   "benchmarks": [
+    "WRIME",
+    "X(Twitter) Japanese 1% sample 2022-2023"
+   ]
+  }
+ }
 }

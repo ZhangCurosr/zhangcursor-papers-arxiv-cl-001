@@ -4,5 +4,31 @@
  "title": "HyperStyler-Low-resource-Authorship-Style-Transfer-via-Conte",
  "token": "sk-qKu2Cn1y4...",
  "created_at": "2026-09-03 06:51:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/042209e5-fa38-4373-8c58-671cd9f7cfa9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/042209e5-fa38-4373-8c58-671cd9f7cfa9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 21:01:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "authorship style transfer",
+    "low-resource",
+    "hypernetwork",
+    "style navigation",
+    "parameter modulation",
+    "few-shot style transfer"
+   ],
+   "field": "文本风格迁移",
+   "innovations": [
+    "将LAST解耦为上下文感知的风格选择和参数空间的风格实现两阶段",
+    "用超网络动态调制decoder参数替代隐藏状态注入以降低风格-内容纠缠",
+    "通过Stylo-navigator预测源上下文相关的风格坐标实现细粒度风格选择"
+   ],
+   "benchmarks": [
+    "Reddit MUD",
+    "Blog Authorship Corpus",
+    "All-the-news"
+   ]
+  }
+ }
 }

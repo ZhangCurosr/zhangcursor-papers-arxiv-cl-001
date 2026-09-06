@@ -4,5 +4,29 @@
  "title": "Improving-Evaluation-Realism-with-Inference-Time-Compute-and",
  "token": "sk-fYugtz9Wo...",
  "created_at": "2026-09-03 17:31:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/5bd10851-77c5-4032-9594-7a7f3a135c6c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/5bd10851-77c5-4032-9594-7a7f3a135c6c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 21:02:14",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "AI 对齐评估",
+    "推理时欺骗",
+    "评估意识",
+    "种子指令筛选",
+    "真实度评估"
+   ],
+   "field": "AI 安全与对齐评估",
+   "innovations": [
+    "提出真实性优先的种子指令筛选体系，排除多分支协调与审计员拒绝类别",
+    "构建多轮 memory 注入+协调消息的持续情境评估框架，检测目标 AI 的评估意识",
+    "形式化三类排除标准以系统化提升评估场景的真实部署映射度"
+   ],
+   "benchmarks": [
+    "HHH Benchmark",
+    "Inference-time Deception Evaluation"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "Incremental-Pooled-LLM-Evaluation-for-Cost-Effective-Retriev",
  "token": "sk-AsgiqoBdE...",
  "created_at": "2026-09-03 17:31:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/d123966c-9a60-43bf-9e5b-fcd7e40ea563.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/d123966c-9a60-43bf-9e5b-fcd7e40ea563.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 21:01:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "检索模型评估",
+    "大语言模型判官",
+    "池化方法",
+    "成本效益",
+    "增量评估",
+    "信息检索",
+    "RAG"
+   ],
+   "field": "低资源信息检索评估",
+   "innovations": [
+    "提出增量式池化LLM评估框架以降低检索模型比较成本",
+    "从理论与实证层面分析池扩展下的排序稳定性",
+    "在生产环境中验证并实现近5倍成本降低"
+   ],
+   "benchmarks": [
+    "FiQA",
+    "TREC-COVID",
+    "NQ",
+    "FinRAGBench-V"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Language-Models-Can-Control-Their-Own-Attention",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-09-03 06:51:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/90bc28d4-f1fa-4450-8957-139bf796d198.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/90bc28d4-f1fa-4450-8957-139bf796d198.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 21:02:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "sparse attention",
+    "long-context inference",
+    "KV cache optimization",
+    "chain-of-thought",
+    "inference efficiency"
+   ],
+   "field": "高效大语言模型推理",
+   "innovations": [
+    "提出声明式注意力协议让模型通过思维链显式声明关注范围",
+    "零样本激活开箱即用模型的稀疏注意力能力无需微调",
+    "基于block-aligned掩码重写实现与现有attention kernel兼容的高效集成"
+   ],
+   "benchmarks": [
+    "RULER",
+    "LongBench v1",
+    "LongBench v2",
+    "LooGLE",
+    "ZeroSCROLLS"
+   ]
+  }
+ }
 }

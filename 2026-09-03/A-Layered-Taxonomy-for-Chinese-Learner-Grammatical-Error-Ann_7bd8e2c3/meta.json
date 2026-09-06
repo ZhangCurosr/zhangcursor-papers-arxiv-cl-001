@@ -4,5 +4,31 @@
  "title": "A-Layered-Taxonomy-for-Chinese-Learner-Grammatical-Error-Ann",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-09-03 06:51:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/54ff6b01-91e8-4704-a505-f38ac69c891f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/54ff6b01-91e8-4704-a505-f38ac69c891f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 20:58:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Chinese Grammatical Error Annotation",
+    "Error Taxonomy",
+    "Learner Corpus",
+    "Layered Annotation Scheme",
+    "CGEC",
+    "Pedagogical Diagnosis"
+   ],
+   "field": "学习者语料库与错误标注",
+   "innovations": [
+    "提出双路由分层标注架构，正字法与非正字法错误分离处理",
+    "设计op:dom:pos三层核心标签加可选教学扩展的模块化方案",
+    "整合计算CGEC标注与教学错误分析传统，提供跨研究可比的标注规范"
+   ],
+   "benchmarks": [
+    "MuCGEC",
+    "ChERRANT",
+    "ERRANT"
+   ]
+  }
+ }
 }

@@ -4,5 +4,34 @@
  "title": "From-Detection-to-Characterization-A-Large-Scale-Study-of-Ra",
  "token": "sk-mtKOSZtKc...",
  "created_at": "2026-09-03 17:31:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/1fa6e582-8c5a-46ff-b324-025622761f16.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/1fa6e582-8c5a-46ff-b324-025622761f16.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 20:59:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "ragebait",
+    "clickbait",
+    "social media",
+    "LLM-assisted annotation",
+    "Japanese X",
+    "text classification",
+    "emotion analysis",
+    "diffusion dynamics"
+   ],
+   "field": "计算社会学与在线内容检测",
+   "innovations": [
+    "提出两阶段LLM辅助标注与探测器辅助检索的数据构建流程，解决ragebait正样本稀缺问题",
+    "训练多模型多数投票集成检测器，在日语UGC上实现84.05%准确率与84.04% Macro-F1",
+    "开展大规模ragebait刻画，揭示其在争议主题上的高prevalence、更快回复/引用增长与更强负面/愤怒情绪诱发"
+   ],
+   "benchmarks": [
+    "18,558条平衡ragebait标注数据集",
+    "17,435,881条日语X帖子大规模分析",
+    "Structural Topic Modeling (K=25)主题分布评估",
+    "WRIME微调日语情感/情绪分类模型"
+   ]
+  }
+ }
 }

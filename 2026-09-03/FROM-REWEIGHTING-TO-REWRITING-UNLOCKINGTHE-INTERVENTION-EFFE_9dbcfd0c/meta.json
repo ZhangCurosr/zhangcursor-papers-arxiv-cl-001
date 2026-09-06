@@ -4,5 +4,10 @@
  "title": "FROM-REWEIGHTING-TO-REWRITING-UNLOCKINGTHE-INTERVENTION-EFFE",
  "token": "sk-Jd4ujJMnj...",
  "created_at": "2026-09-03 17:31:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/a9132eb3-ec63-469a-8965-c3eb91703780.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/a9132eb3-ec63-469a-8965-c3eb91703780.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 20:59:39",
+  "chunks": 1
+ }
 }

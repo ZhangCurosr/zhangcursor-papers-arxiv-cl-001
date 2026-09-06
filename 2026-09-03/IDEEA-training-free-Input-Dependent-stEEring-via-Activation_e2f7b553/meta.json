@@ -4,5 +4,30 @@
  "title": "IDEEA-training-free-Input-Dependent-stEEring-via-Activation",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-09-03 17:31:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/856ab4bb-abcf-4500-8a10-77e57a050157.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/856ab4bb-abcf-4500-8a10-77e57a050157.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 21:01:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "激活引导",
+    "无训练对齐",
+    "输入依赖",
+    "稀疏自编码器",
+    "大语言模型"
+   ],
+   "field": "LLM可解释性与对齐",
+   "innovations": [
+    "提出IDEEA框架实现输入依赖的无训练激活引导",
+    "通过聚类匹配求解QAP获得全局一致的条件方向集"
+   ],
+   "benchmarks": [
+    "TruthfulQA",
+    "Dictator game",
+    "TwinViews",
+    "TET"
+   ]
+  }
+ }
 }

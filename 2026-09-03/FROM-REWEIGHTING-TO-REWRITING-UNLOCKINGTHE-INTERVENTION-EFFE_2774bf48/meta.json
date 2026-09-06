@@ -4,5 +4,33 @@
  "title": "FROM-REWEIGHTING-TO-REWRITING-UNLOCKINGTHE-INTERVENTION-EFFE",
  "token": "sk-Jd4ujJMnj...",
  "created_at": "2026-09-03 06:51:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/7e8be488-d793-426a-b9e9-710473a588b9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/7e8be488-d793-426a-b9e9-710473a588b9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 20:59:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Training Data Attribution",
+    "Influence Functions",
+    "Response Rewriting",
+    "Epistemic Abstention",
+    "Intervention Effects",
+    "EK-FAC"
+   ],
+   "field": "训练数据归因与大语言模型干预",
+   "innovations": [
+    "提出影响引导的响应重写框架，解耦样本选择与干预设计",
+    "揭示IF选择样本在重写干预下隐藏的强行为杠杆效应",
+    "系统对比删除/加权/重写在相同IF选择集上的轨迹效果并刻画靶向性"
+   ],
+   "benchmarks": [
+    "Abstention-Bench",
+    "WildGuard",
+    "HarmBench",
+    "XSTest",
+    "WMDP"
+   ]
+  }
+ }
 }

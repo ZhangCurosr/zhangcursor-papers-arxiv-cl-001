@@ -4,5 +4,34 @@
  "title": "Improving-Health-Literacy-through-Lay-Summarization-of-Radio",
  "token": "sk-n7iJ0Z1Ol...",
  "created_at": "2026-09-03 17:31:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/6c507633-e279-4aad-a3b4-1691ea6bcf36.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/6c507633-e279-4aad-a3b4-1691ea6bcf36.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 21:01:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "lay summarization",
+    "BioNER",
+    "RAG",
+    "radiology reports",
+    "health literacy",
+    "readability",
+    "Biomedical NLP"
+   ],
+   "field": "生物医学自然语言处理",
+   "innovations": [
+    "在统一框架内系统对比 BioNER 与 RAG 对放射学报告通俗摘要的增强效果",
+    "揭示 RAG 依赖通用知识库在医学术语检索中的幻觉风险",
+    "证明微调后的生物医学专用小模型（BioBART）结合 NER 可超越通用小模型 few-shot 性能"
+   ],
+   "benchmarks": [
+    "PadChest",
+    "BIMCV-COVID19+",
+    "Open-i",
+    "MIMIC-CXR",
+    "BioLay-Summ 2025"
+   ]
+  }
+ }
 }
