@@ -4,5 +4,32 @@
  "title": "How-Correct-Is-Your-Answer-A-Semantic-Correctness-Framework",
  "token": "sk-4LF0lBYcu...",
  "created_at": "2026-09-02 17:35:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/4384f9d1-a329-4e07-aee3-0fd3ec2f92be.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/4384f9d1-a329-4e07-aee3-0fd3ec2f92be.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 00:27:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Open QA",
+    "semantic correctness",
+    "NLI-based evaluation",
+    "CAP metric",
+    "monotonicity",
+    "answer taxonomy"
+   ],
+   "field": "开放问答评估",
+   "innovations": [
+    "八类语义正确性分类法与单调性诊断协议",
+    "CAP双向NLI连续评分指标",
+    "CAP-Correctness与CAP-Statements开源数据集"
+   ],
+   "benchmarks": [
+    "CAP-Correctness",
+    "OpenBookQA",
+    "AI2 ARC",
+    "MMLU"
+   ]
+  }
+ }
 }

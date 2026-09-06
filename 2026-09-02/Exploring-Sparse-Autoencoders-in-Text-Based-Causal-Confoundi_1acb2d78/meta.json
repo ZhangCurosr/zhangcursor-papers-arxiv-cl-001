@@ -4,5 +4,30 @@
  "title": "Exploring-Sparse-Autoencoders-in-Text-Based-Causal-Confoundi",
  "token": "sk-n7iJ0Z1Ol...",
  "created_at": "2026-09-02 17:35:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/4b36c729-6313-4f45-b38b-c98b2fa7ec4d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/4b36c729-6313-4f45-b38b-c98b2fa7ec4d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 00:25:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "因果推断",
+    "文本混杂调整",
+    "稀疏自编码器",
+    "双重机器学习",
+    "匹配方法",
+    "半合成评估"
+   ],
+   "field": "因果推断与自然语言处理交叉",
+   "innovations": [
+    "提出首个将SAE与条件独立性检验结合的文本因果调整流水线",
+    "设计首个基于多标签oracle的文本混杂半合成评估框架",
+    "利用SAE特征可解释性实现因果分析的人类可核查证伪诊断"
+   ],
+   "benchmarks": [
+    "20NewsGroups",
+    "EURLEX"
+   ]
+  }
+ }
 }

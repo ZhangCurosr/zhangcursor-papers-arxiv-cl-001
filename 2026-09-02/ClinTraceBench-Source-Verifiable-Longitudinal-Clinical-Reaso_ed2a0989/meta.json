@@ -4,5 +4,31 @@
  "title": "ClinTraceBench-Source-Verifiable-Longitudinal-Clinical-Reaso",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-09-02 17:35:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/3f1de0e1-348e-414b-888a-a77ab6bc7d54.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/3f1de0e1-348e-414b-888a-a77ab6bc7d54.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 00:23:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "纵向临床推理",
+    "电子健康记录",
+    "历史表示策略",
+    "检索增强生成",
+    "智能记忆",
+    "基准评估",
+    "大语言模型"
+   ],
+   "field": "临床NLP与LLM基准",
+   "innovations": [
+    "事件级溯源的L0-L4确定性+L5人工审计验证流水线",
+    "T3控制注入探针分离表征信号保真度与模型推理能力",
+    "发现压缩/智能记忆的聚合税与关系丢失失败模式"
+   ],
+   "benchmarks": [
+    "ClinTraceBench",
+    "MIMIC-IV"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "EDITIKZ-SCIENTIFIC-FIGURE-EDITING-FROM-REVISION-TRAJECTORIES",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-09-02 17:37:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/30f132c3-e677-4b9d-941f-3acf09699b6d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/30f132c3-e677-4b9d-941f-3acf09699b6d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 00:24:38",
+  "chunks": 1
+ }
 }

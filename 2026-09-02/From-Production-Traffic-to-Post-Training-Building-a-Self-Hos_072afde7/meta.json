@@ -4,5 +4,38 @@
  "title": "From-Production-Traffic-to-Post-Training-Building-a-Self-Hos",
  "token": "sk-AsgiqoBdE...",
  "created_at": "2026-09-02 06:48:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/ee155c5f-a661-41ba-a1ed-4afb279d65b2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/ee155c5f-a661-41ba-a1ed-4afb279d65b2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 00:26:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "post-training",
+    "GRPO",
+    "reward hacking",
+    "model merging",
+    "SLERP",
+    "function calling",
+    "instruction following",
+    "enterprise LLM"
+   ],
+   "field": "大语言模型后训练与对齐",
+   "innovations": [
+    "单轴GRPO专家+两阶段SLERP权重合并替代联合多目标RL，避免跨域奖励干扰",
+    "三类reward-hacking失败模式（字数膨胀/语义坍塌/过度调用）的系统识别与针对性修复",
+    "模板感知采样与任务特定LLM Judge校准协议，构建从生产流量到内部benchmark的自动化评测pipeline"
+   ],
+   "benchmarks": [
+    "In-house Arena",
+    "ruIFEval",
+    "ruBFCLv3",
+    "AceBench",
+    "SmartSearch",
+    "ruMultiChallenge",
+    "ruWildChat Hard",
+    "Arena Hard Ru"
+   ]
+  }
+ }
 }

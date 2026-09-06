@@ -4,5 +4,34 @@
  "title": "GLOSSOGEN-Emergent-Language-in-Complex-Multi-Agent-LLM-Inter",
  "token": "sk-07nfPn8BZ...",
  "created_at": "2026-09-02 17:35:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/e39fac6a-acb8-4499-9a1e-775e0399d747.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/e39fac6a-acb8-4499-9a1e-775e0399d747.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 00:26:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "emergent language",
+    "multi-agent LLM",
+    "language evolution",
+    "cumulative cultural evolution",
+    "compositional generalization",
+    "agent safety",
+    "iterated learning"
+   ],
+   "field": "多智能体语言演化与LLM可监控性",
+   "innovations": [
+    "提出GLOSSOGEN平台与SAVEVEYRU场景，证明预训练LLM在纯协作设置下可自发演化出不可解读但具形态生产力的新型语言",
+    "发现高时间预算压力与postmortem阶段的交互是语言涌现的关键条件，揭示模型强度门槛与跨强度语言传递现象",
+    "通过Swap传递实验与元语言提问分析，首次在LLM多智能体种群中观察到累积文化演化的雏形证据"
+   ],
+   "benchmarks": [
+    "SAVEVEYRU scenario",
+    "GPT-2 perplexity under English LM",
+    "decode accuracy on novel forms",
+    "production accuracy (exact & any-order)",
+    "iterated learning swap success rate"
+   ]
+  }
+ }
 }

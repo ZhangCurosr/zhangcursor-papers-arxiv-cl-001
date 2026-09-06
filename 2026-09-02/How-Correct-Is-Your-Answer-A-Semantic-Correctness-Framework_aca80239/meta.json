@@ -4,5 +4,33 @@
  "title": "How-Correct-Is-Your-Answer-A-Semantic-Correctness-Framework",
  "token": "sk-4LF0lBYcu...",
  "created_at": "2026-09-02 06:49:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/4384f9d1-a329-4e07-aee3-0fd3ec2f92be.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/4384f9d1-a329-4e07-aee3-0fd3ec2f92be.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 00:27:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Open QA evaluation",
+    "semantic correctness",
+    "NLI-based metrics",
+    "monotonicity benchmark",
+    "CAP metric",
+    "answer taxonomy",
+    "factual consistency"
+   ],
+   "field": "开放域问答评估与自然语言推理",
+   "innovations": [
+    "提出包含8类的语义正确性有序分类体系与单调性评测协议",
+    "发布CAP-Correctness(8.8k)与CAP-Statements(11k)两个配套数据集",
+    "设计基于双向NLI的参考式连续度量CAP，显著优于现有词法/嵌入/学习类基线"
+   ],
+   "benchmarks": [
+    "CAP-Correctness",
+    "OpenBookQA",
+    "AI2 ARC",
+    "MMLU"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "HarnessDev-Can-LLMs-Create-and-Evolve-Their-Own-Agent-Harnes",
  "token": "sk-kdPBKi9MQ...",
  "created_at": "2026-09-02 17:35:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/e28901ff-77b8-4fc4-90da-573427e9c935.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/e28901ff-77b8-4fc4-90da-573427e9c935.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 00:26:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Agent Harness",
+    "LLM Agent",
+    "Benchmark",
+    "Self-Development",
+    "Harness Evolution",
+    "Agent Infrastructure"
+   ],
+   "field": "Agent 评测与自动化 harness 工程",
+   "innovations": [
+    "提出 HarnessDev 基准，将评估单元从任务输出转向可运行 harness，区分 Creation 与 Evolution 两阶段",
+    "设计 Weak Seed Harness 并提供 Self-Eval/Unified-Eval 双视角评测协议以隔离 harness 质量与 executor 能力",
+    "建立能力-效率二维评估体系并建立约束合规审计机制"
+   ],
+   "benchmarks": [
+    "SWE-Pro",
+    "Terminal-Bench 2.1",
+    "MLE-bench",
+    "EQ-Bench3",
+    "BrowseComp"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Citing-Less-Critically-LLMs-Reshape-the-Rhetoric-and-Reach-o",
  "token": "sk-Wt6bONApk...",
  "created_at": "2026-09-02 06:49:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/0abb1d94-6647-40c3-8da1-2f1ce2355fd5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/0abb1d94-6647-40c3-8da1-2f1ce2355fd5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 00:23:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "scientific citation",
+    "LLM citation behavior",
+    "citation intent",
+    "rhetorical analysis",
+    "coauthorship network",
+    "citation bias",
+    "masked-citation task"
+   ],
+   "field": "大语言模型与科学传播",
+   "innovations": [
+    "提出位置对齐的遮蔽引用槽位级基准，实现人类与LLM引用的反事实对照",
+    "首次从修辞意图维度揭示LLM引用系统性语气变暖及偏向放大效应",
+    "基于2000万边合著网络测量作者社交距离，发现LLM放弃人类近邻引用习惯"
+   ],
+   "benchmarks": [
+    "ACL/EMNLP/NAACL 2025",
+    "Dimensions bibliometric database",
+    "20.3M-edge coauthorship network 2015-2024"
+   ]
+  }
+ }
 }

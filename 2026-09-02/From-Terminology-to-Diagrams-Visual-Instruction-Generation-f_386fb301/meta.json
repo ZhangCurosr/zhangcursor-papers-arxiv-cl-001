@@ -4,5 +4,30 @@
  "title": "From-Terminology-to-Diagrams-Visual-Instruction-Generation-f",
  "token": "sk-iG65PZaJv...",
  "created_at": "2026-09-02 06:50:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/62eeda38-7cac-4315-9b92-a55b204aceac.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/62eeda38-7cac-4315-9b92-a55b204aceac.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 00:26:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "科学图表理解",
+    "视觉指令生成",
+    "多模态大模型",
+    "数据合成",
+    "术语驱动"
+   ],
+   "field": "科学图表多模态理解",
+   "innovations": [
+    "术语驱动的科学图表指令数据生成框架（从课程术语到原子事实到图表检索到指令合成）",
+    "构建194K图表/1.4M指令的SciGram数据集并开源",
+    "LLaVA-SciGram OV在TQA Diagram上建立新SOTA（80.12%）"
+   ],
+   "benchmarks": [
+    "TQA",
+    "ScienceQA",
+    "AI2D"
+   ]
+  }
+ }
 }

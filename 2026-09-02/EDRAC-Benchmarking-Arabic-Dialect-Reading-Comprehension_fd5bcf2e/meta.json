@@ -4,5 +4,31 @@
  "title": "EDRAC-Benchmarking-Arabic-Dialect-Reading-Comprehension",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-09-02 17:36:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/7d625b82-f705-41bf-b44a-29b9fc2b161c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/7d625b82-f705-41bf-b44a-29b9fc2b161c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 00:24:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "方言阿拉伯语",
+    "机器阅读理解",
+    "生成式QA",
+    "LLM评估",
+    "低资源语言",
+    "人工-LLM协作"
+   ],
+   "field": "低资源语言NLP",
+   "innovations": [
+    "首个覆盖五种阿拉伯语方言的大规模生成式阅读理解基准EDRAC",
+    "三步迭代式人工-LLM协作QA生成流水线（生成-评判-改进）"
+   ],
+   "benchmarks": [
+    "EDRAC",
+    "Belebele",
+    "DialectalArabicMMLU",
+    "Arabic-SQuAD"
+   ]
+  }
+ }
 }

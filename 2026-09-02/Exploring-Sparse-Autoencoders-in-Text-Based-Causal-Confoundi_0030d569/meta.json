@@ -4,5 +4,32 @@
  "title": "Exploring-Sparse-Autoencoders-in-Text-Based-Causal-Confoundi",
  "token": "sk-n7iJ0Z1Ol...",
  "created_at": "2026-09-02 06:51:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/8065ce38-2cc7-431f-a8cc-564cad84b9a7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/8065ce38-2cc7-431f-a8cc-564cad84b9a7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 00:25:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "sparse autoencoder",
+    "causal inference",
+    "confounding adjustment",
+    "text representation",
+    "double machine learning",
+    "coarsened exact matching",
+    "semi-synthetic evaluation",
+    "multi-label confounding"
+   ],
+   "field": "因果推断与自然语言处理交叉",
+   "innovations": [
+    "将SAE稀疏表征与条件独立性检验结合，提出首个用于文本混淆调整的自动特征选择管道",
+    "引入首个基于多标签oracle混淆的半合成评估框架（EURLEX），揭示现有off-the-shelf方法在复杂设定下的失效",
+    "提出两种面向因果调整的可证伪诊断：全部特征选中提示表征容量不足、神经元语义标注验证face validity"
+   ],
+   "benchmarks": [
+    "20NewsGroups",
+    "EURLEX multi-label"
+   ]
+  }
+ }
 }

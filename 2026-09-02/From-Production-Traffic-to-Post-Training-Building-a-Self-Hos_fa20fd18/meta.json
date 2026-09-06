@@ -4,5 +4,38 @@
  "title": "From-Production-Traffic-to-Post-Training-Building-a-Self-Hos",
  "token": "sk-AsgiqoBdE...",
  "created_at": "2026-09-02 17:35:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/ee155c5f-a661-41ba-a1ed-4afb279d65b2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/ee155c5f-a661-41ba-a1ed-4afb279d65b2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 00:26:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "post-training",
+    "instruction following",
+    "function calling",
+    "GRPO",
+    "model merging",
+    "SLERP",
+    "reward hacking",
+    "enterprise LLM"
+   ],
+   "field": "企业级自部署 LLM 后训练",
+   "innovations": [
+    "分专家 GRPO + 两阶段 SLERP 合并替代联合多目标 RL，解决域间奖励干扰",
+    "从生产流量构建分层内部 benchmark（模板感知采样 + 任务路由差异化 Judge）",
+    "三种 reward hacking 模式（语义坍塌/过度调用/冗长 hack）及其领域特定修复"
+   ],
+   "benchmarks": [
+    "ruIFEval",
+    "ruBFCLv3",
+    "Arena Hard Ru",
+    "WildChat Hard Ru",
+    "AceBench",
+    "tau^2-bench",
+    "In-house Arena",
+    "SmartSearch"
+   ]
+  }
+ }
 }

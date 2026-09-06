@@ -4,5 +4,38 @@
  "title": "From-Rollouts-to-Recipes-Self-Contained-Post-Training-for-LL",
  "token": "sk-jywkrqzJV...",
  "created_at": "2026-09-02 06:48:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/73ebf135-a5d9-4949-8a9e-544c39d3a4ca.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/73ebf135-a5d9-4949-8a9e-544c39d3a4ca.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 00:26:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "post-training",
+    "GRPO",
+    "on-policy self-distillation",
+    "recipe routing",
+    "verifier-based RL",
+    "mathematical reasoning"
+   ],
+   "field": "大语言模型后训练与强化学习",
+   "innovations": [
+    "基于 rollout 正确性与置信度构建可解释行为状态，将样本动态路由至 GRPO/OPSD/REG/SKIP 四路",
+    "揭示混合正确性样本受益 GRPO、低正确低置信样本受益 OPSD、稳定已解样本受益 REG 的匹配规律",
+    "在 Qwen3/Qwen3.5 多尺度上统一验证行为条件化路由优于均匀配方与简单路由基线"
+   ],
+   "benchmarks": [
+    "DAPO-Math-17K",
+    "GSM8K",
+    "MATH-500",
+    "AIME24",
+    "AIME25",
+    "MMLU-Pro",
+    "GPQA-diamond",
+    "SATBench",
+    "AutoLogi",
+    "LiveCodeBench-v5"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "InSight-A-Benchmark-for-Agentic-Claim-Verification-in-Intera",
  "token": "sk-JqniBRrr0...",
  "created_at": "2026-09-02 17:36:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/a4af10e7-a75c-464e-89d0-f2681396d557.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/a4af10e7-a75c-464e-89d0-f2681396d557.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 00:27:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "interactive visualization",
+    "claim verification",
+    "vision-language models",
+    "agentic benchmark",
+    "visual reasoning",
+    "fact-checking"
+   ],
+   "field": "可视化理解与智能体评估",
+   "innovations": [
+    "提出InSight基准，将主张验证扩展至部分可观测的交互式可视化环境，要求模型通过序列交互获取证据",
+    "设计IES指标，通过有效动作比率惩罚无交互的正确预测，区分参数知识与视觉扎根推理",
+    "构建21,349条主张的真实来源数据集，通过NLI约束的对比变异生成平衡的TRUE/FALSE/NEI分布"
+   ],
+   "benchmarks": [
+    "InSight"
+   ]
+  }
+ }
 }

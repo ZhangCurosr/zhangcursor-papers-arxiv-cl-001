@@ -4,5 +4,30 @@
  "title": "InSight-A-Benchmark-for-Agentic-Claim-Verification-in-Intera",
  "token": "sk-JqniBRrr0...",
  "created_at": "2026-09-02 06:48:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/937e2816-09d7-463d-8907-02f49d978ae1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/937e2816-09d7-463d-8907-02f49d978ae1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 00:27:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "interactive visualization",
+    "claim verification",
+    "vision-language model",
+    "agentic benchmark",
+    "fact-checking",
+    "interaction efficiency score",
+    "Vega-Lite"
+   ],
+   "field": "多模态代理与可视化理解",
+   "innovations": [
+    "提出交互式可视化声明验证任务，将事实核查的认识论要求扩展至代理式多模态环境",
+    "构建 InSight 基准（21,349 条声明），源自人类专家分析笔记本并通过 NLI 验证的受控变异生成 False/NEI 声明",
+    "引入 IES 指标将推理质量评估从准确率扩展到交互效率，惩罚无 grounding 的正确回答"
+   ],
+   "benchmarks": [
+    "InSight"
+   ]
+  }
+ }
 }

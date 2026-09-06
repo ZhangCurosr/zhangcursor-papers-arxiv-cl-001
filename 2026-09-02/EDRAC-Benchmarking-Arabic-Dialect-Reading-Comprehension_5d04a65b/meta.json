@@ -4,5 +4,30 @@
  "title": "EDRAC-Benchmarking-Arabic-Dialect-Reading-Comprehension",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-09-02 06:54:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/cb034389-1c72-4287-a203-cc1824167e71.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/cb034389-1c72-4287-a203-cc1824167e71.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 00:24:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Dialectal Arabic",
+    "Generative QA",
+    "Machine Reading Comprehension",
+    "LLM-as-a-Judge",
+    "Arabic NLP",
+    "Low-resource Language",
+    "Benchmark"
+   ],
+   "field": "方言阿拉伯语自然语言处理",
+   "innovations": [
+    "首个面向五种阿拉伯方言的大规模生成式MRC/QA基准EDRAC",
+    "基于LLM-as-a-Judge与人机协作的迭代QA生成与校验管道",
+    "揭示通用自动指标在方言忠实度评估上的系统性高估"
+   ],
+   "benchmarks": [
+    "EDRAC"
+   ]
+  }
+ }
 }

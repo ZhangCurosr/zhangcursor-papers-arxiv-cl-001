@@ -4,5 +4,31 @@
  "title": "How-Do-Language-Models-Choose-Between-Context-and-Memory",
  "token": "sk-hN9qFiLuN...",
  "created_at": "2026-09-02 06:49:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/d4775531-3dce-49a8-8c19-098088ead6f8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/d4775531-3dce-49a8-8c19-098088ead6f8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 00:27:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "mechanistic interpretability",
+    "context-memory conflict",
+    "authority representation",
+    "causal mediation",
+    "activation steering",
+    "cross-task transferability"
+   ],
+   "field": "语言模型机械可解释性",
+   "innovations": [
+    "反事实权威坐标交换法：在匹配提示对间互换残差流分量以检验因果使用",
+    "三层分离框架：同时检验可解码性、任务内因果使用、跨任务因果复用的差异",
+    "跨域实验揭示高可解码性不等于高因果影响：AUROC 0.995但单层效应仅0.014"
+   ],
+   "benchmarks": [
+    "Color task",
+    "Materials task",
+    "State/Country facts"
+   ]
+  }
+ }
 }

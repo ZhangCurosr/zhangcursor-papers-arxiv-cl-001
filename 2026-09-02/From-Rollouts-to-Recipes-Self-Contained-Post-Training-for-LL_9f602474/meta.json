@@ -4,5 +4,37 @@
  "title": "From-Rollouts-to-Recipes-Self-Contained-Post-Training-for-LL",
  "token": "sk-jywkrqzJV...",
  "created_at": "2026-09-02 17:35:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/73ebf135-a5d9-4949-8a9e-544c39d3a4ca.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/73ebf135-a5d9-4949-8a9e-544c39d3a4ca.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 00:26:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "post-training",
+    "GRPO",
+    "on-policy self-distillation",
+    "behavior-conditioned routing",
+    "verifier-based RL",
+    "LLM reasoning"
+   ],
+   "field": "大语言模型后训练与强化学习",
+   "innovations": [
+    "提出 Self-Routing，用 rollout 正确率与置信度将样本路由到 GRPO/OPSD/REG/SKIP 四种配方",
+    "构建自包含 on-policy 信号回路，无需外部教师与额外标注",
+    "给出可解释的四分支启发式路由公式与批次内置信度校准机制"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "MATH-500",
+    "AIME24",
+    "AIME25",
+    "MMLU-Pro",
+    "GPQA-diamond",
+    "SATBench",
+    "AutoLogi",
+    "LiveCodeBench-v5"
+   ]
+  }
+ }
 }

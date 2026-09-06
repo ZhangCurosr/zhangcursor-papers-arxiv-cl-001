@@ -4,5 +4,31 @@
  "title": "How-Do-Language-Models-Choose-Between-Context-and-Memory",
  "token": "sk-hN9qFiLuN...",
  "created_at": "2026-09-02 17:36:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/d4775531-3dce-49a8-8c19-098088ead6f8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/d4775531-3dce-49a8-8c19-098088ead6f8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 00:27:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "上下文-记忆冲突",
+    "因果中介",
+    "权威方向",
+    "跨任务可重用性",
+    "激活干预",
+    "大语言模型可解释性"
+   ],
+   "field": "大语言模型可解释性",
+   "innovations": [
+    "提出因果中介框架分离表示、任务内因果与跨任务复用",
+    "发现权威方向跨任务可重用性极低（仅9%）",
+    "揭示高度可解码的表示未必具有因果效用"
+   ],
+   "benchmarks": [
+    "颜色任务",
+    "材料构成任务",
+    "州/国家事实任务"
+   ]
+  }
+ }
 }

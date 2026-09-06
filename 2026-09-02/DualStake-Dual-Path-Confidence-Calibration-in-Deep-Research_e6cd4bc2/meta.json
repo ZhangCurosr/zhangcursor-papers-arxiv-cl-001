@@ -4,5 +4,36 @@
  "title": "DualStake-Dual-Path-Confidence-Calibration-in-Deep-Research",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-09-02 06:49:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/95a9a7a4-eaf5-4464-99bd-985f8120ae9a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/95a9a7a4-eaf5-4464-99bd-985f8120ae9a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 00:24:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "置信度校准",
+    "Deep Research Agent",
+    "强化学习",
+    "证据置信度",
+    "stake reward",
+    "GRPO"
+   ],
+   "field": "大语言模型可信推理",
+   "innovations": [
+    "提出 DualStake 双路径校准方法，联合监督 E-Conf 和 A-Conf",
+    "发现 E-Conf 比 A-Conf 提供更强的不确定性信号且 A-Conf 主要由 E-Conf 塑造",
+    "在 stake reward 中引入 margin clipping 防止极端置信度优化损害准确率"
+   ],
+   "benchmarks": [
+    "NQ",
+    "TriviaQA",
+    "HotpotQA",
+    "2WikiMultiHopQA",
+    "MuSiQue",
+    "Bamboogle",
+    "SimpleQA",
+    "PopQA"
+   ]
+  }
+ }
 }

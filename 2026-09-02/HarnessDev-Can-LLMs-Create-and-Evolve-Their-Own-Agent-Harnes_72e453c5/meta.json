@@ -4,5 +4,33 @@
  "title": "HarnessDev-Can-LLMs-Create-and-Evolve-Their-Own-Agent-Harnes",
  "token": "sk-kdPBKi9MQ...",
  "created_at": "2026-09-02 06:49:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/e28901ff-77b8-4fc4-90da-573427e9c935.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/e28901ff-77b8-4fc4-90da-573427e9c935.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 00:26:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Agent Harness",
+    "Benchmark",
+    "LLM Agent",
+    "Harness Evolution",
+    "Self-Evolving Agents",
+    "Creation and Evolution"
+   ],
+   "field": "Agent 系统与评测基准",
+   "innovations": [
+    "提出 HarnessDev 基准，将评测单元从任务输出转向可复用可运行基础设施，覆盖 Creation 和 Evolution 两阶段",
+    "设计弱种子 Harness H_seed 隔离评估模型设计执行系统的能力而非复现样板代码",
+    "引入 Creator-Executor 分离的 Self-Eval/Unified-Eval 双视角协议及独立 Held-out 泛化评估"
+   ],
+   "benchmarks": [
+    "SWE-bench Pro",
+    "Terminal-Bench 2.1",
+    "MLE-bench",
+    "EQ-Bench3",
+    "BrowseComp"
+   ]
+  }
+ }
 }

@@ -4,5 +4,36 @@
  "title": "Hints-Help-But-Do-They-Teach-Testing-Skill-Transfer-in-Code",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-09-02 17:35:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/81293ac8-4750-423f-ba52-42f887b4f7cc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/81293ac8-4750-423f-ba52-42f887b4f7cc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 00:27:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "code generation",
+    "hint rescue",
+    "activation intervention",
+    "virtual KV prefix",
+    "correctness probing",
+    "skill transfer",
+    "HumanEval+",
+    "MBPP+"
+   ],
+   "field": "代码生成与可解释性",
+   "innovations": [
+    "两模型行为审计揭示多数提示救援已被无提示采样覆盖",
+    "稳定激活方向共享但无净准确率增益且无保留外迁移",
+    "跨基准生成后隐藏状态探针实现正确性解码（AUROC 0.806/0.780）"
+   ],
+   "benchmarks": [
+    "HumanEval+",
+    "MBPP+",
+    "balanced-ternary notation",
+    "eight-operation stack language",
+    "ordered string rewriting",
+    "keyed codec"
+   ]
+  }
+ }
 }

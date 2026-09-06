@@ -4,5 +4,31 @@
  "title": "EDITIKZ-SCIENTIFIC-FIGURE-EDITING-FROM-REVISION-TRAJECTORIES",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-09-02 06:50:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/266421cb-8bd9-4187-8379-ebf4dde0e126.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/266421cb-8bd9-4187-8379-ebf4dde0e126.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 00:24:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "科学图表编辑",
+    "TikZ",
+    "Vision-Language Model",
+    "Reinforcement Learning",
+    "Dataset Construction",
+    "Multimodal Generation"
+   ],
+   "field": "多模态科学可视化",
+   "innovations": [
+    "从真实修订轨迹提取TikZ编辑监督",
+    "联合重建与编辑的多任务SFT",
+    "SelfSim与指令遵循双奖励GDPO优化"
+   ],
+   "benchmarks": [
+    "DaEdiTikZ-Bench",
+    "SPIQA",
+    "CharXiv"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "ClinTraceBench-Source-Verifiable-Longitudinal-Clinical-Reaso",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-09-02 06:50:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/3f1de0e1-348e-414b-888a-a77ab6bc7d54.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/3f1de0e1-348e-414b-888a-a77ab6bc7d54.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 00:23:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "longitudinal clinical reasoning",
+    "EHR benchmark",
+    "history representation",
+    "agentic memory",
+    "retrieval-augmented generation",
+    "abstention calibration",
+    "source-verifiable evaluation"
+   ],
+   "field": "临床 NLP / 电子病历推理评估",
+   "innovations": [
+    "首个带事件级溯源的纵向临床推理基准，385条MIMIC-IV对话覆盖9类认知任务",
+    "受控句子级注入探针（等输入vs构建后注入）分离表示保真度与骨干推理能力",
+    "系统对比8种病史表示策略×4前沿骨干的完整评测，揭示聚合税与关系丢失机制"
+   ],
+   "benchmarks": [
+    "ClinTraceBench",
+    "MIMIC-IV"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "FinLifeBench-Exhaustive-Life-Event-History-and-Financial-Sta",
  "token": "sk-FMTQpgZxg...",
  "created_at": "2026-09-02 17:36:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/e78244fd-b430-41bb-8c59-6984626e8f05.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/e78244fd-b430-41bb-8c59-6984626e8f05.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 00:25:35",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "longitudinal dialogue",
+    "conversational memory",
+    "life-event history reconstruction",
+    "financial-state reconstruction",
+    "benchmark",
+    "LLM evaluation"
+   ],
+   "field": "长程对话记忆与状态重建",
+   "innovations": [
+    "提出双任务 schema-complete 重建基准（生命事件历史+金融状态），首次同时要求全量生成与证据溯源",
+    "引入 GCA@15 与 conditional anchor accuracy 等细粒度指标，解耦完整性与时效性失败模式",
+    "基于确定性状态转移图与 hard negative 会话设计，提供可复现的纵向金融对话合成管线"
+   ],
+   "benchmarks": [
+    "FinLifeBench"
+   ]
+  }
+ }
 }

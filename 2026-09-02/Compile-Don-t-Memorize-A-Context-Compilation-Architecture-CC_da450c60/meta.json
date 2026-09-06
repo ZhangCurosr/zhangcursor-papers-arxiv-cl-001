@@ -4,5 +4,30 @@
  "title": "Compile-Don-t-Memorize-A-Context-Compilation-Architecture-CC",
  "token": "sk-EwecAZ9oF...",
  "created_at": "2026-09-02 17:35:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/27af98c2-e4ba-456e-9d0b-3f0929fe9827.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/27af98c2-e4ba-456e-9d0b-3f0929fe9827.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 00:24:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "上下文学习",
+    "长上下文",
+    "LLM评测",
+    "Harness工程",
+    "代码验证",
+    "中间表示"
+   ],
+   "field": "大语言模型应用与评估",
+   "innovations": [
+    "提出上下文编译架构(CCA)，将ICL视为编译问题",
+    "设计类型化IR与可执行验证器自动生成机制",
+    "建立违规门控的修正循环以实现机械自检"
+   ],
+   "benchmarks": [
+    "CL-bench",
+    "LongBench-v2"
+   ]
+  }
+ }
 }
