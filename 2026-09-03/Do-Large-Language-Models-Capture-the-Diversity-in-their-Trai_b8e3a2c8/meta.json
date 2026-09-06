@@ -4,5 +4,31 @@
  "title": "Do-Large-Language-Models-Capture-the-Diversity-in-their-Trai",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-09-03 17:31:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/7482eb8f-37f5-4add-9093-46c99418ed64.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/7482eb8f-37f5-4add-9093-46c99418ed64.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 16:46:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "conditional entropy",
+    "diversity gap",
+    "large language models",
+    "matrix entropy",
+    "post-hoc reweighting",
+    "conditional generation"
+   ],
+   "field": "生成模型评估与多样性控制",
+   "innovations": [
+    "提出条件 von Neumann 熵与矩阵熵度量条件多样性缺口",
+    "证明矩阵条件熵凹性并推导凸优化重加权方法",
+    "开发可缩放 CEP‑BEG 算法并验证于 LLMs 与图像生成"
+   ],
+   "benchmarks": [
+    "OLMo/Pythia/GPT‑Neo 生成任务",
+    "ImageNet 类条件生成",
+    "MS‑COCO 文本条件生成"
+   ]
+  }
+ }
 }

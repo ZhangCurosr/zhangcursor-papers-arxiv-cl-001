@@ -4,5 +4,31 @@
  "title": "DKL-Decoupled-Knowledge-Learning-for-Instruction-Tuned-Langu",
  "token": "sk-07nfPn8BZ...",
  "created_at": "2026-09-03 17:31:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/85f7674e-c356-4925-ad1c-86e746ccb203.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/85f7674e-c356-4925-ad1c-86e746ccb203.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 16:45:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "知识注入",
+    "指令调优语言模型",
+    "模型合并",
+    "扩展预训练",
+    "任务算术",
+    "RAG"
+   ],
+   "field": "指令调优语言模型的知识增强",
+   "innovations": [
+    "提出DKL方法，通过在Base LLM上进行扩展预训练学习知识向量，再与Instruct LLM的指令向量合并，实现低成本知识注入",
+    "设计在知识适配器训练中替换使用Instruct LLM词嵌入的方法，缓解词汇分布不匹配",
+    "实验验证DKL在减少合成数据依赖的同时，优于SFT基线方法，尤其在RAG检索失败场景下提升显著"
+   ],
+   "benchmarks": [
+    "RedBook 1",
+    "RedBook 2",
+    "QuALITY"
+   ]
+  }
+ }
 }

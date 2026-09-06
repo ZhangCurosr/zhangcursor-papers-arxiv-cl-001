@@ -4,5 +4,10 @@
  "title": "Some-Emotions-Run-Deeper-Layer-wise-Probing-and-Causal-Inter",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-09-02 17:36:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/0b0b6366-0505-495d-bca3-41fdbfd6190a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/0b0b6366-0505-495d-bca3-41fdbfd6190a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 16:42:46",
+  "chunks": 1
+ }
 }

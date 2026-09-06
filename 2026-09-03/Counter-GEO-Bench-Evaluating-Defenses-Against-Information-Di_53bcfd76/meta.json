@@ -4,5 +4,31 @@
  "title": "Counter-GEO-Bench-Evaluating-Defenses-Against-Information-Di",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-09-03 17:31:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/14d180eb-afe7-451b-b39d-79ca01b1315c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/14d180eb-afe7-451b-b39d-79ca01b1315c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 16:45:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Generative Engine Optimization",
+    "GEO",
+    "misinformation defense",
+    "RAG security",
+    "adversarial evaluation",
+    "LLM safety",
+    "benchmark"
+   ],
+   "field": "大语言模型安全与对抗鲁棒性",
+   "innovations": [
+    "首个GEO误导信息防御基准COUNTER-GEO-BENCH，配对设计隔离误导与可见性效果",
+    "实证证明现有安全护栏对GEO误导信息几乎无效",
+    "提出轻量级C-GEO Guard检测器实现47.6%相对ASR降低"
+   ],
+   "benchmarks": [
+    "COUNTER-GEO-BENCH",
+    "GEO-Bench"
+   ]
+  }
+ }
 }

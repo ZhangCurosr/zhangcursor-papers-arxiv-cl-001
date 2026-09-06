@@ -4,5 +4,26 @@
  "title": "DiscoSign-Discourse-Aware-Text-to-Sign-Language-Gloss-Transl",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-09-03 17:31:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/7ad9a7d8-4baf-4775-81a1-dd4eea18d8cb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/7ad9a7d8-4baf-4775-81a1-dd4eea18d8cb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 16:46:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "sign language processing",
+    "discourse-aware translation",
+    "spatial coreference",
+    "ASL gloss translation",
+    "large language models",
+    "discourse coherence"
+   ],
+   "field": "手语自然语言处理",
+   "innovations": [
+    "首个话语感知文本→ASL 词汇翻译框架，通过显式状态寄存器实现跨句一致性",
+    "三套专门针对 ASL 篇章现象的评测指标（SCA/CGC/QAC_Ap）",
+    "LLM 无关的模块化架构，在 Gemini 2.5 Pro 与 Qwen3.6-35B-A3B 双底座验证有效性"
+   ]
+  }
+ }
 }

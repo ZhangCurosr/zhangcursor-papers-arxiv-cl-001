@@ -4,5 +4,32 @@
  "title": "DiffIE-Diffusion-based-Open-Information-Extraction",
  "token": "sk-owp49a3rO...",
  "created_at": "2026-09-03 06:51:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/b9391d9e-74b4-45de-91a4-605dc0199f28.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/b9391d9e-74b4-45de-91a4-605dc0199f28.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 16:46:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Open Information Extraction",
+    "Discrete Diffusion",
+    "Sequence Labeling",
+    "Non-autoregressive Generation",
+    "Low-resource NLP",
+    "Structured Prediction"
+   ],
+   "field": "开放信息抽取",
+   "innovations": [
+    "将条件离散扩散的随机性作为多输出抽取机制，首次应用于 OpenIE",
+    "样本聚合推理结合宽松匹配聚类，解耦抽取预算与训练",
+    "证明均匀噪声扩散在极小词汇量（|V|=4）下显著优于吸收态扩散"
+   ],
+   "benchmarks": [
+    "CaRB (1-1)",
+    "BenchIE",
+    "CaRB",
+    "WiRe57"
+   ]
+  }
+ }
 }

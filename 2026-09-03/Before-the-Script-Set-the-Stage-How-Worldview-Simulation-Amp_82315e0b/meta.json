@@ -4,5 +4,30 @@
  "title": "Before-the-Script-Set-the-Stage-How-Worldview-Simulation-Amp",
  "token": "sk-yJ5h9Go8b...",
  "created_at": "2026-09-03 06:51:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/5e509d58-1029-4bd1-9309-21355c049e1b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/5e509d58-1029-4bd1-9309-21355c049e1b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 16:44:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多轮越狱",
+    "jailbreak",
+    "社会影响因子",
+    "WORLDVIEWSIM",
+    "MCTS",
+    "HarmBench",
+    "AI 安全评估"
+   ],
+   "field": "大语言模型安全与越狱攻击",
+   "innovations": [
+    "提出 BLUEPRINT 框架，将因子化社会影响策略空间与跨轮世界观模拟模块解耦联合搜索",
+    "揭示抗性模型共享 Task/Capability 转移路径作为从硬拒绝状态恢复的最强机制",
+    "18 因子理论驱动的策略空间实现接近天花板级 ASR 且最低平均查询量（2.46）"
+   ],
+   "benchmarks": [
+    "HarmBench"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "Post-Training-Science-for-Supervised-Fine-Tuning",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-09-02 06:53:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/5a9d1214-7f0a-4f02-95af-828bc543f573.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/5a9d1214-7f0a-4f02-95af-828bc543f573.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 16:42:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Supervised Fine-Tuning",
+    "LoRA",
+    "Learning Rate Scaling",
+    "Mixture-of-Experts",
+    "Muon Optimizer",
+    "SFT Scaling Laws"
+   ],
+   "field": "大语言模型微调方法论",
+   "innovations": [
+    "LoRA最优学习率10^-3在0.6-32B范围内完全平坦且跨家族可迁移",
+    "MoE模型SFT性能由活跃参数与总参数的几何平均决定",
+    "验证NLL在固定配方内可靠排序下游质量但flatness不辅助选择"
+   ],
+   "benchmarks": [
+    "IFEval",
+    "customer-task-production-judges"
+   ]
+  }
+ }
 }

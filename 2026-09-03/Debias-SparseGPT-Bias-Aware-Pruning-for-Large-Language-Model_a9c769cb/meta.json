@@ -4,5 +4,36 @@
  "title": "Debias-SparseGPT-Bias-Aware-Pruning-for-Large-Language-Model",
  "token": "sk-9ieZJEGxv...",
  "created_at": "2026-09-03 06:51:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/ca7d52a3-f8d1-498b-9211-e201544f27fc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/ca7d52a3-f8d1-498b-9211-e201544f27fc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 16:45:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM pruning",
+    "bias mitigation",
+    "model compression",
+    "SparseGPT",
+    "fairness",
+    "post-training pruning",
+    "Hessian-based compression"
+   ],
+   "field": "大语言模型压缩与公平性",
+   "innovations": [
+    "在 SparseGPT 二阶剪枝框架中引入成对输入差分项构建偏置感知 Hessian，首次实现压缩时去偏",
+    "通过 bias-aware saliency 同时优化 mask 选择和权重补偿，保持 O(d³) 复杂度",
+    "揭示校准数据多样性对极端结构化稀疏下公平-性能权衡的关键作用"
+   ],
+   "benchmarks": [
+    "UnQover",
+    "BBQ",
+    "CrowS-Pairs",
+    "MMLU",
+    "HellaSwag",
+    "RealToxicityPrompts",
+    "HarmBench"
+   ]
+  }
+ }
 }

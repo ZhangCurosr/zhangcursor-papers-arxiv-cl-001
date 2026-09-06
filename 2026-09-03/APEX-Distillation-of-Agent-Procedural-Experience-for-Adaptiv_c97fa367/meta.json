@@ -4,5 +4,35 @@
  "title": "APEX-Distillation-of-Agent-Procedural-Experience-for-Adaptiv",
  "token": "sk-NnOQ8YDzm...",
  "created_at": "2026-09-03 06:54:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/0d998d42-dc2d-4964-b025-1c6ae1ab6be8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/0d998d42-dc2d-4964-b025-1c6ae1ab6be8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 16:43:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "deep research agents",
+    "procedural memory distillation",
+    "test-time reinforcement learning",
+    "hierarchical experience",
+    "GRPO",
+    "skill-guided adaptation"
+   ],
+   "field": "Agent 记忆与持续学习",
+   "innovations": [
+    "层次化经验记忆将实例级轨迹与类别级技能解耦并组织于类别-模态 bucket",
+    "三阶段交替 GRPO 使技能蒸馏成为 reward-guided 过程而非固定 prompt 生成",
+    "Skill-guided TTRL 利用技能置信度自适应加权无监督奖励与对齐正则实现在线适应"
+   ],
+   "benchmarks": [
+    "FVQA-test",
+    "HotpotQA",
+    "2WikiMultiHopQA",
+    "SimpleVQA",
+    "LiveVQA",
+    "InfoSeek",
+    "MMSearch"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "Do-Cantonese-Adapted-Language-Models-Better-Predict-Cantones",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-09-03 06:51:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/9e0a138c-ff39-4276-827e-f0d82395b6c9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/9e0a138c-ff39-4276-827e-f0d82395b6c9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 16:46:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "粤语眼动预测",
+    "信息论指标",
+    "词汇 surprisal",
+    "熵减",
+    "语言模型适配",
+    "MCFIX",
+    "CatBoost"
+   ],
+   "field": "计算 psycholinguistics / 低资源语言变体建模",
+   "innovations": [
+    "配对族内轻量 vs 大规模粤语适配对比，揭示适配策略而非单纯规模决定预测拟合",
+    "四项互补信息论指标联合评估，发现熵减最优模型不同于词汇 surprisal 最优模型",
+    "共享候选词表构造跨模型可比 POS surprisal"
+   ],
+   "benchmarks": [
+    "MCFIX Cantonese"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "Do-Cantonese-Adapted-Language-Models-Better-Predict-Cantones",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-09-03 17:31:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/9e0a138c-ff39-4276-827e-f0d82395b6c9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/9e0a138c-ff39-4276-827e-f0d82395b6c9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 16:46:41",
+  "chunks": 1
+ }
 }

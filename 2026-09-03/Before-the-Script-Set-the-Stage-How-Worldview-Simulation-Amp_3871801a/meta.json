@@ -4,5 +4,31 @@
  "title": "Before-the-Script-Set-the-Stage-How-Worldview-Simulation-Amp",
  "token": "sk-yJ5h9Go8b...",
  "created_at": "2026-09-03 17:31:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/242820c4-7019-4510-bdce-83cb9d2827e6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/242820c4-7019-4510-bdce-83cb9d2827e6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 16:43:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-turn jailbreak",
+    "social influence factors",
+    "Monte Carlo Tree Search",
+    "worldview simulation",
+    "HarmBench",
+    "LLM safety evaluation",
+    "vulnerability fingerprint",
+    "factorized strategy space"
+   ],
+   "field": "大语言模型安全与越狱攻击",
+   "innovations": [
+    "将攻击策略解耦为18个心理学因子与跨轮情境模拟，实现可解释的多轮搜索",
+    "在6个前沿模型上平均ASR达79.2%且平均仅需2.46次查询",
+    "揭示抵抗型模型向Task/Capability转换是拒答恢复的共性路径"
+   ],
+   "benchmarks": [
+    "HarmBench"
+   ]
+  }
+ }
 }

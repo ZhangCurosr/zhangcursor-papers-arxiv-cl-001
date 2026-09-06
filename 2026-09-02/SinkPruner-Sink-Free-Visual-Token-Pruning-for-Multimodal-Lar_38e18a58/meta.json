@@ -4,5 +4,34 @@
  "title": "SinkPruner-Sink-Free-Visual-Token-Pruning-for-Multimodal-Lar",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-09-02 06:53:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/02a76506-3207-4017-86aa-439bb4d99a2d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/02a76506-3207-4017-86aa-439bb4d99a2d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 16:41:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multimodal large language models",
+    "visual token pruning",
+    "attention sink",
+    "inference efficiency",
+    "training-free pruning"
+   ],
+   "field": "多模态大模型高效推理",
+   "innovations": [
+    "发现高范数异常token在特征和空间维度高度冗余，提出scale-free top-ρ过滤规则",
+    "级联视觉净化器+文本引导剪枝器的coarse-to-fine框架，显著降低attention sink和dispersion"
+   ],
+   "benchmarks": [
+    "LLaVA-1.5-7B",
+    "Qwen2.5-VL-7B",
+    "LLaVA-NeXT-7B",
+    "MMBench",
+    "MME",
+    "POPE",
+    "VideoMME",
+    "MMStar"
+   ]
+  }
+ }
 }

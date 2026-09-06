@@ -4,5 +4,28 @@
  "title": "Do-Large-Language-Models-Capture-the-Diversity-in-their-Trai",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-09-03 06:52:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/a0a61a25-c90f-4322-80d9-cabdaf5bad21.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/a0a61a25-c90f-4322-80d9-cabdaf5bad21.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 16:46:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "条件多样性",
+    "条件熵",
+    "von Neumann熵",
+    "重加权",
+    "LLM评估",
+    "矩阵熵",
+    "多样性缺口",
+    "MBR解码"
+   ],
+   "field": "生成模型评估与信息论度量",
+   "innovations": [
+    "证明核诱导条件von Neumann熵关于联合分布的凹性，使熵约束投影成为凸优化问题",
+    "提出CEP-BEG后验重加权算法在乘单纯形上保留输入边缘的同时提升条件多样性",
+    "跨LLM与图像生成模态系统揭示条件多样性缺口并提出熵引导采样与CVS-MBR解码"
+   ]
+  }
+ }
 }

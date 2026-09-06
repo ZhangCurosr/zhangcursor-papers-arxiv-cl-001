@@ -4,5 +4,29 @@
  "title": "CORAL-An-LLM-Native-Harness-for-Production-Recommender-Syste",
  "token": "sk-TTQuLp2ot...",
  "created_at": "2026-09-03 06:51:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/a9dcce42-abe2-4583-bcf2-48c456b0262d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/a9dcce42-abe2-4583-bcf2-48c456b0262d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 16:44:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "推荐系统",
+    "LLM代理",
+    "持续优化",
+    "约束优化",
+    "A/B实验",
+    "检索预算分配"
+   ],
+   "field": "推荐系统自动化优化",
+   "innovations": [
+    "提出CORAL框架，将LLM代理置于生产推荐系统的持续闭环中，通过记忆+约束优化器实现预算可行且上下文学习的自动化调优",
+    "形式化为部分可观测非平稳约束优化问题，证明LLM策略无需重训练可在上下文中迭代改进",
+    "同一框架跨两种不同服务与控制类型通用：提升参与度（含低信号用户）与节省服务成本"
+   ],
+   "benchmarks": [
+    "大规模社交平台A/B实验（检索预算场景：会话+0.16%，观看时长+0.15%；服务容量场景：成本节省提升44%且参与度无下降）"
+   ]
+  }
+ }
 }

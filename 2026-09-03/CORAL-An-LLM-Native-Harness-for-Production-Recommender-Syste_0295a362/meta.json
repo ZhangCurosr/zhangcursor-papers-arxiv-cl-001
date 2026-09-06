@@ -4,5 +4,29 @@
  "title": "CORAL-An-LLM-Native-Harness-for-Production-Recommender-Syste",
  "token": "sk-TTQuLp2ot...",
  "created_at": "2026-09-03 17:31:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/a9dcce42-abe2-4583-bcf2-48c456b0262d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/a9dcce42-abe2-4583-bcf2-48c456b0262d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 16:44:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "recommender systems",
+    "LLM agent",
+    "continuous optimization",
+    "constrained allocation",
+    "production system"
+   ],
+   "field": "推荐系统自动化调优",
+   "innovations": [
+    "提出 CORAL harness，将 LLM 嵌入持续闭环以在线优化推荐系统控制参数",
+    "通过记忆与约束优化器结合实现预算可行且上下文可学习的系统级调参",
+    "在同一框架下验证参与度和效率两条互补的工业优化路径"
+   ],
+   "benchmarks": [
+    "A/B 实验评估的线上视频推荐系统",
+    "A/B 实验评估的线上服务容量分配系统"
+   ]
+  }
+ }
 }

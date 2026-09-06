@@ -4,5 +4,26 @@
  "title": "DiscoSign-Discourse-Aware-Text-to-Sign-Language-Gloss-Transl",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-09-03 06:50:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/7ad9a7d8-4baf-4775-81a1-dd4eea18d8cb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/7ad9a7d8-4baf-4775-81a1-dd4eea18d8cb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 16:46:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "sign language translation",
+    "discourse coherence",
+    "ASL gloss translation",
+    "spatial coreference",
+    "question-answer clause",
+    "concept-gloss consistency"
+   ],
+   "field": "手语自然语言处理 / 话语级机器翻译",
+   "innovations": [
+    "首个面向 ASL 的话语感知文本→gloss 翻译框架（SCM/QACM/CGCM 三模块 + 寄存器状态）",
+    "三项新型话语评测指标 SCA/CGC/QAC_Ap，弥补 chrF/COMET 对手语话语相的不敏感",
+    "证明确定性后处理约束 + LLM prompt 寄存器可将空间一致性与概念一致性提升至 SCA=0.84/CGC=0.97"
+   ]
+  }
+ }
 }

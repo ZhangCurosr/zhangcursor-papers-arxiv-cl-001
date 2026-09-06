@@ -4,5 +4,34 @@
  "title": "VerTox-Verifiable-Reward-Guided-Corpus-Poisoning-Against-Neu",
  "token": "sk-yJ5h9Go8b...",
  "created_at": "2026-09-02 17:35:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/a4262295-9c27-43ba-81bc-999548d10300.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/a4262295-9c27-43ba-81bc-999548d10300.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 16:43:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "corpus poisoning",
+    "neural ranking models",
+    "RLVR",
+    "adversarial attacks",
+    "information retrieval",
+    "RAG security",
+    "reward shaping"
+   ],
+   "field": "信息检索安全与对抗鲁棒性",
+   "innovations": [
+    "首个将语料库中毒形式化为RLVR问题的框架，联合优化排名扭曲与事实腐败奖励",
+    "三原子信号（排名扭曲/事实腐败/查询重复惩罚）专用奖励设计，实现紧凑LLM对抗生成",
+    "仅用次优dense retriever代理训练的生成器可强迁移攻击cross-encoder/sparse/commercial embedding模型"
+   ],
+   "benchmarks": [
+    "MS MARCO",
+    "TREC DL 2019",
+    "TREC DL 2020",
+    "BEIR (NQ, FiQA, Touché-2020, TREC-COVID, SciFact, NFCorpus)",
+    "FlashRAG RAG benchmark"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "CoMerge-Conflict-Driven-Preference-Optimization-for-Multi-Ta",
  "token": "sk-RdV3tP4AZ...",
  "created_at": "2026-09-03 06:51:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/a193fefe-0c36-47cc-b273-fdcbd2df7fcf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/a193fefe-0c36-47cc-b273-fdcbd2df7fcf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 16:45:10",
+  "chunks": 1
+ }
 }

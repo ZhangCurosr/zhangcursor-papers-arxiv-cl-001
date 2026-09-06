@@ -4,5 +4,31 @@
  "title": "C-T-Counterfactual-Causal-Reasoning-for-Sentiment-Shifts-in",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-09-03 17:31:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/f1fa2b46-553b-4f81-a7fd-b0061199cc05.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/f1fa2b46-553b-4f81-a7fd-b0061199cc05.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 16:44:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "counterfactual causal reasoning",
+    "sentiment shift",
+    "conversation trees",
+    "social media",
+    "intervention tagging",
+    "event OOD robustness",
+    "causal attribution"
+   ],
+   "field": "社交网络情感分析",
+   "innovations": [
+    "将对话干预作为多标签治疗变量，支持反事实情感推理",
+    "双流表示分解实现高效潜在结果预测",
+    "事件级IRM正则化提升OOD泛化与归因可靠性"
+   ],
+   "benchmarks": [
+    "PHEME",
+    "RumourEval"
+   ]
+  }
+ }
 }

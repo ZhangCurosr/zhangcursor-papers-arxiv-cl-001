@@ -4,5 +4,30 @@
  "title": "Skill-Following-Evaluating-Actual-Skill-Use-in-Retrieval-Ena",
  "token": "sk-xE6uZ2trL...",
  "created_at": "2026-09-02 17:36:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/306a8aa1-9e22-488e-962f-7e607dd98d14.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/306a8aa1-9e22-488e-962f-7e607dd98d14.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 16:42:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM Agent",
+    "Tool Use Evaluation",
+    "Retrieval-Augmented",
+    "Skill Following",
+    "Paired Evaluation",
+    "Selection Bias"
+   ],
+   "field": "LLM Agent 评估与工具使用",
+   "innovations": [
+    "提出RAE指标，在检索触发的同任务配对比较中消除选择偏差，精确测量技能使用的真实因果效应",
+    "揭示聚合检索收益与RAE之间普遍存在的符号反转悖论，证明强聚合指标可能掩盖负面实际效果"
+   ],
+   "benchmarks": [
+    "MBPP+",
+    "HumanEval+",
+    "Math500"
+   ]
+  }
+ }
 }

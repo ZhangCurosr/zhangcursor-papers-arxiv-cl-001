@@ -4,5 +4,32 @@
  "title": "Separating-Syntax-from-Language-A-Mechanistic-Account-of-Tra",
  "token": "sk-JdJPQj6CY...",
  "created_at": "2026-09-02 06:50:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/98b53e2a-ad20-473f-8d93-8808df242c66.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/98b53e2a-ad20-473f-8d93-8808df242c66.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 16:41:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multilingual LLMs",
+    "activation patching",
+    "mechanistic interpretability",
+    "machine translation",
+    "syntax",
+    "word order"
+   ],
+   "field": "多语言大模型可解释性",
+   "innovations": [
+    "首次将翻译分解为句法(S)→语言(L)→词汇(C)三阶段",
+    "定位语言无关的句法敏感注意力头",
+    "证明英语在中间层仅作为概念锚而非句法中介"
+   ],
+   "benchmarks": [
+    "NP Noun Phrase dataset",
+    "SVO Subject-Verb-Object dataset",
+    "MV Modal Verb dataset",
+    "FLORES-200 subset"
+   ]
+  }
+ }
 }

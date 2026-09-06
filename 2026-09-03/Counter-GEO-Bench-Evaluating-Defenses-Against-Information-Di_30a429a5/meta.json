@@ -4,5 +4,30 @@
  "title": "Counter-GEO-Bench-Evaluating-Defenses-Against-Information-Di",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-09-03 06:51:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/14d180eb-afe7-451b-b39d-79ca01b1315c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/14d180eb-afe7-451b-b39d-79ca01b1315c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 16:45:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "GEO",
+    "Generative Engine Optimization",
+    "LLM安全",
+    "防御基准",
+    "检索增强生成",
+    "对抗性防御"
+   ],
+   "field": "LLM安全与防御评估",
+   "innovations": [
+    "提出首个信息扭曲型GEO防御基准COUNTER-GEO-BENCH，配对IP/ID重写分离GEO可见性提升与信息扭曲效应",
+    "揭示现成安全围栏（Granite Guardian/Llama Guard/NeMo）对GEO虚假信息几乎无效，且Granite Guardian可产生防御放大器效应",
+    "提出轻量级对比检测器C-GEO Guard（184M参数），将ASR相对降低47.6%，并在跨重写器迁移中达60.4%"
+   ],
+   "benchmarks": [
+    "COUNTER-GEO-BENCH",
+    "GEO-Bench"
+   ]
+  }
+ }
 }

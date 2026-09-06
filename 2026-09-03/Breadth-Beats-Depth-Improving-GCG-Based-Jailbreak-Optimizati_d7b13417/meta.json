@@ -4,5 +4,31 @@
  "title": "Breadth-Beats-Depth-Improving-GCG-Based-Jailbreak-Optimizati",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-09-03 17:31:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/2c78724b-05aa-45a1-b23d-3755bcb20f79.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/2c78724b-05aa-45a1-b23d-3755bcb20f79.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 16:44:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "jailbreak",
+    "GCG",
+    "adversarial suffix",
+    "optimization-based attack",
+    "transferability",
+    "source-side diagnostics",
+    "TFAL",
+    "HarmBench"
+   ],
+   "field": "大语言模型安全与红队测试",
+   "innovations": [
+    "提出 BOSS 即插即用框架，将优化预算从单条深度贪婪轨迹转移到多条短轨迹的广度探索与选择性延续",
+    "引入 TFAL 作为难尾行为聚焦的源端诊断，与标准 source loss 和行为覆盖率联合排序终端后缀",
+    "实验表明在 GCG/I-GCG/GJO 上同步提升 T-ASR 并削减搜索时间超 50%"
+   ],
+   "benchmarks": [
+    "HarmBench"
+   ]
+  }
+ }
 }

@@ -4,5 +4,35 @@
  "title": "DKL-Decoupled-Knowledge-Learning-for-Instruction-Tuned-Langu",
  "token": "sk-07nfPn8BZ...",
  "created_at": "2026-09-03 06:51:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/81ab5e0b-548e-444c-8c4b-bf6bfccc048a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/81ab5e0b-548e-444c-8c4b-bf6bfccc048a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 16:45:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "知识注入",
+    "扩展预训练",
+    "任务算术",
+    "模型合并",
+    "指令调优LLM",
+    "RAG",
+    "LoRA"
+   ],
+   "field": "大语言模型领域 adaptation",
+   "innovations": [
+    "在base模型上进行扩展预训练学习知识向量并通过任务算术与instruct模型合并，避免二次指令调优",
+    "使用instruct模型的token embeddings训练知识适配器，解决词表分布不匹配问题",
+    "仅需50%语料词数的合成QA即可有效提升知识召回，大幅降低对合成数据的需求"
+   ],
+   "benchmarks": [
+    "RedBook 1",
+    "RedBook 2",
+    "QuALITY",
+    "Big Bench Hard",
+    "GPQA",
+    "MMLU-Pro"
+   ]
+  }
+ }
 }
