@@ -4,5 +4,29 @@
  "title": "MULTIGHOSTBENCH-A-Multilingual-Benchmark-for-Long-Form-LLM-G",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-09-03 06:53:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/b6896dbb-6cb0-4d92-a24e-65c8880ce82c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/b6896dbb-6cb0-4d92-a24e-65c8880ce82c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 22:36:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "作者归属",
+    "多语言LLM",
+    "长文本",
+    "分布偏移",
+    "基准测试",
+    "跨语言迁移"
+   ],
+   "field": "多语言自然语言处理",
+   "innovations": [
+    "首个支持多语言长文本LLM作者归属的基准MULTIGHOSTBENCH，覆盖6种语言与3种文字系统",
+    "首次系统评估OOD-Language偏移，揭示Transformer检测器跨语言迁移能力强于统计/指纹方法",
+    "高资源下部分语言（中/俄）迁移反而退化，揭示多语言场景过拟合风险"
+   ],
+   "benchmarks": [
+    "MULTIGHOSTBENCH"
+   ]
+  }
+ }
 }

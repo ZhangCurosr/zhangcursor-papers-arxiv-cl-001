@@ -4,5 +4,34 @@
  "title": "Predict-Don-t-Iterate-Efficient-Adaptive-Length-Infilling-fo",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-09-03 17:31:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/06a061f3-7eb5-42dd-a8a2-1a5f449e9c3e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/06a061f3-7eb5-42dd-a8a2-1a5f449e9c3e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 22:37:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Diffusion Language Model",
+    "Adaptive-length Infilling",
+    "Multi-slot Parallel Decoding",
+    "Post-hoc Selection",
+    "Predictive Length Estimation",
+    "Bidirectional Attention"
+   ],
+   "field": "扩散语言模型推理优化",
+   "innovations": [
+    "提出单次前向传播的轻量 MLP 探针直接预测 DLM 补全跨度长度，无需预设初始长度",
+    "设计 slot-wise 并行解码与线性插值位置 ID，多候选在近似单候选代价下并行生成",
+    "构造单次前向传播的严格因果 masked scoring probe 实现多候选后验联合评分"
+   ],
+   "benchmarks": [
+    "HumanEval-S/M",
+    "MBPP-S/M",
+    "Java (MultiPL-E)",
+    "C/C++ (MultiPL-E)",
+    "WikiText",
+    "ArXiv Abstract"
+   ]
+  }
+ }
 }

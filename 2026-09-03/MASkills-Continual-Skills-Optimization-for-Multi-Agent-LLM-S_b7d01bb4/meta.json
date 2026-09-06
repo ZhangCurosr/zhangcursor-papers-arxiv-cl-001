@@ -4,5 +4,31 @@
  "title": "MASkills-Continual-Skills-Optimization-for-Multi-Agent-LLM-S",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-09-03 17:31:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/01123e96-2afd-4285-9895-be2bd43d6c21.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/01123e96-2afd-4285-9895-be2bd43d6c21.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 22:36:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多智能体LLM",
+    "持续学习",
+    "技能发现",
+    "语言空间策略梯度",
+    "信用分配",
+    "技能演化"
+   ],
+   "field": "多智能体LLM系统优化",
+   "innovations": [
+    "提出语言空间策略梯度框架，直接优化多智能体技能库而非参数或prompt",
+    "设计技能条件信用分配机制，通过反事实比较实现技能级细粒度归因",
+    "构建包含精炼/归纳/整合/剪枝的四态技能演化算子及验证回滚安全机制"
+   ],
+   "benchmarks": [
+    "HotpotQA",
+    "LoCoMo",
+    "GAIA"
+   ]
+  }
+ }
 }

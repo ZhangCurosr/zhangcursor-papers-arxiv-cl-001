@@ -4,5 +4,31 @@
  "title": "A-Layered-Taxonomy-for-Chinese-Learner-Grammatical-Error-Ann",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-09-03 17:31:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/54ff6b01-91e8-4704-a505-f38ac69c891f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/54ff6b01-91e8-4704-a505-f38ac69c891f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 22:34:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Chinese GEC",
+    "error taxonomy",
+    "learner corpus annotation",
+    "layered annotation scheme",
+    "pedagogical extension",
+    "MuCGEC"
+   ],
+   "field": "中文语法错误校正与学习者语料标注",
+   "innovations": [
+    "提出正字法/非正字法双路径分层标注架构，将CGEC编辑操作与教学功能-句式诊断解耦",
+    "设计14类可选教学扩展码表（ASP/CONST/MOD/DEG等），支持按需模块化采用",
+    "以MuCGEC覆盖分析结合5-LLM一致性测试，识别标注规范边界模糊区域"
+   ],
+   "benchmarks": [
+    "MuCGEC",
+    "NLPCC2018",
+    "YACLC"
+   ]
+  }
+ }
 }

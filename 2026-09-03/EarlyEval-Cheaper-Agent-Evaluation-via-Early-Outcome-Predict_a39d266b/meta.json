@@ -4,5 +4,32 @@
  "title": "EarlyEval-Cheaper-Agent-Evaluation-via-Early-Outcome-Predict",
  "token": "sk-DXHHyylpH...",
  "created_at": "2026-09-03 06:51:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/e10330ae-59ef-4323-aa85-69314a8a08b1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/e10330ae-59ef-4323-aa85-69314a8a08b1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 22:35:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Agent 评测",
+    "early outcome prediction",
+    "benchmark efficiency",
+    "early stopping",
+    "LightGBM classifier",
+    "SWE-bench",
+    "LLM agent evaluation"
+   ],
+   "field": "LLM Agent 评测效率",
+   "innovations": [
+    "提出 early outcome prediction 作为评测降本新维度，通过双分类器在每步实时预测成功/失败并提前终止执行",
+    "构建行为-文本-参考解三族特征与 Platt 校准阈值机制的轻量 EarlyEval 框架，在 leave-one-agent-out 协议下以亚毫秒代价实现高分辨率与高保真排序",
+    "证明预测信号在各特征族内高度冗余，使框架可无缝移植到无 gold patch 基准并保持高保真度"
+   ],
+   "benchmarks": [
+    "SWE-bench Verified",
+    "TerminalBench",
+    "Toolathlon"
+   ]
+  }
+ }
 }

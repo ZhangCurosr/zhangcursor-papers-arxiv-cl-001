@@ -4,5 +4,32 @@
  "title": "ENTANGLED-REPRESENTATIONS-AMPLIFY-COLLAT-ERAL-DAMAGE-IN-UNLE",
  "token": "sk-aEeqX9tmP...",
  "created_at": "2026-09-03 06:51:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/b21a7fdb-981a-451a-9fb9-df0128cc60bd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/b21a7fdb-981a-451a-9fb9-df0128cc60bd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 22:34:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "machine unlearning",
+    "representational entanglement",
+    "selective gradient masking",
+    "interpretability",
+    "retained-forget tradeoff",
+    "gradient routing"
+   ],
+   "field": "机器遗忘与可解释性",
+   "innovations": [
+    "首次通过控制实验直接验证表示纠缠导致遗忘附带损伤的假设",
+    "将SGTM从参数专业化工具创意性重用于控制表征解耦程度",
+    "建立可复用的'控制-验证-测试'范式以验证可解释性结构假设"
+   ],
+   "benchmarks": [
+    "English Wikipedia",
+    "WGA",
+    "WDR",
+    "RMU"
+   ]
+  }
+ }
 }

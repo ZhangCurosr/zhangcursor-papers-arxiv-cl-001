@@ -4,5 +4,33 @@
  "title": "SCX-Router-Streaming-Zero-Shot-Model-Selection-with-a-Decode",
  "token": "sk-FMTQpgZxg...",
  "created_at": "2026-09-03 17:31:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/06f5a484-0545-4c4d-bf87-075ac45d9669.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/06f5a484-0545-4c4d-bf87-075ac45d9669.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 22:39:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM routing",
+    "zero-shot model selection",
+    "GLiClass",
+    "decoder-KV cache",
+    "task ontology",
+    "agent evaluation",
+    "cost-aware inference"
+   ],
+   "field": "大语言模型路由与多模型协同",
+   "innovations": [
+    "将GLiClass分类范式与Qwen3因果解码器结合，提出decoder-KV流式路径实现对话态下的零样本多端点适配度预测",
+    "构建23家族/115类型/345子类型/30领域的任务本体与16.5万合成任务，支撑Agent工作流路由评估",
+    "提出'预测-策略'解耦框架与四类路由模式分类学（direct/attribute-mediated/hybrid/hierarchical）"
+   ],
+   "benchmarks": [
+    "LiveBench",
+    "BBEH",
+    "MuSR",
+    "RouterBench"
+   ]
+  }
+ }
 }

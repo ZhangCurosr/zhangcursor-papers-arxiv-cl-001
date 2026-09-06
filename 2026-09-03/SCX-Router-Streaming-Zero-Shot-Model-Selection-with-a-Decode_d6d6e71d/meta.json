@@ -4,5 +4,32 @@
  "title": "SCX-Router-Streaming-Zero-Shot-Model-Selection-with-a-Decode",
  "token": "sk-FMTQpgZxg...",
  "created_at": "2026-09-03 06:52:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/950edb48-1fa7-46ee-a0af-7f68e5a1c61e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/950edb48-1fa7-46ee-a0af-7f68e5a1c61e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 22:39:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM routing",
+    "zero-shot classification",
+    "decoder KV cache",
+    "task ontology",
+    "model selection",
+    "multi-label scoring",
+    "agentic routing"
+   ],
+   "field": "大语言模型路由与模型选择",
+   "innovations": [
+    "将 GLiClass 标签条件分类范式适配到因果解码器并引入持久化 KV 缓存，实现对话级流式零样本路由",
+    "构建三维任务意图本体与正交领域轴的合成数据管线，生成 16.5 万含完整上下文和验收标准的任务包",
+    "提出信号-策略正交分解架构，将语义分类与硬性合规/成本约束解耦，支持动态端点列表的可替换性能画像"
+   ],
+   "benchmarks": [
+    "LiveBench",
+    "BBEH",
+    "MuSR"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "SALA-Semantic-Aware-Logical-Alignment-for-Complex-Reasoning",
  "token": "sk-ovHaiDbC4...",
  "created_at": "2026-09-03 17:31:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/74422633-9d8a-4333-9970-b9f366b5b756.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/74422633-9d8a-4333-9970-b9f366b5b756.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 22:39:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "In-Context Learning",
+    "Demonstration Selection",
+    "Reasoning Alignment",
+    "Dynamic Time Warping",
+    "Operational Reasoning"
+   ],
+   "field": "大模型推理与少样本学习",
+   "innovations": [
+    "提出任务自适应操作空间自动扩展预定义推理操作集",
+    "设计基于DTW的语义序列对齐方法实现柔性推理匹配"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "SVAMP",
+    "CommonsenseQA",
+    "StrategyQA"
+   ]
+  }
+ }
 }

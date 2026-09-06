@@ -4,5 +4,33 @@
  "title": "NE-R1-Enhancing-Named-Entity-Recognition-Model-via-Reinforce",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-09-03 17:31:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/6cf73d1a-311b-4bd1-8d77-bceeb033ff8d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/6cf73d1a-311b-4bd1-8d77-bceeb033ff8d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 22:36:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Named Entity Recognition",
+    "Retrieval-Augmented Generation",
+    "Reinforcement Learning",
+    "Adaptive Retrieval",
+    "Chain-of-Thought",
+    "GRPO"
+   ],
+   "field": "生成式命名实体识别",
+   "innovations": [
+    "提出自适应检索触发的 NER 框架 NE-R1",
+    "设计两阶段训练（MTCI + 端到端 RL）联合优化检索决策与实体识别",
+    "构建多维度奖励函数（格式/准确率/检索收益）实现难度感知的按需检索"
+   ],
+   "benchmarks": [
+    "MIT-Movie",
+    "MIT-Restaurant",
+    "OntoNotes 5.0",
+    "GENIA",
+    "CrossNER"
+   ]
+  }
+ }
 }

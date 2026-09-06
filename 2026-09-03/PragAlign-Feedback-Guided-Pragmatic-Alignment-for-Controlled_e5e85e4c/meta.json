@@ -4,5 +4,30 @@
  "title": "PragAlign-Feedback-Guided-Pragmatic-Alignment-for-Controlled",
  "token": "sk-1FwfANuN8...",
  "created_at": "2026-09-03 17:31:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/bc1bea6b-96fc-403d-a758-1a567c49f6d0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/bc1bea6b-96fc-403d-a758-1a567c49f6d0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 22:37:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "合成对话生成",
+    "反馈引导生成",
+    "语用对齐",
+    "多约束控制",
+    "LLM评估器",
+    "闭环修订"
+   ],
+   "field": "对话系统与合成数据生成",
+   "innovations": [
+    "闭环生成-评估-修订框架实现多约束语用对齐",
+    "结构化反馈修复最后一公里约束失败",
+    "自动-人工校准分析揭示情感维度评估鸿沟"
+   ],
+   "benchmarks": [
+    "800配对服务对话规范",
+    "1200独立人工评估对话"
+   ]
+  }
+ }
 }

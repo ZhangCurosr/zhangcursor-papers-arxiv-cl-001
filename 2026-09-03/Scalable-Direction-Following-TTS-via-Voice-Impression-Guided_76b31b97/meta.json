@@ -4,5 +4,32 @@
  "title": "Scalable-Direction-Following-TTS-via-Voice-Impression-Guided",
  "token": "sk-dKfLTOMDH...",
  "created_at": "2026-09-03 06:51:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/5f882557-6572-4d15-8383-4a961087fb83.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/5f882557-6572-4d15-8383-4a961087fb83.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 22:39:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "direction-following TTS",
+    "pseudo triplet",
+    "voice impression control",
+    "flow matching",
+    "style transfer",
+    "speaker preservation"
+   ],
+   "field": "零样本语音合成与风格控制",
+   "innovations": [
+    "印象可控TTS生成配对语音+LLM生成方向的伪三元组构建流水线",
+    "基于Rectified Flow Matching的方向条件风格细化器建模随机嵌入变换",
+    "伪数据与真实录音互补策略实现说话人鲁棒性与方向对齐的平衡"
+   ],
+   "benchmarks": [
+    "HiFi-CAPTAIN",
+    "UTMOSv2",
+    "ECAPA-TDNN speaker similarity",
+    "LLM-as-judge alignment evaluation"
+   ]
+  }
+ }
 }

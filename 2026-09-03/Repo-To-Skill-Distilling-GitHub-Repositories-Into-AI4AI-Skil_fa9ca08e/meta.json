@@ -4,5 +4,10 @@
  "title": "Repo-To-Skill-Distilling-GitHub-Repositories-Into-AI4AI-Skil",
  "token": "sk-331OfnzjD...",
  "created_at": "2026-09-03 06:51:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/1b05256c-f466-4889-9651-c04d2553b9d8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/1b05256c-f466-4889-9651-c04d2553b9d8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 22:39:41",
+  "chunks": 4
+ }
 }

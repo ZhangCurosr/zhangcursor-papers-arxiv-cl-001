@@ -4,5 +4,32 @@
  "title": "Predictors-of-Loneliness-in-Older-Adults-Using-Multimodal-An",
  "token": "sk-JqniBRrr0...",
  "created_at": "2026-09-03 17:31:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/6b879366-963e-4596-b9db-36e93588cd90.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/6b879366-963e-4596-b9db-36e93588cd90.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 22:38:49",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "孤独感预测",
+    "多模态分析",
+    "老年健康",
+    "语音情感计算",
+    "数字表型",
+    "公平性评估"
+   ],
+   "field": "老年健康AI / 多模态情感计算",
+   "innovations": [
+    "多模态融合预测老年人连续孤独感（r=0.298）",
+    "首次系统验证LIWC在黑人老年人中的泛化局限并提出LDA/声学替代方案",
+    "提出防泄漏的零振幅掩码与参与者级划分的稳健评估流程"
+   ],
+   "benchmarks": [
+    "CEL孤独感量表",
+    "ExtraTrees回归",
+    "OpenSMILE/Librosa声学特征",
+    "LIWC 2022/N-gram/LDA文本特征"
+   ]
+  }
+ }
 }

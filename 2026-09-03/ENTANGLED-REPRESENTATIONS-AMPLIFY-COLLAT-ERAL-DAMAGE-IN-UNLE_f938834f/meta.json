@@ -4,5 +4,31 @@
  "title": "ENTANGLED-REPRESENTATIONS-AMPLIFY-COLLAT-ERAL-DAMAGE-IN-UNLE",
  "token": "sk-aEeqX9tmP...",
  "created_at": "2026-09-03 17:31:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/e4564e1b-2623-46c5-8fe6-d953ea90f62e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/e4564e1b-2623-46c5-8fe6-d953ea90f62e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 22:35:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "machine unlearning",
+    "representation entanglement",
+    "gradient routing",
+    "selective gradient masking",
+    "retain-forget trade-off",
+    "interpretability"
+   ],
+   "field": "机器学习遗忘与模型可解释性",
+   "innovations": [
+    "首次通过受控实验验证表示纠缠对遗忘副作用的因果影响",
+    "复用SGTM技术实现模型级解纠缠程度的梯度控制",
+    "跨三种遗忘算法的系统性验证纠缠效应的普适性"
+   ],
+   "benchmarks": [
+    "Wikipedia article topics (STEM.Biology, Medicine, Chemistry, etc.)",
+    "WGA, WDR, RMU unlearning methods",
+    "VES, MMD², SW₂² disentanglement metrics"
+   ]
+  }
+ }
 }

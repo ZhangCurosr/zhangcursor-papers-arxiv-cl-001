@@ -4,5 +4,29 @@
  "title": "Loom-Weaving-Diagnostic-Strands-into-Free-Text-Consensus-via",
  "token": "sk-jywkrqzJV...",
  "created_at": "2026-09-03 06:51:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/f6a9d646-44f8-4733-aac9-8634b121aa31.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/f6a9d646-44f8-4733-aac9-8634b121aa31.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 22:35:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Root Cause Analysis",
+    "弱监督",
+    "嵌入空间重加权",
+    "LLM共识",
+    "诊断聚合",
+    "OpenRCA"
+   ],
+   "field": "AIOps / 自动化故障诊断",
+   "innovations": [
+    "将弱监督扩展至连续嵌入空间的自由文本假说聚合",
+    "迭代质心重加权算法以数学方式替代 LLM 辩论解决冲突",
+    "共识与合成解耦架构使轻量模型达到大模型近似精度"
+   ],
+   "benchmarks": [
+    "OpenRCA (Bank, Telecom, Market-1, Market-2)"
+   ]
+  }
+ }
 }

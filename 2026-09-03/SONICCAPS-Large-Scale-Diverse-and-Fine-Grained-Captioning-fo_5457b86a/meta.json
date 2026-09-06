@@ -4,5 +4,32 @@
  "title": "SONICCAPS-Large-Scale-Diverse-and-Fine-Grained-Captioning-fo",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-09-03 17:31:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/79ecdb9f-3aa6-4db3-8ed5-ed0cbe0d7cb1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/79ecdb9f-3aa6-4db3-8ed5-ed0cbe0d7cb1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 22:39:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "audio captioning",
+    "audio-language retrieval",
+    "multi-modal dataset",
+    "CLAP",
+    "diverse captioning",
+    "contrastive learning"
+   ],
+   "field": "音频-语言多模态学习",
+   "innovations": [
+    "提出 SONICCAPS 大规模多样化音频描述数据集（~15M captions / ~700k audios）",
+    "多模态条件化 + few-shot 提示工程实现每音频 ~24 条多样化描述",
+    "揭示 caption 多样性而非单条质量是提升音频检索性能的关键驱动因素"
+   ],
+   "benchmarks": [
+    "AudioCaps-Val",
+    "FoleyBench",
+    "ESC-50",
+    "Commercial Internal Benchmarks"
+   ]
+  }
+ }
 }

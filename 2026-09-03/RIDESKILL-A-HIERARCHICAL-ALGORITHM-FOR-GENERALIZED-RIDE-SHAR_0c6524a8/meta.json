@@ -4,5 +4,35 @@
  "title": "RIDESKILL-A-HIERARCHICAL-ALGORITHM-FOR-GENERALIZED-RIDE-SHAR",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-09-03 06:53:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/6766a580-cf99-4f4f-a9f6-3edc0a2dd01b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/6766a580-cf99-4f4f-a9f6-3edc0a2dd01b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 22:37:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "ride-sharing dispatch",
+    "multi-agent reinforcement learning",
+    "LLM automated algorithm design",
+    "hierarchical skill combination",
+    "generalization across scenarios"
+   ],
+   "field": "自动驾驶出行动力系统 / 网约车智能调度",
+   "innovations": [
+    "首个面向拼车的 LLM 自动进化算法框架，支持多场景多目标零样本适应",
+    "GDPO 风格群体相对适应度解决跨任务奖励尺度不可比问题",
+    "顺序重定位器通过逐步衰减有效需求避免多车 flocking 冲突"
+   ],
+   "benchmarks": [
+    "RideGym NYC taxi dataset",
+    "Nearest Matching",
+    "Kuhn-Munkres",
+    "Gale-Shapley",
+    "REDA",
+    "BMG-Q",
+    "MFRL",
+    "Zhang et al. 2026"
+   ]
+  }
+ }
 }

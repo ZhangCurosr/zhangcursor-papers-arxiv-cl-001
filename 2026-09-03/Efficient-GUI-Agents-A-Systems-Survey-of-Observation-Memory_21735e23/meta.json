@@ -4,5 +4,34 @@
  "title": "Efficient-GUI-Agents-A-Systems-Survey-of-Observation-Memory",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-09-03 17:31:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/f8351ce9-32d9-444c-9be9-81704d600acc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/f8351ce9-32d9-444c-9be9-81704d600acc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 22:35:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "GUI Agent",
+    "Efficiency",
+    "Observation Compression",
+    "KV Cache",
+    "Action Abstraction",
+    "System Survey",
+    "Multimodal Agent"
+   ],
+   "field": "多模态Agent系统效率优化",
+   "innovations": [
+    "提出观察/记忆/行动/系统四轴效率分类体系",
+    "揭示选择性思考与可恢复失败的核心趋势",
+    "呼吁建立成功归一化的GPU成本与延迟评估标准"
+   ],
+   "benchmarks": [
+    "OSWorld-Human",
+    "MMBench-GUI",
+    "WebArena",
+    "OSWorld",
+    "AndroidWorld"
+   ]
+  }
+ }
 }

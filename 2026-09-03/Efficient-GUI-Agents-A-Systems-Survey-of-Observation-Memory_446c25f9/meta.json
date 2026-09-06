@@ -4,5 +4,35 @@
  "title": "Efficient-GUI-Agents-A-Systems-Survey-of-Observation-Memory",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-09-03 06:53:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/f8351ce9-32d9-444c-9be9-81704d600acc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/f8351ce9-32d9-444c-9be9-81704d600acc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 22:35:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "GUI Agent",
+    "Efficiency",
+    "Systems Survey",
+    "Observation Compression",
+    "Memory Efficiency",
+    "Action Pruning",
+    "Runtime Optimization"
+   ],
+   "field": "GUI Agent 效率优化",
+   "innovations": [
+    "提出观察/记忆/动作/系统四轴 GUI Agent 效率分类体系",
+    "系统揭示各效率方法的成本转移现象并呼吁全链路诚实记账",
+    "归纳五大跨层效率设计范式（选择性读取、全局到局部视觉、可恢复记忆、验证感知控制、混合运行时）"
+   ],
+   "benchmarks": [
+    "OSWorld-Human",
+    "MMBench-GUI",
+    "WebArena",
+    "AndroidWorld",
+    "OSWorld",
+    "BrowserGym"
+   ]
+  }
+ }
 }

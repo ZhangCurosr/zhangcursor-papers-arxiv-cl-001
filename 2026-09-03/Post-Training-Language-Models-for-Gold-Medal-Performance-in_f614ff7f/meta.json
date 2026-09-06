@@ -4,5 +4,34 @@
  "title": "Post-Training-Language-Models-for-Gold-Medal-Performance-in",
  "token": "sk-aQHhxC28I...",
  "created_at": "2026-09-03 06:50:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/b45d3684-ff35-434b-8ff3-d0c70aed9ce6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/b45d3684-ff35-434b-8ff3-d0c70aed9ce6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 22:36:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "competitive programming",
+    "post-training",
+    "SFT",
+    "reinforcement learning",
+    "test-time compute",
+    "GenCorrect",
+    "IOI",
+    "LLM code generation"
+   ],
+   "field": "代码生成与推理能力评测",
+   "innovations": [
+    "端到端流水线：合成推理轨迹+SFT+可执行奖励RL+测试时多轮GenCorrect",
+    "以累计子任务反馈与多样性中心选择为核心的迭代精化策略",
+    "在IOI 2026实时同条件下首次超越人类最高得分"
+   ],
+   "benchmarks": [
+    "IOI 2025",
+    "IOI 2026",
+    "ICPC 2025",
+    "LiveCodeBench Pro"
+   ]
+  }
+ }
 }

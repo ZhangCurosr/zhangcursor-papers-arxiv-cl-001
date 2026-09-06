@@ -4,5 +4,10 @@
  "title": "Predictors-of-Loneliness-in-Older-Adults-Using-Multimodal-An",
  "token": "sk-JqniBRrr0...",
  "created_at": "2026-09-03 06:51:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/6b879366-963e-4596-b9db-36e93588cd90.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/6b879366-963e-4596-b9db-36e93588cd90.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 22:38:53",
+  "chunks": 4
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Predict-Don-t-Iterate-Efficient-Adaptive-Length-Infilling-fo",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-09-03 06:51:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/7fbf0d27-a5f1-4ece-b7cf-33ca88137303.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/7fbf0d27-a5f1-4ece-b7cf-33ca88137303.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 22:37:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Diffusion Language Model",
+    "Adaptive-length Infilling",
+    "Parallel Decoding",
+    "Post-hoc Selection",
+    "Position-ID Design"
+   ],
+   "field": "扩散语言模型解码策略",
+   "innovations": [
+    "无需预设初始长度的直接长度预测探针",
+    "多slot并行解码与slot-wise注意力掩码隔离",
+    "后验连贯性评分的一次性前向传播选择机制"
+   ],
+   "benchmarks": [
+    "HumanEval-Infilling",
+    "MBPP",
+    "MultiPL-E",
+    "WikiText",
+    "arXiv"
+   ]
+  }
+ }
 }

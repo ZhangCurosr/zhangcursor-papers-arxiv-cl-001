@@ -4,5 +4,37 @@
  "title": "Door-in-the-Face-Requests-and-Refusal-Behaviour-in-Large-Lan",
  "token": "sk-vBvZ06NsJ...",
  "created_at": "2026-09-03 06:51:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/ad95ff3c-899f-445e-969b-1644fd6de773.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/ad95ff3c-899f-445e-969b-1644fd6de773.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 22:35:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "door-in-the-face",
+    "LLM compliance",
+    "sequential request",
+    "jailbreak",
+    "refusal behavior",
+    "multi-turn persuasion",
+    "model family heterogeneity"
+   ],
+   "field": "大语言模型安全与对齐",
+   "innovations": [
+    "发现DITF在Anthropic与OpenAI/Google模型间符号反转，跨九模型证实模型家族是效应方向的决定性因素",
+    "提出交付物类型(operational vs. inert)是退让能否生效的根本前提，并将265条操作性被拒改写为惰性后263条始终合规",
+    "在真实拒绝场景下建立四条件因果鉴定设计，证明让步溢价跨模型通用但暖场抑制同样普遍"
+   ],
+   "benchmarks": [
+    "60-item constructed verdict set",
+    "XSTest",
+    "OR-Bench-Hard",
+    "FalseReject",
+    "HarmBench",
+    "StrongREJECT",
+    "JailbreakBench",
+    "EVOREFUSE"
+   ]
+  }
+ }
 }

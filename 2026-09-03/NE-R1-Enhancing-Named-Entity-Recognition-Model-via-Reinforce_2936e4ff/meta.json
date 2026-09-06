@@ -4,5 +4,34 @@
  "title": "NE-R1-Enhancing-Named-Entity-Recognition-Model-via-Reinforce",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-09-03 06:51:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/269a05d3-1982-4dca-a87d-106da4bef94d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/269a05d3-1982-4dca-a87d-106da4bef94d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 22:36:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Named Entity Recognition",
+    "Retrieval-Augmented Generation",
+    "Reinforcement Learning",
+    "GRPO",
+    "Adaptive Retrieval",
+    "Chain-of-Thought",
+    "Multi-Task Learning"
+   ],
+   "field": "生成式命名实体识别",
+   "innovations": [
+    "首次将按需检索机制引入 NER，通过多维度奖励引导模型在简单/困难样本上差异化检索",
+    "设计基于 pass-rate 的多任务指令微调初始化方案，解决检索 NER 冷启动问题",
+    "在 GRPO 中屏蔽检索证据 token 梯度，实现工具调用与策略更新的解耦优化"
+   ],
+   "benchmarks": [
+    "OntoNotes 5.0",
+    "MIT-Movie",
+    "MIT-Restaurant",
+    "GENIA",
+    "CrossNER"
+   ]
+  }
+ }
 }

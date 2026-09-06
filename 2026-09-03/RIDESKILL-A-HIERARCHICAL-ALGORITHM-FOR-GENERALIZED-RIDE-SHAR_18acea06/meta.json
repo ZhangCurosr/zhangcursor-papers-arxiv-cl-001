@@ -4,5 +4,36 @@
  "title": "RIDESKILL-A-HIERARCHICAL-ALGORITHM-FOR-GENERALIZED-RIDE-SHAR",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-09-03 17:31:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/6766a580-cf99-4f4f-a9f6-3edc0a2dd01b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/6766a580-cf99-4f4f-a9f6-3edc0a2dd01b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 22:38:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "ride-sharing",
+    "multi-agent reinforcement learning",
+    "large language model",
+    "algorithm evolution",
+    "order dispatch",
+    "hierarchical planning"
+   ],
+   "field": "自动驾驶与智慧出行调度",
+   "innovations": [
+    "首个LLM-driven自动进化拼车调度框架，支持跨场景跨目标zero-shot泛化",
+    "三层分层架构（技能库+组合器+重定位器）结合GDPO-style群体相对适应度消除reward scale偏差",
+    "事件探针机制使组合器零样本读取黑盒目标函数并动态融合多技能"
+   ],
+   "benchmarks": [
+    "RideGym NYC Taxi 2024",
+    "Nearest Matching",
+    "Kuhn-Munkres",
+    "Gale-Shapley",
+    "REDA",
+    "BMG-Q",
+    "MFRL",
+    "Zhang et al. 2026 (open/close)"
+   ]
+  }
+ }
 }
