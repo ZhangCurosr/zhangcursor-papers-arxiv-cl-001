@@ -4,5 +4,32 @@
  "title": "Ready-to-Speak-Aligning-LLMs-for-TTS-Friendly-Text-Generatio",
  "token": "sk-owp49a3rO...",
  "created_at": "2026-09-02 17:35:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/df420a18-fae3-492c-9463-5485554b9fce.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/df420a18-fae3-492c-9463-5485554b9fce.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 09:58:21",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "TTS-friendly",
+    "text generation",
+    "LLM alignment",
+    "feature-aware tuning",
+    "low-resource"
+   ],
+   "field": "语音合成友好文本生成",
+   "innovations": [
+    "FaST 通过显式高层特征加权实现 TTS-friendly 文本生成对齐",
+    "两个从零构建的偏好数据集 CORA 与 Recipe",
+    "启发式指标作为 TTS→ASR 指标与人工评估的可靠代理"
+   ],
+   "benchmarks": [
+    "CORA",
+    "Recipe",
+    "MUSHRA",
+    "Heur-CER",
+    "Heur-WER"
+   ]
+  }
+ }
 }

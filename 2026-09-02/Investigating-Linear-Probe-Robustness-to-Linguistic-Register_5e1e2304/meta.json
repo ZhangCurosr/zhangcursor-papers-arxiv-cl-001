@@ -4,5 +4,34 @@
  "title": "Investigating-Linear-Probe-Robustness-to-Linguistic-Register",
  "token": "sk-1FwfANuN8...",
  "created_at": "2026-09-02 06:51:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/ae4c404a-f7c4-46f6-b7f6-ca93351bd759.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/ae4c404a-f7c4-46f6-b7f6-ca93351bd759.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 09:54:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "linear probe",
+    "truth direction",
+    "linguistic register",
+    "medical QA",
+    "robustness",
+    "calibration",
+    "benchmark"
+   ],
+   "field": "可解释AI与医疗NLP",
+   "innovations": [
+    "构建首个隔离风格/专业/语料库的医学QA重写基准",
+    "发现线性真理方向在领域内稳健但跨语料库脆弱",
+    "证明信号主要为线性且需后处理校准"
+   ],
+   "benchmarks": [
+    "MedQA",
+    "MedMCQA",
+    "MMLU-medical",
+    "MedRedQA",
+    "S-MedQA"
+   ]
+  }
+ }
 }

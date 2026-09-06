@@ -4,5 +4,31 @@
  "title": "PersianAnonymizer-Evaluating-LLM-Labeled-Training-for-Eficie",
  "token": "sk-AG7sAmdzS...",
  "created_at": "2026-09-02 06:56:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/8f3b9649-e168-4956-9562-9681790a6996.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/8f3b9649-e168-4956-9562-9681790a6996.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 09:54:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Named Entity Recognition",
+    "Text Anonymization",
+    "Persian",
+    "Low-Resource NLP",
+    "LLM-as-Labeler",
+    "PII Detection",
+    "Industrial Chat"
+   ],
+   "field": "低资源语言命名实体识别与隐私保护",
+   "innovations": [
+    "提出LCR指标评估实体token覆盖率",
+    "首次系统比较三种LLM标注器在波斯语匿名化NER上的可学习性",
+    "构建首个波斯语客服PII标注数据集并验证轻量化NLP部署路径"
+   ],
+   "benchmarks": [
+    "PEYMA",
+    "OSS工业聊天测试集"
+   ]
+  }
+ }
 }

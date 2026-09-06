@@ -4,5 +4,32 @@
  "title": "Eficient-SWE-Agent-Benchmarking-via-Trajectory-Aware-Evaluat",
  "token": "sk-aQHhxC28I...",
  "created_at": "2026-09-02 06:48:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/05c1df3e-8ad7-4ff1-9adf-3591d06ab51a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/05c1df3e-8ad7-4ff1-9adf-3591d06ab51a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 09:53:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Item Response Theory",
+    "SWE Agent Benchmarking",
+    "Trajectory-Aware Evaluation",
+    "LUPI",
+    "Subset Selection",
+    "Efficient Evaluation"
+   ],
+   "field": "软件工程师Agent评估与高效基准测试",
+   "innovations": [
+    "将历史执行轨迹作为特权信息融入4PL IRT框架，用于校准子集选择与能力估计",
+    "提出轨迹感知Fisher信息×ESS加权打分与难度分层预算分配策略",
+    "设计教师-学生LUPI蒸馏架构，使测试时仅需全局item参数与校准响应即可外推全基准性能"
+   ],
+   "benchmarks": [
+    "SWE-bench Lite",
+    "SWE-bench Verified",
+    "SWE-bench Full",
+    "SWE-bench Pro"
+   ]
+  }
+ }
 }

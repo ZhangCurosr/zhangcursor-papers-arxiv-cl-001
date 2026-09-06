@@ -4,5 +4,37 @@
  "title": "SFAD-Speculative-Factuality-Aware-Decoding",
  "token": "sk-uDfT0rM1x...",
  "created_at": "2026-09-02 17:36:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/b6db6ea9-d5eb-415a-8b50-deb375138d79.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/b6db6ea9-d5eb-415a-8b50-deb375138d79.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 09:59:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "投机解码",
+    "幻觉缓解",
+    "上下文忠实性",
+    "DPO",
+    "日志导向",
+    "知识冲突"
+   ],
+   "field": "大语言模型推理优化",
+   "innovations": [
+    "首个将上下文忠实性增强与投机解码加速统一的框架",
+    "提出认识论摩擦指标检测自信幻觉",
+    "非对称 ReLU 残差注入实现选择性事实修正"
+   ],
+   "benchmarks": [
+    "HotpotQA",
+    "PopQA",
+    "TriviaQA",
+    "TofuEval",
+    "XSum",
+    "CLAPNQ",
+    "ExpertQA",
+    "HAGRID",
+    "LLM-AggreFact"
+   ]
+  }
+ }
 }

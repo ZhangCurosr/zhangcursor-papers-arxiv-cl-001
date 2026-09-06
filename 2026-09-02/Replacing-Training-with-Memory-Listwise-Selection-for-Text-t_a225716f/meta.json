@@ -4,5 +4,31 @@
  "title": "Replacing-Training-with-Memory-Listwise-Selection-for-Text-t",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-09-02 06:53:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/a27944fe-3508-42dc-a2b3-98ee57661bb8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/a27944fe-3508-42dc-a2b3-98ee57661bb8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 09:57:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Text-to-SQL",
+    "listwise selection",
+    "fine-tuning-free",
+    "memory retrieval",
+    "positional bias",
+    "SQL candidate selection"
+   ],
+   "field": "Text-to-SQL 选择策略",
+   "innovations": [
+    "用结构化记忆检索替代 fine-tuning 学习选择标准",
+    "基于执行结果的分组排列策略缓解位置偏差，排列空间从 O(n!) 降至 O(g!)",
+    "MAP-SQL 在无微调前提下超越 SOTA R³-SQL，token 消耗减少 2.92×"
+   ],
+   "benchmarks": [
+    "BIRD-dev",
+    "Spider-test",
+    "EHRSQL"
+   ]
+  }
+ }
 }

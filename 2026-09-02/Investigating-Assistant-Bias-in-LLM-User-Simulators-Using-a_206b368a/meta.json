@@ -4,5 +4,32 @@
  "title": "Investigating-Assistant-Bias-in-LLM-User-Simulators-Using-a",
  "token": "sk-uRWIgUMtb...",
  "created_at": "2026-09-02 17:36:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/2b985ebb-cae5-4ee2-8269-a994ca402ef8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/2b985ebb-cae5-4ee2-8269-a994ca402ef8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 09:53:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "user simulation",
+    "assistant bias",
+    "activation steering",
+    "representation engineering",
+    "role vector",
+    "LLM evaluation"
+   ],
+   "field": "LLM 用户模拟与表征分析",
+   "innovations": [
+    "通过角色特定反思的对比激活添加提取用户角色向量",
+    "证明用户角色方向与助手特质方向几何负相关",
+    "揭示固定强度 steering 改善真实性但会夸大行为并掩盖个体画像的权衡"
+   ],
+   "benchmarks": [
+    "SimulatorArena",
+    "RealUserSim",
+    "WildChat",
+    "LMSYS-Chat-1M"
+   ]
+  }
+ }
 }

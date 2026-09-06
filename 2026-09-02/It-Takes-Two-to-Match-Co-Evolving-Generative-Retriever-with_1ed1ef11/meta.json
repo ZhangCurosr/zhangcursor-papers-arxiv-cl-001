@@ -4,5 +4,32 @@
  "title": "It-Takes-Two-to-Match-Co-Evolving-Generative-Retriever-with",
  "token": "sk-iaeYeK7Vr...",
  "created_at": "2026-09-02 17:36:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/0b5c67b2-252e-46c5-acbb-e17d0b675757.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/0b5c67b2-252e-46c5-acbb-e17d0b675757.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 09:54:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "generative retrieval",
+    "reinforcement learning",
+    "co-evolving",
+    "keyword matching",
+    "inverted index",
+    "query-item alignment",
+    "GRPO",
+    "search ranking"
+   ],
+   "field": "生成式检索与强化学习",
+   "innovations": [
+    "提出CoGR框架，用LLM同时在查询侧和商品侧生成关键词并通过倒排索引直接匹配",
+    "设计两阶段训练：SFT建立对齐初始化后交替GRPO优化两侧，共享F1目标协同演化",
+    "提出反事实边际奖励精确衡量单商品关键词对全局检索F1的增量贡献"
+   ],
+   "benchmarks": [
+    "WANDS",
+    "Internal APP Marketplace"
+   ]
+  }
+ }
 }

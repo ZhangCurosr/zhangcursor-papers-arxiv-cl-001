@@ -4,5 +4,38 @@
  "title": "SFAD-Speculative-Factuality-Aware-Decoding",
  "token": "sk-uDfT0rM1x...",
  "created_at": "2026-09-02 06:50:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/b6db6ea9-d5eb-415a-8b50-deb375138d79.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/b6db6ea9-d5eb-415a-8b50-deb375138d79.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 09:59:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "speculative decoding",
+    "hallucination mitigation",
+    "contextual faithfulness",
+    "direct preference optimization",
+    "logit steering",
+    "large language models"
+   ],
+   "field": "LLM 推理优化与事实一致性",
+   "innovations": [
+    "首次将推测解码与上下文忠实性结合，通过认识摩擦检测幻觉",
+    "基于原子扰动的细粒度偏好数据集 ConFide",
+    "单向 ReLU 引导机制在不破坏语言流形的前提下提升忠实 token 概率"
+   ],
+   "benchmarks": [
+    "HotpotQA",
+    "PopQA",
+    "TriviaQA",
+    "XSum",
+    "TofuEval",
+    "CLAPNQ",
+    "ExpertQA",
+    "HAGRID",
+    "LLM-AggreFact",
+    "MQUAKE"
+   ]
+  }
+ }
 }

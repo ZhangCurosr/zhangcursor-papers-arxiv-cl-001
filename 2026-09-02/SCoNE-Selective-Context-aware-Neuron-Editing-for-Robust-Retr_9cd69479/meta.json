@@ -4,5 +4,10 @@
  "title": "SCoNE-Selective-Context-aware-Neuron-Editing-for-Robust-Retr",
  "token": "sk-kBmY9IM4V...",
  "created_at": "2026-09-02 06:50:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/a692fcde-88be-4c25-b299-831c27b96cd1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/a692fcde-88be-4c25-b299-831c27b96cd1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 10:00:28",
+  "chunks": 1
+ }
 }

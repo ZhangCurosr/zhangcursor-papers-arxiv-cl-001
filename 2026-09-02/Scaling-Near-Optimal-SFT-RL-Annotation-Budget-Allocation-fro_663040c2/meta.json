@@ -4,5 +4,35 @@
  "title": "Scaling-Near-Optimal-SFT-RL-Annotation-Budget-Allocation-fro",
  "token": "sk-331OfnzjD...",
  "created_at": "2026-09-02 06:50:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/4ce4eccf-7e81-4db3-ae18-6d2d64c8af36.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/4ce4eccf-7e81-4db3-ae18-6d2d64c8af36.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 09:59:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "SFT-RL预算分配",
+    "近优区域",
+    "跨尺度迁移",
+    "DPO",
+    "GRPO",
+    "LLM后训练",
+    "数据混合优化",
+    "scaling laws"
+   ],
+   "field": "LLM后训练与对齐",
+   "innovations": [
+    "提出近优区域概念替代单一最优比率，刻画SFT-RL预算分配的宽平台特性",
+    "证明近优区域从小型代理模型可靠迁移至大型目标模型（ε=5%时94.3%命中率）",
+    "建立成本不对称性框架，揭示SFT标注成本上升时分配灵活性增强的规律"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "IFEval",
+    "Reddit TL;DR",
+    "HelpSteer",
+    "Reward Model评分"
+   ]
+  }
+ }
 }

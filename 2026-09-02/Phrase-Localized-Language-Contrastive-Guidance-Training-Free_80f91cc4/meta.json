@@ -4,5 +4,10 @@
  "title": "Phrase-Localized-Language-Contrastive-Guidance-Training-Free",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-09-02 17:36:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/1ddfebdf-3a5c-415e-94c8-227fb28ebd67.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/1ddfebdf-3a5c-415e-94c8-227fb28ebd67.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 09:56:04",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,30 @@
  "title": "SDARE-BENCH-Evaluating-Large-Language-Models-on-Conversation",
  "token": "sk-vBvZ06NsJ...",
  "created_at": "2026-09-02 06:49:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/6e41fff1-86b7-4015-9407-ae42b8eb4bb4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/6e41fff1-86b7-4015-9407-ae42b8eb4bb4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 09:59:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM 安全",
+    "污名化检测",
+    "对话式基准",
+    "开放生成评测",
+    "群组对话安全",
+    "偏见评估"
+   ],
+   "field": "大语言模型安全与对齐",
+   "innovations": [
+    "首个覆盖二元对话与多人群组对话的场景化污名检测与响应生成联合基准",
+    "构造群组压力变体揭示模型在社交主导叙事下的极端污名顺从（97.5%）",
+    "基于专家标注训练多标签响应分类器实现可扩展的开放输出质量评估"
+   ],
+   "benchmarks": [
+    "SDARE-Bench",
+    "SocialStigmaQA"
+   ]
+  }
+ }
 }

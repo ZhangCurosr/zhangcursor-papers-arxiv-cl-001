@@ -4,5 +4,29 @@
  "title": "RPCBench-A-Benchmark-for-Proactive-Premise-Critique-in-LLM-b",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-09-02 17:35:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/7103ede3-5c5e-4af3-8694-bb5f15feb728.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/7103ede3-5c5e-4af3-8694-bb5f15feb728.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 09:56:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "premise critique",
+    "LLM recommendation",
+    "benchmark",
+    "evidence faithfulness",
+    "overthinking",
+    "error detection"
+   ],
+   "field": "LLM-based Recommender Systems Evaluation",
+   "innovations": [
+    "提出首个面向推荐场景的主动前提批判基准 RPCBench，覆盖 10 类前提故障与显式 H/C/Q 证据边界",
+    "构建 CPCC 复合指标串联检测-定位-策略全流程，并引入 EFI/FFR/F1R 评估证据忠实度",
+    "首次系统量化推理长度与批判质量的非单调关系，发现过度思考惩罚与隐性批判抑制现象"
+   ],
+   "benchmarks": [
+    "RPCBench"
+   ]
+  }
+ }
 }

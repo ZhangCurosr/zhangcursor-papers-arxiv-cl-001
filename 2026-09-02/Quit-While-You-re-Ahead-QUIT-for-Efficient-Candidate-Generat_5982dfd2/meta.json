@@ -4,5 +4,10 @@
  "title": "Quit-While-You-re-Ahead-QUIT-for-Efficient-Candidate-Generat",
  "token": "sk-QooHq4eB2...",
  "created_at": "2026-09-02 06:52:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/2ecb1909-85f9-4750-b246-4811db72aa83.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/2ecb1909-85f9-4750-b246-4811db72aa83.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 09:56:29",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,33 @@
  "title": "Right-Frame-Wrong-Rule-Cultural-Cues-Expose-the-Financial-Kn",
  "token": "sk-yjjHVmEWF...",
  "created_at": "2026-09-02 17:35:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/71291453-9462-446d-ad7a-f491e091fa10.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/71291453-9462-446d-ad7a-f491e091fa10.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 09:58:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "normative pluralism",
+    "cultural bias",
+    "Islamic finance",
+    "stereotype trap",
+    "LLM evaluation",
+    "four-choice taxonomy",
+    "activation patching"
+   ],
+   "field": "多文化/规范性LLM评估",
+   "innovations": [
+    "提出规范多元主义评估设定与CI/CW/II/IW四选项分类法解耦框架选择与框架内正确性",
+    "发现并命名'刻板印象陷阱'：文化线索激活伊斯兰框架但非前沿模型框架内正确率骤降57-66%",
+    "通过activation patching定位承诺门控于网络深度55-84%，证明路由与能力正交"
+   ],
+   "benchmarks": [
+    "WDB-Set-A (n=304 bilateral)",
+    "WDB-Set-B Western-anchor (n=64)",
+    "WDB-Set-C Islamic-anchor (n=41)",
+    "SAHM"
+   ]
+  }
+ }
 }

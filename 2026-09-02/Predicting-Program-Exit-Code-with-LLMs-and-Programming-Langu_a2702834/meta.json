@@ -4,5 +4,32 @@
  "title": "Predicting-Program-Exit-Code-with-LLMs-and-Programming-Langu",
  "token": "sk-hRG9yTz20...",
  "created_at": "2026-09-02 17:36:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/48c0ed6b-5a7e-4ba6-9236-9320eedcae13.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/48c0ed6b-5a7e-4ba6-9236-9320eedcae13.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 09:55:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Program Executability Prediction",
+    "Operational Semantics",
+    "K Framework",
+    "Large Language Models",
+    "Semantic Reasoning",
+    "Code Understanding"
+   ],
+   "field": "程序语义理解与形式化方法",
+   "innovations": [
+    "提出PrEx任务：给定形式化语义规则和程序，预测执行结果及违反的规则，剥离轨迹生成复杂度",
+    "设计KeywordSwap和KeywordObf语义偏移机制，系统判别LLM是遵循给定规则还是依赖预训练先验",
+    "构建含有效/无效程序对的C*基准（2946个程序），支持跨来源和语义偏移的系统性评估"
+   ],
+   "benchmarks": [
+    "PrEx",
+    "PLSemanticsBench",
+    "CRUXEval",
+    "REval"
+   ]
+  }
+ }
 }

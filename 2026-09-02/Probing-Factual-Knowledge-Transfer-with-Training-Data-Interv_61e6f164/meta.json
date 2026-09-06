@@ -4,5 +4,32 @@
  "title": "Probing-Factual-Knowledge-Transfer-with-Training-Data-Interv",
  "token": "sk-haVkJ3VAf...",
  "created_at": "2026-09-02 17:35:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/a927cfdb-cc43-49d9-b612-d2cd6982ab75.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/a927cfdb-cc43-49d9-b612-d2cd6982ab75.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 09:56:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "跨语言知识迁移",
+    "事实知识探测",
+    "训练数据干预",
+    "多语言语言模型",
+    "因果推断",
+    "SIFT数据集"
+   ],
+   "field": "多语言自然语言处理",
+   "innovations": [
+    "提出基于训练数据干预的因果框架以量化跨语言事实迁移量",
+    "构建 SIFT 数据集支持事实移除干预与双难度候选评估",
+    "揭示源语实体频率是跨语言迁移的核心瓶颈，波斯相关事实迁移率极低"
+   ],
+   "benchmarks": [
+    "SIFT",
+    "LAMA",
+    "ECLeKTic",
+    "KLAR"
+   ]
+  }
+ }
 }

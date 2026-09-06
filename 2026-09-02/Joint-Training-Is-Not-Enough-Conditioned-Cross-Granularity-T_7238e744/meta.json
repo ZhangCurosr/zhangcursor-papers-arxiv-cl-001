@@ -4,5 +4,31 @@
  "title": "Joint-Training-Is-Not-Enough-Conditioned-Cross-Granularity-T",
  "token": "sk-3sasXMHBZ...",
  "created_at": "2026-09-02 06:55:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/b02d699b-b2d5-46ed-96d4-47ba8bad5e91.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/b02d699b-b2d5-46ed-96d4-47ba8bad5e91.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 09:54:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态文档理解",
+    "条件化训练",
+    "互增强效应",
+    "多任务学习",
+    "视觉语言模型",
+    "交叉粒度训练"
+   ],
+   "field": "多模态文档理解",
+   "innovations": [
+    "条件化训练：将一任务金标准输出作为另一任务提示上下文（仅训练时）实现跨粒度互增强",
+    "内容vs格式的严格分离控制：字节级相同的占位符控制与跨文档混淆控制揭示不同语料库上的增益来源差异",
+    "Doc-MRE标注层：在三个现有基准上构建的细粒度-粗粒度配对标注及证据链接"
+   ],
+   "benchmarks": [
+    "CORD",
+    "WildReceipt",
+    "FUNSD"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "IntroConformal-Conformal-Factuality-Guarantees-for-Large-Vis",
  "token": "sk-9ieZJEGxv...",
  "created_at": "2026-09-02 06:50:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/c1b5ca0a-47a4-47e0-ab64-f68540a3640d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/c1b5ca0a-47a4-47e0-ab64-f68540a3640d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 09:53:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Conformal Risk Control",
+    "LVLM Factuality",
+    "Introspective Signals",
+    "Hallucination Detection",
+    "Conformal Prediction",
+    "Vision-Language Models"
+   ],
+   "field": "视觉语言模型可信生成",
+   "innovations": [
+    "提出基于内省信号的无训练 CRC 框架 IntroConformal",
+    "设计验证概率 S_prob 单次前向提取 Yes-token 归一化概率"
+   ],
+   "benchmarks": [
+    "MSCOCO",
+    "CUB+Stanford Cars+Stanford Dogs",
+    "SROIE"
+   ]
+  }
+ }
 }

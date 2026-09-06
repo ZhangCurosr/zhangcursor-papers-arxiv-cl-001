@@ -4,5 +4,31 @@
  "title": "PersuaRL-Reinforcement-Learning-Driven-Multi-Expert-Selectio",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-09-02 17:35:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/4241fe11-d112-423c-b9d0-2321a3d9ce07.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/4241fe11-d112-423c-b9d0-2321a3d9ce07.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 09:55:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "说服性对话生成",
+    "强化学习",
+    "多专家选择",
+    "保险对话",
+    "工具增强 LLM",
+    "GRPO",
+    "InsureDial"
+   ],
+   "field": "任务型对话系统与计算说服",
+   "innovations": [
+    "将专家选择形式化为 context-conditioned RL 决策问题，通过交替优化实现 Selector 与 Generator 协同适应",
+    "设计五维复合奖励函数（策略一致性/意图一致性/语境适当性/非重复性/LLM-Judge），无需中间监督引导专家选择",
+    "提出 InsureDial 数据集，填补机动车保险说服对话领域空白，并在跨域 DEAL 上验证 domain-agnostic 迁移能力"
+   ],
+   "benchmarks": [
+    "InsureDial",
+    "DEAL"
+   ]
+  }
+ }
 }

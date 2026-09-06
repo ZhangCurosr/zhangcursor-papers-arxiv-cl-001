@@ -4,5 +4,10 @@
  "title": "Reliability-Challenges-in-Diffusion-Vision-Language-Models",
  "token": "sk-LV19Ft0NN...",
  "created_at": "2026-09-02 17:35:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/dedf5679-8aba-4cd5-89bd-82b33efcd36d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/dedf5679-8aba-4cd5-89bd-82b33efcd36d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 09:57:40",
+  "chunks": 1
+ }
 }

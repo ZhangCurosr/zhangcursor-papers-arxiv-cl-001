@@ -4,5 +4,32 @@
  "title": "Right-Frame-Wrong-Rule-Cultural-Cues-Expose-the-Financial-Kn",
  "token": "sk-yjjHVmEWF...",
  "created_at": "2026-09-02 06:52:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/355cafcb-c5a7-4099-b9b8-553e48b6b557.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/355cafcb-c5a7-4099-b9b8-553e48b6b557.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-06 09:58:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "normative pluralism",
+    "cultural bias",
+    "Islamic finance",
+    "stereotype trap",
+    "mechanistic interpretability",
+    "four-choice taxonomy",
+    "LLM evaluation"
+   ],
+   "field": "文化对齐与大模型评估",
+   "innovations": [
+    "提出规范多元主义评估设定与四选项分类法分离框架选择与框架内正确性",
+    "揭示刻板印象陷阱：文化线索导向目标框架但导致框架内57-66%错误",
+    "通过激活patching定位承诺门（深度0.55-0.84）并建立门深度与刻板率的定量关联（r=-0.78）"
+   ],
+   "benchmarks": [
+    "WDB-Set-A-Base (n=304 bilateral)",
+    "WDB-Set-B (Western anchor, n=64)",
+    "WDB-Set-C (Islamic anchor, n=41)"
+   ]
+  }
+ }
 }
