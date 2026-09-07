@@ -4,5 +4,10 @@
  "title": "HalluPeer-A-Taxonomy-driven-Benchmark-for-Detecting-Hallucin",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-09-04 06:56:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/153a73ca-66a9-44a2-8881-170512b91346.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/153a73ca-66a9-44a2-8881-170512b91346.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 11:02:18",
+  "chunks": 1
+ }
 }

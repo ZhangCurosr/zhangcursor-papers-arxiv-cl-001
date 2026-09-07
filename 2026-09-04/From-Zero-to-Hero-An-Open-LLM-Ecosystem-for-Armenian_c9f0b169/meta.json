@@ -4,5 +4,36 @@
  "title": "From-Zero-to-Hero-An-Open-LLM-Ecosystem-for-Armenian",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-09-04 17:22:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/af0ec799-592c-440e-abd9-f16e0366201c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/af0ec799-592c-440e-abd9-f16e0366201c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 11:02:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "低资源语言模型",
+    "持续预训练",
+    "数据去污染",
+    "翻译验证",
+    "亚美尼亚语LLM",
+    "灾难性遗忘"
+   ],
+   "field": "低资源语言大模型",
+   "innovations": [
+    "提出答案保持型盲解验证范式，将翻译数学数据用于持续预训练以逆转灾难性遗忘",
+    "发布首个完整开源且可复现的亚美尼亚语LLM生态系统（语料+模型+配方+评测）",
+    "首次系统量化公共语料库对低资源语言评测集的污染率并提出去污染标准流程"
+   ],
+   "benchmarks": [
+    "Belebele-hye",
+    "m-MMLU-hy",
+    "INCLUDE-Armenian",
+    "ARC-hy",
+    "HellaSwag-hy",
+    "MultiBLiMP-hye",
+    "ArmBench-LLM",
+    "FineWeb-2-hy"
+   ]
+  }
+ }
 }

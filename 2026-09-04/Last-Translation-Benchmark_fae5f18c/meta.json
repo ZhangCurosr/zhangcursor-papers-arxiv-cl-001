@@ -4,5 +4,30 @@
  "title": "Last-Translation-Benchmark",
  "token": "sk-DXHHyylpH...",
  "created_at": "2026-09-04 06:55:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/87055d47-4139-45cf-b1bc-7424778a83f4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/87055d47-4139-45cf-b1bc-7424778a83f4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 11:06:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "机器翻译评估",
+    "验证规则",
+    "挑战集",
+    "多语言",
+    "LLM-as-verifier",
+    "众包数据集"
+   ],
+   "field": "机器翻译评估与基准测试",
+   "innovations": [
+    "提出基于人工验证规则的LLM验证器评估范式，实现可解释、抗自偏见的自动化翻译质量评估",
+    "构建社区众包驱动的活数据集LTB，归纳式发现翻译难点而非演绎式预设",
+    "建立翻译难度分类法，从词汇语义/非组合性/语外知识/约束条件多维度刻画模型失败根源"
+   ],
+   "benchmarks": [
+    "LTBv1",
+    "LTBv1-eval"
+   ]
+  }
+ }
 }

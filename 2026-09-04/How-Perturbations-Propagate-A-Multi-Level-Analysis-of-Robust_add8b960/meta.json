@@ -4,5 +4,33 @@
  "title": "How-Perturbations-Propagate-A-Multi-Level-Analysis-of-Robust",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-09-04 17:22:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/891c022a-c003-4451-b189-9c62adf046fa.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/891c022a-c003-4451-b189-9c62adf046fa.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 11:03:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "robustness",
+    "perturbation propagation",
+    "mechanistic interpretability",
+    "activation patching",
+    "intrinsic dimension",
+    "CKA",
+    "adversarial robustness",
+    "attention heads"
+   ],
+   "field": "大语言模型鲁棒性与可解释性",
+   "innovations": [
+    "提出输出-几何-组件三级联动扰动传播评估框架",
+    "HotFlip对抗扰动与rate-matched随机替换的配对对照设计",
+    "发现copying head分数与activation patching恢复高度相关（r≈0.7）"
+   ],
+   "benchmarks": [
+    "WikiText-2",
+    "GPT-2系列（base/medium/large/xl）",
+    "Qwen2.5（0.5B/1.5B）"
+   ]
+  }
+ }
 }

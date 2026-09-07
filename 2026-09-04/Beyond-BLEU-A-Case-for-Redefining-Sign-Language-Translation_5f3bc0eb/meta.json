@@ -4,5 +4,34 @@
  "title": "Beyond-BLEU-A-Case-for-Redefining-Sign-Language-Translation",
  "token": "sk-owp49a3rO...",
  "created_at": "2026-09-04 17:22:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/3b009b51-0928-45e3-94f5-f5f179a98149.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/3b009b51-0928-45e3-94f5-f5f179a98149.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 11:00:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "sign language translation",
+    "evaluation metric",
+    "BLEU",
+    "question answering",
+    "LLM-based evaluation",
+    "content preservation",
+    "low-resource multimodal"
+   ],
+   "field": "手语翻译评估",
+   "innovations": [
+    "提出基于开放权重LLM的QA协议测量显著内容保留，替换BLEU-4评估",
+    "引入三层LLM质量控闸门和多模态输入消融，揭示gloss-free系统间无统计差异",
+    "构建训练相似度局部敏感性度量，证明BLEU-4比QA更易受分布重叠影响"
+   ],
+   "benchmarks": [
+    "Phoenix-2014T",
+    "CSL-Daily",
+    "WMT19/WMT21 paraphrase",
+    "OpusParcus",
+    "PAWS-X"
+   ]
+  }
+ }
 }

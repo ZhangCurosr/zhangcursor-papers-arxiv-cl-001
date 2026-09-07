@@ -4,5 +4,30 @@
  "title": "KhatianDoc-A-Human-Verified-Benchmark-Diagnosing-Multimodal",
  "token": "sk-NnOQ8YDzm...",
  "created_at": "2026-09-04 17:22:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/4b2acecc-5a52-4c7a-b9b8-434a6ef1a5d0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/4b2acecc-5a52-4c7a-b9b8-434a6ef1a5d0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 11:04:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Bengali legal document understanding",
+    "multimodal LLM benchmark",
+    "low-resource OCR",
+    "mixed-radix numeral system",
+    "privacy-preserving anonymization",
+    "document information extraction",
+    "legal QA"
+   ],
+   "field": "低资源多模态法律文档理解",
+   "innovations": [
+    "首个覆盖孟加拉 RS Khatian 与 Ana-Ganda 十六进制分数的人工核验基准",
+    "四维递进任务揭示前沿 MLLM 在非标数字系统与多跳法律推理上的系统性能力缺失",
+    "位置化令牌匿名化与双轨评分协议解决隐私保护与多跳指代的兼容难题"
+   ],
+   "benchmarks": [
+    "KhatianDoc"
+   ]
+  }
+ }
 }

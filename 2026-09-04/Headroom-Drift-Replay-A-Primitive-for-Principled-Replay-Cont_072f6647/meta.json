@@ -4,5 +4,45 @@
  "title": "Headroom-Drift-Replay-A-Primitive-for-Principled-Replay-Cont",
  "token": "sk-JqniBRrr0...",
  "created_at": "2026-09-04 17:22:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/9a334dbd-a4be-4967-8a7b-094c9c2f47df.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/9a334dbd-a4be-4967-8a7b-094c9c2f47df.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 11:02:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "GRPO",
+    "Reinforcement Learning",
+    "Replay",
+    "Reasoning Models",
+    "Post-training",
+    "Policy Drift",
+    "Experience Replay",
+    "Agentic Search"
+   ],
+   "field": "大语言模型强化学习后训练",
+   "innovations": [
+    "将 GRPO 重放决策正交分解为 Headroom（学习价值）与 Policy Drift（策略兼容性）两个可控轴",
+    "提出组级重放原语，无需辅助生成或训练 machinery 即可优于朴素重放并匹配更强基线",
+    "发现并实证重放可延迟熵坍缩，且 drift 阈值可跨模型规模复用"
+   ],
+   "benchmarks": [
+    "AIME24",
+    "AMC23",
+    "MATH500",
+    "Minerva",
+    "OlympiadBench",
+    "Geometry3K",
+    "MathVista",
+    "MathVision",
+    "NQ",
+    "TriviaQA",
+    "PopQA",
+    "HotpotQA",
+    "2WikiMultiHopQA",
+    "Musique",
+    "Bamboogle"
+   ]
+  }
+ }
 }

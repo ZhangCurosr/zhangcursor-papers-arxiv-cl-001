@@ -4,5 +4,37 @@
  "title": "ALRA-Adaptive-Local-Relational-Alignment-for-Logit-Based-Pre",
  "token": "sk-AG7sAmdzS...",
  "created_at": "2026-09-04 17:22:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/1c894bce-532a-4cb6-8c7b-9d827706ab0b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/1c894bce-532a-4cb6-8c7b-9d827706ab0b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 10:59:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "knowledge distillation",
+    "autoregressive language models",
+    "logit-based distillation",
+    "adaptive token selection",
+    "relational distillation",
+    "pre-training distillation"
+   ],
+   "field": "大语言模型压缩与蒸馏",
+   "innovations": [
+    "教师锚定+学生提议的自适应局部词元选择机制，按教师条件有效支撑尺寸相对batch均值动态确定局部预算",
+    "ALD：将全局KL分解为质量+局部条件+剩余条件三项并对条件项赋单位系数以避免低质量区域被抑制",
+    "SWPRA：基于学生概率质量与概率差构造成对权重，聚焦学生当前区分度弱的竞争性词元对"
+   ],
+   "benchmarks": [
+    "HellaSwag",
+    "LAMBADA-OpenAI",
+    "WinoGrande",
+    "OpenBookQA",
+    "ARC-Challenge",
+    "ARC-Easy",
+    "PIQA",
+    "SocialIQA",
+    "StoryCloze-2016"
+   ]
+  }
+ }
 }

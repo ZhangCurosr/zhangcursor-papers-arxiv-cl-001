@@ -4,5 +4,34 @@
  "title": "How-Far-Can-Synthetic-Data-Take-Thai-OCR",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-09-04 06:56:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/69da12ef-3a92-4c41-840b-7ead836d4ef2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/69da12ef-3a92-4c41-840b-7ead836d4ef2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 11:03:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "合成数据",
+    "光学字符识别",
+    "泰文OCR",
+    "文档重建",
+    "低资源语言",
+    "视觉语言模型",
+    "训练粒度"
+   ],
+   "field": "多语言/低资源OCR",
+   "innovations": [
+    "解耦合成数据中字体、布局、字形等真实感因素的独立贡献",
+    "揭示页面级与裁片区级训练下最优合成数据源域策略的反转现象",
+    "构建纯合成数据训练的0.9B参数泰文OCR模型，性能超越7B开源模型"
+   ],
+   "benchmarks": [
+    "Heldout",
+    "Handwriting",
+    "Easy Handwriting",
+    "ThaiOCRBench",
+    "SEA-DocBench"
+   ]
+  }
+ }
 }

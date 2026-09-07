@@ -4,5 +4,10 @@
  "title": "KnowVis-Knowledge-Centric-Visual-Summarization-for-Video-Lec",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-09-04 17:22:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/baaf2977-1c91-4fc4-b57e-2f377ffd5ee6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/baaf2977-1c91-4fc4-b57e-2f377ffd5ee6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 11:06:06",
+  "chunks": 1
+ }
 }

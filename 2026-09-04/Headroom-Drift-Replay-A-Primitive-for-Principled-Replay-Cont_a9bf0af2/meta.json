@@ -4,5 +4,33 @@
  "title": "Headroom-Drift-Replay-A-Primitive-for-Principled-Replay-Cont",
  "token": "sk-JqniBRrr0...",
  "created_at": "2026-09-04 06:56:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/de16566c-1f6d-4258-8fc3-e91d99e21446.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/de16566c-1f6d-4258-8fc3-e91d99e21446.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 11:03:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Reinforcement Learning",
+    "Replay Control",
+    "GRPO",
+    "Reasoning Models",
+    "Policy Optimization",
+    "Sample Efficiency"
+   ],
+   "field": "大语言模型强化学习后训练",
+   "innovations": [
+    "将重放控制解耦为学习价值排序(Headroom)和策略兼容性门控(Policy Drift)两个正交维度",
+    "仅通过teacher-forced reevaluation实现无额外生成开销的原则性重放选择",
+    "在数学推理/Agentic Search/多模态推理三域均超越简单重放并匹敌更复杂重放方法"
+   ],
+   "benchmarks": [
+    "AIME24",
+    "MATH500",
+    "Search-R1",
+    "Geometry3K",
+    "MathVista"
+   ]
+  }
+ }
 }

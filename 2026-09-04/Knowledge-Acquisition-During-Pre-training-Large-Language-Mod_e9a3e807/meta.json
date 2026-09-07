@@ -4,5 +4,31 @@
  "title": "Knowledge-Acquisition-During-Pre-training-Large-Language-Mod",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-09-04 06:55:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/7cd4b3bc-c6a9-476d-bb97-ef2f4a481ef6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/7cd4b3bc-c6a9-476d-bb97-ef2f4a481ef6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 11:05:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "auxiliary views",
+    "knowledge acquisition",
+    "continued pre-training",
+    "data diversity",
+    "LLM pre-training",
+    "knowledge representation"
+   ],
+   "field": "大语言模型预训练与知识获取",
+   "innovations": [
+    "在固定token预算下，将重复文档的token分配给辅助视图（教科书/博客/问答）可同时提升事实回忆与推理能力，且效果随模型规模单调增长",
+    "揭示了辅助视图的机制性签名——FFN层中上层中部变化减少、中层与末层变化增加的层wise偏置，以及以更少参数扰动实现更高学习效果的压缩效应",
+    "澄清paraphrasing仅在较小batch size下有益，调和了Prior work的矛盾结论，并证明辅助视图质量不依赖强教师模型"
+   ],
+   "benchmarks": [
+    "LAMA-style factual probes",
+    "LAMA-style inference probes",
+    "OLMo-2-32B/13B/7B/1B on domain-adapted MCQA"
+   ]
+  }
+ }
 }

@@ -4,5 +4,34 @@
  "title": "INVESTIGATING-THE-ABILITY-OF-LARGE-LANGUAGE-MODELS-TO-ANALYZ",
  "token": "sk-CZoysi7P5...",
  "created_at": "2026-09-04 17:22:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/859ebaf4-598f-423b-b726-850004d87572.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/859ebaf4-598f-423b-b726-850004d87572.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 11:04:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Large Language Models",
+    "Diabetes",
+    "Dietary Guidelines",
+    "Prompt Engineering",
+    "Benchmark Dataset",
+    "Health Informatics",
+    "Recipe Analysis",
+    "Reasoning"
+   ],
+   "field": "医疗大模型评测",
+   "innovations": [
+    "构建首个糖尿病食谱适宜性评估基准（7607条正负均衡）",
+    "提出三层梯度Prompt解构医学知识检索/概念理解/演绎推理能力",
+    "引入Precision-Recall稳定性指标量化模型保守偏置"
+   ],
+   "benchmarks": [
+    "Recipe1M",
+    "MayoClinic Diabetes Recipes",
+    "Diabetes UK Recipes",
+    "Diabetes Food Hub"
+   ]
+  }
+ }
 }

@@ -4,5 +4,35 @@
  "title": "Language-Language-Models-and-What-We-re-Talking-About",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-09-04 17:22:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/37430865-4bab-4374-a4e1-fa2fd1cb9a4d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/37430865-4bab-4374-a4e1-fa2fd1cb9a4d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 11:06:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "大语言模型",
+    "低资源语言",
+    "指令微调",
+    "机器翻译数据",
+    "语言模型评估",
+    "对齐",
+    "立场论文"
+   ],
+   "field": "多语言NLP与语言技术伦理",
+   "innovations": [
+    "提出预训练-指令微调-对齐三阶段语言失真链条分析框架",
+    "倡导区分技术产品导向与语言研究导向两类LLM目标",
+    "以意大利语LLM生态为实证批判翻译/合成数据主导范式的语言保真度危机"
+   ],
+   "benchmarks": [
+    "MMLU-IT",
+    "Calamita",
+    "Multi-NRC",
+    "NEWSUM-IT",
+    "SQuAD-IT",
+    "XFORMAL意大利语子集"
+   ]
+  }
+ }
 }

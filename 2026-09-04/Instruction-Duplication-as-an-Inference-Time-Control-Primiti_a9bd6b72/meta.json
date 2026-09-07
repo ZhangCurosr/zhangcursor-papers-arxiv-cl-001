@@ -4,5 +4,31 @@
  "title": "Instruction-Duplication-as-an-Inference-Time-Control-Primiti",
  "token": "sk-TTQuLp2ot...",
  "created_at": "2026-09-04 17:22:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/c553ccff-505c-43d0-81f2-89d8d2f1f765.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/c553ccff-505c-43d0-81f2-89d8d2f1f765.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 11:04:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Inference-time Control",
+    "Instruction Duplication",
+    "Trajectory State",
+    "Machine-readable Protocol",
+    "Answer Engineering",
+    "Factorial Prompt Design"
+   ],
+   "field": "LLM推理时控制与可解释性",
+   "innovations": [
+    "定义并验证了仅重复程序性指令作为推理时黑盒控制原语",
+    "通过2x2x2因子设计解耦了副本数与位置效应，揭示了轨迹状态与答案准确率的解离",
+    "展示了微小显式改进在下游确定性控制器（AE）中的放大价值"
+   ],
+   "benchmarks": [
+    "MedQA",
+    "MedXpertQA",
+    "AfriMed-QA"
+   ]
+  }
+ }
 }

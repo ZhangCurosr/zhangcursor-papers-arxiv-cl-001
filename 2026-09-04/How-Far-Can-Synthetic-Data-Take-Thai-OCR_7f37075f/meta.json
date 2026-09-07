@@ -4,5 +4,33 @@
  "title": "How-Far-Can-Synthetic-Data-Take-Thai-OCR",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-09-04 17:22:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/ac1b98b3-cb20-4e1d-9901-661bcda289b9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/ac1b98b3-cb20-4e1d-9901-661bcda289b9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 11:03:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "合成数据",
+    "泰语OCR",
+    "文档重建",
+    "低资源语言",
+    "VLM",
+    "手写识别"
+   ],
+   "field": "低资源机器视觉",
+   "innovations": [
+    "可控文档重建流水线解构合成数据迁移要素",
+    "发现训练粒度决定域内/域外重建优势反转",
+    "0.9B合成数据模型超越7B Typhoon OCR v1"
+   ],
+   "benchmarks": [
+    "ThaiOCRBench",
+    "SEA-DocBench",
+    "Heldout",
+    "Handwriting",
+    "Easy Handwriting"
+   ]
+  }
+ }
 }

@@ -4,5 +4,39 @@
  "title": "LNGRAM-V2-LATENT-N-GRAM-MEMORY-WITH-IN-TERPRETABLE-DISCRETE",
  "token": "sk-qf4fjeNDd...",
  "created_at": "2026-09-04 06:57:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/2e832c31-bca1-4806-89e2-5005e3462bab.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/2e832c31-bca1-4806-89e2-5005e3462bab.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 11:06:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "latent n-gram memory",
+    "conditional memory",
+    "interpretable discrete representations",
+    "GQA readout",
+    "surrogate gradient",
+    "vision-language models",
+    "model interpretability"
+   ],
+   "field": "高效记忆机制与大模型可解释性",
+   "innovations": [
+    "解耦路由数、内存维度与骨干宽度的可扩展条件记忆设计",
+    "反事实代理梯度在硬离散寻址中的稳定训练方法",
+    "仅凭离散 ID 即可保留并读出连续隐状态大部分语义的机制"
+   ],
+   "benchmarks": [
+    "OCRBench",
+    "MathVista",
+    "MM-Vet",
+    "HallusionBench",
+    "MM-Star",
+    "MMMU",
+    "AI2D",
+    "MMBench-EN",
+    "MMBench-CN",
+    "Benchmark V2.1"
+   ]
+  }
+ }
 }

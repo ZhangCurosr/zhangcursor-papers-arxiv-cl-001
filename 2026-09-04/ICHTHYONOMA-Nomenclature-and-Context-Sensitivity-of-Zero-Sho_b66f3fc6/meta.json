@@ -4,5 +4,31 @@
  "title": "ICHTHYONOMA-Nomenclature-and-Context-Sensitivity-of-Zero-Sho",
  "token": "sk-07nfPn8BZ...",
  "created_at": "2026-09-04 06:56:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/913dc145-ee50-460a-b430-88c339c54a41.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/913dc145-ee50-460a-b430-88c339c54a41.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 11:04:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "zero-shot vision-language model",
+    "BioCLIP",
+    "Biological species recognition",
+    "nomenclature sensitivity",
+    "multilingual VLM",
+    "context robustness",
+    "freshwater fish"
+   ],
+   "field": "生物视觉-语言模型与细粒度物种识别",
+   "innovations": [
+    "跨模型×跨源零样本鱼类基准，揭示命名/语言/提示/上下文四重敏感性",
+    "引入Jina CLIP v2作为多语言诊断对照，解耦生物专业化与多语言对齐",
+    "配对上下文干预阶梯结合FDR校正与置换零模型，量化物种异质性影响"
+   ],
+   "benchmarks": [
+    "BFF-15",
+    "SylFishBD"
+   ]
+  }
+ }
 }

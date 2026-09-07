@@ -4,5 +4,36 @@
  "title": "KnowVis-Knowledge-Centric-Visual-Summarization-for-Video-Lec",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-09-04 06:56:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/5b52797b-5057-4085-8ce4-b4b2d986d685.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/5b52797b-5057-4085-8ce4-b4b2d986d685.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 11:05:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Video Summarization",
+    "Educational Visualization",
+    "Cognitive Load",
+    "Multimodal Large Language Model",
+    "Knowledge Graph",
+    "Narrative Visualization",
+    "Threshold Concepts"
+   ],
+   "field": "教育多模态内容生成与认知减负",
+   "innovations": [
+    "提出V→K→T两阶段框架，将教育心理学理论工程化实现概念图谱构建与叙事故事板生成",
+    "引入标签传播与多归属子图机制构建知识单元，并在生成器前插入体裁选择+分镜的结构化中介层",
+    "发布125讲座10学科的多模态数据集（CC BY-NC-SA 4.0），配套1079个结构化视觉摘要与概念图"
+   ],
+   "benchmarks": [
+    "Accuracy",
+    "Clarity",
+    "Information Density",
+    "Mental Effort",
+    "Learning Effectiveness",
+    "Knowledge Retention",
+    "Knowledge Transfer"
+   ]
+  }
+ }
 }

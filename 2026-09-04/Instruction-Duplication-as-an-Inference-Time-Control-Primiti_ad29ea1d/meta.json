@@ -4,5 +4,32 @@
  "title": "Instruction-Duplication-as-an-Inference-Time-Control-Primiti",
  "token": "sk-TTQuLp2ot...",
  "created_at": "2026-09-04 06:55:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/ee423384-7628-48fc-bbf7-b67a426460cf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/ee423384-7628-48fc-bbf7-b67a426460cf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 11:04:35",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "instruction duplication",
+    "inference-time control",
+    "trajectory editing",
+    "protocol compliance",
+    "black-box intervention",
+    "Answer Engineering",
+    "medical reasoning"
+   ],
+   "field": "大语言模型推理控制与轨迹编辑",
+   "innovations": [
+    "定义指令重复为最小黑盒推理时控制原语，仅重复程序性指令即可改变机器可消费的显式轨迹状态",
+    "通过2×2×2因子设计分离复制次数与放置位置，发现trailing duplicate为最强干预",
+    "揭示协议状态改善与答案准确性不变之间的解离，并通过下游Answer Engineering实验验证其操作性价值"
+   ],
+   "benchmarks": [
+    "MedQA",
+    "MedXpertQA",
+    "AfriMed-QA"
+   ]
+  }
+ }
 }

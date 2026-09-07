@@ -4,5 +4,34 @@
  "title": "Knowledge-Acquisition-During-Pre-training-Large-Language-Mod",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-09-04 17:21:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/0b2b03f0-b1b6-4156-ad40-80bff237181e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/0b2b03f0-b1b6-4156-ad40-80bff237181e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 11:05:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "auxiliary views",
+    "knowledge acquisition",
+    "pre-training",
+    "continued pre-training",
+    "domain adaptation",
+    "model interpretability",
+    "data diversity",
+    "LLM pretraining"
+   ],
+   "field": "大语言模型预训练与知识获取机制",
+   "innovations": [
+    "提出Auxiliary Views概念并证明其对知识与推理的因果增益，超越单纯paraphrasing",
+    "揭示辅助视图通过FFN层间参数重新分布和参数压缩机制提升学习效率",
+    "澄清paraphrasing效果的batch size依赖边界，调和既往矛盾发现"
+   ],
+   "benchmarks": [
+    "OLMo-2-1B/7B/13B/32B",
+    "Qwen-2.5-7B",
+    "6435 Factual Probes",
+    "430 Inference Probes"
+   ]
+  }
+ }
 }

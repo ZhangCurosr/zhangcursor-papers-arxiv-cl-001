@@ -4,5 +4,30 @@
  "title": "Accountable-AI-with-Grounded-Faithful-Consistent-Actionable",
  "token": "sk-gD7m2ian9...",
  "created_at": "2026-09-04 07:01:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/426ca250-0471-418d-8035-a58ad637f0f4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/426ca250-0471-418d-8035-a58ad637f0f4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 11:01:15",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "临床试验匹配",
+    "可问责AI",
+    "SMT求解器",
+    "自忠实",
+    "可解释决策",
+    "神经符号AI"
+   ],
+   "field": "可解释与可信AI",
+   "innovations": [
+    "将LLM语义解析与SMT/MAXSMT约束求解解耦，理论保证政策一致性与自忠实度",
+    "首次定义并自动评估self-faithfulness，提出PivotalFlipRate指标",
+    "生成可披露假设与反事实关键条件的临床可读问责制品"
+   ],
+   "benchmarks": [
+    "SIGIR 2016",
+    "TREC 2021 Clinical Trials track"
+   ]
+  }
+ }
 }

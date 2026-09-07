@@ -4,5 +4,34 @@
  "title": "Language-Language-Models-and-What-We-re-Talking-About",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-09-04 06:56:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/37430865-4bab-4374-a4e1-fa2fd1cb9a4d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/37430865-4bab-4374-a4e1-fa2fd1cb9a4d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 11:06:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "语言模型",
+    "指令微调",
+    "对齐",
+    "低资源语言",
+    "合成数据",
+    "评估基准",
+    "计算语言学"
+   ],
+   "field": "计算语言学/NLP基础问题反思",
+   "innovations": [
+    "提出LLM设计的根本二分法：技术产品型 vs. 语言研究工具型",
+    "系统揭示意大利语LLM数据链中自然语言从预训练到评估各环节的流失问题",
+    "倡导基于原生语言基准和多元对齐范式的领域反思"
+   ],
+   "benchmarks": [
+    "MMLU-IT",
+    "Calamita",
+    "Multi-NRC",
+    "NEWSUM-IT",
+    "SQuAD-IT"
+   ]
+  }
+ }
 }

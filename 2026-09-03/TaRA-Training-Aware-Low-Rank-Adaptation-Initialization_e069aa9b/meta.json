@@ -4,5 +4,34 @@
  "title": "TaRA-Training-Aware-Low-Rank-Adaptation-Initialization",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-09-03 06:51:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/8779c60b-9fba-4b1a-a772-caad0f4bdbdb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/8779c60b-9fba-4b1a-a772-caad0f4bdbdb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 10:59:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LoRA初始化",
+    "参数高效微调",
+    "Fisher信息矩阵",
+    "K-FAC",
+    "梯度对齐",
+    "低秩分解"
+   ],
+   "field": "大语言模型参数高效微调",
+   "innovations": [
+    "基于Fisher曲率加权的训练感知低秩初始化，使低秩梯度逼近全秩梯度",
+    "联合激活与梯度协方差进行SVD分解并映射回原始参数空间",
+    "证明低秩初始化在训练初期的梯度对齐优势可延续至训练全程"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "MATH",
+    "HumanEval",
+    "MBPP",
+    "Commonsense-170K",
+    "GLUE"
+   ]
+  }
+ }
 }

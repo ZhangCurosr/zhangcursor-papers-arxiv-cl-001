@@ -4,5 +4,31 @@
  "title": "Beyond-Majority-Vote-Multi-Perspective-Adjudication-for-Medi",
  "token": "sk-jywkrqzJV...",
  "created_at": "2026-09-04 17:22:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/f66fe76e-966d-4841-8dfc-0c121191eb9c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/f66fe76e-966d-4841-8dfc-0c121191eb9c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 11:01:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "medical hallucination detection",
+    "multi-perspective annotation",
+    "fact-error benchmarking",
+    "LLM-as-a-Judge",
+    "adjudication",
+    "MDHJudgments",
+    "consensus disagreement"
+   ],
+   "field": "医疗NLP与事实错误检测",
+   "innovations": [
+    "构建多视角医疗幻觉数据集MDHJudgments，整合初稿、LaJ与双轨调解标签",
+    "提出候选发现+专业调解的两阶段管道，揭示单遍标注召回不足",
+    "系统量化多视角间一致性与互补性，证明基准性能对参考集构造敏感"
+   ],
+   "benchmarks": [
+    "MDHJudgments",
+    "MedExpert subset"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "It-s-the-Problem-Not-the-Path-Budget-and-Dificulty-Confounds",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-09-04 06:56:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/5ddf576c-b9f8-4226-a1a4-7156c5254e63.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/5ddf576c-b9f8-4226-a1a4-7156c5254e63.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 11:04:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "reasoning trace",
+    "test-time compute",
+    "internal-state probing",
+    "counterfactual control",
+    "process supervision",
+    "LLM interpretability"
+   ],
+   "field": "大语言模型推理轨迹分析",
+   "innovations": [
+    "重启控制的截断探针分离预算适配与前缀价值",
+    "预注册难度控制零检验否定早期内部信号超量信息",
+    "公开语料内 pooled/within 拆解揭示难度回波机制"
+   ],
+   "benchmarks": [
+    "MATH",
+    "GPQA-diamond",
+    "OpenR1-Math-220k"
+   ]
+  }
+ }
 }

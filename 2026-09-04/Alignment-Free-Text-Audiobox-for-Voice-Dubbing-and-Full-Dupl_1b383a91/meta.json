@@ -4,5 +4,32 @@
  "title": "Alignment-Free-Text-Audiobox-for-Voice-Dubbing-and-Full-Dupl",
  "token": "sk-twhrLv2pG...",
  "created_at": "2026-09-04 06:55:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/fa5a2817-a291-4311-b034-00c46dc61f04.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/fa5a2817-a291-4311-b034-00c46dc61f04.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 11:00:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "voice dubbing",
+    "full-duplex dialogue synthesis",
+    "flow matching",
+    "diffusion transformer",
+    "alignment-free TTS",
+    "DAC-VAE",
+    "emotional dialogue"
+   ],
+   "field": "高保真语音生成与全双工对话合成",
+   "innovations": [
+    "基于DAC-VAE的高压缩latent diffusion替代EnCodec，压缩比达1920×",
+    "Alignment-free文本接口通过cross-attention隐式学习文本-语音对齐，消除强制对齐误差",
+    "3B参数统一框架支持跨语言配音、全双工对话与情感对话多任务，配合multi-diffusion长程生成"
+   ],
+   "benchmarks": [
+    "内部En↔Es配音评测集（各100条）",
+    "全双工短形式与长形式对话MOS评测",
+    "情感对话SER与emotion alignment MOS"
+   ]
+  }
+ }
 }
