@@ -4,5 +4,34 @@
  "title": "Editable-Visual-Design",
  "token": "sk-F7cBp1IrI...",
  "created_at": "2026-09-04 06:55:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/dbb58338-1bcc-4d3f-b7e0-945b4bfa29ef.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/dbb58338-1bcc-4d3f-b7e0-945b4bfa29ef.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 05:33:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "可视设计生成",
+    "Coding Agent",
+    "可编辑设计",
+    "VLM",
+    "图像生成模型",
+    "HTML/CSS生成",
+    "多模态设计",
+    "Agent Design Replay"
+   ],
+   "field": "视觉设计生成",
+   "innovations": [
+    "提出'创意大脑+视觉模拟器'协作机制，将图像生成从交付物降级为过程性参考工具",
+    "设计'先想象后行动'闭环工作流，前置视觉参考建立美学先验再驱动结构化编码",
+    "独立素材生成策略结合双轨验证机制，实现从位图输出到结构化可编辑层解耦产物的范式转变"
+   ],
+   "benchmarks": [
+    "事件海报",
+    "信息图",
+    "营销物料",
+    "长文排版"
+   ]
+  }
+ }
 }

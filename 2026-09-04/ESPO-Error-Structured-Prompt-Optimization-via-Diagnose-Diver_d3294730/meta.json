@@ -4,5 +4,35 @@
  "title": "ESPO-Error-Structured-Prompt-Optimization-via-Diagnose-Diver",
  "token": "sk-aQHhxC28I...",
  "created_at": "2026-09-04 17:21:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/32e1242a-7fd2-4676-a7ec-c6af23d0f08c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/32e1242a-7fd2-4676-a7ec-c6af23d0f08c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 05:32:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "prompt optimization",
+    "prompt engineering",
+    "LLM",
+    "GEPA",
+    "bootstrap selection",
+    "error diagnosis",
+    "prompt bloat"
+   ],
+   "field": "自动提示优化",
+   "innovations": [
+    "三阶段结构化诊断-多策略生成-Bootstrap稳定性选择框架，将进化搜索重构为统计估计",
+    "证明泛化界三项分别对应偏差降低、探索增益与选择误差，揭示GEPA为退化情况"
+   ],
+   "benchmarks": [
+    "Tweet",
+    "MMLU",
+    "GSM8K",
+    "HotpotQA",
+    "ScoNe",
+    "HoVer",
+    "PUPA"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Evaluating-Criterion-Conditioned-Behaviour-of-Large-Language",
  "token": "sk-hwXfRrBR3...",
  "created_at": "2026-09-04 17:22:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/da29d6d8-88b4-4e31-a091-ed6f6f336ff2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/da29d6d8-88b4-4e31-a091-ed6f6f336ff2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 05:33:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "内容审核",
+    "大语言模型",
+    "标准分解",
+    "成对评估",
+    "DECO"
+   ],
+   "field": "AI安全与内容审核",
+   "innovations": [
+    "提出DECO因子表示实现标准级解耦评估",
+    "设计SPA/DPA成对指标捕捉条件化行为",
+    "揭示LLM在意图与操作标准间的系统性混淆"
+   ],
+   "benchmarks": [
+    "Civil Comments",
+    "X-Sensitive",
+    "OpenAI Moderation",
+    "Toxic-Chat"
+   ]
+  }
+ }
 }

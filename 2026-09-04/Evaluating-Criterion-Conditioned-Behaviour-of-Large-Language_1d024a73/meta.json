@@ -4,5 +4,34 @@
  "title": "Evaluating-Criterion-Conditioned-Behaviour-of-Large-Language",
  "token": "sk-hwXfRrBR3...",
  "created_at": "2026-09-04 06:56:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/da29d6d8-88b4-4e31-a091-ed6f6f336ff2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/da29d6d8-88b4-4e31-a091-ed6f6f336ff2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 05:33:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "content moderation",
+    "criterion-conditioned behaviour",
+    "DECO",
+    "large language models",
+    "same-label pair accuracy",
+    "different-label pair accuracy",
+    "civil comments",
+    "toxic-chat"
+   ],
+   "field": "内容审核与大模型评估",
+   "innovations": [
+    "提出DECO因子化表示与启发式标准标签生成，实现标准无关的内容解耦",
+    "设计SPA/DPA配对指标以直接度量模型是否按指定标准差异化响应",
+    "在四类基准与四种LLM上揭示聚合高分与细粒度条件化失效之间的差距"
+   ],
+   "benchmarks": [
+    "Civil Comments",
+    "X-Sensitive",
+    "OpenAI Moderation Dataset",
+    "Toxic-Chat"
+   ]
+  }
+ }
 }

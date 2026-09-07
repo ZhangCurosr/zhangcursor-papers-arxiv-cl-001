@@ -4,5 +4,30 @@
  "title": "Trace-as-State-Reasoning-Traces-as-Conditional-States-for-Lo",
  "token": "sk-twhrLv2pG...",
  "created_at": "2026-09-03 06:51:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/18ea344a-d66d-428d-a0ce-90f177b95732.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/18ea344a-d66d-428d-a0ce-90f177b95732.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 05:28:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "长上下文推理",
+    "推理轨迹",
+    "条件状态更新",
+    "因果注意力",
+    "推理缩放",
+    "文本状态代理"
+   ],
+   "field": "长上下文语言模型推理",
+   "innovations": [
+    "通过条件状态更新任务的形式化分析揭示因果处理器中条件优先的指数级内存优势",
+    "提出TRACE AS STATE方法，将推理轨迹作为文本状态代理前置以实现跨pass状态反馈"
+   ],
+   "benchmarks": [
+    "GraphWalks 256K",
+    "MRCRv2 8-needle",
+    "NUB-1M Season 2"
+   ]
+  }
+ }
 }

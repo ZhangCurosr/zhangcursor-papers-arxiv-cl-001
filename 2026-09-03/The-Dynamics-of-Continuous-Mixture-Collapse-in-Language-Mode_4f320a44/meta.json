@@ -4,5 +4,31 @@
  "title": "The-Dynamics-of-Continuous-Mixture-Collapse-in-Language-Mode",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-09-03 17:31:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/ef6534c0-c512-48c4-b2ed-1b458961dc2b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/ef6534c0-c512-48c4-b2ed-1b458961dc2b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 05:27:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "continuous reasoning",
+    "mixture collapse",
+    "latent reasoning",
+    "recursive softmax",
+    "dynamical systems",
+    "language model interpretability"
+   ],
+   "field": "语言模型连续推理与表示动力学",
+   "innovations": [
+    "分离并实证架构失真/训练放大/softmax递归动力学三类独立失败源",
+    "推导两分量混合传播的临界阈值L=2并证明极化与收缩相变定理",
+    "给出K元混合物上下文自适应修正的维数下界m>=K-1"
+   ],
+   "benchmarks": [
+    "1000-item binary mixture benchmark",
+    "Qwen3.5 ladder (0.8B/2B/4B/9B/27B)",
+    "Gemma-4 ladder (E4B-it/12B-it/31B-it)"
+   ]
+  }
+ }
 }

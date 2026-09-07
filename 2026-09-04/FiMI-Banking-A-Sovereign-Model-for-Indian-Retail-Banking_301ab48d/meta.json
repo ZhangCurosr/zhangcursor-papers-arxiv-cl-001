@@ -4,5 +4,30 @@
  "title": "FiMI-Banking-A-Sovereign-Model-for-Indian-Retail-Banking",
  "token": "sk-kdPBKi9MQ...",
  "created_at": "2026-09-04 17:22:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/035b2a08-29f3-42c1-8587-a8e6d2377b95.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/035b2a08-29f3-42c1-8587-a8e6d2377b95.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 05:33:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "金融大模型",
+    "偏好优化",
+    "强化学习",
+    "工具调用",
+    "银行对话系统",
+    "印度零售银行"
+   ],
+   "field": "金融领域Agent系统",
+   "innovations": [
+    "从基座模型失败构建on-policy偏好对解决margin膨胀问题",
+    "四维度程序可验证奖励防止reward hacking并提升工具序列执行能力",
+    "4.5B参数模型经训练超越12B基线且降低29%推理成本"
+   ],
+   "benchmarks": [
+    "IndicBankBench",
+    "TauIndianBankBench"
+   ]
+  }
+ }
 }

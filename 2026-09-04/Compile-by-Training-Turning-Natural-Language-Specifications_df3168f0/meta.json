@@ -4,5 +4,29 @@
  "title": "Compile-by-Training-Turning-Natural-Language-Specifications",
  "token": "sk-WJrSFDicB...",
  "created_at": "2026-09-04 06:55:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/ca711597-a48c-44f1-b81d-afef3ea419b1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/ca711597-a48c-44f1-b81d-afef3ea419b1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 05:31:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "neural compilation",
+    "parameter-efficient adaptation",
+    "synthetic supervision",
+    "Program-as-Weights",
+    "LoRA",
+    "fuzzy functions"
+   ],
+   "field": "神经程序编译与小模型自适应",
+   "innovations": [
+    "提出 Compile by Training，将自然语言规范经 teacher 合成数据+LoRA 微调编译为本地可复用神经函数",
+    "设计合成-训练重叠流式编译调度，使分钟级编译可交互使用",
+    "在 FuzzyBench-Hard 上将 LEM 从 22.4% 提升至 83.6%"
+   ],
+   "benchmarks": [
+    "FuzzyBench-Hard"
+   ]
+  }
+ }
 }

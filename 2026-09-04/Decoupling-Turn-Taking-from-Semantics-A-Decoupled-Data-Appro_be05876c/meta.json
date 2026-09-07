@@ -4,5 +4,33 @@
  "title": "Decoupling-Turn-Taking-from-Semantics-A-Decoupled-Data-Appro",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-09-04 06:56:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/e01799b5-8128-4586-9a02-5d7fe1cb8071.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/e01799b5-8128-4586-9a02-5d7fe1cb8071.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 05:31:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "full-duplex dialogue",
+    "turn-taking",
+    "finite-state-machine",
+    "NFSM",
+    "decoupled learning",
+    "logit adjustment",
+    "spoken dialogue"
+   ],
+   "field": "全双工语音对话系统",
+   "innovations": [
+    "提出解耦数据范式，将话轮转换与语义能力分别由真实HH对话和可配置HA文本独立监督",
+    "设计基于规则的事件引导数据转换流水线，将HH口语对话序列化为FSM磁带",
+    "提出SAC Loss联合校正状态转移token长尾分布与多源数据不对称监督"
+   ],
+   "benchmarks": [
+    "VoiceBench",
+    "Full-Duplex-Bench v1.0/v1.5",
+    "Switchboard",
+    "Fisher"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "FPCO-Dialog-A-Multi-Turn-False-Premise-Benchmark-for-Correct",
  "token": "sk-iG65PZaJv...",
  "created_at": "2026-09-04 17:22:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/2b2c46a1-6907-48ae-90fd-8c3a1f9e1a0d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/2b2c46a1-6907-48ae-90fd-8c3a1f9e1a0d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 05:33:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视觉-语言模型",
+    "多轮对话评估",
+    "错误前提",
+    "幻觉诊断",
+    "修正与合作行为",
+    "VLM基准测试"
+   ],
+   "field": "视觉-语言模型评测与对齐",
+   "innovations": [
+    "提出FPCO-Dialog多轮错误前提基准，首次控制性评估VLM的修正与合作行为",
+    "设计CorrTP@K累积轮次修正指标与双探测器评分方案",
+    "发现跨模型显著且稳定的修正倾向差异及错误前提类型间的系统性变化"
+   ],
+   "benchmarks": [
+    "FPCO-Dialog",
+    "MS COCO",
+    "Open Images"
+   ]
+  }
+ }
 }

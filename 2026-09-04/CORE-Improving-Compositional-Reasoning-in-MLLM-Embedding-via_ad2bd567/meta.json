@@ -4,5 +4,35 @@
  "title": "CORE-Improving-Compositional-Reasoning-in-MLLM-Embedding-via",
  "token": "sk-ZHrWl9Czg...",
  "created_at": "2026-09-04 06:55:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/60f33144-e611-4b7c-bd50-deb0f90bf1c6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/60f33144-e611-4b7c-bd50-deb0f90bf1c6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 05:30:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "组合推理",
+    "多模态嵌入",
+    "知识蒸馏",
+    "重排器",
+    "Rank-KL",
+    "多条件检索",
+    "MLLM"
+   ],
+   "field": "多模态检索与组合推理",
+   "innovations": [
+    "提出Rank-KL列表式蒸馏框架将reranker组合推理能力转移到embedding模型",
+    "构建五阶组合匹配数据合成管道生成结构化难负样本",
+    "系统对比CL/CoSENT/Rank-KL三种目标在多级监督下的表现"
+   ],
+   "benchmarks": [
+    "COLA",
+    "SUGARCREPE++",
+    "NEGBENCH",
+    "MCMR",
+    "COCO",
+    "Flickr30K"
+   ]
+  }
+ }
 }

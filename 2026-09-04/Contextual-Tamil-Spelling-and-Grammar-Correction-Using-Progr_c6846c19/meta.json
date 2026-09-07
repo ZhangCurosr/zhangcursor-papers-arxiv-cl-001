@@ -4,5 +4,33 @@
  "title": "Contextual-Tamil-Spelling-and-Grammar-Correction-Using-Progr",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-09-04 06:56:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/87cd6c4c-a91e-4fe3-9382-5a8586fe5ac0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/87cd6c4c-a91e-4fe3-9382-5a8586fe5ac0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 05:32:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "泰米尔语",
+    "拼写与语法纠错",
+    "序列到序列",
+    "渐进式微调",
+    "低资源语言",
+    "sandhi",
+    "mT5",
+    "mBART"
+   ],
+   "field": "低资源语言自然语言处理",
+   "innovations": [
+    "四阶段渐进式微调课程覆盖十类泰米尔语错误",
+    "端到端Seq2Seq生成式纠错替代重排序范式",
+    "首次量化sandhi召回与身份保持的单调权衡"
+   ],
+   "benchmarks": [
+    "1,000句平衡诊断集",
+    "top-1 exact-match accuracy",
+    "Tamil-LLaMA-7B-Instruct zero/few-shot"
+   ]
+  }
+ }
 }

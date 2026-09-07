@@ -4,5 +4,32 @@
  "title": "CROCODIL-Cross-Model-Code-Editing-with-LLMs",
  "token": "sk-4LF0lBYcu...",
  "created_at": "2026-09-04 17:22:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/61779594-ef9c-40ea-aeff-931317cd4d75.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/61779594-ef9c-40ea-aeff-931317cd4d75.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 05:30:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "跨模型代码编辑",
+    "过度编辑",
+    "相似性奖励",
+    "GRPO",
+    "代码编辑基准",
+    "强化学习",
+    "LLM风格差异"
+   ],
+   "field": "代码智能体与软件工程",
+   "innovations": [
+    "提出相似性奖励与执行奖励相乘的复合奖励框架减少跨模型过度编辑",
+    "构建可独立操控实现者与编辑者变量的Rust PR跨编辑语料库",
+    "证明提示工程无法稳定降低编辑量而RL后训练可减半编辑幅度"
+   ],
+   "benchmarks": [
+    "Can It Edit",
+    "EDIT-Bench",
+    "self-edit vs cross-edit Levenshtein距离"
+   ]
+  }
+ }
 }

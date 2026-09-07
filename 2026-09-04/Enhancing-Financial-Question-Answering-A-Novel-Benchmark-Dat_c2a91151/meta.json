@@ -4,5 +4,30 @@
  "title": "Enhancing-Financial-Question-Answering-A-Novel-Benchmark-Dat",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-09-04 06:56:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/bb917734-0935-4d49-a5a2-a3ead640fb40.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/bb917734-0935-4d49-a5a2-a3ead640fb40.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 05:33:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Financial QA",
+    "RAG",
+    "Benchmark Dataset",
+    "Contextual Retrieval",
+    "Financial Statements",
+    "Pillar 3",
+    "Embedding Model"
+   ],
+   "field": "金融NLP / 检索增强生成",
+   "innovations": [
+    "提出覆盖欧美24家银行的FinRAG-QA跨机构金融QA基准，填补Pillar 3监管披露评测空白",
+    "系统消融RAG各组件，发现上下文切片增强使NDCG@10提升38.8pct（0.322→0.710）",
+    "揭示推理优化模型生成准确率+34.4pct但延迟20×，且Top-1切片优于更大上下文"
+   ],
+   "benchmarks": [
+    "FinRAG-QA"
+   ]
+  }
+ }
 }

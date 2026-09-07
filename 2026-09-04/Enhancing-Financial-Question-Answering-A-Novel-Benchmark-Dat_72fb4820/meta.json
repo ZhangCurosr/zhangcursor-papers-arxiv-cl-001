@@ -4,5 +4,32 @@
  "title": "Enhancing-Financial-Question-Answering-A-Novel-Benchmark-Dat",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-09-04 17:22:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/2e64afea-5436-40fa-9aa0-c5bc224be649.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/2e64afea-5436-40fa-9aa0-c5bc224be649.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 05:33:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "金融问答",
+    "检索增强生成",
+    "RAG",
+    "金融NLP",
+    "基准数据集",
+    "财务报告",
+    "Pillar 3"
+   ],
+   "field": "金融自然语言处理",
+   "innovations": [
+    "提出FinRAG-QA金融问答基准，覆盖24家欧美银行209份长文档（均长198k词）",
+    "系统解耦RAG流水线各组件，证明上下文切片增强+检索优化embedding可提升NDCG@10达38.8%",
+    "发现推理模型GPT-o1-high可使条件生成准确率提升34.4个百分点（79.0% vs 44.6%）"
+   ],
+   "benchmarks": [
+    "FinRAG-QA",
+    "NDCG@k",
+    "Accuracy"
+   ]
+  }
+ }
 }

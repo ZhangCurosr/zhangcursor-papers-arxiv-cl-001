@@ -4,5 +4,31 @@
  "title": "Decoupled-Analysis-Judging-An-Automated-Creativity-Evaluator",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-09-04 07:00:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/0befec80-ee4c-458c-9651-6e018362c1c6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/0befec80-ee4c-458c-9651-6e018362c1c6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 05:31:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Creativity Evaluation",
+    "LLM-as-a-Judge",
+    "CGPST",
+    "Decoupled Evaluation",
+    "Structured Evidence",
+    "Bias Mitigation"
+   ],
+   "field": "大语言模型评估与自动化评分",
+   "innovations": [
+    "将 LLM-as-a-Judge 解耦为记忆增强分析与基于证据评判两阶段，抑制主观评分偏差",
+    "引入跨步骤摘要记忆机制以编码时序依赖，避免一次性全步输入的信息过载",
+    "在零数据条件下达到接近 SFT 的评估一致性（QWK 0.64 vs. 0.47），并显著提升评分稳定性"
+   ],
+   "benchmarks": [
+    "CGPST",
+    "AUT",
+    "TTCW"
+   ]
+  }
+ }
 }

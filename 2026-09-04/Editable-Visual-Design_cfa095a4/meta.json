@@ -4,5 +4,28 @@
  "title": "Editable-Visual-Design",
  "token": "sk-F7cBp1IrI...",
  "created_at": "2026-09-04 17:22:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/dbb58338-1bcc-4d3f-b7e0-945b4bfa29ef.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/dbb58338-1bcc-4d3f-b7e0-945b4bfa29ef.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 05:32:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "可编辑视觉设计",
+    "Coding Agent",
+    "视觉代码生成",
+    "多模态大模型",
+    "图像生成",
+    "设计自动化"
+   ],
+   "field": "视觉生成与代码生成交叉",
+   "innovations": [
+    "提出VLM创意大脑与图像生成视觉模拟器协作的可编辑视觉设计新范式",
+    "设计先想象后行动的闭环工作流与双验证自愈机制实现审美与可编辑性的平衡"
+   ],
+   "benchmarks": [
+    "案例研究：海报/信息图表/营销物料/长文本排版"
+   ]
+  }
+ }
 }

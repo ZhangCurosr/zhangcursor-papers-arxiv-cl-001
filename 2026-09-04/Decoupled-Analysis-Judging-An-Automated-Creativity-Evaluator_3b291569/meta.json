@@ -4,5 +4,31 @@
  "title": "Decoupled-Analysis-Judging-An-Automated-Creativity-Evaluator",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-09-04 17:22:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/0befec80-ee4c-458c-9651-6e018362c1c6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/0befec80-ee4c-458c-9651-6e018362c1c6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 05:31:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM-as-a-Judge",
+    "创造力评估",
+    "CGPST",
+    "多步任务",
+    "证据驱动评分",
+    "解耦分析"
+   ],
+   "field": "大语言模型评估与创意评测",
+   "innovations": [
+    "提出记忆增强分析与证据驱动评分的解耦框架CreaEval",
+    "引入跨步骤记忆模块显式建模多步创造力任务的时序依赖",
+    "在零训练条件下实现QWK=0.64，显著优于监督基线并缓解冗长/宽容偏差"
+   ],
+   "benchmarks": [
+    "CGPST",
+    "AUT",
+    "TTCW"
+   ]
+  }
+ }
 }

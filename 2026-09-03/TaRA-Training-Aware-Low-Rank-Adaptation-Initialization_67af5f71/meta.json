@@ -4,5 +4,35 @@
  "title": "TaRA-Training-Aware-Low-Rank-Adaptation-Initialization",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-09-03 17:31:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/4ae6a647-c63a-4008-87a0-afcd4a12c2a7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/4ae6a647-c63a-4008-87a0-afcd4a12c2a7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 05:28:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LoRA 初始化",
+    "参数高效微调",
+    "低秩适配",
+    "训练感知初始化",
+    "Fisher 信息矩阵",
+    "K-FAC",
+    "梯度对齐"
+   ],
+   "field": "大模型参数高效微调",
+   "innovations": [
+    "提出 TaRA 训练感知初始化框架，通过协方差加权 SVD 使低秩梯度逼近全量微调梯度",
+    "证明曲率感知的 Σ_G W Σ_X 分解优于直接梯度 SVD，并在多 rank 下持续领先",
+    "揭示初始梯度对齐度对训练全程的持久影响，并提供低精度/小校准集的可扩展实现"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "MATH",
+    "HumanEval",
+    "MBPP",
+    "Commonsense-170K",
+    "GLUE"
+   ]
+  }
+ }
 }

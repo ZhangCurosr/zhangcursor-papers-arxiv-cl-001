@@ -4,5 +4,33 @@
  "title": "Building-and-Evaluating-Fixed-Voice-Thai-TTS-from-Synthetic",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-09-04 17:22:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/f31c8f0c-7f7f-4459-9aad-5306a32aca9b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/f31c8f0c-7f7f-4459-9aad-5306a32aca9b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 05:30:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Thai TTS",
+    "low-resource speech",
+    "knowledge distillation",
+    "synthetic data",
+    "fixed-voice TTS",
+    "code-switching",
+    "prosody evaluation"
+   ],
+   "field": "低资源语音合成",
+   "innovations": [
+    "教师到学生的合成数据蒸馏路线",
+    "多维度评估框架（Keyword Accuracy + Pause Accuracy）",
+    "拒采恢复策略保持困难样本覆盖"
+   ],
+   "benchmarks": [
+    "Challenge-Set (1,531 items)",
+    "WangchanThaiInstruct test split",
+    "Common Voice 17.0 Thai",
+    "LibriTTS English"
+   ]
+  }
+ }
 }

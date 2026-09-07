@@ -4,5 +4,29 @@
  "title": "A-Reverse-Sign-Language-Dictionary-Open-Vocabulary-Sign-Reco",
  "token": "sk-n7iJ0Z1Ol...",
  "created_at": "2026-09-04 06:56:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/ff7ad07a-b81d-42c8-95f5-55de5efd6b4e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/ff7ad07a-b81d-42c8-95f5-55de5efd6b4e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 05:28:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "sign language recognition",
+    "open-vocabulary retrieval",
+    "vision-language models",
+    "continuous signing",
+    "Japanese Sign Language"
+   ],
+   "field": "手语识别与多模态检索",
+   "innovations": [
+    "首个无需gloss监督的开放词汇连续手语描述式检索框架",
+    "Captioning+Retrieval双阶段解耦架构，支持零样本未见类泛化",
+    "视觉塔LoRA适配（Regime B）显著提升未见类检索性能（11.5%→21.0%）"
+   ],
+   "benchmarks": [
+    "JSL dialogue corpus",
+    "TS1/TS2/TS3.1/TS3.2四种评估协议"
+   ]
+  }
+ }
 }

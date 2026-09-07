@@ -4,5 +4,28 @@
  "title": "Compile-by-Training-Turning-Natural-Language-Specifications",
  "token": "sk-WJrSFDicB...",
  "created_at": "2026-09-04 17:21:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/1bde719a-e8b4-46d9-ab00-51bffb6b69c3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/1bde719a-e8b4-46d9-ab00-51bffb6b69c3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 05:31:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Program-as-Weights",
+    "neural compilation",
+    "parameter-efficient fine-tuning",
+    "synthetic supervision",
+    "fuzzy functions"
+   ],
+   "field": "神经程序编译与参数高效适配",
+   "innovations": [
+    "编译即训练：将自然语言规格编译为可复用本地神经函数，教师生成数据替代手动标注",
+    "两阶段范式：amortized预测初始化+监督微调，平衡编译速度与最终精度",
+    "流水线重叠设计：合成与训练并发调度，实现交互式分钟级编译体验"
+   ],
+   "benchmarks": [
+    "FuzzyBench-Hard"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Beyond-Shallow-Alignment-How-Post-Training-Methods-Determine",
  "token": "sk-1FwfANuN8...",
  "created_at": "2026-09-04 06:56:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/558af7f9-7017-4bda-a359-d94f3dd635ab.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/558af7f9-7017-4bda-a359-d94f3dd635ab.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 05:29:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "mechanistic interpretability",
+    "safety alignment",
+    "post-training methods",
+    "refusal circuits",
+    "steering robustness",
+    "alignment trilemma"
+   ],
+   "field": "大语言模型安全对齐与机制解释",
+   "innovations": [
+    "首次跨训练目标（SFT/Ra-SFT/ORPO）的机制级对照比较",
+    "揭示推理增强导致拒绝电路从注意力头主导转向 MLP 主导",
+    "实证提出对齐三元悖论：分布式编码、安全/能力可分离、细粒度可纠正无法兼得"
+   ],
+   "benchmarks": [
+    "WildJailbreak",
+    "StrongREJECT",
+    "XSTest",
+    "MMLU"
+   ]
+  }
+ }
 }

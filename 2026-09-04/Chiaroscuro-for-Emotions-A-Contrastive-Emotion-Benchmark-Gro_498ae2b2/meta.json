@@ -4,5 +4,39 @@
  "title": "Chiaroscuro-for-Emotions-A-Contrastive-Emotion-Benchmark-Gro",
  "token": "sk-yjjHVmEWF...",
  "created_at": "2026-09-04 07:00:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/16599d48-a278-42d2-831b-032796e1c4e9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/16599d48-a278-42d2-831b-032796e1c4e9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 05:30:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "contrastive emotion",
+    "appaisal theory",
+    "emotion recognition",
+    "benchmark",
+    "LLM evaluation",
+    "multi-agent emotion"
+   ],
+   "field": "情感计算与多智能体情感推理",
+   "innovations": [
+    "提出基于评价理论的双智能体对比情感推断基准 CHIARO，填补共享事件中对立情感归因的评测空白",
+    "揭示单智能体情感分类器在跨角色归因任务上几乎失效（macro-F₁ 11.8–29.0），差距达 51–56 点",
+    "证明 CHIARO 与 GoEmotions 作为互补训练信号可联合提升模型在 6/10 外部基准上的性能"
+   ],
+   "benchmarks": [
+    "CHIARO",
+    "GoEmotions",
+    "MELD",
+    "DailyDialog",
+    "ISEAR",
+    "CARER",
+    "TweetEval",
+    "SemEval-2018 Affect-in-Tweets",
+    "XED",
+    "EmotionX-2019",
+    "EmoBench EU"
+   ]
+  }
+ }
 }
