@@ -4,5 +4,34 @@
  "title": "When-Decodability-Is-Not-Enough-Logical-Validity-Representat",
  "token": "sk-hwXfRrBR3...",
  "created_at": "2026-09-03 17:31:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/74970b3e-9753-4487-aabe-d710f229d717.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/74970b3e-9753-4487-aabe-d710f229d717.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 00:33:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "逻辑验证",
+    "表示可解码性",
+    "线性探针",
+    "因果干预",
+    "分布外泛化",
+    "内在表征",
+    "语言模型解释性"
+   ],
+   "field": "语言模型内在表征与可解释性",
+   "innovations": [
+    "提出行为表达-表示可及性-因果控制三层分离框架",
+    "在行为接近随机的条件下揭示有效性信息仍高度可解码且 persist on errors",
+    "通过规范匹配随机方向对照证明高探针AUROC不等于因果控制变量"
+   ],
+   "benchmarks": [
+    "自制受控逻辑验证数据集（800示例）",
+    "Pythia-1.4B/2.8B",
+    "SmolLM3-3B",
+    "Llama-3.2-3B",
+    "Mistral-7B"
+   ]
+  }
+ }
 }

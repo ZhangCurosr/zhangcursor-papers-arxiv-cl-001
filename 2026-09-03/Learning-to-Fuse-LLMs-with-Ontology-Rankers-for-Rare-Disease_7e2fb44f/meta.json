@@ -4,5 +4,30 @@
  "title": "Learning-to-Fuse-LLMs-with-Ontology-Rankers-for-Rare-Disease",
  "token": "sk-JdJPQj6CY...",
  "created_at": "2026-09-03 17:31:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/238580a6-06f2-4e77-a771-5d11014a904e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/238580a6-06f2-4e77-a771-5d11014a904e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 00:29:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "罕见病诊断",
+    "大语言模型",
+    "本体排序",
+    "多模型融合",
+    "文献来源泄漏",
+    "Phenopacket Store"
+   ],
+   "field": "生物医学信息学",
+   "innovations": [
+    "首次揭示并纠正罕见病基准的文献来源泄漏问题，提出LOPO公平评估协议",
+    "行为基础融合门控PhenoGate，通过39维特征学习案例级权重分配",
+    "跨模型家族零样本迁移，无需目标模型标签即可提升新模型诊断性能"
+   ],
+   "benchmarks": [
+    "Phenopacket Store",
+    "RAMEDIS"
+   ]
+  }
+ }
 }

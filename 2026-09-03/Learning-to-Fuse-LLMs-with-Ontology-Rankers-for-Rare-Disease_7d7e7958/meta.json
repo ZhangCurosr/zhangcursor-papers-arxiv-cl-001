@@ -4,5 +4,30 @@
  "title": "Learning-to-Fuse-LLMs-with-Ontology-Rankers-for-Rare-Disease",
  "token": "sk-JdJPQj6CY...",
  "created_at": "2026-09-03 06:51:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/238580a6-06f2-4e77-a771-5d11014a904e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/238580a6-06f2-4e77-a771-5d11014a904e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 00:29:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "fused-ranking",
+    "rare-disease",
+    "LLM-hybrid",
+    "Ontology-ranker",
+    "benchmark-leakage",
+    "Phenopacket-Store"
+   ],
+   "field": "computational-genetics",
+   "innovations": [
+    "LOPO evaluation protocol correcting publication-source overlap in benchmarks",
+    "Behavior-based symmetric shared scorer for zero-shot cross-family LLM fusion",
+    "Preserving candidate-level ontology evidence while improving recall via dynamic weighting"
+   ],
+   "benchmarks": [
+    "Phenopacket Store 0.1.27",
+    "RAMEDIS (RareBench)"
+   ]
+  }
+ }
 }

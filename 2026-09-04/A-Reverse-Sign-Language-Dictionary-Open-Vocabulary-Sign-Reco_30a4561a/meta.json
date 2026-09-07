@@ -4,5 +4,10 @@
  "title": "A-Reverse-Sign-Language-Dictionary-Open-Vocabulary-Sign-Reco",
  "token": "sk-n7iJ0Z1Ol...",
  "created_at": "2026-09-04 17:22:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/fba91792-3ea8-4630-b735-bd71945ccfbe.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/fba91792-3ea8-4630-b735-bd71945ccfbe.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 00:35:09",
+  "chunks": 1
+ }
 }

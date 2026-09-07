@@ -4,5 +4,32 @@
  "title": "OBJECTION-Lawyer-Agents-Mitigate-Guilty-Bias-in-Legal-Judgme",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-09-03 06:52:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/211dad01-6a01-4e75-a1df-289da1954b48.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/211dad01-6a01-4e75-a1df-289da1954b48.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 00:29:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Legal Judgment Prediction",
+    "Guilty Bias",
+    "Adversarial Agent",
+    "Multi-agent System",
+    "Presumption of Innocence",
+    "Legal AI",
+    "Inference-time Correction"
+   ],
+   "field": "法律人工智能/法律判决预测",
+   "innovations": [
+    "推理时对抗管线：在LLM推理阶段集成角色约束的律师Agent主动注入辩护论点，而非训练时数据修正",
+    "三段论结构+SOAM schema+对抗干预的协同设计，解决结构化方法单独使用反而加剧偏见的问题",
+    "Natural Innocent真实无罪数据集：3412个韩国一审真实无罪案例，克服合成数据的捷径学习缺陷"
+   ],
+   "benchmarks": [
+    "LJPIV-CAIL",
+    "LJPIV-ELAM",
+    "Natural Innocent"
+   ]
+  }
+ }
 }

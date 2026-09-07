@@ -4,5 +4,31 @@
  "title": "XMerge-Cross-Axis-Selection-and-Reconstructive-Layer-Merging",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-09-03 17:31:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/c8fb072b-5241-4206-8f78-9cbd18865ff3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/c8fb072b-5241-4206-8f78-9cbd18865ff3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 00:33:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "depth compression",
+    "LLM pruning",
+    "layer merging",
+    "post-training reconstruction",
+    "cross-axis selection",
+    "CORE benchmark"
+   ],
+   "field": "大语言模型压缩与效率",
+   "innovations": [
+    "跨轴选择（RM+BI max融合）无参数选块",
+    "重建合并算子将两块的输出映射梯度拟合进一个现存标准非线性块",
+    "零崩溃鲁棒性：唯一在14个(模型×零/少样本)单元格中无CORE<0.10崩溃的算子"
+   ],
+   "benchmarks": [
+    "CORE (22-task aggregate)",
+    "MMLU (zero-shot)",
+    "WikiText-2 perplexity"
+   ]
+  }
+ }
 }

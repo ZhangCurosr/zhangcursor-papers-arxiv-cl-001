@@ -4,5 +4,30 @@
  "title": "User-Feedback-Provides-a-Unique-Signal-that-LLMs-Can-not-Det",
  "token": "sk-WJrSFDicB...",
  "created_at": "2026-09-03 17:31:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/e6cba9e0-fa11-4f4c-9560-2464d8fa854b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/e6cba9e0-fa11-4f4c-9560-2464d8fa854b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 00:32:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "用户反馈",
+    "LLM评估偏差",
+    "LLM-as-a-Judge",
+    "合成数据",
+    "模型改进",
+    "评估器能力偏差"
+   ],
+   "field": "LLM对齐与评估",
+   "innovations": [
+    "通过合成污染数据与ground truth验证用户反馈的信号价值，解决率提升9%-32%",
+    "揭示LLM评估器在'模型自身无法独立解决的查询'上评估准确率显著下降的系统性偏差",
+    "提出WFShouldWin筛选策略与改进类型分类框架，隔离评估偏差并诊断其根源"
+   ],
+   "benchmarks": [
+    "Arena-Hard-v2.0",
+    "ShareLM"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "Untangling-the-Mechanisms-of-Misleading-Context-in-Medical-Q",
  "token": "sk-ZHrWl9Czg...",
  "created_at": "2026-09-03 17:31:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/343798d3-d81c-4b6e-a5ed-f132c0a76b52.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/343798d3-d81c-4b6e-a5ed-f132c0a76b52.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 00:32:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "medical QA",
+    "misleading context",
+    "chain-of-thought",
+    "faithfulness",
+    "monitorability",
+    "transplant resampling",
+    "AI safety"
+   ],
+   "field": "医学大模型可靠性与安全",
+   "innovations": [
+    "配对对比证据型与答案型两种误导性线索并量化其相对危害",
+    "用sentence-level transplant resampling揭示两类线索在推理链中的不同时序机制",
+    "直接测量open vs. frontier模型轨迹访问对监控recall的影响并量化安全代价"
+   ],
+   "benchmarks": [
+    "MedMisBench"
+   ]
+  }
+ }
 }

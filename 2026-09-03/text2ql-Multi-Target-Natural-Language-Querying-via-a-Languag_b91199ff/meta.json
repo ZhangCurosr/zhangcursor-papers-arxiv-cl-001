@@ -4,5 +4,32 @@
  "title": "text2ql-Multi-Target-Natural-Language-Querying-via-a-Languag",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-09-03 06:50:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/7aea5017-704c-4a25-98c9-aa8ec11ca786.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/7aea5017-704c-4a25-98c9-aa8ec11ca786.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 00:34:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "NL2QL",
+    "text-to-SQL",
+    "text-to-GraphQL",
+    "intermediate representation",
+    "schema-aware prompting",
+    "zero-LLM",
+    "confidence scoring",
+    "multi-target query generation"
+   ],
+   "field": "自然语言接口到数据库（NLIDB）/ NL2QL",
+   "innovations": [
+    "语言无关 QueryIR 解耦解析与渲染，支持 SQL+GraphQL 多目标统一管道",
+    "零 LLM 确定性模式实现 100% 执行准确率与 <5ms 延迟",
+    "运行时加法信号置信度评分模型支撑级联路由决策"
+   ],
+   "benchmarks": [
+    "Spider",
+    "BIRD"
+   ]
+  }
+ }
 }

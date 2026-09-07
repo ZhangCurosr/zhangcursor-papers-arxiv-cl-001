@@ -4,5 +4,10 @@
  "title": "oHC-Orthogonal-Hyper-Connections-on-4-via-Quaternions",
  "token": "sk-kdPBKi9MQ...",
  "created_at": "2026-09-03 06:51:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/13ca7902-c88d-42f5-841c-7c3120a15dbd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/13ca7902-c88d-42f5-841c-7c3120a15dbd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 00:34:03",
+  "chunks": 1
+ }
 }

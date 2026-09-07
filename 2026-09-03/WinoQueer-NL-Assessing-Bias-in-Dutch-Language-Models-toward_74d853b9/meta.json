@@ -4,5 +4,32 @@
  "title": "WinoQueer-NL-Assessing-Bias-in-Dutch-Language-Models-toward",
  "token": "sk-Wt6bONApk...",
  "created_at": "2026-09-03 17:31:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/7b826b5c-0bbd-40ae-90fb-eea49d983288.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/7b826b5c-0bbd-40ae-90fb-eea49d983288.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 00:34:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "偏见评测",
+    "LGBTQ+",
+    "荷兰语",
+    "WinoQueer",
+    "语言模型公平性",
+    "社区参与式设计",
+    "多语言NLP",
+    "刻板印象"
+   ],
+   "field": "多语言NLP与AI公平性",
+   "innovations": [
+    "构建首个荷兰语LGBTQ+偏见基准WinoQueer-NL（42,906句对/167个偏见谓词）",
+    "提出bias(W)与bias(M)双指标揭示'中性均值'掩盖的身份间不均衡偏见",
+    "发现模型偏见强度与人工有害性评分几乎无关（|r|<0.12）"
+   ],
+   "benchmarks": [
+    "WinoQueer-NL",
+    "WinoQueer (English)"
+   ]
+  }
+ }
 }

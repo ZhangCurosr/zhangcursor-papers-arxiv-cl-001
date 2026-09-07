@@ -4,5 +4,34 @@
  "title": "Scalable-Kronecker-Fisher-Approximation-Eficient-Hessian-Ana",
  "token": "sk-rnwM2rvcl...",
  "created_at": "2026-09-03 17:31:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/41dc77e3-739e-4c0a-b3c4-85cf69bc483d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/41dc77e3-739e-4c0a-b3c4-85cf69bc483d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 00:30:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Hessian近似",
+    "Kronecker分解",
+    "模型压缩",
+    "Fisher矩阵",
+    "跨层交互",
+    "大语言模型"
+   ],
+   "field": "大模型压缩与优化",
+   "innovations": [
+    "可扩展Kronecker-Fisher近似将Hessian存储从O(d²)降至O(rd)",
+    "首次实证百亿参数模型跨层Hessian结构及V-projection脆弱性",
+    "单一曲率估计跨任务预测量化/稀疏化敏感性及微调恢复"
+   ],
+   "benchmarks": [
+    "WikiText2",
+    "PIQA",
+    "WinoGrande",
+    "HellaSwag",
+    "ARC-Easy",
+    "ARC-Challenge"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "WHEN-PERSONA-ATTRIBUTES-IMPROVE-POPULATION-ALIGNMENT-IN-LARG",
  "token": "sk-oJ013oevc...",
  "created_at": "2026-09-03 17:31:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/6b5b84b4-1960-4fd6-a529-3267e044c592.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/6b5b84b4-1960-4fd6-a529-3267e044c592.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 00:32:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "persona prompting",
+    "human response variation",
+    "population alignment",
+    "attribute selection",
+    "survey response prediction",
+    "Jensen-Shannon distance"
+   ],
+   "field": "大语言模型社会模拟与人口对齐",
+   "innovations": [
+    "提出人类响应变异作为解释persona提示性能差异的核心维度",
+    "构建针对调查任务的统计与LLM双轨属性选择基准并系统比较",
+    "揭示统计相关性方法显著优于LLM零样本选择并提供两步实践框架"
+   ],
+   "benchmarks": [
+    "GSS 2024",
+    "GGSS 2023",
+    "WVS-US 2017",
+    "WVS-DE 2018"
+   ]
+  }
+ }
 }

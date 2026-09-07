@@ -4,5 +4,30 @@
  "title": "User-Feedback-Provides-a-Unique-Signal-that-LLMs-Can-not-Det",
  "token": "sk-WJrSFDicB...",
  "created_at": "2026-09-03 06:50:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/e6cba9e0-fa11-4f4c-9560-2464d8fa854b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/e6cba9e0-fa11-4f4c-9560-2464d8fa854b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 00:32:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "用户反馈",
+    "LLM评估偏差",
+    "LLM-as-a-Judge",
+    "模型改进",
+    "合成数据",
+    "自然语言反馈"
+   ],
+   "field": "大语言模型对齐与评估",
+   "innovations": [
+    "证明用户反馈是有效改进信号，解决率提升9%-32%，反驳噪声无用论",
+    "首次系统揭示LLM-as-a-Judge在反馈改进评估中的系统性偏好偏差",
+    "发现评估器能力与改进能力的关联失败模式"
+   ],
+   "benchmarks": [
+    "Arena-Hard-v2.0",
+    "ShareLM"
+   ]
+  }
+ }
 }

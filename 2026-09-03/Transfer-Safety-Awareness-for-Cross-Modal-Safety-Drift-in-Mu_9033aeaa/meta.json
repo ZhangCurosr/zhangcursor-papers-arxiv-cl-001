@@ -4,5 +4,36 @@
  "title": "Transfer-Safety-Awareness-for-Cross-Modal-Safety-Drift-in-Mu",
  "token": "sk-yjjHVmEWF...",
  "created_at": "2026-09-03 06:55:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/e222d40e-3cf6-4616-a3c3-47ea2a047473.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/e222d40e-3cf6-4616-a3c3-47ea2a047473.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 00:31:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态大语言模型",
+    "跨模态安全对齐",
+    "表征导向",
+    "安全感知迁移",
+    "推理时防御",
+    "激活工程"
+   ],
+   "field": "多模态大语言模型安全对齐",
+   "innovations": [
+    "首次系统研究跨模态安全漂移问题并提出SRT方法",
+    "发现预拒绝层的粗粒度安全感知方向具有选择性效应",
+    "构建拒绝过程与输出行为双层对比监督的轻量级方向优化框架"
+   ],
+   "benchmarks": [
+    "SIUO",
+    "VLSBench",
+    "MM-SafetyBench",
+    "FigStep",
+    "HoliSafe",
+    "MM-Vet",
+    "MME",
+    "L-Bench"
+   ]
+  }
+ }
 }

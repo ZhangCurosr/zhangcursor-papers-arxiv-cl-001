@@ -4,5 +4,29 @@
  "title": "When-Decodability-Is-Not-Enough-Logical-Validity-Representat",
  "token": "sk-hwXfRrBR3...",
  "created_at": "2026-09-03 06:51:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/973646ce-ed50-41e6-9a28-cd13b85fde1c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/973646ce-ed50-41e6-9a28-cd13b85fde1c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 00:33:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "logical validity",
+    "mechanistic interpretability",
+    "linear probing",
+    "causal intervention",
+    "behavior-representation dissociation",
+    "out-of-distribution generalization"
+   ],
+   "field": "语言模型可解释性",
+   "innovations": [
+    "构建配对受控逻辑验证数据集以隔离关系属性与表面形式",
+    "提出行为表达-线性可及-因果使用三层分离评估框架",
+    "发现行为错误样本中有效性信息仍可高度线性解码"
+   ],
+   "benchmarks": [
+    "自制受控验证集（800样本/400对）"
+   ]
+  }
+ }
 }

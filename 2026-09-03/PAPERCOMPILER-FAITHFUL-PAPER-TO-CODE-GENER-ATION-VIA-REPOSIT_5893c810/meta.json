@@ -4,5 +4,30 @@
  "title": "PAPERCOMPILER-FAITHFUL-PAPER-TO-CODE-GENER-ATION-VIA-REPOSIT",
  "token": "sk-Hms67LeAf...",
  "created_at": "2026-09-03 06:54:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/7e9aac7b-0f0a-48a3-a88e-adca2b7239c3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/7e9aac7b-0f0a-48a3-a88e-adca2b7239c3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 00:30:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "paper-to-code",
+    "repository-level code generation",
+    "specification compilation",
+    "LLM code generation",
+    "reproducibility",
+    "cross-file consistency"
+   ],
+   "field": "LLM驱动的科研代码生成与可复现性",
+   "innovations": [
+    "将paper-to-code生成建模为规范编译过程，首次引入显式仓库级所有权图和跨文件依赖绑定",
+    "提出非退化约束(forbid)机制防止核心算法被简化为近似实现",
+    "引入证据状态分类(paper-supported/inferred/delegated/unresolved)实现溯源追踪与不确定性显式化"
+   ],
+   "benchmarks": [
+    "Paper2CodeBench",
+    "P2C-Ex"
+   ]
+  }
+ }
 }

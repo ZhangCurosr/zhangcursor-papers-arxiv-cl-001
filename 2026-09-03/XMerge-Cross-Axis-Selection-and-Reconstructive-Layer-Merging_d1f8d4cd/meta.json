@@ -4,5 +4,30 @@
  "title": "XMerge-Cross-Axis-Selection-and-Reconstructive-Layer-Merging",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-09-03 06:51:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/af0f125a-b058-4cad-b2fb-d62d47f79e08.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/af0f125a-b058-4cad-b2fb-d62d47f79e08.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 00:33:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "depth compression",
+    "layer pruning",
+    "transformer compression",
+    "LLM optimization",
+    "post-training compression",
+    "model efficiency"
+   ],
+   "field": "大模型压缩与加速",
+   "innovations": [
+    "跨轴选择（RM+BI max融合）避免单轴盲区",
+    "重构合并：通过本地激活匹配重拟合完整非线性块而非线性化或新增模块"
+   ],
+   "benchmarks": [
+    "CORE",
+    "MMLU",
+    "WikiText-2 PPL"
+   ]
+  }
+ }
 }

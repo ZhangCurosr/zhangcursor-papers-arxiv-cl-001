@@ -4,5 +4,29 @@
  "title": "A-Circuit-for-Plural-Reference-How-LLMs-Represent-and-Retrie",
  "token": "sk-FMTQpgZxg...",
  "created_at": "2026-09-04 06:57:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/c1bb4abf-32b5-4b09-94df-217d9323e162.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/c1bb4abf-32b5-4b09-94df-217d9323e162.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 00:34:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "mechanistic interpretability",
+    "plural reference",
+    "coreference resolution",
+    "activation patching",
+    "attention heads",
+    "LLM circuits"
+   ],
+   "field": "机制可解释性",
+   "innovations": [
+    "首次揭示 LLM 复数指代的三头协作电路（Selection/Formation/Interpretation）",
+    "通过因果干预与注意力相关性分析量化复数偏好机制",
+    "在 LLM 中复现心理语言学关于 ontological similarity 与 conjunction 的复数指代约束"
+   ],
+   "benchmarks": [
+    "合成 pronoun prediction task (D_pl / D_sg)"
+   ]
+  }
+ }
 }

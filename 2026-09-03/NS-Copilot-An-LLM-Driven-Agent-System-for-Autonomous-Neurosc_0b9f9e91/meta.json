@@ -4,5 +4,31 @@
  "title": "NS-Copilot-An-LLM-Driven-Agent-System-for-Autonomous-Neurosc",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-09-03 06:51:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/0e1b57cf-96eb-48c0-a6bd-cac4435af536.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/0e1b57cf-96eb-48c0-a6bd-cac4435af536.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 00:29:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM Agent",
+    "Neuroscience Analysis",
+    "Pre-trained Models",
+    "EEG",
+    "Spike Decoding",
+    "Automated Model Selection"
+   ],
+   "field": "神经科学自动化分析",
+   "innovations": [
+    "统一编排9个跨模态预训练神经模型实现端到端自动化分析",
+    "闭环诊断与显式modify-vs-replan路由机制",
+    "基于数据特征驱动的自动模型选择与早停协议"
+   ],
+   "benchmarks": [
+    "AD EEG (OpenNeuro ds004504)",
+    "PD EEG (OpenNeuro ds004584)",
+    "WM Spikes (DANDI 000006)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "ShallowStream-Index-Shallow-then-Answer-Deep-for-Streaming-V",
  "token": "sk-dQ65jxzP4...",
  "created_at": "2026-09-03 17:31:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/8fd959c2-62aa-43e1-80df-f899e67f2d93.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/8fd959c2-62aa-43e1-80df-f899e67f2d93.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 00:31:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Streaming Video Understanding",
+    "Multimodal Large Language Models",
+    "Efficient Inference",
+    "KV Cache Management",
+    "Retrieval-Augmented Generation"
+   ],
+   "field": "流式多模态理解",
+   "innovations": [
+    "利用浅层 MLLM 同时完成流式编码与检索索引构建，将全深度计算推迟至查询时刻",
+    "基于预训练模型 logits 的无训练查询门控机制，直接区分当前场景与回溯性需求",
+    "浅层 token 级注意力投票结合 max-min 多样性选择，以有限证据预算获取互补历史证据"
+   ],
+   "benchmarks": [
+    "OVO-Bench",
+    "StreamingBench",
+    "LVBench"
+   ]
+  }
+ }
 }

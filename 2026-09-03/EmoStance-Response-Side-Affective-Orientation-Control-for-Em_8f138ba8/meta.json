@@ -4,5 +4,31 @@
  "title": "EmoStance-Response-Side-Affective-Orientation-Control-for-Em",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-09-03 06:53:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/439c63c7-530b-4241-96b2-f13bc24d6f15.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/439c63c7-530b-4241-96b2-f13bc24d6f15.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 00:29:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "共情对话生成",
+    "响应侧情感取向",
+    "弱监督",
+    "emoji软分布",
+    "连续可控生成",
+    "prefix embedding",
+    "角色感知转移"
+   ],
+   "field": "情感支持对话生成",
+   "innovations": [
+    "首次将共情响应生成形式化为响应侧情感取向控制问题，用emoji弱监督诱导匿名取向空间",
+    "提出原型重建替代直接向量回归，显著提升控制向量稳定性（cosine 0.322→0.924）",
+    "构建EMOJIDIALOGUE数据集并证明软分布监督优于hard label，盲评胜率62.2%"
+   ],
+   "benchmarks": [
+    "EmpatheticDialogues",
+    "EMOJIDIALOGUE"
+   ]
+  }
+ }
 }

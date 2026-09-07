@@ -4,5 +4,32 @@
  "title": "WHEN-PERSONA-ATTRIBUTES-IMPROVE-POPULATION-ALIGNMENT-IN-LARG",
  "token": "sk-oJ013oevc...",
  "created_at": "2026-09-03 06:51:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/6b5b84b4-1960-4fd6-a529-3267e044c592.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/6b5b84b4-1960-4fd6-a529-3267e044c592.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 00:32:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "persona prompting",
+    "large language models",
+    "survey response prediction",
+    "human response variation",
+    "attribute selection",
+    "population alignment"
+   ],
+   "field": "计算社会科学与大语言模型交互",
+   "innovations": [
+    "提出人类响应变异性作为人格提示性能差异的解释变量",
+    "系统 benchmark 五种属性选择方法并发现统计基线优于 LLM 驱动方法",
+    "验证人格提示在高响应变异性任务上更有效、无 persona 基线在低变异性任务上更优"
+   ],
+   "benchmarks": [
+    "GSS",
+    "GGSS",
+    "WVS-DE",
+    "WVS-US"
+   ]
+  }
+ }
 }

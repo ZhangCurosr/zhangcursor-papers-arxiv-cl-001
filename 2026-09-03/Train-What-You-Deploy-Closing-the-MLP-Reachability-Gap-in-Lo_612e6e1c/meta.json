@@ -4,5 +4,31 @@
  "title": "Train-What-You-Deploy-Closing-the-MLP-Reachability-Gap-in-Lo",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-09-03 17:31:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/daa8e42a-051c-410c-bda7-5a34c5578889.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/daa8e42a-051c-410c-bda7-5a34c5578889.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 00:31:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Knowledge Distillation",
+    "Model Compression",
+    "Low-Rank Clone",
+    "MLP Reachability",
+    "Train-Serve Consistency",
+    "LLM Compression"
+   ],
+   "field": "大模型压缩与蒸馏",
+   "innovations": [
+    "形式化并审计 LRC 蒸馏中的训练-部署可达集间隙",
+    "提出 Train What You Deploy 原则及 Dense/CORE-LRC 两种零推理成本实现",
+    "通过等参数量、基线、跨配方三重控制实验归因增益到可达集扩张本身"
+   ],
+   "benchmarks": [
+    "Avg9 (0-shot)",
+    "MMLU",
+    "LM Evaluation Harness"
+   ]
+  }
+ }
 }

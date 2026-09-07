@@ -4,5 +4,31 @@
  "title": "UTP-Bench-Uncertainty-aware-Travel-Planning-Benchmark",
  "token": "sk-haVkJ3VAf...",
  "created_at": "2026-09-03 17:31:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/24d3cb96-7576-4587-8c7a-9f311975064e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-03/24d3cb96-7576-4587-8c7a-9f311975064e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 00:31:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "旅行规划",
+    "不确定性建模",
+    "LLM基准测试",
+    "行程鲁棒性",
+    "多智能体规划"
+   ],
+   "field": "旅行规划与调度",
+   "innovations": [
+    "首个不确定性感知旅行规划基准UTP-Bench",
+    "三个鲁棒性评估指标BAS/CATS/TDAS",
+    "风险感知旅行者画像建模"
+   ],
+   "benchmarks": [
+    "UTP-Bench",
+    "TravelPlanner",
+    "TripCraft",
+    "ATLAS"
+   ]
+  }
+ }
 }
