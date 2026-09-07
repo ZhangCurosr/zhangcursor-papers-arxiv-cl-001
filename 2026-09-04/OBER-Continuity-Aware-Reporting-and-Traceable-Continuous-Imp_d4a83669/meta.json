@@ -4,5 +4,31 @@
  "title": "OBER-Continuity-Aware-Reporting-and-Traceable-Continuous-Imp",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-09-04 06:56:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/591f947c-080f-48d3-b538-777470237d42.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/591f947c-080f-48d3-b538-777470237d42.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 23:11:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Outcome-Based Education",
+    "Learning Analytics",
+    "Curriculum Improvement",
+    "Sentence Embedding",
+    "Continuous Assessment",
+    "Educational Data Mining"
+   ],
+   "field": "教育数据分析与学习成果评估",
+   "innovations": [
+    "提出5R计算规则实现达成率-决策-改进效果的可追溯闭环",
+    "设计无需标注的跨开课期学习成果连续性自动检测规则",
+    "在真实机构记录中验证并暴露成果重定义导致的虚假趋势与平台计算缺陷"
+   ],
+   "benchmarks": [
+    "CS F351 Theory of Computation",
+    "CS F459 Computer Vision",
+    "CAA four-band scale"
+   ]
+  }
+ }
 }

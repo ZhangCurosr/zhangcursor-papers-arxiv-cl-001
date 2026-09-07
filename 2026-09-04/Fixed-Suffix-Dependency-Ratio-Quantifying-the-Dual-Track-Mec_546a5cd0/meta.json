@@ -4,5 +4,32 @@
  "title": "Fixed-Suffix-Dependency-Ratio-Quantifying-the-Dual-Track-Mec",
  "token": "sk-oJ013oevc...",
  "created_at": "2026-09-04 06:56:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/63568bcc-d1c8-42a7-92ac-edfa9a9c9dd2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/63568bcc-d1c8-42a7-92ac-edfa9a9c9dd2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 23:10:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "loanwords",
+    "gender assignment",
+    "default gender",
+    "morphological coercion",
+    "fixed suffix dependency ratio",
+    "Latvian",
+    "language contact"
+   ],
+   "field": "形态句法与语言接触",
+   "innovations": [
+    "提出FSDR指标实现形态强制与认知默认在数据层面的可操作化分离",
+    "实证证明阳性默认是接触诱发的独立效应而非目标语基线延续",
+    "揭示gender vacuum条件下双轨机制不对称性历时强化"
+   ],
+   "benchmarks": [
+    "Latvian Wikipedia annotated dataset (Zenodo DOI: 10.5281/zenodo.17380900)",
+    "Skolo.lv educational materials",
+    "Pre-1985 historical Latvian texts"
+   ]
+  }
+ }
 }

@@ -4,5 +4,34 @@
  "title": "Understanding-Autonomous-Driving-Datasets-by-Describing-Diff",
  "token": "sk-aEeqX9tmP...",
  "created_at": "2026-09-04 17:22:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/a7036334-aa4d-40a5-aeee-21fc3c5e1c24.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/a7036334-aa4d-40a5-aeee-21fc3c5e1c24.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 23:13:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "集合差描述",
+    "自动驾驶数据集",
+    "对象中心视觉语言模型",
+    "域偏移",
+    "数据集内省",
+    "开放权重模型"
+   ],
+   "field": "自动驾驶数据集分析与可视化",
+   "innovations": [
+    "提出以对象为中心的集合差描述方法，将差描述粒度从全图降至检测对象 patch",
+    "构建首个自动驾驶集合差描述基准 AD-Diff Bench，支持纯度和浓度可控实验",
+    "首次系统性评估高稀疏性（低浓度）条件下集合差描述的可行性边界"
+   ],
+   "benchmarks": [
+    "AD-Diff Bench",
+    "VisDiffBench",
+    "MetaShift",
+    "KITTI",
+    "nuImages",
+    "Waymo Open Perception"
+   ]
+  }
+ }
 }

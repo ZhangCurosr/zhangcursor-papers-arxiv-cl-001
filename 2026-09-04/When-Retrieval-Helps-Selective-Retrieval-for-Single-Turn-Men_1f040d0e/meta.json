@@ -4,5 +4,30 @@
  "title": "When-Retrieval-Helps-Selective-Retrieval-for-Single-Turn-Men",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-09-04 06:56:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/eeba6e97-9235-49f7-8896-17ef0f21cb0d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/eeba6e97-9235-49f7-8896-17ef0f21cb0d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 23:14:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "mental-health QA",
+    "retrieval-augmented generation",
+    "selective retrieval",
+    "safety-sensitive NLP",
+    "adaptive RAG"
+   ],
+   "field": "心理健康自然语言处理",
+   "innovations": [
+    "将检索激活形式化为心理教育/应对/具体性三维效用+硬性安全触发的混合门控策略",
+    "在固定生成器上隔离检索策略效应，揭示始终检索引入安全退化",
+    "构建紧凑可控的40文档心理健康指南语料库并按功能路由"
+   ],
+   "benchmarks": [
+    "CounselBench-Eval",
+    "CounselBench-Adv",
+    "MentalChat16K"
+   ]
+  }
+ }
 }

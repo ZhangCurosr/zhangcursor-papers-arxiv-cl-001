@@ -4,5 +4,32 @@
  "title": "Opening-mind-by-opening-architecture-analysis-strategies",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-09-04 17:22:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/d760f832-3024-44dd-947e-3187e89af34c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/d760f832-3024-44dd-947e-3187e89af34c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 23:11:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "开放架构",
+    "白盒DSP",
+    "脉冲响应分析",
+    "Faust",
+    "Csound",
+    "Schroeder混响",
+    "模块化组合"
+   ],
+   "field": "电子音乐计算与音频信号处理",
+   "innovations": [
+    "提出面向历史算法混响器的白盒迁移与IR分析范式",
+    "在Csound中设计par/seq模块化组合算符突破原生限制",
+    "构建嵌入式脉冲响应自动化测试流水线支持算法教学与扩展"
+   ],
+   "benchmarks": [
+    "Schroeder 1962混响器",
+    "Faust原生实现",
+    "Csound UDO组合结构"
+   ]
+  }
+ }
 }

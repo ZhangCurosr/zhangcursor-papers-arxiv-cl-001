@@ -4,5 +4,31 @@
  "title": "VISCAD-A-FOUNDATION-MODEL-SUITE-WITH-MUL-TIMODAL-INDUSTRIAL",
  "token": "sk-haVkJ3VAf...",
  "created_at": "2026-09-04 17:22:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/7669f8a6-eec6-4b55-95a8-f7a57fbb6277.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/7669f8a6-eec6-4b55-95a8-f7a57fbb6277.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 23:13:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "CAD generation",
+    "multimodal foundation model",
+    "test-time scaling",
+    "assembly generation",
+    "domain-specific harness",
+    "intermediate representation",
+    "industrial design"
+   ],
+   "field": "多模态程序生成与 CAD 智能",
+   "innovations": [
+    "27B多模态零件生成模型VisCAD-M1在PubCADBench/RealCADBench上超越SOTA前沿模型",
+    "并行测试时缩放(27B模型自reranker)带来约5%相对提升",
+    "DSL-agnostic装配级中间表示与四阶段gated工作流VisCAD-H1"
+   ],
+   "benchmarks": [
+    "PubCADBench",
+    "RealCADBench"
+   ]
+  }
+ }
 }

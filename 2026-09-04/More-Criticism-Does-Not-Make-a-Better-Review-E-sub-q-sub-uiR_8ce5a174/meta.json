@@ -4,5 +4,31 @@
  "title": "More-Criticism-Does-Not-Make-a-Better-Review-E-sub-q-sub-uiR",
  "token": "sk-dKfLTOMDH...",
  "created_at": "2026-09-04 17:22:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/a892b0a3-2c00-43ac-80f2-69252bc73fe3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/a892b0a3-2c00-43ac-80f2-69252bc73fe3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 23:10:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "AI辅助同行评审",
+    "证据引导修订",
+    "选择性停止",
+    "遗漏与过度批评分离",
+    "ReviewTrace",
+    "Learn-then-Test"
+   ],
+   "field": "AI辅助科学审稿",
+   "innovations": [
+    "将审稿重构为证据引导的关注集精炼，先修订后搜索",
+    "设计计算量匹配对照证明收益来自修订机制而非更多推理",
+    "提出Stop/Continue/Defer三态选择性停止并结合Learn-then-Test风险约束"
+   ],
+   "benchmarks": [
+    "ReviewTrace",
+    "E3",
+    "E3-Matched"
+   ]
+  }
+ }
 }

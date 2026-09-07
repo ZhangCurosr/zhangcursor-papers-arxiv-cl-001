@@ -4,5 +4,30 @@
  "title": "Typological-Feature-Prediction-with-Large-Language-Models-An",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-09-04 06:58:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/bd8e7b81-80ac-46b1-b358-8f2971075c40.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/bd8e7b81-80ac-46b1-b358-8f2971075c40.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 23:13:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "typological feature prediction",
+    "large language models",
+    "in-context learning",
+    "explainable NLP",
+    "low-resource languages",
+    "knowledge base completion"
+   ],
+   "field": "跨语言自然语言处理与类型学计算",
+   "innovations": [
+    "提出整合锚点特征与谱系/地理邻居的上下文提示框架，显著提升类型特征预测性能并保持低资源公平性",
+    "通过对照实验证明LLM优势源于多源证据整合而非简单多数投票",
+    "以人工标注验证提示证据充分性与LLM理由一致性，推进可解释类型特征预测"
+   ],
+   "benchmarks": [
+    "URIEL+",
+    "SIGTYP 2020 Shared Task"
+   ]
+  }
+ }
 }

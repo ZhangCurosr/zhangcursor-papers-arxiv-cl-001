@@ -4,5 +4,30 @@
  "title": "To-What-Extent-Do-Large-Language-Models-Understand-Bangla-Id",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-09-04 06:58:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/d1937bad-444d-4b13-bb88-74293375c1d5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/d1937bad-444d-4b13-bb88-74293375c1d5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 23:12:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Bangla idioms",
+    "low-resource NLP",
+    "LLM evaluation",
+    "idiom paraphrasing",
+    "span detection",
+    "MCQ meaning identification"
+   ],
+   "field": "低资源语言成语理解",
+   "innovations": [
+    "首个大规模孟加拉语成语基准数据集（10,822条）及合成MCQ数据集",
+    "提出释义改写、边界检测、意义识别三类互补任务并系统评测8个LLM",
+    "揭示模型表现的非一致性规律并提供人工评估校准自动指标的实证依据"
+   ],
+   "benchmarks": [
+    "Bangla Idiom Benchmark (10,822 entries)",
+    "Synthetic MCQ Dataset (10,913 single + 38,688 multiple answers)"
+   ]
+  }
+ }
 }

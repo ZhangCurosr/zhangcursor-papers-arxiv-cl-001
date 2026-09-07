@@ -4,5 +4,35 @@
  "title": "What-Do-CAE-Simulation-Agents-Really-Need-Beyond-a-Generic-H",
  "token": "sk-fYugtz9Wo...",
  "created_at": "2026-09-04 17:22:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/a93f9249-9cfc-42cf-aec5-d3821b32c41e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/a93f9249-9cfc-42cf-aec5-d3821b32c41e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 23:14:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "CAE simulation",
+    "LLM agents",
+    "coding harness",
+    "FoamBench",
+    "ablation study",
+    "domain knowledge",
+    "OpenFOAM"
+   ],
+   "field": "AI for Science / 科学计算代理",
+   "innovations": [
+    "提出 Direct Baseline 统一评估框架，量化通用 Harness 在 CAE 领域的真实能力上限",
+    "通过消融实验分离执行反馈修复、领域教程注入、脚本化反思的边际贡献",
+    "揭示当前 CAE 基准评价体系的缺陷（执行成功≠物理正确）并提出改进建议"
+   ],
+   "benchmarks": [
+    "FoamBench",
+    "MetaOpenFOAM v1/v2",
+    "NL2FOAM",
+    "MCP-SIM",
+    "FEABench",
+    "SimBench"
+   ]
+  }
+ }
 }

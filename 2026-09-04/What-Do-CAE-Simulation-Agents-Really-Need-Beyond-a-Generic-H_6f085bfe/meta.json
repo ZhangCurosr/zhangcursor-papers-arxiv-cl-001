@@ -4,5 +4,35 @@
  "title": "What-Do-CAE-Simulation-Agents-Really-Need-Beyond-a-Generic-H",
  "token": "sk-fYugtz9Wo...",
  "created_at": "2026-09-04 06:55:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/a93f9249-9cfc-42cf-aec5-d3821b32c41e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/a93f9249-9cfc-42cf-aec5-d3821b32c41e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 23:14:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "CAE simulation",
+    "LLM agent",
+    "coding agent harness",
+    "multi-agent vs single-agent",
+    "execution feedback repair",
+    "tutorial injection",
+    "benchmark evaluation"
+   ],
+   "field": "AI for Science - 计算工程仿真代理",
+   "innovations": [
+    "证明通用编码代理harness+强基座模型无需专门脚手架即可匹敌/超越多智能体CAE代理系统",
+    "通过消融实验定位执行反馈修复和教程知识注入为真正驱动因素",
+    "揭示CAE基准执行成功与物理正确性的混淆问题并提出三层评估改革建议"
+   ],
+   "benchmarks": [
+    "FoamBench",
+    "MetaOpenFOAM v1/v2",
+    "NL2FOAM",
+    "MCP-SIM",
+    "FEABench",
+    "SimBench"
+   ]
+  }
+ }
 }

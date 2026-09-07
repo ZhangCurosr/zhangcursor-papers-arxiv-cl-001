@@ -4,5 +4,31 @@
  "title": "Transfiver-Human-AI-Co-Inference-through-a-Shared-Editable-S",
  "token": "sk-yJ5h9Go8b...",
  "created_at": "2026-09-04 17:22:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/0b4b58f2-19de-4387-b4f8-43548fc25000.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/0b4b58f2-19de-4387-b4f8-43548fc25000.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 23:12:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "persistent state",
+    "human-AI co-inference",
+    "editable memory",
+    "history sufficiency",
+    "long-term interaction",
+    "state audit"
+   ],
+   "field": "人机协同推理与持久记忆架构",
+   "innovations": [
+    "提出 Transfiver 单状态架构，使人类可编辑状态即模型计算读取的唯一路径",
+    "形式化历史充分性与因果干预契约，提供可审计的架构级约束",
+    "在小规模测试中验证单一冻结状态可支持四种不同时间读规则的分离恢复"
+   ],
+   "benchmarks": [
+    "Synthetic context-separation test (5 seeds, 512 queries each)",
+    "Four-rule temporal readout test (5 models, 5120 queries)",
+    "Real interaction records (44 items, 3 open models: Mistral-7B, Qwen2.5-7B, Phi-3-mini)"
+   ]
+  }
+ }
 }

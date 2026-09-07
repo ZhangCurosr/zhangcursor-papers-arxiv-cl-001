@@ -4,5 +4,32 @@
  "title": "The-Impact-of-Synthetic-Data-Augmentation-on-Discourse-Pragm",
  "token": "sk-RdV3tP4AZ...",
  "created_at": "2026-09-04 17:22:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/3099e626-e02c-4a53-9e40-dcc85b7f1921.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/3099e626-e02c-4a53-9e40-dcc85b7f1921.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 23:12:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "synthetic data augmentation",
+    "discourse-pragmatic classification",
+    "embedding space geometry",
+    "low-resource NLP",
+    "decision boundary",
+    "class imbalance"
+   ],
+   "field": "语用学与自然语言处理交叉",
+   "innovations": [
+    "首次系统考察合成数据在嵌入空间中的几何位置对分类性能的影响，发现近端样本（NEAR）带来最大macro-F提升",
+    "提出距离感知的合成数据增强策略框架，将合成样本按余弦距离分为NEAR/MIDDLE/FAR三组进行对比实验",
+    "发现增强仅移动决策边界而不改善概率估计（AUC无提升），为评估增强效果提供新的诊断视角"
+   ],
+   "benchmarks": [
+    "British National Corpus (BNC)",
+    "macro-F",
+    "Accuracy",
+    "macro-AUC"
+   ]
+  }
+ }
 }

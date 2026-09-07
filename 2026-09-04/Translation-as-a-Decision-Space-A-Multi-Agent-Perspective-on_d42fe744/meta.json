@@ -4,5 +4,30 @@
  "title": "Translation-as-a-Decision-Space-A-Multi-Agent-Perspective-on",
  "token": "sk-AsgiqoBdE...",
  "created_at": "2026-09-04 17:22:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/eca1ce79-b5ea-48a5-854c-44fa27865340.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/eca1ce79-b5ea-48a5-854c-44fa27865340.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 23:12:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多智能体系统",
+    "决策空间建模",
+    "低资源方言翻译",
+    "可解释人工智能",
+    "神经机器翻译",
+    "行为分析",
+    "土耳其语-叙利亚阿拉伯语"
+   ],
+   "field": "低资源神经机器翻译与可解释AI",
+   "innovations": [
+    "将翻译重构为由共享模型支持的、受约束的智能体所探索的决策空间",
+    "提出方言标记频率、词汇归一化、结构方差等行为指标量化智能体间发散",
+    "通过轻量级微调实证揭示对低资源方言生成行为的系统性重塑"
+   ],
+   "benchmarks": [
+    "Turkish-Syrian Arabic dialogue translation evaluation (5K sentences)"
+   ]
+  }
+ }
 }

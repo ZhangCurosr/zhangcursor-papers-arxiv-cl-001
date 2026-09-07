@@ -4,5 +4,27 @@
  "title": "Opening-mind-by-opening-architecture-analysis-strategies",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-09-04 06:56:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/d760f832-3024-44dd-947e-3187e89af34c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/d760f832-3024-44dd-947e-3187e89af34c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 23:11:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "open architecture",
+    "impulse response",
+    "Faust",
+    "Csound",
+    "reverberator",
+    "Schroeder",
+    "par/seq composition"
+   ],
+   "field": "音频信号处理与电声作曲",
+   "innovations": [
+    "Faust→Csound 跨语言移植并构建对照分析路径",
+    "Csound 中实现递归 UDO 以再现 par/seq 组合结构",
+    "可嵌入合成器的脉冲响应采集与自动化可视化管线"
+   ]
+  }
+ }
 }

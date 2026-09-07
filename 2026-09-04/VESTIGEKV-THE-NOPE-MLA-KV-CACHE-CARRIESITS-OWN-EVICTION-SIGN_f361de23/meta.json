@@ -4,5 +4,31 @@
  "title": "VESTIGEKV-THE-NOPE-MLA-KV-CACHE-CARRIESITS-OWN-EVICTION-SIGN",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-09-04 06:56:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/9d3ab5ea-8c1b-4b51-875f-f5f96daee7bd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/9d3ab5ea-8c1b-4b51-875f-f5f96daee7bd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 23:13:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "KV Cache Compression",
+    "NoPE",
+    "MLA",
+    "Long-context LLM",
+    "Cache Eviction",
+    "Position Encoding"
+   ],
+   "field": "高效长上下文推理",
+   "innovations": [
+    "发现 NoPE-MLA 中 vestige 分支为 query-independent 显著性信号，实现零训练 KV cache 压缩",
+    "提出 recall tier + per-token certificate 机制，128× 压缩下检索率恢复至 1.00",
+    "严格区分 NoPE 与 RoPE 下缓存压缩的理论可行性边界，形式化 exchangeability 与 ranking stationarity"
+   ],
+   "benchmarks": [
+    "Needle Retrieval (8k-65k)",
+    "Held-out CE (6 docs)",
+    "Production Serving Engine (512x)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "What-Else-Needs-Fixing-Exploring-Cost-Effective-Test-Time-Co",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-09-04 06:56:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/bb14e95f-007b-47d7-92c1-9c89450fb361.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/bb14e95f-007b-47d7-92c1-9c89450fb361.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 23:14:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "revision propagation",
+    "test-time compute",
+    "LLM conversation",
+    "JSON artifact editing",
+    "benchmark",
+    "self-consistency"
+   ],
+   "field": "对话式LLM应用与评估",
+   "innovations": [
+    "提出首个面向对话生成artifact的修订传播基准RevPropBench",
+    "系统评估9种测试时计算方法在6个LLM上的成本效益",
+    "发现SELECT/MED三样本并行采样为最性价比策略，准确率提升2.2-9.7%"
+   ],
+   "benchmarks": [
+    "RevPropBench"
+   ]
+  }
+ }
 }

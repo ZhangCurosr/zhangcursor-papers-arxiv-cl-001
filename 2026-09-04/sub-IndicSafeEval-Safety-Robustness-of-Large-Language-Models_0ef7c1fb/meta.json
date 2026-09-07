@@ -4,5 +4,33 @@
  "title": "sub-IndicSafeEval-Safety-Robustness-of-Large-Language-Models",
  "token": "sk-LV19Ft0NN...",
  "created_at": "2026-09-04 17:22:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/05b389ee-7cfc-44a7-8859-f16d583f2b7b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/05b389ee-7cfc-44a7-8859-f16d583f2b7b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 23:16:00",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "多语言安全评估",
+    "说服型越狱",
+    "LLM 对齐",
+    "印度语言",
+    "IndicSafeEval",
+    "ASR"
+   ],
+   "field": "多语言大语言模型安全评估",
+   "innovations": [
+    "首次系统性将六类人类说服策略引入多语言 LLM 越狱评估，解耦语言×策略×风险类别三维影响",
+    "提出 LaBSE 语义一致性验证管道，分离语言能力不足与安全对齐失效的归因",
+    "揭示强制英文回复意外强化 ASR 的现象，挑战语言约束作为安全加固手段的假设"
+   ],
+   "benchmarks": [
+    "IndicSafeEval",
+    "XSAFETY",
+    "Matrka",
+    "MultiJail",
+    "RTP-LX"
+   ]
+  }
+ }
 }

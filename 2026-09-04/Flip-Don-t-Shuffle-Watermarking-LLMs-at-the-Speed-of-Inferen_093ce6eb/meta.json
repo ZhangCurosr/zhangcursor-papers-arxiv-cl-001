@@ -4,5 +4,33 @@
  "title": "Flip-Don-t-Shuffle-Watermarking-LLMs-at-the-Speed-of-Inferen",
  "token": "sk-JdJPQj6CY...",
  "created_at": "2026-09-04 06:56:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/83a51d03-8cb8-4272-a041-572dc42a021c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/83a51d03-8cb8-4272-a041-572dc42a021c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 23:10:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM watermarking",
+    "statistical watermark",
+    "green list",
+    "self-salt",
+    "kernel fusion",
+    "CBRNG"
+   ],
+   "field": "大语言模型安全与溯源",
+   "innovations": [
+    "提出SBW：用独立伯努利试验替代KGW词汇表排列，实现O(1)单内核水印",
+    "首次实现全词表高效自盐水印（6000×速度提升）",
+    "发现Jenkins哈希改善null校准1.8倍并提升文本多样性"
+   ],
+   "benchmarks": [
+    "C4 validation",
+    "Alpaca",
+    "ROC-AUC",
+    "Perplexity",
+    "vLLM serving latency"
+   ]
+  }
+ }
 }

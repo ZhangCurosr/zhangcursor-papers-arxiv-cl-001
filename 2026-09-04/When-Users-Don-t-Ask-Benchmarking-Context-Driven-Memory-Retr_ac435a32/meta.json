@@ -4,5 +4,33 @@
  "title": "When-Users-Don-t-Ask-Benchmarking-Context-Driven-Memory-Retr",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-09-04 17:22:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/b5149486-519e-44f5-b6d9-21ad9fcfe3ca.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/b5149486-519e-44f5-b6d9-21ad9fcfe3ca.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 23:15:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "conversational memory",
+    "long-horizon dialogue",
+    "memory retrieval benchmark",
+    "implicit query",
+    "abstractive memory",
+    "retrieval-augmented generation"
+   ],
+   "field": "长程对话记忆评估",
+   "innovations": [
+    "提出 LOCOMO-CONV 对话基准，通过四种第一人称查询风格评估记忆系统在自然对话中的检索与响应能力",
+    "揭示检索-响应断层与沉默地面化现象，证明严格事实召回指标低估隐式查询下记忆价值",
+    "发现多面查询重写对 raw-turn 记忆有效但对压缩抽象记忆收益有限，提出语义阐释优于无损压缩的设计启示"
+   ],
+   "benchmarks": [
+    "LoCoMo-Conv",
+    "LoCoMo",
+    "LongMemEval",
+    "PersonaMem",
+    "AMemGym"
+   ]
+  }
+ }
 }

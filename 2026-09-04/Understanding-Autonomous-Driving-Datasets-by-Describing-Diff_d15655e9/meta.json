@@ -4,5 +4,30 @@
  "title": "Understanding-Autonomous-Driving-Datasets-by-Describing-Diff",
  "token": "sk-aEeqX9tmP...",
  "created_at": "2026-09-04 06:57:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/19757881-84af-43a5-bab7-0723e28a6969.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/19757881-84af-43a5-bab7-0723e28a6969.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 23:13:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "集合差异描述",
+    "自动驾驶数据集",
+    "视觉语言模型",
+    "对象中心化",
+    "分布偏移",
+    "AD-Diff Bench"
+   ],
+   "field": "自动驾驶数据理解与数据集诊断",
+   "innovations": [
+    "提出对象中心化集合差异描述任务，适配自动驾驶对象密集场景",
+    "发布首个自动驾驶专属集合差异描述基准AD-Diff Bench，含三种split",
+    "引入浓度参数系统评估高稀疏性差异检测能力"
+   ],
+   "benchmarks": [
+    "AD-Diff Bench",
+    "VisDiffBench"
+   ]
+  }
+ }
 }

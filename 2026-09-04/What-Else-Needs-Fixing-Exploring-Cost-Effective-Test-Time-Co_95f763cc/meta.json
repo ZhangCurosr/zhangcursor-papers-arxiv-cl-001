@@ -4,5 +4,29 @@
  "title": "What-Else-Needs-Fixing-Exploring-Cost-Effective-Test-Time-Co",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-09-04 17:22:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/1bc177c9-83de-4122-8fa3-a7378740bb0b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/1bc177c9-83de-4122-8fa3-a7378740bb0b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 23:14:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "修订传播",
+    "测试时计算",
+    "大语言模型",
+    "基准测试",
+    "JSON编辑",
+    "对话生成产物"
+   ],
+   "field": "大语言模型应用与评估",
+   "innovations": [
+    "提出了对话生成产物修订传播的新基准RevPropBench",
+    "系统评估了九种测试时计算方法（包括顺序反思和平行采样变体）的成本效益",
+    "发现基于并行采样后LLM选择或medoid选择是最具成本效益的修订传播提升策略"
+   ],
+   "benchmarks": [
+    "RevPropBench"
+   ]
+  }
+ }
 }
