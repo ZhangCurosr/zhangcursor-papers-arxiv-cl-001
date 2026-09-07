@@ -4,5 +4,30 @@
  "title": "REALCADBENCH-BENCHMARKING-PARAMETRIC-CAD-MODELING-FROM-INDUS",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-09-04 06:56:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/4a0ce981-41fe-434b-bf75-46729e49a751.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/4a0ce981-41fe-434b-bf75-46729e49a751.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 20:20:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "参数化 CAD 建模",
+    "多模态基准测试",
+    "工业设计意图",
+    "可执行性评估",
+    "视觉语义身份",
+    "Agent 比较"
+   ],
+   "field": "CAD 生成与评估",
+   "innovations": [
+    "首个面向真实工业设计意图的四模态参数化 CAD 基准",
+    "四维互补评估协议（可执行性/Solid IoU/Surface IoU/视觉语义身份 Judge）",
+    "前沿模型与通用 Agent 在真实工业场景的系统对比"
+   ],
+   "benchmarks": [
+    "RealCADBench",
+    "RCB-Assm25"
+   ]
+  }
+ }
 }

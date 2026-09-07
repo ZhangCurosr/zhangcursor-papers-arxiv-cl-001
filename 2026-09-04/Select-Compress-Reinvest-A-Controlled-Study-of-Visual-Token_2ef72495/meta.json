@@ -4,5 +4,31 @@
  "title": "Select-Compress-Reinvest-A-Controlled-Study-of-Visual-Token",
  "token": "sk-rnwM2rvcl...",
  "created_at": "2026-09-04 17:22:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/a72179a5-ee62-490d-a522-f7af43ead239.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/a72179a5-ee62-490d-a522-f7af43ead239.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 20:22:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "长视频理解",
+    "视觉Token分配",
+    "帧选择",
+    "多模态大模型",
+    "正交匹配追踪",
+    "受控实验"
+   ],
+   "field": "长视频多模态理解",
+   "innovations": [
+    "首次在固定编码器和回答模型下对6种无训练选择器进行配对比较，发现OMP无调参可匹敌专用选择器",
+    "将帧预算分配分解为选择-压缩-再投资三步受控干预，量化各决策的独立因果贡献",
+    "通过跨臂帧重叠率检查发现AKS实现的隐蔽padding bug，揭示跨实验比较的脆弱性"
+   ],
+   "benchmarks": [
+    "LongVideoBench",
+    "Video-MME",
+    "LVBench"
+   ]
+  }
+ }
 }

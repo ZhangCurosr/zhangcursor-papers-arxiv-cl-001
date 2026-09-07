@@ -4,5 +4,10 @@
  "title": "From-Zero-to-Hero-An-Open-LLM-Ecosystem-for-Armenian",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-09-04 07:01:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/af0ec799-592c-440e-abd9-f16e0366201c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/af0ec799-592c-440e-abd9-f16e0366201c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 20:19:20",
+  "chunks": 1
+ }
 }

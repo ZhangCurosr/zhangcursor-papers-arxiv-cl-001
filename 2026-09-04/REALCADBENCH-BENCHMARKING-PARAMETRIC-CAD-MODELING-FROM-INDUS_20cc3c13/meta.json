@@ -4,5 +4,32 @@
  "title": "REALCADBENCH-BENCHMARKING-PARAMETRIC-CAD-MODELING-FROM-INDUS",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-09-04 17:23:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/4a0ce981-41fe-434b-bf75-46729e49a751.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/4a0ce981-41fe-434b-bf75-46729e49a751.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 20:20:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Parametric CAD",
+    "CAD Benchmark",
+    "Industrial Design",
+    "Large Language Model",
+    "Geometric Deep Learning",
+    "Multi-modal Generation"
+   ],
+   "field": "CAD 生成与评测",
+   "innovations": [
+    "提出 RealCADBench 多模态参数化 CAD 基准（12,632 任务/19 类别/四项互补指标）",
+    "引入 rubric-based 视觉-语义一致性 Judge 独立于参考模型评估产品身份",
+    "系统对比前沿大模型与 Agent 在真实工业 CAD 任务上的四项指标 trade-off"
+   ],
+   "benchmarks": [
+    "RealCADBench",
+    "RCB-Assm25",
+    "BenchCAD",
+    "CADGenBench"
+   ]
+  }
+ }
 }

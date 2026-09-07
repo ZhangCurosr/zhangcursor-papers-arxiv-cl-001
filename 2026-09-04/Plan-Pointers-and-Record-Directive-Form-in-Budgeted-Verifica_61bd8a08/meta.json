@@ -4,5 +4,30 @@
  "title": "Plan-Pointers-and-Record-Directive-Form-in-Budgeted-Verifica",
  "token": "sk-1jVZGxTQ1...",
  "created_at": "2026-09-04 06:56:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/7eb6f091-f495-4ba9-b06b-69688aa746a9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/7eb6f091-f495-4ba9-b06b-69688aa746a9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 20:20:59",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "字节控制",
+    "指针响应",
+    "提示工程",
+    "注册复现",
+    "POINTER-STRONG",
+    "跨域传输"
+   ],
+   "field": "大模型可解释性与对齐",
+   "innovations": [
+    "提出字节控制提示框架系统操控指针响应",
+    "构建模型家族敏感性谱系揭示稳定性差异",
+    "通过注册复现验证POINTER-STRONG结论"
+   ],
+   "benchmarks": [
+    "Study B'/G/I 六臂对照测试",
+    "6模型家族指针响应率"
+   ]
+  }
+ }
 }

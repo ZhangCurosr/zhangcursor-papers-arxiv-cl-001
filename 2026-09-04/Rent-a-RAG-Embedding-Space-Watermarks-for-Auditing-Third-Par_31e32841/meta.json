@@ -4,5 +4,30 @@
  "title": "Rent-a-RAG-Embedding-Space-Watermarks-for-Auditing-Third-Par",
  "token": "sk-ovHaiDbC4...",
  "created_at": "2026-09-04 17:22:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/87a9e4e2-454c-40d6-935c-c80ea0b7128f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/87a9e4e2-454c-40d6-935c-c80ea0b7128f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 20:21:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RAG审计",
+    "嵌入空间水印",
+    "多提供方归因",
+    "黑盒检测",
+    "语义水印",
+    "对抗鲁棒性"
+   ],
+   "field": "RAG系统安全与可信审计",
+   "innovations": [
+    "提出DirBucket：提供方侧嵌入空间方向偏置水印，抵抗LLM改写与多源混合",
+    "参考桶锚定检测策略，以匹配源窗口桶而非答案窗口桶索引方向以提升改写鲁棒性",
+    "在无算子配合的黑盒条件下实现30/30目标检测且零非目标激活，仅需23条答案即可达统计显著"
+   ],
+   "benchmarks": [
+    "FARAD (RepLiQA虚构语料, m=6)",
+    "Real-domain benchmark (PubMed clinical, CTI reports, Legal case summaries)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,34 @@
  "title": "Pattern-Over-Generalization-of-Knowledge-Graph-Embedding",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-09-04 06:56:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/d588dfd5-a075-4b38-8cec-c7a527b5e652.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/d588dfd5-a075-4b38-8cec-c7a527b5e652.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 20:20:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "知识图谱嵌入",
+    "模式泛化",
+    "链接预测",
+    "过度泛化",
+    "线性变换",
+    "谱归一化",
+    "QR分解"
+   ],
+   "field": "知识表示学习与图谱补全",
+   "innovations": [
+    "形式化并提出模式过度泛化问题及OG ratio诊断指标",
+    "设计PogRE通过QR分解与共享上三角矩阵实现基于证据数的渐进式泛化",
+    "理论证明d+1个线性无关实体保证模式全局泛化并实验验证"
+   ],
+   "benchmarks": [
+    "WN18RR",
+    "FB15k-237",
+    "YAGO3-10",
+    "ogbl-biokg",
+    "ogbl-wikikg2"
+   ]
+  }
+ }
 }

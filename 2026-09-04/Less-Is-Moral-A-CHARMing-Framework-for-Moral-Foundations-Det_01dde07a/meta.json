@@ -4,5 +4,39 @@
  "title": "Less-Is-Moral-A-CHARMing-Framework-for-Moral-Foundations-Det",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-09-04 06:57:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/6f02f0a9-300a-48e7-ba99-651222aa5945.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/6f02f0a9-300a-48e7-ba99-651222aa5945.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 20:19:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "moral foundations theory",
+    "Morality as Cooperation",
+    "moral foundation detection",
+    "rationale alignment",
+    "cross-domain generalization",
+    "hate speech modulation",
+    "endorsement homophily",
+    "LLM adaptation"
+   ],
+   "field": "计算道德与框架检测",
+   "innovations": [
+    "首次将 MFT 与 MAC 心理理论内嵌至 LLM 架构（跨注意力+理由池化+FiLM 调制）实现极性感知道德检测",
+    "以 30% 基础监督 + 多源丰富标注实现跨域强泛化与可审计理由，成本远低于 prompt-based LLM",
+    "规模化验证作者侧道德框架预测 endorse 行为与网络全基础正向同质性"
+   ],
+   "benchmarks": [
+    "MFTC",
+    "MFRC",
+    "News",
+    "MFTCXplain",
+    "ARG",
+    "SC",
+    "MIC",
+    "VIG",
+    "HateBR"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Fixed-Suffix-Dependency-Ratio-Quantifying-the-Dual-Track-Mec",
  "token": "sk-oJ013oevc...",
  "created_at": "2026-09-04 17:22:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/63568bcc-d1c8-42a7-92ac-edfa9a9c9dd2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/63568bcc-d1c8-42a7-92ac-edfa9a9c9dd2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 20:18:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "loanwords",
+    "gender assignment",
+    "default gender",
+    "FSDR",
+    "language contact",
+    "Latvian",
+    "morphological coercion",
+    "dual-track mechanism"
+   ],
+   "field": "接触语言学/借词形态句法",
+   "innovations": [
+    "提出FSDR指标量化不同性别对固定派生后缀的依赖程度，实现形态强制与默认指派的数据层面分离",
+    "在无阳性偏向的拉脱维亚语中证实借词自由选择区的阳性默认是接触诱导现象而非本土基线反映",
+    "历时对比揭示gender vacuum条件下FSDR不对称性显著强化（+0.215→+0.395）"
+   ],
+   "benchmarks": [
+    "1,832 Latvian noun lemmas (530 loanwords, 1,302 native words)",
+    "Historical (≤1985) vs. Contemporary (>1985) period comparison"
+   ]
+  }
+ }
 }

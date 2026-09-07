@@ -4,5 +4,30 @@
  "title": "Rent-a-RAG-Embedding-Space-Watermarks-for-Auditing-Third-Par",
  "token": "sk-ovHaiDbC4...",
  "created_at": "2026-09-04 06:58:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/87a9e4e2-454c-40d6-935c-c80ea0b7128f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/87a9e4e2-454c-40d6-935c-c80ea0b7128f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 20:21:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RAG watermarking",
+    "black-box auditing",
+    "embedding-space watermark",
+    "third-party RAG marketplace",
+    "document reuse detection",
+    "semantic paraphrase robustness"
+   ],
+   "field": "可信AI与数据治理",
+   "innovations": [
+    "方向性桶水印：在嵌入空间沿密钥派生方向进行意义保持改写，信号存于几何而非表层词序",
+    "锚定竞争性对齐检测：使用匹配参考窗口的桶索引方向评分，抵抗转述导致的桶漂移",
+    "揭示审计规避与答案质量的不可兼得权衡：唯一部分逃避检测的压缩条件显著降低用户感知完整性"
+   ],
+   "benchmarks": [
+    "FARAD (multi-provider fictional corpus)",
+    "Real-domain benchmark (clinical PubMed, cyber threat intelligence, legal case summaries)"
+   ]
+  }
+ }
 }

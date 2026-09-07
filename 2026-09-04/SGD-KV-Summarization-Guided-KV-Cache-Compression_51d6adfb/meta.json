@@ -4,5 +4,30 @@
  "title": "SGD-KV-Summarization-Guided-KV-Cache-Compression",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-09-04 06:56:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/b395cdc2-29f0-4491-bc85-9b93f248efdc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/b395cdc2-29f0-4491-bc85-9b93f248efdc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 20:22:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "KV cache compression",
+    "attention head specialization",
+    "long-context LLM",
+    "summarization heads",
+    "resource allocation"
+   ],
+   "field": "长上下文语言模型高效推理",
+   "innovations": [
+    "提出总结头概念并通过chunk-summarization诊断任务量化其能力",
+    "基于总结分数分布的头级水填充预算分配机制",
+    "发现总结提示可作为通用查询代理缓解无查询场景性能下降"
+   ],
+   "benchmarks": [
+    "MRCR",
+    "ETHIC",
+    "BABILong"
+   ]
+  }
+ }
 }

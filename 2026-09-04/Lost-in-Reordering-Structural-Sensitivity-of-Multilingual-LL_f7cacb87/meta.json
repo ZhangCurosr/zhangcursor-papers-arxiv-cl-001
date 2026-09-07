@@ -4,5 +4,33 @@
  "title": "Lost-in-Reordering-Structural-Sensitivity-of-Multilingual-LL",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-09-04 06:56:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/67bd4a1c-d4c1-472c-9038-594284e713ce.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/67bd4a1c-d4c1-472c-9038-594284e713ce.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 20:19:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multilingual LLM",
+    "structural robustness",
+    "activation patching",
+    "GSM8K",
+    "Hindi",
+    "Malayalam",
+    "compositional reasoning",
+    "DO RA"
+   ],
+   "field": "多语言大语言模型鲁棒性评测",
+   "innovations": [
+    "构建IndicReStruct多语言结构扰动数据集（重排+语态转换）",
+    "发现多语言LLM在语义保持结构扰动下普遍存在显著性能退化",
+    "首次用残差流激活补丁定位多语言推理失败的关键因果组件（Entity-Quantity Combinations）"
+   ],
+   "benchmarks": [
+    "GSM8K-Reordered",
+    "GSM8K-Voice",
+    "ARC-Challenge-Indic"
+   ]
+  }
+ }
 }

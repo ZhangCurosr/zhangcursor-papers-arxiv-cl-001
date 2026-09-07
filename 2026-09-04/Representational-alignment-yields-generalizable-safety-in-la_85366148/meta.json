@@ -4,5 +4,38 @@
  "title": "Representational-alignment-yields-generalizable-safety-in-la",
  "token": "sk-vBvZ06NsJ...",
  "created_at": "2026-09-04 06:55:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/9d3e53e1-7a5f-49e2-8fb2-fdce13e6d7da.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/9d3e53e1-7a5f-49e2-8fb2-fdce13e6d7da.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 20:21:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM安全对齐",
+    "表示对齐",
+    "对抗鲁棒性",
+    "道德分类",
+    "ReSO",
+    "RSA",
+    "原型理论"
+   ],
+   "field": "大模型安全对齐",
+   "innovations": [
+    "提出ReSO方法，直接对齐LLM潜在表征与人类道德分类结构",
+    "揭示行为对齐与表征对齐的可分离性，证明DPO不重构内部道德分类",
+    "建立RSA与对抗鲁棒性的强相关（R²=0.86），提供安全对齐的新路径"
+   ],
+   "benchmarks": [
+    "HarmBench",
+    "DeceptionBench",
+    "OpenRT",
+    "XSTest",
+    "MMLU-Pro",
+    "HaluEval",
+    "Flames",
+    "MoReBench",
+    "Ethics Benchmark"
+   ]
+  }
+ }
 }

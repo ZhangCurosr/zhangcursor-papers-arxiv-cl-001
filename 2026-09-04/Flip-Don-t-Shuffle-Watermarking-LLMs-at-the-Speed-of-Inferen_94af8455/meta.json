@@ -4,5 +4,35 @@
  "title": "Flip-Don-t-Shuffle-Watermarking-LLMs-at-the-Speed-of-Inferen",
  "token": "sk-JdJPQj6CY...",
  "created_at": "2026-09-04 17:22:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/15bdfe89-31a7-4a43-8ad9-5c6cf3409bd2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/15bdfe89-31a7-4a43-8ad9-5c6cf3409bd2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 20:18:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM watermarking",
+    "statistical watermark",
+    "stateless Bernoulli",
+    "CBRNG",
+    "fused kernel",
+    "self-salt",
+    "Jenkins hash",
+    "vLLM"
+   ],
+   "field": "大语言模型可追溯性与内容认证",
+   "innovations": [
+    "以逐token伯努利试验替代KGW全局置换，实现O(1)单内核融合水印",
+    "首次在生产规模支持全词表self-salt，延迟较KGW低6000×",
+    "识别哈希函数设计为影响水印零假设校准与文本多样性的独立因素"
+   ],
+   "benchmarks": [
+    "C4 validation",
+    "Qwen3-8B generation",
+    "ROC-AUC",
+    "perplexity degradation",
+    "vLLM serving latency"
+   ]
+  }
+ }
 }

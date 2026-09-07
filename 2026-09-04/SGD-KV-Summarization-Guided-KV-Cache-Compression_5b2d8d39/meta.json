@@ -4,5 +4,31 @@
  "title": "SGD-KV-Summarization-Guided-KV-Cache-Compression",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-09-04 17:22:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/b395cdc2-29f0-4491-bc85-9b93f248efdc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/b395cdc2-29f0-4491-bc85-9b93f248efdc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 20:22:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "KV Cache Compression",
+    "Long-Context LLM",
+    "Attention Head Specialization",
+    "Summarization Heads",
+    "Budget Allocation",
+    "MRCR",
+    "ETHIC"
+   ],
+   "field": "长上下文 LLM 高效推理",
+   "innovations": [
+    "提出 chunk-summarization 诊断任务并首次系统识别 Summarization Heads；基于 summarization score 进行细粒度头级 KV 预算分配与水填重分配",
+    "证明通用摘要 prompt 可作为无 query 场景的有效 proxy query，显著缓解 streaming 下的性能退化"
+   ],
+   "benchmarks": [
+    "MRCR",
+    "ETHIC",
+    "BABILong"
+   ]
+  }
+ }
 }

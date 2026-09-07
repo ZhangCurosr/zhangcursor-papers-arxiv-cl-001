@@ -4,5 +4,33 @@
  "title": "Alignment-Free-Text-Audiobox-for-Voice-Dubbing-and-Full-Dupl",
  "token": "sk-vBvZ06NsJ...",
  "created_at": "2026-09-04 17:22:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/fa5a2817-a291-4311-b034-00c46dc61f04.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/fa5a2817-a291-4311-b034-00c46dc61f04.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 20:18:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "flow matching",
+    "latent diffusion",
+    "voice dubbing",
+    "full-duplex dialogue synthesis",
+    "alignment-free TTS",
+    "DAC-VAE",
+    "DiT",
+    "emotional speech synthesis"
+   ],
+   "field": "语音生成与全双工对话合成",
+   "innovations": [
+    "无强制对齐的端到端文本-语音建模，通过cross-attention隐式学习对齐关系",
+    "DAC-VAE高压缩latent diffusion框架，压缩率达1920×支持48kHz高保真",
+    "3B参数统一多任务架构，支持配音、全双工对话及情绪对话合成的端到端训练"
+   ],
+   "benchmarks": [
+    "内部真实配音基准（En↔Es各100样本）",
+    "全双工对话短形与长形MOS评测",
+    "情绪全双工对话VAD情感对齐评测"
+   ]
+  }
+ }
 }

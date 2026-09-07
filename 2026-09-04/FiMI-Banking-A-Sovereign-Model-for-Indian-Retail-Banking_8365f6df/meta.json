@@ -4,5 +4,36 @@
  "title": "FiMI-Banking-A-Sovereign-Model-for-Indian-Retail-Banking",
  "token": "sk-kdPBKi9MQ...",
  "created_at": "2026-09-04 06:56:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/2525931e-fd56-4448-a4e4-662032228672.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/2525931e-fd56-4448-a4e4-662032228672.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 20:18:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "银行代理",
+    "偏好优化",
+    "强化学习",
+    "工具调用",
+    "可验证奖励",
+    "印度零售银行",
+    "小模型微调"
+   ],
+   "field": "金融领域大模型代理",
+   "innovations": [
+    "构建 FiMI Banking 可重放银行代理环境并验证四维度程序化奖励",
+    "从基线模型失败中提取偏好对并使用自改写优选响应训练 DPO",
+    "在小型开放模型上应用 GRPO+可验证奖励，以不到1/3参数量超越3倍规模基线"
+   ],
+   "benchmarks": [
+    "IndicBankBench",
+    "TauIndianBankBench",
+    "MMLU-Pro",
+    "GPQA-Diamond",
+    "IFEval",
+    "LiveCodeBench v6",
+    "BBEH"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "RuleMem-Active-Rule-Memory-for-Long-Term-Conversational-Agen",
  "token": "sk-MljcAo9Bd...",
  "created_at": "2026-09-04 17:22:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/7055baa6-5b96-4bcc-a524-4eb3b06859d5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/7055baa6-5b96-4bcc-a524-4eb3b06859d5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 20:22:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "长期对话记忆",
+    "规则归纳",
+    "检索增强生成",
+    "逻辑推理",
+    "Agent记忆",
+    "困惑度验证"
+   ],
+   "field": "长上下文对话Agent记忆机制",
+   "innovations": [
+    "提出自然语言Horn子句规则记忆框架，将记忆从被动存储转为主动推理引导",
+    "设计RPC机制通过条件困惑度降低量化验证规则质量",
+    "实现规则激活-引导召回-显式推理的演绎问答闭环"
+   ],
+   "benchmarks": [
+    "LoCoMo",
+    "LongMemEval_s*"
+   ]
+  }
+ }
 }

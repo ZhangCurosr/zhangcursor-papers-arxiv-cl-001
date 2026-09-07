@@ -4,5 +4,30 @@
  "title": "Beyond-Majority-Vote-Multi-Perspective-Adjudication-for-Medi",
  "token": "sk-jywkrqzJV...",
  "created_at": "2026-09-04 06:56:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/f66fe76e-966d-4841-8dfc-0c121191eb9c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/f66fe76e-966d-4841-8dfc-0c121191eb9c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 20:17:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "hallucination detection",
+    "medical NLP",
+    "multi-perspective annotation",
+    "LLM-as-a-Judge",
+    "benchmark construction",
+    "adjudication"
+   ],
+   "field": "大语言模型事实性与幻觉检测",
+   "innovations": [
+    "将TREC风格集合评估引入医疗幻觉检测基准构建，显著提升候选发现完备性",
+    "揭示LaJ与人类初筛者的互补性：LaJ发现人类遗漏错误但自身精确率低",
+    "证明裁决者分歧揭示了标注任务本质不确定性，基准构建结果对裁决流程敏感"
+   ],
+   "benchmarks": [
+    "MDHJudgments",
+    "MedExpert"
+   ]
+  }
+ }
 }

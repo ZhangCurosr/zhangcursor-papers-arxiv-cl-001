@@ -4,5 +4,32 @@
  "title": "FrameBench-A-Language-Understanding-Benchmark-Based-on-Frame",
  "token": "sk-I70XXkbCl...",
  "created_at": "2026-09-04 17:22:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/f9da7639-b38b-477f-aab4-8a981455b80d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/f9da7639-b38b-477f-aab4-8a981455b80d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 20:18:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Frame Semantics",
+    "Benchmark",
+    "Language Understanding",
+    "LLM Evaluation",
+    "FrameNet",
+    "Cross-lingual"
+   ],
+   "field": "自然语言理解评估",
+   "innovations": [
+    "提出基于框架语义学的多项选择基准FrameBench，直接评估模型区分同一动词触发的不同语境依赖框架的能力",
+    "构建英日双语版本，采用LLM生成+母语者验证的流水线，依托FrameNet资源确保语义区分 grounded"
+   ],
+   "benchmarks": [
+    "FrameBench",
+    "MMLU-Pro",
+    "GPQA-Diamond",
+    "JamC-QA",
+    "MMLU-ProX"
+   ]
+  }
+ }
 }

@@ -4,5 +4,35 @@
  "title": "Sequential-Beats-Joint-On-the-Interplay-between-On-Policy-Di",
  "token": "sk-Jd4ujJMnj...",
  "created_at": "2026-09-04 06:55:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/698b4a39-4016-4612-9737-49bafbceed3a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/698b4a39-4016-4612-9737-49bafbceed3a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 20:22:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "on-policy distillation",
+    "RLVR",
+    "post-training",
+    "reasoning LLM",
+    "GRPO",
+    "knowledge distillation",
+    "sequential training"
+   ],
+   "field": "推理型大模型后训练",
+   "innovations": [
+    "提出并验证OPD-then-RL两阶段方案，解耦OPD能力扩展与RL sharpening，超越所有联合优化方法",
+    "统一token-level policy-gradient视角将现有OPD-RLVR混合方法归纳为weighted-additive与teacher-modulated两类范式",
+    "从pass@k动态、学习动力学与参数sign-conflict三个角度一致解释解耦优于联合的机制"
+   ],
+   "benchmarks": [
+    "Reasoning Gym (Knights & Knaves, Zebra Puzzles, Countdown)",
+    "DeepMath-103K",
+    "MATH-500",
+    "AMC23",
+    "AIME24",
+    "AIME25"
+   ]
+  }
+ }
 }

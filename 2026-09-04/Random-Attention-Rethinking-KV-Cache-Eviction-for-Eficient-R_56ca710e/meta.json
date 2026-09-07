@@ -4,5 +4,32 @@
  "title": "Random-Attention-Rethinking-KV-Cache-Eviction-for-Eficient-R",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-09-04 17:22:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/9f0b33bd-767e-47ae-8a21-0b024703c777.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/9f0b33bd-767e-47ae-8a21-0b024703c777.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 20:20:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "KV Cache Eviction",
+    "推理模型",
+    "长上下文",
+    "随机驱逐",
+    "Prompt Protection",
+    "吞吐量优化"
+   ],
+   "field": "高效LLM推理",
+   "innovations": [
+    "证明选择信号对推理trace几乎无贡献，仅需保护prompt+随机驱逐即可匹敌最强基线",
+    "揭示推理trace在文本级和跨attention-head级的双重冗余自保护机制"
+   ],
+   "benchmarks": [
+    "MATH500",
+    "GPQA-Diamond",
+    "AIME",
+    "HMMT",
+    "LiveCodeBench-v6"
+   ]
+  }
+ }
 }

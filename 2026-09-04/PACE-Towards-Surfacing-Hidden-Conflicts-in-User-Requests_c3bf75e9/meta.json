@@ -4,5 +4,29 @@
  "title": "PACE-Towards-Surfacing-Hidden-Conflicts-in-User-Requests",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-09-04 06:59:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/9e2364ab-3359-4c55-9938-15811c4c9158.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/9e2364ab-3359-4c55-9938-15811c4c9158.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 20:19:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "个性化助手",
+    "冲突感知检索",
+    "RAG",
+    "多跳推理",
+    "知识图谱",
+    "对话AI安全",
+    "隐式约束检测"
+   ],
+   "field": "个性化RAG与冲突感知推理",
+   "innovations": [
+    "提出PACE数据集，首次系统化评估从ego-centric KB中检索隐式冲突证据的能力",
+    "提出PACEMAKER多智能体框架，通过查询规划+混合检索+多跳图遍历+证据过滤四阶段协同完成冲突感知推理"
+   ],
+   "benchmarks": [
+    "PACE"
+   ]
+  }
+ }
 }

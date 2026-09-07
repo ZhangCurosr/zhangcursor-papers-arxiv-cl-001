@@ -4,5 +4,38 @@
  "title": "Representational-alignment-yields-generalizable-safety-in-la",
  "token": "sk-twhrLv2pG...",
  "created_at": "2026-09-04 17:22:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/63300140-fa94-4aaa-8290-0dca3080ead7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/63300140-fa94-4aaa-8290-0dca3080ead7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-07 20:21:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM安全对齐",
+    "表征相似度优化",
+    "对抗鲁棒性",
+    "道德分类",
+    "原型理论",
+    "DPO",
+    "红队攻击"
+   ],
+   "field": "大语言模型安全对齐",
+   "innovations": [
+    "提出ReSO直接对齐LLM潜层表征与人类道德分类结构，无需监督生成响应",
+    "系统量化23个LLM的道德分类保留程度并揭示行为对齐与表征重构的可分离性",
+    "建立表征相似度RSA与对抗攻击成功率ASR之间的剂量效应关系（R²=0.86）"
+   ],
+   "benchmarks": [
+    "HarmBench",
+    "OpenRT",
+    "DeceptionBench",
+    "XSTest",
+    "Flames",
+    "Ethics Benchmark",
+    "MoReBench",
+    "MMLU-Pro",
+    "HaluEval"
+   ]
+  }
+ }
 }
