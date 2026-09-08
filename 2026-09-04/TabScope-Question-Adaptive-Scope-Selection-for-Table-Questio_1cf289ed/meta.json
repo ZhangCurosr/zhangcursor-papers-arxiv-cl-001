@@ -4,5 +4,31 @@
  "title": "TabScope-Question-Adaptive-Scope-Selection-for-Table-Questio",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-09-04 06:56:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/ebbb994c-35f5-46b5-9496-290c3fa3873c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/ebbb994c-35f5-46b5-9496-290c3fa3873c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-08 01:51:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Table Question Answering",
+    "long table",
+    "evidence selection",
+    "LLM",
+    "adaptive reasoning",
+    "TableQA benchmark"
+   ],
+   "field": "表格问答与长上下文推理",
+   "innovations": [
+    "问题自适应范围选择：根据问题类型和表规模动态决定局部/全表推理",
+    "操作感知的表格分解：以推理操作类型驱动行/列检索，而非仅依赖词汇重叠",
+    "银标子表构建与SLQA长表基准：提供可评估分解质量的参考子表与首个系统覆盖4096+token长表的TableQA基准"
+   ],
+   "benchmarks": [
+    "WikiTQ",
+    "SLQA",
+    "WTQ-SUBTAB"
+   ]
+  }
+ }
 }

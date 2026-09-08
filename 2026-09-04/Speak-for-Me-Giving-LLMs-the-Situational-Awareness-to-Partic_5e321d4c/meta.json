@@ -4,5 +4,10 @@
  "title": "Speak-for-Me-Giving-LLMs-the-Situational-Awareness-to-Partic",
  "token": "sk-9ieZJEGxv...",
  "created_at": "2026-09-04 06:56:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/b5cbf94b-b558-4add-b305-1d8440d28cf0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/b5cbf94b-b558-4add-b305-1d8440d28cf0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-08 01:51:11",
+  "chunks": 1
+ }
 }

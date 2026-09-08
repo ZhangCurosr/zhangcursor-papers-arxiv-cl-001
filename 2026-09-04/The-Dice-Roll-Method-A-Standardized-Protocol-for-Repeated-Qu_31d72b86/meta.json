@@ -4,5 +4,34 @@
  "title": "The-Dice-Roll-Method-A-Standardized-Protocol-for-Repeated-Qu",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-09-04 06:55:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/23e46e07-5e5d-42ed-8b6a-b0f14bca838f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/23e46e07-5e5d-42ed-8b6a-b0f14bca838f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-08 01:53:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "large language models",
+    "repeated-query auditing",
+    "brand recommendation",
+    "measurement reliability",
+    "generalizability theory",
+    "non-determinism",
+    "statistical power",
+    "negative-binomial GLMM"
+   ],
+   "field": "LLM审计方法论",
+   "innovations": [
+    "形式化Dice Roll Method为标准审计协议",
+    "负二项式GLMM+Clif's δ条件依赖推断栈",
+    "一般化理论D研究迭代层次推荐"
+   ],
+   "benchmarks": [
+    "S1-S5品牌推荐审计数据集",
+    "Motoki政治偏见语料库",
+    "Rozado 24模型测试",
+    "llmstability基准"
+   ]
+  }
+ }
 }

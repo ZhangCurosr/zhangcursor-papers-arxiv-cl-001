@@ -4,5 +4,31 @@
  "title": "TabScope-Question-Adaptive-Scope-Selection-for-Table-Questio",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-09-04 17:22:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/15adbfe2-c441-4c09-9ab4-ec6846ae452e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/15adbfe2-c441-4c09-9ab4-ec6846ae452e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-08 01:52:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "table question answering",
+    "large language models",
+    "scope selection",
+    "operation-aware decomposition",
+    "long table reasoning",
+    "evidence selection"
+   ],
+   "field": "Table QA with context management and evidence selection",
+   "innovations": [
+    "提出问题自适应的范围选择框架，动态决策局部与全表推理",
+    "设计操作感知的表格分解方法，基于任务操作意图提升证据检索质量",
+    "构建银参考子表格基准 WTQ-SUBTAB 与长表格基准 SLQA，完善评估体系"
+   ],
+   "benchmarks": [
+    "WikiTQ",
+    "SLQA",
+    "WTQ-SUBTAB"
+   ]
+  }
+ }
 }

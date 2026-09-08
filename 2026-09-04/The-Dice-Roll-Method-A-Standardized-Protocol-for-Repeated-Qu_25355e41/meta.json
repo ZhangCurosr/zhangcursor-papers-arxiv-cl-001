@@ -4,5 +4,33 @@
  "title": "The-Dice-Roll-Method-A-Standardized-Protocol-for-Repeated-Qu",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-09-04 17:22:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/23e46e07-5e5d-42ed-8b6a-b0f14bca838f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/23e46e07-5e5d-42ed-8b6a-b0f14bca838f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-08 01:52:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "repeated-query auditing",
+    "large language models",
+    "brand recommendation",
+    "generalizability theory",
+    "negative-binomial GLMM",
+    "Cliff's delta",
+    "model drift",
+    "stability metrics"
+   ],
+   "field": "LLM评估与审计方法论",
+   "innovations": [
+    "提出基于温度缩放核采样的方差分解与通用化理论D-study迭代指南",
+    "预注册外部验证证明D-study预测跨领域迁移但固定迭代层不迁移",
+    "将PASOR公平性度量与三嵌入集合同一性传播集成到标准化审计协议"
+   ],
+   "benchmarks": [
+    "Motoki et al.政治偏见100轮数据",
+    "Rozado 24模型政治倾向测试",
+    "llmstability基准"
+   ]
+  }
+ }
 }
