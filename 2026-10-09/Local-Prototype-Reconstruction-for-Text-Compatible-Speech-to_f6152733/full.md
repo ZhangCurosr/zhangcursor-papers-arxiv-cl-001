@@ -1,0 +1,286 @@
+# Local Prototype Reconstruction for Text-Compatible Speech-to-LLM Bridge Pretraining
+
+Xinnian Zhao<sup>⋆</sup>, Chia-Hua Wu<sup>†</sup>, Pu Wang<sup>⋆</sup>, Hugo Van Hamme<sup>⋆</sup>
+
+<sup>⋆</sup>Department of Electrical Engineering (ESAT), KU Leuven, Leuven, Belgium
+
+<sup>†</sup>Institute of Information Science, Academia Sinica, Taiwan
+
+Abstract—Speech-to-LLM systems often connect a frozen speech encoder to a frozen large language model (LLM) through a small trainable bridge. The bridge is usually treated as plumbing, but it in fact defines the geometry of the speech-to-LLM interface, and the pretraining objective decides whether that interface provides a reusable initialization for downstream tasks. We study a transferable bridge through two complementary properties: global alignment with the text side, and local lexical manifold compatibility, where bridge embeddings remain close to the frozen LLM’s input-embedding neighbourhoods. We make this property measurable with a fixed, head-free, timestamp-free diagnostic that applies to any objective, and show that next-word prediction (NWP) and sentence-level contrastive pretraining do not fully capture token-level lexical compatibility. We then introduce Local Prototype Reconstruction (LPR), a lightweight training-only regularizer that requires each aligned bridge token to be reconstructable from a small neighbourhood of frozen LLM token embeddings, with a hard single-prototype anchor as its limiting case. On multilingual ASR and speech translation, LPR improves transfer, with the largest gains on translation and low-resource adaptation. Crucially, our independent diagnostic correlates with downstream gains across objectives, suggesting that lexical manifold compatibility is predictive of reusability for speech-to-LLM bridges.
+
+Index Terms—Speech-to-LLM, cross-modal alignment, contrastive pretraining, interface geometry.
+
+## I. INTRODUCTION
+
+Large language models (LLMs) [1]–[3] are increasingly extended with speech input through modality mapping: a frozen speech foundation encoder extracts acoustic representations, and a lightweight bridge projects them into the LLM embedding space for tasks such as automatic speech recognition (ASR) and speech translation (ST) [4]–[8]. This bridge is often viewed as a small projection module whose role is simply to make speech readable to the frozen LLM. We take a more structural view: when both the speech encoder and the LLM are frozen, the bridge defines the geometry of the speech-to-LLM interface. This raises a central question: what pretraining objective yields a reusable speech interface, rather than a representation that is only tuned to one generation task?
+
+We study this question through two complementary properties. The first is global semantic alignment: a pooled speech representation should match the corresponding text representation, so that utterance-level meaning is preserved. The second is local lexical manifold compatibility: individual bridge embeddings should remain close to the local neighbourhoods of the frozen LLM input-embedding space. Our hypothesis is that global alignment is important but may be insufficient for a reusable bridge, because the LLM ultimately consumes a sequence of token-like embeddings rather than only a pooled utterance vector. We therefore make both properties measurable and study how different pretraining objectives affect them.
+
+![](images/060614120be5a01bad07d148da2f3f00c2abb3def0e3fdca9bf0e9dee294ba6b.jpg)
+
+![](images/d02ec98af569cf464c981eff2a983dd9d3f3a2a7bad0e9cfebdb8a16c4e5f058.jpg)  
+Fig. 1. Motivating gap between global alignment and local compatibility. (a) Schematic view: NWP and contrastive objectives can produce bridge embeddings that support generation or utterance-level alignment without necessarily matching the local neighbourhoods of the frozen LLM input-embedding manifold. LPR adds a token-level regularizer toward these neighbourhoods. (b) Fixed head-free probes on the frozen bridge. Contrastive and LPR both reach near-perfect utterance-level retrieval R@1 (≈ 1.0), while token-level cosine to nearby LLM embeddings remains low for contrastive (0.06) and increases with LPR (0.49).
+
+Viewed through this lens, common objectives emphasize different parts of the interface. Next-word prediction (NWP) inherits the autoregressive objective of text LLMs [9]–[13]; it trains the model to generate text from speech-conditioned inputs, but it does not directly specify how adapted speech tokens should relate to the LLM lexical embedding space. Sentence-level contrastive pretraining [14] more directly improves speech-text alignment, but it operates on pooled utterance representations and therefore leaves token-level compatibility under-constrained. Figure 1 illustrates this separation: contrastive pretraining reaches near-perfect global retrieval score, yet remains much closer to NWP on a token-level localcompatibility probe. This motivates a pretraining objective that preserves global alignment while also shaping the local geometry of individual bridge embeddings.
+
+Guided by this observation, we propose Local Prototype Reconstruction (LPR): a continuous, local, training-only regularizer that requires each transcript-aligned bridge token to be reconstructable from a small neighbourhood of frozen LLM token embeddings. LPR keeps the bridge continuous rather than discretizing speech into text tokens, keeps sentence-level contrastive learning as the global alignment backbone, and adds a local constraint that encourages compatibility with the LLM lexical manifold. A hard single-prototype anchor toward the gold token appears as the limiting case of the same framework.
+
+Our contribution is to identify local lexical manifold compatibility as a measurable property of the speech-to-LLM interface and to show that encouraging this property improves transfer. Specifically:
+
+• Measurement. We introduce a fixed, head-free, timestamp-free diagnostic of interface compatibility that can be applied uniformly to NWP, contrastive, and LPR checkpoints.
+
+• Method. We propose LPR, a continuous local-manifold regularizer with the hard anchor as its single-prototype (K=1) limit, added on top of the contrastive backbone and used only during pretraining.
+
+• Empirical evidence. On multilingual ASR and ST, LPR improves transfer most under low-resource adaptation and on translation, and the independent compatibility diagnostic correlates with downstream gains across objectives.
+
+## II. RELATED WORK
+
+SpeechLLM bridges and pretraining objectives. Recent audio- and speech-LLMs commonly connect a pretrained acoustic encoder to a pretrained LLM through a lightweight connector, such as a projection module, Q-Former, or adapter, and then train the connector with autoregressive or instruction-following objectives [9]–[12], [15]–[22]. These systems demonstrate that frozen or partially frozen LLMs can consume speech-derived representations, but the connector is typically evaluated through downstream generation quality rather than through the geometry of the interface it creates. Recent work has begun to compare connector designs and pretraining objectives for SpeechLLMs [4]–[6], [8], [13]. Closest to our setting, contrastive SpeechLLM pretraining aligns pooled speech and text representations and improves task transfer [14]. We use this sentence-level contrastive objective as the global-alignment backbone, but ask a complementary question: after an utterance is globally aligned, are the individual bridge embeddings locally compatible with the frozen LLM’s lexical embedding space?
+
+Cross-modal alignment, speech tokenization, and lexical interfaces. Contrastive learning has been widely used to align paired modalities at the representation level, from image– text models such as CLIP [23] to audio–text models such as CLAP [24]. Such objectives are effective for global retrievalstyle alignment, but they do not by themselves specify how each continuous speech token should relate to the token-level interface expected by an LLM. Other approaches make speech more language-model-like by mapping audio into discrete or near-discrete units, for example through HuBERT-style hidden units [25], AudioLM-style audio tokenization [26], continuous/discrete hybrid audio representations [27], or speech-tospeech/audio LLM systems that operate over learned audio tokens [17], [21]. Discretization provides an explicit token interface, but can discard useful continuous information and tie the bridge to a particular tokenizer. A related line aligns speech and text inside the LLM with optimal transport for translation [28] and knowledge-distillation approaches to speech-text pretraining [29]; these methods target hidden-state or outputdistribution alignment, whereas LPR regularizes the bridge interface toward the frozen input-embedding manifold.
+
+Representation geometry and interface diagnostics. Our measurement framework is also related to work that probes the geometry of neural language representations. Prior studies show that contextual embedding spaces contain strong geometric structure and that similarity-based probes can reveal how representations cluster, specialize, or collapse [30]. We adapt this perspective to SpeechLLM bridges: rather than asking whether text embeddings are geometrically well behaved in isolation, we ask whether speech-derived bridge tokens occupy neighbourhoods that the frozen LLM already uses for lexical input. The resulting diagnostic is model-agnostic, head-free, and timestamp-free, so it can compare NWP, contrastive, and LPR checkpoints under the same probe. This distinguishes our contribution from prior bridge training methods: LPR is one intervention, while the diagnostic provides a reusable way to measure local lexical manifold compatibility and test whether that property predicts downstream transfer.
+
+## III. METHOD
+
+We study a Speech-to-LLM architecture in which a frozen speech encoder S is connected to a frozen LLM through a trainable bridge module A. Let $E ( \cdot )$ denote the frozen LLM input-embedding layer. Given speech x and transcript tokens y<sub>1:</sub> $: U :$ , the bridge maps encoder features into a sequence of continuous bridge embeddings
+
+$$
+Z = z _ { 1 : T ^ { \prime } } = \mathcal { A } ( S ( \mathbf { x } ) ) \in \mathbb { R } ^ { T ^ { \prime } \times d } ,\tag{1}
+$$
+
+while the transcript is embedded as
+
+$$
+E ( y _ { 1 : U } ) = [ E ( y _ { 1 } ) , \dots , E ( y _ { U } ) ] \in \mathbb { R } ^ { U \times d } .\tag{2}
+$$
+
+The speech encoder and LLM are frozen throughout; only the bridge and the small LPR alignment projections are updated. Our objective combines utterance-level semantic alignment with token-level compatibility to the frozen LLM lexical embedding space.
+
+## A. Sentence-Level Contrastive Backbone
+
+We use sentence-level contrastive pretraining to align speech and text globally. For each example i in a mini-batch of size $N .$ , the LLM is run with either adapted speech tokens $Z _ { i }$ or transcript embeddings $E ( y _ { i , 1 : U _ { i } } )$ . Let $H _ { a , i } ^ { ( \dot { \ell } ) }$ and $H _ { b , i } ^ { ( \ell ) }$ be the corresponding speech- and text-side hidden states at layer $\ell ,$ with $\bar { H } _ { a , i } ^ { ( 0 ) } = \overline { { Z _ { i } } }$ and $H _ { b , i } ^ { ( 0 ) } = E ( y _ { i , 1 : U _ { i } } )$ . After mean pooling and $\ell _ { 2 }$ normalization, cosine similarities $s _ { i j } ^ { ( \ell ) }$ are used in a symmetric InfoNCE loss:
+
+$$
+\mathcal { L } _ { \mathrm { s e n t } } ^ { ( \ell ) } = - \frac { 1 } { 2 N } \sum _ { i = 1 } ^ { N } \left[ \log \frac { e ^ { s _ { i i } ^ { ( \ell ) } / \tau _ { \ell } } } { \sum _ { j = 1 } ^ { N } e ^ { s _ { i j } ^ { ( \ell ) } / \tau _ { \ell } } } + \log \frac { e ^ { s _ { i i } ^ { ( \ell ) } / \tau _ { \ell } } } { \sum _ { j = 1 } ^ { N } e ^ { s _ { j i } ^ { ( \ell ) } / \tau _ { \ell } } } \right] ,\tag{3}
+$$
+
+![](images/066078b6ce920ca4c19bcfe426bd12ab2b74b2b80ca093138ebcfe5d3abc3187.jpg)  
+Fig. 2. Overview of Local Prototype Reconstruction (LPR). During pretraining, transcript tokens are softly aligned to continuous bridge embeddings through a schematic soft-alignment module, local frozen-LLM embedding neighbourhoods are retrieved, and aligned speech representations are reconstructed from these prototypes. The resulting token-level losses refine the sentence-level contrastive bridge. At inference, only the encoder–bridge path is used; transcripts prototype retrieval, and LPR heads are discarded.
+
+where $\tau _ { \ell }$ is a learnable temperature. The backbone loss averages over selected LLM layers:
+
+$$
+\mathcal { L } _ { \mathrm { s e n t } } = \frac { 1 } { | \mathcal { L } _ { \mathrm { l a y e r s } } | } \sum _ { \ell \in \mathcal { L } _ { \mathrm { l a y e r s } } } \mathcal { L } _ { \mathrm { s e n t } } ^ { ( \ell ) } .\tag{4}
+$$
+
+This aligns pooled utterance representations, but does not directly constrain individual bridge outputs.
+
+## B. Local Prototype Reconstruction
+
+LPR, shown in Figure 2, adds a token-level constraint on top of the contrastive backbone. The key idea is to keep the speech bridge continuous, but require each transcript-aligned bridge token to be explainable by a small local neighbourhood of frozen LLM token embeddings. This is softer than discretizing speech into text tokens, yet more structured than leaving bridge outputs as unconstrained continuous vectors.
+
+Because the bridge sequence length $T ^ { \prime }$ does not generally match the transcript length U, LPR first derives a transcriptconditioned soft alignment. We compute this alignment in a low-dimensional similarity space using bias-free projections $W _ { q } , W _ { k } \in \mathbb { R } ^ { d _ { a } \times d }$ , with $d _ { a } = 5 1 2$ in our experiments:
+
+$$
+a _ { u , t } = \mathrm { s o f t m a x } _ { t } \left( \frac { \cos ( W _ { q } E ( y _ { u } ) , W _ { k } z _ { t } ) } { \tau _ { a } } \right) , \qquad s _ { u } = \sum _ { t = 1 } ^ { T ^ { \prime } } a _ { u , t } z _ { t } .\tag{5}
+$$
+
+The projections are used only to compute alignment weights. The aligned representation $s _ { u }$ remains a weighted sum of the original bridge outputs and is compared to $E ( y _ { u } )$ and its prototypes in the LLM input-embedding space. Thus the alignment head learns a low-rank similarity metric for soft assignment, not a separate space in which lexical compatibility is evaluated.
+
+For each transcript position $u ,$ we retrieve a local prototype set
+
+$$
+P _ { u } = \{ p _ { u , 1 } , \ldots , p _ { u , K } \} , \qquad p _ { u , 1 } = E ( y _ { u } ) ,\tag{6}
+$$
+
+where the remaining K − 1 prototypes are nearest neighbours of $E ( y _ { u } )$ in the frozen LLM input-embedding table, ranked by cosine similarity between ℓ -normalized embeddings. The candidate pool is built offline from the most frequent transcript tokens in the pretraining data and is kept fixed during training. By restricting reconstruction to a neighbourhood of the gold token, LPR asks whether the speech representation lies near the relevant part of the lexical manifold rather than merely near the vocabulary as a whole.
+
+We then reconstruct $s _ { u }$ from this local neighbourhood:
+
+$$
+\alpha _ { u , k } = \mathrm { s o f t m a x } _ { k } \left( \frac { \cos ( s _ { u } , p _ { u , k } ) } { \tau _ { p } } \right) , \qquad r _ { u } = \sum _ { k = 1 } ^ { K } \alpha _ { u , k } p _ { u , k } .\tag{7}
+$$
+
+The reconstruction $r _ { u }$ is a local convex combination of frozen LLM token embeddings. It does not force $s _ { u }$ to equal a discrete token; instead, it encourages $s _ { u }$ to occupy a region that the LLM already uses as a lexical interface.
+
+The token-level losses are
+
+$$
+\mathcal { L } _ { \mathrm { a n c h o r } } = \frac { 1 } { U } \sum _ { u = 1 } ^ { U } \left[ 1 - \cos ( s _ { u } , E ( y _ { u } ) ) \right] ,\tag{8}
+$$
+
+$$
+\mathcal { L } _ { \mathrm { r e c o n } } = \frac { 1 } { U } \sum _ { u = 1 } ^ { U } \left[ 1 - \cos ( s _ { u } , r _ { u } ) \right] ,\tag{9}
+$$
+
+The anchor term provides direct lexical grounding to the gold token, while the reconstruction term tests whether this grounding extends to a local neighbourhood. We use cosine reconstruction to emphasize direction in the LLM embedding space rather than embedding norm. When $K \ = \ 1 , \ P _ { u } \ =$ $\{ E ( y _ { u } ) \} , \ \alpha _ { u , 1 } = 1$ , and $r _ { u } = E ( y _ { u } )$ , so $\mathcal { L } _ { \mathrm { r e c o n } }$ reduces to $\mathcal { L } _ { \mathrm { a n c h o r } } .$ . Anchor and reconstruction are therefore hard and soft points on the same lexical-grounding axis.
+
+## C. Training Objective and Inference
+
+The full pretraining objective is
+
+$$
+\mathcal { L } = \mathcal { L } _ { \mathrm { s e n t } } + \lambda _ { a } \mathcal { L } _ { \mathrm { a n c h o r } } + \lambda _ { r } \mathcal { L } _ { \mathrm { r e c o n } }\tag{10}
+$$
+
+Setting $\lambda _ { a } = \lambda _ { r } = 0$ recovers the contrastive baseline with the same architecture and training pipeline. Transcript-conditioned alignment, prototype retrieval, and reconstruction are used only to compute pretraining regularizers. During downstream fine-tuning and inference, the model uses only the frozen speech encoder, trained bridge, and frozen LLM.
+
+## IV. MEASURING INTERFACE COMPATIBILITY
+
+To compare objectives under a common lens, we use a fixed, head-free probe that is independent of any trained LPR alignment head. Given a frozen bridge and transcript, the probe forms transcript-aligned speech representations with a parameter-free soft alignment:
+
+$$
+\tilde { a } _ { u , t } = \mathrm { s o f t m a x } _ { t } \left( \frac { \cos ( E ( y _ { u } ) , z _ { t } ) } { \tau _ { \mathrm { p r o b e } } } \right) , \qquad \tilde { s } _ { u } = \sum _ { t } \tilde { a } _ { u , t } z _ { t } .\tag{11}
+$$
+
+It then retrieves the same local prototype set $P _ { u }$ and reconstructs $\tilde { s } _ { u }$ as in Section III. The probe requires transcripts but no word timestamps, and is applied identically to NWP, contrastive, and LPR checkpoints.
+
+We report five diagnostics:
+
+• Utterance Retrieval R@1 measures global alignment by asking whether pooled speech and text representations retrieve their paired utterance among in-batch candidates.
+
+• Manifold Reconstruction Error (MRE) is $\begin{array} { r } { \| \hat { s } _ { u } - \hat { r } _ { u } \| _ { 2 } ^ { 2 } , } \end{array}$ the squared distance between a unit-normalized aligned speech token $\hat { s } _ { u }$ and prototype reconstructions $\hat { r } _ { u } ^ { \phantom { \dagger } } .$ . Lower MRE means better reconstruction from the local LLM lexical neighbourhood.
+
+• Gold-token Rank reports the R@1 and Mean Reciprocal Rank (MRR) of the gold embedding $E ( y _ { u } )$ among prototypes ranked by similarity to ${ \tilde { s } } _ { u } ,$ testing whether the aligned speech token identifies its corresponding lexical anchor.
+
+• Prototype Entropy H(α) measures whether reconstruction uses a compact local support or a diffuse mixture of prototypes.
+
+• Alignment Entropy H(˜a) measures whether each transcript token is associated with a localized or broad span of bridge outputs.
+
+These diagnostics are used for analysis rather than baseline training. Since some quantities are related to LPR’s objective, we interpret them together with downstream transfer rather than in isolation. The central question is whether a fixed diagnostic, applied uniformly across objectives, predicts ASR and ST gains.
+
+## V. EXPERIMENTAL SETUP
+
+We evaluate on CoVoST2 [31], a multilingual speech translation benchmark derived from CommonVoice [32]. We use five source languages with English targets, De/Fr/Es/It/Pt→En, totaling approximately 431 hours for training, 83 hours for development, and 88 hours for test. The same pretrained bridge is fine-tuned for ASR, where the target is the sourcelanguage transcript, and ST, where the target is the English translation. We also evaluate a 10% low-resource fine-tuning subset, corresponding to approximately 43 hours of speech.
+
+Our model uses the encoder of Whisper-large-v3 [33] as the frozen speech encoder and Llama-3-8B-Instruct [34] as the frozen LLM. The trainable bridge is a window-level Q-Former [15] with 2 Transformer blocks, hidden size 4096, 8 attention heads, and window size 10, totaling approximately 177M trainable bridge parameters. We compare no pretraining, NWP, sentence-level contrastive pretraining, and LPR variants built on the contrastive backbone.
+
+For each objective, we first pre-train a single multilingual bridge on the five source languages. Downstream ASR and ST models are then fine-tuned separately from this same pretrained bridge initialization. Fine-tuning is also multilingual: all five languages are trained jointly, and the task and language are specified by prompts. The “None” pretraining baseline skips bridge pretraining. It is randomly initialized and trained only during downstream supervised fine-tuning. Since Llama is not pretrained to consume Whisper encoder states directly, the bridge is always required to map speech features into the LLM embedding dimension.
+
+All objectives use the same data splits, bridge architecture, precision setting, and compute budget. Pretraining runs for up to 6 epochs on a single NVIDIA H100 80GB GPU with batch size 32. Downstream fine-tuning uses autoregressive training, capped at 80,000 steps with early stopping (patience 3). We use AdamW with peak learning rate $3 \times 1 0 ^ { - 5 }$ , warmup ratio 0.03, and beam search with beam size 3 for evaluation.
+
+Unless otherwise stated, LPR uses bias-free query/key alignment projections from $d \ = \ 4 0 9 6$ to $d _ { a } \ = \ 5 1 2$ $K \ = \ 1 6$ local prototypes from an offline frozen bank, and alignment/prototype temperatures $\tau _ { a } ~ = ~ \tau _ { p } ~ = ~ 0 . 1$ . The fixed diagnostic probe uses $\tau _ { \mathrm { p r o b e } } = 0 . 1$ . LPR (Anch.) uses $\lambda _ { a } =$ $0 . 5 , \lambda _ { r } = 0$ , LPR (Recon.) uses $\lambda _ { a } = 0 , \lambda _ { r } = 0 . 5$ , and LPR (full) uses $\lambda _ { a } = \lambda _ { r } = 0 . 5$ . The contrastive baseline is the identical pipeline with all LPR weights set to zero.
+
+## VI. RESULTS
+
+Table I reports downstream ASR (WER↓) and ST (BLEU↑) under full-resource (∼430h) and low-resource (∼43h) adaptation. Figure 3 summarizes the average relative gain over the no-pretraining baseline. For each objective, ASR and ST fine-tuning start from the same pretrained multilingual bridge initialization. The downstream models are fine-tuned separately, so the comparison measures how well each pretraining objective provides a reusable bridge initialization across tasks.
+
+TABLE I  
+DOWNSTREAM ASR AND ST ACROSS PRETRAINING OBJECTIVES (PER-LANGUAGE AND AVERAGE). EACH ROW USES ONE MULTILINGUAL BRIDGE INITIALIZATION. LPR PERFORMS BEST IN ALL COLUMNS; GAINS ARE LARGEST ON ST WITH LOW-RESOURCE ADAPTATION. BEST PER BLOCK IN BOLD.
+<table><tr><td rowspan="3">Data</td><td rowspan="3">Pretrain Obj.</td><td colspan="6">ASR</td><td colspan="6">ST</td></tr><tr><td colspan="6">WER (%) ↓</td><td colspan="6">BLEU ↑</td></tr><tr><td>De</td><td>Fr</td><td>Es</td><td>It</td><td>Pt</td><td>Avg.</td><td>De→En</td><td>Fr→En</td><td>Es→En</td><td>It→En</td><td>Pt→En</td><td>Avg.</td></tr><tr><td rowspan="7">~430h</td><td>None NWP</td><td>7.97</td><td>10.60</td><td>5.61</td><td>6.94</td><td>5.34</td><td>7.75</td><td>35.24</td><td>39.02</td><td>41.08</td><td>37.33</td><td>49.68</td><td>39.09</td></tr><tr><td></td><td>7.97</td><td>10.58</td><td>5.54</td><td>6.73</td><td>5.11</td><td>7.67</td><td>35.17</td><td>38.97</td><td>41.02</td><td>37.18</td><td>49.25</td><td>38.99</td></tr><tr><td>Contra.</td><td>7.94</td><td>10.52</td><td>5.43</td><td>6.41</td><td>4.98</td><td>7.56</td><td>37.67</td><td>39.93</td><td>41.82</td><td>38.28</td><td>50.90</td><td>40.36</td></tr><tr><td>LPR (Anch.)</td><td>7.73</td><td>10.51</td><td>5.42</td><td>6.11</td><td>4.74</td><td>7.43</td><td>38.29</td><td>40.53</td><td>42.32</td><td>38.95</td><td>51.28</td><td>40.95</td></tr><tr><td>LPR (Recon.)</td><td>7.69</td><td>10.41</td><td>5.36</td><td>6.07</td><td>4.55</td><td>7.36</td><td>38.29</td><td>40.60</td><td>42.35</td><td>39.07</td><td>51.65</td><td>41.02</td></tr><tr><td>LPR (full)</td><td>7.52</td><td>10.26</td><td>5.16</td><td>6.02</td><td>4.46</td><td>7.22</td><td>38.32</td><td>40.84</td><td>42.37</td><td>39.15</td><td>51.68</td><td>41.11</td></tr><tr><td>None</td><td>10.92</td><td>13.55</td><td>7.61</td><td>9.28</td><td>7.18</td><td>10.28</td><td>31.60</td><td>35.08</td><td>37.18</td><td>33.49</td><td>45.55</td><td>35.24</td></tr><tr><td rowspan="6">~43h</td><td>NWP</td><td>10.91</td><td>13.56</td><td>7.59</td><td>9.27</td><td>7.03</td><td>10.26</td><td>28.95</td><td>32.21</td><td>35.27</td><td>31.05</td><td>42.04</td><td>32.68</td></tr><tr><td>Contra.</td><td>10.84</td><td>13.51</td><td>7.44</td><td>9.46</td><td>6.84</td><td>10.21</td><td>33.32</td><td>35.91</td><td>38.60</td><td>34.87</td><td>46.74</td><td>36.55</td></tr><tr><td>LPR (Anch.)</td><td>9.66</td><td>12.59</td><td>7.01</td><td>8.30</td><td>5.91</td><td>9.31</td><td>36.47</td><td>38.79</td><td>40.80</td><td>37.53</td><td>49.88</td><td>39.32</td></tr><tr><td>LPR (Recon.)</td><td>9.60</td><td>12.49</td><td>6.93</td><td>8.23</td><td>5.82</td><td>9.23</td><td>36.48</td><td>38.81</td><td>40.94</td><td>37.57</td><td>49.95</td><td>39.37</td></tr><tr><td>LPR (full)</td><td>9.50</td><td>12.40</td><td>6.72</td><td>8.07</td><td>5.52</td><td>9.08</td><td>36.60</td><td>38.94</td><td>40.96</td><td>37.76</td><td>50.22</td><td>39.49</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>
+
+ASR. The ASR gains are moderate but consistent. Under full-resource adaptation, average WER improves from 7.75% without pretraining to 7.67% with NWP, 7.56% with contrastive pretraining, and 7.22% with LPR (full), corresponding to relative WER reductions of 1.0%, 2.5%, and 6.8%. Under low-resource adaptation, the gap widens: LPR reduces average WER from 10.28% to 9.08%, while NWP and contrastive give smaller reductions. The trend is also consistent across the five source languages, with LPR (full) giving the best WER in each language and data regime. This suggests that even for transcription, where the target is close to the source-language surface form, the structure learned during bridge pretraining becomes more useful when downstream supervision is limited.
+
+ST. The differences are larger for speech translation. At full resource, NWP is close to the no-pretraining baseline, contrastive pretraining improves average BLEU from 39.09 to 40.36, and LPR further improves it to 41.11. In the lowresource setting, the separation is more pronounced: NWP falls below the no-pretraining baseline, contrastive reaches 36.55 BLEU, and LPR reaches 39.49 BLEU. The larger gain on ST is important because translation requires the bridge to support a target distribution different from the source transcript, rather than only preserving source-language surface form. This pattern is consistent with the view that NWP mainly optimizes generation from speech-conditioned inputs, whereas translation benefits more from a bridge that transfers across target distributions.
+
+Effect of limited adaptation data. The strongest gains appear where reuse of the pretrained interface should matter most. LPR improves both ASR and ST from the same pretrained checkpoint, and its margin over contrastive pretraining increases under the 10% low-resource setting, especially for ST. This is the setting in which downstream fine-tuning has less capacity to repair a weak interface, so differences introduced during pretraining are more exposed. These results do not by themselves prove that local lexical compatibility is the only factor, but they motivate the analysis below: a better reusable bridge should improve downstream transfer most when fine-tuning data is scarce.
+
+ASR (430h)  
+![](images/aa419fdc0657a7988584bc69dfb0310f917f3db9723a43d7bb2abf399272c889.jpg)
+
+![](images/b80ce91334cb242067f88061e3a079bb092c85f08643e4e256fcf5b5146bb7e2.jpg)
+
+ST (430h)  
+![](images/89bbac9b7b91b55bf393adeebb5275d104f58b3232287c354a9e8db0e0e1c7b7.jpg)
+
+![](images/b738c2ccc0817747d1704d9feb84ad28dd25f49f920d73d71b659d9f93e3d069.jpg)  
+Fig. 3. Average relative downstream improvement over no pretraining across five source languages. ASR improvement is measured as relative WER reduction; ST improvement is measured as relative BLEU gain. LPR gives the largest average improvement in both tasks, with a larger margin in the low-resource setting.
+
+## TABLE II
+
+INTERFACE-COMPATIBILITY DIAGNOSTICS ON THE MULTILINGUAL DEVELOPMENT SET, COMPUTED WITH THE FIXED HEAD-FREE PROBE.
+
+UTTERANCE RETRIEVAL MEASURES GLOBAL ALIGNMENT; THE REMAINING METRICS MEASURE TOKEN-LEVEL LEXICAL MANIFOLD COMPATIBILITY.
+<table><tr><td>Pretrain Obj.</td><td>Utt. R@1↑</td><td>Gold R@1↑</td><td>MRR↑</td><td>MRE↓</td><td>H(α)↓</td><td>H(a)↓</td></tr><tr><td>NWP Contra.</td><td>0.631 0.999</td><td>0.081 0.376</td><td>0.260 0.573</td><td>1.887 1.835</td><td>2.763 2.754</td><td>3.338 3.323</td></tr><tr><td>LPR (Anch.)</td><td>0.999</td><td>0.553</td><td>0.708</td><td>0.718</td><td>1.841</td><td>1.831</td></tr><tr><td>LPR (Recon.)</td><td>0.999</td><td>0.209</td><td>0.430</td><td>0.760</td><td>2.392</td><td>2.219</td></tr><tr><td>LPR (full)</td><td>0.999</td><td>0.443</td><td>0.611</td><td>0.645</td><td>1.912</td><td>1.822</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>
+
+## VII. ANALYSIS: WHY IT TRANSFERS
+
+Global alignment and local compatibility separate. Table II applies the fixed probe of Section IV to the multilingual development set. Utterance-level retrieval shows that contrastive pretraining already solves the global alignment probe: contrastive and all LPR variants reach nearly perfect Utt. R@1, while NWP remains lower. This is not inconsistent with $\mathrm { N W P } \mathrm { s }$ downstream performance, since this probe measures pooled speech-text retrieval rather than conditional generation quality. The token-level metrics show a different pattern. Contrastive improves gold-token retrieval relative to NWP, but its MRE and entropy values remain close to NWP, indicating that strong utterance retrieval does not necessarily place bridge outputs near local LLM lexical neighbourhoods. LPR variants substantially reduce MRE and sharpen alignment entropy, suggesting that the added token-level regularization changes a property not captured by the sentence-level contrastive objective. The table also clarifies why global retrieval alone is not a sufficient diagnostic for bridge quality: once Utt. R@1 saturates, it cannot distinguish contrastive from LPR, even though their downstream ST and low-resource behavior differ.
+
+Interface diagnostics correlate with downstream transfer. Figure 4 plots, for each objective-language pair, the fixed probe’s MRE against downstream gain over no pretraining. Lower MRE is associated with larger gains, with moderate correlations under full-resource adaptation $( \mathsf { A S R } \ r = - 0 . 5 1$ $\operatorname { S T } \ r = - 0 . 6 9 )$ and stronger correlations under low-resource adaptation $( \mathrm { A S R \ } r = - 0 . 9 0 , \mathrm { S T \ } r = - 0 . 8 8 )$ . The low-resource setting is especially informative because downstream finetuning has less capacity to repair a weak interface. Importantly, the trend includes NWP and contrastive checkpoints, which do not optimize MRE. Thus the diagnostic is not only showing that LPR moves a related training signal; it also ranks independently trained objectives in a way that tracks downstream transfer. The stronger correlation for ST and lowresource adaptation matches the pattern in Table I: local lexical compatibility matters most when the bridge must generalize beyond transcription or when limited data constrains taskspecific reshaping.
+
+## VIII. DISCUSSION
+
+The results clarify why the proposed diagnostic complements downstream metrics. Downstream ASR and ST show whether a pretrained bridge transfers, but not which part of the interface changed. The fixed probe separates two properties that are often conflated: utterance-level semantic alignment and token-level compatibility with the frozen LLM lexical space. Contrastive pretraining captures the first property well, while LPR mainly improves the second. This distinction helps explain why objectives can look similar under global retrieval yet behave differently under low-resource adaptation and speech translation.
+
+The correlation analysis further suggests that local lexical manifold compatibility is not merely a diagnostic artifact. Although some probe quantities relate to the LPR training signal, the same fixed probe is applied to all objectives, including NWP and contrastive checkpoints that never optimize LPR losses. MRE tracks downstream gain most strongly in the low-resource setting, where the pretrained bridge has less opportunity to be reshaped by the task and its compatibility with the frozen LLM becomes more consequential.
+
+![](images/3dbf46c2b800111ee75ac4c01bd346d02a592d1566e66fe676a48ea7aa0cf754.jpg)  
+Fig. 4. Relationship between lexical manifold compatibility and downstream transfer. Each point is one objective-language pair. The x-axis shows MRE from the fixed head-free probe (lower is closer to the local LLM lexical manifold); the y-axis shows gain over no pretraining (ASR: WER reduction; ST: BLEU gain). Dashed lines are OLS fits and r denotes Pearson correlation (n = 25). The association is strongest in the low-resource setting.
+
+The anchor and reconstruction variants also show that local compatibility is not a single scalar property. A hard anchor gives the strongest gold-token retrieval because it directly pulls aligned speech tokens toward the transcript embedding. Soft prototype reconstruction is less tied to exact token retrieval and instead encourages compatibility with a local neighbourhood of the lexical manifold. Their combination gives the best downstream results in our experiments, suggesting that direct lexical grounding and neighbourhood-level reconstruction provide complementary constraints.
+
+Finally, LPR is a training-time regularizer. It uses transcripts during supervised pretraining to form soft alignments and retrieve local prototypes, but the deployed model uses only the frozen speech encoder, trained bridge, and frozen LLM. This keeps inference unchanged relative to the contrastive baseline.
+
+## IX. CONCLUSION
+
+We studied the speech-to-LLM bridge as an interface whose geometry affects transfer. Sentence-level contrastive pretraining provides strong global alignment, but our fixed diagnostic shows that this does not fully determine whether bridge outputs are locally compatible with the frozen LLM lexical embedding space. LPR adds this token-level constraint through a continuous, training-only prototype reconstruction regularizer. Across multilingual ASR and speech translation, LPR improves transfer, especially under low-resource adaptation, and the independent compatibility diagnostic correlates with these gains. These findings suggest that local lexical manifold compatibility is a useful property to measure and encourage when pretraining reusable SpeechLLM bridges.
+
+[1] J. Achiam, S. Adler, S. Agarwal, L. Ahmad, I. Akkaya, F. Leoni Aleman, D. Almeida, J. Altenschmidt, S. Altman, S. Anadkat et al., “Gpt-4 technical report,” arXiv e-prints, pp. arXiv–2303, 2023.
+
+[2] J. Bai, S. Bai, Y. Chu, Z. Cui, K. Dang, X. Deng, Y. Fan, W. Ge, Y. Han, F. Huang et al., “Qwen technical report,” arXiv preprint arXiv:2309.16609, 2023.
+
+[3] R. Anil, A. M. Dai, O. Firat, M. Johnson, D. Lepikhin, A. Passos, S. Shakeri, E. Taropa, P. Bailey, Z. Chen et al., “Palm 2 technical report,” arXiv preprint arXiv:2305.10403, 2023.
+
+[4] F. Verdini, P. Melucci, S. Perna, F. Cariaggi, M. Gaido, S. Papi, S. Mazurek, M. Kasztelnik, L. Bentivogli, S. Bratieres\` et al., “How to connect speech foundation models and large language models? what matters and what does not,” in Proc. Interspeech 2025, 2025, pp. 1813– 1817.
+
+[5] Z. Ma, G. Yang, Y. Yang, Z. Gao, J. Wang, Z. Du, F. Yu, Q. Chen, S. Zheng, S. Zhang et al., “Speech recognition meets large language model: Benchmarking, models, and exploration,” in Proceedings of the AAAI Conference on Artificial Intelligence, vol. 39, no. 23, 2025, pp. 24 840–24 848.
+
+[6] H. Xue, W. Ren, X. Geng, K. Wei, L. Li, Q. Shao, L. Yang, K. Diao, and L. Xie, “Ideal-llm: Integrating dual encoders and language-adapted llm for multilingual speech-to-text,” in National Conference on Man-Machine Speech Communication. Springer, 2025, pp. 47–58.
+
+[7] Y. Hu, C. Chen, C.-H. H. Yang, R. Li, D. Zhang, Z. Chen, and E. S. Chng, “Gentranslate: Large language models are generative multilingual speech and machine translators,” in Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), 2024, pp. 74–90.
+
+[8] M. Gaido, S. Papi, M. Negri, and L. Bentivogli, “Speech translation with speech foundation models and large language models: What is there and what is missing?” in Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), 2024, pp. 14 760–14 778.
+
+[9] J. Wu, Y. Gaur, Z. Chen, L. Zhou, Y. Zhu, T. Wang, J. Li, S. Liu, B. Ren, L. Liu et al., “On decoder-only architecture for speech-to-text and large language model integration,” in 2023 IEEE automatic speech recognition and understanding workshop (ASRU). IEEE, 2023, pp. 1–8.
+
+[10] Z. Ma, G. Yang, Y. Yang, Z. Gao, J. Wang, Z. Du, F. Yu, Q. Chen, S. Zheng, S. Zhang et al., “An embarrassingly simple approach for llm with strong asr capacity,” arXiv preprint arXiv:2402.08846, 2024.
+
+[11] W. Yu, C. Tang, G. Sun, X. Chen, T. Tan, W. Li, L. Lu, Z. Ma, and C. Zhang, “Connecting speech encoder and large language model for asr,” in ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2024, pp. 12 637– 12 641.
+
+[12] S. Hu, L. Zhou, S. Liu, S. Chen, L. Meng, H. Hao, J. Pan, X. Liu, J. Li, S. Sivasankaran et al., “Wavllm: Towards robust and adaptive speech large language model,” in Findings ofthe Associationfor Computational Linguistics: EMNLP 2024, 2024, pp. 4552–4572.
+
+[13] Y. Zhang, Z. Liu, F. Bu, R. Zhang, B. Wang, and H. Li, “Soundwave: Less is more for speech-text alignment in llms,” in Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), 2025, pp. 18 718–18 738.
+
+[14] M. Zufle and J. Niehues, “Contrastive learning for task-independent¨ speechllm-pretraining,” in Findings ofthe Associationfor Computational Linguistics: ACL 2025, 2025, pp. 8469–8490.
+
+[15] C. Tang, W. Yu, G. Sun, X. Chen, T. Tan, W. Li, L. Lu, Z. Ma, and C. Zhang, “Salmonn: Towards generic hearing abilities for large language models,” in International Conference on Learning Representations, vol. 2024, 2024, pp. 16 607–16 629.
+
+[16] Y. Chu, J. Xu, X. Zhou, Q. Yang, S. Zhang, Z. Yan, C. Zhou, and J. Zhou, “Qwen-audio: Advancing universal audio understanding via unified large-scale audio-language models,” arXiv preprint arXiv:2311.07919, 2023.
+
+[17] D. Zhang, S. Li, X. Zhang, J. Zhan, P. Wang, Y. Zhou, and X. Qiu, “Speechgpt: Empowering large language models with intrinsic crossmodal conversational abilities,” in Findings of the Association for Computational Linguistics: EMNLP 2023, 2023, pp. 15 757–15 773.
+
+[18] Y. Shu, S. Dong, G. Chen, W. Huang, R. Zhang, D. Shi, Q. Xiang, and Y. Shi, “Llasm: Large language and speech model,” arXiv preprint arXiv:2308.15930, 2023.
+
+[19] N. Das, S. Dingliwal, S. Ronanki, R. Paturi, Z. Huang, P. Mathur, J. Yuan, D. Bekal, X. Niu, S. M. Jayanthi et al., “Speechverse: A large-scale generalizable audio language model,” arXiv preprint arXiv:2405.08295, 2024.
+
+[20] Z. Kong, A. Goel, R. Badlani, W. Ping, R. Valle, and B. Catanzaro, “Audio flamingo: A novel audio language model with few-shot learning and dialogue abilities,” arXiv preprint arXiv:2402.01831, 2024.
+
+[21] P. K. Rubenstein, C. Asawaroengchai, D. D. Nguyen, A. Bapna, Z. Borsos, F. d. C. Quitry, P. Chen, D. E. Badawy, W. Han, E. Kharitonov et al., “Audiopalm: A large language model that can speak and listen,” arXiv preprint arXiv:2306.12925, 2023.
+
+[22] C. Wang, M. Liao, Z. Huang, J. Lu, J. Wu, Y. Liu, C. Zong, and J. Zhang, “Blsp: Bootstrapping language-speech pre-training via behavior alignment of continuation writing,” arXiv preprint arXiv:2309.00916, 2023.
+
+[23] A. Radford, J. W. Kim, C. Hallacy, A. Ramesh, G. Goh, S. Agarwal, G. Sastry, A. Askell, P. Mishkin, J. Clark et al., “Learning transferable visual models from natural language supervision,” in International conference on machine learning. PmLR, 2021, pp. 8748–8763.
+
+[24] B. Elizalde, S. Deshmukh, M. Al Ismail, and H. Wang, “Clap learning audio concepts from natural language supervision,” in ICASSP 2023- 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2023, pp. 1–5.
+
+[25] W.-N. Hsu, B. Bolte, Y.-H. H. Tsai, K. Lakhotia, R. Salakhutdinov, and A. Mohamed, “Hubert: Self-supervised speech representation learning by masked prediction of hidden units,” IEEE/ACM transactions on audio, speech, and language processing, vol. 29, pp. 3451–3460, 2021.
+
+[26] Z. Borsos, R. Marinier, D. Vincent, E. Kharitonov, O. Pietquin, M. Sharifi, D. Roblek, O. Teboul, D. Grangier, M. Tagliasacchi et al., “Audiolm: a language modeling approach to audio generation,” IEEE/ACM transactions on audio, speech, and language processing, vol. 31, pp. 2523–2533, 2023.
+
+[27] Z. Du, J. Wang, Q. Chen, Y. Chu, Z. Gao, Z. Li, K. Hu, X. Zhou, J. Xu, Z. Ma et al., “Lauragpt: Listen, attend, understand, and regenerate audio with gpt,” arXiv preprint arXiv:2310.04673, 2023.
+
+[28] H. Liu, A. Chen, K. Chen, X. Bai, M. Zhong, Y. Qiu, and M. Zhang, “Adaptive inner speech text alignment for llm-based speech translation,” in CCF International Conference on Natural Language Processing and Chinese Computing. Springer, 2025, pp. 255–268.
+
+[29] C. Wang, M. Liao, Z. Huang, and J. Zhang, “Blsp-kd: Bootstrapping language-speech pre-training via knowledge distillation,” arXiv preprint arXiv:2405.19041, 2024.
+
+[30] K. Ethayarajh, “How contextual are contextualized word representations? comparing the geometry of bert, elmo, and gpt-2 embeddings,” in Proceedings of the 2019 conference on empirical methods in natural language processing and the 9th international joint conference on natural language processing (EMNLP-IJCNLP), 2019, pp. 55–65.
+
+[31] C. Wang, A. Wu, and J. Pino, “Covost 2 and massively multilingual speech-to-text translation,” arXiv preprint arXiv:2007.10310, 2020.
+
+[32] R. Ardila, M. Branson, K. Davis, M. Kohler, J. Meyer, M. Henretty, R. Morais, L. Saunders, F. Tyers, and G. Weber, “Common voice: A massively-multilingual speech corpus,” in Proceedings of the twelfth language resources and evaluation conference, 2020, pp. 4218–4222.
+
+[33] A. Radford, J. W. Kim, T. Xu, G. Brockman, C. McLeavey, and I. Sutskever, “Robust speech recognition via large-scale weak supervision,” in International conference on machine learning. PMLR, 2023, pp. 28 492–28 518.
+
+[34] A. Grattafiori, A. Dubey, A. Jauhri, A. Pandey, A. Kadian, A. Al-Dahle, A. Letman, A. Mathur, A. Schelten, A. Vaughan et al., “The llama 3 herd of models,” arXiv preprint arXiv:2407.21783, 2024.
