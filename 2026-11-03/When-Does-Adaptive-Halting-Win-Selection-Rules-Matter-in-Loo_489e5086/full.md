@@ -1,0 +1,551 @@
+# When Does Adaptive Halting Win? Selection Rules Matter in Looped Language Models
+
+Mahesh Reddy Pagadala Aston University, Birmingham, UK
+
+mahesh15116@gmail.com
+
+Evidence labels used throughout: [C] confirmatory, [S] pre-specified secondary, [P] post hoc emphasis or interpretation, [E] exploratory.
+
+## Abstract
+
+Looped language models can stop iterating early, and recent work shows that post-hoc read outs of the loop trajectory often rival the learned exit gate of the looped model Ouro. Such comparisons reduce each method to one operating point chosen by a selection rule. We ask whether that rule decides the outcome. On a frozen Ouro-1.4B with four loops, we compared a trained stability probe (π1-x) with Ouro’s native gate, adapted to a per-question stopping decision, in pre-registered studies; the confirmatory study was designed after an exploratory finding on development data and evaluated once on a sealed test set of 8,517 questions. In the pre-registered confirmatory comparison, which selected operating points with a bootstrap screened 1 pp accuracy-loss rule, the probe saved more of the four-loop budget than the native gate (+0.053 gross macro saving over three benchmarks, 95% CI [+0.049, +0.057]), mostly from CommonsenseQA, where the probe’s test upper bound on accuracy loss exceeded 1 pp. Under a point-only rule, a pre-specified secondary analysis on the same test set reversed the preference (−0.022 [−0.026, −0.018]), with operating points that exceeded the budget. In pre-specified secondary comparisons, the probe showed no demonstrated advantage over an untrained KL divergence between successive loops (+0.00125 [−0.0041, +0.0065]); we emphasise this result post hoc and claim no equivalence. The probe also broke its budget on one of two out-of-distribution benchmarks (3.26 pp loss on Social IQa). Savings are estimated from stored full-depth traces, not measured inference time, and our screen carries no formal risk-control guarantee. We conclude that halting methods should be compared as signals together with selection procedures, with strong untrained baselines and out-of-distribution checks.
+
+## 1 Introduction
+
+Looped, or recurrent-depth, language models apply one block of layers several times. The number of loops therefore becomes a choice made at inference time (Zhu et al., 2025; Geiping et al., 2025; Bae et al., 2025). If a model could stop looping once further loops no longer change its answer, it could spend less compute on easy inputs. Ouro (Zhu et al., 2025) ships a learned exit gate for this purpose. Recent work has shown that simple post-hoc readouts of the loop trajectory, such as confidence, entropy, and divergence or displacement between loops, often match or beat that gate at validation-selected operating points (Popescu et al., 2026). Popescu et al. conclude that adaptive depth is “a trajectory–readout problem, not a gate-learning problem”.
+
+Comparisons of this kind have one feature in common. Every method is reduced to a single operating point, chosen on held-out data by some selection rule, such as a target accuracy or a budget on accuracy loss, and the methods are then compared at those points. The rule is usually treated as a detail of the protocol. This paper asks whether it is one. We study three questions on a frozen Ouro-1.4B:
+
+• RQ1. Does the selection rule change which halting method is preferred?
+
+• RQ2. Does a trained probe added on top of the frozen model save more than (a) Ouro’s own trained gate and (b) a training-free divergence between successive loops?
+
+• RQ3. Do policies selected on development data keep their accuracy budget on benchmarks that were not used for development?
+
+We answer these questions with a sequence of pre-registered studies. A first study (G3a) selected operating points with a point-only rule: accuracy loss of at most 1 percentage point (pp) relative to the full four loops. Under that rule, a trained probe on cheap trajectory features (π1-x) saved less than Ouro’s gate, and the study stopped [E]. A second, confirmatory study (C1) was pre-registered after an exploratory analysis (E1) had found, on development data, that π1-x led under a stricter rule; C1 tested whether that finding held on new data. It compared the same two signals under that bootstrap-screened rule, which also required the bootstrap 95% upper bound of the loss to be at most 1 pp, and it was evaluated once on a sealed test set of 8,517 questions.
+
+## Findings.
+
+1. Under the bootstrap-screened rule, π1-x saved more of the four-loop budget than Ouro’s gate: +0.053 in gross macro saving, 95% CI [+0.049, +0.057], over OpenBookQA, CommonsenseQA and HellaSwag [C]. Under the point-only rule, applied to the same test set, the preference reversed: −0.022 [−0.026, −0.018] [S]. The two rules select diferent operating points, so what reverses is the preference that each rule produces, not the order of fixed policies. The point-only test operating points also exceeded the 1 pp budget on most benchmarks.
+
+2. π1-x showed no demonstrated advantage over an untrained KL divergence between successive loops answer distributions: +0.00125 [−0.0041, +0.0065]. This comparison was pre-specified [S]. The emphasis we give it was decided after seeing the test results [P], and the result is non-superiority, not equivalence.
+
+3. On one of two out-of-distribution benchmarks (Social IQa), π1-x broke its accuracy budget by halting early on most questions: loss 3.26 pp, upper bound 4.72 pp [S]. Ouro’s gate stayed within the budget.
+
+4. Under the primary bootstrap-screened rule, all nine benchmark-by-policy point losses on the test set were within 1 pp, but four of the nine corresponding upper bounds exceeded it [S]. This is compatible with several causes that we cannot separate: small samples (one exceedance is on HellaSwag, n = 750, for every method), the heuristic nature of our screen, and the diference between development and test conditions [P].
+
+Contributions. We do not propose a new halting signal, and we do not claim that post-hoc readouts beating Ouro’s gate is new; that was shown by Popescu et al. Our contributions are empirical and methodological:
+
+• A pre-registered, sealed-test evaluation of halting signals on a frozen looped LM, in which two pre-specified operating-point selection rules led to opposite preferences (RQ1). That the preferred method can vary with the operating point is already visible in the crossing curves of Popescu et al.; we test it under concrete, pre-specified rules and report whether the selected points meet the accuracy budget.
+
+• Evidence that a trained probe adds no demonstrated value over a training-free convergence readout under that rule (RQ2), and an out-of-distribution budget failure for the trained probe (RQ3).
+
+• Six recommendations for evaluating halting methods (Section 7.4). The central one is to treat each comparison as a comparison of signal plus selection procedure.
+
+Scope. All results are for Ouro-1.4B with four loops, multiple-choice scoring, and one halting decision per question. The policies were evaluated from stored full-depth traces, not run with truncated computation; a truncated-execution check on 600 development questions agreed with this evaluation on every exit loop, prediction and correctness (Section 3.6). Our loop savings are therefore estimates, not measured time, and they are not measurements of Ouro’s released inference path, which selects a readout per token after computing all loops (Section 3.2).
+
+## 2 Related work
+
+Learned halting for recurrent computation.
+
+• ACT (Graves, 2016) adds a sigmoid halting unit to an RNN. It halts when the cumulative halting probability reaches 1−ε and trains with a ponder cost.
+
+• PonderNet (Banino et al., 2021) replaces this with a learned conditional halting distribution and a geometric prior.
+
+• Ouro’s exit gate (Zhu et al., 2025) belongs to the same family. A linear head on each loop’s state gives a per-loop exit probability, and Q-exit stops at the first loop whose cumulative exit probability reaches a threshold q. The gate is trained jointly with the model and then refined on the loss improvement from an extra loop.
+
+• Ouro’s own analysis on MMLU found the trained gate best at every budget. A hidden-state diference threshold came within one to two points of it (Zhu et al., 2025, section 5.4.1).
+
+• Joint training of depth controllers is also studied in Mixture-of-Recursions (Bae et al., 2025) (pertoken routers over recursion depth), in AdaPonderLM (Song et al., 2026) (per-iteration gates with a ponder penalty) and in Think-at-Hard (Fu et al., 2025) (a per-token iteration decider). We train nothing in the backbone or the gate; our probe sits on top of a frozen model.
+
+## Post-hoc readouts on Ouro. The closest work is Popescu et al. (2026):
+
+• They evaluated the released Ouro-1.4B and 2.6B on six benchmarks, including the three primary benchmarks we use.
+
+• They compared the pretrained gate with post-hoc readouts: entropy, top-1 confidence, margin, predictive KL, logit change, and hidden-state displacement and cosine change.
+
+• They chose thresholds on validation data and evaluated on held-out data.
+
+• They found the gate “competitive but not uniformly Pareto-optimal”. Their full per-benchmark curves interleave, so the preferred method visibly varies with the operating point in their data, though they report one validation-selected point per method and do not state how it was chosen.
+
+• Our readout definitions follow theirs (Popescu et al., 2026, appendix B.6). Our threshold grid has a similar size but a diferent construction:
+
+– ours: 50 quantiles over the full range plus a never-exit point, inherited from earlier stages of this project;
+
+– theirs: 51 quantiles between the 0.5th and 99.5th percentiles (Popescu et al., 2026, appendix B.5).
+
+• Our work difers from theirs in four respects:
+
+1. a trained probe on the frozen trajectory;
+
+2. per-benchmark accuracy-loss budgets with a fixed-depth baseline;
+
+3. a comparison of two selection rules;
+
+4. a pre-registered evaluation, run once on a sealed test set.
+
+## Convergence and stability exits.
+
+• Geiping et al. (2025) stop a recurrent-depth model once the KL divergence between successive steps falls below 5×10<sup>−4</sup>, per generated token. Our r-kl applies the same kind of signal to the answeroption distribution, once per question, with thresholds selected per benchmark.
+
+• Pappone et al. (2025) propose a second-order (“acceleration”) criterion on the step size and report that it beats the KL exit in a small recurrent-depth model.
+
+• PABEE (Zhou et al., 2020) stops a fixed-depth encoder once consecutive layer classifiers agree for a set number of layers. It is the layer-wise ancestor of the stability target we train π1-x on.
+
+• CALM (Schuster et al., 2022) exits decoder layers per token using softmax confidence, hidden-state saturation or a trained classifier.
+
+## Risk-controlled early exit. Choosing exit thresholds with statistical guarantees is established:
+
+• CALM calibrates its thresholds with Learn then Test (Schuster et al., 2022; Angelopoulos et al., 2025).
+
+• Fast yet Safe (Jazbec et al., 2024) selects early-exit thresholds with a UCB bound. It controls the performance gap to the full model with probability 1−δ under i.i.d. calibration data, and leaves distribution shift to future work.
+
+• Conformal risk control (Angelopoulos et al., 2024) controls the expected value of a monotone loss.
+
+• Kubaty et al. (2026) show that calibration alone is insuficient to measure the quality of early-exit classifiers.
+
+Our bootstrap-screened rule is none of these procedures. Its bound is asymptotic, uncorrected for the number of candidate thresholds, and computed on the data that selected the candidate. Our results therefore inherit none of their guarantees (Section 3.4). Part of our contribution is to show what happens on a sealed test set when such a heuristic screen is used instead.
+
+Monitoring and engineering evaluations of Ouro’s exit.
+
+• Olszowiec et al. (2026) find that in most of eight looped models the large majority of generated tokens settle on their final top-1 prediction at the first iteration, and that Ouro’s gate fires several iterations after the answer is fixed.
+
+• An engineering evaluation of Ouro-1.4B’s native exit on GSM8K reported a 7.35 pp accuracy loss at about 0.55 of the loops for one gate setting (InferMatrixLab, 2026). This is a GitHub issue, not peer-reviewed.
+
+Both suggest that the native gate leaves savings unused in generation. Our setting, a single per-question decision in multiple-choice scoring, is diferent and does not test that claim.
+
+Early exit of reasoning chains. SpecExit (Yang et al., 2026), NEAT (Liu et al., 2026) and hidden-state correctness probes for chain-of-thought (Zhang et al., 2025) shorten the generated reasoning text, not the latent depth. We cite them as adjacent work and do not compare numbers.
+
+## 3 Setting: model, halting signals and selection rules
+
+## 3.1 Model, scoring and decision unit
+
+We use Ouro-1.4B (Zhu et al., 2025), frozen, in bf16, with its trained depth of 4 loops. No weight is changed. Every benchmark is multiple choice. Each answer option is scored by the summed log-likelihood of its continuation tokens, using packed scoring: the context and all options form one sequence, each option token may attend only to the context and to earlier tokens of its own option, and one forward pass per loop yields all option scores. The answer is the option with the highest score, using the length-normalised loglikelihood (the acc\_norm metric) for OpenBookQA, HellaSwag and PIQA, and the raw log-likelihood (acc) for CommonsenseQA and Social IQa. OpenBookQA is evaluated 0-shot, CommonsenseQA and HellaSwag 10-shot, and the two out-of-distribution benchmarks 0-shot.
+
+A halting policy makes one decision per question. After loop $t \in \{ 1 , 2 , 3 \}$ it reads Ouro’s exit-gate output, the hidden state and the full-vocabulary next-token entropy at the last context token, together with the option-level scores at loop t, and either stops or continues. Loop 4 is the reference depth. For a question that exits at loop $e \in \{ 1 , 2 , 3 , 4 \}$ the answer is the loop-e answer, and the accuracy loss of a policy on a benchmark is acc(loop 4) − acc(policy), in percentage points.
+
+## 3.2 Ouro’s native gate and what its released implementation does
+
+Ouro attaches an exit gate to each loop: $\lambda _ { t } = \sigma ( { \mathrm { L i n e a r } } ( h _ { t } ) )$ . The exit distribution is $\begin{array} { r } { p _ { t } = \lambda _ { t } \prod _ { j < t } ( 1 - \lambda _ { j } ) } \end{array}$ with the last loop taking the remaining mass. Its cumulative sum is the CDF, and a Q-exit stops at the first loop whose CDF reaches a threshold q (Zhu et al., 2025).
+
+The released implementation (modeling\_ouro.py, sha256 c5c68fbb. . . , in the pinned model revision) does not skip loops. Its forward pass runs all total\_ut\_steps loops, applies the gate (a Linear(hidden, 1)) at every token position, and, when an exit threshold is given, chooses for each token position the first loop whose cumulative exit probability reaches the threshold and then reads out that loop’s hidden state through the language-model head. The released Q-exit therefore operates per token position and selects a readout; it saves no compute. The paper’s text states the goal of exiting per token and per example but does not fix the inference unit.
+
+Our use is an adaptation. We evaluate the gate’s CDF at a single position, the last context token, which gives one decision per question, and we count the loops after the exit as saved. Two consequences follow, and we state them wherever savings are reported. First, our native-gate baseline uses Ouro’s trained gate as a halting statistic inside our own protocol; it is not Ouro’s released inference procedure. Second, our savings are properties of this adaptation. They are not measurements of the released inference.
+
+## 3.3 Halting signals
+
+All policies share one form. Each has a statistic $s _ { t }$ for loops $t = 1 , 2 , 3$ oriented so that larger means “safer to stop”, a threshold $\tau _ { b }$ and a depth cap $m _ { b } \in \{ 1 , 2 , 3 , 4 \}$ , both chosen per benchmark b:
+
+$e = \operatorname* { m i n } \{ t < m _ { b } : s _ { t } \geq \tau _ { b } \}$ if this set is non-empty, and $e = m _ { b }$ otherwise.
+
+A statistic that is undefined at loop 1 never fires there. Setting $\tau _ { b } = + \infty$ gives fixed depth $m _ { b }$ . The sufix $^ { 6 } \mathrm { - p b } ^ { \mathrm { , 5 } }$ marks per-benchmark selection of $\left( \tau _ { b } , m _ { b } \right)$
+
+Native gate (native-pb). $s _ { t } = \mathrm { C D F } _ { t } = 1 - \prod _ { j < t } ( 1 - \lambda _ { j } )$ , computed from Ouro’s own gate logits at the last context token. It has no fitted component.
+
+Learned probe (π1-x). A per-loop L2-regularised logistic regression, one model for each of loops 1, 2 and 3, with regularisation constant $C = 1 . 0$ (inherited from the Gate 2 configuration, not re-tuned) and standardised inputs. The input has nine columns:
+
+• conf: $\operatorname* { m a x } _ { k } p _ { t } ( k )$ , where $p _ { t }$ is the softmax of the option scores;
+
+• ent: the entropy of $p _ { t } ;$
+
+• vent: the entropy of the full-vocabulary next-token distribution at the last context token;
+
+• cdf: the native gate’s CDF at loop t;
+
+• n\_options: the number of answer options;
+
+• log\_n\_tokens: the logarithm of the packed sequence length (context plus all options);
+
+• three loop indicators, which are constant within each per-loop model and so carry no information there.
+
+The target is the stability label $S _ { t } \colon$ : it equals 1 if the loop-t predicted option is the same as the predicted option at every later loop, so that the answer never changes again. The label is an agreement criterion in the spirit of patience-based exits over layers (Zhou et al., 2020), used here as a training label for a probe over loops rather than as a patience counter. The score is $s _ { t } = \hat { P } ( S _ { t } = 1 )$ . The probes were fitted on development data from all six development benchmarks. For selection, $s _ { t }$ is the five-fold cross-fitted out-of-fold score over all development data; for TEST, the final models were refitted on all development data and saved.
+
+Untrained readouts (r-\*). Seven rules computed from the stored per-loop option scores $z _ { t }$ (the scores whose softmax is $p _ { t } )$ or hidden states $h _ { t }$ at the last context token, following Popescu et al. (2026) and Ouro’s hidden-state rule (Zhu et al., 2025):
+<table><tr><td>Rule</td><td>Statistic  $s _ { t }$ </td><td>Loops with  $s _ { t }$  defined</td></tr><tr><td>r-conf</td><td> $\operatorname* { m a x } _ { k } p _ { t } ( k )$ </td><td>1-3</td></tr><tr><td>r-margin</td><td> $z _ { t } ^ { ( 1 ) } - z _ { t } ^ { ( 2 ) }$  , the gap between the top two option scores</td><td>1-3</td></tr><tr><td>r-ent</td><td> $- H ( p _ { t } )$ </td><td>1-3</td></tr><tr><td>r-kl</td><td> $- \mathrm { K L } ( p _ { t } \| p _ { t - 1 } )$ </td><td>2-3</td></tr><tr><td>r-dlogit</td><td> $- \lVert z _ { t } - z _ { t - 1 } \rVert _ { 2 }$ </td><td>2-3</td></tr><tr><td>r-hl2</td><td> $- \| h _ { t } - h _ { t - 1 } \| _ { 2 }$ </td><td>2-3</td></tr><tr><td>r-hcos</td><td> $\cos ( h _ { t } , h _ { t - 1 } )$ </td><td>2-3</td></tr></table>
+
+Fixed depth (B\_pb). $\tau _ { b } = + \infty$ , with the depth $m _ { b }$ chosen per benchmark by the same rule as the adaptive policies. It is a reference, not the primary comparator.
+
+## 3.4 Selection of $\left( \tau _ { b } , m _ { b } \right)$
+
+Selection uses development data only, separately for each benchmark. The candidate set for a statistic is the product of a threshold grid and $m _ { b } \in \{ 1 , 2 , 3 , 4 \}$ . The grid holds up to 50 distinct quantile values of the statistic, pooled over the usable questions of all development benchmarks and the loops where it is defined, plus +∞. This gives up to 51 thresholds and 204 candidates per benchmark and policy. Two rules decide which candidates qualify.
+
+• Point-only rule (the G3a rule). A candidate qualifies if its point accuracy loss on the selection data is at most 1 pp, with a numerical tolerance of 1e-12.
+
+• Bootstrap-screened rule (called the “combined risk rule” in the C1 protocol, and implemented as select\_risk in the E1 code). A candidate qualifies if its point loss is at most 1 pp and the one-sided 95% bootstrap upper bound of its loss on the selection data is also at most 1 pp. The bound is the 95th percentile of the loss over 2,000 resamples of the selection questions of that benchmark, with a fixed random seed per benchmark and the same resampled draws for every policy.
+
+Among qualifying candidates the rule takes the maximum gross saving; ties within 1e-12 are broken by smaller point loss, then by preferring fixed depth $( \tau = + \infty )$ , then by larger $\tau ,$ then by smaller m. Fixed depth 4 has zero loss and always qualifies.
+
+The bootstrap-screened rule is a heuristic screen. It carries no formal guarantee of risk control, and we do not describe it as risk control. Prior work selects early-exit thresholds with finite-sample statements: Fast yet Safe uses a high-probability upper confidence bound on a performance gap under i.i.d. calibration data (Jazbec et al., 2024); Learn then Test frames threshold selection as multiple testing with family-wise error control (Angelopoulos et al., 2025); conformal risk control bounds the expected value of a monotone loss (Angelopoulos et al., 2024). Our rule difers in four ways: the bootstrap is asymptotic, not a finite-sample bound; there is no multiplicity correction across the candidates; selection and bound use the same data, so the selected candidate’s bound is optimistic; and no $( \alpha , \delta )$ statement is made. The bootstrap also treats the cross-fitted scores as fixed, so it ignores the variability from fitting the probe. The held-out record is consistent with a screen that does not control held-out risk: in the exploratory study E1 the screened rule still left 3 of 15 held-out benchmark-by-fold cells above 1 pp for both native-pb and π1-x [E].
+
+## 3.5 Gross and net saving
+
+For a question exiting at loop e, the gross saving is $1 - e / 4$ . A benchmark’s gross saving is the mean over its questions, and the macro saving is the unweighted mean over the three primary benchmarks.
+
+The net saving charges π1-x for the probe’s extra work. The native gate’s CDF comes from the model’s exit head, which is shared and counted for no policy, so native-pb and fixed depth have $\rho = 0$ . For π1-x two overheads are charged in units of one loop’s time: $\rho _ { \mathrm { s c o r e } }$ , the cost of scoring the options at a loop where the controller evaluates but does not stop, and $\rho _ { \mathrm { r e s t } }$ , the cost of the vocabulary entropy, the host transfer, the nine features and the probe, charged at every evaluation. Scoring at the halting loop is not charged, because it is the scoring that produces the answer and every controller needs it. For a question that halts by its score at loop $e < m _ { b }$ , the evaluations number e and the extra scorings number $e - 1 ;$ for a question that reaches the cap, both number $m _ { b } - 1$ . The net saving of a question is
+
+$$
+1 - \frac { e + \rho _ { \mathrm { s c o r e } } n _ { \mathrm { s c o r e } } + \rho _ { \mathrm { r e s t } } n _ { \mathrm { e v a l } } } { 4 } .
+$$
+
+The overheads $\rho _ { \mathrm { s c o r e } }$ and $\rho _ { \mathrm { r e s t } }$ were measured once on the GPU at freeze time, on 200 development questions per primary benchmark at batch size 1, using extraction’s own code path (Table 1). The net saving is an estimated deployment cost under this accounting boundary. It is not a wall-clock measurement.
+
+Table 1: Freeze-time overhead of the probe, as a fraction of one loop’s time. Measured on one GPU, batch size 1, 200 development questions per benchmark.
+<table><tr><td>Benchmark</td><td> $\rho _ { \mathrm { s c o r e } }$ </td><td> $\rho _ { \mathrm { r e s t } }$ </td><td> $\rho _ { \mathrm { t o t a l } }$ </td><td>One loop (ms)</td></tr><tr><td>OpenBookQA</td><td>0.036</td><td>0.014</td><td>0.050</td><td>20.7</td></tr><tr><td>CommonsenseQA</td><td>0.010</td><td>0.004</td><td>0.014</td><td>79.9</td></tr><tr><td>HellaSwag</td><td>0.013</td><td>0.003</td><td>0.015</td><td>148.8</td></tr></table>
+
+## 3.6 Retrospective evaluation
+
+All stopping policies in this paper were evaluated retrospectively, ofline, from full-depth per-loop traces. They were not executed with truncated computation. The extraction stage ran every question through all four loops once and stored, for each loop, the option scores and distributions, the prediction and its correctness, the gate logit and CDF, the vocabulary entropy and the hidden state at the last context token. The evaluation code then applies a policy to those stored arrays: it finds the exit loop from the stored statistics and reads the correctness at that loop from the stored correctness array. No halting policy was run through the model.
+
+Accuracy and exit-loop outcomes obtained this way would be exact for a truncated run, provided that every quantity a policy reads at loop t depends only on loops up to t. Our reading of the code is that this condition holds, and a diagnostic on development data supports it [E].
+
+Truncated-execution check (D-t). We ran the three frozen policies (π1-x, native-pb, r-kl) with real early stopping on 600 development questions, 200 per primary benchmark, and compared the results with the stored-trace evaluation of the same questions. The test set was not used.
+
+• Exit loop, predicted option and correctness agreed in all 1,800 policy-question pairs. The diferences in accuracy and simulated saving were therefore zero.
+
+• A model-free check that masks later loops in the stored arrays found no dependence of any policy statistic on later loops (0 diferences in 5,594 checks). This supports the causality condition for the tested statistics and inputs.
+
+• The pre-declared bit-for-bit comparison of the statistics failed on HellaSwag for the two policies that read option scores. Separate GPU executions of the same inputs difered by up to $1 . 6 \times 1 0 ^ { - 7 }$ in the statistic and $9 . 2 \times 1 0 ^ { - 5 }$ in option log-likelihoods. Values read at the last context token were bit-identical. A follow-up diagnostic (D-t2) supports GPU floating-point nondeterminism as a cause [E]. We ran 20 HellaSwag questions 5 times each at full depth: under default settings, 16 of 20 questions showed bit diferences across repeats, while with deterministic algorithms enabled (torch.use\_deterministic\_algorithms(True), CUBLAS\_WORKSPACE\_CONFIG=:4096:8) none did. This establishes reproducibility only within that deterministic configuration. It does not turn the original bitwise comparison into a pass. These diferences changed no observed decision.
+
+The check therefore does not establish bitwise reproducibility. It also does not establish agreement on the test set, or any latency or runtime saving. We also did not measure whether halting decisions change under other numerical paths (Section 7.5). The loop runner repeats the layer stack on a single packed sequence, the input to loop t is the normalised output of loop t − 1, attention at loop t uses keys and values computed from that loop’s own input (the runner keeps no cache across loops), and the gate CDF at loop t is a function of the gate logits at loops up to t. The statistics used by the policies at loop t (option scores, $p _ { t } ,$ entropies, probe features, the divergence from $p _ { t - 1 }$ , hidden-state diferences) are functions of loops up to t. The stability label $S _ { t }$ looks at later loops, but only as a training label on development data; it is never an input at decision time.
+
+Compute savings are of a diferent kind. They are simulated from exit-loop counts, $1 - e / 4 .$ , and the probe overhead ρ was measured separately at freeze time, in isolation, on development questions (Table 1). They are therefore an estimate of the savings a truncated implementation could realise, under the assumption that a skipped loop costs what a measured loop costs. The reported policy savings are retrospective estimates rather than observed end-to-end savings. Separately, D-t collected descriptive batch-size-1 timings on 600 development questions; these timings are not a held-out latency evaluation and support no general runtimespeedup claim.
+
+Table 2: Data split.
+<table><tr><td>Set</td><td>Questions</td><td>Role</td></tr><tr><td>Development (Phase 1 train + DEV+)</td><td>17,615 + 2,635 = 20,250</td><td>fitting, selection, freeze</td></tr><tr><td>TEST, OpenBookQA</td><td>3,000</td><td>primary</td></tr><tr><td>TEST, CommonsenseQA</td><td>1,000</td><td>primary</td></tr><tr><td>TEST, HellaSwag</td><td>750</td><td>primary</td></tr><tr><td>TEST, PIQA</td><td>1,837</td><td>out of distribution</td></tr><tr><td>TEST, Social IQa</td><td>1,930</td><td>out of distribution</td></tr><tr><td>TEST, total</td><td>8,517</td><td>one-time confirmatory run</td></tr></table>
+
+## 4 Experimental design and pre-registration
+
+## 4.1 Data
+
+Development data are the Phase 1 training questions (17,615) and the Phase 3 development allocation, DEV+ (2,635), together 20,250 questions across six benchmarks: OpenBookQA, CommonsenseQA, HellaSwag, ARC-Challenge, ARC-Easy and MMLU. They were used to fit the probes, select every $( \tau _ { b } , m _ { b } )$ , measure $\rho$ and freeze the study. A further 5,870 Phase 1 validation questions were exposed earlier and were used for a report-only estimate in G3a; the C1 protocol excludes them from every choice (the protocol’s reviewer decision D-a, “development data only”).
+
+The TEST set is a sealed allocation of 8,517 questions, disjoint from the development data by a salted hash and fixed in the manifest (sha256 b2df1930. . . ). The primary in-distribution benchmarks are OpenBookQA (3,000), CommonsenseQA (1,000) and HellaSwag (750), 4,750 questions in all. The out-of-distribution benchmarks, PIQA (1,837) and Social IQa (1,930), are reported separately and never pooled. ARC and MMLU have no fresh rows and are not part of any claim. Every allocated row was removed from the few-shot exemplar pool, and the out-of-distribution training splits were never used.
+
+## 4.2 Sequence of studies
+
+The studies were run in a fixed order, and each later one was written after the earlier one was closed.
+
+1. G3a. The pre-registered development gate of Phase 3 (plan v1.1) compared π1-x and a hiddenstate variant with the strongest baseline under the point-only rule, using nested cross-validation on development data. It stopped at rule D2, because neither candidate improved on native-pb by the required 0.02. The decision was computed by the frozen code and confirmed by the reviewer.
+
+2. E1 [E]. An exploratory analysis on development data asked why the native gate won. Its main finding was that the ordering depended on the selection rule: under the point-only rule π1-x trailed native-pb (−0.024), whereas under the bootstrap-screened rule applied identically to both it led (+0.053, positive in all five folds).
+
+3. C1 protocol. E1 motivated a new, separately pre-registered study, C1, whose single confirmatory test is on the sealed TEST set. The protocol was reviewed (conditional approval with five specified decisions: development data only, $\delta \ : = \ : 0 . 0 2$ , gross saving primary with net saving a mandatory secondary, 10,000 resamples with seed 2026, native-pb as the sole primary comparator), then frozen (sha256 4f38b8b7. . . , tag c1-protocol).
+
+4. Freeze on development data. One script fitted π1-x, ran the selections for both policies, the fixeddepth reference and the pooled out-of-distribution selection, measured $\rho ,$ and wrote frozen.json (65728e16. . . ) and the model file (72f15508. . . ).
+
+5. One-time guarded TEST run. The run applied the frozen selections once to the sealed TEST set.
+
+The guard around the TEST run is part of the methodological rigour of the study. We do not present it as a contribution. Before reading any outcome, the runner verified the sha256 of the protocol, the frozen selections, the model file, the manifest and the TEST extraction check; verified the code files recorded at freeze; verified that the 24-file code bundle matched the approved hash (c0902af3. . . ); refused to start if the marker, the report or a failure record already existed; and checked the TEST extraction’s metadata (identifier lists, counts, file checksums) without reading any prediction or label. It then created the marker TEST\_OPENED.json by exclusive creation, so that it could never be overwritten, and only then read the TEST extraction, restricted to the TEST directory. The report was written by exclusive creation. A second invocation after the successful run was refused at preflight, because the marker existed, and TEST was not read again.
+
+## 4.3 Frozen decision rule, quoted from the protocol
+
+The endpoint and the budget are quoted from docs/C1\_PROTOCOL.md (sha256 4f38b8b7. . . ), sections C1.3 to C1.5 (adjacent bullets are joined into paragraphs; the wording is unchanged). The hypothesis statement in C1.1 is paraphrased, not quoted, below.
+
+Primary. $\Delta = \mathrm { S \_ } \pi \mathrm { 1 - x \_ B } .$ native, the paired diference in gross loop saving, macroaveraged with equal weight over the three primary benchmarks on TEST. Minimum meaningful improvement δ = 0.02 (2 percentage points of loops; the same size as Phase 3’s D2 screen).
+
+Budget, per primary benchmark. loss\_b = acc\_b(loop 4) − acc\_b(policy) ≤ 1.00 pp, point estimate on TEST, with the Gate 1 tolerance of 1e-12. π1-x must meet the budget on all three benchmarks. If it does not, the result is FAIL (budget), whatever ∆ is. A saving advantage alone never counts as success.
+
+Interval. Paired bootstrap over TEST questions, resampled within each benchmark, so each benchmark keeps its own n and the macro stays equal-weight. $\mathrm { ~ B ~ } = \ 1 0 { , } 0 0 0$ , seed default\_rng(2026) (D-d). Two-sided 95% percentile interval [L, U] for ∆.
+
+Verdict (exhaustive; the first matching row applies):
+<table><tr><td>condition</td><td>verdict</td></tr><tr><td>π1-x loss  $> 1$  pp on any primary benchmark</td><td>FAIL (budget)</td></tr><tr><td> $\Delta \ge \delta$  and  $\mathrm { ~ L ~ } > 0$ </td><td>PASS: a statistically supported positive improve- ment  $( \mathrm { L } > 0 )$  with an observed effect of at least δ = 0.02 (point estimate)</td></tr><tr><td> $\mathrm { ~ U ~ } < \delta$ </td><td>FAIL (no meaningful advantage): improve- ments of size δ or more are ruled out</td></tr><tr><td>otherwise</td><td>INCONCLUSIVE: ∆ and [L, U] reported, no claim either way</td></tr></table>
+
+What PASS does and does not claim (reviewer clarification). PASS establishes, at 95% confidence, that the improvement is positive, and that the observed efect is at least 0.02. It does not establish with 95% confidence that the true improvement is at least 0.02; that would need $\mathrm { ~ L ~ } > 0 . 0 2$ , which is not the criterion. Reports must keep the two apart. Whether $\mathrm { { L } > 0 . 0 2 }$ also holds is reported as a secondary fact.
+
+One primary test. Everything else is secondary and never changes the verdict.
+
+In words: the comparison is between π1-x and native-pb, each selected on development data under the same bootstrap-screened rule. The protocol also fixed, before TEST was opened, the secondary analyses reported in sections 5 and 6: the same comparison under the point-only rule; π1-x against every other baseline, with native-pb as the sole primary comparator; the net saving; the out-of-distribution benchmarks, each on its own, with one task-agnostic (τ, m) per policy selected under the same rule over all six development benchmarks; and a table of held-out losses for every policy. The protocol also stated before the test that demonstrating a loss of at most 1 pp would be out of reach for CommonsenseQA $( \mathrm { n } = 1 , 0 0 0 )$ and HellaSwag (n = 750), even for a policy that loses nothing: with a true loss of zero and 5% to 10% of questions changing correctness, the expected one-sided upper bound is 1.16 to 1.65 pp for CommonsenseQA and 1.34 to 1.90 pp for HellaSwag (planning assumptions from amendment A1.5). The expected half-width of the 95% interval for ∆ at the TEST sizes was computed at freeze from development data as 0.0043.
+
+## 4.4 Deviations and disclosures
+
+• Phase 3 numerical diagnostic D-a (PIQA). Before the full extraction, a float32 check compared the packed pass with a context-only pass on 100 never-used PIQA training rows and 100 Social IQa rows, against a tolerance of 1e-4. Social IQa passed (maximum diference 3.1e-5). PIQA failed (1.17e-4). The tolerance was not changed and the failure stands as recorded. A follow-up, D-a2, repeated the comparison in float64 on the CPU reference path for the 10 PIQA questions with the largest float32 diference, with a pre-fixed criterion of at most 1e-9; the maximum diference was 1.67e-13, and the result was classified numerical. The reviewer accepted a documented PIQA deviation and released the extraction. A procedural deviation within D-a2 (a one-line fix was run before reviewer confirmation) is recorded in the decision log.
+
+• Console transcript. After the successful TEST run, the runner was started a second time by mistake and was refused at preflight, before the marker step. Its console transcript overwrote the transcript file of the successful run, so the file holds only the refused attempt. The console output of the successful run survives as a paste in the working conversation. The run itself is fully recorded in test\_report.json and the marker.
+
+• Smaller disclosures. One test, the symlink-escape test for unsealing, was skipped on the Windows machine that ran the TEST script (it passes on Linux). The package snapshots before and after the run difer in one line, the editable install of this repository (the commit before and after the pull of the approved commit); all third-party versions are identical. frozen.json records code hashes but not a git commit.
+
+• Not run. The Phase 3 check D-b, on the sensitivity of halting decisions to the bf16 numerical path, has no recorded result (Section 7.5).
+
+• Development-only follow-up (X1). After the confirmatory study and an internal methodology review, we froze the protocol of one further exploratory analysis, X1 (correctness flips at matched gross saving; Section 7.3), and only then ran it on development data. It used E1’s held-out folds and statistics and did not read TEST.
+
+## 5 Results: RQ1, the preferred method under two selection rules
+
+RQ1 asks whether the accuracy-risk selection rule changes which halting method is preferred. Each rule selects its own operating points $( \tau _ { b } , m _ { b } )$ for each method, so the comparison is between rule-dependent selections, not between fixed policies whose order flips.
+
+## 5.1 Primary and secondary comparisons
+
+Under the bootstrap-screened rule, π1-x stayed within the point budget on every primary benchmark (point losses 0.17, 0.60 and 0.40 pp for OpenBookQA, CommonsenseQA and HellaSwag), the observed diference was at least $\delta = 0 . 0 2$ , and the lower bound was above 0, so the verdict was PASS [C]. The macro saving was 0.239 for π1-x and 0.186 for native-pb. Here the lower bound (0.049) also exceeded δ, which the protocol records as a secondary fact [S]. As the protocol states, PASS is not a 95% claim that the true efect is at least 0.02. The realised half-width of the interval, 0.0042, was close to the 0.0043 expected at freeze [S]. The result is limited to Ouro-1.4B with 4 loops, to these three benchmarks, to gross saving and net saving as estimated here, and to this selection rule. The interval quantifies test-sampling uncertainty conditional on the frozen policies. It does not account for variability from policy fitting, operating-point selection or changes in evaluation conditions. The observed development-to-test shifts in macro saving (for example, 0.258 for π1-x in the cross-fitted E1 estimate against 0.239 on TEST; Section 6.1) illustrate the limits of interpreting this interval more broadly. The comparison is also at unmatched loss: averaged over the three benchmarks, π1-x’s selected points lost 0.39 pp on TEST against 0.08 pp for native-pb (means of the Table 4 losses) [P]. Part of the saving diference therefore reflects more of the budget being used, and native-pb’s screened selections left more of the budget unused. Neither rule compares the methods at equal loss.
+
+Table 3: π1-x minus native-pb under the two selection rules. The first two rows are development-data results; the last three are on the sealed TEST set. The G3a value to four decimals is −0.0236.
+<table><tr><td>Rule and data</td><td>π1-x − native-pb (gross macro saving)</td><td>95%CI</td><td>Evidence</td></tr><tr><td>Point-only, G3a nested held-out folds on development data</td><td>-0.024</td><td>per-fold range −0.044 to −0.014</td><td>G3a STOP, [E]</td></tr><tr><td>Point-only, G3a exposed Phase 1 validation</td><td>-0.029</td><td>none computed</td><td>回</td></tr><tr><td>Point-only, TEST</td><td>-0.022</td><td>[−0.026, -0.018]</td><td></td></tr><tr><td>Bootstrap-screened, TEST</td><td>+0.053</td><td>[+0.049, +0.057]</td><td>[C], verdict PASS</td></tr><tr><td>Bootstrap-screened, TEST, net of estimated probe overhead</td><td>+0.038</td><td>[+0.033, +0.042]</td><td>[S], estimated cost</td></tr></table>
+
+Table 4: TEST results under the bootstrap-screened rule, per primary benchmark [S, descriptive]. Savings are gross. The upper bound is the one-sided 95% paired-bootstrap bound of the loss on TEST. Bold marks bounds above 1 pp.
+<table><tr><td>Benchmark</td><td>Method</td><td>mb</td><td>Gross saving</td><td>Loss (pp)</td><td>Upper bound (pp)</td><td>Exits at loop 1 / 2 / 3 / 4</td></tr><tr><td>OpenBookQA (3,000)</td><td>π1-x</td><td>4</td><td>0.157</td><td>0.17</td><td>0.53</td><td>6 / 243 / 1,377 / 1,374</td></tr><tr><td>OpenBookQA</td><td>native-pb</td><td>4</td><td>0.136</td><td>0.20</td><td>0.67</td><td>0 / 26 / 1,579 / 1,395</td></tr><tr><td>OpenBookQA</td><td>B_pb</td><td>4</td><td>0.000</td><td>0.00</td><td>0.00</td><td>0 / 0 / 0 / 3,000</td></tr><tr><td>CommonsenseQA (1,000)</td><td>π1-x</td><td>4</td><td>0.282</td><td>0.60</td><td>1.10</td><td>8 / 349 / 405 / 238</td></tr><tr><td>CommonsenseQA</td><td>native-pb</td><td>4</td><td>0.161</td><td>-0.10</td><td>0.30</td><td>0 /  1 / 643  / 356</td></tr><tr><td>CommonsenseQA</td><td>B_pb</td><td>4</td><td>0.000</td><td>0.00</td><td>0.00</td><td>0 / 0 / 0 / 1,000</td></tr><tr><td>HellaSwag (750)</td><td>π1-x</td><td>3</td><td>0.279</td><td>0.40</td><td>1.60</td><td>0 / 88 / 662 / 0</td></tr><tr><td>HellaSwag</td><td>native-pb</td><td>3</td><td>0.262</td><td>0.13</td><td>1.33</td><td>0 / 36 / 714 / 0</td></tr><tr><td>HellaSwag</td><td>B_pb</td><td>3</td><td>0.250</td><td>0.53</td><td>1.60</td><td>0 / 0 / 750 / 0</td></tr></table>
+
+Under the point-only rule, the order is the opposite: π1-x saves 0.022 less than native-pb on TEST [S], replicating on sealed data the direction found in G3a and E1 on development data [E]. At G3a, π1-x improved on the comparator by −0.0236 on nested held-out folds; this was below the required +0.02, and Phase 3 stopped. In the point-only TEST selection, both policies exceed the 1 pp point budget on some benchmarks (see Table 5), so the point-only comparison on TEST compares policies that do not meet the budget. It is reported as a secondary replication of the rule dependence, not as a statement about compliant policies [S].
+
+## 5.2 Per benchmark
+
+The macro advantage is not spread evenly. Per benchmark, π1-x saved more than native-pb by 0.021 on OpenBookQA, 0.121 on CommonsenseQA and 0.017 on HellaSwag (diferences of the entries in Table 4; no interval was computed for these individual diferences) [P]. The diference is therefore dominated by CommonsenseQA. On OpenBookQA both adaptive policies split between loops 3 and 4. On HellaSwag, where the cap is 3, most questions exit at loop 3 (662 of 750 for π1-x, 714 of 750 for native-pb). On CommonsenseQA π1-x exits at loop 2 for 349 of 1,000 questions, where native-pb almost never does (1 of 1,000) [S].
+
+## 5.3 Upper bounds above 1 pp on TEST
+
+The selection rule required each selected candidate’s bootstrap upper bound to be at most 1 pp on development data. On TEST this did not hold everywhere. All nine point losses are within the 1 pp budget, but four of the nine one-sided upper bounds exceed 1 pp [S]:
+
+Table 5: TEST operating points selected by each rule [S]. Bold marks point losses above 1 pp. The macro savings under the point-only rule are means of the per-benchmark entries.
+<table><tr><td>Rule</td><td>Method</td><td>OpenBookQA saving / loss (pp)</td><td>CommonsenseQA saving / loss (pp)</td><td>HellaSwag saving / loss (pp)</td><td>Macro saving</td></tr><tr><td>Point-only</td><td>π1-x</td><td>0.305 / 1.13</td><td>0.357 / 1.10</td><td>0.351 / 1.07</td><td>0.337</td></tr><tr><td>Point-only</td><td>native-pb</td><td>0.403 / 1.57</td><td>0.359 / 1.20</td><td>0.316 / 0.67</td><td>0.359</td></tr><tr><td>Bootstrap-screened</td><td>π1-x</td><td>0.157 / 0.17</td><td>0.282 / 0.60</td><td>0.279 / 0.40</td><td>0.239</td></tr><tr><td>Bootstrap-screened</td><td>native-pb</td><td>0.136 / 0.20</td><td>0.161 / −0.10</td><td>0.262 / 0.13</td><td>0.186</td></tr></table>
+
+• π1-x: CommonsenseQA 1.10 pp and HellaSwag 1.60 pp (OpenBookQA 0.53 pp is below);
+
+• native-pb: HellaSwag 1.33 pp;
+
+• B\_pb: HellaSwag 1.60 pp.
+
+At selection time the bounds of the frozen candidates were between 0.75 and 0.98 pp for the two adaptive methods. HellaSwag, with n = 750, exceeds 1 pp for every method including fixed depth, so the small sample is part of the cause, as the protocol anticipated (section 4.3). The exceedance for π1-x on CommonsenseQA is specific to π1-x [S]. CommonsenseQA is also where most of the macro advantage of π1-x arises: its per-benchmark diference from native-pb is 0.121, against 0.021 on OpenBookQA and 0.017 on HellaSwag (Section 5.2). Several causes are plausible and we cannot separate them [P]:
+
+• sampling variability on the test set, which is large for HellaSwag;
+
+• selection efects of a heuristic screen whose bound is asymptotic, uncorrected for the number of candidates, and computed on the data that chose the candidate (Section 3.4);
+
+• variability that the development-time bound does not see. Selection used π1-x’s out-of-fold development scores, but the policy applied on TEST used the probe refitted once on all development data. The two score distributions are therefore not identical, and the bound conditions on neither the refit nor its variability;
+
+• diferences between development and test data.
+
+No analysis here isolates the cause, and we do not attribute the exceedances to selection bias alone. The practical reading is that the point budget was met on TEST and the demonstrated, upper-bound budget was not met everywhere. The PASS verdict rests on the point budget, as pre-registered.
+
+Under the point-only rule on TEST, π1-x exceeds 1 pp on all three benchmarks (1.07 to 1.13 pp) and native-pb on two (OpenBookQA 1.57 pp and CommonsenseQA 1.20 pp) [S].
+
+## 5.4 Rule-dependent preference
+
+Which method is preferred depends on which selection rule is applied, and the two rules select diferent operating points. Under the point-only rule, the selected operating points broke the 1 pp budget on TEST in 5 of the 6 benchmark-method cells (Table 5). We do not claim that a fixed pair of policies reverses its order. Table 5 shows what changes. Moving from the point-only rule to the bootstrap-screened rule, each method retreats to a lower-saving operating point, and native-pb retreats further: its macro saving falls from 0.359 to 0.186, a drop of 0.173, against a drop from 0.337 to 0.239, or 0.098, for π1-x [P, diferences of the Table 5 macro entries]. The largest single change is native-pb on OpenBookQA, which moves from 0.403 at 1.57 pp loss to 0.136 at 0.20 pp loss. The point-only preference for native-pb comes from one benchmark: per benchmark, π1-x − native-pb is −0.098 on OpenBookQA, −0.002 on CommonsenseQA and +0.035 on HellaSwag [P, diferences of the rounded Table 5 entries; the unrounded CommonsenseQA diference is −0.00275]. On OpenBookQA, native-pb’s point-only selection used a threshold of $1 . 9 \times 1 0 ^ { - 5 }$ on the CDF with depth cap 4, so the statistic barely filtered, and its loss rose from 0.98 pp at selection to 1.57 pp on TEST, the largest overshoot of any selected operating point [P]. That point-only selections would exceed the budget on new data was visible before TEST: in the held-out folds of E1, point-only selections exceeded 1 pp in 6 of 15 benchmark-by-fold cells for native-pb and 7 of 15 for π1-x, against 3 of 15 each under the bootstrap-screened rule [E]. The direction of the rule dependence was also consistent across development folds: in each of the five E1 held-out folds, π1-x − native-pb was negative under the point-only rule and positive under the screened rule, with a screened-minus-point-only diference of +0.051 to +0.127 [E]. E1 motivated C1, so this corroborates rather than independently confirms the TEST pattern, and no interval for the diference between rules was computed on TEST.
+
+![](images/4a9d1ea137fc061708e0460c67f5714b11e2dd3a51087611c6700cd353d6bfc3.jpg)  
+Figure 1: TEST operating points selected by each rule, one panel per primary benchmark (OpenBookQA, CommonsenseQA, HellaSwag). Horizontal axis: accuracy loss relative to loop 4, in percentage points. Vertical axis: gross loop saving, as a fraction of the four-loop budget. Circles: π1-x. Squares: native-pb. Filled markers: bootstrap-screened rule. Open markers: point-only rule. The dashed vertical line marks the 1 pp budget. Each marker is one frozen (τ , m ) selected on development data; the figure shows four operating points per panel and is not a saving-loss frontier, so it does not support a comparison at matched loss. Macro-averaged over the three benchmarks, the screened-rule diference π1-x − native-pb is +0.053 [+0.049, +0.057] [C] and the point-only diference is −0.022 [−0.026, −0.018] [S].
+
+The mechanism is not established by our data. One candidate explanation, which we flag as [P] and as untested, is that the native CDF is a skewed statistic with little resolution near the point where the screen stops accepting thresholds, whereas π1-x’s probability is graded more finely there. The only supporting evidence is exploratory: on development data the out-of-fold AUROC of π1-x’s score for the stability label exceeded that of the native CDF (0.689 against 0.603), and in the E1 report the point-only thresholds selected for the native CDF were extremely small for some benchmarks [E]. Neither observation shows that a better ranking is what produces the larger saving under the screened rule; E1 itself records that the ranking quality does not explain the point-only win of the native gate. Neither rule compares the methods at matched loss, and no matched-loss comparison was pre-registered.
+
+## 5.5 Net saving
+
+Net of the estimated probe overhead, π1-x saves 0.038 more than native-pb, 95% CI [+0.033, +0.042] [S, estimated cost]. The per-benchmark net savings of π1-x are 0.125 (OpenBookQA), 0.274 (CommonsenseQA) and 0.272 (HellaSwag), against gross savings of 0.157, 0.282 and 0.279; the overhead costs 0.031 on Open BookQA, where loops are short and the overhead relative to one loop is largest, and 0.007 on each of the other two (diferences of the stored values) [S]. The overhead reduces the advantage but does not remove it. This is an accounting estimate, not a wall-clock measurement, and native-pb is credited with zero controller cost by definition (section 3.5).
+
+## 6 Results: RQ2 and RQ3
+
+## 6.1 RQ2: against the native gate and against untrained baselines
+
+RQ2 asks whether an added trained probe beats (a) Ouro’s trained native gate and (b) a training-free exit based on a divergence between successive loops. For (a) the primary comparison in section 5.1 is the answer [C]: under the bootstrap-screened rule, π1-x saved more than native-pb. Because π1-x takes the native CDF as one of its inputs (Section 3.3), this compares the native statistic with a model that contains it; comparison (b) is the more informative test of what the trained probe adds. In the exploratory E1 analysis, a probe without the CDF feature still saved more than native-pb under the screened rule in all five held-out folds (+0.021 macro over the three primary benchmarks), but not over all six development benchmarks (−0.010) [E]; it was not evaluated on TEST. For (b), and for every other baseline, the comparisons were pre-specified as secondary [S]. The emphasis we place on the comparison with r-kl is post hoc [P], because r-kl was identified as the strongest baseline using TEST outcomes (below).
+
+Table 6: TEST comparison of π1-x (macro saving 0.239) with every baseline, paired and benchmark-stratified bootstrap, 10,000 resamples [S]. The r-kl row is given to four decimals. The nine intervals are not adjusted for multiple comparisons. All baselines were selected on development data under the bootstrap-screened rule.
+<table><tr><td>Baseline (selected under the same rule)</td><td>Macro gross saving</td><td>∆ = π1-x − baseline</td><td>95% CI</td></tr><tr><td>B_pb</td><td>0.083</td><td>+0.156</td><td>[+0.151, +0.161]</td></tr><tr><td>native-pb (primary)</td><td>0.186</td><td>+0.053</td><td>[+0.049, +0.057]</td></tr><tr><td>r-conf</td><td>0.171</td><td>+0.068</td><td>[+0.063, +0.073]</td></tr><tr><td>r-margin</td><td>0.170</td><td>+0.069</td><td>[+0.064, +0.075]</td></tr><tr><td>r-ent</td><td>0.179</td><td>+0.060</td><td>[+0.055, +0.065]</td></tr><tr><td>r-dlogit</td><td>0.162</td><td>+0.077</td><td>[+0.071, +0.083]</td></tr><tr><td>r-hcos</td><td>0.174</td><td>+0.065</td><td>[+0.059, +0.072]</td></tr><tr><td>r-hl2</td><td>0.149</td><td>+0.090</td><td>[+0.084, +0.096]</td></tr><tr><td>r-kl</td><td>0.238</td><td>+0.00125</td><td>[-0.0041, +0.0065]</td></tr></table>
+
+All the readouts other than r-kl trail π1-x by between 0.060 and 0.090, and fixed depth trails by 0.156 [S].   
+Every baseline’s TEST point loss stayed within 1 pp (the largest was 0.93 pp, for r-dlogit on HellaSwag) [S];   
+upper bounds were computed only for π1-x, native-pb and B\_pb.
+
+r-kl. The diference between π1-x and r-kl is +0.00125, with a 95% interval of [−0.0041, +0.0065] [S]. The strongest baseline was determined on TEST: in a bootstrap that re-selected the strongest baseline in every resample, r-kl was selected in 10,000 of 10,000 resamples, and the re-selected interval is the same as r-kl’s own. Because the comparator was chosen with TEST outcomes, this comparison was always secondary and never touched the verdict. The result is non-superiority: we did not demonstrate that the added trained probe is better than r-kl. It is not a demonstration that the two perform alike. No margin for declaring them interchangeable was pre-specified or tested. The interval excludes only diferences larger than 0.0065 in favour of π1-x or 0.0041 in favour of r-kl, in units of the four-loop budget [S]. The prominence we give this comparison is post hoc [P].
+
+Development data gave mixed signals about this near-tie. On the development data used for selection, the in-sample macro savings were 0.246 for π1-x and 0.243 for r-kl, against 0.193 for native-pb [E, in-sample, not a held-out estimate]. The nested, cross-fitted E1 estimate under the same rule disagreed: there, π1-x reached 0.258 and r-kl only 0.207, against 0.204 for native-pb [E]. The TEST result matches the in-sample freeze numbers rather than the held-out E1 estimate. One candidate reason is that E1’s nested estimate refitted the probe and reselected thresholds in each fold, whereas the freeze and TEST used one fit on all development data. This is a [P] conjecture that we have not tested. On TEST, r-kl exceeded native-pb by 0.052 in macro saving (0.238 against 0.186; a diference of the stored macro values, with no interval computed) [P]. The confirmatory claim concerns π1-x only; the comparison of r-kl with native-pb is descriptive. The evidence does not show that the learned probe adds value over a simple stability statistic.
+
+Relation to the KL exit of Geiping et al. The rule r-kl is close in spirit to the convergence exit of Geiping et al. (2025, section 6.1), which stops a recurrent-depth model when the KL divergence between successive steps falls below $5 \times 1 0 ^ { - 4 }$ , once per generated token and with a fixed threshold. Our r-kl difers in the unit and in the threshold. The unit is the question, and the distribution compared is the distribution over the answer options, not over the vocabulary for a generated token. The threshold is not fixed: for each benchmark, a threshold and a cap are selected on development data under the screened rule. The frozen thresholds correspond to halting when $\mathrm { K L } ( p _ { t } \Vert p _ { t - 1 } )$ falls to or below $3 . 5 { \times } 1 0 ^ { - 3 }$ on OpenBookQA (cap 3),
+
+Table 7: Out-of-distribution TEST results with one task-agnostic $( \tau , m )$ per policy [S]. Bold marks losses and upper bounds above 1 pp. The B\_pb row is full depth.
+<table><tr><td>Benchmark (n)</td><td>Method</td><td>Gross saving</td><td>Loss (pp)</td><td>Upper bound (pp)</td><td>Exits at loop 1  $. {  { / } } 2 {  { \stackrel { . } { \ } } } 3 {  { \stackrel { . } { \ } } } 4$ </td></tr><tr><td>PIQA  $( 1 , 8 3 7 )$ </td><td>π1-x</td><td>0.308</td><td>0.71</td><td>1.52</td><td> $0 \mid 4 3 3 \mid 1 { , } 3 9 9 \mid 5$ </td></tr><tr><td>PIQA</td><td>native-pb</td><td>0.126</td><td>0.11</td><td>0.60</td><td> $0 ~ / ~ 0 ~ / ~ 9 2 3 ~ / ~ 9 1 4$ </td></tr><tr><td>PIQA</td><td>B_pb</td><td>0.000</td><td>0.00</td><td>0.00</td><td> $0 ~ / ~ 0 ~ / ~ 0 ~ / ~ 1 { , } 8 3 7$ </td></tr><tr><td>Social IQa (1,930)</td><td>π1-x</td><td>0.481</td><td>3.26</td><td>4.72</td><td>0  $\textrm { / 1 , 7 8 5 / 1 4 3 / 2 }$ </td></tr><tr><td>Social IQa</td><td>native-pb</td><td>0.028</td><td>-0.05</td><td>0.16</td><td> $0 ~ / ~ 0 ~ / ~ 2 1 4 ~ / ~ 1 { , } 7 1 6$ </td></tr><tr><td>Social IQa</td><td>B_pb</td><td>0.000</td><td>0.00</td><td>0.00</td><td> $0 \mathrm { ~ / ~ 0 ~ / ~ 0 ~ / ~ 1 , 9 3 0 ~ }$ </td></tr></table>
+
+$3 . 7 \times 1 0 ^ { - 2 }$ on CommonsenseQA (cap 4) and $2 . 7 \times 1 0 ^ { - 4 }$ on HellaSwag (cap 3) [S, frozen at freeze], so only one of the three is of the order of the Geiping et al. value. We therefore do not describe r-kl as a reproduction of that exit, and our comparison does not test it.
+
+## 6.2 RQ3: out-of-distribution budget
+
+RQ3 asks whether development-selected policies keep their accuracy budget on unfamiliar benchmarks. For PIQA and Social $\mathrm { I Q a } .$ each policy used one task-agnostic pair $( \tau , m )$ , selected on the development data under the same bootstrap-screened rule, qualifying only if every one of the six development benchmarks met the rule: π1-x with $m = 4$ and $\tau = 0 . 9 6 1$ , native-pb with $m = 4$ and $\tau = 0 . 3 8 6$ (development macro saving 0.159 for each). Both benchmarks are evaluated 0-shot, which difers from the few-shot prompts of most development benchmarks and is part of the shift. The protocol listed this analysis as a secondary one with a verdict-style point-estimate table per benchmark, and never pooled across benchmarks [S].
+
+On PIQA, π1-x met the point budget (0.71 pp) but its upper bound (1.52 pp) was above 1 pp, and it saved 0.183 more than native-pb [S] (95% CI [+0.174, +0.191]). On Social IQa, π1-x did not stay within the budget: it lost 3.26 pp, with an upper bound of 4.72 pp, and it halted at loop 2 for 1,785 of 1,930 questions. Its large saving there (0.481) comes from halting early on most questions, and the accuracy cost is real: accuracy fell from 43.32% at loop 4 to 40.05% [S]. The saving diference against native- $\mathrm { \cdot p b } , + 0 . 4 5 3$ (95% CI $[ + 0 . 4 4 9 , + 0 . 4 5 8 ] \rangle$ ), should not be read as an advantage, because it is paid for by the budget violation. The native gate stayed within the budget on both benchmarks, at a much smaller saving (0.126 and 0.028).
+
+We draw no general conclusion from this. It is one failure on one benchmark, with development-selected, task-agnostic thresholds, on two benchmarks that were also 0-shot and difer from the development data in several ways at once. The repository records a bf16 numerical diference between the packed and context-only passes on the 0-shot sets, and a documented PIQA numerical deviation (section 4.4), but no analysis here links either to the Social IQa result, and we do not ofer an explanation. The finding is a reason to report an out-of-distribution check next to any development-selected halting policy, and it is not a statement about out-of-distribution robustness in general [S].
+
+## 7 Discussion
+
+## 7.1 What the results support
+
+The evidence supports three statements, each at a diferent strength.
+
+1. Under the bootstrap-screened rule, π1-x saved more loops than Ouro’s native gate on the three primary benchmarks [C]. The diference was +0.053 in gross macro saving, 95% CI [+0.049, +0.057] (test-sampling uncertainty for the frozen policies), and +0.038 after the estimated probe overhead [S]. The selected points difer in loss (macro 0.39 against 0.08 pp on TEST), so this is not a comparison at equal accuracy.
+
+2. Under two pre-specified selection rules, on this model, the preferred method difered [S], contrasted with the [C] result. Under the point-only rule, the native gate was preferred on development data (G3a, −0.024 [E]) and on TEST (−0.022 [−0.026, −0.018] [S]). Under the bootstrapscreened rule, π1-x was preferred [C]. Each rule selects its own operating points, so this is a statement about comparisons made through a selection procedure, not about fixed policies changing order. The point-only preference for the native gate on TEST compares operating points that broke the observed 1 pp budget on TEST: native-pb on two of three benchmarks, π1-x on all three (Table 5). That comparison therefore shows which method a point-only rule prefers. It does not show which method is better among budget-compliant policies. On development data, the same direction appeared in each of the five E1 held-out folds [E].
+
+3. The added trained probe showed no demonstrated advantage over an untrained KLbetween-loops readout [S], and this comparison is emphasised post hoc [P]. Separately, one out-of-distribution benchmark showed a budget failure for π1-x [S].
+
+What the evidence does not support:
+
+• a claim that π1-x is a better halting signal than prior art;
+
+• a claim that π1-x and r-kl are equivalent;
+
+• any statement about latency or about Ouro’s released inference path;
+
+• any statement about models, loop counts or task formats other than those tested;
+
+• any general statement about robustness to distribution shift.
+
+## 7.2 Relation to prior work
+
+Post-hoc readouts on Ouro. Popescu et al. (2026) already reported that post-hoc trajectory readouts can match or beat Ouro’s pretrained gate at validation-selected operating points. They describe the gate as “competitive but not uniformly Pareto-optimal” and conclude that adaptive depth is “a trajectory–readout problem, not a gate-learning problem”. Our primary result is consistent with that view and should be read as a pre-registered, sealed-test instance of it under one selection rule, not as a new finding that readouts can beat the gate. What we add is the following:
+
+• the preference depends on the selection rule (a point-only rule favours the native gate on our data). Popescu et al. report one validation-selected operating point per method in their tables and do not state the selection criterion. They do not compare selection rules, accuracy-loss budgets or statistica bounds. Their full accuracy-versus-loops curves on Ouro (their Figures 19–20) interleave and cross on several benchmarks, so a dependence of the preferred method on the operating point is visible in their data, although they do not discuss it. What we add is narrower: a demonstration that two pre-registered accuracy-budget rules lead to opposite preferences on a sealed test set, and that the stricter rule’s bounds do not all hold there;
+
+• the readout that matches the trained probe is a divergence between loops rather than a confidence readout [P]. r-kl was identified as the strongest baseline using TEST outcomes. Popescu et al. list hidden-state cosine similarity and displacement among their more promising readouts on Ouro; in our per-question protocol neither stood out (r-hcos 0.174 and r-hl2 0.149 macro, the latter the lowest of any readout, against 0.238 for r-kl; Table 6);
+
+• a development-selected policy can fail its budget on an out-of-distribution benchmark.
+
+Risk control for early exit. Fast yet Safe (Jazbec et al., 2024) selects early-exit thresholds with a formal guarantee (a UCB bound at level 1−δ under i.i.d. calibration data). Learn then Test (Angelopoulos et al., 2025) and Conformal Risk Control (Angelopoulos et al., 2024) give the general machinery. Our selection rule is not one of these procedures and inherits none of their guarantees (Section 3.4). The TEST upper bounds that exceeded 1 pp (Section 5.3) are compatible with a heuristic screen, with small test samples and with development–test diferences [P]. They argue for a formal procedure on separate calibration data, not for treating our screen as one. A natural follow-up is to repeat the comparison with LTT or UCB selection, on calibration data separate from the data used for fitting.
+
+Calibration and ranking quality. Kubaty et al. (2026) show that calibration alone is insuficient to measure the quality of early-exit classifiers. We see an analogous gap for ranking quality in our exploratory data. Better ranking of the stability label (π1-x AUROC 0.689 against 0.603 for the native CDF [E]) did not stop the native gate from winning under the point-only rule [E], so ranking quality alone does not predict which method a given selection rule will prefer.
+
+Convergence exits. Our r-kl is close in spirit to the KL convergence exit of Geiping et al. (2025). It difers in unit (the question, over answer options), in the distribution compared, and in threshold choice (selected per benchmark, not fixed). We therefore claim no reproduction of their exit. In our setting we found no demonstrated advantage of the trained probe over a convergence statistic [S], [P].
+
+## 7.3 Why the preference might depend on the rule
+
+We have no causal analysis. The following are hypotheses for future work [P]:
+
+• Resolution near the boundary. The two rules accept diferent regions of the threshold grid. The point-only rule accepts riskier operating points, and there the native CDF reached higher savings (macro 0.359 against 0.337). Adding the upper-bound screen removed those points for both methods, and the native gate lost more (−0.173 against −0.098). A statistic with coarse resolution near the acceptance boundary would behave this way. We did not test this.
+
+• Correctness flips and the bound. A property of the screen, not a hypothesis: the per-question loss diference takes the values −1, 0 and +1, so the bootstrap bound widens with the number of questions whose correctness changes in either direction. Unlike the point-only rule, the screened rule therefore penalises gains and losses that cancel. A hypothesis: π1-x, trained to predict that the answer will not change again, may reach a given saving with fewer such flips, which would explain part of its advantage under the screened rule. On development data, in-sample, the selected π1- x points had smaller bound margins than native-pb’s on all three benchmarks while saving more (OpenBookQA 0.44 against 0.53 pp, CommonsenseQA 0.51 against 0.68 pp, HellaSwag 0.37 against 0.38 pp); this partly restates the selection and is not independent evidence. On TEST the margins were mixed (Table 4). We examined this hypothesis on development data in a protocol-frozen exploratory analysis (X1; Section 4.4). At matched gross saving on held-out folds, π1-x changed the correctness of fewer questions than native-pb, in both directions, at each of the four pre-declared saving levels (for example 1.3 against 3.3 flips per 100 questions at saving 0.20), with no demonstrated diference in net loss [E]. This satisfies X1’s pre-declared exploratory decision rule; the four levels are related and the intervals are unadjusted, so it is not four independent confirmations. The bootstrap intervals condition on the matched thresholds and the fitted probes and do not capture uncertainty from fitting or matching. The result is consistent with the screen’s flip penalty contributing to π1-x’s advantage under the screened rule; it is not a causal demonstration. Three qualifications apply. The reduction was concentrated on CommonsenseQA. It does not explain r-kl: the untrained KL readout produced more flips than native-pb at matched saving, yet matched π1-x under the screened rule on TEST [E]. And X1 compares methods at matched gross saving, not matched accuracy loss, so it does not show a better accuracy trade-of.
+
+• Selection noise. Both rules select one of 51 thresholds per benchmark on the same development data used to judge them. Part of any diference between rules may be selection noise rather than a property of the signals. The disagreement between the in-sample freeze numbers and the cross-fitted E1 estimate for r-kl (Section 6.1) shows that this noise is not negligible.
+
+## 7.4 Implications for evaluating halting methods
+
+1. Treat a halting comparison as a comparison of signal plus selection procedure. Report results under more than one operating rule, and report the selected operating points, not only the macro saving.
+
+2. Report upper bounds on TEST alongside point losses. Under the primary bootstrap-screened selection rule, all nine reported benchmark-by-policy point losses were within the 1 pp budget, but four of their nine corresponding upper bounds exceeded it.
+
+3. Where a guarantee is wanted, use a formal procedure (LTT, CRC, UCB as in Fast yet Safe) with held-out calibration data, and state its assumptions.
+
+4. Include strong untrained baselines before attributing gains to a trained controller. In our study the strongest untrained baseline was a divergence between successive loops.
+
+5. Include at least one out-of-distribution check of a development-selected policy. A policy can save the most precisely by halting where it should not.
+
+6. Keep simulated loop savings apart from measured latency, and state whether policies were executed or evaluated from stored traces.
+
+## 7.5 Limitations
+
+• One model, one size, four loops. Every result is for Ouro-1.4B with 4 loops in bf16. Ouro-2.6B, more loops and other looped architectures were not tested.
+
+• Multiple-choice scoring, not generation. Each question has one decision, at the last context token, over a packed sequence with all options. Per-token halting during generation, the setting of Ouro’s released code and of Geiping et al., is a diferent problem.
+
+• Our decision unit is an adaptation. Ouro’s released code computes every loop and selects a readout for each token position. Our per-question stopping, with the skipped loops counted as saved, is not Ouro’s mechanism, and our savings are not measurements of Ouro’s released inference.
+
+• The native-gate baseline is used of its training objective. Ouro’s gate was trained with the model for per-token language modelling, and we use it as a per-question statistic at one position. π1-x also takes the native CDF as one of its inputs (Section 3.3), so the primary comparison is against a statistic the probe contains. The comparison with the untrained r-kl (Section 6.1) is the more informative one. An exploratory probe without the CDF feature still led native-pb under the screened rule on the three primary development benchmarks, but not over all six (Section 6.1) [E].
+
+• Retrospective evaluation and simulated savings. Policies were applied to stored full-depth traces. Exactness under truncation was checked by an executed truncated run on 600 development questions (D-t; all 1,800 policy-question decisions agreed), not on the test set, and the per-loop statistics were not bitwise reproducible across GPU runs (Section 3.6). Savings are loop counts plus an overhead measured separately at freeze time. Apart from the descriptive D-t timings on development data, no held-out end-to-end latency evaluation of the halting policies was performed. A loop is assumed to cost the same whether or not later loops follow, and the native gate is assigned zero controller cost.
+
+• Numerical path. The planned check of whether halting decisions agree across bf16 numerical paths (Phase 3 check D-b) never ran, because Phase 3 stopped at G3a. A bf16 diference between the packed and context-only passes is documented on the 0-shot sets. Its efect on halting decisions is unmeasured.
+
+• No formal guarantee. The bootstrap screen is asymptotic, uncorrected for the 51 candidates, and computed on the data that selected the candidate.
+
+• Benchmark identity is used. The primary policies select $( \tau _ { b } , m _ { b } )$ per benchmark, so a deployment would need to know the task. The out-of-distribution analysis used one task-agnostic pair and is the closer model of deployment. That is where π1-x failed.
+
+• Sample size. HellaSwag has n = 750, which limits the precision of its upper bound. Every method, including fixed depth, exceeded 1 pp there.
+
+• Out-of-distribution scope. There are two benchmarks, both 0-shot, which difer from the development data in format and in task at once, so the source of the Social IQa failure cannot be isolated.
+
+• The TEST set is spent. No further confirmatory analysis can use it. Any claim about r-kl against the native gate, or about an out-of-distribution guard, needs new held-out data.
+
+## 7.6 Threats to validity
+
+• Internal.
+
+– r-kl was singled out using TEST outcomes. Its comparison with π1-x was pre-specified, but its prominence is not.
+
+– The in-sample freeze numbers and the cross-fitted E1 estimate disagree about r-kl.
+
+The Phase 3 float32 check on PIQA (D-a) failed its pre-set tolerance for the diference between packed and context-only scoring. A follow-up with a float64 reference (D-a2; maximum float64 diference $1 . 6 7 { \times } 1 0 ^ { - 1 3 } )$ classified the diference as numerical. The reviewer accepted this as a documented exception, not a retroactive pass.
+
+– The console transcript of the TEST run was overwritten. The run’s outputs are fully recorded in the report and the marker.
+
+– The bootstrap-screened rule was adopted for C1 after the exploratory E1 found that π1-x led under it on development data. The sealed test shows that this development finding held on new data; it does not show that the rule was chosen without knowledge of development outcomes.
+
+## • Construct.
+
+– Gross saving counts loops, not FLOPs. Net saving uses ρ timed in isolation and is an accounting estimate.
+
+– The 1 pp budget is relative to loop-4 accuracy on the same questions, not to an external standard.
+
+• Statistical.
+
+– The primary interval is a paired, benchmark-stratified percentile bootstrap. It does not reflect variability from refitting the probe or reselecting thresholds, so it conditions on the frozen policies.
+
+• External.
+
+– The results cover one model family, multiple-choice scoring and five benchmarks.
+
+## 8 Conclusion
+
+On a frozen Ouro-1.4B, a pre-registered comparison on a sealed test set found that a trained stability probe saved more loops than Ouro’s native gate when operating points were chosen with a bootstrap-screened accuracy rule: +0.053 gross macro saving [C], +0.038 net (estimated) [S]. The same comparison under a point-only rule preferred the native gate, both on development data [E] and on the sealed test set [S]. On the test set, however, the point-only operating points of both methods exceeded the observed 1 pp budget on most benchmarks, so the reversal concerns which method each rule prefers, not which method is better among compliant policies.
+
+The trained probe showed no demonstrated advantage over an untrained KL-between-loops readout. That comparison was pre-specified [S], and we give it post hoc emphasis [P]. On one out-of-distribution benchmark the probe broke its accuracy budget [S].
+
+These results are consistent with prior evidence that simple trajectory readouts compete with Ouro’s learned gate (Popescu et al., 2026). Their main lesson is methodological: which halting method looks better depends on how operating points are selected. Halting methods should be compared under explicit selection procedures, preferably ones with formal risk control, alongside strong untrained baselines and out-of-distribution checks.
+
+Future work needs new held-out data:
+
+• a pre-registered comparison of KL exit and the native gate;
+
+• formal risk-controlled selection;
+
+• an out-of-distribution guard;
+
+• Ouro-2.6B;
+
+• a truncated implementation with measured end-to-end time on held-out data.
+
+## Reproducibility and data availability
+
+The code, the pre-registered and exploratory protocols, the decision log, the result artifacts and the audit reports are in the project repository (https://github.com/lonewolf15116/lookahead-halting). A script recomputes the reported numbers from the committed result artifacts on a CPU. The developmentstage computations (the frozen selections, the held-out diagnostics and the correctness-flip analysis) were recomputed from the stored development features, bit for bit, in the original software environment, and to numerical agreement on a second platform.
+
+Some components cannot be reproduced from the repository. The extracted per-question features are not released; regenerating them needs a CUDA GPU and the pinned model revision, and GPU extraction is not bitwise reproducible (Section 3.6). The sealed test features are not released and the test set has been used once, so the test statistics and their bootstrap intervals are verified against pinned file hashes and the recorded hash of the code that produced them, not independently recomputed. The benchmarks are public and are not redistributed here; the manifests contain identifiers only.
+
+## Statement on AI assistance
+
+AI-assisted tools were used for code development, test generation, manuscript drafting and editing, and reproducibility auditing. AI-assisted methodological review was also used to identify potential weaknesses and refine the interpretation and presentation of results.
+
+The author designed the study, directed the experiments, reviewed the analyses, and made the scientific decisions documented in the project’s decision log. The author takes responsibility for the methodology, results, interpretations, and final manuscript. AI-assisted review does not constitute independent human peer review.
+
+## References
+
+Anastasios N. Angelopoulos, Stephen Bates, Adam Fisch, Lihua Lei, and Tal Schuster. Conformal risk control. In International Conference on Learning Representations (ICLR), 2024. arXiv:2208.02814.
+
+Anastasios N. Angelopoulos, Stephen Bates, Emmanuel J. Candès, Michael I. Jordan, and Lihua Lei. Learn then test: Calibrating predictive algorithms to achieve risk control. Annals of Applied Statistics, 19(2): 1641–1662, 2025. doi: 10.1214/24-AOAS1998.
+
+S. Bae et al. Mixture-of-recursions: Learning dynamic recursive depths for adaptive token-level computation. In Advances in Neural Information Processing Systems (NeurIPS), 2025. arXiv:2507.10524.
+
+Andrea Banino, Jan Balaguer, and Charles Blundell. PonderNet: Learning to ponder. In ICML 2021 Workshop (AutoML), 2021. arXiv:2107.05407.
+
+Fu, You, Chen, Dai, Yang, and Wang. Think-at-hard: Dynamic looped transformers for improved reasoning. Preprint, arXiv:2511.08577, 2025.
+
+J. Geiping, S. McLeish, N. Jain, J. Kirchenbauer, S. Singh, B. R. Bartoldson, B. Kailkhura, A. Bhatele, and T. Goldstein. Scaling up test-time compute with latent reasoning: A recurrent depth approach. In Advances in Neural Information Processing Systems (NeurIPS), 2025. arXiv:2502.05171.
+
+A. Graves. Adaptive computation time for recurrent neural networks. Preprint, arXiv:1603.08983, 2016.
+
+InferMatrixLab. vllm-rlt, GitHub issue #56: Adaptive early exit on Ouro-1.4B: accuracy–throughput evaluation and exact-policy async exit. https://github.com/InferMatrixLab/vllm-rlt/issues/56, 2026. GitHub issue, opened 2026-09-24, accessed 2026-10-27.
+
+M. Jazbec, A. Timans, T. Hadži Veljković, K. Sakmann, D. Zhang, C. A. Naesseth, and E. Nalisnick. Fast yet safe: Early-exiting with risk control. In Advances in Neural Information Processing Systems (NeurIPS), 2024. arXiv:2405.20915.
+
+P. Kubaty, F. Szatkowski, G. Choczyński, E. Nalisnick, and B. Wójcik. Rethinking calibration for early-exit neural networks. In International Conference on Machine Learning (ICML), volume 306 of PMLR, pp. 61372–61389, 2026.
+
+K. Liu et al. NEAT: Neuron-based early exit for large reasoning models. In Findings of the Association for Computational Linguistics (ACL), pp. 24616–24627, 2026.
+
+Olszowiec, Tomaszewska, Żelaszczyk, Byra, and Chung. Monitoring latent reasoning in looped language models. Preprint, arXiv:2610.18127, 2026.
+
+Pappone, Crisostomi, and Rodolà. Two-scale latent dynamics for recurrent-depth transformers. Preprint, arXiv:2509.23314, 2025.
+
+A. C. Popescu, H. Sáez de Ocáriz Borde, and P. Liò. Adaptive depth in looped transformers: Diagnosing learned halting gates and trajectory readouts. Preprint, arXiv:2607.20519, 2026.
+
+T. Schuster, A. Fisch, J. Gupta, M. Dehghani, D. Bahri, V. Tran, Y. Tay, and D. Metzler. Confident adaptive language modeling. In Advances in Neural Information Processing Systems (NeurIPS), 2022. arXiv:2207.07061.
+
+S. Song et al. AdaPonderLM: Gated pondering language models with token-wise adaptive depth. Preprint, arXiv:2603.01914, 2026.
+
+R. Yang et al. SpecExit: Accelerating large reasoning model via speculative exit. In International Conference on Machine Learning (ICML), volume 306 of PMLR, pp. 144187–144210, 2026. arXiv:2509.24248.
+
+A. Zhang et al. Reasoning models know when they’re right: Probing hidden states for self-verification. Preprint, arXiv:2504.05419, 2025.
+
+W. Zhou, C. Xu, T. Ge, J. McAuley, K. Xu, and F. Wei. BERT loses patience: Fast and robust inference with early exit. In Advances in Neural Information Processing Systems (NeurIPS), 2020. arXiv:2006.04152.
+
+R.-J. Zhu et al. Scaling latent reasoning via looped language models. Preprint, arXiv:2510.25741v6 (first version 29 Oct 2025; v6 11 Oct 2026), 2025. Section 5.4.1 and the Stage II constants agree in substance between v1 and v6, though v1 names the improvement threshold τ and v6 names it γ.
